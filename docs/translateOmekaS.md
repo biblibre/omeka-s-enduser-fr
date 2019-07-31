@@ -1,33 +1,33 @@
 
-We need the community's help translating English text in Omeka S into new languages, so users can have a variety of choices. You don't need to know how to write code to help translate Omeka S, you just need to be fluent in English and another language.
+Nous avons besoin de l'aide de la communauté pour traduire le texte anglais d'Omeka S dans de nouvelles langues afin que les utilisateurs puissent choisir parmi une variété de choix. Vous n'avez pas besoin de savoir écrire du code pour 
+nous aider à traduire Omeka S, vous devez juste parler couramment l'anglais et une autre langue.
 
-Getting Started
+Démarrage
 --------------------------------------------------------
 
-### Sign up on Transifex.com
-Omeka S uses [Transifex.com](https://www.transifex.com) to manage translations. To start helping to translate Omeka into other languages, you will first need to [sign up for an account](https://www.transifex.com/signup/). Transifex.net offers several plans, but since Omeka is an open-source project, you can use the Free plan.
+### Inscrivez-vous sur Transifex.com
+Omeka S utilise [Transifex.com](https://www.transifex.com) pour gérer les traductions. Pour commencer à nous aider à traduire Omeka dans d'autres langues, vous devez d'abord [créer un compte](https://www.transifex.com/signup/). Transifex.net propose plusieurs plans, mais comme Omeka est un projet open-source, vous pouvez utiliser le plan Free.
 
-### Join or start a language team
-Once you have registered for an account, visit the [Omeka S project page](https://www.transifex.com/omeka/omeka-s/) and click on the "Help Translate Omeka S" or "Join Team" button.
+### Rejoindre ou créer une équipe par langue.
+Une fois que vous avez ouvert un compte, visitez la page [Omeka S project page](https://www.transifex.com/omeka/omeka-s/)et cliquez sur le bouton "Aide Traduire Omeka S" ou "Allez à vos équipes et langues".
 
-Here, you can choose among all the languages that are already being worked on. If you want to start work on a translation into a new language which isn't listed, you need to request that language first. Click "cancel" and scroll down to the bottom of the page and click the "request language" link, and select the language that you want to work on.
+Ici, vous pouvez choisir parmi toutes les langues sur lesquelles vous travaillez déjà. Si vous souhaitez commencer à travailler sur une traduction dans une nouvelle langue non répertoriée, vous devez d'abord demander cette langue. Cliquez sur "demander une langue" en haut à droite de l'écran, puis sélectionnez la langue sur laquelle vous souhaitez travailler.
 
-On the other hand, if someone has already created a team for the language you want to work on, click the name of the language, and on the next screen click the "Join this Team" button. It will be up to the coordinator to approve your request to be a member of the team.
+D'autre part, si quelqu'un a déjà créé une équipe pour la langue sur laquelle vous souhaitez travailler, cliquez sur le nom de la langue, puis sur l'écran suivant, cliquez sur le bouton "Rejoindre cette équipe". Il incombera au coordinateur d’approuver votre demande d’appartenance à l’équipe.
+Une fois qu'un coordinateur vous a approuvé pour rejoindre l'équipe, vous pouvez accéder au tableau de bord Omeka S et cliquer sur le bouton "Traduire" pour commencer la traduction.
 
-Once a coordinator has approved you to join the team, you can go to the Omeka S dashboard and click on the "Translate" button to begin translating.
+Si vous voulez vérifier votre traduction ou toute autre chose dont vous avez besoin pour créer un fichier mo à partir de votre fichier po, vous pouvez le faire avec msgfmt à partir du [GNU gettext package](http://www.gnu.org/software/gettext/).
 
-If you want to check your translation or anything else you need to make an mo file from your po file, you can do it with msgfmt from the [GNU gettext package](http://www.gnu.org/software/gettext/).
+Pour les problèmes spécifiques à Transifex, veuillez consulter leur [documentation](http://docs.transifex.com/)
 
-For Transifex-specific issues, please see their [documentation](http://docs.transifex.com/)
-
-Translation Guidelines 
+Directives de traduction
 --------------------------------------------------------------
-Most of the strings to be translated in Omeka are straightforward and can be translated directly. However, there are a few special cases that need to be treated with care.
+La plupart des chaînes à traduire dans Omeka sont simples et peuvent être traduites directement. Cependant, il existe quelques cas spéciaux qui doivent être traités avec soin.
 
-### Placeholders
-Some strings contain text that looks like `%s` or `%1$s`. These odd-looking bits of text are called **placeholders**. Placeholders are used to allow Omeka to insert some changing piece of information, like the number of items in an Omeka site, into a translated string.
+### Placeholders / caractères spéciaux
+Certaines chaînes contiennent du texte qui ressemble à `%s` ou `%1$s`. Ces morceaux de texte étranges sont appelés **placeholders** en anglais qu'on peut traduire par "variables" ou "chaîne de caractères spéciaux" en français. Ces caractères sont utilisés pour permettre à Omeka d'insérer des informations changeantes, telles que le nombre d'éléments d'un site Omeka, dans une chaîne traduite.
 
-If a source string contains placeholders, you must include them in your translation. You can move the placeholders around within the string, and even change the order of numbered placeholders in the string, but all the placeholders from the source string must appear in the translation.
+Si une chaîne source contient des caractères spéciaux, vous devez les inclure dans votre traduction. Vous pouvez déplacer les caractères dans la chaîne et même modifier l'ordre des caractères numérotés dans la chaîne, mais tous les caractères spéciaux de la chaîne source doivent apparaître dans la traduction.
 
-### HTML and URLs
-A few strings contain embedded HTML code or URLs. You can translate and change the plain English text in these strings, but you should preserve any HTML tags or URLs.
+### HTML et URLs
+Quelques chaînes contiennent du code HTML incorporé ou des URL. Vous pouvez traduire et modifier le texte anglais brut dans ces chaînes, mais vous devez conserver les balises HTML ou les URL.

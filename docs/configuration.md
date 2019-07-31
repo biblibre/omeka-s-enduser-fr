@@ -1,13 +1,19 @@
 ---
-title: Configuration Options
+title: Options de configuration
 ---
+Les options suivantes sont couramment demandées et peuvent être configurées dans le fichier `local.config.php` situé dans le répertoire `config`.
 
-The following are commonly requested options which can be configured in the file `local.config.php` located in the config directory. 
+Pour obtenir la liste complète des clés de configuration disponibles, veuillez consulter la [page de la documentation du développeur relative aux paramètres de configuration.](https://omeka.org/s/docs/developer/reference/configuration/).
 
+<<<<<<< HEAD
 For a full list of available configuration keys, please see the [developer documentation page on configuration settings](https://omeka.org/s/docs/developer/configuration/). 
+=======
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-## Password settings
-You can change the requirements for user passwords in the config file. Options include minimum length, number of upper and lowercase letters, and setting allowed symbols.
+
+## Configuration des mots de passe
+Vous pouvez modifier la configuration requise pour les mots de passe utilisateur dans le fichier de configuration. Les options incluent la longueur minimale, le nombre de lettres majuscules et minuscules et la définition des symboles autorisés.
+
 
 ```
 'min_length' => 6,
@@ -17,24 +23,24 @@ You can change the requirements for user passwords in the config file. Options i
         'min_symbol' => null,
         'symbol_list' => '`~!@#$%^&*()-=_+[]\{}|;:",./<>?\'',
 ```
-Requirements will display on the user creation and edit pages.
+Les conditions s'afficheront sur les pages de création et d'édition de l'utilisateur.
 
 ## Thumbnails
 
 - `thumbnails`
-	- Set the maximum dimensions for derivative images for media files.
-	- Options for large, medium, and square. Defaults for these are 800, 200, and 200 respectively (all sizes are pixels)
+	- Définissez les dimensions maximales des images dérivées pour les fichiers multimédias.
+	- Options pour grandes, moyennes et carrées. Les valeurs par défaut sont 800, 200 et 200 respectivement (toutes les tailles sont des pixels)
 
 - `thumbnailer_options`
-	- Default is `Omeka\File\Thumbnailer\ImageMagick`. 
-	- Also available are `Omeka\File\Thumbnailer\Imagick` and `Omeka\File\Thumbnailer\Gd`
-	- You can also set the thumbnailer to `NoThumbnail`, which will prevent your Omeka S installation from generating thumbnails. 
+	- Par défaut on trouve `Omeka\File\Thumbnailer\ImageMagick`. 
+	- Sont aussi disponibles`Omeka\File\Thumbnailer\Imagick` and `Omeka\File\Thumbnailer\Gd`
+	- Vous pouvez aussi paramétrer la visionneuse à `NoThumbnail`, ce qui empêchera votre installation Omeka S de générer des vignettes.
 
 ## PHP Path
 
 - `phpcli_path`
-	- Set the path the the php version you want to use.
-	- Default is to attempt to detect correct path to PHP. Use this option to specify a path if needed in your server configuration. For example: 
+	- Définissez le chemin de la version PHP que vous souhaitez utiliser.
+	- Par défaut le système va tenter de détecter le chemin correct vers PHP. Utilisez cette option pour spécifier un chemin si nécessaire dans la configuration de votre serveur. Par exemple:
 ```
     'cli' => array(
         'phpcli_path' => '/usr/bin/php72',
@@ -45,8 +51,8 @@ Requirements will display on the user creation and edit pages.
 ## Mail
 
 - `mail` 
-- Default is to use Sendmail (this is set up in `application/config/module.config.php`)
-- If using SMTP use this example configuration, added to the end of `local.config.php` (see the [zend-mail docs](https://docs.zendframework.com/zend-mail/transport/smtp-options/) for clarification):
+- Par défaut Omeka-S utilise Sendmail (configuré dans `application/config/module.config.php`)
+- Si vous utilisez SMTP, vous pouvez utiliser cet exemple de configuration, ajouté à la fin de `local.config.php` (Voir [zend-mail docs](https://docs.zendframework.com/zend-mail/transport/smtp-options/) pour plus de détails) :
 ```
     'mail' => [
         'transport' => [

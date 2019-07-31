@@ -1,107 +1,161 @@
 ---
-title: Items
+title: Contenus
 ---
 
-Items are the building blocks of the Omeka system. 
+Les contenus sont les éléments constitutifs du système Omeka. Dans Omeka S, les contenus peuvent être mis à votre disposition par l'administrateur système et vous pouvez ajouter des contenus à votre propre site. Les contenus sont répertoriés dans l'onglet Contenus (icône cube) de la navigation, à gauche du tableau de bord administratif.
+![Vue de base de la page des contenus, montrant quelques ressources](/content/contentfiles/items_browse.png)
 
-In Omeka S, items can be made available to you from the system administrator, and you may add items to your own site.
+Chaque contenu apparaît sous forme de ligne, avec des colonnes pour:
 
-Items are listed in the *Items* tab (one box icon), found on the left-hand navigation of the administrative dashboard. 
+- le titre*
+- icônes pour * modifier * (crayon), * supprimer * (corbeille) ou * afficher les détails * (3 petits points)
+- la classe*
+- le * propriétaire * du contenu
+- et la date à laquelle le contenu a été * créé *.
 
+<<<<<<< HEAD
 ![Basic view of admin items page, showing a handful of item resources](contentfiles/items_browse.png)
+=======
+Les options de navigation et de création des contenus s'affichent au-dessus du tableau des contenus.
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-Each item appears as a row, with columns for:
+En haut à droite de la fenêtre Contenus se trouve le bouton * Ajouter un nouvel contenu *.
 
-- the *Title*
-- icons to *edit* (pencil), *delete* (trash can), or *view details* (ellipses)
-- the *Class*
-- the item’s *Owner*
-- and the date the item was *Created*. 
+Sur le côté gauche se trouve un affichage du nombre de pages de contenus, avec les flèches avant et arrière. Le numéro de page actuel est un champ éditable. Entrez un numéro de page valide et appuyez sur la touche Entrée pour accéder à cette page.
 
-Options for navigating and creating items display above the table of items. 
+En haut au centre se trouve un bouton [Recherche avancée](/search.md). 
 
-On the right top of the Items window is the *Add new item* button. 
+Juste au-dessus du tableau de droite, vous trouverez des options pour trier le tableau des contenus, avec deux menus déroulants. Le premier vous permet de choisir entre *titre*, *identifiant*, *classe*, *propriétaire,* et *(date) créé*; la seconde vous permet de trier par ordre croissant ou décroissant. Pour executer ses actions, cliquez sur le bouton *Trier*.
 
+<<<<<<< HEAD
 On the left side is a display for the number of pages of items, with forward and back arrows. The current page number is an editable field — enter any valid page number and hit return/enter on your keyboard to go to that page. 
 
 In the center top is a button for [Advanced Search](../search.md). 
+=======
+Entre ceux-ci et le tableau, à gauche, se trouve un menu déroulant pour les actions par lot, y compris les opérations de modification des contenus sélectionnés, de tous les contenus, de suppression des contenus sélectionnés et de suppression de tous les contenus.
 
-Just above the table on the right are options for sorting the table of items, with two dropdown menus. The first lets you select between *Title*, *Identifier*, *Class*, *Owner,* and *(Date) Created*; the second allows you to sort ascending or descending. To apply, click the *sort* button.
+## Vue
+Pour afficher rapidement les informations de base sur un contenu, cliquez sur le bouton *Afficher les détails* (3 petits points) dans la rangée du contenu, situé à côté des boutons Modifier et Supprimer. Cela ouvrira un onglet à la droite de la liste qui affiche le titre, la description et la visibilité du contenu.
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-Between these and the table, on the left, is a dropdown for batch actions, including edit selected, edit all, delete selected, and delete all. 
-
-## View
-To quickly view the basic information about an item, click the *view details* (ellipses) button in the row for the item, located next to the edit and delete buttons. This will open a drawer to the right of the list which displays the item’s title,  description, and visibility.
-
-For a more detailed look at an individual item, click on its title in the items browse table or when viewing its details.
+Pour plus de détail sur un contenu, cliquez sur son titre.
  
+<<<<<<< HEAD
 ![Item browse view with details open for The Adventure of the Yellow Face. Links to item view page squared in blue](contentfiles/items_detailview.png) The blue squares indicate where to click to open the full item view.
 
 When you view an individual item , there are tabs for the item’s *Metadata* and its *Linked Resources*. The right side of the page displays the item’s media, any *item sets* to which it belongs, its creation date, owner, and visibility. 
 
 An item’s *linked resources* (shown below) are resources, which are linked to this item through properties. Note that this section only shows resources which have been linked *to* this item (which have it for a property); resources which are linked *from* this item will display in the property which they fill.
+=======
+Lorsque vous affichez un contenu, il existe des onglets pour les *métadonnées* et les *ressources liées* du contenu. Le côté droit de la page affiche le média, les *collections* auxquelles il appartient, sa date de création, son propriétaire et sa visibilité.
 
-Linked items are grouped by the property for which they use the current item. In the example below, the item William Shakespeare is used for the properties "Creator," "References," and "list of authors" for the linked resources. 
+![Affichage de l'article avec les détails ouverts.](/content/contentfiles/contenus_detail.png) Les carrés bleus indiquent où cliquer pour obtenir la vue complète du contenu.
 
-You can filter linked resources to only display those referencing a specific property using the dropdown "Filter by property." It will only display properties actively in use.
+Les *ressources liées* d'un contenu (illustrées ci-dessous) sont des ressources qui ont été ajoutées au contenu en tant que liens dans une propriété de la notice (champs de saisie). Notez que cette section affiche uniquement les ressources qui ont été liées *à* ce contenu; les ressources liées *depuis* ce contenu s'afficheront dans le contenu lié.
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
+Les ressources liées sont regroupées par la propriété pour laquelle elles sont rattachées au contenu actuel. Dans l'exemple ci-dessous, le contenu Daniel Chester French est utilisé pour les propriétés "Editeur", et "Créateur" pour les ressources liées.
+
+Vous pouvez filtrer les ressources liées pour afficher uniquement celles référençant une propriété spécifique à l'aide du menu déroulant "Filtrer par propriété". Cela n'affichera que les propriétés activement utilisées.
+
+<<<<<<< HEAD
 ![Item linked resources view for William Shakespeare, with six plays using Shakespeare as Creator, the item Folger Shakespeare Library listed as 'references' Shakespeare, and the Globe Theatre using Shakespeare for 'list of authors'. Each property cluster is in a separate rectangle, headed by the property being referenced.](contentfiles/items_linked.png) 
+=======
+![Affichage des ressources liées au contenu Daniel Chester French, avec  deux pièces utilisant Daniel Chester French en tant que créateur ou éditeur. Chaque groupe de propriétés se trouve dans un encart séparé](/content/contentfiles/ressources_liees.png) 
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-## Adding an Item
+## Ajouter un contenu
 
-To add a new item, begin by selecting the the *Add new item* button. 
+Pour ajouter un nouveau contenu, commencez par sélectionner le bouton *Ajouter un nouveau contenu*.
 
+<<<<<<< HEAD
 Before creating items, site admins may want to create [Resource Templates](resource-template.md), which will load specific fields for various item types.
+=======
+Avant de créer des contenus, les administrateurs peuvent vouloir créer des [Modèles de ressources](/content/resource-template.md), qui chargeront des champs spécifiques pour différents types de contenus.
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-### Values
-The Values tab is where you enter metadata, such as title, description, etc.
+### Valeurs
+L'onglet Valeurs est l'endroit où vous entrez les métadonnées, telles que le titre, la description, etc.
 
+<<<<<<< HEAD
 ![Basic view of add items page, with no content entered](contentfiles/items_add.png)
+=======
+![Vue par défaut de la page d'ajout de contenu, sans contenu saisi](/content/contentfiles/ajout_contenu.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-You can select a resource template from the drop-down menu. Resource templates are defined by the site administrators and editors.
+Vous pouvez sélectionner un modèle de ressource dans le menu déroulant. Les modèles de ressources sont définis par les administrateurs de site et les éditeurs.
 
+<<<<<<< HEAD
 - If using a resource template, the class should automatically load.
 - If not using a resource template, you may select a class from the dropdown menu (these are populated from the [Vocabularies](vocabularies.md) in your installation).
+=======
+- Si vous utilisez un modèle de ressource, la classe devrait se charger automatiquement.
+- Si vous n'utilisez pas de modèle de ressource, vous pouvez sélectionner une classe dans le menu déroulant (celles-ci sont renseignées dans les [Vocabulaires] [Vocabulaires](/content/vocabularies.md) de votre instance).
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-Add information to the properties which load. If you do not select a resource template or class, the Dublin Core properties Title and Description will load automatically.
+Ajouter des informations aux champs qui se chargent. Si vous ne sélectionnez pas de modèle de ressource ni de classe, les champs Titre et Description de Dublin Core seront automatiquement chargés.
 
-You may add text, a resource from the installation, or an external link in each field.  
+Vous pouvez ajouter du texte, le lien vers un contennu ou un lien externe dans chaque champ.
 
-Whether or not you use a resource template, you can add more properties to the item using the drawer on the right side of the screen. You can simply click open one of the vocabularies and click on the property you want to add, or you can use the “Filter properties” box to search for a specific property (this is helpful when you have multiple large vocabularies). 
+Que vous utilisiez ou non un modèle de ressource, vous pouvez ajouter d'autres champs ("propriétés") à l'aide du tiroir situé à droite de l'écran. Vous pouvez simplement cliquer sur l'un des vocabulaires pour l'ouvrir et cliquer sur les propriétés que vous souhaitez ajouter, ou vous pouvez utiliser la fonction «Filtrer les propriétés» pour rechercher une propriété spécifique (utile lorsque vous avez plusieurs vocabulaires volumineux).
 
+<<<<<<< HEAD
 ![Close up of the right hand drawer with the text "date" entered into the filter properties box and a series of properties containing the word "date" loaded from Dublin Core and Bibliographic Ontology](contentfiles/items_filterprop.png)
+=======
+![Zoom sur l'onglet de droite avec le texte "date" saisi dans le filtre et une série de propriétés contenant le mot "date" chargé depuis Dublin Core et l'ontologie bibliographique](/content/contentfiles/contenu_filtre_propriete.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-Clicking on the property label in the drawer will automatically add it to the Item. If you add a property by accident, leave it blank and it will be removed from the item when you save changes. 
+En cliquant sur l'étiquette de propriété, elle sera automatiquement ajoutée au contenu. Si vous ajoutez une propriété par accident, laissez-la vide et elle sera supprimée du contenu lorsque vous enregisterez les modifications.
 
-You can set individual properties as Private or Publicly visible using the eye icon for each property. Note that properties set to private are still visible to Global Admins, Site Admins, and Editors will be able to see properties even when set to private. Authors will be able to see all properties on items they own, but will not see private properties created by other users.
+Vous pouvez définir des propriétés individuelles comme privées ou publiquement visibles à l'aide de l'icône en forme d'œil pour chaque propriété. Notez que les propriétés définies comme privées sont toujours visibles par les administrateurs globaux, les administrateurs de site et les éditeurs pourront voir les propriétés même lorsqu'elles sont définies comme privées. Les auteurs pourront voir toutes les propriétés des objets qu’ils possèdent, mais ne verront pas les propriétés privées créées par d’autres utilisateurs.
 
-In the image below, the first property (Title) is public as indicated by the open eye icon. The second property (Description) is private as indicated by the slashed-through eye icon. Clicking or hitting enter on the eye icon toggles between public and private. 
+Dans l'image ci-dessous, la première propriété (Titre) est publique, comme l'indique l'icône en forme d'œil ouvert. La deuxième propriété (Description) est privée, comme l'indique l'icône en forme de barre oblique. En cliquant ou en appuyant sur entrer sur l'icône de l'œil, vous basculez entre public et privé.
 
+<<<<<<< HEAD
 ![As described](contentfiles/item_propviz.png)
+=======
+![Tel que décrit](/content/contentfiles/contenu_prive_public.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-#### Text
-Text fields allow for unformatted text entry.
+#### Texte
+Les champs "texte" permettent une saisie de texte non formatée.
 
+<<<<<<< HEAD
 ![image of text input field with keyboard icon indicating text input, the globe icon for setting language, and a trashcan delete icon](contentfiles/items_textedit.png)
+=======
+![image du champ de saisie "texte" avec l'icône du clavier indiquant la saisie de texte, l'icône du globe pour définir la langue et l'icône de suppression de la corbeille](/content/contentfiles/contenu_edition_texte.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-You can indicate the language for the content of an input using the globe symbol above the input (see the red arrow in the image below). Click on the globe to activate a text field, then enter the [IETF Language tag](https://en.wikipedia.org/wiki/IETF_language_tag) code for the language in which the text is written.
+Vous pouvez indiquer la langue du contenu d'une entrée à l'aide du symbole du globe situé au-dessus de l'entrée (voir dans l'image ci-dessous). Cliquez sur le globe pour activer un champ de texte, puis entrez la [balise de langue IETF].(https://en.wikipedia.org/wiki/IETF_language_tag) code pour la langue dans laquelle le texte est écrit.
 
+<<<<<<< HEAD
 ![Red arrow points to the globe icon and a text entry field highlighted in blue](contentfiles/item_lang.png)
+=======
+![Mise en valeur de l'icône du globe et un champ de saisie de texte](/content/contentfiles/contenu_langue.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-#### Omeka Resource
-Omeka Resource fields create an internal link between the resource you are creating and the resource which fills that field. 
+#### Ressource Omeka
+Les champs de ressources Omeka créent un lien interne entre la ressource que vous créez et la ressource saisie dans ce champ.
 
-When creating an item, you have the option to use either another item or an item set. 
+Lors de la création d'un contenu, vous avez la possibilité d'utiliser un autre contenu ou une collection.
 
-Choosing a resource type will open a side drawer where you can browse all of those resources in the installation. You can use the search function at the top of the drawer to narrow down the list or to quickly find a specific item. 
+Le choix d'un type de ressource ouvrira un tiroir latéral dans lequel vous pourrez parcourir tutes les ressources de l'instance. Vous pouvez utiliser la fonction de recherche en haut du tiroir pour réduire la liste ou pour rechercher rapidement un contenu spécifique.
 
-Once you select an item or item set, detailed information will load, and you must click *select resource* to finish linking the resources. You can also click the *X* button in the upper right-hand corner to go back to the list of items or item sets.
+Une fois que vous avez sélectionné un contenu ou une collection, des informations détaillées seront chargées et vous devez cliquer sur *Choisir une ressource* pour terminer la liaison. Vous pouvez également cliquer sur le bouton *X* dans le coin supérieur droit pour revenir à la liste des contenus ou des collections.
 
+<<<<<<< HEAD
 ![Select Item menu with list of items to link in edit item view](contentfiles/items_addresource.png)
+=======
+![Menu Sélectionner un contenu avec une liste de ressources à lier dans la vue d'édition du contenu](/content/contentfiles/contenu_lieruneressource.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
-If you are using an Item resource for the property, you will have additional options for finding the item you want in the drawer. Open these options by clicking the triangle button next to the phrase "Filter search"
+Si vous utilisez un contenu pour la propriété, vous aurez d'autres options pour rechercher le contenu souhaité dans le tiroir. Ouvrez ces options en cliquant sur le triangle situé à côté de la phrase "Recherche par filtre".
 
+<<<<<<< HEAD
 ![Select Item drawer top options, with a red arrow around a gray triangle button to the right of the phrase "Filter search"](contentfiles/items_filtersearch.png)
+=======
+![Sélection des options supérieures du tiroir "Contenu" avec surbrillance du triangle gris à droite de la phrase "Filtres de recherche".](/content/contentfiles/contenu_filtre_liaison.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1
 
 This will open a menu below the button with the following options to filter the items in the drawer:
 

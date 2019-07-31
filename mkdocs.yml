@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 site_name: Omeka S User Manual
 theme: 
     name: 'readthedocs'
     custom_dir: 'omeka/'
+=======
+site_name: Omeka S User Manual - fr- version française
+theme: 'readthedocs'
+>>>>>>> 3b61dd3... Traduction FR - round 1
 repo_url: 'http://github.com/omeka/omeka-s-enduser'
 extra_css:
     - css/extra.css

@@ -2,22 +2,21 @@
 title: About
 ---
 
-Omeka S is a web publication system for universities, galleries, libraries, archives, and museums. It creates a local network of independently curated exhibits sharing a collaboratively built pool of items and their metadata.
-
-The sections of this manual correspond to the navigation sections on the left-hand side of the [administrative dashboard](admin-dashboard.md) of an Omeka S Installation: 
+Omeka S est un outil de publication web (ou CMS) pour les universités, galeries, bibliothèques, archives et musées et toute structure désireuse de publier des documents numériques en ligne. Omeka permet d'exposer des médias de tout types et leur métadonnées.
+Les sections de ce manuel correspondent aux sections du [tableau de bord de l'administration] (admin-dashboard.md) d'un Omeka-S standard :
 
 **Sites**  
-Creating, editing, and managing sites, the public-facing parts of an Omeka S installation.
+Créer, éditer et gérer les sites, interfaces publiques d'une instance Omeka S.
 
-**Resources**  
-Creating, editing, and managing the content of an installation: items, item sets, media, vocabularies, and resource templates.
+**Ressources**  
+Créer, éditer et gérer les contenus de votre instance : contenus, collections, médias, vocabulaires, et modèles de contenu.
 
 **Admin**  
-Access to functionality in the admin section varies by user role, but can include: users, jobs, and settings.
+Accès aux fonctions d'administration variant selon le rôle de l'utilisateur mais sont inclus la gestion des utilisateurs,des tâches et des paramétrages.
 
 **Modules**  
-This section opens with basic information on managing the modules which extend the functionality of your Omeka S installation and sites. It then offers specific documentaiton for Omeka S modules created by RRCHNM, listed in alphabetial order.
+Cette section donne l'accès à la gestion des modules qui étendent les fonctionnalités de votre instance Omeka-S et de vos sites. La documentation spécifique aux modules d'Omeka S créée par RRCHNM y est accessible et listée dans l'ordre alphabétique.
 
-This manual also includes a [glossary](glossary.md), instructions on conducting [searches](search.md), and how to turn on [error logging](errorLogging.md)
+Ce manuel inclue également un [glossaire](glossary.md), une [aide à la recherche](search.md), et comment gérer les [erreurs de logs](errorLogging.md)
 
-This documentation is CC-BY-NC
+Cette documentation est sous licence CC-BY-NC

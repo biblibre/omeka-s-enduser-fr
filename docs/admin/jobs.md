@@ -1,24 +1,24 @@
 ---
-title: Jobs
+title: Tâches
 ---
 
-When a user starts running a process which will take some time, such as an API import, the progress of the process is displayed in the *Jobs* tab of the admin dashboard.  The table also displays completed, stopped, and error-interrupted jobs.
-
-The Jobs table shows a job’s *ID* number, *class* of job, *Status* and the *Owner*, or user who started the job.
-
-You can order the rows of the table by ID, Class, Status, or Owner (descending or ascending) using the drop-down menus just above the table on the upper right.
+Lorsqu'un utilisateur commence à exécuter un processus qui prend un certain temps, tel qu'une importation d'API, l'avancement du processus est affiché dans l'onglet "Tâches" du tableau de bord de l'administrateur. Le tableau affiche également les travaux terminés, arrêtés et interrompus par une erreur. Le tableau des tâches présente le numéro d'identification du travail, la classe du travail, le statut et le propriétaire, ou l'utilisateur qui a démarré le travail. Vous pouvez classer les lignes du tableau par ID. Classe, Statut ou Propriétaire (décroissant ou croissant) à l’aide des menus déroulants situés juste au-dessus du tableau en haut à droite.
 
 ![Table of jobs including all status messages](adminfiles/jobstable.png)
 
-To see the details of a job, click on its id number. 
+Pour voir les détails d’une tâche, cliquez sur son numéro d’identification. 
 
-On a job’s details page, you will see the following information: 
+Sur la page des détails d’une tâche, vous verrez les informations suivantes:
 
-- *Status* (In Progress, Error, Completed, Stopped)
-- *Started* and *Ended* (date stamps)
-- *Class* (source of the job, for example `DspaceConnector\Job\Import`)
-- *Owner*
-- *Args*
-- *Log* - click on *view log* to see any error or other messages. 
+- *Statut* (En cours, Erreur, Terminé, Arrêté) 
+- *Démarré* et *terminé* (horodatages) 
+- *Classe* (source de la tâche, par exemple `DspaceConnector\Job\Import`)
+- *Propriétaire*
+- *Arguments*
+- *Journal* - cliquez sur *voir le journal* pour voir le détail des erreurs et messages.
 
+<<<<<<< HEAD
 ![The Logs heading with “view logs” below in orange, indicating it is a link](adminfiles/jobs_viewlog.png)
+=======
+![L'en-tête Journal avec "Voir le journal" ci-dessous en rouge, indiquant qu'il s'agit d'un lien.](/admin/adminfiles/taches_log.png)
+>>>>>>> 3b61dd3... Traduction FR - round 1

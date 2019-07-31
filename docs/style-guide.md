@@ -1,28 +1,28 @@
 ---
-title: Style Guide
+title: Guide de rédaction
 ---
 
-## Terminology
-**Admin/Administrative Dashboard**: the dashboard for administration of the entire OmekaS install, where sites, items, vocabularies, modules, etc are managed. 
+## Terminologie
+**Tableau de bord d'administration**:
+Tableau de bord d'administration: administration de l'ensemble de l'installation OmekaS, où les sites, les éléments, les vocabulaires, les modules, etc. sont gérés. 
 
-**Site Dashboard**: dashboard for managing site content, arrangement, etc.
+**Tableau de bord du site**: gestion du contenu du site, de la disposition, etc. 
 
-**sidebar** the things which slide open on the right of the screen when you click an ellipses.
+**Barre latérale**: les choses qui s’ouvrent à droite de l’écran lorsque vous cliquez l'icône "3 petits points".
 
-Also see the [glossary](glossary.md)
+Voir aussi le [glossaire](glossary.md)
 
-## Formatting
-Start each page with the following: [3 dashes, return]
-title: “Name of the Page” [return, 3 dashes] for Jekyll. 
+## Mise en page
+Commencez chaque page avec: [3 traits, entrée]
+title: “Nom de la Page” [entrée, 3 traits] pour Jekyll. 
 
-Page file names should be lowercase with spaces represented by a dash (so admin-dashboard.md for Administrative Dashboard page). 
+Les noms de fichier de page doivent être en minuscule avec les espaces représentés par un tiret (exemple : admin-dashboard.md pour la page Tableau de bord d'administration). 
 
-All relative links need to begin with .. (so .. / content / etc)
+Tous les liens relatifs doivent commencer par .. (exemple .. / contenu / etc)
 
-- Omeka S is written *with* a space between the Omeka and the S.
-  - Possesive is Omeka S's
-- Names of buttons in *italics*
-- Names of options in *italics*
-- Describe icons based on their tooltip, ex. edit (pencil icon), delete (trash can icon), details (ellipses icon). This way the text is useful for people using screen readers as well as those who are not.
-- Add, Edit, and Delete processes should be described separately, each with their own heading. 
-- Use H2 (##) for each subsection of a documentation page.
+- Omeka S est écrit * avec * un espace entre l'Omeka et le S.
+- Mettre les noms des boutons en * italiques *
+- Mettre les noms des options en * italiques *
+- Décrivez les icônes en fonction de leur info-bulle, ex. modifier (icône du crayon), supprimer (icône de la corbeille), détails (icône 3 petits points). De cette façon, le texte est utile pour les utilisateurs de lecteurs d'écran ainsi que pour les autres.
+- Les processus Ajouter, Modifier et Supprimer doivent être décrits séparément, chacun avec son propre en-tête.
+- Utilisez H2 (##) pour chaque sous-section d'une page de documentation.
