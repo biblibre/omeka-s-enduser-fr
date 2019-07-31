@@ -1,10 +1,12 @@
 # Omeka S User Manual
 
-[Omeka S](https://omeka.org/s/) is a web publication system for universities, galleries, libraries, archives, and museums. It creates a local network of independently curated exhibits sharing a collaboratively built pool of items and their metadata. Watch our [screencast for a quick tour of Omeka S](https://vimeo.com/241702586)
+[Omeka S](https://omeka.org/s/) un outil de publication web (ou CMS) pour les universités, galeries, bibliothèques, archives et musées et toute structure désireuse de publier des documents numériques en ligne. Omeka permet d'exposer des médias de tout types et leur métadonnées. Vous pouvez visualiser une vidéo de démo d'Omeka S (en anglaisà) (https://vimeo.com/241702586)
 
-Omeka S is developed alongside [Omeka Classic](http://www.omeka.org), part of the Omeka family of web publishing platforms. 
+Omeka S est développé aux côtés d'[Omeka Classic](http://www.omeka.org), et fait partie de la gamme Omeka. 
 
-This repository is the content of the [Omeka S User Manual](http://omeka.org/s/docs/user-manual/) and is best viewed there.
+Ce répertoire est la fourche traduction française d'[Omeka S User Manual](http://omeka.org/s/docs/user-manual/) tel qu'il était diffusé en juillet 2019.
+
+Pour ce qui concerne les contributions, les règles sont les mêmes que la version anglaise officielle :
 
 ## Contributing to the User Manual
 
