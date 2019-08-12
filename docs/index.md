@@ -17,6 +17,6 @@ Accès aux fonctions d'administration variant selon le rôle de l'utilisateur ma
 **Modules**  
 Cette section donne l'accès à la gestion des modules qui étendent les fonctionnalités de votre instance Omeka-S et de vos sites. La documentation spécifique aux modules d'Omeka S créée par RRCHNM y est accessible et listée dans l'ordre alphabétique.
 
-Ce manuel inclue égalemen,t un [glossaire](glossary.md), une [aide à la recherche](search.md), et comment gérer les [erreurs de logs](errorLogging.md)
+Ce manuel inclue également un [glossaire](glossary.md), une [aide à la recherche](search.md), et comment gérer les [erreurs de logs](errorLogging.md)
 
-This documentation is CC-BY-NC
+Cette documentation est sous licence CC-BY-NC
