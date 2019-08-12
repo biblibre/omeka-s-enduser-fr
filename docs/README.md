@@ -1,4 +1,4 @@
-# Omeka S User Manual
+# Omeka S Manuel de l'utilisateur
 
 [Omeka S](https://omeka.org/s/) un outil de publication web (ou CMS) pour les universités, galeries, bibliothèques, archives et musées et toute structure désireuse de publier des documents numériques en ligne. Omeka permet d'exposer des médias de tout types et leur métadonnées. Vous pouvez visualiser une vidéo de démo d'Omeka S (en anglaisà) (https://vimeo.com/241702586)
 
