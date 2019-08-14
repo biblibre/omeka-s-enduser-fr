@@ -2,7 +2,7 @@
 
 [Omeka S](https://omeka.org/s/) un outil de publication web (ou CMS) pour les universités, galeries, bibliothèques, archives et musées et toute structure désireuse de publier des documents numériques en ligne. Omeka permet d'exposer des médias de tout types et leur métadonnées. Vous pouvez visualiser une vidéo de démo d'Omeka S (en anglais) (https://vimeo.com/241702586)
 
-Omeka S est développé parallèlement à [Omeka Classic] (http://www.omeka.org/) , qui fait partie de la famille de plates-formes de publication Web Omeka.
+Omeka S est développé parallèlement à [Omeka Classic](http://www.omeka.org/), qui fait partie de la famille de plates-formes de publication Web Omeka.
 
 Ce référentiel correspond au contenu du manuel de l'utilisateur Omeka S et y est optimisé.
 
