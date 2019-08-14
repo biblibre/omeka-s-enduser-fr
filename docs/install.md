@@ -1,7 +1,7 @@
 ---
 title: Installing
 ---
-Des instructions de base pour l’installation et la mise à jour à partir de GitHub sont disponibles dans le fichier [LisezMoi] (https://github.com/omeka/omeka-s/blob/develop/README.md) du référentiel Omeka S github.
+Des instructions de base pour l’installation et la mise à jour à partir de GitHub sont disponibles dans le fichier [LisezMoi](https://github.com/omeka/omeka-s/blob/develop/README.md) du référentiel Omeka S github.
 
 
 ## Configuration requise
