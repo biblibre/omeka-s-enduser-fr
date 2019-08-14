@@ -9,9 +9,9 @@ Des instructions de base pour l’installation et la mise à jour à partir de G
 Pour installer Omeka S, vous aurez besoin d’un serveur exécutant les logiciels suivants:
 
 Linux
-Apache (avec AllowOverride ((https://httpd.apache.org/docs/2.4/mod/core.html#allowoverride) défini sur "All" et [mod_rewrite ] (http://httpd.apache.org/docs/current/mod/mod_rewrite.html) activé)
+Apache (avec [AllowOverride](https://httpd.apache.org/docs/2.4/mod/core.html#allowoverride) défini sur "All" et [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) activé)
 MySql, version minimum 5.6.4 (ou MariaDB, version minimale 10.0.5)
-PHP, minumum version 7.1, avec extensions [PDO] (http://php.net/manual/en/intro.pdo.php) , [pdo_mysql] (http://php.net/manual/en/ref.pdo-mysql.php) et [xml] (http://php.net/manual/en/intro.xml.php) installées
+PHP, minumum version 7.1, avec extensions [PDO](http://php.net/manual/en/intro.pdo.php), [pdo_mysql](http://php.net/manual/en/ref.pdo-mysql.php) et [xml](http://php.net/manual/en/intro.xml.php) installées
 Facultatif, pour créer des vignettes: ImageMagick version 6.7.5 ou supérieure, l' extension PHP `imagick`ou l' extension PHP `gd` .
 
 
@@ -38,7 +38,7 @@ Dans la section Premier Utilisateur, entrez:
 - confirmez *le mot de passe* et tapez à nouveau dans la prochaine entrée pour confirmer.
 - un *nom d'affichage* pour l'utilisateur
 
-Notez que vous pourrez toutes les modifier ultérieurement dans la section [Gestion de l' utilisateur] ((/admin/users.md) de votre installation.
+Notez que vous pourrez toutes les modifier ultérieurement dans la section [Gestion de l' utilisateur](/admin/users.md) de votre installation.
 
 
 ![First user section with fields as described](/files/installOmekaS1.png)
@@ -52,7 +52,7 @@ Dans la section Paramètres, entrez:
 ![Settings section with fields as described](/files/installOmekaS2.png)
 
 Vous pouvez les modifier à tout moment dans la section [Paramètres](/admin/settings.md)  de votre [Tableau de bord Admin](/admin-dashboard.md)
-Voir [Options de configuration] (configuration) pour plus d'informations sur les paramètres de génération de vignettes, le chemin d'accès php, etc.
+Voir [Options de configuration](../configuration/) pour plus d'informations sur les paramètres de génération de vignettes, le chemin d'accès php, etc.
 
 ## Mise à jour
 1. Téléchargez la dernière version à partir de la page des versions
