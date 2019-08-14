@@ -2,7 +2,7 @@
 title: Page d'accueil
 ---
 
-Omeka S permet aux utilisateurs de créer plusieurs sites par installation qui ne sont pas nécessairement connectés. Cependant, chaque installation a, par défaut, une page d'accueil qui répertorie les sites de l'installation. Cette page est accessible en accédant à l’URL principale de votre installation Omeka S; Si votre [Tableau de bord](admin-dashboard.md) était de type `votredomaine.net/omekas/admin`, alors vous trouverez cette page sur `votredeomaine.net/omekas/`
+Omeka S permet aux utilisateurs de créer plusieurs sites par installation qui ne sont pas nécessairement connectés. Cependant, chaque installation a, par défaut, une page d'accueil qui répertorie les sites de l'installation. Cette page est accessible en accédant à l’URL principale de votre installation Omeka S; Si votre [Tableau de bord](/admin-dashboard.md) était de type `votredomaine.net/omekas/admin`, alors vous trouverez cette page sur `votredeomaine.net/omekas/`
 
 La page affiche tous les sites qu'un utilisateur est autorisé à voir, ainsi que le résumé du site, le cas échéant. Si quelqu'un n'est pas connecté, il ne verra que les sites publics. En revanche, un administrateur global connecté verrait tous les sites existants sur l'installation.
 
