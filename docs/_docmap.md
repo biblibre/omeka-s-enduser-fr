@@ -1,18 +1,18 @@
-Documentation Map
+Plan de la documentation
 
-- admin dashboard
-- glossary
-- settings
-- users
-- content:
-  - items
-  - item sets
-  - media
-  - resource templates
-  - vocabularies
+- tableau de bord de l'administration
+- glossaire
+- paramètres
+- utilisateurs
+- ressources:
+  - contenus
+  - collections
+  - medias
+  - modèles de ressource
+  - vocabulaires
 - sites 
-  - sites management 
-  - pages management
+  - gestion des sites 
+  - gestion des pages
 - modules
-  - modules (managing)
-  - individual modules documentation
+  - modules (gérer)
+  - documentation individuelle des modules
