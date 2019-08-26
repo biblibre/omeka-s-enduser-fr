@@ -1,5 +1,5 @@
 ---
-title: Jobs
+title: Crons
 ---
 
 When a user starts running a process which will take some time, such as an API import, the progress of the process is displayed in the *Jobs* tab of the admin dashboard.  The table also displays completed, stopped, and error-interrupted jobs.
