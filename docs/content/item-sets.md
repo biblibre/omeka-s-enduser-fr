@@ -1,197 +1,188 @@
 ---
-title: Item Sets
+title: Collections
 ---
 
-Item sets are an aggregation of *items*, similar to collections in previous versions of Omeka. In Omeka S, items may belong to any number of sets, and an item set can have any number of items.
+Les collections sont une agrégation de *contenus*, similaires aux collections des versions précédentes d'Omeka. Dans Omeka S, les contenus peuvent appartenir à un nombre illimité  de collections, et une collection peut comporter un nombre illimité de contenus. Les collections sont gérées via l'onglet *Collections* (cases empilées) situé dans le panneau de navigation de gauche.
 
-Item sets are managed via the *Item Sets* tab (stacked boxes) located in the left navigation of the admin dashboard. 
+![Vue des collections avec quatre collections.](/content/contentfiles/itemsets_browse.png)
 
-![Browse item sets view with four item sets.](/content/contentfiles/itemsets_browse.png)
+Après avoir cliqué sur l'onglet, un tableau apparaît répertoriant toutes les collections avec:
 
-After clicking on the tab, a table appears listing all item sets with: 
+- leur * titre *;
+- des icônes pour chaque ligne représentant des options pour *modifier* (crayon), *supprimer* (corbeille) ou *afficher les détails* (trois petits points);
+- la *classe* de la collection,
+- le *propriétaire* de la collection,
+- et quand la collection a été *créé*.
 
-- their *Title*; 
-- icons for each row representing options to *edit* (pencil), *delete* (trash can), or *view details* (ellipses); 
-- the item set’s *Class*, 
-- the *Owner* of the set, 
-- and the date the set was *Created*.
+Au-dessus de ce tableau, à gauche, se trouve la pagination du tableau des collections, dans laquelle vous pouvez cliquer sur les flèches gauche et droite pour avancer ou reculer ou entrer un numéro de page pour accéder à une page spécifique de collections.
 
-Above this table on the left is the pagination for the item sets table, where you can click the left and right arrows to move forward and back or enter a page number to go a specific page of item sets. 
+Au centre au-dessus du tableau se trouve le bouton pour la *recherche avancée*.
 
-In the center above the table is the button for *advanced search*. 
+À droite au-dessus du tableau, des menus déroulants vous permettent de réorganiser le tableau par *titre, classe, propriétaire,* ou *date créée* dans l'ordre *croissant* ou *décroissant*.
 
-On the right above the table are drop-down menus to re-order the table by *title, class, owner,* or *date created* in either *ascending* or *descending* order. 
+Dans le coin supérieur droit se trouve le bouton pour *Ajouter une nouvelle collection*.
 
-In the upper right corner is the button to *Add new item set*. 
+## Voir les collections
 
+Pour afficher rapidement des informations sur une collection, cliquez sur le bouton (trois petits points) pour afficher la collection sur la page de navigation. Cela ouvrira un onglet sur le côté droit de la page avec le titre, la visibilité et le nombre de contenus appartenant à la collection.
 
-## View Item Set
+![Vue de l'onglet d'une collection, avec description et titre](/content/contentfiles/itemsets_drawer.png)
 
-To quickly see information about an item set, click on the *view details* button (ellipses) for the item set on the item sets browse page. This will open a drawer on the right hand side of the page with the item set’s Title, Visibility, and number of Items.
+Pour afficher toutes les informations d'une collection, cliquez sur son nom. Sur la page de la collection, des onglets permettent de voir les *métadonnées* et *ressources liées* d'une collection. Sur le côté droit de la page d’affichage, vous trouverez des informations sur la date de création, le propriétaire et la visibilité. Pour les collections la visibilité inclut à la fois si la collection est privée ou publique et si d'autres utilisateurs peuvent ajouter des contenus à la collection.
 
-![Drawer view of an item, with description and title](/content/contentfiles/itemsets_drawer.png)
+![Vue du détail d'une collection](/content/contentfiles/itemsets_view.png)
 
-To view all the information for an item set, click on its name. On the item sets view page, there are tabs to see an item set’s *Metadata* and *Linked Resources*. On the right side of the item set’s view page is information about the date created, owner, and visibility. For item sets, visibility includes both whether the set is private or public and whether other users can add items to the set. 
+Les *métadonnées* d'une collection sont entrées par les utilisateurs.
 
-![Reading view of a single item set](/content/contentfiles/itemsets_view.png)
+*Les ressources liées* sont des contenus qui sont liés à la collection par des métadonnées spécifiques. Lors de l'affichage des ressources liées, la table inclut le propriétaire (propriété ou description) et l'objet. Notez que les ressources entrantes (celles utilisées comme propriétés pour la collection en cours de visualisation) ne seront pas affichées ici, car elles s'affichent déjà dans les métadonnées de la collection.
 
-The item set’s *metadata* is entered by users. 
+Pour afficher les contenus d'une collection, cliquez sur le nombre de contenus sur la page de navigation ou cliquez sur le bouton *Afficher les contenus* dans le coin supérieur droit de la page.
 
-*Linked resources* are items which have used the item set to populate specific metadata properties. When viewing linked resources, the table includes the predicate (property or description) and the object (linked item resource). Note that incoming resources (those used as properties for the item set being viewed) will *not* display here, as they already display in the item set's metadata.
+## Ajouter une collection
 
-To view the items in a set, either click on the number of items in the set on the item set browse page, or click the *view items* button in the upper right corner of the individual item set page.
+Pour ajouter une nouvelle collection, cliquez sur l'onglet Collection dans la barre de navigation de gauche du tableau de bord. Cliquez sur le bouton *ajouter une nouvelle collection* en haut à droite de l'écran.
 
+Les collections peuvent utiliser les mêmes modèles de ressources que les contenus afin de fournir des champs présélectionnés. Chaque collection doit contenir au moins une valeur descriptive, telle que Dublin Core Description.
 
-## Add an item set
+Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans la liste de droite. Parcourez les champs par vocabulaire (Dublin Core, ontologie bibliographique, etc.) ou recherchez-le dans la barre *filtrer les propriétés* au-dessus de la liste des propriétés et des vocabulaires.
 
-To add a new item set, click the Item Sets tab from the left navigation of the dashboard. Click the *add new item set* button on the right hand side of the screen.
+### Onglet "Valeurs"
+Vous pouvez ajouter du texte, une ressource Omeka ou un lien externe dans chaque champ.
 
-Item sets may use the same resource templates available for items to provide pre-selected fields. Each set should contain at least one descriptive value, such as Dublin Core Description. 
+![Ajout d'une collection, aucune propriété sélectionnée](/content/contentfiles/itemsets_add.png)
 
-You may add other fields by selecting a property from the list on the right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, etc), or search in the *filter properties* bar above the list of properties and vocabularies.
+Par défaut, une nouvelle collection sera chargée avec les propriétés dcterms: Title et dcterms: description. Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans la liste de droite. Parcourez les champs par vocabulaire (Dublin Core, ontologie bibliographique, etc.) ou recherchez-le dans la barre *filtrer les propriétés* au-dessus de la liste des propriétés et des vocabulaires.
 
-### Values tab
-You may add text, a resource from the installation, or an external link in each field.  
+Vous pouvez définir des propriétés individuelles comme privées ou publiquement visibles à l'aide de l'icône en forme d'œil pour chaque propriété. Notez que les propriétés définies comme privées sont toujours visibles par les administrateurs globaux, les administrateurs de site et les éditeurs pourront voir les propriétés même lorsqu'elles sont définies comme privées. Les auteurs pourront voir toutes les propriétés des objets qu’ils possèdent, mais ne verront pas les propriétés privées créées par d’autres utilisateurs.
 
-![Add item set, no properties selected](/content/contentfiles/itemsets_add.png)
+Dans l'image ci-dessous, la première propriété (Titre) est publique, comme l'indique l'icône en forme d'œil ouvert. La deuxième propriété (Description) est privée, comme l'indique l'icône en forme de barre oblique. En cliquant ou en appuyant sur entrer sur l'icône de l'œil, vous basculez entre public et privé.
 
-By default, a new Item Set will load with the properties dcterms:Title and dcterms:description. You may add other fields by selecting a property from the list on the right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, etc), or search in the *filter properties* bar above the list of properties and vocabularies.
-
-You can set individual properties as Private or Publicly visible using the eye icon for each property. Note that properties set to private are still visible to Global Admins, Site Admins, and Editors will be able to see properties even when set to private. Authors will be able to see all properties on items they own, but will not see private properties created by other users.
-
-In the image below, the first property (Title) is public as indicated by the open eye icon. The second property (Description) is private as indicated by the slashed-through eye icon. Clicking or hitting enter on the eye icon toggles between public and private. 
-
-![As described](/content/contentfiles/item_propviz.png)
+![Comme décrit précedemment](/content/contentfiles/item_propviz.png)
  
-### Text
-Text fields are entered with text. The keyboard at the top of the field input indicates text. You can indicate the language for the content of an input using the globe symbol above the input (see the red arrow in the image below). Click on the globe to activate a text field, then enter the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code for the language in which the text is written.
+### Texte
+Les champs de texte sont réservés à du texte. Le clavier en haut du champ indique qu'il s'agit d'un champs "texte". Vous pouvez indiquer la langue du contenu d'une entrée à l'aide du symbole du globe situé au-dessus de l'entrée (voir la flèche rouge dans l'image ci-dessous). Cliquez sur le globe pour activer un champ de texte, puis entrez le [code ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) de la langue dans laquelle le texte est écrit.
 
-### Omeka Resource
-These fields create an internal link between the resource you are creating and the resource which fills that field. You have the option to use either another item or an item set. Once you select an item or item set, detailed information will load, and you must click *select resource* to finish linking the resources. You can also click the *X* button in the upper right-hand corner to go back to the list of items or item sets.
+### Ressource Omeka 
+Ces champs créent un lien interne entre la ressource que vous créez et la ressource qui remplit ce champ. Vous avez la possibilité d'utiliser un autre contenu ou une collection. Une fois que vous avez sélectionné un contenu ou une collection, des informations détaillées seront chargées et vous devez cliquer sur *sélectionner une ressource* pour terminer la liaison des ressources. Vous pouvez également cliquer sur le bouton *X* dans le coin supérieur droit pour revenir à la liste des contenus ou collections.
 
-When creating an item set, you have the option to use either another item or an item set. 
+Lors de la création d'une collection, vous avez la possibilité d'utiliser un autre contenu ou une autre collection.
 
-Choosing a resource type will open a side drawer where you can browse all of those resources in the installation. You can use the search function at the top of the drawer to narrow down the list or to quickly find a specific item or item set 
+Le choix d'un type de ressource ouvrira un onglet latéral dans lequel vous pourrez parcourir toutes les types de ressources de l'instance. Vous pouvez utiliser la fonction de recherche en haut de l'onglet pour réduire la liste ou pour trouver rapidement un contenu ou une collection.
 
-Once you select an item or item set, detailed information will load, and you must click *select resource* to finish linking the resources. You can also click the *X* button in the upper right-hand corner to go back to the list of items or item sets.
+![Menu Sélectionner un contenu avec une collection à lier](/content/contentfiles/items_addresource.png)
 
-![Select Item menu with list of items to link in edit item view](/content/contentfiles/items_addresource.png)
+Si vous utilisez un contenu pour la propriété, vous aurez d'autres options pour rechercher l'élément souhaité dans l'onglet dédié. Ouvrez ces options en cliquant sur le triangle situé à côté de la phrase "Filtre de recherche".
 
-If you are using an Item resource for the property, you will have additional options for finding the item you want in the drawer. Open these options by clicking the triangle button next to the phrase "Filter search"
+![Sélection des options supérieures de l'onglet, avec une flèche rouge autour d'un bouton triangle gris à droite de la phrase "Filtre de recherche".](/content/contentfiles/items_filtersearch.png)
 
-![Select Item drawer top options, with a red arrow around a gray triangle button to the right of the phrase "Filter search"](/content/contentfiles/items_filtersearch.png)
+Cela ouvrira un menu sous le bouton avec les options suivantes pour filtrer les éléments dans le tiroir:
 
-This will open a menu below the button with the following options to filter the items in the drawer:
+- Filtrer par classe: une liste déroulante dans laquelle vous pouvez sélectionner n’importe quelle classe fournie par les vocabulaires de l’instance;
+- Filtrer par collection: une liste déroulante dans laquelle vous pouvez limiter les contenus affichés dans l'onglet à ceux associés à une collection particuliere.
+- Filtrer par ID de contenu: un champ de recherche dans lequel vous pouvez saisir l'identifiant du contenu que vous souhaitez utiliser. Vous pouvez trouver l'ID d'un contenu dans l'url de sa page de modification; Si vous modifiez le contnu et que l'URL est `admin / item / 11547 / edit`, l'ID de l'élément est 11547.
 
-- Filter by class: a dropdown where you can select any class provided by the vocabularies on the installation;
-- Filter by item set: a dropdown where you can limit the items displayed in the drawer to only those associated with a particular item set
-- Filter by item ID: a search field where you can input the ID of the item you want to use. You can find an item's ID in the url of it's edit page; if you are editing the item and the url is `admin/item/11547/edit` then the item's ID is 11547.
+![options décrites ci-dessus](/content/contentfiles/item_addresItem.png)
 
-![options as above described](/content/contentfiles/item_addresItem.png)
+Les collections ont également une option pour "Ajout rapide". Lorsque cet interrupteur est activé, tous les contenus de l'onglet se retrouvent affichés avec une case à cocher. Vous pouvez utiliser ces cases à cocher pour ajouter plusieurs contenus à la fois en tant que propriété. Notez que vous ne pouvez modifier qu'une propriété à la fois, de sorte que tous les contenus doivent renseigner la même propriété (ex, Creator, Has Part).
 
-Item resources also have an option for "Quick add". When this switch is flipped, all of the items in the drawer have a checkbox. You can use these checkboxes to add multiple items as a property at once. Note that you can only edit one property at a time, so all of the items must populate the same property (ex, Creator, Has Part). 
-
-![a red arrow points to the slider button for "Quick add". The two items visible have an empty checkbox to the left of their representative thumbnail](/content/contentfiles/items_quickadd.png)
+![une flèche rouge pointe sur le curseur pour "Ajout rapide". Les contenus visibles ont une case à cocher vide à gauche de la vignette](/content/contentfiles/items_quickadd.png)
 
 #### URI
-URI fields link to an external website or online resource.
+Les champs URI renvoient à un site Web externe ou à une ressource en ligne.
 
-You may add other fields by selecting a property from the list on the right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, etc), or search in the *filter properties* bar above the list of properties and vocabularies.
+Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans la liste de droite. Parcourez les champs par vocabulaire (Dublin Core, ontologie bibliographique, etc.) ou recherchez-le dans la barre *filtrer les propriétés* au-dessus de la liste des propriétés et des vocabulaires.
 
+### Onglet Vignette
+Par défaut, Omeka S utilisera le support du premier élément ajouté à une collection pour générer la vignette illustrant cette collection. Si vous souhaitez utiliser une autre image vous pouvez la définir ici.
 
-### Thumbnail tab
-By default, Omeka S will use the media from the first item added to an item set to generate a thumbnail for the set. If you want to use a non-media image for the thumbnail for an item set you can set it here.
+![Onglet Vignette sans valeur sélectionnée. L'onglet affiche un message sur la création de vignettes et un bouton pour "sélectionner" une valeur.](/content/contentfiles/itemset_thumb1.png)
 
-![Thumbnail tab with no asset selected. The tab displays a message about thumbnail creation and a button to "select" an asset](/content/contentfiles/itemset_thumb1.png)
+Les ressources que vous avez sélectionnées et téléchargées sous forme de vignettes dans cet onglet sont les mêmes que celles créées pour [les logos du site](../sites/site_theme/#settings-options). 
 
-The assets you select from and upload as thumbnails in this tab are the same as those created for [site logos](../sites/site_theme/#settings-options). 
+Pour attribuer une vignette, cliquez sur le bouton Sélectionner dans la zone de travail principale de l'onglet. Cela ouvrira un onglet sur le côté droit.
 
-To assign an asset as a thumbnail, click on the Select button in the main work area of the tab. This will open a drawer on the right side. 
+![Option de téléchargement.](/content/contentfiles/itemset_thumb2.png)
 
-![Select drawer with upload option and two assets, both of which are images.](/content/contentfiles/itemset_thumb2.png)
+L'onglet propose deux options: télécharger un fichier à l'aide de votre navigateur ou sélectionner des ressources existantes. Pour sélectionner une ressource existante, cliquez simplement dessus et elle sera automatiquement attribuée à la collection.
 
-The drawer offers two options: upload a file using your browser, or select from existing assets. To select an existing asset, simply click on it and it will automatically be assigned to the item set. 
+![Ajout d'une collection ouvert. En dessous, des boutons pour sélectionner et effacer](/content/contentfiles/itemset_thumb3.png)
 
-![Add item set open to Thumbnail tab, where an asset which is an image of a quill pen on a scrolled piece of paper is in the main work area. Below it are buttons for Select and Clear](/content/contentfiles/itemset_thumb3.png)
-
-To remove an asset which you have assigned as a thumbnail, click the "Clear" button below the image of the asset. To replace it, click select and either choose or upload a new thumbnail asset.
-
-
-### Access Settings
-Item sets have two settings which control their access. They can be *public* or *not public* and they can be *open* or *closed*.
-
-Use the *make public/private* button (eye icon) to make the item visible to the public or only to all users of the Omeka S installation (not public). 
-
-*Open* sets can be edited and added to by any user on the install.
-
-*Closed* sets are available and editable only by its creator, site admins, and global admins.
-
-![a set which is open and public, with an open padlock icon and an icon of an open eye](/content/contentfiles/setOpenPublic.png) Open and Public 
-
-![a set which is closed and private, with a closed padlock icon and  an icon of an eye with a slash through it](/content/contentfiles/setClosedPrivate.png)  Closed and Private
-
-Note that the public/private and open/closed settings operate independently - you can have an open and private item set, for example.
-
-## Edit an item set
-Once you have created an item set, you can edit it at any time, either by clicking the edit icon (pencil button) or clicking on the item set's title and then clicking the Edit button in the upper right-hand corner of the screen.
-
-Options for editing an item set are the same as for creating an item set. 
-
-To cancel out of editing, click the Cancel button in the upper right corner, between the Delete and Save buttons. 
-
-![Detail view of the top row if information and buttons on an item edit view. A red arrow points to the Cancel button, on the far right](/content/contentfiles/itemset_cancel.png)
-
-## Batch Editing
-
-From the browse page of item sets (admin/item-set) you can batch edit item sets, using the dropdown menu on the upper right near the "Add new item set" button. You can select multiple item sets using the checkboxes on the left of each set's row.
-
-![A red arrow points to the dropdown for batch editing and deleting options](/content/contentfiles/itemsets_batch.png)
-
-Batch actions are as follows:  
-
-- Edit selected: edit only the item sets that are selected on the page
-- Edit all: edit all the item sets returned by a search (default is all item sets)
-- Delete selected: delete only the item sets that are selected on the page
-- Delete all: delete all the item sets returned by a search (default is all item sets)
-
-Choose one of these options and then click *Go*.
-
-**Batch editing** item sets takes you to a new page. The item sets being edited will display on the right side in a drawer, while the batch edit form gives you the following options:  
-
-- set visibility: a dropdown, select from public or not public.
-- set openness: a dropdown, select from open or not open.
-- set template: a dropdown, select from the installation's resource templates.
-- set class: a dropdown, select from classes of the installed vocabularies.
-- clear property values: a dropdown menu with all the properties in all vocabularies, selecting from this will remove any values in that property in the affected item sets. Clear additional properties using the *Clear another property* button.
-
-![Batch edit items form, with options as described above. Everything is grayscale](/content/contentfiles/itemsets_batchedit.png)
-
-In addition,  you can use the bottoms at the bottom of the batch edit form to add properties to every item set:
-
-- add text value
-- add resource value
-- add URI value  
-
-Selecting any of these will add a block to the form where you can select a property from the installed vocabularies and enter the value for that property.
-
-![Image depicts only the Add text value block of the batch edit form, with a dropdown labeled "select property" above an empty text field](/content/contentfiles/itemsets_property.png)
-
-For the **delete actions**, a drawer will open on the right side of the screen telling you the number of item sets which will be deleted. Nothing will be deleted unless you click the red *Confirm Delete* button. This action cannot be undone. To opt out of deleting the item sets, click the X in the upper right corner of the deletion drawer. To confirm delete, check the "Are you sure" checkbox and then click *Confirm Delete*. Note that deleting the item set will not delete the items associated with that set.
-
-![Close up of the warning, with the text describing the number of items to be deleted in red.](/content/contentfiles/itemsets_bulkdelete.png)
-
-## Delete Item Set
-In addition to the batch delete function described above, you can also delete individual item sets. 
-
-Note that deleting item sets does not delete any items associated with the item set. 
-
-From the Item Set browse view, you can delete an item set by clicking the trash can icon in the row for the item set you want to delete. This will open a drawer on the right with a message at the top asking you to confirm that you want to delete the item set, with the metadata for the item set below the confirm delete button. Click *Confirm delete* to delete the item set, or close the drawer to cancel.
-
-![Browse item sets view with two item sets and a red arrow pointing to the trash can icon](/content/contentfiles/itemsets_browseDel.png)
-
-![Drawer with a confirmation message to delete the an item set, including the Confirm delete button and the item set's basic descriptive metadata - title, description, and number of items in the set. ](/content/contentfiles/itemsets_browseDel2.png)
+Pour supprimer une vignette, cliquez sur le bouton "Effacer" situé sous l’image de la ressource. Pour la remplacer, cliquez sur Sélectionner et choisissez ou chargez une nouvelle vignette.
 
 
-From the edit page for an Item Set, click the *Delete* button in the upper right-hand corner. This will open a drawer on the right side asking you to confirm that you want to delete the item set. Click *Confirm delete* to delete the item set, or close the drawer to cancel.
+### Paramètres d'accès
+Les collections ont deux paramètres qde contrôle d'accès. Elles peuvent être *publiques* ou *privées* et elles peuvent être *ouvertes* ou *fermées*.
 
-![Close up of the warning drawer, with text stating "Are you sure you would like to delete this item set" and below it a red button with white text stating "Confirm delete".](/content/contentfiles/itemset-delete2.png)
+Utilisez le bouton *Rendre public / privé* (icône en forme d’œil) pour rendre l’élément visible au public ou uniquement à tous les utilisateurs de l’installation Omeka S (privé).
+
+Les collections *ouvertes* peuvent être modifiées et complétées par n'importe quel utilisateur.
+
+Les collections *fermées* sont disponibles et modifiables uniquement par son créateur, les administrateurs du site et les administrateurs globaux.
+
+![une collection ouverte et publique, avec une icône de cadenas ouvert et une icône représentant un œil ouvert](/content/contentfiles/setOpenPublic.png) Open and Public 
+
+![une collection fermée et privée, avec une icône de cadenas fermé et une icône représentant un œil barré](/content/contentfiles/setClosedPrivate.png)  Closed and Private
+
+Notez que les paramètres public / privé et ouvert / fermé fonctionnent indépendamment - vous pouvez définir un élément ouvert et privé, par exemple.
+
+## Editer une collection
+Une fois que vous avez créé une collection, vous pouvez la modifier à tout moment, en cliquant sur l'icône d'édition (bouton du crayon) ou en cliquant sur le titre de la collection, puis en cliquant sur le bouton Modifier dans le coin supérieur droit de l'écran.
+
+Les options pour l'édition d'une collection sont les mêmes que pour la création d'une collection.
+Pour annuler les modifications, cliquez sur le bouton Annuler dans le coin supérieur droit, entre les boutons Supprimer et Enregistrer.
+
+![Vue détaillée. Une flèche rouge pointe vers le bouton Annuler, à l'extrême droite](/content/contentfiles/itemset_cancel.png)
+
+## Traitement en lot
+
+À partir de la page de navigation des collections (admin / collections), vous pouvez éditer des collections par lot à l’aide du menu déroulant situé dans le coin supérieur droit de la page située sous le bouton "Ajouter une nouvelle collection". Vous pouvez sélectionner plusieurs collections à l'aide des cases à cocher situées à gauche de chaque ligne.
+
+![Une flèche rouge pointe vers la liste déroulante pour les options d'édition et de suppression par lots](/content/contentfiles/itemsets_batch.png)
+
+Les actions par lot sont les suivantes:
+
+- Modifier sélectionnés: modifiez uniquement les collections sélectionnées sur la page.
+- Modifier tout: éditez toutes les collections renvoyées par une recherche (par défaut, toutes les collections)
+- Supprimer sélectionnés: supprime uniquement les collections sélectionnées sur la page.
+- Supprimer tout: supprime toutes les collections renvoyées par une recherche (par défaut, toutes les collections)
+Choisissez l'une de ces options, puis cliquez sur *Traiter*.
+
+**L'édition par lot** des collections vous amène à une nouvelle page. Les collections en cours d'édition seront affichées à droite dans un onglet, tandis que le formulaire de modification par lot vous offre les options suivantes:
+
+- visibilité de l'ensemble: une liste déroulante, sélectionnez *Public* ou *Non Public*.
+- définir l'ouverture: une liste déroulante, sélectionnez *Ouvert* ou *Non ouvert*.
+- définir le modèle: une liste déroulante, sélectionnez parmi les modèles de ressources de l'instance.
+- définir une classe: une liste déroulante, sélectionnez parmi les classes de vocabulaires installés.
+- effacer les valeurs d'une propriété: un menu déroulant contenant toutes les propriétés de tous les vocabulaires. En sélectionnant cette option, toutes les valeurs de cette propriété seront supprimées des collections concernées. Effacer les propriétés supplémentaires cliquant une nouvelle fois dans le champs.
+
+![L'édition en lot mène au formulaire avec les options décrites ci-dessus. Tout est en niveaux de gris](/content/contentfiles/itemsets_batchedit.png)
+
+De plus, vous pouvez utiliser le bas du formulaire de modification par lot pour ajouter des propriétés à chaque ensemble d'éléments:
+
+- ajouter une valeur textuelle
+- ajouter un lien vers une ressource
+- ajouter une lien URI
+
+La sélection de ces éléments ajoutera un bloc au formulaire dans lequel vous pourrez sélectionner une propriété parmi les vocabulaires installés et entrer la valeur de cette propriété.
+
+![L'image représente uniquement le bloc Ajouter une valeur de texte du formulaire de modification par lot, avec une liste déroulante intitulée "Sélectionner la propriété" au-dessus d'un champ de texte vide.](/content/contentfiles/itemsets_property.png)
+
+Pour les **actions de suppression**, un onglet s'ouvre sur le côté droit de l'écran pour vous indiquer le nombre de collections à supprimer. Rien ne sera supprimé à moins que vous ne cliquiez sur le bouton rouge *Confirmer la suppression*. Cette action ne peut pas être annulée. Pour refuser de supprimer les collections, cliquez sur le X dans le coin supérieur droit de l'onglet de suppression. Pour confirmer la suppression, cochez la case "Êtes-vous sûr", puis cliquez sur *Confirmer la suppression*. Notez que la suppression d'une collection ne supprimera pas les contenus associés à cette collection.
+
+![Gros plan sur l'avertissement, avec le texte décrivant le nombre d'éléments à supprimer en rouge.](/content/contentfiles/itemsets_bulkdelete.png)
+
+## Supprimer une collection
+Outre la fonction de suppression par lot décrite ci-dessus, vous pouvez également supprimer des collections individuellement.
+
+Notez que la suppression des collections ne supprime aucun contenu associé aux collections supprimées.
+
+Dans l'écran Collections, vous pouvez supprimer une collection en cliquant sur l'icône corbeille sur la ligne correspondante à la collection que vous souhaitez supprimer. Cela ouvrira un onglet sur la droite avec un message en haut vous demandant de confirmer que vous souhaitez supprimer la collection avec les métadonnées pour la collection situées sous le bouton de confirmation de suppression. Cliquez sur *Confirmer la suppression* pour supprimer la collection ou fermez l'onglet pour annuler.
+
+![Vue des collections avec deux collections et une flèche rouge pointant sur l'icône de la corbeille](/content/contentfiles/itemsets_browseDel.png)
+
+![Onglet avec un message de confirmation pour supprimer une collection et les métadonnées descriptives de base de la collection - titre, description et nombre d'éléments dans la collection. ](/content/contentfiles/itemsets_browseDel2.png)
+
+
+Dans la page d'édition d'une collection, cliquez sur le bouton *Supprimer* dans le coin supérieur droit. Cela ouvrira un onglet sur le côté droit vous demandant de confirmer que vous souhaitez supprimer la collection. Cliquez sur *Confirmer la suppression* pour supprimer la collection ou fermez l'onglet pour annuler.
+
+![Gros plan sur l'onglet d'avertissement, avec le texte "Voulez-vous vraiment supprimer cette collection" et en dessous, un bouton rouge avec du texte blanc indiquant "Confirmer la suppression".](/content/contentfiles/itemset-delete2.png)
