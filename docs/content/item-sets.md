@@ -8,7 +8,7 @@ Les collections sont une agrégation de *contenus*, similaires aux collections d
 
 Après avoir cliqué sur l'onglet, un tableau apparaît répertoriant toutes les collections avec:
 
-- leur * titre *;
+- leur *titre*;
 - des icônes pour chaque ligne représentant des options pour *modifier* (crayon), *supprimer* (corbeille) ou *afficher les détails* (trois petits points);
 - la *classe* de la collection,
 - le *propriétaire* de la collection,
