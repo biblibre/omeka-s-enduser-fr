@@ -1,41 +1,36 @@
 ---
-title: Items
+title: Contenus
 ---
 
-Items are the building blocks of the Omeka system. 
+Les contenus sont les éléments constitutifs du système Omeka. Dans Omeka S, les contenus peuvent être mis à votre disposition par l'administrateur système et vous pouvez ajouter des contenus à votre propre site. Les contenus sont répertoriés dans l'onglet Contenus (icône cube) de la navigation, à gauche du tableau de bord administratif.
+![Vue de base de la page des contenus, montrant quelques ressources](/content/contentfiles/items_browse.png)
 
-In Omeka S, items can be made available to you from the system administrator, and you may add items to your own site.
+Chaque contenu apparaît sous forme de ligne, avec des colonnes pour:
 
-Items are listed in the *Items* tab (one box icon), found on the left-hand navigation of the administrative dashboard. 
+- le titre*
+- icônes pour * modifier * (crayon), * supprimer * (corbeille) ou * afficher les détails * (3 petits points)
+- la classe*
+- le * propriétaire * du contenu
+- et la date à laquelle le contenu a été * créé *.
 
-![Basic view of admin items page, showing a handful of item resources](/content/contentfiles/items_browse.png)
+Les options de navigation et de création des contenus s'affichent au-dessus du tableau des contenus.
 
-Each item appears as a row, with columns for:
+En haut à droite de la fenêtre Contenus se trouve le bouton * Ajouter un nouvel contenu *.
 
-- the *Title*
-- icons to *edit* (pencil), *delete* (trash can), or *view details* (ellipses)
-- the *Class*
-- the item’s *Owner*
-- and the date the item was *Created*. 
+Sur le côté gauche se trouve un affichage du nombre de pages de contenus, avec les flèches avant et arrière. Le numéro de page actuel est un champ éditable. Entrez un numéro de page valide et appuyez sur la touche Entrée pour accéder à cette page.
 
-Options for navigating and creating items display above the table of items. 
+En haut au centre se trouve un bouton [Recherche avancée](/search.md). 
 
-On the right top of the Items window is the *Add new item* button. 
+Juste au-dessus du tableau de droite, vous trouverez des options pour trier le tableau des contenus, avec deux menus déroulants. Le premier vous permet de choisir entre *titre*, *identifiant*, *classe*, *propriétaire,* et *(date) créé*; la seconde vous permet de trier par ordre croissant ou décroissant. Pour executer ses actions, cliquez sur le bouton *Trier*.
 
-On the left side is a display for the number of pages of items, with forward and back arrows. The current page number is an editable field - enter any valid page number and hit return/enter on your keyboard to go to that page. 
+Entre ceux-ci et le tableau, à gauche, se trouve un menu déroulant pour les actions par lot, y compris les opérations de modification des contenus sélectionnés, de tous les contenus, de suppression des contenus sélectionnés et de suppression de tous les contenus.
 
-In the center top is a button for [Advanced Search](/search.md). 
+## Vue
+Pour afficher rapidement les informations de base sur un contenu, cliquez sur le bouton *Afficher les détails* (3 petits points) dans la rangée du contenu, situé à côté des boutons Modifier et Supprimer. Cela ouvrira un onglet à la droite de la liste qui affiche le titre, la description et la visibilité du contenu.
 
-Just above the table on the right are options for sorting the table of items, with two dropdown menus. The first lets you select between *Title*, *Identifier*, *Class*, *Owner,* and *(Date) Created*; the second allows you to sort ascending or descending. To apply, click the *sort* button.
-
-Between these and the table, on the left, is a dropdown for batch actions, including edit selected, edit all, delete selected, and delete all. 
-
-## View
-To quickly view the basic information about an item, click the *view details* (ellipses) button in the row for the item, located next to the edit and delete buttons. This will open a drawer to the right of the list which displays the item’s title,  description, and visibility.
-
-For a more detailed look at an individual item, click on its title in the items browse table or when viewing its details.
+Pour plus de détail sur un contenu, cliquez sur son titre.
  
-When you view an individual item , there are tabs for the item’s *Metadata* and its *Linked Resources*. The right side of the page displays the item’s media, any *item sets* to which it belongs, its creation date, owner, and visibility. 
+Lorsque vous affichez un contenu, il existe des onglets pour les *métadonnées* et les *ressources liées* du contenu. Le côté droit de la page affiche le média, les *collections* auxquelles il appartient, sa date de création, son propriétaire et sa visibilité.
 
 ![Item browse view with details open for The Adventure of the Yellow Face. Links to item view page squared in blue](/content/contentfiles/items_detailview.png) The blue squares indicate where to click to open the full item view.
 
