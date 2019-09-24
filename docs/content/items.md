@@ -32,15 +32,15 @@ Pour plus de détail sur un contenu, cliquez sur son titre.
  
 Lorsque vous affichez un contenu, il existe des onglets pour les *métadonnées* et les *ressources liées* du contenu. Le côté droit de la page affiche le média, les *collections* auxquelles il appartient, sa date de création, son propriétaire et sa visibilité.
 
-![Item browse view with details open for The Adventure of the Yellow Face. Links to item view page squared in blue](/content/contentfiles/items_detailview.png) The blue squares indicate where to click to open the full item view.
+![Affichage de l'article avec les détails ouverts.](/content/contentfiles/items_detailview.png) Les carrés bleus indiquent où cliquer pour obtenir la vue complète du contenu.
 
-An item’s *linked resources* (shown below) are resources, which have been added as properties to the item. Note that this section only shows resources which have been linked *to* this item (which have it for a property); resources which are linked *from* this item will display in the property which they fill.
+Les *ressources liées* d'un contenu (illustrées ci-dessous) sont des ressources qui ont été ajoutées au contenu en tant que liens dans une propriété de la notice (champs de saisie). Notez que cette section affiche uniquement les ressources qui ont été liées *à* ce contenu; les ressources liées *depuis* ce contenu s'afficheront dans le contenu lié.
 
-Linked items are grouped by the property for which they use the current item. In the example below, the item William Shakespeare is used for the properties "Creator," "References," and "list of authors" for the linked resources. 
+Les ressources liées sont regroupées par la propriété pour laquelle elles sont rattachées au contenu actuel. Dans l'exemple ci-dessous, le contenu Daniel Chester French est utilisé pour les propriétés "Editeur", et "Créateur" pour les ressources liées.
 
-You can filter linked resources to only display those referencing a specific property using the dropdown "Filter by property." It will only display properties actively in use.
+Vous pouvez filtrer les ressources liées pour afficher uniquement celles référençant une propriété spécifique à l'aide du menu déroulant "Filtrer par propriété". Cela n'affichera que les propriétés activement utilisées.
 
-![Item linked resources view for William Shakespeare, with six plays using Shakespeare as Creator, the item Folger Shakespeare Library listed as 'references' Shakespeare, and the Globe Theatre using Shakespeare for 'list of authors'. Each property cluster is in a separate rectangle, headed by the property being referenced.](/content/contentfiles/items_linked.png) 
+![Affichage des ressources liées au contenu Daniel Chester French, avec  deux pièces utilisant Daniel Chester French en tant que créateur ou éditeur. Chaque groupe de propriétés se trouve dans un encart séparé](/content/contentfiles/items_linked.png) 
 
 ## Adding an Item
 
