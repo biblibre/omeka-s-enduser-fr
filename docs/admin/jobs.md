@@ -17,4 +17,4 @@ Sur la page des détails d’une tâche, vous verrez les informations suivantes:
 - *Arguments*
 - *Journal* - cliquez sur *voir le journal* pour voir le détail des erreurs et messages.
 
-![L'en-tête Journal avec "Voir le journal" ci-dessous en orange, indiquant qu'il s'agit d'un lien.](/admin/adminfiles/jobs_viewlog.png)
+![L'en-tête Journal avec "Voir le journal" ci-dessous en orange, indiquant qu'il s'agit d'un lien.](/admin/adminfiles/taches_log.png)
