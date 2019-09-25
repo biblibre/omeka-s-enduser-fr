@@ -72,7 +72,7 @@ Vous pouvez définir des propriétés individuelles comme privées ou publiqueme
 
 Dans l'image ci-dessous, la première propriété (Titre) est publique, comme l'indique l'icône en forme d'œil ouvert. La deuxième propriété (Description) est privée, comme l'indique l'icône en forme de barre oblique. En cliquant ou en appuyant sur entrer sur l'icône de l'œil, vous basculez entre public et privé.
 
-![As described](/content/contentfiles/contenu_prive_public.png)
+![Tel que décrit](/content/contentfiles/contenu_prive_public.png)
 
 #### Texte
 Les champs "texte" permettent une saisie de texte non formatée.
@@ -92,11 +92,11 @@ Le choix d'un type de ressource ouvrira un tiroir latéral dans lequel vous pour
 
 Une fois que vous avez sélectionné un contenu ou une collection, des informations détaillées seront chargées et vous devez cliquer sur *Choisir une ressource* pour terminer la liaison. Vous pouvez également cliquer sur le bouton *X* dans le coin supérieur droit pour revenir à la liste des contenus ou des collections.
 
-![Select Item menu with list of items to link in edit item view](/content/contentfiles/items_addresource.png)
+![Menu Sélectionner un contenu avec une liste de ressources à lier dans la vue d'édition du contenu](/content/contentfiles/contenu_lieruneressource.png)
 
-If you are using an Item resource for the property, you will have additional options for finding the item you want in the drawer. Open these options by clicking the triangle button next to the phrase "Filter search"
+Si vous utilisez un contenu pour la propriété, vous aurez d'autres options pour rechercher le contenu souhaité dans le tiroir. Ouvrez ces options en cliquant sur le triangle situé à côté de la phrase "Recherche par filtre".
 
-![Select Item drawer top options, with a red arrow around a gray triangle button to the right of the phrase "Filter search"](/content/contentfiles/items_filtersearch.png)
+![Sélection des options supérieures du tiroir "Contenu" avec surbrillance du triangle gris à droite de la phrase "Filtres de recherche".](/content/contentfiles/contenu_filtre_liaison.png)
 
 This will open a menu below the button with the following options to filter the items in the drawer:
 
