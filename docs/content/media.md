@@ -27,7 +27,7 @@ Media are displayed in a table. Each media is a row, with columns for:
 Options for navigating and creating items display above the table of items:
 
 - On the left side is a display for the number of pages of media, with forward and back arrows. The current page number is an editable field - enter any valid page number and hit return/enter on your keyboard to go to that page. 
-- In the center top is a button for [Advanced Search](../../search#media-advanced-search). 
+- In the center top is a button for [Advanced Search](../search.md#media-advanced-search). 
 - Just above the table on the right are options for sorting media, with two dropdown menus. The first lets you select between **Title**, **Class**, **Owner**, **(date) Created**, and **Size**; the second allows you to sort ascending or descending. To apply, click the "Sort" button.
 
 Clicking on the title of any media will take you to its metadata page. This page displays any metadata in the main work area, with a sidebar on the right listing the visibility, associated item (an active link), date created, MIME type, Size, Ingester, Source, and links to the file derivatives.
@@ -57,7 +57,7 @@ To edit existing media, you can:
 - Go to the Media browse page, click on the title to view the media's metadata and then click the "Edit media" button in the upper right hand corner
 - Click on the media's name in the right-hand sidebar of an item's page to go to the media's metadata, and then click on "Edit media" from there.
 
-Editing media is very similar to editing [items](../../content/items) or [item sets](../../content/item-sets).
+Editing media is very similar to editing [items](../content/items) or [item sets](../content/item-sets).
 
 ![Edit media page, with no properties loaded](../content/contentfiles/media_edit.png)
 
