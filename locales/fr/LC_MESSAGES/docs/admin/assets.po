@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-05 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/admin/assets.md:1
+msgid "Assets"
+msgstr ""
+
+#: ../../docs/admin/assets.md:3
+msgid ""
+"Digital files added to Omeka S that are not media attached to items can "
+"be managed in the Assets section. Examples of assets include site logos, "
+"images that are purely illustrations, and custom-made thumbnails. The "
+"Assets section provides users with a browse list of all of the assets for"
+" the entire installation, listed with a thumbnail, a title, icons to edit"
+" (pencil), delete (trash can) or view details (ellipses), and the asset's"
+" Owner."
+msgstr ""
+
+#: ../../docs/admin/assets.md:5
+msgid ""
+"![Admin section of the Navigation menu showing Assets "
+"section](adminfiles/assets_menu.png)"
+msgstr ""
+
+#: ../../docs/admin/assets.md:7
+msgid "Adding a new Asset"
+msgstr ""
+
+#: ../../docs/admin/assets.md:9
+msgid ""
+"To add a new asset to the installation, click the Add button in the upper"
+" right hand corner of the screen. A draw will open that allows the user "
+"to browse their computer for an asset file, and to create alternative "
+"text for that file. Click the Upload button to complete the process."
+msgstr ""
+
+#: ../../docs/admin/assets.md:11
+msgid ""
+"![Asset browse list with Add a New Asset drawer open with an image "
+"selected for upload](adminfiles/assets_add.png)"
+msgstr ""
+
+#: ../../docs/admin/assets.md:13
+msgid "Editing an Asset"
+msgstr ""
+
+#: ../../docs/admin/assets.md:15
+msgid ""
+"Existing Assets may be edited by clicking on the pencil icon. Users have "
+"the option got change the file name and to create or edit alternative "
+"text. Users can also delete assets from the edit screen by clicking on "
+"the red Delete button in the upper right hand corner."
+msgstr ""
+
+#: ../../docs/admin/assets.md:17
+msgid ""
+"![Edit screen for a selected asset, with an image of a map of the "
+"National Mall in Washington DC, and text filled in for file name and for "
+"the alternative text: A map of the Washington DC area with focus on the "
+"National Mall.](adminfiles/assets_edit.png)"
+msgstr ""
+

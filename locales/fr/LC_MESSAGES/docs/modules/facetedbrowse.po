@@ -1,0 +1,883 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-27 10:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../docs/modules/facetedbrowse.md:1
+msgid "Faceted Browse"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:3
+msgid ""
+"The Faceted Browse module lets you create browse resource pages with "
+"facts - filter and sort functions - that site visitors can use."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:5
+msgid ""
+"With this module, site managers are able to configure faceted browse "
+"pages and add them to their sites. End users are then able to browse "
+"through categories of resources and use the facets to narrow the results "
+"in a logical and intuitive manner. This functionality is similar to the "
+"filtering options on many websites and should be easy for users to manage"
+" as long as you have clear language."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:7
+msgid ""
+"The [public view](facetedbrowse.md#public-views) section below shows how "
+"these facets display for single and multi-category pages."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:9
+msgid ""
+"Faceted browse pages exist as separate [pages](../sites/site_pages.md), "
+"which can be added to the [navigation](../sites/site_navigation.md) in a "
+"similar fashion to default browse pages. You *cannot* add faceted "
+"browsing to a page as a block, or as part of an existing browse page."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:11
+msgid ""
+"Once activated on the [modules](index.md) tab of the admin dashboard, "
+"Faceted Browse is configured on a site-by-site basis."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:13
+msgid "Terminology"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:15
+msgid ""
+"A quick guide to the terms used to describe the aspects of a faceted "
+"browse page."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:17
+msgid ""
+"Category: a group of resources (items, item sets, or media) to which "
+"facets are applied on a specific page."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:18
+msgid ""
+"Column: information to display for each resource in the category. Once "
+"you have at least one column, the items will display in a table form (not"
+" a grid)."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:19
+msgid ""
+"Facet: an aspect of a resource - usually part of the metadata - which "
+"becomes a way to filter the resources in the category."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:21
+msgid "Creating and managing Faceted Browse pages"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:23
+msgid ""
+"Once the Facet Browse module is active, a tab for Faceted Browse will "
+"appear in the context menu for every site. Clicking on this tab will take"
+" you to a list of all of your Faceted Browse pages for that site."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:25
+msgid ""
+"Site managers must create Faceted Browse pages before they can be added "
+"to the site's navigation."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:27
+msgid "Adding a Faceted Browse Page"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:29
+msgid ""
+"Create a new page by clicking the *Add a page* button. This takes you to "
+"a new page where you can add basic information for the page and start "
+"adding categories."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:31
+msgid ""
+"![Create page interface showing save page "
+"dropdown](../modules/modulesfiles/FacetedBrowse-AddPage.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:33
+msgid ""
+"The **title** functions the same as the title of a regular page: it will "
+"show up in navigation and display when the page is active."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:35
+msgid ""
+"Use the **resource type** dropdown to select the resource type that you "
+"would like to let users browse on this page: Items, Item Sets, or Media."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:37
+msgid ""
+"Save the page and select *Stay on this page* to continue creating the "
+"faceted browse."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:39
+msgid ""
+"If you are returning to edit existing pages, you can also save your edits"
+" and return to the list of pages by selecting *Save and Return to page*."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:41
+msgid "Categories"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:43
+msgid ""
+"Once the page has been created, the user can create a Category, which is "
+"a group of resources which you want users to be able to browse with "
+"facets."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:45
+msgid "Click the *Add* button."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:47
+msgid "Give your category a name."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:49
+msgid ""
+"Use the search query interface to set the pool of resources that users "
+"will browse. The *Edit* button opens a drawer on the right hand side of "
+"the browser window which works exactly like [advanced search "
+"forms](../search.md#item-advanced-search) for items, media, and item "
+"sets. The *advanced edit* button allows you to input a query string."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:51
+msgid ""
+"![Add category form with name filled in and search query Edit buttons "
+"interface](../modules/modulesfiles/FacetedBrowse-SearchQuery.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:53
+msgid ""
+"After setting the pool of resources, you can create facets and add "
+"columns to your browse display. Once you are done creating your facets "
+"and setting your display columns, save your category."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:55
+msgid ""
+"You can have more than one category per page. See \"Multiple categories "
+"on one page\" for how this functions on the public view."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:57
+msgid "Facets"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:59
+msgid ""
+"Facets work within the categories you have created. You can have one or "
+"more facets for each category. These are the selections that site "
+"visitors will use to narrow down the list of items."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:61
+msgid ""
+"You can create facets from the following options: Value; Resource class; "
+"Resource Template; Item Set; Full text."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:63
+msgid ""
+"![Facet Type dropdown menu showing options](../modules/modulesfiles"
+"/FacetedBrowse-SelectFacetType.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:65
+msgid ""
+"Once the type is selected, click the *Add* button. A drawer will open on "
+"the right side of the browser window with options to configure the facet."
+" The image below shows the drawer options for the Value facet:"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:67
+msgid ""
+"![Configure Facet draw for the Values facet type](../modules/modulesfiles"
+"/FacetedBrowse-ConfigureFacetV.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:69
+msgid "You can add more than one type of facet to each page and category."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:71
+msgid ""
+"**Value** facets correspond to the [values](../content/items.md#values) "
+"within a specific property for each item."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:73
+msgid ""
+"Give the facet a name (required). This will display on the public view, "
+"so make sure it will be legible to your visitors."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:75
+msgid "Use the dropdown to select which property to use for the facet."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:77
+msgid ""
+"Set the Select type for the browse faceting. This sets how site visitors "
+"interact with the options in the Values field:"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:79
+#: ../../docs/modules/facetedbrowse.md:114
+#: ../../docs/modules/facetedbrowse.md:130
+#: ../../docs/modules/facetedbrowse.md:146
+msgid ""
+"Single (list). Visitors can select only one, all options are displayed in"
+" a list."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:80
+#: ../../docs/modules/facetedbrowse.md:115
+#: ../../docs/modules/facetedbrowse.md:131
+#: ../../docs/modules/facetedbrowse.md:147
+msgid ""
+"Multiple (list). Visitors can select multiple, all options are displayed "
+"in a list."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:81
+#: ../../docs/modules/facetedbrowse.md:116
+#: ../../docs/modules/facetedbrowse.md:132
+#: ../../docs/modules/facetedbrowse.md:148
+msgid ""
+"Single Dropdown. Visitors can select only one, all options are given in a"
+" dropdown menu."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:82
+msgid ""
+"Text Input. Visitors can type in text to search items that have property "
+"values corresponding to that text input."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:84
+msgid ""
+"For the Select types that include a list or a dropdown menu you will need"
+" to set a Query type. If the query type is"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:86
+msgid ""
+"\"Is exactly\": Visitors will have to enter a value that is an exact "
+"match to the property value."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:87
+msgid ""
+"\"Is not exactly\": Visitors can enter an exact value to be excluded from"
+" the the property values."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:88
+msgid ""
+"\"Contains\": Visitors can enter a value that matches any part of the "
+"property value."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:89
+msgid ""
+"\"Does not contain\": Visitors can enter a value to be exluded from any "
+"part of the property value."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:90
+msgid "\"Is resource with ID\": Visitors will enter the resource ID."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:91
+msgid ""
+"\"Is not resource with ID\": Visitors will enter a resource ID to be "
+"excluded."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:92
+msgid "\"Has any value\": Visitors will enter the property label."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:93
+msgid "\"Has no values\": Visitors will enter the property label."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:95
+msgid ""
+"For the Single (list) and Multiple (list) Select types, Page creators can"
+" choose to truncate the values available on this list that is visible to "
+"the site visitor by setting a number in the \"Truncate values\" option. "
+"Leaving the input blank will list all values."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:97
+msgid ""
+"Next, enter the Values that will make up the facets. Each value should be"
+" on a separate line."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:98
+msgid ""
+"Check the *Show all available values* box to get a sense of the data that"
+" is available for input. This will return existing values in the property"
+" you selected above. You may click the \"Add all\" button to populate the"
+" list of values."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:99
+msgid ""
+"The formatting of the value input will depend up on the query type "
+"selected above. If the query type is"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:101
+msgid ""
+"\"Is exactly\": enter a value that is an exact match to the property "
+"value."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:102
+msgid "\"Contains\": enter a value that matches any part of the property value."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:103
+msgid ""
+"\"Is resource with ID\": enter the resource ID followed by any value "
+"(usually the resource title), separated by a single space."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:104
+msgid ""
+"\"Has any value\": enter the property ID followed by any value (usually "
+"the property label), separated by a single space."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:106
+#: ../../docs/modules/facetedbrowse.md:122
+#: ../../docs/modules/facetedbrowse.md:138
+#: ../../docs/modules/facetedbrowse.md:154
+#: ../../docs/modules/facetedbrowse.md:160
+msgid "When you are satisfied with your settings, click the *Set facet* button."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:108
+msgid "**Resource class** allow visitors to narrow items by their resource class"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:110
+#: ../../docs/modules/facetedbrowse.md:126
+#: ../../docs/modules/facetedbrowse.md:142
+#: ../../docs/modules/facetedbrowse.md:158
+msgid "Give the facet a name (required)."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:112
+#: ../../docs/modules/facetedbrowse.md:128
+#: ../../docs/modules/facetedbrowse.md:144
+msgid "Set the Select type for the browse faceting:"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:118
+msgid "Select the Classes that will make up the facets from the dropdown menu."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:120
+msgid ""
+"Check the *Show all available classes* box to get a sense of the data "
+"that is available for input."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:124
+msgid ""
+"**Resource template** allow visitors to narrow items by their [resource "
+"template](../content/resource-template.md)."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:134
+msgid "Select the Resource templates that will make up the facets."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:136
+msgid ""
+"Check the *Show all available templates* box to get a sense of the data "
+"that is available for input."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:140
+msgid ""
+"**Item set** allow visitors to narrow items by [item set](../content"
+"/item-sets.md)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:150
+msgid "Select the item sets that will make up the facets."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:152
+msgid ""
+"Check the *Show all available item sets* box to get a sense of the data "
+"that is available for input."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:156
+msgid ""
+"**Full-text** adds a text search bar which will narrow down the displayed"
+" items based on what the visitor inputs."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:162
+msgid "Numeric Data Types"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:164
+msgid ""
+"If you are using the Numeric Data Types module, you will have additional "
+"facet types to work with, including Date after, Date before, Value "
+"greater than, Value less than, Duration greater than, Duration less than,"
+" Date in interval."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:166
+msgid ""
+"![Facet Type dropdown menu showing options including Numeric Date "
+"Types](../modules/modulesfiles/FacetedBrowse-NumericDataTypesSelect.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:168
+msgid ""
+"Once you have selected a facet type, you will be able to configure the "
+"facet to operate with the properties that use a numeric data type."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:170
+msgid ""
+"In the public view, the faceting will be controlled through a dropdown "
+"menu"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:172
+msgid ""
+"![Public Faceted Browse page with radio button selects for a list of "
+"Status values and a \"Birth Data Before\" dropdown menu in the left "
+"column. In the right column is a table of items with information for "
+"Title, Location, and Spouse](../modules/modulesfiles/FacetedBrowse-"
+"DatesPublic.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:174
+msgid "Columns"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:176
+msgid ""
+"If you do not set any columns, the items on the page will initially just "
+"display in the default format for your site (grid or list). Once "
+"filtered, items will display in a table. The display of the browse list "
+"of results defaults to include the title and description for the "
+"resource, just as is the case with other browse lists."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:178
+msgid ""
+"You can configure the information displayed about the results by adding "
+"columns of metadata to the display for your faceted browse."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:180
+msgid ""
+"Select a type of column to add from the dropdown menu: Title (link to "
+"resource); Value; Resource class; Resource template; Item set; ID."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:182
+msgid ""
+"Once the type is selected, click the *Add* button. A drawer will open "
+"with options to configure the column."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:184
+msgid "**Title (link to resource)**"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:186
+#: ../../docs/modules/facetedbrowse.md:208
+msgid ""
+"Give the column a name (required). When you are satisfied with "
+"configuring the column, click the *Set column* button."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:188
+msgid "**Value**"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:190
+msgid ""
+"Give the column a name (required). Select a Property to be displayed "
+"(required). Then, set the maximum number of values for that property. To "
+"display all values, set the input to blank."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:192
+#: ../../docs/modules/facetedbrowse.md:198
+#: ../../docs/modules/facetedbrowse.md:204
+msgid ""
+"When you are satisfied with configuring the column, click the *Set "
+"column* button."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:194
+msgid "**Resource class**"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:196
+msgid "Give the column a name (required)."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:200
+msgid "**Item set**"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:202
+msgid ""
+"Give the column a name. (Required) Set the maximum number of item sets to"
+" be displayed. To display all values, set the input to blank."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:206
+msgid "**ID**"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:210
+msgid "Add a Faceted Browse page to the Site Navigation."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:212
+msgid ""
+"Click on the Navigation tab for your site. Select *Faceted browse* from "
+"the *Add a custom link* list in the page sidebar."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:214
+msgid ""
+"![Custom links in the right drawer to add elements to the "
+"navigation](../modules/modulesfiles/FacetedBrowse-AddPageNav.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:216
+msgid ""
+"Give your custom link a label (required), and select from your dropdown "
+"list of faceted browse pages (required)."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:218
+msgid "You may add as many Faceted browse custom links as you desire."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:220
+msgid ""
+"Drag and drop your pages into the desired place in your site navigation, "
+"and then save your work."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:222
+msgid "Public views"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:224
+msgid "The public view of a faceted browse should look familiar to many viewers:"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:226
+msgid ""
+"![Faceted browse page with a list of events which happened on the "
+"National Mall. On the left side of the image is a list of eras with radio"
+" buttons.](../modules/modulesfiles/FacetedBrowse_publicView.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:228
+msgid ""
+"In this image, the facet is Era, displayed as a single-choice list. The "
+"items for this page are displayed in columns with the title and era for "
+"each item."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:230
+msgid "Multiple categories on one page"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:232
+msgid ""
+"When there are multiple categories on a page, it will load with all of "
+"the resources from all categories displayed and the categories available "
+"in a submenu."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:234
+msgid ""
+"![Faceted browse page with two categories. The categories are highlighted"
+" in a red annotation box labelled \"Categories\"](../modules/modulesfiles"
+"/FacetedBrowse-multiCatView1.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:236
+msgid ""
+"Once a user clicks on a category, the resource list will change to "
+"display only that category, and the facets will replace the categories in"
+" the submenu. Users can use a \"back\" button on the page to return to "
+"the full list of categories."
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:238
+msgid ""
+"![A faceted browse page with facets visible. The category heading shows "
+"up above the facets. Over that is a button labelled \"back.\" Annotations"
+" indicate the button, category, and facet "
+"headings.](../modules/modulesfiles/FacetedBrowse-multiCatView1.png)"
+msgstr ""
+
+#~ msgid ""
+#~ "The Faceted Browse module offers "
+#~ "filtering and sorting that helps users"
+#~ " narrow their results while browsing "
+#~ "resources. With this module, site "
+#~ "administrators are able to configure "
+#~ "faceted browse pages and add them "
+#~ "to their sites. Then, end users "
+#~ "will be able to browse through "
+#~ "categories of resources and use the "
+#~ "facets to narrow the results in a"
+#~ " logical and intuitive manner."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the Facet Browse module is "
+#~ "active, then a tab for Faceted "
+#~ "Browse will appear in the context "
+#~ "menu for every site. Clicking on "
+#~ "this tab will take you to a "
+#~ "list of all of your Faceted Browse"
+#~ " pages for that site."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The administrative user must create "
+#~ "Faceted Browse pages before they can "
+#~ "be added to the site's navigation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create a new page by clicking the"
+#~ " *Add a page* button. Give the "
+#~ "page a title, and then select the"
+#~ " resource type that you would like"
+#~ " to browse (Items, Item Sets, or "
+#~ "Media)."
+#~ msgstr ""
+
+#~ msgid "Save the page and select *Stay on this page*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are returning to edit "
+#~ "existing pages, you can also save "
+#~ "your edits and return to the list"
+#~ " of pages by selecting Save and "
+#~ "*Return to page*."
+#~ msgstr ""
+
+#~ msgid "Adding and Editing Categories"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once the page has been created, "
+#~ "the user can create a Category, "
+#~ "which is a logical grouping of "
+#~ "resources that can be described using"
+#~ " faceted classification."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the search query interface to "
+#~ "set the pool of resources that "
+#~ "users will browse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You may repeat the category creation "
+#~ "and configuration process to add as "
+#~ "many categories to your page as "
+#~ "you like."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select a type of facet to add: "
+#~ "Value; Resource class; Resource Template; "
+#~ "Item Set; Full text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once the type is selected, click "
+#~ "the *Add* button. A drawer will "
+#~ "open with options to configure the "
+#~ "facet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Configure Facet draw for the Values"
+#~ " facet type](../modules/modulesfiles/FacetedBrowse-"
+#~ "ConfigureFacet.png)"
+#~ msgstr ""
+
+#~ msgid "You can add more than one type of facet to each page."
+#~ msgstr ""
+
+#~ msgid "Select a property for the facet."
+#~ msgstr ""
+
+#~ msgid "Use the Query type to narrow the facet:"
+#~ msgstr ""
+
+#~ msgid "Is exactly;"
+#~ msgstr ""
+
+#~ msgid "Is not exactly;"
+#~ msgstr ""
+
+#~ msgid "Contains;"
+#~ msgstr ""
+
+#~ msgid "Does not contain;"
+#~ msgstr ""
+
+#~ msgid "Is resource with ID;"
+#~ msgstr ""
+
+#~ msgid "Is not resource with ID;"
+#~ msgstr ""
+
+#~ msgid "Has any value;"
+#~ msgstr ""
+
+#~ msgid "Has no values;"
+#~ msgstr ""
+
+#~ msgid "Single (list)"
+#~ msgstr ""
+
+#~ msgid "Multiple (list)"
+#~ msgstr ""
+
+#~ msgid "Single Dropdown"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enter the Values that will make up"
+#~ " the facets. Each value should be "
+#~ "on a separate line. The format of"
+#~ " each value depends on the query "
+#~ "type you have selected above. If "
+#~ "the query type is"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check the *Show all available values*"
+#~ " box to get a sense of the "
+#~ "data that is available for input."
+#~ msgstr ""
+
+#~ msgid "Select the Classes that will make up the facets."
+#~ msgstr ""
+
+#~ msgid "**Resource template**"
+#~ msgstr ""
+
+#~ msgid "Select the Item sets that will make up the facets."
+#~ msgstr ""
+
+#~ msgid "**Full-text**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using the Numerica Data"
+#~ " Types module, you will have "
+#~ "additional facet types to work with, "
+#~ "including Date after, Date before, Value"
+#~ " greater than, Value less than, "
+#~ "Duration greater than, Duration less "
+#~ "than, Date in interval."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Public Faceted Browse page with radio"
+#~ " button selects for a list of "
+#~ "Status values and a \"Birth Data "
+#~ "Before\" dropdown menu in the left "
+#~ "column. In the right column is a"
+#~ " table of items with information for"
+#~ " Title, Location, and "
+#~ "Spouse](../modules/modulesfiles/FacetedBrowse-"
+#~ "SelectFacetType.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The display of the browse list of"
+#~ " results defaults to include the "
+#~ "title and description for the resource,"
+#~ " just as is the case with other"
+#~ " browse lists. You can configure the"
+#~ " information displayed about the results"
+#~ " by adding columns of metadata to "
+#~ "the display for your faceted browse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select a Property to be displayed "
+#~ "(required). Then, set the maximum number"
+#~ " of values for that property. To "
+#~ "display all values, set the input "
+#~ "to blank."
+#~ msgstr ""
+
+#~ msgid "Give the column a name. (Required)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set the maximum number of item "
+#~ "sets to be displayed. To display "
+#~ "all values, set the input to "
+#~ "blank."
+#~ msgstr ""
+

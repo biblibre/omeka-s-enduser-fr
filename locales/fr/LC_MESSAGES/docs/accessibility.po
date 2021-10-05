@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-28 20:27+0000\n"
+"PO-Revision-Date: 2021-06-29 13:02+0200\n"
+"Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
+"Language: fr_FR\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: ../../docs/accessibility.rst:2
+msgid "Accessibility Statement"
+msgstr "Déclaration d'accessibilité"
+
+#: ../../docs/accessibility.rst:4
+msgid ""
+"The Omeka team is committed to making Omeka S an accessible option for "
+"building collections and exhibits online. We are working to make the "
+"core code accessible and will continue to make accessibility for persons "
+"with disabilities a priority as we develop the code. Omeka strives to "
+"adhere to `W3C web design standards <http://www.w3.org/standards/>`_ and "
+"to be compliant with `Section 508 <http://www.section508.gov/>`_ of the "
+"Americans with Disabilities Act (pdf)."
+msgstr ""
+"L'équipe Omeka s'est engagée à faire d'Omeka S une option accessible "
+"pour la création de collections et d'expositions en ligne. Nous "
+"travaillons à rendre le code principal accessible et continuerons de "
+"faire de l'accessibilité pour les personnes en situation d'handicap une "
+"priorité à mesure que nous élaborons le code. Omeka s'efforce de "
+"respecter `les normes de conception Web du W3C <http://www.w3.org/"
+"standards/>`_ et de se conformer à la `Section 508 <http://www."
+"section508.gov/>`_ de la loi américaine sur les personnes handicapées "
+"(pdf)."
+
+#: ../../docs/accessibility.rst:12
+msgid "For more information, please review the following reports:"
+msgstr "Pour plus d'informations, veuillez lire les rapports suivants:"
+
+#: ../../docs/accessibility.rst:14
+msgid ""
+"Omeka S version 3.x :download:`Accessibility Conformance Report, using "
+"VPAT 2.4 Revised International Standards <files/OmekaS3x_ACR.pdf>` "
+"(pdf), October 2020."
+msgstr ""
+"Omeka S version 3.x :download:`Accessibility Conformance Report, using "
+"VPAT 2.4 Revised International Standards <files/OmekaS3x_ACR.pdf>` "
+"(pdf), Octobre 2020."
+
+#: ../../docs/accessibility.rst:15
+msgid ""
+"Omeka S version 2.x :download:`Accessibility Conformance Report using "
+"VPAT version 2.0 <files/VPAT_OmekaS2-0-1.pdf>` (pdf), August 2019."
+msgstr ""
+"Omeka S version 2.x :download:`Accessibility Conformance Report using "
+"VPAT version 2.0 <files/VPAT_OmekaS2-0-1.pdf>` (pdf), Août 2019."
+
+#: ../../docs/accessibility.rst:16
+msgid ""
+"Omeka S version 1.x :download:`Accessibility Conformance Report using "
+"VPAT version 1.1 <files/VPAT2.0-OmekaS1-1.pdf>` (pdf), April 2018."
+msgstr ""
+"Omeka S version 1.x :download:`Accessibility Conformance Report using "
+"VPAT version 1.1 <files/VPAT2.0-OmekaS1-1.pdf>` (pdf), Avril 2018."
+
+#: ../../docs/accessibility.rst:18
+msgid "The following statements apply to Omeka S version 1.0.1 and higher:"
+msgstr ""
+"Les instructions suivantes s'appliquent à Omeka S version 1.0.1 et "
+"ultérieure:"
+
+#: ../../docs/accessibility.rst:21
+msgid "Front End (Public view)"
+msgstr "Front End (vue publique)"
+
+#: ../../docs/accessibility.rst:23
+msgid ""
+"The themes produced for Omeka S by RRCHNM have has the following "
+"features to improve accessibility:"
+msgstr ""
+"Les thèmes produits pour Omeka S par RRCHNM ont les caractéristiques "
+"suivantes pour améliorer l’accessibilité:"
+
+#: ../../docs/accessibility.rst:25
+msgid ""
+"`ARIA <http://www.w3.org/WAI/intro/aria>`_ (Accessible Rich Internet "
+"Applications) landmarks for tabbing through page content, when not using "
+"a mouse or using a screen reader;"
+msgstr ""
+"Les repères `ARIA <http://www.w3.org/WAI/intro/aria>`_ (Accessible Rich "
+"Internet Applications) permettant de parcourir le contenu de la page "
+"sans utiliser de souris ni de lecteur d'écran;"
+
+#: ../../docs/accessibility.rst:26 ../../docs/accessibility.rst:36
+msgid "Semantic HTML5 markup."
+msgstr "Balisage HTML5 sémantique."
+
+#: ../../docs/accessibility.rst:28
+msgid ""
+"Please note that although the core code for Omeka S conform to the above "
+"standards, installations of Omeka S which have been customized or which "
+"are using non-RRCHNM modules and themes may lack some or all of these "
+"options. While we encourage developers to consider accessibility, we "
+"cannot guarantee that their code includes ARIA Landmarks, SkipNav, or "
+"other accessibility considerations."
+msgstr ""
+"Veuillez noter que, bien que le code de base pour Omeka S soit conforme "
+"aux normes ci-dessus, les installations d’Omeka S qui ont été "
+"personnalisées ou qui utilisent des modules et des thèmes non RRCHNM "
+"peuvent manquer de tout ou partie de ces options. Bien que nous "
+"encourageons les développeurs à prendre en compte l'accessibilité, nous "
+"ne pouvons pas garantir que leur code inclut les points de repère ARIA, "
+"SkipNav ou d'autres considérations relatives à l'accessibilité."
+
+#: ../../docs/accessibility.rst:31
+msgid "Back End (Administrative view)"
+msgstr "Back End (vue administrative)"
+
+#: ../../docs/accessibility.rst:33
+msgid ""
+"The administrative dashboard of Omeka S has the following features for "
+"accessibility:"
+msgstr ""
+"Le tableau de bord administratif d'Omeka S présente les caractéristiques "
+"d'accessibilité suivantes:"
+
+#: ../../docs/accessibility.rst:35
+msgid ""
+"ARIA landmarks for screen readers on the Admin Dashboard, designating "
+"the header, navigation, main content, and footers."
+msgstr ""
+"Points de repère ARIA pour les lecteurs d'écran sur le tableau de bord "
+"de l'administrateur, désignant l'en-tête, la navigation, le contenu "
+"principal et les pieds de page."

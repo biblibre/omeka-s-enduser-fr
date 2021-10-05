@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-27 10:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../docs/modules/extractmetadata.md:4
+msgid "Extract Metadata"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:6
+msgid ""
+"Once [installed](index.md#installing-modules) and active, the Extract "
+"Metadata module allows site administrators to extract embedded metadata "
+"from media."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:8
+msgid "Configuring the module"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:10
+msgid "When configuring the module, you can:"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:12
+msgid ""
+"View and enable/disable extractors: You can choose from four different "
+"extractors, including ExifTool, Tika, Exif, and getID3."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:13
+msgid ""
+"View and enable/disable mappers: You can either select to enable no "
+"mappers or JSON Pointer."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:14
+msgid ""
+"Configure the metadata crosswalk for the JSON Pointer mapper (if "
+"enabled).If you decided to use the JSON pointer mapper, you will need to "
+"define the metadata crosswalk."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:15
+msgid "Click _Add map+_."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:16
+msgid ""
+"Then you will be asked to select the Resource, Extractor, and Property "
+"from dropdown menus."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:17
+msgid ""
+"You will also to provide a Pointer formatted using a JSON pointer as "
+"defined by the [IETF "
+"standard](https://datatracker.ietf.org/doc/html/rfc6901)."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:18
+msgid ""
+"If you would like to replace the metadata values through this pointer, "
+"make sure to select the checkbox to the right of these fields."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:20
+msgid ""
+"When you are finished configuring the module, click the Submit button in "
+"the upper right corner of the screen."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:22
+msgid ""
+"![Extract Metadata module configuration view with JSON Pointer crosswalk "
+"and submit button "
+"indicated](../modules/modulesfiles/extractMetadata_config.png)"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:25
+msgid "Adding media"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:27
+msgid ""
+"Once the module is configured it will act on medias as you add it to a an"
+" item or as an asset. The module will automatically:"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:29
+msgid "Extract metadata from the file using enabled extractors;"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:30
+msgid "Save the metadata alongside the media;"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:31
+msgid "Map metadata to resource values."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:33
+msgid "You can view the extracted metadata on the media show and edit pages."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:35
+msgid "Editing media and items"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:37
+msgid ""
+"A user can edit media metadata attached to items by directly editing the "
+"individual item or by using the batch edit functions."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:39
+msgid "Editing Items"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:40
+msgid ""
+"When editing a media/item, a user can choose to perform a number of "
+"actions, accessed through the Extract Metadata tab on the Item edit view."
+" Select one of the four options from the dropdown menu."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:42
+msgid "Refresh metadata: (re)extract metadata from files;"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:43
+msgid ""
+"Refresh and map metadata: (re)extract metadata from files and map "
+"metadata to resource values;"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:44
+msgid "Map metadata: Map extracted metadata to resource values;"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:45
+msgid "Delete metadata: Delete extracted metadata."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:47
+msgid ""
+"![Item edit view with the Extract metadata tab active and the actions "
+"dropdown menu open](../modules/modulesfiles/extractMetadata_actions.png)"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:49
+msgid ""
+"Be sure to click the \"Save\" button in the top right corner of the "
+"screen to execute the selected action."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:51
+msgid "Batch Editing"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:53
+msgid ""
+"From the Items Browse screen, selecting the items you'd like to batch "
+"edit. From the batch edit page, you can select any of the four action "
+"options from the Extract metadata dropdown menu. This will perform the "
+"action on all items selected for inclusion in the batch edit."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:55
+msgid ""
+"![Batch edit view with Extract metadata dropdown "
+"open](../modules/modulesfiles/extractmetadata_batchedit.png)"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:58
+msgid "Extractors"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:60
+msgid ""
+"Extractors extract metadata from files. Note that extractors must be "
+"enabled on the module configuration page. This module comes with four "
+"extractors, but more can be added depending on your need."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:62
+msgid "ExifTool"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:64
+msgid ""
+"Used to extract many types of metadata from many types of files. Requires"
+" the [ExifTool](https://exiftool.org/) command-line application."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:66
+msgid "Exif"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:68
+msgid ""
+"Used to extract EXIF metadata that is commonly found in JPEG and TIFF "
+"files. Requires PHP's [exif](https://www.php.net/manual/en/book.exif.php)"
+" extension."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:70
+msgid "getID3"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:72
+msgid ""
+"Used to extract many types of metadata from many types of files. Uses the"
+" [getID3](https://github.com/JamesHeinrich/getID3) PHP library, which "
+"comes withthis module."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:74
+msgid "Tika"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:76
+msgid ""
+"Used to extract many types of metadata from many types of files. Requires"
+" the [Apache Tika](https://tika.apache.org/) content analysis toolkit. "
+"Java must be installed and the path to the `tika-app-*.jar` file must be "
+"configured in `config/module.config.php` under "
+"`[extract_metadata_extractor_config][tika][jar_path]`."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:78
+msgid "Mappers"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:80
+msgid ""
+"Mappers map extracted metadata to resource values. Note that a mapper "
+"must be enabled on the module configuration page. This module comes with "
+"one mapper, but more can be added depending on your need."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:82
+msgid "JSON Pointer"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:84
+msgid ""
+"Used to map metadata to resource values using [JSON "
+"pointers](https://datatracker.ietf.org/doc/html/rfc6901). You must define"
+" your own metadata crosswalk in the module configuration page under "
+"\"JSON Pointer crosswalk\"."
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:86
+msgid ""
+"One common example is to map a JPEG file's creation date to Dublin Core's"
+" \"Date Created\" property:"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:87
+msgid "Resource: [Media or Item]"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:88
+msgid "Extractor: \"Exif\""
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:89
+msgid "Pointer: `/EXIF/DateTimeOriginal`"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:90
+msgid "Property: \"Dublin Core : Date Created\""
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:91
+msgid "Replace values: [checked or unchecked]"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:93
+msgid ""
+"Note that the pointer points to the DateTimeOriginal value in the Exif "
+"metadata output, which you can view in a JPEG media's \"Extract "
+"metadata\" section. Once you've saved this map, perform the \"Map "
+"metadata\" action as described above and, if your JPEG file includes "
+"DateTimeOriginal, the media/item should now have a \"Date Created\" "
+"value."
+msgstr ""
+
