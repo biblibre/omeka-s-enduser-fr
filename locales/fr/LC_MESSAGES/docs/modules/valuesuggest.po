@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:23+0000\n"
+"POT-Creation-Date: 2022-09-01 13:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,13 +24,12 @@ msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:3
 msgid ""
-"The [Value Suggest "
-"module](https://omeka.org/s/modules/ValueSuggest){target=_blank} adds an "
-"auto-complete feature to specific properties in a resource template, and "
-"draws on controlled vocabularies (see the end of this page for a complete"
-" list) to help users fill them out. Value Suggest appears when a user is "
-"editing the metadata of a resource (an item, a piece of media, or an item"
-" set) that uses the enabled resource template."
+"The [Value Suggest module](https://omeka.org/s/modules/ValueSuggest) adds"
+" an auto-complete feature to specific properties in a resource template, "
+"and draws on controlled vocabularies (see the end of this page for a "
+"complete list) to help users fill them out. Value Suggest appears when a "
+"user is editing the metadata of a resource (an item, a piece of media, or"
+" an item set) that uses the enabled resource template."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:5
@@ -241,7 +240,7 @@ msgstr ""
 msgid ""
 "[Dublin Core (DCMI Metadata "
 "Terms)](https://www.dublincore.org/specifications/dublin-core/dcmi-"
-"terms/){target=_blank}"
+"terms/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:63
@@ -261,7 +260,7 @@ msgid "Types."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:68
-msgid "[Gemeinsame Normdatei (GND)](http://lobid.org/gnd){target=_blank}"
+msgid "[Gemeinsame Normdatei (GND)](http://lobid.org/gnd)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:70
@@ -271,7 +270,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:72
-msgid "[GeoNames](http://www.geonames.org/){target=_blank}"
+msgid "[GeoNames](http://www.geonames.org/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:74
@@ -279,7 +278,7 @@ msgid "The GeoNames geographical database."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:76
-msgid "[The Getty Vocabularies](http://vocab.getty.edu/){target=_blank}"
+msgid "[The Getty Vocabularies](http://vocab.getty.edu/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:78
@@ -295,7 +294,7 @@ msgid "The Union List of Artist Names (ULAN)."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:82
-msgid "[Homosaurus](http://homosaurus.org/){target=_blank}"
+msgid "[Homosaurus](http://homosaurus.org/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:84
@@ -303,7 +302,7 @@ msgid "Homosaurus.org linked data vocabulary."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:86
-msgid "[IdRef](https://www.idref.fr/){target=_blank}"
+msgid "[IdRef](https://www.idref.fr/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:88
@@ -330,16 +329,15 @@ msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:93
 msgid ""
-"Subject headings [RAMEAU](https://rameau.bnf.fr){target=_blank} "
-"(Répertoire d’autorité-matière encyclopédique et alphabétique unifié, or "
-"Unified encyclopaedic and alphabetical list of subject authorities)"
+"Subject headings [RAMEAU](https://rameau.bnf.fr) (Répertoire "
+"d’autorité-matière encyclopédique et alphabétique unifié, or Unified "
+"encyclopaedic and alphabetical list of subject authorities)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:94
 msgid ""
-"Subject headings "
-"[F-MeSH](http://mesh.inserm.fr/FrenchMesh){target=_blank} (French version"
-" of the medical subject headings)"
+"Subject headings [F-MeSH](http://mesh.inserm.fr/FrenchMesh) (French "
+"version of the medical subject headings)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:95
@@ -371,9 +369,7 @@ msgid "Libraries (RCR: Répertoire des centres de ressources)."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:103
-msgid ""
-"[Library of Congress Linked Data "
-"Service](http://id.loc.gov/){target=_blank}"
+msgid "[Library of Congress Linked Data Service](http://id.loc.gov/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:105
@@ -449,7 +445,7 @@ msgid "Thesaurus for Graphic Materials."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:124
-msgid "[Nuovo Soggettario](https://thes.bncf.firenze.sbn.it/){target=_blank}"
+msgid "[Nuovo Soggettario](https://thes.bncf.firenze.sbn.it/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:126
@@ -507,7 +503,7 @@ msgstr ""
 #: ../../docs/modules/valuesuggest.md:140
 msgid ""
 "[OCLC Metadata "
-"Services](https://www.oclc.org/en/services/a-z.html/:F2664:/){target=_blank}"
+"Services](https://www.oclc.org/en/services/a-z.html/:F2664:/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:142
@@ -519,7 +515,7 @@ msgid "The Virtual International Authority File (VIAF)."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:145
-msgid "[PACTOLS of Frantiq](https://pactols.frantiq.fr/){target=_blank}"
+msgid "[PACTOLS of Frantiq](https://pactols.frantiq.fr/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:147
@@ -531,7 +527,7 @@ msgid "The subject group only."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:150
-msgid "[PeriodO](http://perio.do/en/){target=_blank}"
+msgid "[PeriodO](http://perio.do/en/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:152
@@ -539,9 +535,7 @@ msgid "A gazetteer of period definitions for linking and visualizing data."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:154
-msgid ""
-"[RDA Value "
-"Vocabularies](http://www.rdaregistry.info/termList/){target=_blank}"
+msgid "[RDA Value Vocabularies](http://www.rdaregistry.info/termList/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:156
@@ -769,7 +763,7 @@ msgid "Storage Medium Format."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:219
-msgid "[RightsStatements.org](https://rightsstatements.org/){target=_blank}"
+msgid "[RightsStatements.org](https://rightsstatements.org/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:221
@@ -782,7 +776,7 @@ msgstr ""
 #: ../../docs/modules/valuesuggest.md:223
 msgid ""
 "[Tesauros del patrimonio cultural de "
-"España](http://tesauros.mecd.es/tesauros){target=_blank}"
+"España](http://tesauros.mecd.es/tesauros)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:225
@@ -822,7 +816,7 @@ msgid "Diccionario de Mobiliario."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:235
-msgid "[UNESCO](http://skos.um.es/){target=_blank}"
+msgid "[UNESCO](http://skos.um.es/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:237
@@ -840,7 +834,7 @@ msgstr ""
 #: ../../docs/modules/valuesuggest.md:241
 msgid ""
 "[Les vocabulaires du Ministère de la "
-"Culture](http://data.culture.fr/thesaurus/){target=_blank}"
+"Culture](http://data.culture.fr/thesaurus/)"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:243
@@ -1243,5 +1237,97 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Vocabulaire pour les techniques photographiques"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The [Value Suggest "
+#~ "module](https://omeka.org/s/modules/ValueSuggest){target=_blank} "
+#~ "adds an auto-complete feature to "
+#~ "specific properties in a resource "
+#~ "template, and draws on controlled "
+#~ "vocabularies (see the end of this "
+#~ "page for a complete list) to help"
+#~ " users fill them out. Value Suggest"
+#~ " appears when a user is editing "
+#~ "the metadata of a resource (an "
+#~ "item, a piece of media, or an "
+#~ "item set) that uses the enabled "
+#~ "resource template."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Dublin Core (DCMI Metadata "
+#~ "Terms)](https://www.dublincore.org/specifications/dublin-core"
+#~ "/dcmi-terms/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[Gemeinsame Normdatei (GND)](http://lobid.org/gnd){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[GeoNames](http://www.geonames.org/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[The Getty Vocabularies](http://vocab.getty.edu/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[Homosaurus](http://homosaurus.org/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[IdRef](https://www.idref.fr/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Subject headings "
+#~ "[RAMEAU](https://rameau.bnf.fr){target=_blank} (Répertoire "
+#~ "d’autorité-matière encyclopédique et alphabétique"
+#~ " unifié, or Unified encyclopaedic and "
+#~ "alphabetical list of subject authorities)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Subject headings "
+#~ "[F-MeSH](http://mesh.inserm.fr/FrenchMesh){target=_blank} "
+#~ "(French version of the medical subject"
+#~ " headings)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Library of Congress Linked Data "
+#~ "Service](http://id.loc.gov/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[Nuovo Soggettario](https://thes.bncf.firenze.sbn.it/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[OCLC Metadata "
+#~ "Services](https://www.oclc.org/en/services/a-z.html/:F2664:/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[PACTOLS of Frantiq](https://pactols.frantiq.fr/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[PeriodO](http://perio.do/en/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[RDA Value "
+#~ "Vocabularies](http://www.rdaregistry.info/termList/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[RightsStatements.org](https://rightsstatements.org/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Tesauros del patrimonio cultural de "
+#~ "España](http://tesauros.mecd.es/tesauros){target=_blank}"
+#~ msgstr ""
+
+#~ msgid "[UNESCO](http://skos.um.es/){target=_blank}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Les vocabulaires du Ministère de la "
+#~ "Culture](http://data.culture.fr/thesaurus/){target=_blank}"
 #~ msgstr ""
 
