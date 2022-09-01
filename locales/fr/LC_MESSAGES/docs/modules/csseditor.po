@@ -59,7 +59,7 @@ msgid ""
 "![Screenshot of Omeka S site context menu witth CSS Editor navigation item "
 "highlighted.](modulesfiles/csseditor_contextmenu.jpg)"
 msgstr ""
-"! [Capture d’écran du menu contextuel du site Omeka S avec l’onglet de "
+"![Capture d’écran du menu contextuel du site Omeka S avec l’onglet de "
 "l’éditeur CSS mis en évidence.](modulesfiles/csseditor_contextmenu.jpg)"
 
 #: ../../docs/modules/csseditor.md:13

@@ -178,7 +178,7 @@ msgid ""
 "resource-template.md)."
 msgstr ""
 "Les vocabulaires personnalisés sont appliqués par l’intermédiaire des "
-"[modèles de ressources] (../content/resource-template.md)."
+"[modèles de ressources](../content/resource-template.md)."
 
 #: ../../docs/modules/customvocab.md:38
 msgid ""
