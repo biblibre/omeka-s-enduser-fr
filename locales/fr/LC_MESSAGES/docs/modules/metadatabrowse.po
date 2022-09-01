@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 22:35+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: 2021-08-02 09:59+0200\n"
+"Last-Translator: \n"
+"Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
-"X-Generator: Poedit 2.3\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/metadatabrowse.md:1
 msgid "Metadata Browse"
@@ -25,292 +25,565 @@ msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:3
 msgid ""
-"The Metadata Browse module makes it possible to browse all resources that "
-"share a value for a particular metadata property."
+"The [Metadata Browse "
+"module](https://omeka.org/s/modules/MetadataBrowse){target=_blank} makes "
+"it possible to browse all resources that share a value for a particular "
+"metadata property."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:5
 msgid ""
-"It does this by adding a link below selected properties that reads \"See all "
-"items with this value\"; when clicked, the module returns the results of that "
-"search (property value is equal to input). In function it is similar to the "
-"Omeka Classic plugin [Search by Metadata](http://omeka.org/add-ons/plugins/"
-"search-by-metadata/)."
+"It does this by either turning selected properties into a link, or by "
+"adding a link below properties that reads \"See all items with this "
+"value\". These links appear only on item view pages. When the link is "
+"clicked, the module returns the results of that search (property value is"
+" equal to input). It is similar to the Omeka Classic plugin [Search by "
+"Metadata](http://omeka.org/add-ons/plugins/search-by-"
+"metadata/){target=_blank}."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:7
+#: ../../docs/modules/metadatabrowse.md:66
 msgid ""
-"The module's browse function is applied on the admin side when the module is "
-"active, and can be enabled on the public side of individual sites,  on a site-"
-"by-site basis."
+"![The item \"Sense and Sensibility\". The date property displays as a "
+"link, and is indicated with a blue arrow.](../modules/modulesfiles/mdbr-"
+"directlinkYes.png)"
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:9
-msgid "Configuration Options"
-msgstr "Options de configuration"
-
-#: ../../docs/modules/metadatabrowse.md:10
 msgid ""
-"Once you have installed and activated the module, you can configure it from "
-"the Modules tab of the left-hand navigation. Click the Configure button, with "
-"the wrench icon, to the right of the Metadata Browse label."
+"The module adds a site-specific configuration menu that allows you to "
+"make properties browseable on each site. It can also make specific "
+"properties browseable in the admin interface. The choice of directly-"
+"linked properties, or the display of a separate link, is a universal "
+"setting and cannot be changed from site to site."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:12
+#: ../../docs/modules/metadatabrowse.md:11
 msgid ""
-"The module has two checkbox configuration options, Global Configuration and "
-"Direct Links. If Use global configuration is checked, you will also be able "
-"to select properties from a right-hand sidebar."
+"These settings are only available to users at the level of Global Admin, "
+"Supervisor, or Editor. Site Managers cannot change site-specific "
+"settings."
+msgstr ""
+
+#: ../../docs/modules/metadatabrowse.md:13
+msgid "Metadata Browse on sites"
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:14
 msgid ""
-"![Metadata Browse configuration settings](../modules/modulesfiles/"
-"mdbr_config2.png)"
+"Once the module is activated, it will show up in the context menu for "
+"[each of the sites on your installation](../sites/index.md). To set up "
+"Metadata Browse for a site, click on the Metadata Browse tab in the "
+"site's context menu."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:16
-msgid "Global Configuration checkbox"
-msgstr "Case à cocher de configuration globale"
-
-#: ../../docs/modules/metadatabrowse.md:17
 msgid ""
-"The \"Use global configuration on admin side\" checkbox determines how the "
-"properties available for *admin side* metadata browsing (on items and item "
-"sets views) are determined: by aggregating the properties selected on all of "
-"the sites in the installation (unchecked) or limited to only the properties."
+"![A red arrow points to the Metadata Browse "
+"tab](../modules/modulesfiles/mdbr_sites1.png)"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:19
+#: ../../docs/modules/metadatabrowse.md:18
 msgid ""
-"When the box is *unchecked*, metadata browse on the admin side (and only the "
-"admin side) aggregates the metadata browse settings for all individual sites "
-"and applies them to every item and item set in the installation."
+"On the page that displays, the main section displays all currently "
+"enabled properties. Select properties, by clicking on them in the "
+"sidebar, to enable metadata browsing."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:21
-msgid ""
-"Leaving the box unchecked allows installation users to browse the properties "
-"on the admin side which they have set as key on their sites. For example, a "
-"site about various artists might have the Metadata Browse enabled for "
-"'Creator' (Dublin Core), while a site collecting conference papers might "
-"enable Metadata Browse for 'presented at' (Bibliographic Ontology); with the "
-"box unchecked, both 'Creator' and 'presented at' would have Metadata Browse "
-"enabled on the admin views of all items and item sets on the installation."
+#: ../../docs/modules/metadatabrowse.md:20
+msgid "![Metadata Browse site options](../modules/modulesfiles/mdbr_sites2.png)"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:23
+#: ../../docs/modules/metadatabrowse.md:22
 msgid ""
-"When the box is *checked*, individual site settings still apply on the public "
-"views of those sites, but are not used on the admin side. Instead, only those "
-"properties selected in the Metadata Browse module configuration settings (the "
-"current page) are used on the admin side. So if the global admin of the "
-"installation example above checked the Global Configuration box and only "
-"enabled the properties 'Title' and 'Creator', then the 'presented at' "
-"property would not include a \"See all items with this value\" option on the "
-"admin side item browse."
+"Delete any selected properties by clicking the trash can icon. If you "
+"accidentally click the delete button, simply click the undo button that "
+"replaces it to keep that property."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:25
+#: ../../docs/modules/metadatabrowse.md:24
 msgid ""
-"Checking the box can be used to limit the number of properties which have "
-"Metadata Browse enabled on the admin side. If, for example, the site about "
-"various artists mentioned above was using Metadata Browse on every possible "
-"property, those Metadata Browse links would still be visible on their site, "
-"but would not show up on the admin side. Instead, the Global Administrator(s) "
-"could decided which properties to enable browsing on for the admin side, thus "
-"reducing visual clutter."
+"![A property set to be deleted, showing the undo "
+"button](../modules/modulesfiles/mdbr_sites3.png)"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:27
-msgid "Direct Links checkbox"
+#: ../../docs/modules/metadatabrowse.md:26
+msgid "Remember to click the \"Save\" button to save changes."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:28
-msgid ""
-"The \"Direct Links\" checkbox sets how metadata browse links are displayed on "
-"both the admin side and across all sites."
+msgid "Public view"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:30
+#: ../../docs/modules/metadatabrowse.md:29
 msgid ""
-"If this box is unchecked, the properties which have been selected for "
-"metadata browse will display with a red textual link under them which reads "
-"\"see all items with this value\". Clicking on the link text opens the page "
-"of items with matching metadata."
+"Once you have selected properties and saved changes, visitors to your "
+"site can use the selected properties to browse all items on the site with"
+" matching values."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:32
+#: ../../docs/modules/metadatabrowse.md:31
 msgid ""
-"In this example, metadata browse is active for the \"Date of Publication\" "
-"property:"
+"The item view will either display with the property as a link, or with a "
+"link reading \"See all items with this value\", depending on whether the "
+"[Direct Links option is checked](#direct-links) in the global module "
+"configuration."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:34
+#: ../../docs/modules/metadatabrowse.md:33
 msgid ""
-"![The item *Sense and Sensibility*. The date property has text as described, "
-"and is indicated with a blue arrow.](../modules/modulesfiles/mdbr-"
-"directlinkNo.png)"
+"In the example below, Metadata Browse is available for Title, Date of "
+"Publication, and Publisher, and the \"Direct Links\" setting is "
+"unchecked."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:36
+#: ../../docs/modules/metadatabrowse.md:35
 msgid ""
-"If this box is checked, the values of the properties themselves become the "
-"link, similar to how a property populated by a resource displays. In this "
-"case, clicking on the property value itself opens the page of items with "
-"matching metadata."
+"![An item with arrows pointing to the links for \"see all items with this"
+" value\"](../modules/modulesfiles/mdbr_public1.png)"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:38
+#: ../../docs/modules/metadatabrowse.md:37
 msgid ""
-"![The item *Sense and Sensibility*. The date property displays as a link, and "
-"is indicated with a blue arrow.](../modules/modulesfiles/mdbr-directlinkYes."
-"png)"
+"Clicking on \"See all items with this value\" under creator takes a "
+"visitor to a page of exact match search results. For example, this is the"
+" result for clicking \"See all items with this value\" for the Publisher "
+"property in the previous image:"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:40
-msgid "Choose properties"
+#: ../../docs/modules/metadatabrowse.md:39
+msgid ""
+"![An Items search result screen showing that the search is \"Publisher is"
+" exactly: Thomas Egerton\" with two results "
+"visible](../modules/modulesfiles/mdbr_public2.png)"
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:41
+#, fuzzy
+msgid "Admin configuration"
+msgstr "Options de configuration"
+
+#: ../../docs/modules/metadatabrowse.md:42
 msgid ""
-"Selecting properties for Metadata Browse in the Module configuration will "
-"only work if the *use global configuration*  checkbox is checked (see [above]"
-"(#global-configuration-checkbox))."
+"Global site settings and admin-side settings can be changed from the "
+"module's configuration page, under the Modules tab of the left-hand "
+"navigation. Click the \"Configure\" button, with the wrench icon, to the "
+"right of the Metadata Browse label."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:43
+#: ../../docs/modules/metadatabrowse.md:44
 msgid ""
-"Select the properties from the sidebar by clicking on the desired property. "
-"It will load under the prompt \"Choose properties\"."
+"The module has two checkbox configuration options: Global Configuration "
+"and Direct Links."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:45
+#: ../../docs/modules/metadatabrowse.md:46
 msgid ""
-"![Metadata Browse configuration, some properties selected](../modules/"
-"modulesfiles/mdbr_config4.png)"
+"![Metadata Browse configuration "
+"settings](../modules/modulesfiles/mdbr_config2.png)"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:47
-msgid ""
-"To remove a property simply click the trash can/delete icon to the right of "
-"the property label."
-msgstr ""
+#: ../../docs/modules/metadatabrowse.md:48
+#, fuzzy
+msgid "Global configuration"
+msgstr "Case à cocher de configuration globale"
 
 #: ../../docs/modules/metadatabrowse.md:49
-msgid "Admin side browse"
+msgid ""
+"The \"Use global configuration on admin side\" checkbox determines how "
+"the properties available for **administrative side** metadata browsing "
+"(on items and item sets views) are determined: by aggregating the "
+"properties selected on all of the sites in the installation (unchecked), "
+"or by limiting to only the properties chosen on this page (checked)."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:51
 msgid ""
-"Once you have selected properties for Metadata Browse, either in the "
-"configuration for the module or on at least one site, you will be able to "
-"search for exact matches to item and item set properties on the admin side."
+"This checkbox modifies the admin side for all users. For example, a site "
+"about artists might have the Metadata Browse enabled for \"Creator\" "
+"(Dublin Core), while a site collecting conference papers might enable "
+"Metadata Browse for \"presented at\" (Bibliographic Ontology). With the "
+"box unchecked, both \"Creator\" and \"presented at\" would have Metadata "
+"Browse enabled on the admin views of all items and item sets across the "
+"entire installation."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:53
 msgid ""
-"When viewing the metadata of any item (not when editing), you will be able to "
-"browse those properties as exact match for any other item in the installation "
-"with that value in that property. If the direct [direct link checkbox]"
-"(#direct-links-checkbox) is active, these properties will display as links; "
-"if not, they will display with the text \"see all items with this value\" "
-"just below the value for the property."
+"Checking the box can be used to limit the number of properties that have "
+"Metadata Browse enabled on the admin side. If, for example, the site "
+"about artists was using Metadata Browse on every possible property, those"
+" Metadata Browse links would be visible on the public site but would not "
+"show up on the admin side. Instead, the Global Administrator(s) could "
+"decide which properties to enable browsing for on the admin side."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:55
+msgid "Direct links"
+msgstr ""
+
+#: ../../docs/modules/metadatabrowse.md:56
 msgid ""
-"![Admin side view of item with red arrows pointing to the metadata browse "
-"links](../modules/modulesfiles/mdbr_admin1.png)"
+"The \"Direct Links\" checkbox sets how metadata-browsing links are "
+"displayed on both the admin side and across all sites."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:58
-msgid "Metadata Browse on Sites"
-msgstr ""
-
-#: ../../docs/modules/metadatabrowse.md:59
 msgid ""
-"Once the module is activated and installed, it will show up in the context "
-"menu for [sites](../sites/index.md) on your installation."
+"If this box is unchecked, the properties selected for metadata browse "
+"will display with a textual link under them which reads \"See all items "
+"with this value\". Clicking on the link text opens the page of items with"
+" matching metadata."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:61
+#: ../../docs/modules/metadatabrowse.md:60
 msgid ""
-"To set up Metadata Browse for a site, click on the Metadata Browse tab in the "
-"site's context menu."
+"In this example, metadata browsing is active for the \"Date of "
+"Publication\" property:"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:63
+#: ../../docs/modules/metadatabrowse.md:62
 msgid ""
-"![A red arrow points to the Metadata Browse tab](../modules/modulesfiles/"
-"mdbr_sites1.png)"
+"![The item \"Sense and Sensibility\". The date property has text as "
+"described, and is indicated with a blue arrow.](../modules/modulesfiles"
+"/mdbr-directlinkNo.png)"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:65
+#: ../../docs/modules/metadatabrowse.md:64
 msgid ""
-"On the page which loads, select properties from the sidebar to enable "
-"metadata browse by clicking on them in the sidebar."
+"If this box is checked, the values of the properties themselves become "
+"the link, similar to how a property populated by a resource displays. In "
+"this case, clicking on the property value itself opens the page of items "
+"with matching metadata."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:67
-msgid "![Metadata Browse site options](../modules/modulesfiles/mdbr_sites2.png)"
+#: ../../docs/modules/metadatabrowse.md:68
+msgid "Choose properties"
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:69
 msgid ""
-"Delete any selected properties by clicking the trash can/delete icon. If you "
-"accidentally click the delete button, simply click the undo button which "
-"replaces it to keep that property."
+"Selecting properties for Metadata Browse in the Module configuration will"
+" only work if the [\"Use global configuration\" checkbox](#global-"
+"configuration) is checked."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:71
 msgid ""
-"![A property set to be deleted, showing the undo button](../modules/"
-"modulesfiles/mdbr_sites3.png)"
+"Select the properties from the sidebar by clicking on the desired "
+"property. It will load under the prompt \"Choose properties\"."
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:73
-msgid "Remember to click the *Save* button to save changes."
+msgid ""
+"![Metadata Browse configuration, some properties "
+"selected](../modules/modulesfiles/mdbr_config4.png)"
 msgstr ""
 
 #: ../../docs/modules/metadatabrowse.md:75
-msgid "Public View"
-msgstr ""
-
-#: ../../docs/modules/metadatabrowse.md:76
 msgid ""
-"Once you have selected properties and saved changes, visitors to your site "
-"can use the Metadata Browse properties to search for all items on the site "
-"with matching properties."
+"To remove a property simply click the trash can icon to the right of the "
+"property label."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:78
+#: ../../docs/modules/metadatabrowse.md:77
+msgid "Admin side browse"
+msgstr ""
+
+#: ../../docs/modules/metadatabrowse.md:79
 msgid ""
-"The browse will either display with the property as a link or with the link "
-"text \"see all items with this value\", depending on whether the [direct link "
-"checkbox](#direct-links-checkbox) in the global module configuration."
+"Once you have selected properties for Metadata Browse, either in the "
+"configuration for the module or on at least one site, you will be able to"
+" search for exact matches to item and item set properties on the admin "
+"side."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:80
+#: ../../docs/modules/metadatabrowse.md:81
 msgid ""
-"In the example below, Metadata Browse is available for Title, Date of "
-"Publication, and Publisher, and Direct Links is not active."
+"When viewing the metadata of any item (not when editing), you will be "
+"able to browse those properties as exact matches for any other item in "
+"the installation with that value in that property. If the [direct link "
+"checkbox](#direct-links) is active, these properties will display as "
+"links; if not, they will display with the text \"See all items with this "
+"value\" just below the value for the property."
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:82
+#: ../../docs/modules/metadatabrowse.md:83
 msgid ""
-"![An item with arrows pointing to the links for \"see all items with this "
-"value\"](../modules/modulesfiles/mdbr_public1.png)"
+"![Admin side view of item with red arrows pointing to the metadata browse"
+" links](../modules/modulesfiles/mdbr_admin1.png)"
 msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:84
-msgid ""
-"Clicking on \"See all items with this value\" under creator takes a visitor "
-"to a page of exact match search results. For example, this is the result for "
-"clicking \"see all items with this value\" for the Publisher property in the "
-"previous image:"
-msgstr ""
+#~ msgid ""
+#~ "The Metadata Browse module makes it "
+#~ "possible to browse all resources that"
+#~ " share a value for a particular "
+#~ "metadata property."
+#~ msgstr ""
 
-#: ../../docs/modules/metadatabrowse.md:86
-msgid "![Beginning of search results](../modules/modulesfiles/mdbr_public2.png)"
-msgstr ""
+#~ msgid ""
+#~ "It does this by adding a link "
+#~ "below selected properties that reads "
+#~ "\"See all items with this value\"; "
+#~ "when clicked, the module returns the "
+#~ "results of that search (property value"
+#~ " is equal to input). In function "
+#~ "it is similar to the Omeka Classic"
+#~ " plugin [Search by Metadata](http://omeka.org"
+#~ "/add-ons/plugins/search-by-metadata/)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The module's browse function is applied"
+#~ " on the admin side when the "
+#~ "module is active, and can be "
+#~ "enabled on the public side of "
+#~ "individual sites,  on a site-by-"
+#~ "site basis."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have installed and activated"
+#~ " the module, you can configure it "
+#~ "from the Modules tab of the "
+#~ "left-hand navigation. Click the Configure"
+#~ " button, with the wrench icon, to "
+#~ "the right of the Metadata Browse "
+#~ "label."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The module has two checkbox "
+#~ "configuration options, Global Configuration "
+#~ "and Direct Links. If Use global "
+#~ "configuration is checked, you will also"
+#~ " be able to select properties from"
+#~ " a right-hand sidebar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The \"Use global configuration on admin"
+#~ " side\" checkbox determines how the "
+#~ "properties available for *admin side* "
+#~ "metadata browsing (on items and item "
+#~ "sets views) are determined: by "
+#~ "aggregating the properties selected on "
+#~ "all of the sites in the "
+#~ "installation (unchecked) or limited to "
+#~ "only the properties."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the box is *unchecked*, metadata"
+#~ " browse on the admin side (and "
+#~ "only the admin side) aggregates the "
+#~ "metadata browse settings for all "
+#~ "individual sites and applies them to "
+#~ "every item and item set in the "
+#~ "installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Leaving the box unchecked allows "
+#~ "installation users to browse the "
+#~ "properties on the admin side which "
+#~ "they have set as key on their "
+#~ "sites. For example, a site about "
+#~ "various artists might have the Metadata"
+#~ " Browse enabled for 'Creator' (Dublin "
+#~ "Core), while a site collecting "
+#~ "conference papers might enable Metadata "
+#~ "Browse for 'presented at' (Bibliographic "
+#~ "Ontology); with the box unchecked, both"
+#~ " 'Creator' and 'presented at' would "
+#~ "have Metadata Browse enabled on the "
+#~ "admin views of all items and item"
+#~ " sets on the installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When the box is *checked*, individual"
+#~ " site settings still apply on the "
+#~ "public views of those sites, but "
+#~ "are not used on the admin side."
+#~ " Instead, only those properties selected"
+#~ " in the Metadata Browse module "
+#~ "configuration settings (the current page) "
+#~ "are used on the admin side. So "
+#~ "if the global admin of the "
+#~ "installation example above checked the "
+#~ "Global Configuration box and only "
+#~ "enabled the properties 'Title' and "
+#~ "'Creator', then the 'presented at' "
+#~ "property would not include a \"See "
+#~ "all items with this value\" option "
+#~ "on the admin side item browse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Checking the box can be used to"
+#~ " limit the number of properties which"
+#~ " have Metadata Browse enabled on the"
+#~ " admin side. If, for example, the "
+#~ "site about various artists mentioned "
+#~ "above was using Metadata Browse on "
+#~ "every possible property, those Metadata "
+#~ "Browse links would still be visible "
+#~ "on their site, but would not show"
+#~ " up on the admin side. Instead, "
+#~ "the Global Administrator(s) could decided "
+#~ "which properties to enable browsing on"
+#~ " for the admin side, thus reducing"
+#~ " visual clutter."
+#~ msgstr ""
+
+#~ msgid "Direct Links checkbox"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The \"Direct Links\" checkbox sets how"
+#~ " metadata browse links are displayed "
+#~ "on both the admin side and across"
+#~ " all sites."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If this box is unchecked, the "
+#~ "properties which have been selected for"
+#~ " metadata browse will display with a"
+#~ " red textual link under them which"
+#~ " reads \"see all items with this "
+#~ "value\". Clicking on the link text "
+#~ "opens the page of items with "
+#~ "matching metadata."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example, metadata browse is "
+#~ "active for the \"Date of Publication\""
+#~ " property:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![The item *Sense and Sensibility*. The"
+#~ " date property has text as described,"
+#~ " and is indicated with a blue "
+#~ "arrow.](../modules/modulesfiles/mdbr-directlinkNo.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![The item *Sense and Sensibility*. The"
+#~ " date property displays as a link,"
+#~ " and is indicated with a blue "
+#~ "arrow.](../modules/modulesfiles/mdbr-directlinkYes.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Selecting properties for Metadata Browse "
+#~ "in the Module configuration will only"
+#~ " work if the *use global "
+#~ "configuration*  checkbox is checked (see "
+#~ "[above](#global-configuration-checkbox))."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To remove a property simply click "
+#~ "the trash can/delete icon to the "
+#~ "right of the property label."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When viewing the metadata of any "
+#~ "item (not when editing), you will "
+#~ "be able to browse those properties "
+#~ "as exact match for any other item"
+#~ " in the installation with that value"
+#~ " in that property. If the direct "
+#~ "[direct link checkbox](#direct-links-checkbox)"
+#~ " is active, these properties will "
+#~ "display as links; if not, they "
+#~ "will display with the text \"see "
+#~ "all items with this value\" just "
+#~ "below the value for the property."
+#~ msgstr ""
+
+#~ msgid "Metadata Browse on Sites"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once the module is activated and "
+#~ "installed, it will show up in the"
+#~ " context menu for [sites](../sites/index.md) "
+#~ "on your installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To set up Metadata Browse for a"
+#~ " site, click on the Metadata Browse"
+#~ " tab in the site's context menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the page which loads, select "
+#~ "properties from the sidebar to enable"
+#~ " metadata browse by clicking on them"
+#~ " in the sidebar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Delete any selected properties by "
+#~ "clicking the trash can/delete icon. If"
+#~ " you accidentally click the delete "
+#~ "button, simply click the undo button "
+#~ "which replaces it to keep that "
+#~ "property."
+#~ msgstr ""
+
+#~ msgid "Remember to click the *Save* button to save changes."
+#~ msgstr ""
+
+#~ msgid "Public View"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have selected properties and"
+#~ " saved changes, visitors to your site"
+#~ " can use the Metadata Browse "
+#~ "properties to search for all items "
+#~ "on the site with matching properties."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The browse will either display with "
+#~ "the property as a link or with "
+#~ "the link text \"see all items with"
+#~ " this value\", depending on whether "
+#~ "the [direct link checkbox](#direct-links-"
+#~ "checkbox) in the global module "
+#~ "configuration."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the example below, Metadata Browse"
+#~ " is available for Title, Date of "
+#~ "Publication, and Publisher, and Direct "
+#~ "Links is not active."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Clicking on \"See all items with "
+#~ "this value\" under creator takes a "
+#~ "visitor to a page of exact match"
+#~ " search results. For example, this is"
+#~ " the result for clicking \"see all"
+#~ " items with this value\" for the "
+#~ "Publisher property in the previous "
+#~ "image:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Beginning of search "
+#~ "results](../modules/modulesfiles/mdbr_public2.png)"
+#~ msgstr ""
+

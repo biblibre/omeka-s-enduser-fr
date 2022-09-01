@@ -8,26 +8,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-27 10:43+0200\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: 2021-06-30 16:17+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language: fr_FR\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/content/item-sets.md:1
 msgid "Item Sets"
 msgstr "Collections"
 
 #: ../../docs/content/item-sets.md:3
+#, fuzzy
 msgid ""
-"Item sets are an aggregation of *items*, similar to collections in "
-"previous versions of Omeka. In Omeka S, items may belong to any number of"
-" sets, and an item set can have any number of items."
+"Item sets are aggregations of items, similar to collections in Omeka "
+"Classic. In Omeka S, items may belong to any number of sets, and an item "
+"set can have any number of items."
 msgstr ""
 "Les collections sont une agrégation de *contenus*, similaires aux "
 "collections des versions précédentes d'Omeka. Dans Omeka S, les contenus "
@@ -35,9 +36,10 @@ msgstr ""
 "collection peut comporter un nombre illimité de contenus."
 
 #: ../../docs/content/item-sets.md:5
+#, fuzzy
 msgid ""
-"Item sets are managed via the *Item Sets* tab (stacked boxes) located in "
-"the left navigation of the admin dashboard."
+"Item sets are managed via the **Item Sets** tab (the icon of three "
+"stacked boxes) located in the left navigation of the admin dashboard."
 msgstr ""
 "Les collections sont gérées via l'onglet *Collections* (cases empilées) "
 "situé dans le panneau de navigation de gauche."
@@ -57,81 +59,93 @@ msgstr ""
 "les collections avec:"
 
 #: ../../docs/content/item-sets.md:11
-msgid "their *Title*;"
+#, fuzzy
+msgid "the **Title**"
 msgstr "leur *titre*;"
 
 #: ../../docs/content/item-sets.md:12
+#, fuzzy
 msgid ""
-"icons for each row representing options to *edit* (pencil), *delete* "
-"(trash can), or *view details* (ellipses);"
+"icons to **edit** (pencil), **delete** (trash can), or **details** "
+"(ellipsis)"
 msgstr ""
 "des icônes pour chaque ligne représentant des options pour *modifier* "
 "(crayon), *supprimer* (corbeille) ou *afficher les détails* (trois petits"
 " points);"
 
 #: ../../docs/content/item-sets.md:13
-msgid "the item set’s *Class*,"
+#, fuzzy
+msgid "the item set’s **Class**"
 msgstr "la *classe* de la collection,"
 
 #: ../../docs/content/item-sets.md:14
-msgid "the *Owner* of the set,"
+#, fuzzy
+msgid "the **Owner** of the set"
 msgstr "le *propriétaire* de la collection,"
 
 #: ../../docs/content/item-sets.md:15
-msgid "and the date the set was *Created*."
+#, fuzzy
+msgid "the date the set was **Created**."
 msgstr "et quand la collection a été *créé*."
 
 #: ../../docs/content/item-sets.md:17
+#, fuzzy
 msgid ""
-"Above this table on the left is the pagination for the item sets table, "
-"where you can click the left and right arrows to move forward and back or"
-" enter a page number to go a specific page of item sets."
+"In the top right corner of the Item Sets screen is the button to **Add "
+"new item set**."
+msgstr ""
+"Dans le coin supérieur droit se trouve le bouton pour *Ajouter une "
+"nouvelle collection*."
+
+#: ../../docs/content/item-sets.md:19
+msgid ""
+"Options for navigating and creating items sit in the header of the table "
+"of items."
+msgstr ""
+
+#: ../../docs/content/item-sets.md:21
+#, fuzzy
+msgid ""
+"On the left side are controls for the pages of items sets, with forward "
+"and back arrows, and a field to go a specific page of item sets."
 msgstr ""
 "Au-dessus de ce tableau, à gauche, se trouve la pagination du tableau des"
 " collections, dans laquelle vous pouvez cliquer sur les flèches gauche et"
 " droite pour avancer ou reculer ou entrer un numéro de page pour accéder "
 "à une page spécifique de collections."
 
-#: ../../docs/content/item-sets.md:19
-msgid "In the center above the table is the button for *advanced search*."
+#: ../../docs/content/item-sets.md:22
+#, fuzzy
+msgid "In the center is the button for **Advanced search**."
 msgstr ""
 "Au centre au-dessus du tableau se trouve le bouton pour la *recherche "
 "avancée*."
 
-#: ../../docs/content/item-sets.md:21
+#: ../../docs/content/item-sets.md:23
+#, fuzzy
 msgid ""
-"On the right above the table are drop-down menus to re-order the table by"
-" *title, class, owner,* or *date created* in either *ascending* or "
-"*descending* order."
+"On the right are options to re-order the table by **title**, **class**, "
+"**owner**, or **date created** in either **ascending** or **descending** "
+"order."
 msgstr ""
 "À droite au-dessus du tableau, des menus déroulants vous permettent de "
 "réorganiser le tableau par *titre, classe, propriétaire,* ou *date créée*"
 " dans l'ordre *croissant* ou *décroissant*."
 
-#: ../../docs/content/item-sets.md:23
-msgid "In the upper right corner is the button to *Add new item set*."
-msgstr ""
-"Dans le coin supérieur droit se trouve le bouton pour *Ajouter une "
-"nouvelle collection*."
-
-#: ../../docs/content/item-sets.md:26
-msgid "View Item Set"
+#: ../../docs/content/item-sets.md:25
+#, fuzzy
+msgid "View item sets"
 msgstr "Voir les collections"
 
-#: ../../docs/content/item-sets.md:28
+#: ../../docs/content/item-sets.md:27
 msgid ""
-"To quickly see information about an item set, click on the *view details*"
-" button (ellipses) for the item set on the item sets browse page. This "
-"will open a drawer on the right hand side of the page with the item set’s"
-" Title, Visibility, and number of Items."
+"To quickly see information about an item set, click on the **Details** "
+"button (the ellipsis icon) for the item set on the item sets browse page."
+" This will open a column on the right hand side of the page with the item"
+" set’s title, visibility, and number of items."
 msgstr ""
-"Pour afficher rapidement des informations sur une collection, cliquez sur"
-" le bouton (trois petits points) pour afficher la collection sur la page "
-"de navigation. Cela ouvrira un onglet sur le côté droit de la page avec "
-"le titre, la visibilité et le nombre de contenus appartenant à la "
-"collection."
 
-#: ../../docs/content/item-sets.md:30
+#: ../../docs/content/item-sets.md:29
 msgid ""
 "![Drawer view of an item, with description and "
 "title](contentfiles/itemsets_drawer.png)"
@@ -139,11 +153,12 @@ msgstr ""
 "![Vue de l'onglet d'une collection, avec description et "
 "titre](contentfiles/itemsets_drawer.png)"
 
-#: ../../docs/content/item-sets.md:32
+#: ../../docs/content/item-sets.md:31
+#, fuzzy
 msgid ""
 "To view all the information for an item set, click on its name. On the "
-"item sets view page, there are tabs to see an item set’s *Metadata* and "
-"*Linked Resources*. On the right side of the item set’s view page is "
+"item sets view page, there are tabs to see an item set’s **Metadata** and"
+" **Linked Resources**. On the right side of the item set’s view page is "
 "information about the date created, owner, and visibility. For item sets,"
 " visibility includes both whether the set is private or public and "
 "whether other users can add items to the set."
@@ -156,17 +171,19 @@ msgstr ""
 "visibilité inclut à la fois si la collection est privée ou publique et si"
 " d'autres utilisateurs peuvent ajouter des contenus à la collection."
 
-#: ../../docs/content/item-sets.md:34
+#: ../../docs/content/item-sets.md:33
 msgid "![Reading view of a single item set](contentfiles/itemsets_view.png)"
 msgstr "![Vue du détail d'une collection](contentfiles/itemsets_view.png)"
 
-#: ../../docs/content/item-sets.md:36
-msgid "The item set’s *metadata* is entered by users."
+#: ../../docs/content/item-sets.md:35
+#, fuzzy
+msgid "The item set’s **metadata** is entered by users."
 msgstr "Les *métadonnées* d'une collection sont entrées par les utilisateurs."
 
-#: ../../docs/content/item-sets.md:38
+#: ../../docs/content/item-sets.md:37
+#, fuzzy
 msgid ""
-"*Linked resources* are items which have used the item set to populate "
+"**Linked resources** are items which have used the item set to populate "
 "specific metadata properties. When viewing linked resources, the table "
 "includes the predicate (property or description) and the object (linked "
 "item resource). Note that incoming resources (those used as properties "
@@ -181,31 +198,33 @@ msgstr ""
 "affichées ici, car elles s'affichent déjà dans les métadonnées de la "
 "collection."
 
-#: ../../docs/content/item-sets.md:40
+#: ../../docs/content/item-sets.md:39
+#, fuzzy
 msgid ""
 "To view the items in a set, either click on the number of items in the "
-"set on the item set browse page, or click the *view items* button in the "
-"upper right corner of the individual item set page."
+"set on the item set browse page, or click the \"View items\" button in "
+"the upper right corner of the individual item set page."
 msgstr ""
 "Pour afficher les contenus d'une collection, cliquez sur le nombre de "
 "contenus sur la page de navigation ou cliquez sur le bouton *Afficher les"
 " contenus* dans le coin supérieur droit de la page."
 
-#: ../../docs/content/item-sets.md:43
+#: ../../docs/content/item-sets.md:42
 msgid "Add an item set"
 msgstr "Ajouter une collection"
 
-#: ../../docs/content/item-sets.md:45
+#: ../../docs/content/item-sets.md:44
+#, fuzzy
 msgid ""
 "To add a new item set, click the Item Sets tab from the left navigation "
-"of the dashboard. Click the *add new item set* button on the right hand "
-"side of the screen."
+"of the dashboard. Click the \"Add new item set\" button on the right hand"
+" side of the screen."
 msgstr ""
 "Pour ajouter une nouvelle collection, cliquez sur l'onglet Collection "
 "dans la barre de navigation de gauche du tableau de bord. Cliquez sur le "
 "bouton *ajouter une nouvelle collection* en haut à droite de l'écran."
 
-#: ../../docs/content/item-sets.md:47
+#: ../../docs/content/item-sets.md:46
 msgid ""
 "Item sets may use the same resource templates available for items to "
 "provide pre-selected fields. Each set should contain at least one "
@@ -216,11 +235,12 @@ msgstr ""
 "doit contenir au moins une valeur descriptive, telle que Dublin Core "
 "Description."
 
-#: ../../docs/content/item-sets.md:49 ../../docs/content/item-sets.md:97
+#: ../../docs/content/item-sets.md:48
+#, fuzzy
 msgid ""
 "You may add other fields by selecting a property from the list on the "
 "right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, "
-"etc), or search in the *filter properties* bar above the list of "
+"etc), or search in the **Filter properties** bar above the list of "
 "properties and vocabularies."
 msgstr ""
 "Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans "
@@ -228,11 +248,11 @@ msgstr ""
 "ontologie bibliographique, etc.) ou recherchez-le dans la barre *filtrer "
 "les propriétés* au-dessus de la liste des propriétés et des vocabulaires."
 
-#: ../../docs/content/item-sets.md:51
+#: ../../docs/content/item-sets.md:50
 msgid "Values tab"
 msgstr "Onglet \"Valeurs\""
 
-#: ../../docs/content/item-sets.md:52
+#: ../../docs/content/item-sets.md:51
 msgid ""
 "You may add text, a resource from the installation, or an external link "
 "in each field."
@@ -240,19 +260,20 @@ msgstr ""
 "Vous pouvez ajouter du texte, une ressource Omeka ou un lien externe dans"
 " chaque champ."
 
-#: ../../docs/content/item-sets.md:54
+#: ../../docs/content/item-sets.md:53
 msgid "![Add item set, no properties selected](contentfiles/itemsets_add.png)"
 msgstr ""
 "![Ajout d'une collection, aucune propriété "
 "sélectionnée](contentfiles/itemsets_add.png)"
 
-#: ../../docs/content/item-sets.md:56
+#: ../../docs/content/item-sets.md:55
+#, fuzzy
 msgid ""
-"By default, a new Item Set will load with the properties dcterms:Title "
-"and dcterms:description. You may add other fields by selecting a property"
-" from the list on the right. Browse fields by vocabulary (Dublin Core, "
-"Bibliographic Ontology, etc), or search in the *filter properties* bar "
-"above the list of properties and vocabularies."
+"By default, a new Item Set will load with the properties `dcterms:title` "
+"and `dcterms:description`. You may add other fields by selecting a "
+"property from the list on the right. Browse fields by vocabulary (Dublin "
+"Core, Bibliographic Ontology, etc.), or search in the **Filter "
+"properties** bar above the list of properties and vocabularies."
 msgstr ""
 "Par défaut, une nouvelle collection sera chargée avec les propriétés "
 "dcterms: Title et dcterms: description. Vous pouvez ajouter d'autres "
@@ -261,7 +282,7 @@ msgstr ""
 " ou recherchez-le dans la barre *filtrer les propriétés* au-dessus de la "
 "liste des propriétés et des vocabulaires."
 
-#: ../../docs/content/item-sets.md:58
+#: ../../docs/content/item-sets.md:57
 msgid ""
 "You can set individual properties as Private or Publicly visible using "
 "the eye icon for each property. Note that properties set to private are "
@@ -279,7 +300,7 @@ msgstr ""
 "pourront voir toutes les propriétés des objets qu’ils possèdent, mais ne "
 "verront pas les propriétés privées créées par d’autres utilisateurs."
 
-#: ../../docs/content/item-sets.md:60
+#: ../../docs/content/item-sets.md:59
 msgid ""
 "In the image below, the first property (Title) is public as indicated by "
 "the open eye icon. The second property (Description) is private as "
@@ -292,22 +313,24 @@ msgstr ""
 "oblique. En cliquant ou en appuyant sur entrer sur l'icône de l'œil, vous"
 " basculez entre public et privé."
 
-#: ../../docs/content/item-sets.md:62
+#: ../../docs/content/item-sets.md:61
 msgid "![As described](contentfiles/item_propviz.png)"
 msgstr "![Comme décrit précedemment](contentfiles/item_propviz.png)"
 
-#: ../../docs/content/item-sets.md:64
+#: ../../docs/content/item-sets.md:63
 msgid "Text"
 msgstr "Texte"
 
-#: ../../docs/content/item-sets.md:65
+#: ../../docs/content/item-sets.md:64
+#, fuzzy
 msgid ""
 "Text fields are entered with text. The keyboard at the top of the field "
 "input indicates text. You can indicate the language for the content of an"
 " input using the globe symbol above the input (see the red arrow in the "
 "image below). Click on the globe to activate a text field, then enter the"
-" [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code "
-"for the language in which the text is written."
+" [ISO "
+"639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes){target=_blank}"
+" code for the language in which the text is written."
 msgstr ""
 "Les champs de texte sont réservés à du texte. Le clavier en haut du champ"
 " indique qu'il s'agit d'un champs \"texte\". Vous pouvez indiquer la "
@@ -318,18 +341,20 @@ msgstr ""
 "639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) de la "
 "langue dans laquelle le texte est écrit."
 
-#: ../../docs/content/item-sets.md:67
+#: ../../docs/content/item-sets.md:66
 msgid "Omeka Resource"
 msgstr "Ressource Omeka"
 
-#: ../../docs/content/item-sets.md:68
+#: ../../docs/content/item-sets.md:67
+#, fuzzy
 msgid ""
 "These fields create an internal link between the resource you are "
 "creating and the resource which fills that field. You have the option to "
 "use either another item or an item set. Once you select an item or item "
-"set, detailed information will load, and you must click *select resource*"
-" to finish linking the resources. You can also click the *X* button in "
-"the upper right-hand corner to go back to the list of items or item sets."
+"set, detailed information will load, and you must click \"Select "
+"resource\" to finish linking the resources. You can also click the \"X\" "
+"button in the upper right-hand corner to go back to the list of items or "
+"item sets."
 msgstr ""
 "Ces champs créent un lien interne entre la ressource que vous créez et la"
 " ressource qui remplit ce champ. Vous avez la possibilité d'utiliser un "
@@ -340,7 +365,7 @@ msgstr ""
 "dans le coin supérieur droit pour revenir à la liste des contenus ou "
 "collections."
 
-#: ../../docs/content/item-sets.md:70
+#: ../../docs/content/item-sets.md:69
 msgid ""
 "When creating an item set, you have the option to use either another item"
 " or an item set."
@@ -348,31 +373,33 @@ msgstr ""
 "Lors de la création d'une collection, vous avez la possibilité d'utiliser"
 " un autre contenu ou une autre collection."
 
-#: ../../docs/content/item-sets.md:72
+#: ../../docs/content/item-sets.md:71
+#, fuzzy
 msgid ""
 "Choosing a resource type will open a side drawer where you can browse all"
 " of those resources in the installation. You can use the search function "
 "at the top of the drawer to narrow down the list or to quickly find a "
-"specific item or item set"
+"specific item or item set."
 msgstr ""
 "Choisir un type de ressource ouvrira un tiroir où vous pourrez parcourir "
 "toutes ces ressource dans l'installation. Vous pouvez utiliser la "
 "fonction de recherche en haut du tiroir pour restreindre la liste ou pour"
 " trouver rapidement un contenu ou une collection spécifique"
 
-#: ../../docs/content/item-sets.md:74
+#: ../../docs/content/item-sets.md:73
+#, fuzzy
 msgid ""
 "Once you select an item or item set, detailed information will load, and "
-"you must click *select resource* to finish linking the resources. You can"
-" also click the *X* button in the upper right-hand corner to go back to "
-"the list of items or item sets."
+"you must click \"Select resource\" to finish linking the resources. You "
+"can also click the \"X\" button in the upper right-hand corner to go back"
+" to the list of items or item sets."
 msgstr ""
 "Le choix d'un type de ressource ouvrira un onglet latéral dans lequel "
 "vous pourrez parcourir toutes les types de ressources de l'instance. Vous"
 " pouvez utiliser la fonction de recherche en haut de l'onglet pour "
 "réduire la liste ou pour trouver rapidement un contenu ou une collection."
 
-#: ../../docs/content/item-sets.md:76
+#: ../../docs/content/item-sets.md:75
 msgid ""
 "![Select Item menu with list of items to link in edit item "
 "view](contentfiles/items_addresource.png)"
@@ -380,19 +407,20 @@ msgstr ""
 "![Menu Sélectionner un contenu avec une collection à "
 "lier](contentfiles/items_addresource.png)"
 
-#: ../../docs/content/item-sets.md:78
+#: ../../docs/content/item-sets.md:77
+#, fuzzy
 msgid ""
 "If you are using an Item resource for the property, you will have "
 "additional options for finding the item you want in the drawer. Open "
 "these options by clicking the triangle button next to the phrase \"Filter"
-" search\""
+" search\"."
 msgstr ""
 "Si vous utilisez un contenu pour la propriété, vous aurez d'autres "
 "options pour rechercher l'élément souhaité dans l'onglet dédié. Ouvrez "
 "ces options en cliquant sur le triangle situé à côté de la phrase "
 "\"Filtre de recherche\"."
 
-#: ../../docs/content/item-sets.md:80
+#: ../../docs/content/item-sets.md:79
 msgid ""
 "![Select Item drawer top options, with a red arrow around a gray triangle"
 " button to the right of the phrase \"Filter "
@@ -402,7 +430,7 @@ msgstr ""
 "autour d'un bouton triangle gris à droite de la phrase \"Filtre de "
 "recherche\".](contentfiles/items_filtersearch.png)"
 
-#: ../../docs/content/item-sets.md:82
+#: ../../docs/content/item-sets.md:81
 msgid ""
 "This will open a menu below the button with the following options to "
 "filter the items in the drawer:"
@@ -410,7 +438,7 @@ msgstr ""
 "Cela ouvrira un menu sous le bouton avec les options suivantes pour "
 "filtrer les éléments dans le tiroir:"
 
-#: ../../docs/content/item-sets.md:84
+#: ../../docs/content/item-sets.md:83
 msgid ""
 "Filter by class: a dropdown where you can select any class provided by "
 "the vocabularies on the installation;"
@@ -419,7 +447,7 @@ msgstr ""
 "sélectionner n’importe quelle classe fournie par les vocabulaires de "
 "l’instance;"
 
-#: ../../docs/content/item-sets.md:85
+#: ../../docs/content/item-sets.md:84
 msgid ""
 "Filter by item set: a dropdown where you can limit the items displayed in"
 " the drawer to only those associated with a particular item set"
@@ -428,7 +456,7 @@ msgstr ""
 "limiter les contenus affichés dans l'onglet à ceux associés à une "
 "collection particulière."
 
-#: ../../docs/content/item-sets.md:86
+#: ../../docs/content/item-sets.md:85
 msgid ""
 "Filter by item ID: a search field where you can input the ID of the item "
 "you want to use. You can find an item's ID in the url of it's edit page; "
@@ -441,17 +469,18 @@ msgstr ""
 "modifiez le contnu et que l'URL est `admin / item / 11547 / edit`, l'ID "
 "de l'élément est 11547."
 
-#: ../../docs/content/item-sets.md:88
+#: ../../docs/content/item-sets.md:87
 msgid "![options as above described](contentfiles/item_addresItem.png)"
 msgstr "![options décrites ci-dessus](contentfiles/item_addresItem.png)"
 
-#: ../../docs/content/item-sets.md:90
+#: ../../docs/content/item-sets.md:89
+#, fuzzy
 msgid ""
 "Item resources also have an option for \"Quick add\". When this switch is"
 " flipped, all of the items in the drawer have a checkbox. You can use "
 "these checkboxes to add multiple items as a property at once. Note that "
 "you can only edit one property at a time, so all of the items must "
-"populate the same property (ex, Creator, Has Part)."
+"populate the same property (e.g. Creator, or Has Part)."
 msgstr ""
 "Les collections ont également une option pour \"Ajout rapide\". Lorsque "
 "cet interrupteur est activé, tous les contenus de l'onglet se retrouvent "
@@ -461,7 +490,7 @@ msgstr ""
 " les contenus doivent renseigner la même propriété (ex, Creator, Has "
 "Part)."
 
-#: ../../docs/content/item-sets.md:92
+#: ../../docs/content/item-sets.md:91
 msgid ""
 "![a red arrow points to the slider button for \"Quick add\". The two "
 "items visible have an empty checkbox to the left of their representative "
@@ -471,21 +500,34 @@ msgstr ""
 "contenus visibles ont une case à cocher vide à gauche de la "
 "vignette](contentfiles/items_quickadd.png)"
 
-#: ../../docs/content/item-sets.md:94
+#: ../../docs/content/item-sets.md:93
 msgid "URI"
 msgstr "URI"
 
-#: ../../docs/content/item-sets.md:95
+#: ../../docs/content/item-sets.md:94
 msgid "URI fields link to an external website or online resource."
 msgstr ""
 "Les champs URI renvoient à un site Web externe ou à une ressource en "
 "ligne."
 
-#: ../../docs/content/item-sets.md:99
+#: ../../docs/content/item-sets.md:96
+#, fuzzy
+msgid ""
+"You may add other fields by selecting a property from the list on the "
+"right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, "
+"etc.), or search in the **Filter properties** bar above the list of "
+"properties and vocabularies."
+msgstr ""
+"Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans "
+"la liste de droite. Parcourez les champs par vocabulaire (Dublin Core, "
+"ontologie bibliographique, etc.) ou recherchez-le dans la barre *filtrer "
+"les propriétés* au-dessus de la liste des propriétés et des vocabulaires."
+
+#: ../../docs/content/item-sets.md:98
 msgid "Value annotation"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:100
+#: ../../docs/content/item-sets.md:99
 msgid ""
 "When you input a value for a property associated for a resource, you are "
 "making a statement about that resource. If you choose, Omeka allows you "
@@ -494,83 +536,85 @@ msgid ""
 "ambiguous facts more concrete by annotating things like:"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:102
+#: ../../docs/content/item-sets.md:101
 msgid "Provenance: Where is this fact from?"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:103
+#: ../../docs/content/item-sets.md:102
 msgid "Time: When did this fact occur?"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:104
+#: ../../docs/content/item-sets.md:103
 msgid "Location: What is the location associated with this fact?"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:105
+#: ../../docs/content/item-sets.md:104
 msgid "Certainty: What is the confidence of this fact?"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:106
+#: ../../docs/content/item-sets.md:105
 msgid "Type: What type of concept/thing is this fact?"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:108
+#: ../../docs/content/item-sets.md:107
 msgid ""
 "In the world of linked data, this process is know as "
-"[reification](https://www.w3.org/wiki/RdfReification). Each value can "
-"have any number of annotations."
+"[reification](https://www.w3.org/wiki/RdfReification){target=_blank}. "
+"Each value can have any number of annotations."
 msgstr ""
 
-#: ../../docs/content/item-sets.md:110
+#: ../../docs/content/item-sets.md:109
 msgid ""
-"To create an annotation, click on the ellipses on the right side of the "
+"To create an annotation, click on the ellipsis on the right side of the "
 "value input interface, and then click on the annotation icon (a dialogue "
 "bubble)."
 msgstr ""
 
-#: ../../docs/content/item-sets.md:112
+#: ../../docs/content/item-sets.md:111
 msgid ""
 "![a detail of the property with the annotation bubble "
 "highlighted](contentfiles/annotation_add.png)"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:114
+#: ../../docs/content/item-sets.md:113
 msgid ""
 "The annotation sidebar will open to the right. Select any property that "
 "is available within the Omeka S installation to describe the relationship"
 " between the annotation and the value it describes. For instance, the "
-"value for associated with the property DCterms:Contributor might be "
-"annotated with the property Schema:jobTitle."
+"value for associated with the property `dcterms:contributor` might be "
+"annotated with the property `schema:jobTitle`."
 msgstr ""
 
-#: ../../docs/content/item-sets.md:116
+#: ../../docs/content/item-sets.md:115
 msgid ""
-"Then select a date type for the annotation: Text, URI, or and Omeka S "
+"Then select a date type for the annotation: Text, URI, or an Omeka S "
 "Resource. Installed modules may make additional data types available. "
-"Click the Add Annotation button."
+"Click the \"Add Annotation\" button."
 msgstr ""
 
-#: ../../docs/content/item-sets.md:118
-msgid "Input the annotation, and click Set Annotations to finalize the process."
+#: ../../docs/content/item-sets.md:117
+msgid ""
+"Input the annotation, and click \"Set Annotations\" to finalize the "
+"process."
 msgstr ""
 
-#: ../../docs/content/item-sets.md:120
+#: ../../docs/content/item-sets.md:119
 msgid ""
 "![a picture of the value annotation sidebar with a property selected and "
 "an annotation included](contentfiles/annotation_sidebar.png)"
 msgstr ""
 
-#: ../../docs/content/item-sets.md:122
+#: ../../docs/content/item-sets.md:121
 msgid ""
-"Sitess include a setting to indicate whether or not value annotations are"
-" visible to the public."
+"Sites include a setting to indicate whether or not value annotations are "
+"visible to the public."
 msgstr ""
 
-#: ../../docs/content/item-sets.md:125
+#: ../../docs/content/item-sets.md:123
 msgid "Advanced tab"
 msgstr "Onglet avancé"
 
-#: ../../docs/content/item-sets.md:126
+#: ../../docs/content/item-sets.md:124
 msgid ""
 "By default, Omeka S will use the media from the first item added to an "
 "item set to generate a thumbnail for the set. If you want to use a non-"
@@ -580,7 +624,7 @@ msgstr ""
 "collection pour générer la vignette illustrant cette collection. Si vous "
 "souhaitez utiliser une autre image vous pouvez la définir ici."
 
-#: ../../docs/content/item-sets.md:128
+#: ../../docs/content/item-sets.md:126
 msgid ""
 "![Thumbnail tab with no asset selected. The tab displays a message about "
 "thumbnail creation and a button to \"select\" an "
@@ -590,7 +634,7 @@ msgstr ""
 "sur la création de vignettes et un bouton pour \"sélectionner\" une "
 "valeur.](contentfiles/itemset_thumb1.png)"
 
-#: ../../docs/content/item-sets.md:130
+#: ../../docs/content/item-sets.md:128
 msgid ""
 "The assets you select from and upload as thumbnails in this tab are the "
 "same as those created for [site logos](../sites/site_theme.md#settings-"
@@ -600,22 +644,23 @@ msgstr ""
 "vignettes dans cet onglet sont les mêmes que celles créées pour [les "
 "logos du site](../sites/site_theme.md#settings-options)."
 
-#: ../../docs/content/item-sets.md:132
+#: ../../docs/content/item-sets.md:130
+#, fuzzy
 msgid ""
-"To assign an asset as a thumbnail, click on the Select button in the main"
-" work area of the tab. This will open a drawer on the right side."
+"To assign an asset as a thumbnail, click on the \"Select\" button in the "
+"main work area of the tab. This will open a drawer on the right side."
 msgstr ""
 "Pour attribuer une vignette, cliquez sur le bouton Sélectionner dans la "
 "zone de travail principale de l'onglet. Cela ouvrira un onglet sur le "
 "côté droit."
 
-#: ../../docs/content/item-sets.md:134
+#: ../../docs/content/item-sets.md:132
 msgid ""
 "![Select drawer with upload option and two assets, both of which are "
 "images.](contentfiles/itemset_thumb2.png)"
 msgstr "![Option de téléchargement.](contentfiles/itemset_thumb2.png)"
 
-#: ../../docs/content/item-sets.md:136
+#: ../../docs/content/item-sets.md:134
 msgid ""
 "The drawer offers two options: upload a file using your browser, or "
 "select from existing assets. To select an existing asset, simply click on"
@@ -626,7 +671,7 @@ msgstr ""
 "une ressource existante, cliquez simplement dessus et elle sera "
 "automatiquement attribuée à la collection."
 
-#: ../../docs/content/item-sets.md:138
+#: ../../docs/content/item-sets.md:136
 msgid ""
 "![Add item set open to Thumbnail tab, where an asset which is an image of"
 " a quill pen on a scrolled piece of paper is in the main work area. Below"
@@ -635,7 +680,7 @@ msgstr ""
 "![Ajout d'une collection ouvert. En dessous, des boutons pour "
 "sélectionner et effacer](contentfiles/itemset_thumb3.png)"
 
-#: ../../docs/content/item-sets.md:140
+#: ../../docs/content/item-sets.md:138
 msgid ""
 "To remove an asset which you have assigned as a thumbnail, click the "
 "\"Clear\" button below the image of the asset. To replace it, click "
@@ -645,22 +690,24 @@ msgstr ""
 " l’image de la ressource. Pour la remplacer, cliquez sur Sélectionner et "
 "choisissez ou chargez une nouvelle vignette."
 
-#: ../../docs/content/item-sets.md:143
+#: ../../docs/content/item-sets.md:140
 msgid "Access Settings"
 msgstr "Paramètres d'accès"
 
-#: ../../docs/content/item-sets.md:144
+#: ../../docs/content/item-sets.md:141
+#, fuzzy
 msgid ""
 "Item sets have two settings which control their access. They can be "
-"*public* or *not public* and they can be *open* or *closed*."
+"**public** or **not public** and they can be **open** or **closed**."
 msgstr ""
 "Les collections ont deux paramètres qde contrôle d'accès. Elles peuvent "
 "être *publiques* ou *privées* et elles peuvent être *ouvertes* ou "
 "*fermées*."
 
-#: ../../docs/content/item-sets.md:146
+#: ../../docs/content/item-sets.md:143
+#, fuzzy
 msgid ""
-"Use the *make public/private* button (eye icon) to make the item set "
+"Use the **make public/private** button (eye icon) to make the item set "
 "visible to the public or only to all users of the Omeka S installation "
 "(not public)."
 msgstr ""
@@ -668,40 +715,45 @@ msgstr ""
 "rendre l’élément visible au public ou uniquement à tous les utilisateurs "
 "de l’installation Omeka S (privé)."
 
-#: ../../docs/content/item-sets.md:148
-msgid "*Open* sets can be edited and added to by any user on the install."
+#: ../../docs/content/item-sets.md:145
+#, fuzzy
+msgid "**Open** sets can be edited and added to by any user on the install."
 msgstr ""
 "Les collections *ouvertes* peuvent être modifiées et complétées par "
 "n'importe quel utilisateur."
 
-#: ../../docs/content/item-sets.md:150
+#: ../../docs/content/item-sets.md:147
+#, fuzzy
 msgid ""
-"*Closed* sets are available and editable only by its creator, site "
+"**Closed** sets are available and editable only by its creator, site "
 "admins, and global admins."
 msgstr ""
 "Les collections *fermées* sont disponibles et modifiables uniquement par "
 "son créateur, les administrateurs du site et les administrateurs globaux."
 
-#: ../../docs/content/item-sets.md:152
+#: ../../docs/content/item-sets.md:149
+#, fuzzy
 msgid ""
-"![a set which is open and public, with an open padlock icon and an icon "
-"of an open eye](contentfiles/setOpenPublic.png) Open and Public"
+"Open and Public: ![a set which is open and public, with an open padlock "
+"icon and an icon of an open "
+"eye](contentfiles/setOpenPublic.png){style=\"display:inline;\"}"
 msgstr ""
 "![une collection ouverte et publique, avec une icône de cadenas ouvert et"
 " une icône représentant un œil ouvert](contentfiles/setOpenPublic.png) "
 "Ouvert et Public"
 
-#: ../../docs/content/item-sets.md:154
+#: ../../docs/content/item-sets.md:151
+#, fuzzy
 msgid ""
-"![a set which is closed and private, with a closed padlock icon and  an "
-"icon of an eye with a slash through "
-"it](contentfiles/setClosedPrivate.png)  Closed and Private"
+"Closed and Private: ![a set which is closed and private, with a closed "
+"padlock icon and  an icon of an eye with a slash through "
+"it](contentfiles/setClosedPrivate.png){style=\"display:inline;\"}"
 msgstr ""
 "![une collection fermée et privée, avec une icône de cadenas fermé et une"
 " icône représentant un œil barré](contentfiles/setClosedPrivate.png) "
 "Fermé et Privé"
 
-#: ../../docs/content/item-sets.md:156
+#: ../../docs/content/item-sets.md:153
 msgid ""
 "Note that the public/private and open/closed settings operate "
 "independently - you can have an open and private item set, for example."
@@ -710,37 +762,39 @@ msgstr ""
 "indépendamment - vous pouvez définir un élément ouvert et privé, par "
 "exemple."
 
-#: ../../docs/content/item-sets.md:158
+#: ../../docs/content/item-sets.md:155
 msgid "Edit an item set"
 msgstr "Editer une collection"
 
-#: ../../docs/content/item-sets.md:159
+#: ../../docs/content/item-sets.md:156
+#, fuzzy
 msgid ""
 "Once you have created an item set, you can edit it at any time, either by"
 " clicking the edit icon (pencil button) or clicking on the item set's "
-"title and then clicking the Edit button in the upper right-hand corner of"
-" the screen."
+"title and then clicking the \"Edit\" button in the upper right-hand "
+"corner of the screen."
 msgstr ""
 "Une fois que vous avez créé une collection, vous pouvez la modifier à "
 "tout moment, en cliquant sur l'icône d'édition (bouton du crayon) ou en "
 "cliquant sur le titre de la collection, puis en cliquant sur le bouton "
 "Modifier dans le coin supérieur droit de l'écran."
 
-#: ../../docs/content/item-sets.md:161
+#: ../../docs/content/item-sets.md:158
 msgid "Options for editing an item set are the same as for creating an item set."
 msgstr ""
 "Les options pour l'édition d'une collection sont les mêmes que pour la "
 "création d'une collection."
 
-#: ../../docs/content/item-sets.md:163
+#: ../../docs/content/item-sets.md:160
+#, fuzzy
 msgid ""
-"To cancel out of editing, click the Cancel button in the upper right "
-"corner, between the Delete and Save buttons."
+"To cancel out of editing, click the \"Cancel\" button in the upper right "
+"corner, between the \"Delete\" and \"Save\" buttons."
 msgstr ""
 "Pour annuler les modifications, cliquez sur le bouton Annuler dans le "
 "coin supérieur droit, entre les boutons Supprimer et Enregistrer."
 
-#: ../../docs/content/item-sets.md:165
+#: ../../docs/content/item-sets.md:162
 msgid ""
 "![Detail view of the top row if information and buttons on an item edit "
 "view. A red arrow points to the Cancel button, on the far "
@@ -749,11 +803,12 @@ msgstr ""
 "![Vue détaillée. Une flèche rouge pointe vers le bouton Annuler, à "
 "l'extrême droite](contentfiles/itemset_cancel.png)"
 
-#: ../../docs/content/item-sets.md:167
-msgid "Batch Editing"
+#: ../../docs/content/item-sets.md:164
+#, fuzzy
+msgid "Batch editing"
 msgstr "Traitement en lot"
 
-#: ../../docs/content/item-sets.md:169
+#: ../../docs/content/item-sets.md:166
 msgid ""
 "From the browse page of item sets (admin/item-set) you can batch edit "
 "item sets, using the dropdown menu on the upper right near the \"Add new "
@@ -766,7 +821,7 @@ msgstr ""
 "\"Ajouter une nouvelle collection\". Vous pouvez sélectionner plusieurs "
 "collections à l'aide des cases à cocher situées à gauche de chaque ligne."
 
-#: ../../docs/content/item-sets.md:171
+#: ../../docs/content/item-sets.md:168
 msgid ""
 "![A red arrow points to the dropdown for batch editing and deleting "
 "options](contentfiles/itemsets_batch.png)"
@@ -774,17 +829,17 @@ msgstr ""
 "![Une flèche rouge pointe vers la liste déroulante pour les options "
 "d'édition et de suppression par lots](contentfiles/itemsets_batch.png)"
 
-#: ../../docs/content/item-sets.md:173
+#: ../../docs/content/item-sets.md:170
 msgid "Batch actions are as follows:"
 msgstr "Les actions par lot sont les suivantes:"
 
-#: ../../docs/content/item-sets.md:175
+#: ../../docs/content/item-sets.md:172
 msgid "Edit selected: edit only the item sets that are selected on the page"
 msgstr ""
 "Modifier sélectionnés: modifiez uniquement les collections sélectionnées "
 "sur la page."
 
-#: ../../docs/content/item-sets.md:176
+#: ../../docs/content/item-sets.md:173
 msgid ""
 "Edit all: edit all the item sets returned by a search (default is all "
 "item sets)"
@@ -792,25 +847,27 @@ msgstr ""
 "Modifier tout: éditez toutes les collections renvoyées par une recherche "
 "(par défaut, toutes les collections)"
 
-#: ../../docs/content/item-sets.md:177
+#: ../../docs/content/item-sets.md:174
 msgid "Delete selected: delete only the item sets that are selected on the page"
 msgstr ""
 "Supprimer sélectionnés: supprime uniquement les collections sélectionnées"
 " sur la page."
 
-#: ../../docs/content/item-sets.md:178
+#: ../../docs/content/item-sets.md:175
+#, fuzzy
 msgid ""
 "Delete all: delete all the item sets returned by a search (default is all"
-" item sets)"
+" item sets)."
 msgstr ""
 "Supprimer tout: supprime toutes les collections renvoyées par une "
 "recherche (par défaut, toutes les collections)"
 
-#: ../../docs/content/item-sets.md:180
-msgid "Choose one of these options and then click *Go*."
+#: ../../docs/content/item-sets.md:177
+#, fuzzy
+msgid "Choose one of these options and then click \"Go\"."
 msgstr "Choisissez l'une de ces options, puis cliquez sur *Traiter*."
 
-#: ../../docs/content/item-sets.md:182
+#: ../../docs/content/item-sets.md:179
 msgid ""
 "**Batch editing** item sets takes you to a new page. The item sets being "
 "edited will display on the right side in a drawer, while the batch edit "
@@ -821,19 +878,19 @@ msgstr ""
 " tandis que le formulaire de modification par lot vous offre les options "
 "suivantes:"
 
-#: ../../docs/content/item-sets.md:184
+#: ../../docs/content/item-sets.md:181
 msgid "set visibility: a dropdown, select from public or not public."
 msgstr ""
 "visibilité de l'ensemble: une liste déroulante, sélectionnez *Public* ou "
 "*Non Public*."
 
-#: ../../docs/content/item-sets.md:185
+#: ../../docs/content/item-sets.md:182
 msgid "set openness: a dropdown, select from open or not open."
 msgstr ""
 "définir l'ouverture: une liste déroulante, sélectionnez *Ouvert* ou *Non "
 "ouvert*."
 
-#: ../../docs/content/item-sets.md:186
+#: ../../docs/content/item-sets.md:183
 msgid ""
 "set template: a dropdown, select from the installation's resource "
 "templates."
@@ -841,18 +898,19 @@ msgstr ""
 "définir le modèle: une liste déroulante, sélectionnez parmi les modèles "
 "de ressources de l'instance."
 
-#: ../../docs/content/item-sets.md:187
+#: ../../docs/content/item-sets.md:184
 msgid "set class: a dropdown, select from classes of the installed vocabularies."
 msgstr ""
 "définir une classe: une liste déroulante, sélectionnez parmi les classes "
 "de vocabulaires installés."
 
-#: ../../docs/content/item-sets.md:188
+#: ../../docs/content/item-sets.md:185
+#, fuzzy
 msgid ""
 "clear property values: a dropdown menu with all the properties in all "
 "vocabularies, selecting from this will remove any values in that property"
-" in the affected item sets. Clear additional properties using the *Clear "
-"another property* button."
+" in the affected item sets. Clear additional properties using the \"Clear"
+" another property\" button."
 msgstr ""
 "effacer les valeurs d'une propriété: un menu déroulant contenant toutes "
 "les propriétés de tous les vocabulaires. En sélectionnant cette option, "
@@ -860,7 +918,7 @@ msgstr ""
 "concernées. Effacer les propriétés supplémentaires cliquant une nouvelle "
 "fois dans le champs."
 
-#: ../../docs/content/item-sets.md:190
+#: ../../docs/content/item-sets.md:187
 msgid ""
 "![Batch edit items form, with options as described above. Everything is "
 "grayscale](contentfiles/itemsets_batchedit.png)"
@@ -868,27 +926,28 @@ msgstr ""
 "![L'édition en lot mène au formulaire avec les options décrites ci-"
 "dessus. Tout est en niveaux de gris](contentfiles/itemsets_batchedit.png)"
 
-#: ../../docs/content/item-sets.md:192
+#: ../../docs/content/item-sets.md:189
+#, fuzzy
 msgid ""
-"In addition,  you can use the bottoms at the bottom of the batch edit "
-"form to add properties to every item set:"
+"In addition, you can use the bottoms at the bottom of the batch edit form"
+" to add properties to every item set:"
 msgstr ""
 "De plus, vous pouvez utiliser le bas du formulaire de modification par "
 "lot pour ajouter des propriétés à chaque ensemble d'éléments:"
 
-#: ../../docs/content/item-sets.md:194
+#: ../../docs/content/item-sets.md:191
 msgid "add text value"
 msgstr "ajouter une valeur textuelle"
 
-#: ../../docs/content/item-sets.md:195
+#: ../../docs/content/item-sets.md:192
 msgid "add resource value"
 msgstr "ajouter un lien vers une ressource"
 
-#: ../../docs/content/item-sets.md:196
+#: ../../docs/content/item-sets.md:193
 msgid "add URI value"
 msgstr "ajouter une lien URI"
 
-#: ../../docs/content/item-sets.md:198
+#: ../../docs/content/item-sets.md:195
 msgid ""
 "Selecting any of these will add a block to the form where you can select "
 "a property from the installed vocabularies and enter the value for that "
@@ -898,7 +957,7 @@ msgstr ""
 "vous pourrez sélectionner une propriété parmi les vocabulaires installés "
 "et entrer la valeur de cette propriété."
 
-#: ../../docs/content/item-sets.md:200
+#: ../../docs/content/item-sets.md:197
 msgid ""
 "![Image depicts only the Add text value block of the batch edit form, "
 "with a dropdown labeled \"select property\" above an empty text "
@@ -909,16 +968,17 @@ msgstr ""
 "\"Sélectionner la propriété\" au-dessus d'un champ de texte "
 "vide.](contentfiles/itemsets_property.png)"
 
-#: ../../docs/content/item-sets.md:202
+#: ../../docs/content/item-sets.md:199
+#, fuzzy
 msgid ""
 "For the **delete actions**, a drawer will open on the right side of the "
 "screen telling you the number of item sets which will be deleted. Nothing"
-" will be deleted unless you click the red *Confirm Delete* button. This "
-"action cannot be undone. To opt out of deleting the item sets, click the "
-"X in the upper right corner of the deletion drawer. To confirm delete, "
-"check the \"Are you sure\" checkbox and then click *Confirm Delete*. Note"
-" that deleting the item set will not delete the items associated with "
-"that set."
+" will be deleted unless you click the red \"Confirm Delete\" button. This"
+" action cannot be undone. To opt out of deleting the item sets, click the"
+" \"X\" in the upper right corner of the deletion drawer. To confirm "
+"delete, check the \"Are you sure\" checkbox (for \"Delete all\" but not "
+"\"Delete selected\") and then click \"Confirm Delete\". Note that "
+"deleting the item set will not delete the items associated with that set."
 msgstr ""
 "Pour les **actions de suppression**, un onglet s'ouvre sur le côté droit "
 "de l'écran pour vous indiquer le nombre de collections à supprimer. Rien "
@@ -930,7 +990,7 @@ msgstr ""
 "*Confirmer la suppression*. Notez que la suppression d'une collection ne "
 "supprimera pas les contenus associés à cette collection."
 
-#: ../../docs/content/item-sets.md:204
+#: ../../docs/content/item-sets.md:201
 msgid ""
 "![Close up of the warning, with the text describing the number of items "
 "to be deleted in red.](contentfiles/itemsets_bulkdelete.png)"
@@ -938,11 +998,12 @@ msgstr ""
 "![Gros plan sur l'avertissement, avec le texte décrivant le nombre "
 "d'éléments à supprimer en rouge.](contentfiles/itemsets_bulkdelete.png)"
 
-#: ../../docs/content/item-sets.md:206
-msgid "Delete Item Set"
+#: ../../docs/content/item-sets.md:203
+#, fuzzy
+msgid "Delete item set"
 msgstr "Supprimer une collection"
 
-#: ../../docs/content/item-sets.md:207
+#: ../../docs/content/item-sets.md:204
 msgid ""
 "In addition to the batch delete function described above, you can also "
 "delete individual item sets."
@@ -950,7 +1011,7 @@ msgstr ""
 "Outre la fonction de suppression par lot décrite ci-dessus, vous pouvez "
 "également supprimer des collections individuellement."
 
-#: ../../docs/content/item-sets.md:209
+#: ../../docs/content/item-sets.md:206
 msgid ""
 "Note that deleting item sets does not delete any items associated with "
 "the item set."
@@ -958,13 +1019,14 @@ msgstr ""
 "Notez que la suppression des collections ne supprime aucun contenu "
 "associé aux collections supprimées."
 
-#: ../../docs/content/item-sets.md:211
+#: ../../docs/content/item-sets.md:208
+#, fuzzy
 msgid ""
 "From the Item Set browse view, you can delete an item set by clicking the"
 " trash can icon in the row for the item set you want to delete. This will"
 " open a drawer on the right with a message at the top asking you to "
 "confirm that you want to delete the item set, with the metadata for the "
-"item set below the confirm delete button. Click *Confirm delete* to "
+"item set below the confirm delete button. Click \"Confirm delete\" to "
 "delete the item set, or close the drawer to cancel."
 msgstr ""
 "Dans l'écran Collections, vous pouvez supprimer une collection en "
@@ -976,7 +1038,7 @@ msgstr ""
 "*Confirmer la suppression* pour supprimer la collection ou fermez "
 "l'onglet pour annuler."
 
-#: ../../docs/content/item-sets.md:213
+#: ../../docs/content/item-sets.md:210
 msgid ""
 "![Browse item sets view with two item sets and a red arrow pointing to "
 "the trash can icon](contentfiles/itemsets_browseDel.png)"
@@ -984,7 +1046,7 @@ msgstr ""
 "![Vue des collections avec deux collections et une flèche rouge pointant "
 "sur l'icône de la corbeille](contentfiles/itemsets_browseDel.png)"
 
-#: ../../docs/content/item-sets.md:215
+#: ../../docs/content/item-sets.md:212
 msgid ""
 "![Drawer with a confirmation message to delete the an item set, including"
 " the Confirm delete button and the item set's basic descriptive metadata "
@@ -996,12 +1058,13 @@ msgstr ""
 "description et nombre d'éléments dans la collection. "
 "](contentfiles/itemsets_browseDel2.png)"
 
-#: ../../docs/content/item-sets.md:218
+#: ../../docs/content/item-sets.md:214
+#, fuzzy
 msgid ""
-"From the edit page for an Item Set, click the *Delete* button in the "
+"From the edit page for an Item Set, click the \"Delete\" button in the "
 "upper right-hand corner. This will open a drawer on the right side asking"
-" you to confirm that you want to delete the item set. Click *Confirm "
-"delete* to delete the item set, or close the drawer to cancel."
+" you to confirm that you want to delete the item set. Click \"Confirm "
+"delete\" to delete the item set, or close the drawer to cancel."
 msgstr ""
 "Dans la page d'édition d'une collection, cliquez sur le bouton "
 "*Supprimer* dans le coin supérieur droit. Cela ouvrira un onglet sur le "
@@ -1009,7 +1072,7 @@ msgstr ""
 "collection. Cliquez sur *Confirmer la suppression* pour supprimer la "
 "collection ou fermez l'onglet pour annuler."
 
-#: ../../docs/content/item-sets.md:220
+#: ../../docs/content/item-sets.md:216
 msgid ""
 "![Close up of the warning drawer, with text stating \"Are you sure you "
 "would like to delete this item set\" and below it a red button with white"
@@ -1019,4 +1082,71 @@ msgstr ""
 "vraiment supprimer cette collection\" et en dessous, un bouton rouge avec"
 " du texte blanc indiquant \"Confirmer la suppression\".](contentfiles"
 "/itemset-delete2.png)"
+
+#~ msgid ""
+#~ "To quickly see information about an "
+#~ "item set, click on the *view "
+#~ "details* button (ellipses) for the item"
+#~ " set on the item sets browse "
+#~ "page. This will open a drawer on"
+#~ " the right hand side of the "
+#~ "page with the item set’s Title, "
+#~ "Visibility, and number of Items."
+#~ msgstr ""
+#~ "Pour afficher rapidement des informations "
+#~ "sur une collection, cliquez sur le "
+#~ "bouton (trois petits points) pour "
+#~ "afficher la collection sur la page "
+#~ "de navigation. Cela ouvrira un onglet"
+#~ " sur le côté droit de la page"
+#~ " avec le titre, la visibilité et "
+#~ "le nombre de contenus appartenant à "
+#~ "la collection."
+
+#~ msgid ""
+#~ "In the world of linked data, this"
+#~ " process is know as "
+#~ "[reification](https://www.w3.org/wiki/RdfReification). Each "
+#~ "value can have any number of "
+#~ "annotations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To create an annotation, click on "
+#~ "the ellipses on the right side of"
+#~ " the value input interface, and then"
+#~ " click on the annotation icon (a "
+#~ "dialogue bubble)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The annotation sidebar will open to "
+#~ "the right. Select any property that "
+#~ "is available within the Omeka S "
+#~ "installation to describe the relationship "
+#~ "between the annotation and the value "
+#~ "it describes. For instance, the value"
+#~ " for associated with the property "
+#~ "DCterms:Contributor might be annotated with"
+#~ " the property Schema:jobTitle."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Then select a date type for the"
+#~ " annotation: Text, URI, or and Omeka"
+#~ " S Resource. Installed modules may "
+#~ "make additional data types available. "
+#~ "Click the Add Annotation button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Input the annotation, and click Set "
+#~ "Annotations to finalize the process."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sitess include a setting to indicate "
+#~ "whether or not value annotations are "
+#~ "visible to the public."
+#~ msgstr ""
 

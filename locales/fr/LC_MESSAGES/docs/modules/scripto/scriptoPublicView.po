@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 20:27+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:1
 msgid "Public Interface"
@@ -56,7 +56,7 @@ msgid ""
 "For an example of how to orient community members to the interface, see "
 "the [Guide to transcribing the *Papers of the War "
 "Department*](http://wardepartmentpapers.org/s/home/page/transcribing-"
-"guide)"
+"guide){target=_blank}."
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:13
@@ -387,20 +387,20 @@ msgid "On the left above the media and metadata are a series of buttons:"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:114
-msgid "*Edit*"
+msgid "**Edit**"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:115
-msgid "*Browse revision history*"
+msgid "**Browse revision history**"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:116
-msgid "*View notes*"
+msgid "**View notes**"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:117
 msgid ""
-"And *track/stop tracking media* with a star button which toggles this "
+"**Track/stop tracking media** with a star button which toggles this "
 "option."
 msgstr ""
 
@@ -455,7 +455,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:134
-msgid "On the far right are buttons to *save* or *cancel* changes."
+msgid "On the far right are buttons to save or cancel changes."
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:135
@@ -483,3 +483,31 @@ msgid ""
 "workspace). Any formatting will be applied to the HTML view of the text "
 "after changes are saved."
 msgstr ""
+
+#~ msgid ""
+#~ "For an example of how to orient"
+#~ " community members to the interface, "
+#~ "see the [Guide to transcribing the "
+#~ "*Papers of the War "
+#~ "Department*](http://wardepartmentpapers.org/s/home/page"
+#~ "/transcribing-guide)"
+#~ msgstr ""
+
+#~ msgid "*Edit*"
+#~ msgstr ""
+
+#~ msgid "*Browse revision history*"
+#~ msgstr ""
+
+#~ msgid "*View notes*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "And *track/stop tracking media* with a"
+#~ " star button which toggles this "
+#~ "option."
+#~ msgstr ""
+
+#~ msgid "On the far right are buttons to *save* or *cancel* changes."
+#~ msgstr ""
+

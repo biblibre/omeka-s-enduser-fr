@@ -8,50 +8,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 08:33+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: 2021-07-01 22:02+0200\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
-"Language-Team: \n"
 "Language: fr_FR\n"
-"X-Generator: Poedit 2.2.1\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/configuration.md:1
 msgid "Configuration Options"
 msgstr "Options de configuration"
 
 #: ../../docs/configuration.md:3
+#, fuzzy
 msgid ""
 "The following are commonly requested options which can be configured in "
-"the file `local.config.php` located in the config directory."
+"the file `local.config.php`, located in the `/config` directory."
 msgstr ""
 "Les options suivantes sont couramment demandées et peuvent être "
 "configurées dans le fichier `local.config.php` situé dans le répertoire "
 "`config`."
 
 #: ../../docs/configuration.md:5
+#, fuzzy
 msgid ""
 "For a full list of available configuration keys, please see the "
-"[developer documentation page on configuration settings](https://omeka."
-"org/s/docs/developer/configuration/)."
+"[developer documentation page on configuration "
+"settings](https://omeka.org/s/docs/developer/configuration/){target=_blank}."
 msgstr ""
 "Pour obtenir la liste complète des clés de configuration disponibles, "
 "veuillez consulter la [page de la documentation du développeur relative "
-"aux paramètres de configuration.](https://omeka.org/s/docs/developer/"
-"reference/configuration/)."
+"aux paramètres de "
+"configuration.](https://omeka.org/s/docs/developer/reference/configuration/)."
 
 #: ../../docs/configuration.md:7
 msgid "Password settings"
 msgstr "Configuration des mots de passe"
 
 #: ../../docs/configuration.md:8
+#, fuzzy
 msgid ""
-"You can change the requirements for user passwords in the config file. "
-"Options include minimum length, number of upper and lowercase letters, "
-"and setting allowed symbols."
+"You can change the requirements for user passwords. The options include "
+"minimum length, number of upper and lowercase letters, and setting "
+"allowed symbols."
 msgstr ""
 "Vous pouvez modifier la configuration requise pour les mots de passe "
 "utilisateur dans le fichier de configuration. Les options incluent la "
@@ -59,32 +62,35 @@ msgstr ""
 "définition des symboles autorisés."
 
 #: ../../docs/configuration.md:20
-msgid "Requirements will display on the user creation and edit pages."
+#, fuzzy
+msgid ""
+"Requirements will [display on the user creation and edit "
+"pages](admin/users.md#password)."
 msgstr ""
 "Les conditions s'afficheront sur les pages de création et d'édition de "
 "l'utilisateur."
 
-#: ../../docs/configuration.md:22
+#: ../../docs/configuration.md:24
 msgid "Thumbnails"
 msgstr "Vignettes"
 
-#: ../../docs/configuration.md:24
+#: ../../docs/configuration.md:26
 msgid "The `thumbnails` configuration key holds most thumbnail settings:"
 msgstr ""
 "La clé de configuration `thumbnails` contient la plupart des paramètres "
 "des vignettes:"
 
-#: ../../docs/configuration.md:39
+#: ../../docs/configuration.md:41
+#, fuzzy
 msgid ""
-"Under `types`, set the maximum dimensions for derivative images for "
-"media files. There are separate options for large, medium, and square. "
-"Defaults for these are 800, 200, and 200 respectively (all sizes are "
-"pixels)"
+"Under `types`, set the maximum pixel dimensions for derivative images for"
+" media files. There are separate options for large, medium, and square. "
+"Defaults for these are 800, 200, and 200 pixels respectively."
 msgstr ""
 "Sous `types`, définissez les dimensions maximum pour les images dérivées "
 "des fichiers media. Il y a des options séparées pour grandes (*large*), "
-"moyennes (*medium*), et carrées (*square*). Leurs valeurs par défaut "
-"sont 800, 200, et 200 respectivement (toutes les tailles sont en pixels)"
+"moyennes (*medium*), et carrées (*square*). Leurs valeurs par défaut sont"
+" 800, 200, et 200 respectivement (toutes les tailles sont en pixels)"
 
 #: ../../docs/configuration.md:43
 msgid ""
@@ -100,102 +106,249 @@ msgstr ""
 "peut être utile si Omeka S n'arrive pas à détecter automatiquement le "
 "chemin correct pour ImageMagick."
 
-#: ../../docs/configuration.md:48
+#: ../../docs/configuration.md:45
 msgid ""
-"The thumbnailer to use is set under the `service_manager` key, by "
-"setting the alias for `Omeka\\File\\Thumbnailer`:"
+"The thumbnailer to use is set under the `service_manager` key, by setting"
+" the alias for `Omeka\\File\\Thumbnailer`:"
 msgstr ""
 "Le vignettiste à utiliser est défini sous la clé `service_manager`, en "
 "définissant l'alias pour `Omeka\\File\\Thumbnailer`:"
 
-#: ../../docs/configuration.md:59
+#: ../../docs/configuration.md:56
 msgid ""
-"The default thubnailer is `Omeka\\File\\Thumbnailer\\ImageMagick`.  Also "
+"The default thumbnailer is `Omeka\\File\\Thumbnailer\\ImageMagick`. Also "
 "available are `Omeka\\File\\Thumbnailer\\Imagick` (which uses the "
 "`imagick` PHP extension) and `Omeka\\File\\Thumbnailer\\Gd` (which uses "
 "the commonly available `gd` PHP extension)."
 msgstr ""
-"Le vignettiste par défaut est `Omeka\\File\\Thumbnailer\\ImageMagick`. "
-"Sont aussi disponibles `Omeka\\File\\Thumbnailer\\Imagick` (qui utilise "
-"l'extension PHP `imagick`) et `Omeka\\File\\Thumbnailer\\Gd` (qui "
-"utilise l'extension PHP `gd` couramment disponible)."
+
+#: ../../docs/configuration.md:58
+msgid ""
+"You can also set the thumbnailer to "
+"`Omeka\\File\\Thumbnailer\\NoThumbnail`, which will prevent your Omeka S "
+"installation from generating thumbnails."
+msgstr ""
+"Vous pouvez aussi définir le vignettiste à "
+"`Omeka\\File\\Thumbnailer\\NoThumbnail`, ce qui empêchera votre "
+"installation Omeka S de générer des vignettes."
+
+#: ../../docs/configuration.md:60
+msgid ""
+"[GD](https://secure.php.net/manual/en/intro.image.php){target=_blank} is "
+"a basic graphic library installed by default with PHP. It can create "
+"thumbnails for common image formats only (jpeg, gif, png)."
+msgstr ""
+
+#: ../../docs/configuration.md:62
+msgid ""
+"[Imagick and ImageMagick](https://www.imagemagick.org){target=_blank} are"
+" the same library and can create thumbnails for more than 200 formats. "
+"Imagick is integrated into PHP and ImageMagick is the command-line "
+"version."
+msgstr ""
 
 #: ../../docs/configuration.md:64
 msgid ""
-"You can also set the thumbnailer to `Omeka\\File\\Thumbnailer"
-"\\NoThumbnail`, which will prevent your Omeka S installation from "
-"generating thumbnails."
+"ImageMagick may require you to manually set a path in `imagemagick_dir`, "
+"whereas Imagick and GD do not require paths."
 msgstr ""
-"Vous pouvez aussi définir le vignettiste à `Omeka\\File\\Thumbnailer"
-"\\NoThumbnail`, ce qui empêchera votre installation Omeka S de générer "
-"des vignettes."
 
-#: ../../docs/configuration.md:67
-msgid "PHP Path"
-msgstr "Chemin PHP"
+#: ../../docs/configuration.md:66
+msgid ""
+"You can use the [\"System information\" link](admin-dashboard.md#system-"
+"information) at the very bottom of the admin interface to double-check "
+"whether GD and Imagick are enabled as PHP extensions on your server."
+msgstr ""
 
-#: ../../docs/configuration.md:69
+#: ../../docs/configuration.md:68
+msgid ""
+"!!! note \tSome servers will not allow applications to run command-line "
+"programs via PHP. You may see an error message such as"
+msgstr ""
+
+#: ../../docs/configuration.md:77
+msgid "PHP path"
+msgstr ""
+
+#: ../../docs/configuration.md:79
+#, fuzzy
 msgid ""
 "Omeka S uses background jobs for some long-running tasks that operate on "
-"many items or just otherwise might take a long time. Omeka S uses the "
-"PHP CLI (command-line interface) to run these jobs, the `php` command."
+"many items or just otherwise might take a long time. Omeka S uses the PHP"
+" CLI (command-line interface) to run these jobs, the `php` command. An "
+"invalid PHP path can cause a number of problems for your Omeka "
+"installation."
 msgstr ""
 "Omeka S utilise des tâches de fond pour certaines tâches longues qui "
 "manipulent beaucoup de contenus ou simplement parce que ça peut prendre "
 "beaucoup de temps. Omeka S utilise la CLI (interface en ligne de "
 "commande) PHP pour exécuter ces tâches, la commande `php`."
 
-#: ../../docs/configuration.md:73
+#: ../../docs/configuration.md:81
+#, fuzzy
 msgid ""
 "Omeka S by default will try to automatically detect the path to the PHP "
 "CLI on the server, but for some servers this detection doesn't work, or "
-"there are multiple different `php` commands to choose from. In these "
-"situations you can manually configure the correct path in the "
-"configuration file:"
+"there are multiple different `php` commands to choose from."
 msgstr ""
-"Omeka S essaiera par défaut de détecter automatiquement le chemin vers "
-"la CLI PHP sur le serveur, mais sur certains serveurs cette détection ne "
-"fonctionne pas, ou il y a plusieurs commandes `php` différentes. Dans "
-"ces situations vous pouvez configurer manuellement le chemin correct "
-"dans le fichier de configuration:"
+"Omeka S essaiera par défaut de détecter automatiquement le chemin vers la"
+" CLI PHP sur le serveur, mais sur certains serveurs cette détection ne "
+"fonctionne pas, ou il y a plusieurs commandes `php` différentes. Dans ces"
+" situations vous pouvez configurer manuellement le chemin correct dans le"
+" fichier de configuration:"
 
-#: ../../docs/configuration.md:84
+#: ../../docs/configuration.md:83
 msgid ""
-"(Note: the path here is just an example; the proper path will be "
-"specific to your server)"
+"If you begin to see errors once you start working with Omeka, reading "
+"something like \"PHP-CLI error: invalid PHP path\", or have "
+"[jobs](admin/jobs.md) that start but do not finish, you will need to "
+"manually set the PHP path."
 msgstr ""
-"(Note: le chemin ici est juste un exemple; le chemin correct sera "
-"spécifique à votre serveur)"
+
+#: ../../docs/configuration.md:85
+msgid ""
+"You may also wish to manually select an earlier stable PHP version, "
+"rather than a new version that may be causing unexpected behavior in your"
+" Omeka site."
+msgstr ""
 
 #: ../../docs/configuration.md:87
+msgid ""
+"To set your PHP path you will need access to the server where your Omeka "
+"S site lives; you set the path by editing files in the Omeka site. You "
+"cannot set the PHP path from the admin dashboard."
+msgstr ""
+
+#: ../../docs/configuration.md:89
+#, fuzzy
+msgid ""
+"Manually configure the correct path in the file `local.config.php`, "
+"located in the `/config` directory:"
+msgstr ""
+"Les options suivantes sont couramment demandées et peuvent être "
+"configurées dans le fichier `local.config.php` situé dans le répertoire "
+"`config`."
+
+#: ../../docs/configuration.md:97
+msgid ""
+"Replace the word \"null\" with a path, contained in single quotes "
+"('usr/local/bin/php'). This path commonly looks like "
+"`/usr/local/php80/bin/php`, `/usr/local/bin/php`, or `/usr/local/bin/ea-"
+"php74`."
+msgstr ""
+
+#: ../../docs/configuration.md:99
+msgid ""
+"These are just examples; the proper path will be specific to your server."
+" Search the help documentation or knowledge base for your hosting "
+"provider for the correct PHP path; this is a frequently asked question "
+"for a large variety of software installations. If you can't find "
+"anything, contact your hosting provider or sysadmin and ask them."
+msgstr ""
+
+#: ../../docs/configuration.md:101
+msgid ""
+"If you have downloaded the file in order to edit it, be sure to upload "
+"the changed version back to your Omeka installation."
+msgstr ""
+
+#: ../../docs/configuration.md:103
 msgid "Mail"
 msgstr "E-mail"
 
-#: ../../docs/configuration.md:89
-msgid "The `mail` key can be used to configure how Omeka S sends emails."
-msgstr ""
-"La clé `mail` peut être utilisée pour configurer comment Omeka S envoie "
-"des e-mails."
-
-#: ../../docs/configuration.md:91
+#: ../../docs/configuration.md:105
 msgid ""
-"The default is to use sendmail, where the server is responsible for "
-"having mail delivery configured and set up. Sendmail generally requires "
-"no configuration on the Omeka S side."
+"The `mail` key can be used to configure how Omeka S sends emails. Omeka "
+"sends emails to users upon registration and when they reset their "
+"passwords; modules can add other email functions, such as [confirming "
+"submissions](modules/collecting.md)."
 msgstr ""
-"Le comportement par défaut est d'utiliser sendmail, où le serveur est "
-"responsable d'avoir une distribution des e-mails configurée et en place. "
-"Sendmail ne demande généralement aucune configuration du côté d'Omeka S."
 
-#: ../../docs/configuration.md:95
+#: ../../docs/configuration.md:107
 msgid ""
+"The default is to use "
+"[sendmail](https://en.wikipedia.org/wiki/Sendmail){target=_blank}, where "
+"the server is responsible for having mail delivery configured and set up."
+" Sendmail generally requires no configuration on the Omeka S side. "
 "Another option for some servers is to configure a direct SMTP connection "
-"for sending mail. An example configuration, to be added at the end of "
-"`local.config.php` follows (see the [laminas-mail docs](https://docs."
-"laminas.dev/laminas-mail/transport/smtp-options/) for clarification):"
+"for sending mail."
 msgstr ""
-"Une autre options pour certains serveurs et de configurer une connexion "
-"SMTP directe pour envoyer les e-mails. Un exemple de configuration, à "
-"ajouter à la fin du fichier `local.config.php`, suit (voir la "
-"[documentation de laminas-mail](https://docs.laminas.dev/laminas-mail/"
-"transport/smtp-options/) pour des précisions):"
+
+#: ../../docs/configuration.md:109
+msgid ""
+"An example configuration, to be added at the end of `local.config.php`, "
+"will look something like this:"
+msgstr ""
+
+#: ../../docs/configuration.md:131
+msgid ""
+"See the [laminas-mail documentation](https://docs.laminas.dev/laminas-"
+"mail/transport/smtp-options/){target=_blank} for clarification."
+msgstr ""
+
+#~ msgid ""
+#~ "The default thubnailer is "
+#~ "`Omeka\\File\\Thumbnailer\\ImageMagick`.  Also available"
+#~ " are `Omeka\\File\\Thumbnailer\\Imagick` (which "
+#~ "uses the `imagick` PHP extension) and"
+#~ " `Omeka\\File\\Thumbnailer\\Gd` (which uses the"
+#~ " commonly available `gd` PHP extension)."
+#~ msgstr ""
+#~ "Le vignettiste par défaut est "
+#~ "`Omeka\\File\\Thumbnailer\\ImageMagick`. Sont aussi "
+#~ "disponibles `Omeka\\File\\Thumbnailer\\Imagick` (qui "
+#~ "utilise l'extension PHP `imagick`) et "
+#~ "`Omeka\\File\\Thumbnailer\\Gd` (qui utilise "
+#~ "l'extension PHP `gd` couramment disponible)."
+
+#~ msgid "PHP Path"
+#~ msgstr "Chemin PHP"
+
+#~ msgid ""
+#~ "(Note: the path here is just an"
+#~ " example; the proper path will be "
+#~ "specific to your server)"
+#~ msgstr ""
+#~ "(Note: le chemin ici est juste un"
+#~ " exemple; le chemin correct sera "
+#~ "spécifique à votre serveur)"
+
+#~ msgid "The `mail` key can be used to configure how Omeka S sends emails."
+#~ msgstr ""
+#~ "La clé `mail` peut être utilisée "
+#~ "pour configurer comment Omeka S envoie"
+#~ " des e-mails."
+
+#~ msgid ""
+#~ "The default is to use sendmail, "
+#~ "where the server is responsible for "
+#~ "having mail delivery configured and set"
+#~ " up. Sendmail generally requires no "
+#~ "configuration on the Omeka S side."
+#~ msgstr ""
+#~ "Le comportement par défaut est "
+#~ "d'utiliser sendmail, où le serveur est"
+#~ " responsable d'avoir une distribution des"
+#~ " e-mails configurée et en place. "
+#~ "Sendmail ne demande généralement aucune "
+#~ "configuration du côté d'Omeka S."
+
+#~ msgid ""
+#~ "Another option for some servers is "
+#~ "to configure a direct SMTP connection"
+#~ " for sending mail. An example "
+#~ "configuration, to be added at the "
+#~ "end of `local.config.php` follows (see "
+#~ "the [laminas-mail docs](https://docs.laminas.dev"
+#~ "/laminas-mail/transport/smtp-options/) for "
+#~ "clarification):"
+#~ msgstr ""
+#~ "Une autre options pour certains serveurs"
+#~ " et de configurer une connexion SMTP"
+#~ " directe pour envoyer les e-mails. Un"
+#~ " exemple de configuration, à ajouter "
+#~ "à la fin du fichier `local.config.php`,"
+#~ " suit (voir la [documentation de "
+#~ "laminas-mail](https://docs.laminas.dev/laminas-mail/transport"
+#~ "/smtp-options/) pour des précisions):"
+

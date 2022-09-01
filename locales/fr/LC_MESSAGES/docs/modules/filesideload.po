@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-27 10:43+0200\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/filesideload.md:1
 msgid "File Sideload"
@@ -24,16 +24,21 @@ msgstr ""
 
 #: ../../docs/modules/filesideload.md:3
 msgid ""
-"This module adds the ability to add media files that are already stored "
-"on the server where your Omeka S installation lives."
+"The [File Sideload "
+"module](https://omeka.org/s/modules/FileSideload){target=_blank} adds the"
+" ability to add media files that are already stored on the server where "
+"your Omeka S installation lives."
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:5
-msgid "File Sideload is compatible with [CSV Import](../modules/csvimport.md)."
+msgid ""
+"File Sideload is compatible with [CSV Import](../modules/csvimport.md). "
+"When installed, your CSV Import options will include the ability to add "
+"media via Sideload."
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:7
-msgid "Create a Directory"
+msgid "Create a directory"
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:9
@@ -45,16 +50,16 @@ msgstr ""
 
 #: ../../docs/modules/filesideload.md:11
 msgid ""
-"Upload files into this directory using your File Transfer Protocol (ftp) "
-"client. All files or directories must be in this directory to be "
-"accessible."
+"Upload files into this directory. All files or directories must be in "
+"this directory to be accessible."
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:13
 msgid ""
 "Note that when browsing these files from the module to add as media, you "
 "will only see the filenames, so you should name the files as clearly as "
-"possible (\"StudyInScarlet_coverpapge\" is better than \"img001\")."
+"possible (for example, \"StudyInScarlet_coverpage.jpg\" will be more "
+"helpful than \"img001.jpg\")."
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:15
@@ -69,99 +74,123 @@ msgstr ""
 
 #: ../../docs/modules/filesideload.md:19
 msgid ""
-"From the modules tab of the left hand navigation, scroll to File Sideload"
-" and click the configure button."
+"From the Modules page of the left-hand navigation, scroll to File "
+"Sideload in the list and click the \"Configure\" button."
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:21
-msgid ""
-"![A red arrow points to the configure "
-"button](../modules/modulesfiles/filesideload_config.png)"
+msgid "The File Sideload module has two configuration options."
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:23
-msgid "The File Sideload module has two configuration options."
+msgid ""
+"![An example configuration screen is filled "
+"out](../modules/modulesfiles/filesideload_config2.png)"
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:25
 msgid ""
-"**Sideload Directory**: the complete path, relative to the server root, "
-"of the directory in which the files are stored."
+"**Sideload Directory**: the path, **relative to the server root**, of the"
+" directory in which the files are stored. This should look something "
+"like:"
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:27
-msgid ""
-"If you have shell access to the directory via terminal, you can copy and "
-"paste the results of the command \"pwd\"."
+msgid "`/var/www/html/yourinstallationpath/omeka-s/modules/FileSideload/sideload`"
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:28
-msgid ""
-"If you are using a ftp application, copy out the path in the location bar"
-" of the application."
+msgid "`/home/yourusername/yourwebsite.org/omeka-s/sideload` for shared hosting"
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:30
+#: ../../docs/modules/filesideload.md:29
 msgid ""
-"**Delete sideloaded file?** If checked, any file added to an item as "
-"media will be deleted from the sideload directory, as the file is now "
-"saved as media in the Omeka S installation."
+"`/home/yourusername/public_html/omeka-s/modules/FileSideload/sideload` "
+"for cPanel users."
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:32
+#: ../../docs/modules/filesideload.md:31
 msgid ""
-"If unchecked, the files will remain in the directory, and available to be"
-" added as media to any item, until you manually remove them using an ftp "
-"or shell client."
+"If you have shell access to the directory via terminal, you can copy and "
+"paste the results of the command `pwd`."
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:34
+#: ../../docs/modules/filesideload.md:33
 msgid ""
-"![A red arrow points to the configure "
-"button](../modules/modulesfiles/filesideload_config2.png)"
+"If you are using an FTP application, copy out the remote site path in the"
+" location bar of the application."
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:36
-msgid "Add a sideload file to an item"
+#: ../../docs/modules/filesideload.md:35
+msgid "**Delete sideloaded file?**"
+msgstr ""
+
+#: ../../docs/modules/filesideload.md:37
+msgid ""
+"If checked, any file added to an item as media will be deleted from the "
+"sideload directory, as the file is now saved as media in the Omeka S "
+"installation."
 msgstr ""
 
 #: ../../docs/modules/filesideload.md:38
+msgid ""
+"If unchecked, the files will remain in the directory, and will be "
+"available to be added as media to any item, until you manually remove "
+"them."
+msgstr ""
+
+#: ../../docs/modules/filesideload.md:41
+msgid "Add a sideload file to an item"
+msgstr ""
+
+#: ../../docs/modules/filesideload.md:43
 msgid ""
 "With File Sideload installed and configured, and files in the directory, "
 "you can now use the module to add media to items."
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:40
+#: ../../docs/modules/filesideload.md:45
 msgid ""
-"When editing an item, go to the *Media* tab. The Add New Media sidebar "
-"now includes a button for Sideload (at the very bottom)."
+"When editing an item, go to the Media tab. The Add New Media sidebar now "
+"includes a button for Sideload (at the very bottom)."
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:42
+#: ../../docs/modules/filesideload.md:47
 msgid ""
 "![A red arrow points to the add sideload media "
 "button](../modules/modulesfiles/filesideload_browse.png)"
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:44
+#: ../../docs/modules/filesideload.md:49
 msgid "Clicking on the button adds a Sideload media block. There are two fields:"
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:46
-msgid "*Title*: Give the media file a new title (optional)"
+#: ../../docs/modules/filesideload.md:51
+msgid "**Title**: Give the media file a new title (optional)."
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:47
+#: ../../docs/modules/filesideload.md:52
 msgid ""
-"*File*: select a file from this dropdown menu. The menu will load the "
+"**File**: select a file from this dropdown menu. The menu will load the "
 "file names as they appear in the directory. Select one from the dropdown "
 "and save changes."
 msgstr ""
 
-#: ../../docs/modules/filesideload.md:49
+#: ../../docs/modules/filesideload.md:54
 msgid ""
 "![Sideload media options with the dropdown open, displaying file "
 "names](../modules/modulesfiles/filesideload_addfile.png)"
+msgstr ""
+
+#: ../../docs/modules/filesideload.md:56
+msgid "CSV Import integration"
+msgstr ""
+
+#: ../../docs/modules/filesideload.md:58
+msgid ""
+"With CSV Import, you can add media to items via File Sideload. Provide a "
+"column with full file names, not URLs, pointing to the files in your "
+"sideload directory. Add the mapping to Media source > Sideload."
 msgstr ""
 
 #~ msgid ""
@@ -171,5 +200,109 @@ msgstr ""
 #~ " directory to be accessible; any "
 #~ "content in a subdirectory will not "
 #~ "register with the module."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This module adds the ability to "
+#~ "add media files that are already "
+#~ "stored on the server where your "
+#~ "Omeka S installation lives."
+#~ msgstr ""
+
+#~ msgid "File Sideload is compatible with [CSV Import](../modules/csvimport.md)."
+#~ msgstr ""
+
+#~ msgid "Create a Directory"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upload files into this directory using"
+#~ " your File Transfer Protocol (ftp) "
+#~ "client. All files or directories must"
+#~ " be in this directory to be "
+#~ "accessible."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that when browsing these files "
+#~ "from the module to add as media,"
+#~ " you will only see the filenames, "
+#~ "so you should name the files as"
+#~ " clearly as possible "
+#~ "(\"StudyInScarlet_coverpapge\" is better than "
+#~ "\"img001\")."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From the modules tab of the left"
+#~ " hand navigation, scroll to File "
+#~ "Sideload and click the configure button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![A red arrow points to the "
+#~ "configure "
+#~ "button](../modules/modulesfiles/filesideload_config.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Sideload Directory**: the complete path, "
+#~ "relative to the server root, of "
+#~ "the directory in which the files "
+#~ "are stored."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you have shell access to the"
+#~ " directory via terminal, you can copy"
+#~ " and paste the results of the "
+#~ "command \"pwd\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using a ftp "
+#~ "application, copy out the path in "
+#~ "the location bar of the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Delete sideloaded file?** If checked, "
+#~ "any file added to an item as "
+#~ "media will be deleted from the "
+#~ "sideload directory, as the file is "
+#~ "now saved as media in the Omeka"
+#~ " S installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If unchecked, the files will remain "
+#~ "in the directory, and available to "
+#~ "be added as media to any item, "
+#~ "until you manually remove them using "
+#~ "an ftp or shell client."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![A red arrow points to the "
+#~ "configure "
+#~ "button](../modules/modulesfiles/filesideload_config2.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When editing an item, go to the"
+#~ " *Media* tab. The Add New Media "
+#~ "sidebar now includes a button for "
+#~ "Sideload (at the very bottom)."
+#~ msgstr ""
+
+#~ msgid "*Title*: Give the media file a new title (optional)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*File*: select a file from this "
+#~ "dropdown menu. The menu will load "
+#~ "the file names as they appear in"
+#~ " the directory. Select one from the"
+#~ " dropdown and save changes."
 #~ msgstr ""
 

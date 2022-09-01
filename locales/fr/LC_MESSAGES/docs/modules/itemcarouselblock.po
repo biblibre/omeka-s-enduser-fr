@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 08:51+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/itemcarouselblock.md:1
 msgid "Item Carousel Block"
@@ -24,106 +24,109 @@ msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:3
 msgid ""
-"Item Carousel Block is a [module](../modules/index.md) that allows you to"
-" add a carousel block to [Site Pages](../sites/site_pages)."
+"The [Item Carousel Block "
+"module](https://omeka.org/s/modules/ItemCarouselBlock){target=_blank} "
+"allows you to add a slideshow block to [Site "
+"Pages](../sites/site_pages.md#page-blocks)."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:5
 msgid ""
-"To install Item Carousel Block, follow the instructions for [Installing "
-"Modules](../modules/index.md#installing-modules) on the Modules "
-"documentation."
+"Once activated, Item Carousel Block adds an \"Item Carousel\" page block "
+"to the list available from the page editing interface."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:7
 msgid ""
-"Once activated on the modules tab of the admin dashboard, Item Carousel "
-"Block adds a block to the list available from the page edit interface."
+"![A basic slideshow on a public page.](modulesfiles/itemcarouselblock-"
+"public.png)"
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:9
 msgid "Attaching Items"
 msgstr ""
 
-#: ../../docs/modules/itemcarouselblock.md:10
+#: ../../docs/modules/itemcarouselblock.md:11
 msgid ""
-"Click the _Add Attachment_ button to add an item to the block. This will "
-"open a sidebar on the right side of the page to browse and select items."
+"When editing a page, insert the Item Carousel page block. Click the \"Add"
+" Attachment\" button to add an item to the block. This will open a "
+"sidebar on the right side of the page to browse and select items."
 msgstr ""
 
-#: ../../docs/modules/itemcarouselblock.md:12
+#: ../../docs/modules/itemcarouselblock.md:13
 msgid ""
 "Once you have selected the items to attach, you can click the "
 "configuration wrench to select the media thumbnail to show and to add a "
-"caption."
+"caption. Attachments may be reordered by dragging and dropping."
 msgstr ""
 
-#: ../../docs/modules/itemcarouselblock.md:14
-msgid "Attachments may be reordered by dragging and dropping."
-msgstr ""
-
-#: ../../docs/modules/itemcarouselblock.md:16
-msgid "Basic Configuration"
+#: ../../docs/modules/itemcarouselblock.md:15
+msgid ""
+"![The page editing interface, with Item Carousel appearing in the blocks "
+"menu on the right, and a blank Item Carousel block on the "
+"page.](modulesfiles/itemcarouselblock.png)"
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:17
+msgid "Basic configuration"
+msgstr ""
+
+#: ../../docs/modules/itemcarouselblock.md:18
 msgid "The block includes two basic configuration settings."
 msgstr ""
 
-#: ../../docs/modules/itemcarouselblock.md:19
+#: ../../docs/modules/itemcarouselblock.md:20
 msgid ""
 "![An item carousel block with attached items and configuration "
-"settings.](./modulesfiles/itemcarouselblock-basicconfiguration.png)"
+"settings.](modulesfiles/itemcarouselblock-basicconfiguration.png)"
 msgstr ""
 
-#: ../../docs/modules/itemcarouselblock.md:21
-msgid "You may add a title for the carousel."
-msgstr ""
-
-#: ../../docs/modules/itemcarouselblock.md:23
+#: ../../docs/modules/itemcarouselblock.md:22
 msgid ""
-"You can select the number of items that appear on the page at one time. "
-"The block must show at least 1 item, and can accommodate showing a "
-"maximum of 10 items."
+"Add a title for the carousel, and select the number of items that appear "
+"on the page at one time. The block must show at least 1 item, and can "
+"show a maximum of 10 items."
+msgstr ""
+
+#: ../../docs/modules/itemcarouselblock.md:24
+msgid "Advanced options"
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:25
-msgid "Advanced Options"
-msgstr ""
-
-#: ../../docs/modules/itemcarouselblock.md:26
 msgid ""
 "Using the drop-down menu within the block, you can access a number of "
 "advance options to further configure the appearance of the block."
 msgstr ""
 
-#: ../../docs/modules/itemcarouselblock.md:28
+#: ../../docs/modules/itemcarouselblock.md:27
 msgid ""
 "![An item carousel block detail image focused on the advanced options "
-"settings.](./modulesfiles/itemcarouselblock-advancedoptions.png)"
+"settings.](modulesfiles/itemcarouselblock-advancedoptions.png)"
 msgstr ""
 
-#: ../../docs/modules/itemcarouselblock.md:30
+#: ../../docs/modules/itemcarouselblock.md:29
 msgid "You can use those settings to:"
+msgstr ""
+
+#: ../../docs/modules/itemcarouselblock.md:31
+msgid ""
+"Select the Thumbnail type for the attachment. The options are [large, "
+"medium, or square](../configuration.md#thumbnails)."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:32
 msgid ""
-"select the Thumbnail Type for the attachment. The options are large, "
-"medium, or square."
+"Decide which attachment title to show. The setting options include item "
+"title, media title, or no title."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:33
 msgid ""
-"decide which attachment title to show. The setting options include item "
-"title, media title, or no title."
+"Decide whether or not to show an attachment caption, as set within the "
+"attachments."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:34
-msgid "decide whether or not to show an attachment caption."
-msgstr ""
-
-#: ../../docs/modules/itemcarouselblock.md:35
 msgid ""
 "If you have selected to show the title and/or caption, you can decide "
 "whether or not to overlay the title/caption on the attached image. Note "
@@ -131,36 +134,161 @@ msgid ""
 "theme's CSS to achieve the appearance that you desire."
 msgstr ""
 
+#: ../../docs/modules/itemcarouselblock.md:35
+msgid ""
+"Set the alignment for your title/caption. The setting options include "
+"left, right, and center."
+msgstr ""
+
 #: ../../docs/modules/itemcarouselblock.md:36
 msgid ""
-"Additionally, you may set the alignment for your title/caption. The "
-"setting options include left, right, and center."
+"Decide to stretch the image from your attached item to fill the slide "
+"space. The options include None, Fill width, Fill height, and Fill entire"
+" slide."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:37
 msgid ""
-"set if you would like to stretch the image from your attached item to "
-"fill the slide space. The options include None, Fill width, Fill height, "
-"and Fill entire slide"
+"Set the duration of time that the slide in the carousel pauses before "
+"automatically advancing to the next item. The duration is set in "
+"milliseconds (so, a value of \"1000\" would switch slides once per "
+"second). **Set the duration to 0 to disable auto advance**."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:38
 msgid ""
-"set the duration of time that the slide in the carousel pauses before "
-"automatically advancing to the next item. The duration is set in "
-"milliseconds. NOTE: Set the duration to 0 to disable auto advance."
+"Set the slide to advance in an infinite loop so that once the carousel "
+"cycles through the attached items, the cycle will begin again."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:39
 msgid ""
-"set the slide to advance in an infinite loop so that once the carousel "
-"cycles through the attached items, the cycle will begin again."
-msgstr ""
-
-#: ../../docs/modules/itemcarouselblock.md:40
-msgid ""
-"decide to implement a fade between the advancing attachment slides. Note:"
+"Decide to implement a fade between the advancing attachment slides. Note:"
 " This option only works when you have set your carousel to 1 item per "
 "page."
 msgstr ""
+
+#~ msgid ""
+#~ "Item Carousel Block is a "
+#~ "[module](../modules/index.md) that allows you "
+#~ "to add a carousel block to [Site"
+#~ " Pages](../sites/site_pages)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To install Item Carousel Block, follow"
+#~ " the instructions for [Installing "
+#~ "Modules](../modules/index.md#installing-modules) on "
+#~ "the Modules documentation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once activated on the modules tab "
+#~ "of the admin dashboard, Item Carousel"
+#~ " Block adds a block to the list"
+#~ " available from the page edit "
+#~ "interface."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the _Add Attachment_ button to "
+#~ "add an item to the block. This "
+#~ "will open a sidebar on the right"
+#~ " side of the page to browse and"
+#~ " select items."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have selected the items "
+#~ "to attach, you can click the "
+#~ "configuration wrench to select the media"
+#~ " thumbnail to show and to add a"
+#~ " caption."
+#~ msgstr ""
+
+#~ msgid "Attachments may be reordered by dragging and dropping."
+#~ msgstr ""
+
+#~ msgid "Basic Configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![An item carousel block with attached"
+#~ " items and configuration "
+#~ "settings.](./modulesfiles/itemcarouselblock-"
+#~ "basicconfiguration.png)"
+#~ msgstr ""
+
+#~ msgid "You may add a title for the carousel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can select the number of items"
+#~ " that appear on the page at one"
+#~ " time. The block must show at "
+#~ "least 1 item, and can accommodate "
+#~ "showing a maximum of 10 items."
+#~ msgstr ""
+
+#~ msgid "Advanced Options"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![An item carousel block detail image"
+#~ " focused on the advanced options "
+#~ "settings.](./modulesfiles/itemcarouselblock-advancedoptions.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "select the Thumbnail Type for the "
+#~ "attachment. The options are large, "
+#~ "medium, or square."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "decide which attachment title to show."
+#~ " The setting options include item "
+#~ "title, media title, or no title."
+#~ msgstr ""
+
+#~ msgid "decide whether or not to show an attachment caption."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Additionally, you may set the alignment"
+#~ " for your title/caption. The setting "
+#~ "options include left, right, and center."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "set if you would like to stretch"
+#~ " the image from your attached item"
+#~ " to fill the slide space. The "
+#~ "options include None, Fill width, Fill"
+#~ " height, and Fill entire slide"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "set the duration of time that the"
+#~ " slide in the carousel pauses before"
+#~ " automatically advancing to the next "
+#~ "item. The duration is set in "
+#~ "milliseconds. NOTE: Set the duration to"
+#~ " 0 to disable auto advance."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "set the slide to advance in an "
+#~ "infinite loop so that once the "
+#~ "carousel cycles through the attached "
+#~ "items, the cycle will begin again."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "decide to implement a fade between "
+#~ "the advancing attachment slides. Note: "
+#~ "This option only works when you "
+#~ "have set your carousel to 1 item"
+#~ " per page."
+#~ msgstr ""
 

@@ -9,77 +9,81 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-27 10:43+0200\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../docs/modules/redactvalues.md:5
+#: ../../docs/modules/redactvalues.md:1
 msgid "Redact Values"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:7
+#: ../../docs/modules/redactvalues.md:3
 msgid ""
-"The Redact Values module allows administrators to redact property values."
-" Administrators will be able to choose a resource type, build a query to "
+"The [Redact Values "
+"module](https://omeka.org/s/modules/RedactValues/){target=_blank} allows "
+"administrators to hide certain pieces of metadata. Logged-out users will "
+"always be unable to see the values that are hidden; logged-in users at "
+"editor, supervisor, or global admin levels will always be able to see "
+"what has been redacted. The module allows admin to set viewability for "
+"users at the author or researcher level."
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:5
+msgid ""
+"Administrators will be able to choose a resource type, build a query to "
 "filter the resources, select the property from which to redact text, "
-"select the pattern to use for redaction, enter the replacement text, and "
-"choose what lower roles will be allowed to view redacted text."
+"select the pattern to use for redaction, and enter the replacement text."
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:7
+msgid "Adding a redaction"
 msgstr ""
 
 #: ../../docs/modules/redactvalues.md:9
 msgid ""
-"To install Redact Values follow the instructions for Installing Modules "
-"on the Modules documentation."
+"Select Redact Values from the Modules tab of the left-hand navigation. "
+"From the \"Browse Redactions\" page, click the \"Add Redaction\" button "
+"in the upper right corner."
 msgstr ""
 
 #: ../../docs/modules/redactvalues.md:11
-msgid "Adding a Redaction"
-msgstr ""
-
-#: ../../docs/modules/redactvalues.md:13
-msgid ""
-"Select Redact Values from the Modules tab of the left-hand navigation. "
-"Click the \"Add Redaction\" button in the upper right corner."
-msgstr ""
-
-#: ../../docs/modules/redactvalues.md:15
 msgid ""
 "![Add Redact Values button.](../modules/modulesfiles/redactValues_add-"
 "redact.png)"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:17
+#: ../../docs/modules/redactvalues.md:13
 msgid "When adding a redaction, you are required to provide:"
 msgstr ""
 
+#: ../../docs/modules/redactvalues.md:15
+msgid "A **label** for your redaction"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:16
+msgid "The **resource type** you would like to redact (item, item set, or media)"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:17
+msgid "The **property** from which to redact text"
+msgstr ""
+
 #: ../../docs/modules/redactvalues.md:18
-msgid "A **label** for your redaction;"
-msgstr ""
-
-#: ../../docs/modules/redactvalues.md:19
-msgid "The **resource type** you would like to redact (item, item set, or media);"
-msgstr ""
-
-#: ../../docs/modules/redactvalues.md:20
-msgid "The **property** from which to redact text; and,"
-msgstr ""
-
-#: ../../docs/modules/redactvalues.md:21
 msgid "The **pattern** to use when redacting text."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:23
+#: ../../docs/modules/redactvalues.md:20
 msgid ""
 "![Add Redact Values form including label, resource type, property, and "
 "pattern.](../modules/modulesfiles/redactValues_add.png)"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:25
+#: ../../docs/modules/redactvalues.md:22
 msgid ""
 "If you'd like, you can also add a query to filter the resources from "
 "which to redact text. You can add a query via the \"Edit\" button, which "
@@ -87,19 +91,19 @@ msgid ""
 "search. Alternatively, you can use \"Advanced Edit\" to add your query "
 "directly from the search results page by copying everything in your "
 "browser's address bar starting with the question mark all the way to the "
-"end of the search url (to the right). In either circumstance, be sure to "
+"end of the search URL (to the right). In either circumstance, be sure to "
 "click the \"Apply\" button to add your query to the form. No query means "
 "all resources of the specified resource type will be included in your "
 "redaction."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:27
+#: ../../docs/modules/redactvalues.md:24
 msgid ""
 "![Edit query tray in add Redact Values "
 "form.](../modules/modulesfiles/redactValues_query.png)"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:29
+#: ../../docs/modules/redactvalues.md:26
 msgid ""
 "There is also a field to include the replacement text that will appear in"
 " place of the redacted values. If you leave this blank, the redacted "
@@ -107,74 +111,76 @@ msgid ""
 "redactions."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:31
+#: ../../docs/modules/redactvalues.md:28
 msgid ""
-"You also have the option to give certain role types permissions in "
-"viewing redactions. Note that any user with permission to update a "
-"resource can automatically view its redacted text. You can allow authors "
-"or researchers by checking their respective boxes. Normally, values will "
-"be redacted for authors except for resources that they own and "
-"researchers unless you grant them permissions in individual redactions."
+"Each redaction has individual viewing options. You have the option to "
+"give certain role types permissions in viewing redactions. Note that any "
+"user with permission to update a resource can automatically view its "
+"redacted text. You can allow authors or researchers by checking their "
+"respective boxes. Normally, values will be redacted for authors except "
+"for resources that they own and researchers unless you grant them "
+"permissions in individual redactions."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:33
+#: ../../docs/modules/redactvalues.md:30
 msgid ""
 "![Add Redact Values form Author and Researcher permissions "
 "checkboxes.](../modules/modulesfiles/redactValues_roles.png)"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:35
+#: ../../docs/modules/redactvalues.md:32
 msgid ""
-"One thing to note is that the module does not apply redactions for users "
-"who have permission to update the resource. That means that values will "
-"never be redacted for global administrators, supervisors, and editors. "
-"Users who are not logged in will never be able to view redacted values."
+"Note that the module does not apply redactions for users who have "
+"permission to update the resource. That means that values will never be "
+"redacted for global administrators, supervisors, and editors."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:37
-msgid ""
-"Be sure to click \"Submit\" in the upper right corner to save your "
-"changes."
+#: ../../docs/modules/redactvalues.md:34
+msgid "Users who are not logged in will never be able to view redacted values."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:39
-msgid "Managing Redactions"
+#: ../../docs/modules/redactvalues.md:36
+msgid "Click \"Submit\" in the upper right corner to save your changes."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:41
+#: ../../docs/modules/redactvalues.md:38
+msgid "Managing redactions"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:40
 msgid ""
 "You can manage your already created redactions from the main module "
 "screen. To edit a previously added redaction, click the \"Edit\" icon "
 "next to the redaction you would like to change."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:43
+#: ../../docs/modules/redactvalues.md:42
 msgid ""
 "![Edit button for existing "
 "redactions.](../modules/modulesfiles/redactValues_edit.png)"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:45
+#: ../../docs/modules/redactvalues.md:44
 msgid "Be sure to submit the form again after you have made any changes."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:47
+#: ../../docs/modules/redactvalues.md:46
 msgid ""
 "You can also sort your existing redactions by date or label in ascending "
 "or descending order via the \"Sort\" function in the upper right corner."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:49
+#: ../../docs/modules/redactvalues.md:48
 msgid ""
 "![Sort function for list of existing "
 "redactions.](../modules/modulesfiles/redactValues_sort.png)"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:51
-msgid "Adding Patterns"
+#: ../../docs/modules/redactvalues.md:50
+msgid "Adding patterns"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:53
+#: ../../docs/modules/redactvalues.md:52
 msgid ""
 "You can customize the patterns available for redactions by selecting "
 "\"Patterns\" under Redact Values in the Modules tab of the left-hand "
@@ -183,36 +189,157 @@ msgid ""
 "and a **Pattern**."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:55
+#: ../../docs/modules/redactvalues.md:54
 msgid ""
 "![Add Pattern form for Redact Values module including Label and Pattern "
 "fields.](../modules/modulesfiles/redactValues_add-pattern.png)"
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:57
+#: ../../docs/modules/redactvalues.md:56
 msgid ""
 "For the pattern, you must enter the regular expression pattern that "
 "identifies the sequence of characters that will be redacted. You must "
 "enclose the pattern with "
-"[delimiters](https://www.php.net/manual/en/regexp.reference.delimiters.php)."
+"[delimiters](https://www.php.net/manual/en/regexp.reference.delimiters.php){target=_blank}."
 " You may use "
-"[modifiers](https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php)."
+"[modifiers](https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php){target=_blank}."
 " For more information on regular expressions, see [Regular-"
-"Expressions.info](https://www.regular-expressions.info/) and [PCRE "
-"Patterns](https://www.php.net/manual/en/pcre.pattern.php). To validate "
-"your pattern, try [RegExr](https://regexr.com/)."
+"Expressions.info](https://www.regular-expressions.info/){target=_blank} "
+"and [PCRE Patterns](https://www.php.net/manual/en/pcre.pattern.php). To "
+"validate your pattern, try [RegExr](https://regexr.com/){target=_blank}."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:59
+#: ../../docs/modules/redactvalues.md:58
 msgid ""
 "Once you have added this information, click \"Submit\" in the upper right"
 " corner. Your added pattern should now appear in the Pattern dropdown "
 "menu when adding a redaction."
 msgstr ""
 
-#: ../../docs/modules/redactvalues.md:61
+#: ../../docs/modules/redactvalues.md:60
 msgid ""
 "![Example of new pattern added to Pattern field in add Redact Values "
 "form.](../modules/modulesfiles/redactValues_pattern-dropdown.png)"
 msgstr ""
+
+#~ msgid ""
+#~ "The Redact Values module allows "
+#~ "administrators to redact property values. "
+#~ "Administrators will be able to choose"
+#~ " a resource type, build a query "
+#~ "to filter the resources, select the "
+#~ "property from which to redact text, "
+#~ "select the pattern to use for "
+#~ "redaction, enter the replacement text, "
+#~ "and choose what lower roles will "
+#~ "be allowed to view redacted text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To install Redact Values follow the "
+#~ "instructions for Installing Modules on "
+#~ "the Modules documentation."
+#~ msgstr ""
+
+#~ msgid "Adding a Redaction"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select Redact Values from the Modules"
+#~ " tab of the left-hand navigation. "
+#~ "Click the \"Add Redaction\" button in"
+#~ " the upper right corner."
+#~ msgstr ""
+
+#~ msgid "A **label** for your redaction;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **resource type** you would like "
+#~ "to redact (item, item set, or "
+#~ "media);"
+#~ msgstr ""
+
+#~ msgid "The **property** from which to redact text; and,"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you'd like, you can also add"
+#~ " a query to filter the resources "
+#~ "from which to redact text. You can"
+#~ " add a query via the \"Edit\" "
+#~ "button, which will open a drawer "
+#~ "on the right that provides options "
+#~ "for narrowing your search. Alternatively, "
+#~ "you can use \"Advanced Edit\" to "
+#~ "add your query directly from the "
+#~ "search results page by copying "
+#~ "everything in your browser's address bar"
+#~ " starting with the question mark all"
+#~ " the way to the end of the "
+#~ "search url (to the right). In "
+#~ "either circumstance, be sure to click"
+#~ " the \"Apply\" button to add your "
+#~ "query to the form. No query means"
+#~ " all resources of the specified "
+#~ "resource type will be included in "
+#~ "your redaction."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You also have the option to give"
+#~ " certain role types permissions in "
+#~ "viewing redactions. Note that any user"
+#~ " with permission to update a resource"
+#~ " can automatically view its redacted "
+#~ "text. You can allow authors or "
+#~ "researchers by checking their respective "
+#~ "boxes. Normally, values will be redacted"
+#~ " for authors except for resources "
+#~ "that they own and researchers unless "
+#~ "you grant them permissions in individual"
+#~ " redactions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "One thing to note is that the "
+#~ "module does not apply redactions for "
+#~ "users who have permission to update "
+#~ "the resource. That means that values "
+#~ "will never be redacted for global "
+#~ "administrators, supervisors, and editors. "
+#~ "Users who are not logged in will"
+#~ " never be able to view redacted "
+#~ "values."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Be sure to click \"Submit\" in the"
+#~ " upper right corner to save your "
+#~ "changes."
+#~ msgstr ""
+
+#~ msgid "Managing Redactions"
+#~ msgstr ""
+
+#~ msgid "Adding Patterns"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the pattern, you must enter "
+#~ "the regular expression pattern that "
+#~ "identifies the sequence of characters "
+#~ "that will be redacted. You must "
+#~ "enclose the pattern with "
+#~ "[delimiters](https://www.php.net/manual/en/regexp.reference.delimiters.php)."
+#~ " You may use "
+#~ "[modifiers](https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php)."
+#~ " For more information on regular "
+#~ "expressions, see [Regular-"
+#~ "Expressions.info](https://www.regular-expressions.info/) "
+#~ "and [PCRE "
+#~ "Patterns](https://www.php.net/manual/en/pcre.pattern.php). To"
+#~ " validate your pattern, try "
+#~ "[RegExr](https://regexr.com/)."
+#~ msgstr ""
 

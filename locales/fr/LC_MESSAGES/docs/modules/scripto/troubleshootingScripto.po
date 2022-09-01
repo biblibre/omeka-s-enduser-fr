@@ -9,17 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 08:33+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/scripto/troubleshootingScripto.md:1
-#: ../../docs/modules/scripto/troubleshootingScripto.md:12
+#: ../../docs/modules/scripto/troubleshootingScripto.md:18
 msgid "Troubleshooting"
 msgstr ""
 
@@ -42,24 +42,50 @@ msgstr ""
 #: ../../docs/modules/scripto/troubleshootingScripto.md:8
 msgid ""
 "To prevent this, you will need to edit the files in the directory "
-"containing your MediaWiki installation. Add the line "
-"`$wgGroupPermissions['*']['edit'] = false;` to LocalSettings.php"
-msgstr ""
-
-#: ../../docs/modules/scripto/troubleshootingScripto.md:10
-msgid ""
-"For more information, see the [MediaWiki manual on preventing "
-"access](https://www.mediawiki.org/wiki/Manual:Preventing_access)"
-msgstr ""
-
-#: ../../docs/modules/scripto/troubleshootingScripto.md:13
-msgid "Project sync stuck"
+"containing your MediaWiki installation. Add the line"
 msgstr ""
 
 #: ../../docs/modules/scripto/troubleshootingScripto.md:14
+msgid "to the file `LocalSettings.php`."
+msgstr ""
+
+#: ../../docs/modules/scripto/troubleshootingScripto.md:16
+msgid ""
+"For more information, see the [MediaWiki manual on preventing "
+"access](https://www.mediawiki.org/wiki/Manual:Preventing_access){target=_blank}."
+msgstr ""
+
+#: ../../docs/modules/scripto/troubleshootingScripto.md:19
+msgid "Project sync stuck"
+msgstr ""
+
+#: ../../docs/modules/scripto/troubleshootingScripto.md:20
 msgid ""
 "If your project sync will not start or remains in process, check that you"
 " have [correctly configured the PHP-CLI path for your Omeka S "
-"installation](https://omeka.org/s/docs/developer/configuration/config_reference/#cli)."
+"installation](../../configuration.md#php-path)."
 msgstr ""
+
+#~ msgid ""
+#~ "To prevent this, you will need to"
+#~ " edit the files in the directory "
+#~ "containing your MediaWiki installation. Add"
+#~ " the line `$wgGroupPermissions['*']['edit'] = "
+#~ "false;` to LocalSettings.php"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For more information, see the [MediaWiki"
+#~ " manual on preventing "
+#~ "access](https://www.mediawiki.org/wiki/Manual:Preventing_access)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If your project sync will not "
+#~ "start or remains in process, check "
+#~ "that you have [correctly configured the"
+#~ " PHP-CLI path for your Omeka S"
+#~ " "
+#~ "installation](https://omeka.org/s/docs/developer/configuration/config_reference/#cli)."
+#~ msgstr ""
 

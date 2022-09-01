@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-27 10:43+0200\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/ositemimporter.md:1
 msgid "Omeka S Item Importer"
@@ -24,11 +24,13 @@ msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:3
 msgid ""
-"This module makes it possible to import items from one Omeka S "
-"installation into another Omeka S installation. Transfering data from one"
-" installation to another creates a situation where there is significant "
-"potential for data loss, but careful planning and preparation by the user"
-" of the recieving installation can prevent that from happening."
+"The [Omeka S Item Importer "
+"module](https://omeka.org/s/modules/Osii){target=_blank} makes it "
+"possible to import items from one Omeka S installation into another Omeka"
+" S installation. Transfering data from one installation to another "
+"creates a situation where there is significant potential for data loss, "
+"but careful planning and preparation by the user of the receiving "
+"installation can prevent that from happening."
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:5
@@ -37,11 +39,10 @@ msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:7
 msgid ""
-"To minimize data loss, the local installation must be prepared carefully"
-"  to accept the data from the providing installation. As much as possible"
-" the administrator of the recieiving installation should work to recreate"
-" the remote installation's data model. To do so, the administrator "
-"should:"
+"To minimize data loss, the local installation must be prepared carefully "
+"to accept the data from the providing installation. As much as possible "
+"the administrator of the recieiving installation should work to recreate "
+"the remote installation's data model. To do so, the administrator should:"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:9
@@ -52,29 +53,29 @@ msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:10
 msgid ""
-"[Install and configure modules](index.md) that control the data types "
-"used as values in the remote installation's items, such as"
+"[Install and configure modules](../modules/index.md) that control the "
+"data types used as values in the remote installation's items, such as:"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:11
 msgid ""
-"[Custom Vocab](customvocab.md) In addition to installing this module, the"
-" administrator will have to create custom vocab value lists that match "
-"those used in the remote installation."
+"[Custom Vocab](../modules/customvocab.md): In addition to installing this"
+" module, the administrator will have to create custom vocab value lists "
+"that match those used in the remote installation."
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:12
-msgid "[Numeric Data Types](numericdatatypes.md)"
+msgid "[Numeric Data Types](../modules/numericdatatypes.md)"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:13
-msgid "[Value Suggest](valuesuggest.md)"
+msgid "[Value Suggest](../modules/valuesuggest.md)"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:14
 msgid ""
-"[Import any Resource Templates](../content/resource-template.md#import-"
-"resource-template) used by the remote installation"
+"[Import any Resource Templates](../content/resource-template.md#import-a"
+"-resource-template) used by the remote installation."
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:16
@@ -84,126 +85,134 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:18
-msgid "Add an Import"
+msgid "Add an import"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:20
 msgid ""
-"Start the import process by clicking the Add an Import button on the "
-"module's landing page in the adminstrative interface of the local "
-"installation. You will then be presented with two types of configuration "
-"settings: Remote and local."
+"Start the import process by clicking the \"Add an Import\" button on the "
+"module's landing page in the adminstrative interface. You will then be "
+"presented with two types of configuration settings: remote and local."
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:22
-msgid "Remote Configuration"
+msgid "Remote configuration"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:24
 msgid ""
-"*Root endpoint (required)*: Input the endpoint for the API of the "
+"**Root endpoint (required)**: Input the endpoint for the API of the "
 "installation from which you wish to import. To find the \"Root endpoint\""
 " you'll need to navigate to the installation and replace the part of the "
 "URL that includes and comes after the \"/s/\" with \"/api\"."
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:26
-msgid ""
-"For example, change this URL: http://your-domain-"
-"name.edu/omeka-s/s/sitename/page/home to http://your-domain-"
-"name.org/omeka-s/api/"
+msgid "For example, change this URL:"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:28
+msgid "`http://your-domain-name.edu/omeka-s/s/sitename/page/home`"
+msgstr ""
+
+#: ../../docs/modules/ositemimporter.md:30
+msgid "to"
+msgstr ""
+
+#: ../../docs/modules/ositemimporter.md:32
+msgid "`http://your-domain-name.edu/omeka-s/api/`"
+msgstr ""
+
+#: ../../docs/modules/ositemimporter.md:34
 msgid "If you click on an API URL, you should see something like this:"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:33
+#: ../../docs/modules/ositemimporter.md:40
 msgid "Even though this is an error, this URL is the root endpoint."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:35
+#: ../../docs/modules/ositemimporter.md:42
 msgid ""
-"*Query*: You have the option to include a \"Query\" to filter the items "
-"to be imported. If you don't provide a query, the module will import all "
-"items from the remote installation. One way to generate a query is by "
+"**Query**: You have the option to include a \"Query\" to filter the items"
+" to be imported. If you don't provide a query, the module will import all"
+" items from the remote installation. One way to generate a query is by "
 "performing an advanced search in a site. Once the results have loaded, "
 "you can select the portion of the URL to the right of the \"?\" to get "
 "the query string."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:37
+#: ../../docs/modules/ositemimporter.md:44
 msgid ""
-"*Key Identity* and *Key Credential*: If you want to import resources that"
-" are marked as private, you will need to provide a \"Key identity\" and "
-"\"Key credential\" generated by the base installation. The only way to "
-"obtain these strings is by having an account on the remote installation "
-"or by asking someone who has an account to provide them."
+"**Key Identity** and **Key Credential**: If you want to import resources "
+"that are marked as private, you will need to provide a \"Key identity\" "
+"and \"Key credential\" generated by the base installation. The only way "
+"to obtain these strings is by having an account on the remote "
+"installation or by asking someone who has an account to provide them."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:39
-msgid "Local Configuration"
+#: ../../docs/modules/ositemimporter.md:46
+msgid "Local configuration"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:41
-msgid "*Import Label (required)*: Input and identifying label for the import."
+#: ../../docs/modules/ositemimporter.md:48
+msgid "**Import Label (required)**: Input and identifying label for the import."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:43
+#: ../../docs/modules/ositemimporter.md:50
 msgid ""
-"*Item set*: If you wish, select one or more item sets to which the "
+"**Item set**: If you wish, select one or more item sets to which the "
 "imported items will be assigned."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:45
+#: ../../docs/modules/ositemimporter.md:52
 msgid ""
-"*Exclude Media*: Check this if you want the import to exclude media. If "
-"not checked, media will be imported as normal. If you decide to change "
+"**Exclude Media**: Check this if you want the import to exclude media. If"
+" not checked, media will be imported as normal. If you decide to change "
 "this configuration at a later date, you will need to take a new snapshot "
 "and process a new import for those changes to take place. There is no "
 "capacity for continuous automatic syncing of data."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:47
+#: ../../docs/modules/ositemimporter.md:54
 msgid ""
-"*Exclude item sets*: Check this if you want the import to exclude item "
+"**Exclude item sets**: Check this if you want the import to exclude item "
 "sets that exist within the parameters. If not checked, item sets will be "
 "imported as normal."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:49
+#: ../../docs/modules/ositemimporter.md:56
 msgid ""
-"*Keep removed resources*: Check this if, during import, you want to keep "
-"local resources from a previous import that were removed from the current"
-" remote snapshot. If checked, removed resources will remain locally but "
-"will no longer be managed by this import. If not checked, removed "
-"resources will be deleted locally as normal."
+"**Keep removed resources**: Check this if, during import, you want to "
+"keep local resources from a previous import that were removed from the "
+"current remote snapshot. If checked, removed resources will remain "
+"locally but will no longer be managed by this import. If not checked, "
+"removed resources will be deleted locally as normal."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:51
+#: ../../docs/modules/ositemimporter.md:58
 msgid ""
-"*Add remote site URL*: If you would like to indicate the general source "
-"of the imported item, enter the URL to the site from which the imported "
+"**Add remote site URL**: If you would like to indicate the general source"
+" of the imported item, enter the URL to the site from which the imported "
 "resources are derived. If entered, this will be added to every imported "
 "resource, saved as a value using property osii:source_site."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:53
+#: ../../docs/modules/ositemimporter.md:60
 msgid ""
-"*Add remote resource URL*: Check this if you want to add the remote "
+"**Add remote resource URL**: Check this if you want to add the remote "
 "item's canonical URL to every imported item, saved as a value using "
 "property osii:source_resource. This will provide a direct link to the "
 "original item."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:55
+#: ../../docs/modules/ositemimporter.md:62
 msgid ""
-"**Submit** your configuration choices by clicking on the button in the "
-"upper righthand corner of the interface. Once that import is configured, "
-"it will be saved for future editing or rerunning."
+"Save your configuration choices by clicking on the \"Submit\" button in "
+"the upper righthand corner of the interface. Once that import is "
+"configured, it will be saved for future editing or re-running."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:57
+#: ../../docs/modules/ositemimporter.md:64
 msgid ""
 "![Add Import configuration form with data filled in for root endpoint, "
 "query, import label, item set and remote site "
@@ -212,95 +221,95 @@ msgid ""
 "import label, item set and remote site URL\")"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:59
-msgid "Manage Import"
+#: ../../docs/modules/ositemimporter.md:66
+msgid "Manage import"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:61
+#: ../../docs/modules/ositemimporter.md:68
 msgid ""
-"Once an Import is configured, the user is taken to an interface with "
+"Once an import is configured, the user is taken to an interface with "
 "three areas:"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:62
+#: ../../docs/modules/ositemimporter.md:70
 msgid ""
-"Mapping area: provides options to map the remote installation data to the"
-" local installation"
+"**Mapping area**: provides options to map the remote installation data to"
+" the local installation"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:63
+#: ../../docs/modules/ositemimporter.md:71
 msgid ""
-"Import actions: provides the action options for the import process and "
-"offers access to the results of those actions"
+"**Import actions**: provides the action options for the import process "
+"and offers access to the results of those actions"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:64
-msgid "Import metadata: shows the configuration choices for the import"
+#: ../../docs/modules/ositemimporter.md:72
+msgid "**Import metadata**: shows the configuration choices for the import"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:66
+#: ../../docs/modules/ositemimporter.md:74
 msgid ""
 "Upon the initial configuration of an import, the user will find a message"
 " in the main area of the interface that says \"Prepare import is not "
 "available now.\""
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:68
+#: ../../docs/modules/ositemimporter.md:76
 msgid ""
 "![Import is successfully added result screen with Import Actions and "
 "Import Metadata sections in the right "
-"sidebar](modulesfiles/osii_ImportSuccessfullyAdded.png \"Import is "
-"successfully added result screen with Import Actions and Import Metadata "
-"sections in the right sidebar\")"
+"sidebar](../modules/modulesfiles/osii_ImportSuccessfullyAdded.png "
+"\"Import is successfully added result screen with Import Actions and "
+"Import Metadata sections in the right sidebar\")"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:70
-msgid "Taking the Snapshot"
+#: ../../docs/modules/ositemimporter.md:78
+msgid "Taking the snapshot"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:72
+#: ../../docs/modules/ositemimporter.md:80
 msgid ""
-"Proceed to the Import actions section of the sidebar.  The \"Import "
+"Proceed to the Import actions section of the sidebar. The \"Import "
 "actions\" section contains most of the actions you'll need to "
-"successfully run and troubleshoot an import. Click the **Take a "
-"snapshot** link, and the subsequent confirmation button to take a "
-"snapshot of the current resources in the remote installation. This will "
-"gather the data needed to import the resources and reconcile the local "
-"installation with the remote one."
+"successfully run and troubleshoot an import. Click the **Take snapshot** "
+"link, and the subsequent confirmation button to take a snapshot of the "
+"current resources in the remote installation. This will gather the data "
+"needed to import the resources and reconcile the local installation with "
+"the remote one."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:74
+#: ../../docs/modules/ositemimporter.md:82
 msgid ""
 "![Import actions section of right sidebar with Take Snapshot link "
-"highlighted with a red rectangle](modulesfiles/osii_TakeSnapshot.png "
+"highlighted with a red rectangle](../modules/modulesfiles/osii_TakeS.png "
 "\"Import actions section of right sidebar with Take Snapshot link "
 "highlighted with a red rectangle\")"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:76
+#: ../../docs/modules/ositemimporter.md:84
 msgid ""
 "The Status indicator on the snapshot will change from [n/a] to \"In "
 "progress.\" The import may take some time depending on the scope of the "
 "universe to be examined. You can click on the **Refresh Status** link to "
-"check on the progress. If the Status indicator changes to \"Error,\" you "
-"can click **View job** to inspect the snapshot processing."
+"check on the progress. If the Status changes to \"Error,\" you can click "
+"**View job** to inspect the snapshot processing."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:78
+#: ../../docs/modules/ositemimporter.md:86
 msgid ""
 "![Import actions section with snapshot Status as In "
 "Progress](../modules/modulesfiles/osii_SnapshotInProgress.png \"Import "
 "actions section with snapshot Status as In Progress\")"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:80
+#: ../../docs/modules/ositemimporter.md:88
 msgid ""
 "You have the option to **Stop snapshot** if you wish. The Status for the "
 "snapshot will change to \"Stopping.\" Click **Refresh Status** until the "
 "Status has changed to \"Stopped.\""
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:82
+#: ../../docs/modules/ositemimporter.md:90
 msgid ""
 "Once you have successfully taken a snapshot, the Status will change to "
 "\"Completed,\" and the main panel of the interface will contain quite a "
@@ -308,11 +317,11 @@ msgid ""
 "between the remote and local installations, to the extent desired."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:84
-msgid "Preparing the Import"
+#: ../../docs/modules/ositemimporter.md:92
+msgid "Preparing the import"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:86
+#: ../../docs/modules/ositemimporter.md:94
 msgid ""
 "Located in the main panel of the interface, the Mapping area provides "
 "users with an interface to specify the elements of the data for import. "
@@ -320,14 +329,14 @@ msgid ""
 "the remote installation and the local data configuration."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:88
+#: ../../docs/modules/ositemimporter.md:96
 msgid ""
-"*Resources tab*: This view offers an overview of the resources within the"
-" import universe on both the remote installation and the local "
+"**Resources tab**: This view offers an overview of the resources within "
+"the import universe on both the remote installation and the local "
 "installation."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:90
+#: ../../docs/modules/ositemimporter.md:98
 msgid ""
 "![Manage import overview table with tabs for Resources, Data Types, "
 "Templates, Media Ingestors, Properties and "
@@ -336,9 +345,9 @@ msgid ""
 "Ingestors, Properties and Classes\")"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:92
+#: ../../docs/modules/ositemimporter.md:100
 msgid ""
-"*Data types tab*: This view offers a view of the remote data types and "
+"**Data types tab**: This view offers a view of the remote data types and "
 "their value count. The user can select from a dropdown menu of locally "
 "available data types (e.g.literal, resource, URI, numeric:timestamp) to "
 "map the local installation to the remote installation. If you find the "
@@ -348,32 +357,32 @@ msgid ""
 "values will not be imported."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:94
+#: ../../docs/modules/ositemimporter.md:102
 msgid ""
-"*Templates tab*: This view shows the remote resource templates and their "
-"count. The user can select from a dropdown menu of locally available "
-"resource templates to to map the local installation to the remote "
-"installation."
+"**Templates tab**: This view shows the remote resource templates and "
+"their count. The user can select from a dropdown menu of locally "
+"available resource templates to to map the local installation to the "
+"remote installation."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:96
+#: ../../docs/modules/ositemimporter.md:104
 msgid ""
-"*Media ingesters tab*: This view shows a list of the remote media "
+"**Media ingesters tab**: This view shows a list of the remote media "
 "ingesters and whether they are available on the local installation. Media"
 " will be imported only if their ingester is available."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:98
+#: ../../docs/modules/ositemimporter.md:106
 msgid ""
-"*Properties tab*: This view includes a list of the remote properties and "
-"whether they are on the local installation. Values will be imported only "
-"if their respective properties are on the local installation. If you find"
-" the there are properties available remotely that are not available "
+"**Properties tab**: This view includes a list of the remote properties "
+"and whether they are on the local installation. Values will be imported "
+"only if their respective properties are on the local installation. If you"
+" find the there are properties available remotely that are not available "
 "locally, you will need to add their vocabularies to your installation "
 "before proceeding to avoid data loss."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:100
+#: ../../docs/modules/ositemimporter.md:108
 msgid ""
 "![Manage import table with property inventory table with two red "
 "rectangular highlight boxes showing properties that are present and not "
@@ -384,33 +393,33 @@ msgid ""
 "the local installation\")"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:102
+#: ../../docs/modules/ositemimporter.md:110
 msgid ""
-"*Classes tab*: This view shows a list of the remote classes and whether "
-"they are on the local installation. Items will be assigned these classes "
-"only if they're on the local installation. If you find the there are "
+"**Classes tab**: This view shows a list of the remote classes and whether"
+" they are on the local installation. Items will be assigned these classes"
+" only if they're on the local installation. If you find the there are "
 "classes available remotely that are not available locally, you will need "
 "to add them to your installation before proceeding to avoid data loss."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:104
+#: ../../docs/modules/ositemimporter.md:112
 msgid ""
 "After mapping the elements of the data model, click on the **Submit** "
 "button at the top righthand corner of the page. You will receive a "
 "confirmation message that the import has been successfully prepared."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:106
+#: ../../docs/modules/ositemimporter.md:114
 msgid ""
 "Then, you should return to the Import actions area to complete the import"
 " of the resources."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:108
-msgid "Importing the Snapshot"
+#: ../../docs/modules/ositemimporter.md:116
+msgid "Importing the snapshot"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:110
+#: ../../docs/modules/ositemimporter.md:118
 msgid ""
 "Under the Snapshot information in the Import actions panel, you will find"
 " the Import information. Initially the Status for the import should "
@@ -423,7 +432,7 @@ msgid ""
 "issue and any log message."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:112
+#: ../../docs/modules/ositemimporter.md:120
 msgid ""
 "![Import action secton of the right sidebar with the Import Snapshot link"
 " highlighted by a red "
@@ -432,19 +441,19 @@ msgid ""
 "highlighted by a red rectangle\")"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:114
+#: ../../docs/modules/ositemimporter.md:122
 msgid ""
-"Once the import Status reaches \"Complete,\" you will be able to click "
+"Once the import Status reaches \"Complete\", you will be able to click "
 "through to **View items**, **View media**, or **View item sets** from the"
 " import. Additionally, the completed import will receive a timestamp "
 "indicating the point of import."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:116
-msgid "Revisiting an Import"
+#: ../../docs/modules/ositemimporter.md:124
+msgid "Revisiting an import"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:118
+#: ../../docs/modules/ositemimporter.md:126
 msgid ""
 "Once you have successfully launched an import, the main screen for the "
 "module will list that action on a table of attempted imports. That table "
@@ -452,11 +461,11 @@ msgid ""
 "status, the import status, and the owner of the import."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:120
+#: ../../docs/modules/ositemimporter.md:128
 msgid "Editing an import"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:122
+#: ../../docs/modules/ositemimporter.md:130
 msgid ""
 "While an import might have technically been successful, you might have "
 "suffered some data loss due to mapping between the remote installation "
@@ -467,35 +476,35 @@ msgid ""
 "your mappings, and re-execute your import."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:124
+#: ../../docs/modules/ositemimporter.md:132
 msgid "Repeating an import"
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:126
+#: ../../docs/modules/ositemimporter.md:134
 msgid ""
 "You may have an import that needs to be re-run to capture new resources "
 "from remote installation. In this case you can edit the import to retake "
 "the snapshot and execute a new import."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:128
+#: ../../docs/modules/ositemimporter.md:136
 msgid ""
 "The import is not a two-way synchronization, so changes made to the local"
 " items are not pushed to the remote items. Note, also, that the module "
 "does not preserve local changes after subsequent imports. Imported items "
 "will always reflect their state on the remote installation at the time of"
-" the snapshot. *Do not run a subsequent import if you need to preserve "
-"local changes.* This does not apply to site and block assignments, which "
-"are preserved."
+" the snapshot. **Do not run a subsequent import if you need to preserve "
+"local changes.** This does not apply to site and block assignments, which"
+" are preserved."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:130
+#: ../../docs/modules/ositemimporter.md:138
 msgid ""
 "You may begin the new import process by clicking on the pencil icon to "
 "the right of the label for the import of your choice."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:132
+#: ../../docs/modules/ositemimporter.md:140
 msgid ""
 "You will then have the opportunity to update your configurations. In this"
 " situation, you will want to carefully consider the option to \"Keep "
@@ -503,7 +512,7 @@ msgid ""
 "installation."
 msgstr ""
 
-#: ../../docs/modules/ositemimporter.md:134
+#: ../../docs/modules/ositemimporter.md:142
 msgid ""
 "After submitting your configurations, you can step through the process of"
 " taking a new snapshot of the remote installation, updating or "
@@ -511,4 +520,379 @@ msgid ""
 "of the snapshot will import new resources and update existing resources "
 "with changes from the remote installation."
 msgstr ""
+
+#~ msgid ""
+#~ "This module makes it possible to "
+#~ "import items from one Omeka S "
+#~ "installation into another Omeka S "
+#~ "installation. Transfering data from one "
+#~ "installation to another creates a "
+#~ "situation where there is significant "
+#~ "potential for data loss, but careful "
+#~ "planning and preparation by the user "
+#~ "of the recieving installation can "
+#~ "prevent that from happening."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To minimize data loss, the local "
+#~ "installation must be prepared carefully  "
+#~ "to accept the data from the "
+#~ "providing installation. As much as "
+#~ "possible the administrator of the "
+#~ "recieiving installation should work to "
+#~ "recreate the remote installation's data "
+#~ "model. To do so, the administrator "
+#~ "should:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Install and configure modules](index.md) that"
+#~ " control the data types used as "
+#~ "values in the remote installation's "
+#~ "items, such as"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Custom Vocab](customvocab.md) In addition to"
+#~ " installing this module, the administrator"
+#~ " will have to create custom vocab "
+#~ "value lists that match those used "
+#~ "in the remote installation."
+#~ msgstr ""
+
+#~ msgid "[Numeric Data Types](numericdatatypes.md)"
+#~ msgstr ""
+
+#~ msgid "[Value Suggest](valuesuggest.md)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Import any Resource Templates](../content"
+#~ "/resource-template.md#import-resource-template) "
+#~ "used by the remote installation"
+#~ msgstr ""
+
+#~ msgid "Add an Import"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Start the import process by clicking "
+#~ "the Add an Import button on the"
+#~ " module's landing page in the "
+#~ "adminstrative interface of the local "
+#~ "installation. You will then be presented"
+#~ " with two types of configuration "
+#~ "settings: Remote and local."
+#~ msgstr ""
+
+#~ msgid "Remote Configuration"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Root endpoint (required)*: Input the "
+#~ "endpoint for the API of the "
+#~ "installation from which you wish to "
+#~ "import. To find the \"Root endpoint\""
+#~ " you'll need to navigate to the "
+#~ "installation and replace the part of "
+#~ "the URL that includes and comes "
+#~ "after the \"/s/\" with \"/api\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, change this URL: http"
+#~ "://your-domain-name.edu/omeka-s/s/sitename/page/home to"
+#~ " http://your-domain-name.org/omeka-s/api/"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Query*: You have the option to "
+#~ "include a \"Query\" to filter the "
+#~ "items to be imported. If you don't"
+#~ " provide a query, the module will "
+#~ "import all items from the remote "
+#~ "installation. One way to generate a "
+#~ "query is by performing an advanced "
+#~ "search in a site. Once the results"
+#~ " have loaded, you can select the "
+#~ "portion of the URL to the right"
+#~ " of the \"?\" to get the query"
+#~ " string."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Key Identity* and *Key Credential*: If"
+#~ " you want to import resources that"
+#~ " are marked as private, you will "
+#~ "need to provide a \"Key identity\" "
+#~ "and \"Key credential\" generated by the"
+#~ " base installation. The only way to"
+#~ " obtain these strings is by having"
+#~ " an account on the remote "
+#~ "installation or by asking someone who"
+#~ " has an account to provide them."
+#~ msgstr ""
+
+#~ msgid "Local Configuration"
+#~ msgstr ""
+
+#~ msgid "*Import Label (required)*: Input and identifying label for the import."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Item set*: If you wish, select "
+#~ "one or more item sets to which "
+#~ "the imported items will be assigned."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Exclude Media*: Check this if you "
+#~ "want the import to exclude media. "
+#~ "If not checked, media will be "
+#~ "imported as normal. If you decide "
+#~ "to change this configuration at a "
+#~ "later date, you will need to take"
+#~ " a new snapshot and process a "
+#~ "new import for those changes to "
+#~ "take place. There is no capacity "
+#~ "for continuous automatic syncing of "
+#~ "data."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Exclude item sets*: Check this if "
+#~ "you want the import to exclude "
+#~ "item sets that exist within the "
+#~ "parameters. If not checked, item sets"
+#~ " will be imported as normal."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Keep removed resources*: Check this if,"
+#~ " during import, you want to keep "
+#~ "local resources from a previous import"
+#~ " that were removed from the current"
+#~ " remote snapshot. If checked, removed "
+#~ "resources will remain locally but will"
+#~ " no longer be managed by this "
+#~ "import. If not checked, removed "
+#~ "resources will be deleted locally as "
+#~ "normal."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Add remote site URL*: If you "
+#~ "would like to indicate the general "
+#~ "source of the imported item, enter "
+#~ "the URL to the site from which "
+#~ "the imported resources are derived. If"
+#~ " entered, this will be added to "
+#~ "every imported resource, saved as a "
+#~ "value using property osii:source_site."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Add remote resource URL*: Check this"
+#~ " if you want to add the remote"
+#~ " item's canonical URL to every "
+#~ "imported item, saved as a value "
+#~ "using property osii:source_resource. This will"
+#~ " provide a direct link to the "
+#~ "original item."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Submit** your configuration choices by "
+#~ "clicking on the button in the "
+#~ "upper righthand corner of the interface."
+#~ " Once that import is configured, it"
+#~ " will be saved for future editing "
+#~ "or rerunning."
+#~ msgstr ""
+
+#~ msgid "Manage Import"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once an Import is configured, the "
+#~ "user is taken to an interface with"
+#~ " three areas:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mapping area: provides options to map"
+#~ " the remote installation data to the"
+#~ " local installation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Import actions: provides the action "
+#~ "options for the import process and "
+#~ "offers access to the results of "
+#~ "those actions"
+#~ msgstr ""
+
+#~ msgid "Import metadata: shows the configuration choices for the import"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Import is successfully added result "
+#~ "screen with Import Actions and Import"
+#~ " Metadata sections in the right "
+#~ "sidebar](modulesfiles/osii_ImportSuccessfullyAdded.png \"Import"
+#~ " is successfully added result screen "
+#~ "with Import Actions and Import Metadata"
+#~ " sections in the right sidebar\")"
+#~ msgstr ""
+
+#~ msgid "Taking the Snapshot"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Proceed to the Import actions section"
+#~ " of the sidebar.  The \"Import "
+#~ "actions\" section contains most of the"
+#~ " actions you'll need to successfully "
+#~ "run and troubleshoot an import. Click"
+#~ " the **Take a snapshot** link, and"
+#~ " the subsequent confirmation button to "
+#~ "take a snapshot of the current "
+#~ "resources in the remote installation. "
+#~ "This will gather the data needed "
+#~ "to import the resources and reconcile"
+#~ " the local installation with the "
+#~ "remote one."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Import actions section of right "
+#~ "sidebar with Take Snapshot link "
+#~ "highlighted with a red "
+#~ "rectangle](modulesfiles/osii_TakeSnapshot.png \"Import "
+#~ "actions section of right sidebar with"
+#~ " Take Snapshot link highlighted with "
+#~ "a red rectangle\")"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Status indicator on the snapshot "
+#~ "will change from [n/a] to \"In "
+#~ "progress.\" The import may take some "
+#~ "time depending on the scope of the"
+#~ " universe to be examined. You can "
+#~ "click on the **Refresh Status** link "
+#~ "to check on the progress. If the"
+#~ " Status indicator changes to \"Error,\" "
+#~ "you can click **View job** to "
+#~ "inspect the snapshot processing."
+#~ msgstr ""
+
+#~ msgid "Preparing the Import"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Resources tab*: This view offers an "
+#~ "overview of the resources within the "
+#~ "import universe on both the remote "
+#~ "installation and the local installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Data types tab*: This view offers "
+#~ "a view of the remote data types"
+#~ " and their value count. The user "
+#~ "can select from a dropdown menu of"
+#~ " locally available data types (e.g.literal,"
+#~ " resource, URI, numeric:timestamp) to map"
+#~ " the local installation to the remote"
+#~ " installation. If you find the there"
+#~ " are data types available remotely "
+#~ "that are not available locally, you "
+#~ "will need to add them to your "
+#~ "installation before proceeding to avoid "
+#~ "data loss. If a remote data type"
+#~ " is not mapped to a local one,"
+#~ " the values will not be imported."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Templates tab*: This view shows the "
+#~ "remote resource templates and their "
+#~ "count. The user can select from a"
+#~ " dropdown menu of locally available "
+#~ "resource templates to to map the "
+#~ "local installation to the remote "
+#~ "installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Media ingesters tab*: This view shows"
+#~ " a list of the remote media "
+#~ "ingesters and whether they are available"
+#~ " on the local installation. Media "
+#~ "will be imported only if their "
+#~ "ingester is available."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Properties tab*: This view includes a"
+#~ " list of the remote properties and"
+#~ " whether they are on the local "
+#~ "installation. Values will be imported "
+#~ "only if their respective properties are"
+#~ " on the local installation. If you"
+#~ " find the there are properties "
+#~ "available remotely that are not "
+#~ "available locally, you will need to "
+#~ "add their vocabularies to your "
+#~ "installation before proceeding to avoid "
+#~ "data loss."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Classes tab*: This view shows a "
+#~ "list of the remote classes and "
+#~ "whether they are on the local "
+#~ "installation. Items will be assigned "
+#~ "these classes only if they're on "
+#~ "the local installation. If you find "
+#~ "the there are classes available remotely"
+#~ " that are not available locally, you"
+#~ " will need to add them to your"
+#~ " installation before proceeding to avoid"
+#~ " data loss."
+#~ msgstr ""
+
+#~ msgid "Importing the Snapshot"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once the import Status reaches "
+#~ "\"Complete,\" you will be able to "
+#~ "click through to **View items**, **View"
+#~ " media**, or **View item sets** from"
+#~ " the import. Additionally, the completed"
+#~ " import will receive a timestamp "
+#~ "indicating the point of import."
+#~ msgstr ""
+
+#~ msgid "Revisiting an Import"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The import is not a two-way "
+#~ "synchronization, so changes made to the"
+#~ " local items are not pushed to "
+#~ "the remote items. Note, also, that "
+#~ "the module does not preserve local "
+#~ "changes after subsequent imports. Imported "
+#~ "items will always reflect their state"
+#~ " on the remote installation at the"
+#~ " time of the snapshot. *Do not "
+#~ "run a subsequent import if you "
+#~ "need to preserve local changes.* This"
+#~ " does not apply to site and "
+#~ "block assignments, which are preserved."
+#~ msgstr ""
 

@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 08:33+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/content/resource-template.md:1
 msgid "Resource Templates"
@@ -24,14 +24,16 @@ msgstr ""
 
 #: ../../docs/content/resource-template.md:3
 msgid ""
-"A *Resource Template* is a set of pre-defined Properties, optionally with"
-" a Class, to guide Item creation and the interpretation of Properties."
+"A **Resource template** is a set of pre-defined properties, optionally "
+"with a Class, to guide item creation and the interpretation of "
+"properties."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:5
 msgid ""
-"Resource templates are managed from the Admin Dashboard, accessed through"
-" the left-hand navigation under the tab labeled *Resource Templates*."
+"Resource templates are managed from the administrative dashboard, "
+"accessed through the left-hand navigation under the section labeled "
+"**Resources**."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:7
@@ -51,50 +53,44 @@ msgstr ""
 #: ../../docs/content/resource-template.md:11
 msgid ""
 "On the right side above the table are two drop-down menus which let you "
-"sort resource templates. You can sort by: *label*, *class*, *owner*, or "
-"number of *items* assigned to a template, and have these display in "
-"either ascending or descending order."
+"sort resource templates. You can sort by: **label**, **class**, "
+"**owner**, or number of **items** assigned to a template, and have these "
+"display in either ascending or descending order."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:13
 msgid ""
-"You can use the icons in each template’s row to: *edit* (pencil), "
-"*delete* (trash can), or *view details* (ellipses). If you click on the "
-"number of items listed for a template, it will take you to a list of all "
-"those items."
+"You can use the icons in each template’s row to: **edit** (pencil), "
+"**delete** (trash can), or **view details** (ellipsis). If you click on "
+"the number of items listed for a template, it will take you to a list of "
+"all those items."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:15
 msgid ""
-"[This screencast](https://vimeo.com/290924872) gives an overview of using"
-" and creating Resource Templates."
-msgstr ""
-
-#: ../../docs/content/resource-template.md:17
-msgid ""
-"[This screencast](https://vimeo.com/290924872) gives an overview of "
-"creating and applying resource templates."
-msgstr ""
-
-#: ../../docs/content/resource-template.md:19
-msgid "Base Resource"
+"[This screencast](https://vimeo.com/290924872){target=_blank} gives an "
+"overview of creating and applying resource templates:"
 msgstr ""
 
 #: ../../docs/content/resource-template.md:20
-msgid ""
-"All Omeka S installations include a Base Resource template which maps to "
-"the metadata fields required by the Digital Public Library of America "
-"(DPLA). It will display in the table of resource templates as \"Base "
-"Resource\" with no owner."
+msgid "Base Resource"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:22
+#: ../../docs/content/resource-template.md:21
+msgid ""
+"All Omeka S installations include a \"Base Resource\" template which maps"
+" to the metadata fields required by the [Digital Public Library of "
+"America (DPLA)](https://dp.la/){target=_blank}. It will display in the "
+"table of resource templates as \"Base Resource\" with no owner."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:23
 msgid ""
 "![Base resource template displayed in the table of "
 "templates](contentfiles/templates_base1.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:24
+#: ../../docs/content/resource-template.md:25
 msgid ""
 "The Base Resource template contains the following Dublin Core fields: "
 "Title; Rights; Type; Creator; Date; Description; Format; Language; "
@@ -103,42 +99,42 @@ msgid ""
 "Subject; Temporal Coverage."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:26
+#: ../../docs/content/resource-template.md:27
 msgid "Create a resource template"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:27
+#: ../../docs/content/resource-template.md:28
 msgid ""
-"From the Resource Templates tab in the Admin Dashboard, click the *Add "
-"new resource template* button."
+"From the **Resource templates** tab in the Admin Dashboard, click the "
+"\"Add new resource template\" button."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:29
+#: ../../docs/content/resource-template.md:30
 msgid ""
 "The New resource template page will load with options for Label, "
-"suggested class, and the properties *Title* (dcterms:title) and "
-"*Description* (dcterms:description)"
+"suggested class, and the properties **Title** (`dcterms:title`) and "
+"**Description** (`dcterms:description`)."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:31
+#: ../../docs/content/resource-template.md:32
 msgid ""
-"![The Add Resource Template page, with fields for title, class, and "
+"![The Add resource template page, with fields for title, class, and "
 "properties Title and Description pre-"
 "loaded](contentfiles/templates_add.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:33
+#: ../../docs/content/resource-template.md:34
 msgid ""
 "In the Label property, type the label for your new template. This will be"
-" the text displayed in the dropdown for Resource Templates when creating "
+" the text displayed in the dropdown for resource templates when creating "
 "an item, so be sure that the label is clear."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:34
+#: ../../docs/content/resource-template.md:35
 msgid "If desired, select a class to associate with the template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:35
+#: ../../docs/content/resource-template.md:36
 msgid ""
 "Add properties from the list of vocabularies in the menu on the right "
 "side of the screen. You can filter properties in the text box or select "
@@ -146,158 +142,163 @@ msgid ""
 "vocabulary names."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:36
-msgid "If desired, modify the property (see Property options, below)"
+#: ../../docs/content/resource-template.md:37
+msgid "If desired, modify the property (see Property options, below)."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:38
-msgid "Be sure to Save your resource template before leaving this page."
-msgstr ""
-
-#: ../../docs/content/resource-template.md:40
-msgid "Property options"
+#: ../../docs/content/resource-template.md:39
+msgid "Be sure to \"Save\" your resource template before leaving this page."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:41
+msgid "Property options"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:42
 msgid ""
 "You can modify the display label, comment on the label, set a property as"
 " required, and set the default data type for each property in your "
 "template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:43
+#: ../../docs/content/resource-template.md:44
 msgid ""
 "To do this, click the edit (pencil) icon in the row for the property you "
 "wish to modify. This will open a drawer on the right side of the screen "
 "with the ability to edit the properties."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:45
+#: ../../docs/content/resource-template.md:46
 msgid ""
 "![The property options drawer for Title with no changes made, options as "
 "described below](contentfiles/template_configdrawer.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:47
+#: ../../docs/content/resource-template.md:48
 msgid ""
 "**Label**   Change the displayed label of the property that appears when "
 "the template is applied to an item by entering the text you want to "
-"appear in the *Alternate Label* field for each property."
+"appear in the \"Alternate\" label field for each property."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:50
+#: ../../docs/content/resource-template.md:51
 msgid ""
-"**Comment**   Add alternate comments for the property in the field "
-"*Alternate* in this section. This will change the text under the property"
-" name when users are creating items using your Resource Template."
+"**Comment**   Add alternate comments for the property in the "
+"\"Alternate\" field in this section. This will change the text under the "
+"property name when users are creating items using your resource template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:53
+#: ../../docs/content/resource-template.md:54
 msgid ""
-"**Other options**  In this section are a series of additional options for"
-" modifying the property when it is used with this template."
+"**Other options**   In this section are a series of additional options "
+"for modifying the property when it is used with this template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:56
+#: ../../docs/content/resource-template.md:57
 msgid ""
-"The *Use for resource title* checkbox allows you to select a property to "
-"serve as the title for the resource, instead of the default "
+"The \"Use for resource title\" checkbox allows you to select a property "
+"to serve as the title for the resource, instead of the default "
 "(`dcterms:title`). This property will display in the \"title\" field on "
 "browse pages."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:58
+#: ../../docs/content/resource-template.md:59
 msgid ""
-"The *Use for resource description* checkbox allows you to select a "
+"The \"Use for resource description\" checkbox allows you to select a "
 "property to serve as the description for the resource on browse pages, "
 "instead of the default (`dcterms:description`)."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:60
+#: ../../docs/content/resource-template.md:61
 msgid ""
-"The *Required* checkbox sets whether a property is required when the "
+"The \"Required\" checkbox sets whether a property is required when the "
 "template is in use. If checked, users will not be able to save an item or"
 " item set using this template without adding data for this property."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:62
+#: ../../docs/content/resource-template.md:63
 msgid ""
-"The *Private* checkbox sets the visibility of the data for this property."
-" If checked, any data added by a user for this property will only be "
-"visible to the owner of the item or item set, global administrators, site"
-" administrators, and editors. It will not be visible to the public. "
-"*Note:* users working with the template will be able to toggle the "
+"The \"Private\" checkbox sets the visibility of the data for this "
+"property. If checked, any data added by a user for this property will "
+"only be visible to the owner of the item or item set, global "
+"administrators, site administrators, and editors. It will not be visible "
+"to the public."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:65
+msgid ""
+"**Note**: users working with the template will be able to toggle the "
 "visibility of this property on a case-by-case basis."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:64
-msgid ""
-"Using the *Data type* dropdown, you can designate the data types for the "
-"property. Whichever you choose will be automatically loaded once someone "
-"selects that Resource Type and they will only be able to use these data "
-"type for the element when using this Resource Template."
-msgstr ""
-
-#: ../../docs/content/resource-template.md:66
-msgid "Literal: text and/or html input"
-msgstr ""
-
 #: ../../docs/content/resource-template.md:67
-msgid "URI: a link with label."
-msgstr ""
-
-#: ../../docs/content/resource-template.md:68
-msgid "Resource: either an existing Item or Item Set in the Omeka S install."
+msgid ""
+"Using the \"Data type\" dropdown, you can designate the data types for "
+"the property. Whichever you choose will be automatically loaded once "
+"someone selects that resource type and they will only be able to use "
+"these data type for the element when using this resource template."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:69
-msgid ""
-"Additional options may be added by modules, such as [Numeric Data "
-"Types](../modules/numericdatatypes) and [Value "
-"Suggest](../modules/valuesuggest)."
+msgid "Text: textual and/or HTML input."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:70
+msgid "URI: a link with label."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:71
-msgid ""
-"You can select multiple data types, for example giving users the option "
-"of Literal or Resource for input, but not URI. All choices will appear in"
-" the data types field with an X to the right of their label - click the X"
-" to remove that data type."
+msgid "Resource: either an existing Item or Item Set in the Omeka S install."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:73
+#: ../../docs/content/resource-template.md:72
+msgid ""
+"Additional options may be added by modules, such as [Numeric Data "
+"Types](../modules/numericdatatypes.md) and [Value "
+"Suggest](../modules/valuesuggest.md)."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:74
+msgid ""
+"You can select multiple data types, for example giving users the option "
+"of Text or Resource for input, but not URI. All choices will appear in "
+"the data types field with an \"X\" to the right of their label - click "
+"the \"X\" to remove that data type."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:76
 msgid ""
 "![The data types field with two types shown: numeric timestamp and "
 "text.](contentfiles/templates_multiType.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:75
+#: ../../docs/content/resource-template.md:78
 msgid ""
-"Note: you must click the *Set Changes* at the bottom of the drawer for "
-"each property that you edit before exiting the drawer or moving on to "
-"another property! If you do not click *Set Changes*, your edits will not "
-"be saved."
+"Note: you must click the \"Set changes\" button at the bottom of the "
+"drawer for each property that you edit before exiting the drawer or "
+"moving on to another property! If you do not click \"Set changes\", your "
+"edits will not be saved."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:77
+#: ../../docs/content/resource-template.md:80
 msgid ""
 "![A close up of the drawer for editing property options with a large red "
 "arrow pointing down at an angle to the Set Changes button, which is on "
 "the very bottom of the image.](contentfiles/templates_setchanges.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:79
+#: ../../docs/content/resource-template.md:82
 msgid ""
 "Users who select this resource template when creating an item will still "
-"be able to add other properties to the item, and that they will only be "
-"required to fill out those which you check as required."
+"be able to add other properties to the item, and they will only be "
+"required to fill out those fields you check as required."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:81
+#: ../../docs/content/resource-template.md:84
 msgid "Edit a resource template"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:82
+#: ../../docs/content/resource-template.md:85
 msgid ""
 "Once you have created a resource template, you can edit it at any time by"
 " clicking the edit icon in the table of resource templates, or by "
@@ -305,177 +306,187 @@ msgid ""
 "template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:84
+#: ../../docs/content/resource-template.md:87
 msgid ""
 "If you decide you do not want to edit the template or do not wish to save"
-" your changes, simply click the Cancel button located between the Delete "
-"and Save buttons in the upper right hand corner of the window."
+" your changes, simply click the \"Cancel\" button located between the "
+"\"Delete\" and \"Save\" buttons in the upper right hand corner of the "
+"window."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:86
+#: ../../docs/content/resource-template.md:89
 msgid ""
 "![Edit view of the template Person. There are eight properties in "
 "use.](contentfiles/resourcetemplate_edit.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:88
-msgid "Reviewing resource templates"
+#: ../../docs/content/resource-template.md:91
+msgid "Review resource templates"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:89
+#: ../../docs/content/resource-template.md:92
 msgid ""
 "Clicking on the title of a resource template takes you to a table view of"
 " all the properties and property options for that template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:91
+#: ../../docs/content/resource-template.md:94
 msgid ""
 "![Template view for the \"Postcard\" template with properties for title, "
 "description, creator, transcript of, and "
 "recipient](contentfiles/templates_view.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:93
+#: ../../docs/content/resource-template.md:96
 msgid "Each property displays as a row in the table, with columns for:"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:95
-msgid ""
-"Original label, with an ellipses button to see which the property's "
-"vocabulary, term, and original comment;"
-msgstr ""
-
-#: ../../docs/content/resource-template.md:96
-msgid "Data type;"
-msgstr ""
-
-#: ../../docs/content/resource-template.md:97
-msgid "Alternate label;"
-msgstr ""
-
 #: ../../docs/content/resource-template.md:98
-msgid "Alternate comment;"
+msgid ""
+"Original label, with an ellipsis button to see which the property's "
+"vocabulary, term, and original comment"
 msgstr ""
 
 #: ../../docs/content/resource-template.md:99
-msgid "Whether the property is required;"
+msgid "Data type"
 msgstr ""
 
 #: ../../docs/content/resource-template.md:100
-msgid "Whether the property's data is set to private."
+msgid "Alternate label"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:101
+msgid "Alternate comment"
 msgstr ""
 
 #: ../../docs/content/resource-template.md:102
+msgid "Whether the property is required"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:103
+msgid "Whether the property's data is set to private."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:105
 msgid ""
-"Click the ellipses next to the original label to open a draw displaying "
+"Click the ellipsis next to the original label to open a draw displaying "
 "the property's vocabulary, term, and original comment."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:104
+#: ../../docs/content/resource-template.md:107
 msgid ""
 "Use the buttons in the upper right of this page to export or edit the "
 "template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:106
-msgid "Sharing Resource Template"
+#: ../../docs/content/resource-template.md:109
+msgid "Share resource templates"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:107
+#: ../../docs/content/resource-template.md:110
 msgid ""
 "It is possible to share a resource template between Omeka S installations"
 " by exporting and importing them."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:109
-msgid "Export Resource Template"
-msgstr ""
-
-#: ../../docs/content/resource-template.md:110
-msgid "To export a resource template from your Omeka S installation:"
-msgstr ""
-
 #: ../../docs/content/resource-template.md:112
-msgid "Go to the Resource Templates menu on the main navigation."
+msgid "Export a resource template"
 msgstr ""
 
 #: ../../docs/content/resource-template.md:113
-msgid "Click the Label of the template you want to export."
+msgid "To export a resource template from your Omeka S installation:"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:114
-msgid ""
-"On the resource template view page, click the Export button in the upper "
-"right corner of the screen."
+#: ../../docs/content/resource-template.md:115
+msgid "Go to the \"Resource templates\" menu on the main navigation."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:116
+msgid "Click the Label of the template you want to export."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:117
+msgid ""
+"On the resource template view page, click the \"Export\" button in the "
+"upper right corner of the screen."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:119
 msgid ""
 "![A red arrow points to the export button on a screen showing a resource "
-"template labelled \"Textual Work\"](contentfiles/templates_export.png)[^]"
-msgstr ""
-
-#: ../../docs/content/resource-template.md:118
-msgid ""
-"Exporting a Resource Template will download it to your computer's default"
-" download location as a json file with the same name as the Resource "
-"Template's Label."
-msgstr ""
-
-#: ../../docs/content/resource-template.md:120
-msgid "Import Resource Template"
+"template labelled \"Textual Work\"](contentfiles/templates_export.png)"
 msgstr ""
 
 #: ../../docs/content/resource-template.md:121
 msgid ""
-"To import a resource template (exported from a different S installation) "
-"into your Omeka S installation:"
+"Exporting a resource template will download it to your computer's default"
+" download location as a json file with the same name as the resource "
+"template's Label."
 msgstr ""
 
 #: ../../docs/content/resource-template.md:123
-msgid "Go to the Resource Templates menu on the main navigation"
+msgid "Import a resource template"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:124
-msgid "Click the Import button in the upper right corner of the screen."
+#: ../../docs/content/resource-template.md:125
+msgid ""
+"!!! note \tIf you want to import a resource template using a [Custom "
+"Vocab](../modules/customvocab.md), you will need to manually reproduce "
+"the Custom Vocab on the second Omeka S installation *before* importing "
+"the resource template."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:126
+#: ../../docs/content/resource-template.md:128
+msgid ""
+"To import a resource template (a JSON file exported from a different S "
+"installation) into your Omeka S installation:"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:130
+msgid "Go to the **Resource Templates** tab on the main navigation"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:131
+msgid "Click the \"Import\" button in the upper right corner of the screen."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:133
 msgid ""
 "![Red arrow points to the Import button on the browse resource templates "
 "page of the admin site of an Omeka S "
 "installation](contentfiles/templates_import1.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:128
-msgid "On the Resource Template: Import page, click the *Choose File* button"
+#: ../../docs/content/resource-template.md:135
+msgid "On the Resource templates: Import page, click the \"Choose File\" button."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:129
+#: ../../docs/content/resource-template.md:136
 msgid ""
-"This will open your browsers file selection window. Choose the json file "
-"for the resource template you want to import"
+"This will open your browser's file selection window. Choose the JSON file"
+" for the resource template you want to import."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:130
-msgid "Click the Review import button"
+#: ../../docs/content/resource-template.md:137
+msgid "Click the \"Review import\" button."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:131
+#: ../../docs/content/resource-template.md:138
 msgid ""
 "On the Review page, you will be able to check that properties and "
-"property options are correct"
+"property options are correct."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:132
+#: ../../docs/content/resource-template.md:139
 msgid ""
-"Imported templates which used Value Suggest or Custom Vocab will indicate"
-" in the Data Type column what the original source was, and a dropdown to "
-"allow you to select a new Data Type (if you do not have the necessary "
-"modules, the dropdown will only show the default options)."
+"Imported templates which used [Value Suggest](../modules/valuesuggest.md)"
+" or [Custom Vocab](../modules/customvocab.md) will indicate in the Data "
+"type column what the original source was, and a dropdown to allow you to "
+"select a new Data type (if you do not have the necessary modules, the "
+"dropdown will only show the default options)."
 msgstr ""
 
-#: ../../docs/content/resource-template.md:134
+#: ../../docs/content/resource-template.md:141
 msgid ""
 "![On the review imported template page, all the elements for the reviewed"
 " import are highlighted green. The final element, subject, lists a "
@@ -483,10 +494,338 @@ msgid ""
 "data type.](contentfiles/templates_import2.png)"
 msgstr ""
 
-#: ../../docs/content/resource-template.md:136
-msgid ""
-"NB: If you want to import a Resource Template using a Custom Vocab, you "
-"will need to manually reproduce the Custom Vocab on the second Omeka S "
-"installation *before* importing the resource template."
-msgstr ""
+#~ msgid ""
+#~ "A *Resource Template* is a set of"
+#~ " pre-defined Properties, optionally with"
+#~ " a Class, to guide Item creation "
+#~ "and the interpretation of Properties."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Resource templates are managed from the"
+#~ " Admin Dashboard, accessed through the "
+#~ "left-hand navigation under the tab "
+#~ "labeled *Resource Templates*."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the right side above the table"
+#~ " are two drop-down menus which "
+#~ "let you sort resource templates. You "
+#~ "can sort by: *label*, *class*, *owner*,"
+#~ " or number of *items* assigned to "
+#~ "a template, and have these display "
+#~ "in either ascending or descending order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the icons in each "
+#~ "template’s row to: *edit* (pencil), "
+#~ "*delete* (trash can), or *view details*"
+#~ " (ellipses). If you click on the "
+#~ "number of items listed for a "
+#~ "template, it will take you to a"
+#~ " list of all those items."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[This screencast](https://vimeo.com/290924872) gives "
+#~ "an overview of using and creating "
+#~ "Resource Templates."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[This screencast](https://vimeo.com/290924872) gives "
+#~ "an overview of creating and applying "
+#~ "resource templates."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All Omeka S installations include a "
+#~ "Base Resource template which maps to "
+#~ "the metadata fields required by the "
+#~ "Digital Public Library of America "
+#~ "(DPLA). It will display in the "
+#~ "table of resource templates as \"Base"
+#~ " Resource\" with no owner."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From the Resource Templates tab in "
+#~ "the Admin Dashboard, click the *Add "
+#~ "new resource template* button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The New resource template page will "
+#~ "load with options for Label, suggested"
+#~ " class, and the properties *Title* "
+#~ "(dcterms:title) and *Description* "
+#~ "(dcterms:description)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![The Add Resource Template page, with"
+#~ " fields for title, class, and "
+#~ "properties Title and Description pre-"
+#~ "loaded](contentfiles/templates_add.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Label property, type the "
+#~ "label for your new template. This "
+#~ "will be the text displayed in the"
+#~ " dropdown for Resource Templates when "
+#~ "creating an item, so be sure that"
+#~ " the label is clear."
+#~ msgstr ""
+
+#~ msgid "If desired, modify the property (see Property options, below)"
+#~ msgstr ""
+
+#~ msgid "Be sure to Save your resource template before leaving this page."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Label**   Change the displayed label "
+#~ "of the property that appears when "
+#~ "the template is applied to an item"
+#~ " by entering the text you want "
+#~ "to appear in the *Alternate Label* "
+#~ "field for each property."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Comment**   Add alternate comments for "
+#~ "the property in the field *Alternate*"
+#~ " in this section. This will change"
+#~ " the text under the property name "
+#~ "when users are creating items using "
+#~ "your Resource Template."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Other options**  In this section are"
+#~ " a series of additional options for"
+#~ " modifying the property when it is"
+#~ " used with this template."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Use for resource title* checkbox"
+#~ " allows you to select a property "
+#~ "to serve as the title for the "
+#~ "resource, instead of the default "
+#~ "(`dcterms:title`). This property will display"
+#~ " in the \"title\" field on browse "
+#~ "pages."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Use for resource description* "
+#~ "checkbox allows you to select a "
+#~ "property to serve as the description "
+#~ "for the resource on browse pages, "
+#~ "instead of the default "
+#~ "(`dcterms:description`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Required* checkbox sets whether a"
+#~ " property is required when the "
+#~ "template is in use. If checked, "
+#~ "users will not be able to save "
+#~ "an item or item set using this "
+#~ "template without adding data for this"
+#~ " property."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The *Private* checkbox sets the "
+#~ "visibility of the data for this "
+#~ "property. If checked, any data added "
+#~ "by a user for this property will"
+#~ " only be visible to the owner "
+#~ "of the item or item set, global"
+#~ " administrators, site administrators, and "
+#~ "editors. It will not be visible to"
+#~ " the public. *Note:* users working "
+#~ "with the template will be able to"
+#~ " toggle the visibility of this "
+#~ "property on a case-by-case basis."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using the *Data type* dropdown, you "
+#~ "can designate the data types for "
+#~ "the property. Whichever you choose will"
+#~ " be automatically loaded once someone "
+#~ "selects that Resource Type and they "
+#~ "will only be able to use these "
+#~ "data type for the element when "
+#~ "using this Resource Template."
+#~ msgstr ""
+
+#~ msgid "Literal: text and/or html input"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Additional options may be added by "
+#~ "modules, such as [Numeric Data "
+#~ "Types](../modules/numericdatatypes) and [Value "
+#~ "Suggest](../modules/valuesuggest)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can select multiple data types, "
+#~ "for example giving users the option "
+#~ "of Literal or Resource for input, "
+#~ "but not URI. All choices will "
+#~ "appear in the data types field "
+#~ "with an X to the right of "
+#~ "their label - click the X to "
+#~ "remove that data type."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: you must click the *Set "
+#~ "Changes* at the bottom of the "
+#~ "drawer for each property that you "
+#~ "edit before exiting the drawer or "
+#~ "moving on to another property! If "
+#~ "you do not click *Set Changes*, "
+#~ "your edits will not be saved."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Users who select this resource template"
+#~ " when creating an item will still "
+#~ "be able to add other properties to"
+#~ " the item, and that they will "
+#~ "only be required to fill out those"
+#~ " which you check as required."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you decide you do not want "
+#~ "to edit the template or do not "
+#~ "wish to save your changes, simply "
+#~ "click the Cancel button located between"
+#~ " the Delete and Save buttons in "
+#~ "the upper right hand corner of the"
+#~ " window."
+#~ msgstr ""
+
+#~ msgid "Reviewing resource templates"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Original label, with an ellipses button"
+#~ " to see which the property's "
+#~ "vocabulary, term, and original comment;"
+#~ msgstr ""
+
+#~ msgid "Data type;"
+#~ msgstr ""
+
+#~ msgid "Alternate label;"
+#~ msgstr ""
+
+#~ msgid "Alternate comment;"
+#~ msgstr ""
+
+#~ msgid "Whether the property is required;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the ellipses next to the "
+#~ "original label to open a draw "
+#~ "displaying the property's vocabulary, term,"
+#~ " and original comment."
+#~ msgstr ""
+
+#~ msgid "Sharing Resource Template"
+#~ msgstr ""
+
+#~ msgid "Export Resource Template"
+#~ msgstr ""
+
+#~ msgid "Go to the Resource Templates menu on the main navigation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the resource template view page, "
+#~ "click the Export button in the "
+#~ "upper right corner of the screen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![A red arrow points to the export"
+#~ " button on a screen showing a "
+#~ "resource template labelled \"Textual "
+#~ "Work\"](contentfiles/templates_export.png)[^]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Exporting a Resource Template will "
+#~ "download it to your computer's default"
+#~ " download location as a json file "
+#~ "with the same name as the Resource"
+#~ " Template's Label."
+#~ msgstr ""
+
+#~ msgid "Import Resource Template"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To import a resource template (exported"
+#~ " from a different S installation) "
+#~ "into your Omeka S installation:"
+#~ msgstr ""
+
+#~ msgid "Go to the Resource Templates menu on the main navigation"
+#~ msgstr ""
+
+#~ msgid "Click the Import button in the upper right corner of the screen."
+#~ msgstr ""
+
+#~ msgid "On the Resource Template: Import page, click the *Choose File* button"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This will open your browsers file "
+#~ "selection window. Choose the json file"
+#~ " for the resource template you want"
+#~ " to import"
+#~ msgstr ""
+
+#~ msgid "Click the Review import button"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the Review page, you will be"
+#~ " able to check that properties and"
+#~ " property options are correct"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Imported templates which used Value "
+#~ "Suggest or Custom Vocab will indicate"
+#~ " in the Data Type column what "
+#~ "the original source was, and a "
+#~ "dropdown to allow you to select a"
+#~ " new Data Type (if you do not"
+#~ " have the necessary modules, the "
+#~ "dropdown will only show the default "
+#~ "options)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NB: If you want to import a "
+#~ "Resource Template using a Custom Vocab,"
+#~ " you will need to manually reproduce"
+#~ " the Custom Vocab on the second "
+#~ "Omeka S installation *before* importing "
+#~ "the resource template."
+#~ msgstr ""
 

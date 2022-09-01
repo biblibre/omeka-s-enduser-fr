@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 22:35+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/scripto/index.md:1
 msgid "Set up Scripto"
@@ -24,9 +24,10 @@ msgstr ""
 
 #: ../../docs/modules/scripto/index.md:3
 msgid ""
-"The Scripto module for Omeka S allows you to create projects which allow "
-"members of the public to transcribe, translate, or describe media "
-"attached to items in your Omeka S installation."
+"The [Scripto module](https://omeka.org/s/modules/Scripto/){target=_blank}"
+" allows you to create projects that allow members of the public to "
+"transcribe, translate, or describe media attached to items in your Omeka "
+"S installation."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:5
@@ -39,12 +40,12 @@ msgstr ""
 #: ../../docs/modules/scripto/index.md:7
 msgid ""
 "All content creation (transcription, translation, or description) takes "
-"place on the [public face](../../modules/scripto/scriptoPublicView/) of "
-"your Scripto [project](../../modules/scripto/scriptoproject/)"
+"place on the [public face](scriptoPublicView/) of your Scripto "
+"[project](scriptoproject/)."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:9
-msgid "Concepts and Terminology"
+msgid "Concepts and terminology"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:11
@@ -79,7 +80,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:19
-msgid "Installation and Configuration"
+msgid "Installation and configuration"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:20
@@ -87,7 +88,7 @@ msgid "To install Scripto, you must:"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:22
-msgid "be running Omeka S v2.0.0 or higher;"
+msgid "be running Omeka S v2.0.0 or higher"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:23
@@ -149,7 +150,7 @@ msgid "Content: A plain text representation of the content of a resource."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:39
-msgid "Transcription: A transcription of a resource"
+msgid "Transcription: A transcription of a resource."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:40
@@ -179,7 +180,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:49
-msgid "Scripto Admin Dashboard"
+msgid "Scripto admin dashboard"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:50
@@ -220,11 +221,11 @@ msgstr ""
 #: ../../docs/modules/scripto/index.md:60
 msgid ""
 "A view of all the [Projects](../../modules/scripto/scriptoproject/) you "
-"review"
+"review."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:61
-msgid "A view of your recent Contributions"
+msgid "A view of your recent Contributions."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:62
@@ -287,7 +288,7 @@ msgstr ""
 #: ../../docs/modules/scripto/index.md:78
 msgid ""
 "From the \"actions\" dropdown in the upper right corner of the Scripto "
-"Dashboard, you can select \"Browse users\""
+"Dashboard, you can select \"Browse users\"."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:80
@@ -345,27 +346,27 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:98
-msgid "Revision, with a timestamp which links to that revision;"
+msgid "Revision, with a timestamp which links to that revision"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:99
-msgid "Media #, with a link to the media;"
+msgid "Media #, with a link to the media"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:100
-msgid "Type;"
+msgid "Type"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:101
-msgid "Item, which links to the item *in Scripto*;"
+msgid "Item, which links to the item in Scripto"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:102
-msgid "Project with which the item is associated;"
+msgid "Project with which the item is associated"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:103
-msgid "Size of the edit;"
+msgid "Size of the edit"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:104
@@ -373,7 +374,7 @@ msgid "Comment, if any."
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:106
-msgid "Public and Admin views"
+msgid "Public and admin views"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:107
@@ -405,4 +406,73 @@ msgid ""
 "In order to successfully uninstall Scripto, the module must be still be "
 "active. Do not deactivate Scripto prior to uninstalling."
 msgstr ""
+
+#~ msgid ""
+#~ "The Scripto module for Omeka S "
+#~ "allows you to create projects which "
+#~ "allow members of the public to "
+#~ "transcribe, translate, or describe media "
+#~ "attached to items in your Omeka S"
+#~ " installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All content creation (transcription, "
+#~ "translation, or description) takes place "
+#~ "on the [public "
+#~ "face](../../modules/scripto/scriptoPublicView/) of your"
+#~ " Scripto [project](../../modules/scripto/scriptoproject/)"
+#~ msgstr ""
+
+#~ msgid "Concepts and Terminology"
+#~ msgstr ""
+
+#~ msgid "Installation and Configuration"
+#~ msgstr ""
+
+#~ msgid "be running Omeka S v2.0.0 or higher;"
+#~ msgstr ""
+
+#~ msgid "Transcription: A transcription of a resource"
+#~ msgstr ""
+
+#~ msgid "Scripto Admin Dashboard"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A view of all the "
+#~ "[Projects](../../modules/scripto/scriptoproject/) you "
+#~ "review"
+#~ msgstr ""
+
+#~ msgid "A view of your recent Contributions"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From the \"actions\" dropdown in the "
+#~ "upper right corner of the Scripto "
+#~ "Dashboard, you can select \"Browse "
+#~ "users\""
+#~ msgstr ""
+
+#~ msgid "Revision, with a timestamp which links to that revision;"
+#~ msgstr ""
+
+#~ msgid "Media #, with a link to the media;"
+#~ msgstr ""
+
+#~ msgid "Type;"
+#~ msgstr ""
+
+#~ msgid "Item, which links to the item *in Scripto*;"
+#~ msgstr ""
+
+#~ msgid "Project with which the item is associated;"
+#~ msgstr ""
+
+#~ msgid "Size of the edit;"
+#~ msgstr ""
+
+#~ msgid "Public and Admin views"
+#~ msgstr ""
 

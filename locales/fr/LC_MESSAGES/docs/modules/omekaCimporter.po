@@ -1,0 +1,415 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/modules/omekaCimporter.md:1
+msgid "Omeka Classic Importer"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:3
+msgid ""
+"The [Omeka Classic Importer "
+"module](https://omeka.org/s/modules/Omeka2Importer){target=_blank} "
+"(a.k.a. the Omeka 2 Importer) enables you to import items and collections"
+" from an Omeka Classic 2.x site into an Omeka S installation. The source "
+"site needs to be Classic version 2 or greater in order to offer an API "
+"endpoint for this module to use."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:5
+msgid ""
+"Once installed, the Omeka 2 Importer module should appear toward the "
+"bottom of the left navigation menu on the main admin dashboard. When "
+"selected, there are sub-menu items for **Import** and **Past Imports**."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:7
+msgid ""
+"![Omeka Classic Importer menu options Import and Past "
+"Imports](../modules/modulesfiles/o2i_menu.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:9
+msgid ""
+"This module only imports items and their metadata (including tags), "
+"attached files, and collections (as item sets). It *will not* import "
+"Simple Page content or Exhibit Builder content."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:11
+msgid ""
+"If plugins/modules are installed on both the source site and the target "
+"site, Omeka Classic Importer can import module-specific metadata. For "
+"example, geolocation data facilitated by the Mapping module in S and the "
+"Geolocation plugin in Classic will automatically be imported. PDF Text "
+"elements can be imported and mapped to Extract Text fields. The data may "
+"not automap properly, so be sure to check the mappings manually."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:13
+msgid ""
+"!!! note \tBecause resource properties in Omeka S do not have HTML "
+"formatting, any HTML in your Omeka Classic item properties (links, text "
+"formatting, etc.) will be stripped during the import process."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:16
+msgid "Import"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:18
+msgid "From the Import tab you can start new imports."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:20
+msgid ""
+"You must have the API enabled on the source Omeka Classic installation "
+"for the importer to work. To do this, the owner of the origin Omeka "
+"Classic installation should go to the API tab under Settings, accessed "
+"via the top navigation bar on the administrative dashboard. Ensure that "
+"the \"Enable API\" box is checked."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:22
+msgid ""
+"To find the API endpoint of the origin Omeka Classic installation, go to "
+"the home page of that installation. Add `/api` to the end of the URL. You"
+" should see a page with the message \"This is the endpoint URL for [name "
+"of origin site]\" and links to the site information and available API "
+"resources. To confirm that the API is enabled, click on the link for "
+"available API resources. If you see `{\"message\":\"API is disabled\"}`, "
+"you will not be able to import from this site."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:24
+msgid "Enter the API"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:25
+msgid ""
+"On the first page of the importer, enter the **Omeka 2 Api Endpoint** - "
+"the site URL for the API you wish to access (it should end with \"api\")."
+" Make sure you enter the full URL, beginning with \"http\", otherwise the"
+" importer will not be able to access the items at that site. Click "
+"\"Next\"."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:27
+msgid "![API import field](../modules/modulesfiles/o2i_enterapi.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:29
+msgid ""
+"If you have entered a valid API endpoint, the next page will load with no"
+" issue. If you have entered an invalid endpoint, the module will display "
+"the error message \"Warning: Invalid argument\"."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:31
+msgid "Import settings and map metadata"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:32
+msgid ""
+"On the second page of the importer there are three tabs: **Basic Import "
+"Settings**, **Map to Omeka S Properties**, **Map to Omeka S Classes**, "
+"and **Map to Omeka S Templates**."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:34
+msgid ""
+"Clicking the \"Start Over\" button will take you back to the first page, "
+"where you can enter a different API endpoint."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:36
+msgid ""
+"This module will preserve item visibility from Classic to S (public or "
+"private) as of version 1.3."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:38
+msgid "Basic import settings"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:39
+msgid ""
+"**Omeka 2 API key**: This field can either be blank or filled, depending "
+"on whether you have an API key for the site you are attempting to import "
+"data from."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:40
+msgid ""
+"**Comment**: You can add a comment such as \"Jane Doe's API, no key\" to "
+"help identify the specific import when viewing past imports."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:41
+msgid ""
+"**Import into**: This option allows you to select an item set or sets to "
+"import the items into. Note that you can only import into item sets you "
+"own. You cannot create a new item set from this page. You may wish to "
+"import collections instead, or in addition to, importing into an item set"
+" here."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:42
+msgid ""
+"**Per page**: Enter a number to limit the number of records retrieved per"
+" request. Useful for sites which may have a large number of items."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:43
+msgid ""
+"**Update a previous import**: To update - and overwrite - a previous "
+"import from the same source."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:44
+msgid ""
+"**Import Collections**: To import the collections from the Omeka Classic "
+"site to the Omeka S site, as item sets."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:45
+msgid ""
+"**Import tag as**: To import Omeka Classic tags, select a property to map"
+" them to."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:47
+msgid ""
+"![Basic options for importing "
+"Omeka2](../modules/modulesfiles/o2i_basic.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:49
+msgid "Map to Omeka S Properties"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:50
+msgid ""
+"This tab features a table for mapping between Omeka Classic elements and "
+"Omeka S properties."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:52
+msgid ""
+"The Import module will automatically map many properties, but you should "
+"review the mapping in case you need to add more, or edit the automatic "
+"mapping. Custom item type elements may need to be mapped manually."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:54
+msgid "To clear the default mapping, click the \"Clear Defaults\" button."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:56
+msgid ""
+"The columns of the table are **Omeka 2 element**, **Mapped properties**, "
+"and a checkbox option to **Import as HTML media**."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:58
+msgid "![Map Omeka properties](../modules/modulesfiles/o2i_mapprop.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:60
+msgid ""
+"The first set of the table is Dublin Core, followed by Item Type "
+"Metadata. The import will also bring in any legacy or additional element "
+"sets (for example, Omeka Legacy File), or elements created by Classic "
+"plugins (such as a PDF Text section for extracted text). These plugin-"
+"based elements may auto-map if you have the equivalent Omeka S module "
+"installed (such as Extract Text in this case)."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:62
+#: ../../docs/modules/omekaCimporter.md:75
+#: ../../docs/modules/omekaCimporter.md:89
+msgid "To map:"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:64
+msgid ""
+"Select the element or item type in the table by clicking on its row or "
+"label."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:65
+msgid ""
+"In the right-hand drawer, either click through or search for the S "
+"property to which you want to map your Classic element."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:66
+msgid "Click on the property in the drawer to map it."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:68
+msgid ""
+"![Mapping the element Date of Birth to the FOAF property “birthday”, "
+"showing the mapped "
+"relationship.](../modules/modulesfiles/o2i_mapping.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:70
+msgid "To remove a mapping, click the trash can icon in the element/property row."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:72
+msgid "Map to Omeka S Classes"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:73
+msgid ""
+"In this tab you can map Omeka Classic Item Types to Omeka S Resource "
+"Classes. You can select from the classes for any of the installed "
+"vocabularies."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:77
+#: ../../docs/modules/omekaCimporter.md:91
+msgid "Select the item type in the table by clicking on its row or label."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:78
+msgid ""
+"In the right-hand drawer, either click through or search for the resource"
+" class to which you want to map your element."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:79
+msgid "Click on the resource class in the drawer to map it."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:81
+msgid ""
+"Items with the original Classic item type will be imported with the new S"
+" class."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:83
+msgid "![Resource classes mapping tab](../modules/modulesfiles/o2i_mapclass.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:85
+msgid "Map to Omeka S Templates"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:87
+msgid ""
+"This tab allows you to map your importing items to a specific resource "
+"template in your Omeka S install. All of your existing resource templates"
+" in S will appear in the right-hand drawer."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:92
+msgid ""
+"In the right-hand drawer, either click through or search for the resource"
+" template to which you want to map your element."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:93
+msgid "Click on the resource template in the drawer to map it."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:95
+msgid ""
+"Items with the original Classic item type will be imported with the new S"
+" resource template."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:97
+msgid "![Resource Class mapping tab](../modules/modulesfiles/o2i_mapresource.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:99
+msgid "Complete import"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:100
+msgid ""
+"When you have finished customizing the mapping, click the \"Import\" "
+"button in the upper right corner of the window."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:102
+msgid ""
+"!!! note \tAre your jobs starting and not completing? You might need to "
+"[set the path for PHP](../configuration.md) so that your system can "
+"perform the background process to make the items."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:107
+msgid "Past imports"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:109
+msgid ""
+"The past imports section of the module allows you to view previous API "
+"imports."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:111
+msgid "Each import is a row. The table has the following columns:"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:113
+msgid ""
+"**Undo**: Check this box if you wish to undo the import. Once you click "
+"Submit, the status for that specific import will change to \"undone\"."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:114
+msgid ""
+"**Job ID**: A numerical value assigned to each specific API import. You "
+"can also view the job under the [Jobs tab on the administrative "
+"dashboard](../admin/jobs.md)."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:115
+msgid ""
+"**Comment**: If you entered a comment when setting up the import, that "
+"comment will appear here."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:116
+msgid "**Items**: Lists the number of items added and updated with each import."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:117
+msgid "**Date**: The date on which the import took place."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:118
+msgid "**Status**: Will be \"in_progress\", \"completed\", or \"undone\"."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:119
+msgid "**Owner**: The user who requested the import."
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:121
+msgid ""
+"![Table of past imports showing header row and one row of a past "
+"import.](../modules/modulesfiles/o2i_past.png)"
+msgstr ""
+

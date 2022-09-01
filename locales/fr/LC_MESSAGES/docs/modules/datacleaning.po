@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-27 10:43+0200\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/datacleaning.md:4
 msgid "Data Cleaning"
@@ -24,137 +24,143 @@ msgstr ""
 
 #: ../../docs/modules/datacleaning.md:6
 msgid ""
-"Data Cleaning An Omeka S module for low-level auditing and cleaning of "
-"resource metadata. It is designed to be used to prepare resource metadata"
-" for use in visualizations."
+"The [Data Cleaning "
+"module](https://omeka.org/s/modules/DataCleaning){target=_blank} is for "
+"low-level auditing and cleaning of resource metadata. It is designed to "
+"prepare resource metadata for use in visualizations."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:8
 msgid ""
-"Changes made in Data Cleaning cannot be easily undone, and can be "
+"Changes made by Data Cleaning cannot be easily undone, and can be "
 "destructive. Due to the powerful nature of the module, it can only be "
-"used by Global Administrator users."
+"used by Global Administrators."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:10
 msgid ""
-"**Before running any audit, make sure you have a recent backup of your "
-"data.**"
+"!!! note \tBefore running any audit, make sure you have a recent backup "
+"of your data. Backing up your SQL database can be done with many hosts, "
+"and you can back up your entire Omeka installation if you installed "
+"through an app manager."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:12
+#: ../../docs/modules/datacleaning.md:13
 msgid ""
-"Once you have [installed](index.md#installing-modules) DataCleaning, it "
+"Once you have [installed](index.md#installing-modules) Data Cleaning, it "
 "will be added to the modules available on the left-hand navigation of "
 "your administrative view."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:14
+#: ../../docs/modules/datacleaning.md:15
 msgid "Running an audit"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:15
+#: ../../docs/modules/datacleaning.md:16
 msgid ""
-"From the main tab for Data Cleaning (found under modules in the left-hand"
-" navigation), click the \"Prepare new audit\" button in the upper right "
-"corner of the page."
-msgstr ""
-
-#: ../../docs/modules/datacleaning.md:17
-msgid "Prepare Audit"
+"From the section for Data Cleaning under Modules, click the \"Prepare new"
+" audit\" button in the upper right corner of the page."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:18
+msgid "Prepare audit"
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:19
 msgid ""
-"This will open the Prepare audit form, which allows you to zero in on the"
-" data that you want to review and perhaps correct. The form has the "
+"This will open the \"Prepare audit\" form, which allows you to zero in on"
+" the data you want to review and perhaps correct. The form has the "
 "following Basic options:"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:20
+#: ../../docs/modules/datacleaning.md:21
 msgid ""
-"**Resource type:** select the resource type you want to audit from a "
+"**Resource type**: Select the resource type you want to audit from a "
 "dropdown. Options are items, item sets, or media."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:22
+#: ../../docs/modules/datacleaning.md:23
 msgid ""
-"**Resource query:** click the Edit button to reveal the Query Builder "
-"interface in the right sidebar. Use the form to set the universe of "
+"**Resource query**: Click the \"Edit\" button to reveal the Query Builder"
+" interface in the right sidebar. Use the form to set the universe of "
 "resources you want to audit. You can click the Advanced edit button to "
 "reveal and edit the query string."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:24
+#: ../../docs/modules/datacleaning.md:25
 msgid ""
-"**Property:** selects the property to audit. This dropdown will load all "
+"**Property**: Selects the property to audit. This dropdown will load all "
 "properties from all vocabularies on your installation. When open, the top"
 " of the dropdown functions as a search to allow you to locate a property "
 "more quickly."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:26
+#: ../../docs/modules/datacleaning.md:27
 msgid ""
-"**Audit column:** sets what kind of data be audited with in the resource "
-"pool. Select from a dropdown for _value_, _uri_, or _value-resource-id_. "
+"**Audit column**: Sets what kind of data be audited with in the resource "
+"pool. Select from a dropdown for `value`, `uri`, or `value-resource-id`. "
 "In general, data types may use these columns for different reasons. But, "
-"in particular, the \"literal\" data type uses the _value_ column to store"
-" the value; the \"uri\" data type uses the _uri_ column to store the URI "
+"in particular, the \"literal\" data type uses the `value` column to store"
+" the value; the \"uri\" data type uses the `uri` column to store the URI "
 "and the _value_ column to store the URI label; and the \"resource\" data "
-"type uses the _value-resource-id_ to store the resource ID. Modules that "
+"type uses the `value-resource-id` to store the resource ID. Modules that "
 "add data types assign data to one or more of these three columns."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:28
+#: ../../docs/modules/datacleaning.md:29
 msgid ""
-"**Data type:** select from a dropdown of data types to audit. This "
+"**Data type**: Select from a dropdown of data types to audit. This "
 "includes standard data types for Omeka S, as well as any additional data "
 "types added by other modules, for example Numeric Data Types."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:30
-msgid ""
-"**Advanced Options**  Should you want to audit the data contained in one "
-"property but store the corrected data in a different location within the "
-"resources, you can use the \"target\" options to do so"
+#: ../../docs/modules/datacleaning.md:31
+msgid "Advanced Options"
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:33
 msgid ""
-"**Target property:** Select the property as which you want corrections to"
+"Should you want to audit the data contained in one property but store the"
+" corrected data in a different location within the resources, you can use"
+" the \"target\" options to do so."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:35
+msgid ""
+"**Target property**: Select the property as which you want corrections to"
 " be stored. You do not need to select a target if it is the same as the "
 "property above. This dropdown will load all properties from all "
 "vocabularies on your installation. When open, the top of the dropdown "
 "functions as a search to allow you to locate a property more quickly."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:35
-msgid ""
-"**Target audit column:** Select the column in which corrections will be "
-"stored. You do not need to select a target if it is the same as the audit"
-" column above. Options are value, uri, or value_resource_id."
-msgstr ""
-
 #: ../../docs/modules/datacleaning.md:37
 msgid ""
-"**Target data type:** Select the data type that corrections will be "
+"**Target audit column**: Select the column in which corrections will be "
+"stored. You do not need to select a target if it is the same as the audit"
+" column above. Options are `value`, `uri`, or `value_resource_id`."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:39
+msgid ""
+"**Target data type**: Select the data type that corrections will be "
 "stored as. You do not need to select a target if it is the same as the "
 "data type above. This dropdown includes standard data types for Omeka S, "
 "as well as any additional data types added by other modules, for example "
 "Numeric Data Types."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:39
+#: ../../docs/modules/datacleaning.md:41
 msgid ""
 "Once you have entered information in all relevant fields, click the "
-"Submit button in the upper right corner."
-msgstr ""
-
-#: ../../docs/modules/datacleaning.md:41
-msgid "You can exit out at any time by clicking the Cancel button."
+"\"Submit\" button in the upper right corner."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:43
+msgid "You can exit out at any time by clicking the \"Cancel\" button."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:45
 msgid ""
 "![The Prepare Audit screen with Items set as the Resource Type; a "
 "Resource Query for Item set Events; the Property set to Schema:location; "
@@ -162,17 +168,17 @@ msgid ""
 "Resource](../modules/modulesfiles/datacleaning_prepareAudit.png)"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:45
+#: ../../docs/modules/datacleaning.md:47
 msgid "Audit data"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:46
+#: ../../docs/modules/datacleaning.md:48
 msgid ""
 "Clicking submit in the Prepare audit page will take you to the Audit Data"
 " page."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:48
+#: ../../docs/modules/datacleaning.md:50
 msgid ""
 "At the top of the page, just under the header, will be a message telling "
 "you how many unique strings you are editing and for how many resources. "
@@ -180,7 +186,7 @@ msgid ""
 " query you entered on the previous page."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:50
+#: ../../docs/modules/datacleaning.md:52
 msgid ""
 "Below this message is a table stating the data being audited. There are "
 "three columns: Audit Column, Property, and Data Type.  There are two "
@@ -188,52 +194,54 @@ msgid ""
 "before proceeding."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:52
+#: ../../docs/modules/datacleaning.md:54
 msgid ""
 "![Strings message and table for an audit. This audit has 18 unique "
 "strings for 66 resources, and the to and from information is "
 "identical](../modules/modulesfiles/datacleaning_auditTable1.png)"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:54
+#: ../../docs/modules/datacleaning.md:56
 msgid ""
 "Below you will see a row of buttons that allow you to operate on all of "
 "the strings you are auditing."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:56
-msgid ""
-"**Copy all**: copies the data in the _From_ column to the _To_ column for"
-" all of the unique strings"
-msgstr ""
-
-#: ../../docs/modules/datacleaning.md:57
-msgid "**Clear all**: removes all of the data from the _To_ column"
-msgstr ""
-
 #: ../../docs/modules/datacleaning.md:58
 msgid ""
-"**Validate all**: checks all of the proposed changes to make sure that "
-"they are possible within the bounds of the current column and data type, "
-"i.e. you cannot set a value_resource_id to a literal string of text "
-"because the data type is looking for a number. The validation only checks"
-" that the input is structurally possible, not that the inputted edit "
-"exists, i.e. one could change and a value_resource_id to a number that "
-"did not correspond to an actual Omeka S ID."
+"**Copy all**: Copies the data in the \"From\" column to the \"To\" column"
+" for all of the unique strings."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:59
+msgid "**Clear all**: Removes all of the data from the \"To\" column."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:60
 msgid ""
-"**Remove all**: checks the _Remove_ box for all of the unique strings. "
+"**Validate all**: Checks all of the proposed changes to make sure that "
+"they are possible within the bounds of the current column and data type, "
+"i.e. you cannot set a `value_resource_id` to a literal string of text "
+"because the data type is looking for a number. The validation only checks"
+" that the input is structurally possible, not that the inputted edit "
+"exists, i.e. one could change a `value_resource_id` to a number that did "
+"not correspond to an actual Omeka S ID."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:61
+msgid ""
+"**Remove all**: Checks the \"Remove\" box for all of the unique strings. "
 "This will set the data from the property being audited to null. Use "
 "extreme caution when applying this option."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:60
-msgid "**Unremove all**: unchecks the _Remove_ box for all of the unique strings."
+#: ../../docs/modules/datacleaning.md:62
+msgid ""
+"**Unremove all**: Unchecks the \"Remove\" box for all of the unique "
+"strings."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:62
+#: ../../docs/modules/datacleaning.md:64
 msgid ""
 "Next you will see a table of all of the unique strings within your audit."
 " If you have an audit result with a lot of unique strings, you can use "
@@ -242,16 +250,16 @@ msgid ""
 "clicking on the column header."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:64
+#: ../../docs/modules/datacleaning.md:66
 msgid ""
 "The table provides you with a Count of the number of resources per "
 "string, the unique string as it currently exists (From:), an input box to"
 " edit the current strings (To:), and a remove check box to set the data "
-"to null.The edit input cell for each row also has buttons to allow you to"
-" copy, clear, and validate your proposed changes."
+"to null. The edit input cell for each row also has buttons to allow you "
+"to copy, clear, and validate your proposed changes."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:66
+#: ../../docs/modules/datacleaning.md:68
 msgid ""
 "![Audit edit table with invalid string in the first row of the To column,"
 " the validate button is red indicating a data type mismatch; the second "
@@ -259,88 +267,352 @@ msgid ""
 "button](../modules/modulesfiles/datacleaning_auditTableValidation.png)"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:68
+#: ../../docs/modules/datacleaning.md:70
 msgid ""
 "Once you have carefully edited the content in your _To_ column, click the"
-" Submit button to execute the update of your data. Given the powerful "
-"nature of the module, you will be asked to confirm your decisions. The "
+" \"Submit\" button to execute the update of your data. Given the powerful"
+" nature of the module, you will be asked to confirm your decisions. The "
 "data cleaning process will run in the background, and while the job can "
 "be reviewed, it cannot be undone."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:70
-msgid "Sample Workflow"
+#: ../../docs/modules/datacleaning.md:72
+msgid "Sample workflow"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:71
+#: ../../docs/modules/datacleaning.md:73
 msgid ""
 "This is a sample workflow for a user who wants to audit the titles of "
 "items in a specific item set:"
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:73
-msgid "In the left-hand navigation, go to the Data Cleaning module"
-msgstr ""
-
-#: ../../docs/modules/datacleaning.md:74
-msgid "Click on \"Prepare new audit\" button (top right)"
-msgstr ""
-
 #: ../../docs/modules/datacleaning.md:75
-msgid "Select criteria (expand arrows for info):"
+msgid "In the left-hand navigation, go to the Data Cleaning module."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:76
-msgid "Resource type: \"Item\""
+msgid "Click on \"Prepare new audit\" button (top right)."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:77
-msgid "Resource query: item_set_id[]=1234"
+msgid "Select criteria (expand arrows for info):"
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:78
-msgid "Property: \"Dublin Core: Title\""
+msgid "Resource type: \"Item\""
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:79
-msgid "Audit column: \"value\""
+msgid "Resource query: item_set_id[]=1234"
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:80
-msgid "Data type: \"Text\""
+msgid "Property: \"Dublin Core: Title\""
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:81
-msgid "Ignore the \"Advanced\" section"
+msgid "Audit column: \"value\""
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:82 ../../docs/modules/datacleaning.md:86
-msgid "Click \"Submit\" (top right)"
+#: ../../docs/modules/datacleaning.md:82
+msgid "Data type: \"Text\"."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:83
-msgid "Audit the \"From: value\" column for potential corrections or removals"
+msgid "Ignore the \"Advanced\" section."
 msgstr ""
 
-#: ../../docs/modules/datacleaning.md:84
-msgid ""
-"Make corrections by entering the correct text into the \"To: value\" "
-"column"
+#: ../../docs/modules/datacleaning.md:84 ../../docs/modules/datacleaning.md:88
+msgid "Click \"Submit\" (top right)."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:85
-msgid "Make removals by checking the \"Remove\" checkbox"
+msgid "Audit the \"From: value\" column for potential corrections or removals."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:86
+msgid ""
+"Make corrections by entering the correct text into the \"To: value\" "
+"column."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:87
-msgid "Click to confirm the submission"
-msgstr ""
-
-#: ../../docs/modules/datacleaning.md:88
-msgid "Refresh the \"Past audits\" page until the job is marked as \"Completed\""
+msgid "Make removals by checking the \"Remove\" checkbox."
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:89
+msgid "Click to confirm the submission."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:90
+msgid "Refresh the \"Past audits\" page until the job is marked as \"Completed\"."
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:91
 msgid "Check the items to see if the values were corrected and removed."
 msgstr ""
+
+#~ msgid ""
+#~ "Data Cleaning An Omeka S module "
+#~ "for low-level auditing and cleaning "
+#~ "of resource metadata. It is designed "
+#~ "to be used to prepare resource "
+#~ "metadata for use in visualizations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Changes made in Data Cleaning cannot "
+#~ "be easily undone, and can be "
+#~ "destructive. Due to the powerful nature"
+#~ " of the module, it can only be"
+#~ " used by Global Administrator users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Before running any audit, make sure"
+#~ " you have a recent backup of "
+#~ "your data.**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have [installed](index.md#installing-"
+#~ "modules) DataCleaning, it will be added"
+#~ " to the modules available on the "
+#~ "left-hand navigation of your "
+#~ "administrative view."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From the main tab for Data "
+#~ "Cleaning (found under modules in the "
+#~ "left-hand navigation), click the "
+#~ "\"Prepare new audit\" button in the "
+#~ "upper right corner of the page."
+#~ msgstr ""
+
+#~ msgid "Prepare Audit"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This will open the Prepare audit "
+#~ "form, which allows you to zero in"
+#~ " on the data that you want to"
+#~ " review and perhaps correct. The form"
+#~ " has the following Basic options:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Resource type:** select the resource "
+#~ "type you want to audit from a "
+#~ "dropdown. Options are items, item sets,"
+#~ " or media."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Resource query:** click the Edit "
+#~ "button to reveal the Query Builder "
+#~ "interface in the right sidebar. Use "
+#~ "the form to set the universe of"
+#~ " resources you want to audit. You "
+#~ "can click the Advanced edit button "
+#~ "to reveal and edit the query "
+#~ "string."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Property:** selects the property to "
+#~ "audit. This dropdown will load all "
+#~ "properties from all vocabularies on your"
+#~ " installation. When open, the top of"
+#~ " the dropdown functions as a search"
+#~ " to allow you to locate a "
+#~ "property more quickly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Audit column:** sets what kind of "
+#~ "data be audited with in the "
+#~ "resource pool. Select from a dropdown"
+#~ " for _value_, _uri_, or _value-"
+#~ "resource-id_. In general, data types "
+#~ "may use these columns for different "
+#~ "reasons. But, in particular, the "
+#~ "\"literal\" data type uses the _value_"
+#~ " column to store the value; the "
+#~ "\"uri\" data type uses the _uri_ "
+#~ "column to store the URI and the"
+#~ " _value_ column to store the URI "
+#~ "label; and the \"resource\" data type"
+#~ " uses the _value-resource-id_ to "
+#~ "store the resource ID. Modules that "
+#~ "add data types assign data to one"
+#~ " or more of these three columns."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Data type:** select from a dropdown"
+#~ " of data types to audit. This "
+#~ "includes standard data types for Omeka"
+#~ " S, as well as any additional "
+#~ "data types added by other modules, "
+#~ "for example Numeric Data Types."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Advanced Options**  Should you want to"
+#~ " audit the data contained in one "
+#~ "property but store the corrected data"
+#~ " in a different location within the"
+#~ " resources, you can use the "
+#~ "\"target\" options to do so"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Target property:** Select the property "
+#~ "as which you want corrections to "
+#~ "be stored. You do not need to "
+#~ "select a target if it is the "
+#~ "same as the property above. This "
+#~ "dropdown will load all properties from"
+#~ " all vocabularies on your installation. "
+#~ "When open, the top of the dropdown"
+#~ " functions as a search to allow "
+#~ "you to locate a property more "
+#~ "quickly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Target audit column:** Select the "
+#~ "column in which corrections will be "
+#~ "stored. You do not need to select"
+#~ " a target if it is the same "
+#~ "as the audit column above. Options "
+#~ "are value, uri, or value_resource_id."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Target data type:** Select the data"
+#~ " type that corrections will be stored"
+#~ " as. You do not need to select"
+#~ " a target if it is the same "
+#~ "as the data type above. This "
+#~ "dropdown includes standard data types "
+#~ "for Omeka S, as well as any "
+#~ "additional data types added by other "
+#~ "modules, for example Numeric Data Types."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have entered information in "
+#~ "all relevant fields, click the Submit"
+#~ " button in the upper right corner."
+#~ msgstr ""
+
+#~ msgid "You can exit out at any time by clicking the Cancel button."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Copy all**: copies the data in "
+#~ "the _From_ column to the _To_ "
+#~ "column for all of the unique "
+#~ "strings"
+#~ msgstr ""
+
+#~ msgid "**Clear all**: removes all of the data from the _To_ column"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Validate all**: checks all of the "
+#~ "proposed changes to make sure that "
+#~ "they are possible within the bounds "
+#~ "of the current column and data "
+#~ "type, i.e. you cannot set a "
+#~ "value_resource_id to a literal string of"
+#~ " text because the data type is "
+#~ "looking for a number. The validation "
+#~ "only checks that the input is "
+#~ "structurally possible, not that the "
+#~ "inputted edit exists, i.e. one could "
+#~ "change and a value_resource_id to a "
+#~ "number that did not correspond to "
+#~ "an actual Omeka S ID."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Remove all**: checks the _Remove_ box"
+#~ " for all of the unique strings. "
+#~ "This will set the data from the"
+#~ " property being audited to null. Use"
+#~ " extreme caution when applying this "
+#~ "option."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Unremove all**: unchecks the _Remove_ "
+#~ "box for all of the unique strings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The table provides you with a "
+#~ "Count of the number of resources "
+#~ "per string, the unique string as "
+#~ "it currently exists (From:), an input"
+#~ " box to edit the current strings "
+#~ "(To:), and a remove check box to"
+#~ " set the data to null.The edit "
+#~ "input cell for each row also has"
+#~ " buttons to allow you to copy, "
+#~ "clear, and validate your proposed "
+#~ "changes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have carefully edited the "
+#~ "content in your _To_ column, click "
+#~ "the Submit button to execute the "
+#~ "update of your data. Given the "
+#~ "powerful nature of the module, you "
+#~ "will be asked to confirm your "
+#~ "decisions. The data cleaning process "
+#~ "will run in the background, and "
+#~ "while the job can be reviewed, it"
+#~ " cannot be undone."
+#~ msgstr ""
+
+#~ msgid "Sample Workflow"
+#~ msgstr ""
+
+#~ msgid "In the left-hand navigation, go to the Data Cleaning module"
+#~ msgstr ""
+
+#~ msgid "Click on \"Prepare new audit\" button (top right)"
+#~ msgstr ""
+
+#~ msgid "Data type: \"Text\""
+#~ msgstr ""
+
+#~ msgid "Ignore the \"Advanced\" section"
+#~ msgstr ""
+
+#~ msgid "Click \"Submit\" (top right)"
+#~ msgstr ""
+
+#~ msgid "Audit the \"From: value\" column for potential corrections or removals"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Make corrections by entering the correct"
+#~ " text into the \"To: value\" column"
+#~ msgstr ""
+
+#~ msgid "Make removals by checking the \"Remove\" checkbox"
+#~ msgstr ""
+
+#~ msgid "Click to confirm the submission"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Refresh the \"Past audits\" page until"
+#~ " the job is marked as \"Completed\""
+#~ msgstr ""
 

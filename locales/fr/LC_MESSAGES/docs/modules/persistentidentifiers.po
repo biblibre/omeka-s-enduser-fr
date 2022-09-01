@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/modules/persistentidentifiers.md:1
+msgid "Persistent Identifiers"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:3
+msgid ""
+"The [Persistent Identifiers "
+"module](https://omeka.org/s/modules/PersistentIdentifiers/){target=_blank}"
+" allows users to create or import persistent identifiers (PIDs) and "
+"assign them to Omeka S items. These PIDs can be assigned at item "
+"creation, via the item edit screen, or by batch edit. They can also be "
+"removed using the item edit or batch edit screens. PIDs may also be "
+"\"extracted\" from existing metadata fields. Once assigned, accessing an "
+"item's PID in-browser resolves to a stable, non-site-specific landing "
+"page containing the item's metadata, media, and any sites the item is "
+"assigned to."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:5
+msgid "The current PID services available for this module are:"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:7
+msgid "EZID (used to mint and manage Archival Resource Keys [ARKs])"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:8
+msgid "DataCite (used to mint and manage Digital Object Identifiers [DOIs])."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:10
+msgid "General settings"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:12
+msgid ""
+"After installation, Persistent Identifiers should appear in the left-hand"
+" navigation under **Modules**. The \"Settings\" subpage features general "
+"settings, including:"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:14
+msgid ""
+"**PID Service**: Select which of the available PID services to use for "
+"minting or extraction. Only one PID service may be used at a time to mint"
+" and assign PIDs to items."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:15
+msgid ""
+"**Assign PID to New Items**: Check this box to automatically newly mint "
+"or extract an existing PID and assign to every new item in Omeka S, "
+"whether it is created in Omeka S or imported."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:16
+msgid ""
+"**Fields with Existing PIDs**: A list of metadata fields separated by "
+"commas that may contain PID values within a newly created or imported "
+"item. If found, the existing PID will be assigned to the item instead of "
+"a new PID."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:18
+msgid ""
+"![Configuration options for general "
+"settings](../modules/modulesfiles/PID_settings.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:20
+msgid "EZID configuration"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:22
+msgid ""
+"When completing the configuration process for EZID, you will need to "
+"provide the:"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:24
+msgid ""
+"**NAAN & Shoulder Namespace**: The Name Assigning Authority Number (NAAN)"
+" and ARK shoulder value uniquely assigned to an organization, which will "
+"appear in every ARK generated."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:25
+msgid ""
+"**EZID Username**: The EZID user who has permission to create and update "
+"identifiers for the above namespace."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:26
+msgid ""
+"**EZID Password**: The password for the above EZID user. Note that for "
+"security reasons this password doesn't persist in the form, so if changes"
+" are made to the **NAAN & Shoulder Namespace** or **EZID Username** you "
+"must also re-enter the password before pressing \"submit\"."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:28
+msgid ""
+"![EZID specific configuration "
+"options](../modules/modulesfiles/PID_EZIDconfig.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:30
+msgid "DataCite configuration"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:32
+msgid ""
+"When completing the configuration process for DataCite, you will need to "
+"provide the:"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:34
+msgid ""
+"**Repository DOI Prefix**: The prefix assigned to an institution's DOI "
+"minting and management repository."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:35
+msgid ""
+"**DataCite Repository ID**: The unique identifier assigned to an "
+"institution's DOI repository."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:36
+msgid ""
+"**DataCite Password**: The password associated with the above **DataCite "
+"Repository ID**. Note that for security reasons this password doesn't "
+"persist in the form, so if changes are made to any field on the DataCite "
+"Configuration screen, you must also re-enter the password before pressing"
+" \"submit\"."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:38
+msgid ""
+"![DataCite specific configuration "
+"options](../modules/modulesfiles/PID_DataCiteconfig.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:40
+msgid "DataCite required metadata"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:42
+msgid ""
+"DataCite requires five descriptive metadata values in order to generate a"
+" DOI: Title, Creators, Publisher, Publication Year, and Resource Type. "
+"All of these fields must be mapped to an existing metadata field that you"
+" select from the list of available vocabularies in your Omeka S instance."
+" The Resource Type General property must conform to a "
+"[ResourceTypeGeneral controlled "
+"vocabulary](https://support.datacite.org/docs/datacite-metadata-"
+"schema-v44-mandatory-properties#101-resourcetypegeneral){target=_blank} "
+"value exactly."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:44
+msgid "Minting and removing PIDs"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:46
+msgid ""
+"To mint a PID from the item edit page, click on an item and select \"Edit"
+" Item.\" Navigate to the Advanced tab, and click \"Mint PID.\""
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:48
+msgid ""
+"![Minting PIDs via Edit Item Advanced "
+"tab](../modules/modulesfiles/PID_mint.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:50
+msgid ""
+"After a few moments, the ARK or DOI should appear. The \"Mint PID\" "
+"button should now be a \"Remove PID\" button. Click here to remove the "
+"PID."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:52
+msgid ""
+"![Removing PIDs via Edit Item Advanced "
+"tab](../modules/modulesfiles/PID_remove.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:54
+msgid ""
+"If you select \"Remove PID,\" a drawer will open on the right warning you"
+" that this will remove the PID and break any incoming links. Click "
+"\"Confirm Remove PID\" to delete the PID."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:56
+msgid ""
+"![Drawer asking to confirm PID "
+"removal](../modules/modulesfiles/PID_confirmremove.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:58
+msgid ""
+"Click \"Save\" before navigating away from the page when both minting and"
+" removing PIDs."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:60
+msgid "Batch editing PIDs"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:62
+msgid ""
+"You can batch edit PIDs from the Items page. Select the items with PIDs "
+"you wish to edit via the checkboxes, then choose \"Edit Selected\" before"
+" pressing \"Go.\""
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:64
+msgid ""
+"![Accessing batch edit from Items "
+"page](../modules/modulesfiles/PID_batcheditgo.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:66
+msgid ""
+"Near the bottom of the Batch Edit Items screen, you should see a "
+"Persistent Identifiers row. Here, you can mint or remove PIDs for all "
+"selected items. If you are batch editing other fields and would like PIDs"
+" to remain unaffected, you can select \"[no action]\"."
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:68
+msgid "![Batch edit items options](../modules/modulesfiles/PID_batchoptions.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:70
+msgid ""
+"When you have made all desired edits, click \"Save\" in the upper right "
+"corner."
+msgstr ""
+

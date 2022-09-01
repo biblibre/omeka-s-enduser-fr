@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/modules/datarepositoryconnector.md:1
+msgid "Data Repository Connector"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:3
+msgid ""
+"The [Data Repository Connector "
+"module](../modules/datarepositoryconnector.md){target=_blank} allows "
+"users to import records and/or data files from several different data "
+"repository platforms: Dataverse, Zenodo, and CKAN."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:5
+msgid ""
+"To install Data Repository Connector, follow the instructions for "
+"[Installing Modules](../modules/index.md#installing-modules) on the "
+"Modules documentation."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:7
+msgid "Import data"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:9
+msgid ""
+"To use the Data Repository Connector, navigate to the tab labelled Data "
+"Repository Connector on the left-hand navigation of the admin dashboard. "
+"Then, you will have the option to select Dataverse, Zenodo, or CKAN."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:11
+msgid ""
+"![Navigation showing Data Repository Connector "
+"options](../modules/modulesfiles/datarepoconnect_tabs.png)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:13
+msgid "Shared options"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:15
+msgid ""
+"Regardless of the service you have selected, you will be provided with "
+"the following options:"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:17
+msgid ""
+"**Limit**: The maximum number of results to retrieve at once. If you "
+"notice errors or missing data, try lowering this number. Increasing it "
+"might make imports faster. (This field is required.)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:18
+msgid ""
+"**Import files into Omeka S**: If checked, all data files associated with"
+" a record will be imported into Omeka S."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:19
+msgid "**Comment**: A note about the purpose or source of this import."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:20
+msgid "**Item sets**: The items sets to import items into."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:21
+msgid "**Sites**: The sites to import items into."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:23
+msgid ""
+"![The fields for configuring "
+"options](../modules/modulesfiles/datarepoconnect_options.png)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:25
+msgid ""
+"Once you have filled out these fields as well as those specific to the "
+"option you have selected, be sure to click \"Submit\"."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:27
+msgid "Dataverse"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:29
+msgid "If you select Dataverse, you will see a screen with the following options:"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:31
+msgid ""
+"**Main Dataverse URL**: The URL of the main Dataverse site. (This field "
+"is required.)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:32
+msgid ""
+"**Dataverse Identifier**: The identifier of the Dataverse to import from."
+" If blank, all datasets under **Main Dataverse URL** will be imported."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:33
+msgid ""
+"**Metadata format**: The metadata format to export from Dataverse. The "
+"options for Dataverse are \"dcterms\", \"oai_dc\", and \"schema.org\". "
+"The format must exist as a vocabulary in your Omeka instance before "
+"import. (This field is required.)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:35
+msgid "Zenodo"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:37
+msgid "If you select Zenodo, you should see a screen with the following options:"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:39
+msgid ""
+"**Zenodo Community ID**: The short string identifying which Zenodo "
+"community to import from. Found in the URL after "
+"\"https://zenodo.org/communities/\" and before any search parameters. "
+"(This field is required.)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:40
+msgid ""
+"**Metadata Format**: The metadata format to export from Zenodo. The "
+"option for Zenodo is \"oai_dc\". The format must exist as a vocabulary in"
+" your Omeka instance before import."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:42
+msgid "CKAN"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:44
+msgid "If you select CKAN, you should see a screen with the following options:"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:46
+msgid ""
+"**Main CKAN URL**: The URL of the main Dataverse site. (This field is "
+"required.)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:47
+msgid ""
+"**CKAN Organization**: The identifier of the CKAN organization to import "
+"from. If blank, all datasets under **Main CKAN URL** will be imported."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:49
+msgid "Checking import status"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:51
+msgid ""
+"After you have hit \"Submit\", you can track the status of the import by "
+"navigating to the Data Repository Connector > Past Imports tab or the "
+"Jobs tab of the left-hand navigation on the admin dashboard."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:53
+msgid ""
+"!!! note \tAre your jobs starting and not completing? You might need to "
+"set the path for PHP so that your system can perform the background "
+"process to make the items."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:56
+msgid "Review imports"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:58
+msgid ""
+"Click on Data Repository Connector on the left-hand navigation of the "
+"admin dashboard, and then click on Past Imports, which should appear "
+"below the Data Repository Connector tab."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:60
+msgid ""
+"This page displays a table of Past Imports, with a checkbox option to "
+"Undo, the Job ID for the import, any Comments made during import, the "
+"number of Items imported, the Date of the import, the import Status, and "
+"the Ownerwho initiated the import."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:62
+msgid ""
+"![The screen showing past imports from the Data Repository "
+"connector](../modules/modulesfiles/datarepoconnect_pastimports.png)"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:64
+msgid "Update imported resources"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:66
+msgid ""
+"To update resources created using the Data Repository Connector, simply "
+"re-run an import from the same source. The resources will be updated, not"
+" re-imported. This allows you to use the Connector to sync data between "
+"your Data Repository and Omeka S installations."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:68
+msgid "Undo an import"
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:70
+msgid ""
+"To undo a completed import and remove all associated items, go to the "
+"Data Repository Connector tab on the left-hand navigation of the admin "
+"dashboard, click on Data Repository Connector and then click on Past "
+"Imports, which should appear below the Data Repository Connector tab."
+msgstr ""
+
+#: ../../docs/modules/datarepositoryconnector.md:72
+msgid "Check the box for each import you wish to undo and click \"Submit\"."
+msgstr ""
+

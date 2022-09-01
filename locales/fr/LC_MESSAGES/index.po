@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 20:27+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: 2021-06-29 12:57+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language: fr\n"
@@ -17,26 +17,25 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../index.rst:15 ../../index.rst:52
+#: ../../index.rst:15 ../../index.rst:56
 msgid "Sites"
 msgstr "Sites"
 
-#: ../../index.rst:19 ../../index.rst:64
+#: ../../index.rst:19 ../../index.rst:68
 msgid "Resources"
 msgstr "Ressources"
 
-#: ../../index.rst:23 ../../index.rst:74
+#: ../../index.rst:23 ../../index.rst:78
 msgid "Admin"
 msgstr "Admin"
 
-#: ../../index.rst:29 ../../index.rst:82
+#: ../../index.rst:29 ../../index.rst:87
 msgid "Modules"
 msgstr "Modules"
 
-#: ../../index.rst:90
+#: ../../index.rst:95
 msgid "Miscellaneous"
 msgstr "Divers"
 
@@ -51,28 +50,29 @@ msgid ""
 "independently curated exhibits sharing a collaboratively built pool of "
 "items and their metadata."
 msgstr ""
-"Omeka S est un système de publication web pour les universités, "
-"galeries, bibliothèques, archives, et musées. Il crée un réseau local "
+"Omeka S est un système de publication web pour les universités, galeries,"
+" bibliothèques, archives, et musées. Il crée un réseau local "
 "d'expositions indépendamment conservées partageant un réservoir de "
 "contenus et de métadonnées construit de manière collaborative."
 
 #: ../../index.rst:9
+#, fuzzy
 msgid ""
 "The sections of this manual correspond to the navigation sections on the "
 "left-hand side of the :doc:`administrative dashboard <docs/admin-"
-"dashboard>`. of an Omeka S Installation:"
+"dashboard>`. of an Omeka S installation:"
 msgstr ""
-"Les sections de ce manuel correspondent aux sections de navigation sur "
-"la gauche du :doc:`tableau de bord d'administration <docs/admin-"
-"dashboard>` d'une installation Omeka S:"
+"Les sections de ce manuel correspondent aux sections de navigation sur la"
+" gauche du :doc:`tableau de bord d'administration <docs/admin-dashboard>`"
+" d'une installation Omeka S:"
 
 #: ../../index.rst:14
 msgid ""
 "Creating, editing, and managing sites, the public-facing parts of an "
 "Omeka S installation."
 msgstr ""
-"Création, modification, et gestion des sites, les parties publiques "
-"d'une installation Omeka S."
+"Création, modification, et gestion des sites, les parties publiques d'une"
+" installation Omeka S."
 
 #: ../../index.rst:18
 msgid ""
@@ -83,30 +83,32 @@ msgstr ""
 "contenus, collections, media, vocabulaires, et modèles de ressource."
 
 #: ../../index.rst:22
+#, fuzzy
 msgid ""
-"Access to functionality in the admin section varies by user role, but "
-"can include: users, jobs, and settings."
+"Access to functionality in the administrative interface varies by user "
+"role, but can include: users, jobs, assets, and settings."
 msgstr ""
 "L'accès aux fonctionnalités d’administration varient selon le rôle "
 "utilisateur, mais peut inclure: utilisateurs, tâches, et paramètres."
 
 #: ../../index.rst:26
+#, fuzzy
 msgid ""
-"This section opens with basic information on managing the modules which "
+"This section opens with basic information on managing the modules that "
 "extend the functionality of your Omeka S installation and sites. It then "
-"offers specific documentaiton for Omeka S modules created by RRCHNM, "
-"listed in alphabetial order."
+"offers specific documentaiton for Omeka S modules created by the Omeka "
+"Team, listed in alphabetial order."
 msgstr ""
 "Cette section commence par des informations basiques sur la gestion des "
-"modules qui étendent les fonctionnalités de votre installation Omeka S "
-"et des sites. Elle fournit ensuite une documentation spécifique pour les "
+"modules qui étendent les fonctionnalités de votre installation Omeka S et"
+" des sites. Elle fournit ensuite une documentation spécifique pour les "
 "modules Omeka S créés par RRCHNM, listés par ordre alphabétique."
 
 #: ../../index.rst:31
 msgid ""
-"This manual also includes a :doc:`glossary <docs/glossary>`, "
-"instructions on conducting :doc:`searches <docs/search>`, and how to "
-"turn on :doc:`error logging <docs/errorLogging>`."
+"This manual also includes a :doc:`glossary <docs/glossary>`, instructions"
+" on conducting :doc:`searches <docs/search>`, and how to turn on "
+":doc:`error logging <docs/errorLogging>`."
 msgstr ""
 "Ce manuel inclut aussi un :doc:`glossaire <docs/glossary>`, des "
 "instructions sur la réalisation de :doc:`recherches <docs/search>`, et "
@@ -115,13 +117,19 @@ msgstr ""
 #: ../../index.rst:35
 msgid ""
 "Screencasts to supplement the documentation are linked from relevant "
-"pages, and can be browsed in the `Omeka S collection on Vimeo <https://"
-"vimeo.com/showcase/4215056>`_."
+"pages, and can be browsed in the `Omeka S collection on Vimeo "
+"<https://vimeo.com/showcase/4215056>`_."
 msgstr ""
 "Des liens vers des *screencasts* qui complètent la documentation sont "
 "ajoutés aux pages concernées, et ils peuvent être parcourus dans la "
 "`collection Omeka S sur Vimeo <https://vimeo.com/showcase/4215056>`_."
 
-#: ../../index.rst:39
-msgid "This documentation is CC-BY-NC"
-msgstr "Cette documentation est CC-BY-NC"
+#: ../../index.rst:43
+msgid ""
+"`Omeka S Tour <https://player.vimeo.com/video/241702586>`_ from `Omeka "
+"<https://vimeo.com/omeka>`_ on `Vimeo <https://vimeo.com>`_."
+msgstr ""
+
+#~ msgid "This documentation is CC-BY-NC"
+#~ msgstr "Cette documentation est CC-BY-NC"
+

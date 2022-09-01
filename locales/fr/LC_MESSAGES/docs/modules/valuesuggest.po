@@ -9,123 +9,117 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-05 08:51+0000\n"
+"POT-Creation-Date: 2022-09-01 13:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../docs/modules/valuesuggest.md:1
-msgid "ValueSuggest"
+msgid "Value Suggest"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:3
 msgid ""
-"The ValueSuggest module adds an auto-complete feature to a specific "
-"property in a resource template and draws on controlled vocabularies (see"
-" the end of this page for a complete list)."
+"The [Value Suggest "
+"module](https://omeka.org/s/modules/ValueSuggest){target=_blank} adds an "
+"auto-complete feature to specific properties in a resource template, and "
+"draws on controlled vocabularies (see the end of this page for a complete"
+" list) to help users fill them out. Value Suggest appears when a user is "
+"editing the metadata of a resource (an item, a piece of media, or an item"
+" set) that uses the enabled resource template."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:5
 msgid ""
-"This functionality helps those building an Omeka site to encourage "
+"This functionality helps those building an Omeka site encourage "
 "consistent metadata input and data compatibility with other databases of "
-"records. Please note that ValueSuggest offers  but cannot require that "
-"users select values from the autosuggest feature. Users will always have "
-"the option of creating their own value instead."
+"records. Note that Value Suggest offers, but cannot require, that users "
+"select values from the autosuggest feature. Users will always have the "
+"option of creating their own value instead."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:7
-msgid ""
-"To install ValueSuggest follow the instructions for Installing Modules on"
-" the Modules documentation."
+msgid "Create a resource template"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:9
-msgid "Create a Resource Template"
+msgid ""
+"Value Suggest vocabularies are applied through resource templates. For "
+"additional information on resource templates, see the [resource template "
+"documentation](../content/resource-template.md)."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:11
 msgid ""
-"ValueSuggest vocabularies are applied through Resource Templates. For "
-"additional information on Resource Templates, see the [Resource Template "
-"Documentation](../content/resource-template.md)."
+"From the Resources templates page in the admin dashboard, either add a "
+"new [template](../content/resource-template.md) or edit an existing one."
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:12
+msgid "Add the property to which you want to apply the Value Suggest."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:13
-msgid ""
-"From the Resources templates tab in the Admin Dashboard, either add a new"
-" [template](../content/resource-template.md) or edit an existing one."
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:14
-msgid "Add the property to which you want to apply the ValueSuggest."
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:15
 msgid ""
 "Once the property is added to the template, click the pencil/edit icon "
 "for that property."
 msgstr ""
 
+#: ../../docs/modules/valuesuggest.md:14
+msgid ""
+"At the bottom of the drawer which opens on the right, open the \"Data "
+"type\" dropdown. Below the standard options, you will see the Value "
+"Suggest options. Select the vocabulary you want to use from the dropdown."
+" Note that you can add alternate labels and comments for the property in "
+"this drawer."
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:15
+msgid ""
+"Click the \"Set changes\" button at the bottom of the drawer to assign "
+"the values to the property."
+msgstr ""
+
 #: ../../docs/modules/valuesuggest.md:16
-msgid ""
-"At the bottom of the drawer which opens on the right, open the *Data "
-"type* dropdown. Below the standard options, you will see the ValueSuggest"
-" options. Select the vocabulary you want to use from the dropdown."
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:17
-msgid ""
-"Note that you can also add alternate labels and comments for the property"
-" in this drawer."
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:18
-msgid ""
-"Click the *Set changes* button at the bottom of the drawer to assign the "
-"Values to the property."
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:19
 msgid "Save changes to the resource template."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:22
+#: ../../docs/modules/valuesuggest.md:18
 msgid ""
 "![Editing the property subject, and the dropdown is open to show the "
 "Value Suggest vocabularies from the Library of "
 "Congress](../modules/modulesfiles/ValSug-ResTemplate1.png)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:24
+#: ../../docs/modules/valuesuggest.md:20
 msgid ""
-"When you click the title of a Resource Template to see its details, the "
-"ValueSuggest vocabulary will appear under the Data Type table heading."
+"When you click the title of a resource template to see its details, the "
+"Value Suggest vocabulary will appear under the Data type table heading."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:26
+#: ../../docs/modules/valuesuggest.md:22
 msgid ""
 "![A red rectangle highlights the fact that the data type for Subject is "
 "\"LC: Subject Headings\"](../modules/modulesfiles/ValSug-"
 "ResTemplate2.png)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:29
-msgid "Adding ValueSuggest to an Item"
+#: ../../docs/modules/valuesuggest.md:24
+msgid "Adding Value Suggest to resources"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:31
+#: ../../docs/modules/valuesuggest.md:26
 msgid ""
-"When this Resource Template is used in an Item or Item Set, the "
-"designated properties will auto-suggest values from the vocabulary "
-"specified in the template."
+"When a Value Suggest resource template is used in an item, media, or item"
+" set, the designated properties will auto-suggest values from the "
+"vocabulary specified in the template."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:33
+#: ../../docs/modules/valuesuggest.md:28
 msgid ""
 "Users must start typing in the open text box of that specific property to"
 " prompt the auto-suggest feature. There may be a slight delay, but a "
@@ -133,20 +127,20 @@ msgid ""
 " or vocabulary list you have associated with that property."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:35
+#: ../../docs/modules/valuesuggest.md:30
 msgid ""
 "![Item property Subject with \"fashion\" typed in the field. A dropdown "
 "menu auto-suggests terms, including \"fashion design,\" which is "
 "selected.](../modules/modulesfiles/ValSug-ItemProperty1.png)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:37
+#: ../../docs/modules/valuesuggest.md:32
 msgid ""
 "Hover over selections in the dropdown menu for a description of that "
 "vocabulary."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:39
+#: ../../docs/modules/valuesuggest.md:34
 msgid ""
 "![Item property Material with \"lithograph\" typed in the field. A "
 "dropdown menu auto-suggests terms, including \"color lithographs,\" which"
@@ -155,15 +149,15 @@ msgid ""
 "ItemProperty2.png)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:41
+#: ../../docs/modules/valuesuggest.md:36
 msgid ""
-"Note: after selecting a value, a box containing a URL should appear under"
-" the value. This link will direct visitors to a webpage with additional "
+"After selecting a value, a box containing a URL should appear under the "
+"value. This link will direct visitors to a webpage with additional "
 "information on the value selected. This box can be removed by clicking "
-"the “X”."
+"the \"X\"."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:43
+#: ../../docs/modules/valuesuggest.md:38
 msgid ""
 "![Item property Work Type with \"Fashion Illustrations (layout "
 "features)\" selected. Below, in red is a hyperlink to Getty Collections, "
@@ -171,839 +165,1083 @@ msgid ""
 "ItemProperty3.png)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:45
-msgid "Available Vocabularies"
+#: ../../docs/modules/valuesuggest.md:40
+msgid "Available vocabularies"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:47
+#: ../../docs/modules/valuesuggest.md:42
 msgid "This module includes the following vocabularies:"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:49
+#: ../../docs/modules/valuesuggest.md:44
 msgid "Dublin Core"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:50
+#: ../../docs/modules/valuesuggest.md:45
 msgid "Gemeinsame Normdatie (GND)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:51
+#: ../../docs/modules/valuesuggest.md:46
 msgid "GeoNames"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:52
+#: ../../docs/modules/valuesuggest.md:47
 msgid "The Getty Vocabularies"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:53
+#: ../../docs/modules/valuesuggest.md:48
 msgid "Homosaurus"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:54
+#: ../../docs/modules/valuesuggest.md:49
 msgid "IdRef"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:55
+#: ../../docs/modules/valuesuggest.md:50
 msgid "Library of Congress Linked Data Service"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:56
+#: ../../docs/modules/valuesuggest.md:51
 msgid "Nuovo Soggettario"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:57
+#: ../../docs/modules/valuesuggest.md:52
 msgid "OCLC Metadata Services"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:58
+#: ../../docs/modules/valuesuggest.md:53
 msgid "PACTOLS of Frantiq"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:59
+#: ../../docs/modules/valuesuggest.md:54
 msgid "PeriodO"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:60
+#: ../../docs/modules/valuesuggest.md:55
 msgid "RDA Value Vocabularies"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:61
+#: ../../docs/modules/valuesuggest.md:56
 msgid "RightsStatements.org"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:62
+#: ../../docs/modules/valuesuggest.md:57
 msgid "Tesauros del patrimonio cultural de España"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:63
+#: ../../docs/modules/valuesuggest.md:58
 msgid "UNESCO"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:64
-msgid "Les vocabulaires du Ministère de la Culture"
+#: ../../docs/modules/valuesuggest.md:59
+msgid "Les vocabulaires du Ministère de la Culture."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:67
+#: ../../docs/modules/valuesuggest.md:61
 msgid ""
-"[Dublin Core](https://www.dublincore.org/specifications/dublin-core/dcmi-"
-"terms/) (DCMI Metadata Terms)"
+"[Dublin Core (DCMI Metadata "
+"Terms)](https://www.dublincore.org/specifications/dublin-core/dcmi-"
+"terms/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:69
+#: ../../docs/modules/valuesuggest.md:63
 msgid "Classes"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:70
+#: ../../docs/modules/valuesuggest.md:64
 msgid "Elements"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:71 ../../docs/modules/valuesuggest.md:199
+#: ../../docs/modules/valuesuggest.md:65 ../../docs/modules/valuesuggest.md:193
 msgid "Terms"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:72
-msgid "Types"
+#: ../../docs/modules/valuesuggest.md:66
+msgid "Types."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:74
-msgid "[Gemeinsame Normdatei (GND)](http://lobid.org/gnd)"
+#: ../../docs/modules/valuesuggest.md:68
+msgid "[Gemeinsame Normdatei (GND)](http://lobid.org/gnd){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:76
+#: ../../docs/modules/valuesuggest.md:70
 msgid ""
 "The GND contains standardized entries for persons, corporations, "
 "congresses, geographical areas, key words and work titles."
 msgstr ""
 
+#: ../../docs/modules/valuesuggest.md:72
+msgid "[GeoNames](http://www.geonames.org/){target=_blank}"
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:74
+msgid "The GeoNames geographical database."
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:76
+msgid "[The Getty Vocabularies](http://vocab.getty.edu/){target=_blank}"
+msgstr ""
+
 #: ../../docs/modules/valuesuggest.md:78
-msgid "[GeoNames](http://www.geonames.org/)"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:80
-msgid "The GeoNames geographical database"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:82
-msgid "[The Getty Vocabularies](http://vocab.getty.edu/)"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:84
 msgid "The Art & Architecture Thesaurus (AAT)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:85
+#: ../../docs/modules/valuesuggest.md:79
 msgid "The Getty Thesaurus of Geographic Names (TGN)"
 msgstr ""
 
+#: ../../docs/modules/valuesuggest.md:80
+msgid "The Union List of Artist Names (ULAN)."
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:82
+msgid "[Homosaurus](http://homosaurus.org/){target=_blank}"
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:84
+msgid "Homosaurus.org linked data vocabulary."
+msgstr ""
+
 #: ../../docs/modules/valuesuggest.md:86
-msgid "The Union List of Artist Names (ULAN)"
+msgid "[IdRef](https://www.idref.fr/){target=_blank}"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:88
-msgid "[Homosaurus](http://homosaurus.org/)"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:90
-msgid "Homosaurus.org linked data vocabulary"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:92
-msgid "[IdRef](https://www.idref.fr/)"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:94
 msgid ""
 "The French national database of identifiers for research (all "
 "repositories)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:95
+#: ../../docs/modules/valuesuggest.md:89
 msgid "Person names"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:96
+#: ../../docs/modules/valuesuggest.md:90
 msgid "Corporations"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:97
+#: ../../docs/modules/valuesuggest.md:91
 msgid "Conferences"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:98
+#: ../../docs/modules/valuesuggest.md:92
 msgid "Subject headings (all)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:99
+#: ../../docs/modules/valuesuggest.md:93
 msgid ""
-"Subject headings [RAMEAU](https://rameau.bnf.fr), (Répertoire "
-"d’autorité-matière encyclopédique et alphabétique unifié, or Unified "
-"encyclopaedic and alphabetical list of subject authorities)"
+"Subject headings [RAMEAU](https://rameau.bnf.fr){target=_blank} "
+"(Répertoire d’autorité-matière encyclopédique et alphabétique unifié, or "
+"Unified encyclopaedic and alphabetical list of subject authorities)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:100
+#: ../../docs/modules/valuesuggest.md:94
 msgid ""
-"Subject headings [F-MeSH](http://mesh.inserm.fr/FrenchMesh) (French "
-"version of the medical subject headings)"
+"Subject headings "
+"[F-MeSH](http://mesh.inserm.fr/FrenchMesh){target=_blank} (French version"
+" of the medical subject headings)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:101
+#: ../../docs/modules/valuesuggest.md:95
 msgid "Geographic names"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:102
+#: ../../docs/modules/valuesuggest.md:96
 msgid "Family names"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:103
+#: ../../docs/modules/valuesuggest.md:97
 msgid "Titles"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:104
+#: ../../docs/modules/valuesuggest.md:98
 msgid "Author-Titles"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:105
+#: ../../docs/modules/valuesuggest.md:99
 msgid "Trademarks"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:106
+#: ../../docs/modules/valuesuggest.md:100
 msgid "PPN (unique identifier used for any item in all the database)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:107
-msgid "Libraries (RCR: Répertoire des centres de ressources)"
+#: ../../docs/modules/valuesuggest.md:101
+msgid "Libraries (RCR: Répertoire des centres de ressources)."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:109
-msgid "[Library of Congress Linked Data Service](http://id.loc.gov/)"
+#: ../../docs/modules/valuesuggest.md:103
+msgid ""
+"[Library of Congress Linked Data "
+"Service](http://id.loc.gov/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:111
+#: ../../docs/modules/valuesuggest.md:105
 msgid "AFS Ethnographic Thesaurus"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:112
+#: ../../docs/modules/valuesuggest.md:106
 msgid "All"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:113
+#: ../../docs/modules/valuesuggest.md:107
 msgid "Children's Subject Heading"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:114
+#: ../../docs/modules/valuesuggest.md:108
 msgid "Classification"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:115
+#: ../../docs/modules/valuesuggest.md:109
 msgid "Cultural Heritage Organizations"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:116
+#: ../../docs/modules/valuesuggest.md:110
 msgid "Demographic Group Terms"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:117
+#: ../../docs/modules/valuesuggest.md:111
 msgid "Genre/Form Terms"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:118
+#: ../../docs/modules/valuesuggest.md:112
 msgid "ISO639-1 Languages"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:119
+#: ../../docs/modules/valuesuggest.md:113
 msgid "ISO639-2 Languages"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:120
+#: ../../docs/modules/valuesuggest.md:114
 msgid "ISO639-5 Languages"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:121
+#: ../../docs/modules/valuesuggest.md:115
 msgid "MARC Countries"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:122
+#: ../../docs/modules/valuesuggest.md:116
 msgid "MARC Geographic Areas"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:123
+#: ../../docs/modules/valuesuggest.md:117
 msgid "MARC Languages"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:124
+#: ../../docs/modules/valuesuggest.md:118
 msgid "MARC Relators"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:125
+#: ../../docs/modules/valuesuggest.md:119
 msgid "Medium of Performance Thesaurus for Music"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:126
+#: ../../docs/modules/valuesuggest.md:120
 msgid "Name Authority File"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:127
+#: ../../docs/modules/valuesuggest.md:121
 msgid "Subject Headings"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:128
-msgid "Thesaurus for Graphic Materials"
+#: ../../docs/modules/valuesuggest.md:122
+msgid "Thesaurus for Graphic Materials."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:130
-msgid "[Nuovo Soggettario](https://thes.bncf.firenze.sbn.it/)"
+#: ../../docs/modules/valuesuggest.md:124
+msgid "[Nuovo Soggettario](https://thes.bncf.firenze.sbn.it/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:132
+#: ../../docs/modules/valuesuggest.md:126
 msgid "Agenti: Organismi"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:133
+#: ../../docs/modules/valuesuggest.md:127
 msgid "Agenti: Organizzazioni"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:134
+#: ../../docs/modules/valuesuggest.md:128
 msgid "Agenti: Persone e gruppi"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:135
+#: ../../docs/modules/valuesuggest.md:129
 msgid "Azioni: Attività"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:136
+#: ../../docs/modules/valuesuggest.md:130
 msgid "Azioni: Discipline"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:137
+#: ../../docs/modules/valuesuggest.md:131
 msgid "Azioni: Processi"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:138
+#: ../../docs/modules/valuesuggest.md:132
 msgid "Cose: Forme"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:139
+#: ../../docs/modules/valuesuggest.md:133
 msgid "Cose: Materia"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:140
+#: ../../docs/modules/valuesuggest.md:134
 msgid "Cose: Oggetti"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:141
+#: ../../docs/modules/valuesuggest.md:135
 msgid "Cose: Spazio"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:142
+#: ../../docs/modules/valuesuggest.md:136
 msgid "Cose: Strumenti"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:143
+#: ../../docs/modules/valuesuggest.md:137
 msgid "Cose: Strutture"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:144
-msgid "Tempo"
+#: ../../docs/modules/valuesuggest.md:138
+msgid "Tempo."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:146
+#: ../../docs/modules/valuesuggest.md:140
 msgid ""
 "[OCLC Metadata "
-"Services](https://www.oclc.org/en/services/a-z.html/:F2664:/)"
+"Services](https://www.oclc.org/en/services/a-z.html/:F2664:/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:148
+#: ../../docs/modules/valuesuggest.md:142
 msgid "Faceted Application of Subject Terminologies (FAST)"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:149
-msgid "The Virtual International Authority File (VIAF)"
+#: ../../docs/modules/valuesuggest.md:143
+msgid "The Virtual International Authority File (VIAF)."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:151
-msgid "[PACTOLS of Frantiq](https://pactols.frantiq.fr/)"
+#: ../../docs/modules/valuesuggest.md:145
+msgid "[PACTOLS of Frantiq](https://pactols.frantiq.fr/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:153
-msgid "The entire pactols thesaurus"
+#: ../../docs/modules/valuesuggest.md:147
+msgid "The entire PACTOLS thesaurus"
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:148
+msgid "The subject group only."
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:150
+msgid "[PeriodO](http://perio.do/en/){target=_blank}"
+msgstr ""
+
+#: ../../docs/modules/valuesuggest.md:152
+msgid "A gazetteer of period definitions for linking and visualizing data."
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:154
-msgid "The subject group only"
+msgid ""
+"[RDA Value "
+"Vocabularies](http://www.rdaregistry.info/termList/){target=_blank}"
 msgstr ""
 
 #: ../../docs/modules/valuesuggest.md:156
-msgid "[PeriodO](http://perio.do/en/)"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:158
-msgid "A gazetteer of period definitions for linking and visualizing data"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:160
-msgid "[RDA Value Vocabularies](http://www.rdaregistry.info/termList/)"
-msgstr ""
-
-#: ../../docs/modules/valuesuggest.md:162
 msgid "RDA Reference value vocabularies"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:164
+#: ../../docs/modules/valuesuggest.md:158
 msgid "Aspect Ratio Designation"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:165
+#: ../../docs/modules/valuesuggest.md:159
 msgid "Bibliographic Format"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:166
+#: ../../docs/modules/valuesuggest.md:160
 msgid "Broadcast Standard"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:167
+#: ../../docs/modules/valuesuggest.md:161
 msgid "Carrier Extent Unit"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:168
+#: ../../docs/modules/valuesuggest.md:162
 msgid "Carrier Type"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:169
+#: ../../docs/modules/valuesuggest.md:163
 msgid "Cartographic Data Type"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:170
+#: ../../docs/modules/valuesuggest.md:164
 msgid "Colour Content"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:171
+#: ../../docs/modules/valuesuggest.md:165
 msgid "Configuration of Playback Channels"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:172
+#: ../../docs/modules/valuesuggest.md:166
 msgid "Content Type"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:173
+#: ../../docs/modules/valuesuggest.md:167
 msgid "Conventional Collective Title"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:174
+#: ../../docs/modules/valuesuggest.md:168
 msgid "File Type"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:175
+#: ../../docs/modules/valuesuggest.md:169
 msgid "Font Size"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:176
+#: ../../docs/modules/valuesuggest.md:170
 msgid "Form of Musical Notation"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:177
+#: ../../docs/modules/valuesuggest.md:171
 msgid "Form of Notated Movement"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:178
+#: ../../docs/modules/valuesuggest.md:172
 msgid "Form of Tactile Notation"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:179
+#: ../../docs/modules/valuesuggest.md:173
 msgid "Format of Notated Music"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:180
+#: ../../docs/modules/valuesuggest.md:174
 msgid "Frequency"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:181
+#: ../../docs/modules/valuesuggest.md:175
 msgid "Generation"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:182
+#: ../../docs/modules/valuesuggest.md:176
 msgid "Groove Pitch of an Analog Cylinder"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:183
+#: ../../docs/modules/valuesuggest.md:177
 msgid "Groove Width of an Analog Disc"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:184
+#: ../../docs/modules/valuesuggest.md:178
 msgid "Illustrative Content"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:185
+#: ../../docs/modules/valuesuggest.md:179
 msgid "Layout"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:186
+#: ../../docs/modules/valuesuggest.md:180
 msgid "Material"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:187
+#: ../../docs/modules/valuesuggest.md:181
 msgid "Media Type"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:188
+#: ../../docs/modules/valuesuggest.md:182
 msgid "Mode of Issuance"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:189
+#: ../../docs/modules/valuesuggest.md:183
 msgid "Polarity"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:190
+#: ../../docs/modules/valuesuggest.md:184
 msgid "Presentation Format"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:191
+#: ../../docs/modules/valuesuggest.md:185
 msgid "Production Method"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:192
+#: ../../docs/modules/valuesuggest.md:186
 msgid "Recording Medium"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:193
+#: ../../docs/modules/valuesuggest.md:187
 msgid "Reduction Ratio Designation"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:194
+#: ../../docs/modules/valuesuggest.md:188
 msgid "Regional Encoding"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:195
+#: ../../docs/modules/valuesuggest.md:189
 msgid "Scale Designation"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:196
+#: ../../docs/modules/valuesuggest.md:190
 msgid "Sound Content"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:197
+#: ../../docs/modules/valuesuggest.md:191
 msgid "Special Playback Characteristics"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:198
+#: ../../docs/modules/valuesuggest.md:192
 msgid "Status of Identification"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:200
+#: ../../docs/modules/valuesuggest.md:194
 msgid "Track Configuration"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:201
+#: ../../docs/modules/valuesuggest.md:195
 msgid "Type of Recording"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:202
-msgid "Video Format"
+#: ../../docs/modules/valuesuggest.md:196
+msgid "Video Format."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:204
+#: ../../docs/modules/valuesuggest.md:198
 msgid "RDA Local value vocabularies"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:206
-msgid "Gender"
+#: ../../docs/modules/valuesuggest.md:200
+msgid "Gender."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:208
+#: ../../docs/modules/valuesuggest.md:202
 msgid "RDA/ONIX Framework value vocabularies"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:210
+#: ../../docs/modules/valuesuggest.md:204
 msgid "Character"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:211
+#: ../../docs/modules/valuesuggest.md:205
 msgid "Extension Mode"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:212
+#: ../../docs/modules/valuesuggest.md:206
 msgid "Extension Requirement"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:213
+#: ../../docs/modules/valuesuggest.md:207
 msgid "Extension Termination"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:214
+#: ../../docs/modules/valuesuggest.md:208
 msgid "Housing Format"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:215
+#: ../../docs/modules/valuesuggest.md:209
 msgid "Image Dimensionality"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:216
+#: ../../docs/modules/valuesuggest.md:210
 msgid "Image Movement"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:217
+#: ../../docs/modules/valuesuggest.md:211
 msgid "Interaction"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:218
+#: ../../docs/modules/valuesuggest.md:212
 msgid "Intermediation Tool"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:219
+#: ../../docs/modules/valuesuggest.md:213
 msgid "Revision Mode"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:220
+#: ../../docs/modules/valuesuggest.md:214
 msgid "Revision Requirement"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:221
+#: ../../docs/modules/valuesuggest.md:215
 msgid "Revision Termination"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:222
+#: ../../docs/modules/valuesuggest.md:216
 msgid "Sensory Mode"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:223
-msgid "Storage Medium Format"
+#: ../../docs/modules/valuesuggest.md:217
+msgid "Storage Medium Format."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:225
-msgid "[RightsStatements.org](https://rightsstatements.org/)"
+#: ../../docs/modules/valuesuggest.md:219
+msgid "[RightsStatements.org](https://rightsstatements.org/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:227
+#: ../../docs/modules/valuesuggest.md:221
 msgid ""
 "Provides a set of standardized rights statements for cultural heritage "
 "institutions that can be used to communicate the copyright and re-use "
-"status of digital objects to the public"
+"status of digital objects to the public."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:229
+#: ../../docs/modules/valuesuggest.md:223
 msgid ""
 "[Tesauros del patrimonio cultural de "
-"España](http://tesauros.mecd.es/tesauros)"
+"España](http://tesauros.mecd.es/tesauros){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:231
+#: ../../docs/modules/valuesuggest.md:225
 msgid "Diccionario de Bienes Culturales"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:232
+#: ../../docs/modules/valuesuggest.md:226
 msgid "Diccionario de Materias"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:233
+#: ../../docs/modules/valuesuggest.md:227
 msgid "Diccionario de Técnicas"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:234
+#: ../../docs/modules/valuesuggest.md:228
 msgid "Diccionario de Contextos Culturales"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:235
+#: ../../docs/modules/valuesuggest.md:229
 msgid "Diccionario Geográfico"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:236
+#: ../../docs/modules/valuesuggest.md:230
 msgid "Diccionario de Toponimia Histórica"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:237
+#: ../../docs/modules/valuesuggest.md:231
 msgid "Diccionario de Cerámica"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:238
+#: ../../docs/modules/valuesuggest.md:232
 msgid "Diccionario de Numismática"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:239
-msgid "Diccionario de Mobiliario"
+#: ../../docs/modules/valuesuggest.md:233
+msgid "Diccionario de Mobiliario."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:241
-msgid "[UNESCO](http://skos.um.es/)"
+#: ../../docs/modules/valuesuggest.md:235
+msgid "[UNESCO](http://skos.um.es/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:243
+#: ../../docs/modules/valuesuggest.md:237
 msgid "Tesauro"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:244
+#: ../../docs/modules/valuesuggest.md:238
 msgid "Nomenclatura de Ciencia y Tecnología"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:245
-msgid "Biblioteca Digital Floridablanca"
+#: ../../docs/modules/valuesuggest.md:239
+msgid "Biblioteca Digital Floridablanca."
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:247
+#: ../../docs/modules/valuesuggest.md:241
 msgid ""
 "[Les vocabulaires du Ministère de la "
-"Culture](http://data.culture.fr/thesaurus/)"
+"Culture](http://data.culture.fr/thesaurus/){target=_blank}"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:249
+#: ../../docs/modules/valuesuggest.md:243
 msgid "Catégories techniques et domaines - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:250
+#: ../../docs/modules/valuesuggest.md:244
 msgid "Domaines archivistiques pour l'indexation des circulaires"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:251
+#: ../../docs/modules/valuesuggest.md:245
 msgid "Etat de conservation du patrimoine mobilier - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:252
+#: ../../docs/modules/valuesuggest.md:246
 msgid "Inscriptions, marques, emblématique et poinçons - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:253
+#: ../../docs/modules/valuesuggest.md:247
 msgid "Liste d'autorité Actions pour l'indexation des archives locales"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:254
+#: ../../docs/modules/valuesuggest.md:248
 msgid ""
 "Liste d'autorité Contexte historique pour l'indexation des archives "
 "locales"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:255
+#: ../../docs/modules/valuesuggest.md:249
 msgid ""
 "Liste d'autorité Typologie documentaire pour l'indexation des archives "
 "locales"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:256
+#: ../../docs/modules/valuesuggest.md:250
 msgid "Liste d'autorités Auteurs - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:257
+#: ../../docs/modules/valuesuggest.md:251
 msgid "Liste d'autorités Domaines - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:258
+#: ../../docs/modules/valuesuggest.md:252
 msgid "Liste d'autorités Découverte - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:259
+#: ../../docs/modules/valuesuggest.md:253
 msgid "Liste d'autorités Dénomination - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:260
+#: ../../docs/modules/valuesuggest.md:254
 msgid "Liste d'autorités Genèse - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:261
+#: ../../docs/modules/valuesuggest.md:255
 msgid "Liste d'autorités Inscriptions - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:262
+#: ../../docs/modules/valuesuggest.md:256
 msgid "Liste d'autorités Lieux - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:263
+#: ../../docs/modules/valuesuggest.md:257
 msgid "Liste d'autorités Localisation - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:264
+#: ../../docs/modules/valuesuggest.md:258
 msgid "Liste d'autorités Périodes - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:265
+#: ../../docs/modules/valuesuggest.md:259
 msgid "Liste d'autorités Représentation - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:266
+#: ../../docs/modules/valuesuggest.md:260
 msgid "Liste d'autorités Sources de la représentation - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:267
+#: ../../docs/modules/valuesuggest.md:261
 msgid "Liste d'autorités Techniques – Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:268
+#: ../../docs/modules/valuesuggest.md:262
 msgid "Liste d'autorités Utilisation - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:269
+#: ../../docs/modules/valuesuggest.md:263
 msgid "Liste d'autorités Écoles - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:270
+#: ../../docs/modules/valuesuggest.md:264
 msgid "Liste d'autorités Époques - Joconde"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:271
+#: ../../docs/modules/valuesuggest.md:265
 msgid "Matériau de la couverture - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:272
+#: ../../docs/modules/valuesuggest.md:266
 msgid "Matériau du gros-oeuvre et mise en oeuvre - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:273
+#: ../../docs/modules/valuesuggest.md:267
 msgid "Matériaux et techniques du patrimoine mobilier - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:274
+#: ../../docs/modules/valuesuggest.md:268
 msgid "Nomenclatures HADOC"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:275
+#: ../../docs/modules/valuesuggest.md:269
 msgid "Référentiel de communicabilité des archives publiques"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:276
+#: ../../docs/modules/valuesuggest.md:270
 msgid "Stade de la création des objets mobiliers - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:277
+#: ../../docs/modules/valuesuggest.md:271
 msgid "Statut de la propriété des Biens culturels - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:278
+#: ../../docs/modules/valuesuggest.md:272
 msgid "Techniques photographiques"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:279
+#: ../../docs/modules/valuesuggest.md:273
 msgid "Thésaurus de la désignation des objets mobiliers"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:280
+#: ../../docs/modules/valuesuggest.md:274
 msgid ""
 "Thésaurus de la désignation des œuvres architecturales et des espaces "
 "aménagés"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:281
+#: ../../docs/modules/valuesuggest.md:275
 msgid "Thésaurus-matières pour l'indexation des archives locales"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:282
+#: ../../docs/modules/valuesuggest.md:276
 msgid "Type de la couverture - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:283
+#: ../../docs/modules/valuesuggest.md:277
 msgid "Type de protection MH - Inventaire/MH"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:284
+#: ../../docs/modules/valuesuggest.md:278
 msgid "Vocabulaire des activités des entités productrices d'archives"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:285
+#: ../../docs/modules/valuesuggest.md:279
 msgid "Vocabulaire des altérations"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:286
+#: ../../docs/modules/valuesuggest.md:280
 msgid ""
 "Vocabulaire des domaines d'action ou objets des entités productrices "
 "d'archives"
 msgstr ""
 
-#: ../../docs/modules/valuesuggest.md:287
-msgid "Vocabulaire pour les techniques photographiques"
+#: ../../docs/modules/valuesuggest.md:281
+msgid "Vocabulaire pour les techniques photographiques."
 msgstr ""
+
+#~ msgid "ValueSuggest"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The ValueSuggest module adds an auto-"
+#~ "complete feature to a specific property"
+#~ " in a resource template and draws "
+#~ "on controlled vocabularies (see the end"
+#~ " of this page for a complete "
+#~ "list)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This functionality helps those building "
+#~ "an Omeka site to encourage consistent"
+#~ " metadata input and data compatibility "
+#~ "with other databases of records. Please"
+#~ " note that ValueSuggest offers  but "
+#~ "cannot require that users select values"
+#~ " from the autosuggest feature. Users "
+#~ "will always have the option of "
+#~ "creating their own value instead."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To install ValueSuggest follow the "
+#~ "instructions for Installing Modules on "
+#~ "the Modules documentation."
+#~ msgstr ""
+
+#~ msgid "Create a Resource Template"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "ValueSuggest vocabularies are applied through"
+#~ " Resource Templates. For additional "
+#~ "information on Resource Templates, see "
+#~ "the [Resource Template Documentation](../content"
+#~ "/resource-template.md)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "From the Resources templates tab in "
+#~ "the Admin Dashboard, either add a "
+#~ "new [template](../content/resource-template.md) or"
+#~ " edit an existing one."
+#~ msgstr ""
+
+#~ msgid "Add the property to which you want to apply the ValueSuggest."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At the bottom of the drawer which"
+#~ " opens on the right, open the "
+#~ "*Data type* dropdown. Below the standard"
+#~ " options, you will see the "
+#~ "ValueSuggest options. Select the vocabulary"
+#~ " you want to use from the "
+#~ "dropdown."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that you can also add "
+#~ "alternate labels and comments for the"
+#~ " property in this drawer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click the *Set changes* button at "
+#~ "the bottom of the drawer to assign"
+#~ " the Values to the property."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you click the title of a "
+#~ "Resource Template to see its details,"
+#~ " the ValueSuggest vocabulary will appear"
+#~ " under the Data Type table heading."
+#~ msgstr ""
+
+#~ msgid "Adding ValueSuggest to an Item"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When this Resource Template is used "
+#~ "in an Item or Item Set, the "
+#~ "designated properties will auto-suggest "
+#~ "values from the vocabulary specified in"
+#~ " the template."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: after selecting a value, a "
+#~ "box containing a URL should appear "
+#~ "under the value. This link will "
+#~ "direct visitors to a webpage with "
+#~ "additional information on the value "
+#~ "selected. This box can be removed "
+#~ "by clicking the “X”."
+#~ msgstr ""
+
+#~ msgid "Available Vocabularies"
+#~ msgstr ""
+
+#~ msgid "Les vocabulaires du Ministère de la Culture"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Dublin Core](https://www.dublincore.org/specifications"
+#~ "/dublin-core/dcmi-terms/) (DCMI Metadata "
+#~ "Terms)"
+#~ msgstr ""
+
+#~ msgid "Types"
+#~ msgstr ""
+
+#~ msgid "[Gemeinsame Normdatei (GND)](http://lobid.org/gnd)"
+#~ msgstr ""
+
+#~ msgid "[GeoNames](http://www.geonames.org/)"
+#~ msgstr ""
+
+#~ msgid "The GeoNames geographical database"
+#~ msgstr ""
+
+#~ msgid "[The Getty Vocabularies](http://vocab.getty.edu/)"
+#~ msgstr ""
+
+#~ msgid "The Union List of Artist Names (ULAN)"
+#~ msgstr ""
+
+#~ msgid "[Homosaurus](http://homosaurus.org/)"
+#~ msgstr ""
+
+#~ msgid "Homosaurus.org linked data vocabulary"
+#~ msgstr ""
+
+#~ msgid "[IdRef](https://www.idref.fr/)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Subject headings [RAMEAU](https://rameau.bnf.fr), "
+#~ "(Répertoire d’autorité-matière encyclopédique et "
+#~ "alphabétique unifié, or Unified encyclopaedic"
+#~ " and alphabetical list of subject "
+#~ "authorities)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Subject headings "
+#~ "[F-MeSH](http://mesh.inserm.fr/FrenchMesh) (French version"
+#~ " of the medical subject headings)"
+#~ msgstr ""
+
+#~ msgid "Libraries (RCR: Répertoire des centres de ressources)"
+#~ msgstr ""
+
+#~ msgid "[Library of Congress Linked Data Service](http://id.loc.gov/)"
+#~ msgstr ""
+
+#~ msgid "Thesaurus for Graphic Materials"
+#~ msgstr ""
+
+#~ msgid "[Nuovo Soggettario](https://thes.bncf.firenze.sbn.it/)"
+#~ msgstr ""
+
+#~ msgid "Tempo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[OCLC Metadata "
+#~ "Services](https://www.oclc.org/en/services/a-z.html/:F2664:/)"
+#~ msgstr ""
+
+#~ msgid "The Virtual International Authority File (VIAF)"
+#~ msgstr ""
+
+#~ msgid "[PACTOLS of Frantiq](https://pactols.frantiq.fr/)"
+#~ msgstr ""
+
+#~ msgid "The entire pactols thesaurus"
+#~ msgstr ""
+
+#~ msgid "The subject group only"
+#~ msgstr ""
+
+#~ msgid "[PeriodO](http://perio.do/en/)"
+#~ msgstr ""
+
+#~ msgid "A gazetteer of period definitions for linking and visualizing data"
+#~ msgstr ""
+
+#~ msgid "[RDA Value Vocabularies](http://www.rdaregistry.info/termList/)"
+#~ msgstr ""
+
+#~ msgid "Video Format"
+#~ msgstr ""
+
+#~ msgid "Gender"
+#~ msgstr ""
+
+#~ msgid "Storage Medium Format"
+#~ msgstr ""
+
+#~ msgid "[RightsStatements.org](https://rightsstatements.org/)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Provides a set of standardized rights"
+#~ " statements for cultural heritage "
+#~ "institutions that can be used to "
+#~ "communicate the copyright and re-use "
+#~ "status of digital objects to the "
+#~ "public"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Tesauros del patrimonio cultural de "
+#~ "España](http://tesauros.mecd.es/tesauros)"
+#~ msgstr ""
+
+#~ msgid "Diccionario de Mobiliario"
+#~ msgstr ""
+
+#~ msgid "[UNESCO](http://skos.um.es/)"
+#~ msgstr ""
+
+#~ msgid "Biblioteca Digital Floridablanca"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Les vocabulaires du Ministère de la "
+#~ "Culture](http://data.culture.fr/thesaurus/)"
+#~ msgstr ""
+
+#~ msgid "Vocabulaire pour les techniques photographiques"
+#~ msgstr ""
 
