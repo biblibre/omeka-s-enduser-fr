@@ -60,5 +60,7 @@ exclude_patterns = [
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+html_static_path = ['docs/css']
+html_css_files = ['extra.css']
 
 gettext_compact = False
