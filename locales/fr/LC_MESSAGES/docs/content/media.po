@@ -9,423 +9,271 @@ msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 13:48+0000\n"
-"PO-Revision-Date: 2021-08-02 18:57+0200\n"
+"PO-Revision-Date: 2023-05-24 10:32+0200\n"
 "Last-Translator: \n"
-"Language: fr\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../../docs/content/media.md:1
 msgid "Media"
-msgstr "Média"
+msgstr "Médias"
 
 #: ../../docs/content/media.md:3
-msgid ""
-"Omeka S accepts most files and file types, and can be customized to "
-"accept or reject file types of your choice. You may wish to format your "
-"multimedia files according to what can best be embedded and streamed in "
-"modern browsers; see the [Media file types section at the end of this "
-"page](#media-file-types). If you are having difficulty or are seeing "
-"file-validation errors, you can adjust the accepted file types and "
-"extensions in the [Allowed media and files options of the Security "
-"Settings](../admin/settings.md#security)."
-msgstr ""
+msgid "Omeka S accepts most files and file types, and can be customized to accept or reject file types of your choice. You may wish to format your multimedia files according to what can best be embedded and streamed in modern browsers; see the [Media file types section at the end of this page](#media-file-types). If you are having difficulty or are seeing file-validation errors, you can adjust the accepted file types and extensions in the [Allowed media and files options of the Security Settings](../admin/settings.md#security)."
+msgstr "Omeka S supporte la plupart des fichiers et types de fichiers et peut être paramétré pour accepter ou rejeter certains types de fichiers. Vous pouvez par exemple vouloir formater vos fichiers multimédia afin qu'ils soient aisément embarqués et lus dans des navigateurs modernes ; voir la section sur les [types de fichiers media](#media-file-types) au bas de cette page. Si vous rencontrez des difficultés ou constatez des erreurs de validation de fichiers, vous pouvez adapter les types de fichiers et extensions acceptés dans les paramètres de sécurité [médias et fichiers autorisés](../admin/settings.md#security)."
 
 #: ../../docs/content/media.md:5
-#, fuzzy
-msgid ""
-"Media are only created by adding them to an item; media cannot exist "
-"independently. If you wish to upload files unattached to items, see the "
-"[Assets page](../admin/assets.md)."
-msgstr ""
-"Les médias sont seulement créés par association à un contenu. Un média ne"
-" peut existé indépendamment."
+msgid "Media are only created by adding them to an item; media cannot exist independently. If you wish to upload files unattached to items, see the [Assets page](../admin/assets.md)."
+msgstr "Les médias sont seulement créés par association à un contenu. Un média ne peut exister seul. Si vous souhaitez charger des fichiers détachés des contenus, voir l'onglet [Fichiers](../admin/assets.md)."
 
 #: ../../docs/content/media.md:7
-msgid ""
-"To view the media associated with an item, click on the media’s name in "
-"the right-hand sidebar on the item view page."
-msgstr ""
-"Pour voir le média associé à un contenu, cliquer sur le nom du média dans"
-" la barre latérale de droite de la page du contenu."
+msgid "To view the media associated with an item, click on the media’s name in the right-hand sidebar on the item view page."
+msgstr "Pour voir le média associé à un contenu, cliquer sur le nom du média dans la barre latérale de droite de la page du contenu."
 
 #: ../../docs/content/media.md:9
-msgid ""
-"To view all media in the installation, navigate to the **Items** section "
-"first. The **Media** subsection will appear below Items in the left-hand "
-"navigation."
-msgstr ""
+msgid "To view all media in the installation, navigate to the **Items** section first. The **Media** subsection will appear below Items in the left-hand navigation."
+msgstr "Pour voir tous les médias de l'instance, se rendre dans la section **Contenus** de la navigation, la sous-section **Médias** s'affiche en-dessous."
 
 #: ../../docs/content/media.md:11
 msgid "View media"
-msgstr ""
+msgstr "Voir les médias"
 
 #: ../../docs/content/media.md:12
-msgid ""
-"To browse media, first click on Items in the left-hand navigation. In "
-"that sidebar, an option for Media will appear under the Item button (you "
-"may have to click on the triangle to expand the menu below Items)."
-msgstr ""
+msgid "To browse media, first click on Items in the left-hand navigation. In that sidebar, an option for Media will appear under the Item button (you may have to click on the triangle to expand the menu below Items)."
+msgstr "Pour parcourir les médias, cliquer sur Contenus dans la barre de navigation latérale. Une option Médias apparaît sous le bouton des contenus (vous devrez peut-être cliquer sur le triangle pour étendre le menu au-delà des Contenus)."
 
 #: ../../docs/content/media.md:14
-msgid ""
-"![The Resources section of the navigation, with light blue text on a dark"
-" blue background. Below the option for items, indented, is a navigation "
-"option for Media. It has no representative icon, unlike the other "
-"options.](contentfiles/media-browsenav.png)"
-msgstr ""
+msgid "![The Resources section of the navigation, with light blue text on a dark blue background. Below the option for items, indented, is a navigation option for Media. It has no representative icon, unlike the other options.](contentfiles/media-browsenav.png)"
+msgstr "![La section Contenus de la navigation, avec du texte bleu clair sur un fond bleu foncé. En-dessous des contenus, indenté, se trouve l'onglet Médias. Il n'a pas d'icône.](contentfiles/media-browsenav.png)"
 
 #: ../../docs/content/media.md:16
 msgid "Media are displayed in a table. Each media is a row, with columns for:"
-msgstr ""
+msgstr "Les médias sont affichés dans un tableau. Chaque média constitue une ligne, avec des colonnes pour :"
 
 #: ../../docs/content/media.md:18
 msgid "a checkbox to select the media"
-msgstr ""
+msgstr "une case à cocher pour sélectionner le média"
 
 #: ../../docs/content/media.md:19
 msgid "the **Title**"
-msgstr ""
+msgstr "le **Titre**"
 
 #: ../../docs/content/media.md:20
-msgid ""
-"icons to **edit** (pencil), **delete** (trash can), or see **details** "
-"(ellipsis)"
-msgstr ""
+msgid "icons to **edit** (pencil), **delete** (trash can), or see **details** (ellipsis)"
+msgstr "les icônes pour **modifier** (crayon), **supprimer** (poubelle) ou voir les **détails ** (points de suspension)"
 
 #: ../../docs/content/media.md:21
 msgid "the media's **Class**"
-msgstr ""
+msgstr "la **Classe** du média"
 
 #: ../../docs/content/media.md:22
 msgid "the media's **Owner**"
-msgstr ""
+msgstr "le **Propriétaire** du média"
 
 #: ../../docs/content/media.md:23
 msgid "and the date the media was **Created**."
-msgstr ""
+msgstr "et la date à laquelle le média a été **Créé**."
 
 #: ../../docs/content/media.md:25
-msgid ""
-"![The browse media table displaying 5 items. All of the media have titles"
-" that are mediawiki URLs, and all are owned by the user "
-"Megan.](contentfiles/media_browse.png)"
-msgstr ""
+msgid "![The browse media table displaying 5 items. All of the media have titles that are mediawiki URLs, and all are owned by the user Megan.](contentfiles/media_browse.png)"
+msgstr "![Le tableau des médias avec 10 contenus. Tous les médias ont des titres qui sont des URLs mediawiki, et ont tous comme propriétaire l'utilisateur Mégan](contentfiles/media_browse.png)"
 
 #: ../../docs/content/media.md:27
-msgid ""
-"Options for navigating and creating items display above the table of "
-"items:"
-msgstr ""
+msgid "Options for navigating and creating items display above the table of items:"
+msgstr "Options de navigation et de création d'éléments au-dessus de la table des médias :"
 
 #: ../../docs/content/media.md:29
-msgid ""
-"On the left side is a display for the number of pages of media, with "
-"forward and back arrows. The current page number is an editable field - "
-"enter any valid page number and hit return/enter on your keyboard to go "
-"to that page."
-msgstr ""
+msgid "On the left side is a display for the number of pages of media, with forward and back arrows. The current page number is an editable field - enter any valid page number and hit return/enter on your keyboard to go to that page."
+msgstr "Sur la gauche, on trouve le nombre de pages de médias, avec flèches avant et arrière. Le numéro de la page en cours de lecture est un champ modifiable - saisir un numéro de page valide et appuyer sur entrée pour se rendre à cette page."
 
 #: ../../docs/content/media.md:30
-msgid ""
-"In the center top is a button for [Advanced Search](../search.md#media-"
-"advanced-search)."
-msgstr ""
+msgid "In the center top is a button for [Advanced Search](../search.md#media-advanced-search)."
+msgstr "En haut au milieu, vous trouvez un bouton pour la [Recherche avancée](../search.md#media-advanced-search)."
 
 #: ../../docs/content/media.md:31
-msgid ""
-"Just above the table on the right are options for sorting media, with two"
-" dropdown menus. The first lets you select between **Title**, **Class**, "
-"**Owner**, **(date) Created**, and **Size**; the second allows you to "
-"sort ascending or descending. To apply, click the \"Sort\" button."
-msgstr ""
+msgid "Just above the table on the right are options for sorting media, with two dropdown menus. The first lets you select between **Title**, **Class**, **Owner**, **(date) Created**, and **Size**; the second allows you to sort ascending or descending. To apply, click the \"Sort\" button."
+msgstr "Juste au-dessus du tableau vers la droite sont les options de tri des médias, avec deux menus déroulants. Le premier permet de choisir entre le **Titre**, la **Classe**, le **Propriétaire**, la date à laquelle le média a été **Créé** et la **Taille** ; le second menu permet de trier par ordre croissant ou décroissant. Pour appliquer, cliquer sur le bouton \"Trier\"."
 
 #: ../../docs/content/media.md:33
-msgid ""
-"Clicking on the title of any media will take you to its metadata page. "
-"This page displays any metadata in the main work area, with a sidebar on "
-"the right listing the visibility, associated item (an active link), date "
-"created, MIME type, Size, Ingester, Source, and links to the file "
-"derivatives."
-msgstr ""
+msgid "Clicking on the title of any media will take you to its metadata page. This page displays any metadata in the main work area, with a sidebar on the right listing the visibility, associated item (an active link), date created, MIME type, Size, Ingester, Source, and links to the file derivatives."
+msgstr "Cliquer sur le titre d'un média ouvre sa page de métadonnées. Cette page affiche les métadonnées dans sa partie principale, avec un volet latéral droit listant la visibilité, le contenu associé (un lien actif), la date de création, le type MIME, la taille, l'ingéreur, la source et des liens vers les fichiers alternatifs."
 
 #: ../../docs/content/media.md:35
-msgid ""
-"![Media view page for a mediawiki file. The image is of a grup of people "
-"in late 19th century clothing, from left to right a a women standing and "
-"facing a standing man holding a small child while reaching out to the "
-"woman, with another man standing and smiling behind the man with the "
-"child. On the right hand side of the image is the database information "
-"for the media](../content/contentfiles/media_view.png)"
-msgstr ""
+msgid "![Media view page for a mediawiki file. The image is of a grup of people in late 19th century clothing, from left to right a a women standing and facing a standing man holding a small child while reaching out to the woman, with another man standing and smiling behind the man with the child. On the right hand side of the image is the database information for the media](../content/contentfiles/media_view.png)"
+msgstr "![Exemple d'une image de gymnastique. À droite, on trouve les informations sur le média](../content/contentfiles/media_view.png)"
 
 #: ../../docs/content/media.md:37
 msgid "Add media"
-msgstr ""
+msgstr "Ajouter des médias"
 
 #: ../../docs/content/media.md:39
-msgid ""
-"Media can only be added via an [item](../content/items.md). Options for "
-"adding media to your items include uploading a file, or directly "
-"attaching content with a URL, oEmbed, YouTube URL, IIIF URL, or by "
-"writing HTML using the HTML editor."
-msgstr ""
+msgid "Media can only be added via an [item](../content/items.md). Options for adding media to your items include uploading a file, or directly attaching content with a URL, oEmbed, YouTube URL, IIIF URL, or by writing HTML using the HTML editor."
+msgstr "Les médias peuvent uniquement être ajoutés en passant par un [contenu](../content/items.md). Les options d'ajout de médias sont le chargement d'un fichier, le fait d'attacher un contenu via une URL, oEmbed, Youtube URL, IIIF URL, ou l'utilisation de l'éditeur HTML."
 
 #: ../../docs/content/media.md:41
-msgid ""
-"At the media adding stage, the only metadata that can be entered is a "
-"Title. If you wish to further describe each file, you can edit it after "
-"it has been uploaded."
-msgstr ""
+msgid "At the media adding stage, the only metadata that can be entered is a Title. If you wish to further describe each file, you can edit it after it has been uploaded."
+msgstr "Au moment de l'ajout du média, la seule métadonnée qui peut être fournie est le Titre. Le fichier peut être décrit plus avant une fois qu'il a été chargé."
 
 #: ../../docs/content/media.md:43
 msgid "Media thumbnails"
-msgstr ""
+msgstr "Les vignettes de médias"
 
 #: ../../docs/content/media.md:45
-msgid ""
-"Thumbnails are automatically created for many file types. Thumbnail "
-"creation relies on the ability of your [chosen thumbnail "
-"utility](../configuration.md#thumbnails) (the default being ImageMagick) "
-"and which file types it can process. Look up the utility you are using "
-"(such as ImageMagick, Imagick, or GD) to find out which file types it "
-"supports."
-msgstr ""
+msgid "Thumbnails are automatically created for many file types. Thumbnail creation relies on the ability of your [chosen thumbnail utility](../configuration.md#thumbnails) (the default being ImageMagick) and which file types it can process. Look up the utility you are using (such as ImageMagick, Imagick, or GD) to find out which file types it supports."
+msgstr "Les vignettes sont créées automatiquement dans le cas de nombreux types de fichiers. La création de vignettes repose sur le [créateur de vignette retenu](../configuration.md#thumbnails) (par défaut ImageMagick) et sur le type de fichiers qu'il peut traiter. Rechercher le créateur utilisé (comme ImageMagick, Imagick ou GD) pour voir quels types de fichiers sont tolérés."
 
 #: ../../docs/content/media.md:47
-msgid ""
-"If you wish your item to have a generic thumbnail (such as an icon of a "
-"book, or a musical note for an audio file), you can upload those default "
-"images as assets, then attach them manually to files using the [Advanced "
-"tab in the Item editing screen](../content/items.md#advanced)."
-msgstr ""
+msgid "If you wish your item to have a generic thumbnail (such as an icon of a book, or a musical note for an audio file), you can upload those default images as assets, then attach them manually to files using the [Advanced tab in the Item editing screen](../content/items.md#advanced)."
+msgstr "Si vous souhaitez que votre contenu est une vignette générique (comme une icône de livre, ou une note de musique pour un fichier audio), vous pouvez télécharger ces images par défaut comme fichiers, puis les attacher manuellement à des contenus en passant par l'onglet [Avancé de la page de modification des contenus](../content/items.md#advanced)."
 
 #: ../../docs/content/media.md:49
 msgid "File size limitations"
-msgstr ""
+msgstr "Limitations de la taille des fichiers"
 
 #: ../../docs/content/media.md:51
-msgid ""
-"Omeka S imposes no file size limitations. Your server, however, may have "
-"restrictions on file upload sizes or speeds that may be causing problems."
-" These limitations vary from server to server and we cannot change this "
-"for you. If you have a problem uploading media, please first check with "
-"your hosting service or your local server administrator."
-msgstr ""
+msgid "Omeka S imposes no file size limitations. Your server, however, may have restrictions on file upload sizes or speeds that may be causing problems. These limitations vary from server to server and we cannot change this for you. If you have a problem uploading media, please first check with your hosting service or your local server administrator."
+msgstr "Il n'y a pas de limite de taille des fichiers dans Omeka S. Votre serveur peut toutefois avoir des restrictions de taille de fichiers ou de vitesse de chargement qui causent des problèmes. Ces limites varient de serveur à serveur et nous ne pouvons rien y faire. Si vous rencontrez des difficultés dans le chargement des médias, vérifiez d'abord auprès de votre service d'hébergement ou de votre administrateur de serveur local."
 
 #: ../../docs/content/media.md:53
 msgid "Edit media"
-msgstr ""
+msgstr "Modifier des médias"
 
 #: ../../docs/content/media.md:54
 msgid "To edit existing media, you can:"
-msgstr ""
+msgstr "Pour modifier des médias existants, vous pouvez :"
 
 #: ../../docs/content/media.md:56
 msgid "Go to the Browse page and click the pencil/edit icon for the media's row"
-msgstr ""
+msgstr "Aller à la page de navigation des médias et cliquer sur le crayon/bouton modifier dans la ligne correspondante"
 
 #: ../../docs/content/media.md:57
-msgid ""
-"Go to the Media browse page, click on the title to view the media's "
-"metadata and then click the \"Edit media\" button in the upper right hand"
-" corner"
-msgstr ""
+msgid "Go to the Media browse page, click on the title to view the media's metadata and then click the \"Edit media\" button in the upper right hand corner"
+msgstr "Aller à la page de navigation des médias, cliquer sur le titre pour voir les métadonnées du média puis cliquer sur le bouton \"Modifier ce média\" dans le coin supérieur droit"
 
 #: ../../docs/content/media.md:58
-msgid ""
-"Click on the media's name in the right-hand sidebar of an item's page to "
-"go to the media's metadata, and then click on \"Edit media\" from there."
-msgstr ""
+msgid "Click on the media's name in the right-hand sidebar of an item's page to go to the media's metadata, and then click on \"Edit media\" from there."
+msgstr "Cliquer sur le nom du média dans le volet latéral droit d'une page de contenu pour se rendre sur la page des métadonnées d'un média, puis cliquer sur \"Modifier ce média\"."
 
 #: ../../docs/content/media.md:60
-msgid ""
-"Editing media is very similar to editing [items](../content/items) or "
-"[item sets](../content/item-sets)."
-msgstr ""
+msgid "Editing media is very similar to editing [items](../content/items) or [item sets](../content/item-sets)."
+msgstr "Modifier un média est très similaire à modifier un [contenu](../content/items) ou une [collection](../content/item-sets)."
 
 #: ../../docs/content/media.md:62
-msgid ""
-"![Edit media page, with no properties "
-"loaded](../content/contentfiles/media_edit.png)"
-msgstr ""
+msgid "![Edit media page, with no properties loaded](../content/contentfiles/media_edit.png)"
+msgstr "![Page d'édition d'un média, sans propriétés chargées](../content/contentfiles/media_edit.png)"
 
 #: ../../docs/content/media.md:64
 msgid "Values"
-msgstr ""
+msgstr "Valeurs"
 
 #: ../../docs/content/media.md:66
-msgid ""
-"If desired, you can select a resource template from the drop-down menu. "
-"Resource templates are defined by site administrators and editors."
-msgstr ""
+msgid "If desired, you can select a resource template from the drop-down menu. Resource templates are defined by site administrators and editors."
+msgstr "Si vous le souhaitez, vous pouvez sélectionner un modèle de ressource dans le menu déroulant. Les modèles de ressource sont définis par les administrateurs de sites et les éditeurs."
 
 #: ../../docs/content/media.md:68
 msgid "If using a resource template, the class should automatically load."
-msgstr ""
+msgstr "Si vous utilisez un modèle de ressource, la classe se charge automatiquement."
 
 #: ../../docs/content/media.md:69
-msgid ""
-"If not using a resource template, you may select a class from the "
-"dropdown menu (these are populated from the "
-"[Vocabularies](vocabularies.md) in your installation)."
-msgstr ""
+msgid "If not using a resource template, you may select a class from the dropdown menu (these are populated from the [Vocabularies](vocabularies.md) in your installation)."
+msgstr "Si vous n'utilisez pas de modèle de ressource, vous pouvez sélectionner une classe depuis le menu déroulant (les classes sont générées par les [Vocabulaires](vocabularies.md) de votre instance)."
 
 #: ../../docs/content/media.md:71
-msgid ""
-"Add information to the properties which load. If you do not select a "
-"resource template or class, the Dublin Core properties Title and "
-"Description will load automatically."
-msgstr ""
+msgid "Add information to the properties which load. If you do not select a resource template or class, the Dublin Core properties Title and Description will load automatically."
+msgstr "Ajouter des valeurs aux propriétés chargées. Si vous n'avez pas sélectionné de modèle de ressource ou de classe, les propriétés par défaut sont les propriétés Dublin Core Titre et Description."
 
 #: ../../docs/content/media.md:73
-msgid ""
-"You may add text, a resource from the installation, or an external link "
-"in each field."
-msgstr ""
+msgid "You may add text, a resource from the installation, or an external link in each field."
+msgstr "Dans chaque champ, vous pouvez ajouter du texte, un lien vers une ressource de l'instance ou un lien externe."
 
 #: ../../docs/content/media.md:75
-msgid ""
-"Note that if you add the property `dcterms:title`, its contents will "
-"replace the autogenerated title of the media. This is useful if dealing "
-"with url or media uploads with auto-generated names."
-msgstr ""
+msgid "Note that if you add the property `dcterms:title`, its contents will replace the autogenerated title of the media. This is useful if dealing with url or media uploads with auto-generated names."
+msgstr "À noter que si vous ajoutez une propriété 'dcterms:title', son contenu remplace le titre autogénéré du média. Cette fonctionnalité est utile pour les url ou médias avec des noms par défaut."
 
 #: ../../docs/content/media.md:77
 msgid "**Text** fields allow for unformatted text entry."
-msgstr ""
+msgstr "Les champs de **Texte** permettent de saisir du texte libre."
 
 #: ../../docs/content/media.md:79
-msgid ""
-"![image of text input field with keyboard icon indicating text input, the"
-" globe icon for setting language, and a trashcan delete "
-"icon](contentfiles/items_textedit.png)"
-msgstr ""
+msgid "![image of text input field with keyboard icon indicating text input, the globe icon for setting language, and a trashcan delete icon](contentfiles/items_textedit.png)"
+msgstr "![image du champ de texte avec l'icône clavier indiquant qu'il s'agit de texte, le globe terrestre pour le choix de la langue et l'icône poubelle de suppression](contentfiles/items_textedit.png)"
 
 #: ../../docs/content/media.md:81
-msgid ""
-"You can indicate the language for the content of an input using the globe"
-" symbol above the input (see the red arrow in the image below). Click on "
-"the globe icon to activate a text field, then enter the [ISO "
-"639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code for "
-"the language in which the text is written."
-msgstr ""
+msgid "You can indicate the language for the content of an input using the globe symbol above the input (see the red arrow in the image below). Click on the globe icon to activate a text field, then enter the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code for the language in which the text is written."
+msgstr "Pour indiquer la langue du contenu d'un champ, utiliser l'icône globe terrestre au-dessus du champ (voir la flèche rouge ci-dessous). Cliquer sur le globe pour activer un champ de texte, puis saisir le code langue [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) correspondant."
 
 #: ../../docs/content/media.md:83 ../../docs/content/media.md:139
-msgid ""
-"![Red arrow points to the globe icon and a text entry field highlighted "
-"in blue](contentfiles/item_lang.png)"
-msgstr ""
+msgid "![Red arrow points to the globe icon and a text entry field highlighted in blue](contentfiles/item_lang.png)"
+msgstr "![Flèche rouge pointant vers l'icône globe terrestre et un champ de texte surligné en bleu](contentfiles/item_lang.png)"
 
 #: ../../docs/content/media.md:85
-msgid ""
-"**Omeka Resource** fields create an internal link between the resource "
-"you are creating and the resource that fills that field."
-msgstr ""
+msgid "**Omeka Resource** fields create an internal link between the resource you are creating and the resource that fills that field."
+msgstr "Les champs **Ressource Omeka** permettent de créer un lien interne entre la ressource créée et celle qui remplit le champ."
 
 #: ../../docs/content/media.md:87
-msgid ""
-"You have the option to use either an item, another media, or an item set."
-" Once you select an item or item set, detailed information will load, and"
-" you must click \"Select resource\" to finish linking the resources. You "
-"can also click the \"X\" button in the upper right-hand corner to go back"
-" to the list of items or item sets."
-msgstr ""
+msgid "You have the option to use either an item, another media, or an item set. Once you select an item or item set, detailed information will load, and you must click \"Select resource\" to finish linking the resources. You can also click the \"X\" button in the upper right-hand corner to go back to the list of items or item sets."
+msgstr "Vous pouvez lier un contenu, un autre média ou une collection. Une fois la ressource sélectionnée, des informations détaillées s'affichent, et il faut cliquer sur \"Choisir une ressource\" pour finir de créer le lien. Vous pouvez aussi cliquer sur le bouton \"X\" dans le coin supérieur droit pour retourner à la liste des contenus et collections."
 
 #: ../../docs/content/media.md:89
-msgid ""
-"![Select Item menu with list of items to link in edit media "
-"view](contentfiles/media_addresource.png)"
-msgstr ""
+msgid "![Select Item menu with list of items to link in edit media view](contentfiles/media_addresource.png)"
+msgstr "![Menu de sélection de contenus avec la liste des contenus à lier au média](contentfiles/media_addresource.png)"
 
 #: ../../docs/content/media.md:91
-msgid ""
-"If you are using an Item resource for the property, you will have "
-"additional options for finding the item you want in the drawer. Open "
-"these options by clicking the triangle button next to the phrase \"Filter"
-" search\"."
-msgstr ""
+msgid "If you are using an Item resource for the property, you will have additional options for finding the item you want in the drawer. Open these options by clicking the triangle button next to the phrase \"Filter search\"."
+msgstr "Si vous utilisez un contenu comme propriété, d'autres façons de trouver la ressource s'affichent dans le volet droit. Accéder à ces options en cliquant sur le triangle à côté de la phrase \"Filtre de recherche\"."
 
 #: ../../docs/content/media.md:93
-msgid ""
-"![Select Item drawer top options, with a red arrow around a gray triangle"
-" button to the right of the phrase \"Filter "
-"search\"](contentfiles/items_filtersearch.png)"
-msgstr ""
+msgid "![Select Item drawer top options, with a red arrow around a gray triangle button to the right of the phrase \"Filter search\"](contentfiles/items_filtersearch.png)"
+msgstr "![Flèche rouge pointant vers le triangle gris à droite de la phrase \"Filtre de recherche\"](contentfiles/items_filtersearch.png)"
 
 #: ../../docs/content/media.md:95
-msgid ""
-"This will open a menu below the button with the following options to "
-"filter the items in the drawer:"
-msgstr ""
+msgid "This will open a menu below the button with the following options to filter the items in the drawer:"
+msgstr "Cette action ouvre un menu en-dessous du bouton avec les options suivantes pour filtrer les contenus :"
 
 #: ../../docs/content/media.md:97
-msgid ""
-"Filter by class: a dropdown where you can select any class provided by "
-"the vocabularies on the installation;"
-msgstr ""
+msgid "Filter by class: a dropdown where you can select any class provided by the vocabularies on the installation;"
+msgstr "Filtrer par classe : menu déroulant dans lequel on peut sélectionner une classe fournie par les vocabulaires de l'instance ;"
 
 #: ../../docs/content/media.md:98
-msgid ""
-"Filter by item set: a dropdown where you can limit the items displayed in"
-" the drawer to only those associated with a particular item set"
-msgstr ""
+msgid "Filter by item set: a dropdown where you can limit the items displayed in the drawer to only those associated with a particular item set"
+msgstr "Filtrer par collection : un menu déroulant permettant de limiter les contenus affichés à ceux d'une collection spécifique"
 
 #: ../../docs/content/media.md:99
-msgid ""
-"Filter by item ID: a search field where you can input the ID of the item "
-"you want to use. You can find an item's ID in the url of it's edit page; "
-"if you are editing the item and the url is `admin/item/11547/edit` then "
-"the item's ID is 11547."
-msgstr ""
+msgid "Filter by item ID: a search field where you can input the ID of the item you want to use. You can find an item's ID in the url of it's edit page; if you are editing the item and the url is `admin/item/11547/edit` then the item's ID is 11547."
+msgstr "Filtrer par ID de contenu : un champ de recherche où saisir l'ID du contenu à lier. L'ID de l'item se trouve dans l'url de sa page de modification ; si l'url de la page de modification est 'admin/item/1157/edit', alors l'ID de l'item est 11547."
 
 #: ../../docs/content/media.md:101
 msgid "![options as above described](contentfiles/item_addresItem.png)"
-msgstr ""
+msgstr "![les options décrites ci-dessus](contentfiles/item_addresItem.png)"
 
 #: ../../docs/content/media.md:103
-msgid ""
-"Item resources also have an option for \"Quick add\". When this switch is"
-" flipped, all of the items in the drawer have a checkbox. You can use "
-"these checkboxes to add multiple items as a property at once. Note that "
-"you can only edit one property at a time, so all of the items must "
-"populate the same property (ex, Creator, Has Part)."
-msgstr ""
+msgid "Item resources also have an option for \"Quick add\". When this switch is flipped, all of the items in the drawer have a checkbox. You can use these checkboxes to add multiple items as a property at once. Note that you can only edit one property at a time, so all of the items must populate the same property (ex, Creator, Has Part)."
+msgstr "Les contenus à lier font aussi apparaître une option \"Ajout rapide\". Lorsque cette option est activée, une case à cocher apparaît à côté de chaque contenu du volet. Cette case permet d'ajouter plusieurs contenus à la fois. Toutefois, on ne peut modifier qu'une propriété à la fois, il faut donc que tous les contenus cochés relèvent bien de la même propriété (e.g. Créateur, Contributeur)."
 
 #: ../../docs/content/media.md:105
-msgid ""
-"![a red arrow points to the slider button for \"Quick add\". The two "
-"items visible have an empty checkbox to the left of their representative "
-"thumbnail](contentfiles/items_quickadd.png)"
-msgstr ""
+msgid "![a red arrow points to the slider button for \"Quick add\". The two items visible have an empty checkbox to the left of their representative thumbnail](contentfiles/items_quickadd.png)"
+msgstr "![Une flèche rouge indique le bouton \"Ajout rapide\". Une case à cocher apparaît à la gauche de chaque contenu visible.](contentfiles/items_quickadd.png)"
 
 #: ../../docs/content/media.md:107
 msgid "**URI** fields link to an external website or online resource."
-msgstr ""
+msgstr "Les champs **URI** permettent de lier un contenu à un site internet externe ou à une ressource en ligne."
 
 #: ../../docs/content/media.md:109
-msgid ""
-"You may add other fields by selecting a property from the list on the "
-"right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, "
-"etc), or search in the **Filter properties** bar above the list of "
-"properties and vocabularies."
-msgstr ""
+msgid "You may add other fields by selecting a property from the list on the right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, etc), or search in the **Filter properties** bar above the list of properties and vocabularies."
+msgstr "Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans la liste située à droite, en parcourant les champs par vocabulaire (Dublin Core, Bibliographic Ontology, etc.) ou en faisant une recherche dans la barre **filtrer les propriétés** qui se trouve au-dessus de la liste des vocabulaires."
 
 #: ../../docs/content/media.md:111
 msgid "**Value annotation**"
 msgstr ""
 
 #: ../../docs/content/media.md:113
-msgid ""
-"When you input a value for a property associated for a resource, you are "
-"making a statement about that resource. If you choose, Omeka allows you "
-"to make statements about that statement. We call this value annotation. "
-"The advantage of value annotation is that you can choose to make "
-"ambiguous facts more concrete by annotating things like:"
+msgid "When you input a value for a property associated for a resource, you are making a statement about that resource. If you choose, Omeka allows you to make statements about that statement. We call this value annotation. The advantage of value annotation is that you can choose to make ambiguous facts more concrete by annotating things like:"
 msgstr ""
 
 #: ../../docs/content/media.md:115
@@ -449,495 +297,327 @@ msgid "Type: What type of concept/thing is this fact?"
 msgstr ""
 
 #: ../../docs/content/media.md:121
-msgid ""
-"In the world of linked data, this process is know as "
-"[reification](https://www.w3.org/wiki/RdfReification). Each value can "
-"have any number of annotations."
+msgid "In the world of linked data, this process is know as [reification](https://www.w3.org/wiki/RdfReification). Each value can have any number of annotations."
 msgstr ""
 
 #: ../../docs/content/media.md:123
-msgid ""
-"To create an annotation, click on the ellipsis on the right side of the "
-"value input interface, and then click on the annotation icon (a dialogue "
-"bubble)."
+msgid "To create an annotation, click on the ellipsis on the right side of the value input interface, and then click on the annotation icon (a dialogue bubble)."
 msgstr ""
 
 #: ../../docs/content/media.md:125
-msgid ""
-"![a detail of the property with the annotation bubble "
-"highlighted](contentfiles/annotation_add.png)"
+msgid "![a detail of the property with the annotation bubble highlighted](contentfiles/annotation_add.png)"
 msgstr ""
 
 #: ../../docs/content/media.md:127
-msgid ""
-"The annotation sidebar will open to the right. Select any property that "
-"is available within the Omeka S installation to describe the relationship"
-" between the annotation and the value it describes. For instance, the "
-"value for associated with the property DCterms:Contributor might be "
-"annotated with the property Schema:jobTitle."
+msgid "The annotation sidebar will open to the right. Select any property that is available within the Omeka S installation to describe the relationship between the annotation and the value it describes. For instance, the value for associated with the property DCterms:Contributor might be annotated with the property Schema:jobTitle."
 msgstr ""
 
 #: ../../docs/content/media.md:129
-msgid ""
-"Then select a date type for the annotation: Text, URI, or and Omeka S "
-"Resource. Installed modules may make additional data types available. "
-"Click the \"Add Annotation\" button."
+msgid "Then select a date type for the annotation: Text, URI, or and Omeka S Resource. Installed modules may make additional data types available. Click the \"Add Annotation\" button."
 msgstr ""
 
 #: ../../docs/content/media.md:131
-msgid ""
-"Input the annotation, and click \"Set Annotations\" to finalize the "
-"process."
+msgid "Input the annotation, and click \"Set Annotations\" to finalize the process."
 msgstr ""
 
 #: ../../docs/content/media.md:133
-msgid ""
-"![a picture of the value annotation sidebar with a property selected and "
-"an annotation included](contentfiles/annotation_sidebar.png)"
+msgid "![a picture of the value annotation sidebar with a property selected and an annotation included](contentfiles/annotation_sidebar.png)"
 msgstr ""
 
 #: ../../docs/content/media.md:135
-msgid ""
-"Sites include a setting to indicate whether or not value annotations are "
-"visible to the public."
+msgid "Sites include a setting to indicate whether or not value annotations are visible to the public."
 msgstr ""
 
 #: ../../docs/content/media.md:137
-msgid ""
-"**Language**: You can indicate the language for the content of an input "
-"using the globe symbol above the input (see the red arrow in the image "
-"below). Click on the globe to activate a text field, then enter the [ISO "
-"639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code for "
-"the language in which the text is written."
-msgstr ""
+msgid "**Language**: You can indicate the language for the content of an input using the globe symbol above the input (see the red arrow in the image below). Click on the globe to activate a text field, then enter the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code for the language in which the text is written."
+msgstr "**Langue** : Pour indiquer la langue du contenu d'un champ, utiliser l'icône globe terrestre au-dessus du champ (voir la flèche rouge ci-dessous). Cliquer sur le globe pour activer un champ de texte, puis saisir le code langue [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) correspondant."
 
 #: ../../docs/content/media.md:141
-msgid ""
-"You can add properties by selecting from the list on the right side of "
-"the screen. You can either browse fields by vocabulary (Dublin Core, "
-"Bibliographic Ontology, etc), or search in the **Filter properties** bar "
-"above the list of properties and vocabularies."
-msgstr ""
+msgid "You can add properties by selecting from the list on the right side of the screen. You can either browse fields by vocabulary (Dublin Core, Bibliographic Ontology, etc), or search in the **Filter properties** bar above the list of properties and vocabularies."
+msgstr "Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans la liste située à droite, en parcourant les champs par vocabulaire (Dublin Core, Bibliographic Ontology, etc.) ou en faisant une recherche dans la barre **filtrer les propriétés** qui se trouve au-dessus de la liste des vocabulaires."
 
 #: ../../docs/content/media.md:143
-msgid ""
-"Automatically generated metadata, such as source, visibility, and part of"
-" item, cannot be edited."
-msgstr ""
+msgid "Automatically generated metadata, such as source, visibility, and part of item, cannot be edited."
+msgstr "Les métadonnées générées automatiquement, comme la source, la visibilité et le fait d'être rattaché à un contenu ne peuvent pas être modifiées."
 
 #: ../../docs/content/media.md:145
-msgid ""
-"Use the **make public/private** button (eye icon) to set whether the "
-"media is visible to the public or only to users of the Omeka S install."
-msgstr ""
+msgid "Use the **make public/private** button (eye icon) to set whether the media is visible to the public or only to users of the Omeka S install."
+msgstr "Utiliser les bouton **public/privé** (icône oeil) pour rendre le contenu public ou visible seulement par les utilisateurs du système Omeka S."
 
 #: ../../docs/content/media.md:147
-msgid ""
-"Media is public: ![make public button showing an eye "
-"icon](../content/contentfiles/item_public.png){style=\"display:inline;\"}"
-msgstr ""
+msgid "Media is public: ![make public button showing an eye icon](../content/contentfiles/item_public.png){style=\"display:inline;\"}"
+msgstr "Le contenu est public : ![bouton public avec icône oeil](../content/contentfiles/item_public.png){style=\"display:inline;\"}"
 
 #: ../../docs/content/media.md:149
-msgid ""
-"Media is private: ![make private button showing an eye icon with a "
-"diagonal slash through "
-"it](../content/contentfiles/item_private.png){style=\"display:inline;\"}"
-msgstr ""
+msgid "Media is private: ![make private button showing an eye icon with a diagonal slash through it](../content/contentfiles/item_private.png){style=\"display:inline;\"}"
+msgstr "Le contenu est privé : ![bouton privé avec oeil barré](../content/contentfiles/item_private.png){style=\"display:inline;\"}"
 
 #: ../../docs/content/media.md:151
-msgid ""
-"Note that if an item is private, all the media attached is private, but "
-"an item that is public can have attached media which are set to be either"
-" public or private."
-msgstr ""
+msgid "Note that if an item is private, all the media attached is private, but an item that is public can have attached media which are set to be either public or private."
+msgstr "Si un contenu est privé, les médias attachés le sont aussi, mais les médias d'un contenu public peuvent eux aussi être mis en statut public ou privé."
 
 #: ../../docs/content/media.md:153
-msgid ""
-"You can set individual properties as visible using the eye icon for each "
-"property. Note that properties set to private are still visible to Global"
-" Admins, Site Admins, and Editors will be able to see properties even "
-"when set to private. Authors will be able to see all properties on items "
-"they own, but will not see private properties created by other users."
-msgstr ""
+msgid "You can set individual properties as visible using the eye icon for each property. Note that properties set to private are still visible to Global Admins, Site Admins, and Editors will be able to see properties even when set to private. Authors will be able to see all properties on items they own, but will not see private properties created by other users."
+msgstr "Vous pouvez gérer la visibilité de propriétés individuelles en utilisant l'icône oeil. Les propriétés dont le statut est privé demeurent visibles pour les administrateurs généraux, les administrateurs de sites et les éditeurs. Les auteurs peuvent voir toutes les propriétés des contenus dont ils sont propriétaires mais ne peuvent pas voir les propriétés privées créées par d'autres."
 
 #: ../../docs/content/media.md:155
-msgid ""
-"In the image below, the first property (Title) is public as indicated by "
-"the open eye icon. The second property (Description) is private as "
-"indicated by the slashed-through eye icon. Clicking or hitting enter on "
-"the eye icon toggles between public and private."
-msgstr ""
+msgid "In the image below, the first property (Title) is public as indicated by the open eye icon. The second property (Description) is private as indicated by the slashed-through eye icon. Clicking or hitting enter on the eye icon toggles between public and private."
+msgstr "Dans l'exemple ci-dessous, la première propriété (Titre) est publique, comme l'indique l'icône oeil ouvert. La deuxième propriété (Description) est privée, comme l'indique l'icône oeil barré. Cliquer sur l'icône oeil fait alterner entre les statuts public et privé."
 
 #: ../../docs/content/media.md:157
-msgid ""
-"![Individual properties have a red eye icon to the right to allow you to "
-"toggle visibility - a red arrow points to the "
-"icon](contentfiles/item_propviz.png)"
-msgstr ""
+msgid "![Individual properties have a red eye icon to the right to allow you to toggle visibility - a red arrow points to the icon](contentfiles/item_propviz.png)"
+msgstr "![Les propriétés individuelles ont une icône oeil (rouge) sur leur droite, pour faire varier leur visibilité - une flèche rouge pointe vers l'icône](contentfiles/item_propviz.png)"
 
 #: ../../docs/content/media.md:159
 msgid "Advanced"
-msgstr ""
+msgstr "Avancé"
 
 #: ../../docs/content/media.md:161
 msgid "**Thumbnail**"
-msgstr ""
+msgstr "**Vignette**"
 
 #: ../../docs/content/media.md:163
-msgid ""
-"Not all media generate elegant thumbnails, for example PDF or text file "
-"documents, or some video files. You can use this option to set a "
-"representative thumbnail for the media which will be used on browse pages"
-" but not on the page for the item or its media."
-msgstr ""
+msgid "Not all media generate elegant thumbnails, for example PDF or text file documents, or some video files. You can use this option to set a representative thumbnail for the media which will be used on browse pages but not on the page for the item or its media."
+msgstr "Tous les médias ne génèrent pas des vignettes satisfaisantes, comme les PDF ou les fichiers documents, ou encore certains fichiers vidéo. Cette option permet de choisir une vignette pour le média, qui sera utilisée dans les pages de navigation, mais pas sur la page du contenu ou du média lui-même."
 
 #: ../../docs/content/media.md:165
-msgid ""
-"The assets you select from or upload as thumbnails in this tab are the "
-"same as those created for [site logos](../admin/assets.md). A thumbnail "
-"uploaded as an asset will become available to all users of all sites. If "
-"you wish to upload a video still as a thumbnail for a specific video, you"
-" may wish to upload it as a media file attached to the item instead of as"
-" an asset."
-msgstr ""
+msgid "The assets you select from or upload as thumbnails in this tab are the same as those created for [site logos](../admin/assets.md). A thumbnail uploaded as an asset will become available to all users of all sites. If you wish to upload a video still as a thumbnail for a specific video, you may wish to upload it as a media file attached to the item instead of as an asset."
+msgstr "Les éléments chargés comme vignettes par ce procédé sont les mêmes que ceux créés pour les [logos de site](../admin/assets.md). Une vignette chargée comme fichier est utilisable par tous les utilisateurs de tous les sites. Si vous souhaitez charger une image de vidéo pour la vignette d'un fichier vidéo, il est peut-être plus intéressant de la charger comme média attaché au contenu que comme fichier."
 
 #: ../../docs/content/media.md:167
-msgid ""
-"To assign an asset as a thumbnail, click on the \"Select\" button in the "
-"main work area of the tab. This will open a drawer on the right side."
-msgstr ""
+msgid "To assign an asset as a thumbnail, click on the \"Select\" button in the main work area of the tab. This will open a drawer on the right side."
+msgstr "Pour sélectionner une vignette, cliquer sur le bouton Choisir : un volet s'ouvrira sur la droite."
 
 #: ../../docs/content/media.md:169
-msgid ""
-"![Select drawer with upload option and two assets, both of which are "
-"images.](contentfiles/media_thumbnail1.png)"
-msgstr ""
+msgid "![Select drawer with upload option and two assets, both of which are images.](contentfiles/media_thumbnail1.png)"
+msgstr "![Onglet \"Choisir\" sélectionné et deux fichiers image entre lesquels choisir.](contentfiles/media_thumbnail1.png)"
 
 #: ../../docs/content/media.md:171
-msgid ""
-"The drawer offers two options: upload a file using your browser, or "
-"select from existing assets. To select an existing asset, simply click on"
-" it and it will automatically be assigned to the media."
-msgstr ""
+msgid "The drawer offers two options: upload a file using your browser, or select from existing assets. To select an existing asset, simply click on it and it will automatically be assigned to the media."
+msgstr "Le volet propose deux options : charger un fichier ou sélectionner parmi les vignettes existantes. Dans le second cas, cliquer sur la vignette, qui sera automatiquement associée au média."
 
 #: ../../docs/content/media.md:173
-msgid ""
-"![Edit media open to Advanced tab, where an asset which is an image of a "
-"map of the National Mall is in the main work area. Below it are buttons "
-"for Select and Clear](contentfiles/media_thumbnail2.png)"
-msgstr ""
+msgid "![Edit media open to Advanced tab, where an asset which is an image of a map of the National Mall is in the main work area. Below it are buttons for Select and Clear](contentfiles/media_thumbnail2.png)"
+msgstr "![Onglet Avancé où un fichier qui est une image d'Aly Raisman se trouve dans la zone principale. En-dessous, des boutons Choisir et Retirer](contentfiles/media_thumbnail2.png)"
 
 #: ../../docs/content/media.md:175
-msgid ""
-"To remove an asset which you have assigned as a thumbnail, click the "
-"\"Clear\" button below the image of the asset. To replace it, click "
-"select and either choose or upload a new thumbnail asset."
-msgstr ""
+msgid "To remove an asset which you have assigned as a thumbnail, click the \"Clear\" button below the image of the asset. To replace it, click select and either choose or upload a new thumbnail asset."
+msgstr "Pour supprimer une vignette, appuyer sur le bouton Retirer sous celle-ci. Pour la remplacer, cliquer de nouveau sur Choisir."
 
 #: ../../docs/content/media.md:177
 msgid "**Owner**"
-msgstr ""
+msgstr "**Propriétaire**"
 
 #: ../../docs/content/media.md:179
 msgid "You can assign an owner for the media by selecting from the dropdown menu."
-msgstr ""
+msgstr "Vous pouvez sélectionner un propriétaire pour le média dans le menu déroulant."
 
 #: ../../docs/content/media.md:181
 msgid "**Alt Text**"
-msgstr ""
+msgstr "**Texte alternatif (alt)**"
 
 #: ../../docs/content/media.md:183
-msgid ""
-"You can provide alternate text for all media by typing descriptive text "
-"into the input area."
-msgstr ""
+msgid "You can provide alternate text for all media by typing descriptive text into the input area."
+msgstr "Vous pouvez saisir dans ce champ un texte alternatif pour chaque média."
 
 #: ../../docs/content/media.md:185
-msgid ""
-"![Edit media open to Advanced tab, showing the Alt Text input "
-"box](contentfiles/media_alttext.png)"
-msgstr ""
+msgid "![Edit media open to Advanced tab, showing the Alt Text input box](contentfiles/media_alttext.png)"
+msgstr "![Onglet Avancé, on voit le champ de texte alternatif](contentfiles/media_alttext.png)"
 
 #: ../../docs/content/media.md:187
 msgid "Batch editing"
-msgstr ""
+msgstr "Traitement par lots"
 
 #: ../../docs/content/media.md:189
-msgid ""
-"From the media browse page, you can batch edit media, using the dropdown "
-"menu on left just above the table of media. You can select multiple items"
-" using the checkboxes on the left of each item's row."
-msgstr ""
+msgid "From the media browse page, you can batch edit media, using the dropdown menu on left just above the table of media. You can select multiple items using the checkboxes on the left of each item's row."
+msgstr "Depuis la page des médias, vous pouvez traiter des médias par lots en utilisant le menu déroulant en haut à gauche du tableau des médias Vous pouvez sélectionner plusieurs médias en utilisant les cases à cocher à côté de la ligne dédiée à chaque média."
 
 #: ../../docs/content/media.md:191
-msgid ""
-"![A red arrow points to the dropdown for batch editing and deleting "
-"options](contentfiles/media_batch1.png)"
-msgstr ""
+msgid "![A red arrow points to the dropdown for batch editing and deleting options](contentfiles/media_batch1.png)"
+msgstr "![Une flèche rouge pointe vers le menu déroulant pour le traitement par lots](contentfiles/media_batch1.png)"
 
 #: ../../docs/content/media.md:193
 msgid "Batch actions are as follows:"
-msgstr ""
+msgstr "Les actions de traitement par lots sont les suivantes :"
 
 #: ../../docs/content/media.md:195
 msgid "Edit selected: edit only the items that are selected on the page"
-msgstr ""
+msgstr "Modifier sélectionnés : ne modifie que les contenus sélectionnés sur la page"
 
 #: ../../docs/content/media.md:196
 msgid "Edit all: edit all the items returned by a search (default is all items)"
-msgstr ""
+msgstr "Modifier tout : modifie tous les contenus d'un résultat de recherche (par défaut, l'ensemble des contenus)"
 
 #: ../../docs/content/media.md:197
 msgid "Delete selected: delete only the items that are selected on the page"
-msgstr ""
+msgstr "Supprimer sélectionnés : ne supprime que les contenus sélectionnés sur la page"
 
 #: ../../docs/content/media.md:198
-msgid ""
-"Delete all: delete all the items returned by a search (default is all "
-"items)."
-msgstr ""
+msgid "Delete all: delete all the items returned by a search (default is all items)."
+msgstr "Supprimer tout : supprime tous les contenus d'un résultat de recherche (par défaut, l'ensemble des contenus)."
 
 #: ../../docs/content/media.md:200
 msgid "Choose one of these options and then click \"Go\"."
-msgstr ""
+msgstr "Choisir une de ces options puis cliquer sur \"Traiter\"."
 
 #: ../../docs/content/media.md:202
-msgid ""
-"**Batch editing** media takes you to a new page. The media being edited "
-"will display on the right side in a drawer, while the batch edit form "
-"gives you the following options:"
-msgstr ""
+msgid "**Batch editing** media takes you to a new page. The media being edited will display on the right side in a drawer, while the batch edit form gives you the following options:"
+msgstr "L'action **Modifier par lots** envoie sur une nouvelle page. Les médias sélectionnés sont affichés dans un volet sur la droite et le formulaire de modification propose les options suivantes :"
 
 #: ../../docs/content/media.md:204
-msgid ""
-"Set visibility: radio buttons, select from Public, Not public, or No "
-"change."
-msgstr ""
+msgid "Set visibility: radio buttons, select from Public, Not public, or No change."
+msgstr "Modifier la visibilité : sélectionner public, non public ou pas de changement."
 
 #: ../../docs/content/media.md:205
-msgid ""
-"Set template: a dropdown, select from the installation's resource "
-"templates."
-msgstr ""
+msgid "Set template: a dropdown, select from the installation's resource templates."
+msgstr "Définir le modèle : menu déroulant permettant de sélectionner un des modèles de ressource de l'instance."
 
 #: ../../docs/content/media.md:206
 msgid "Set class: a dropdown, select from classes of the installed vocabularies."
-msgstr ""
+msgstr "Définir une classe : menu déroulant permettant de sélectionner une classe parmi celles des vocabulaires de l'instance."
 
 #: ../../docs/content/media.md:207
 msgid "Clear language: a checkbox."
-msgstr ""
+msgstr "Effacer la langue : une case à cocher."
 
 #: ../../docs/content/media.md:208
 msgid "Set language: a text entry box."
-msgstr ""
+msgstr "Définir la langue : un champ de texte."
 
 #: ../../docs/content/media.md:209
-msgid ""
-"Clear property values: a dropdown menu with all the properties in all "
-"vocabularies, selecting from this will remove any values in that property"
-" in the affected items. Clear additional properties using the \"Clear "
-"another property\" button."
-msgstr ""
+msgid "Clear property values: a dropdown menu with all the properties in all vocabularies, selecting from this will remove any values in that property in the affected items. Clear additional properties using the \"Clear another property\" button."
+msgstr "Effacer les valeurs d'une propriété : menu déroulant contenant toutes les propriétés des vocabulaires de l'instance, permettant de retirer les valeurs d'une propriété pour les contenus concernés. L'action peut être répétée en cliquant à nouveau sur la barre de recherche."
 
 #: ../../docs/content/media.md:211
-msgid ""
-"![Batch edit medias form, with options as described above. Everything is "
-"grayscale](contentfiles/media_batchedit.png)"
-msgstr ""
+msgid "![Batch edit medias form, with options as described above. Everything is grayscale](contentfiles/media_batchedit.png)"
+msgstr "![Formulaire de modification par lot, avec les options décrites ci-dessus. Tout en gris](contentfiles/media_batchedit.png)"
 
 #: ../../docs/content/media.md:213
-msgid ""
-"In addition, you can use the bottoms at the bottom of the batch edit form"
-" to add properties to every media:"
-msgstr ""
+msgid "In addition, you can use the bottoms at the bottom of the batch edit form to add properties to every media:"
+msgstr "Les boutons en bas du formulaire de modification par lots permettent d'ajouter des propriétés à tous les médias concernés :"
 
 #: ../../docs/content/media.md:215
 msgid "add text value"
-msgstr ""
+msgstr "ajouter une valeur textuelle"
 
 #: ../../docs/content/media.md:216
 msgid "add resource value"
-msgstr ""
+msgstr "ajouter un lien vers une ressource"
 
 #: ../../docs/content/media.md:217
 msgid "add URI value."
-msgstr ""
+msgstr "ajouter un lien URI."
 
 #: ../../docs/content/media.md:219
-msgid ""
-"Selecting any of these will add a block to the form where you can select "
-"a property from the installed vocabularies and enter the value for that "
-"property."
-msgstr ""
+msgid "Selecting any of these will add a block to the form where you can select a property from the installed vocabularies and enter the value for that property."
+msgstr "Ces actions ajoutent un bloc au formulaire qui permet de sélectionner une propriété parmi celles des vocabulaires de l'instance et d'ajouter une valeur à cette propriété."
 
 #: ../../docs/content/media.md:221
-msgid ""
-"For the **delete actions**, a drawer will open on the right side of the "
-"screen telling you the number of media which will be deleted. Nothing "
-"will be deleted unless you click the red \"Confirm Delete\" button. This "
-"action cannot be undone. To opt out of deleting the media, click the "
-"\"X\" in the upper right corner of the deletion drawer. To confirm "
-"delete, check the \"Are you sure\" checkbox and then click \"Confirm "
-"Delete\"."
-msgstr ""
+msgid "For the **delete actions**, a drawer will open on the right side of the screen telling you the number of media which will be deleted. Nothing will be deleted unless you click the red \"Confirm Delete\" button. This action cannot be undone. To opt out of deleting the media, click the \"X\" in the upper right corner of the deletion drawer. To confirm delete, check the \"Are you sure\" checkbox and then click \"Confirm Delete\"."
+msgstr "L'action **supprimer** fait apparaître un volet à la droite de la page rappelant le nombre de contenus concernés. La suppression n'aura lieu que si vous cliquez sur le bouton rouge \"Confirmer la suppression\". Cette action ne peut pas être annulée une fois le bouton cliqué. Pour quitter l'option avant suppression, cliquer sur le \"X\" en haut à droite du volet de suppression. En cas d'action \"Supprimer tout\", cliquer sur la case à cocher \"Êtes-vous sûr ?\" puis sur \"Confirmer la suppression\"."
 
 #: ../../docs/content/media.md:223
-msgid ""
-"![Close up of the warning that 2 medias will be "
-"deleted.](contentfiles/media_batchdelwarn.png)"
-msgstr ""
+msgid "![Close up of the warning that 2 medias will be deleted.](contentfiles/media_batchdelwarn.png)"
+msgstr "![Vue rapprochée du message d'alerte en rouge concernant 3 médias](contentfiles/media_batchdelwarn.png)"
 
 #: ../../docs/content/media.md:225
 msgid "Media file types"
-msgstr ""
+msgstr "Types de fichiers média"
 
 #: ../../docs/content/media.md:227
-msgid ""
-"Omeka S uses HTML 5 audio and video tags when embedding audio and video. "
-"This means generally better support on newer browsers, but worse support "
-"on older ones and for older video formats especially."
-msgstr ""
+msgid "Omeka S uses HTML 5 audio and video tags when embedding audio and video. This means generally better support on newer browsers, but worse support on older ones and for older video formats especially."
+msgstr "Omeka S utilise des balises audio et vidéo HTML 5 pour embarquer des fichiers audio et vidéo. Ces contenus sont mieux gérés par les navigateurs récents, mais moins bien sur les plus anciens et plus particulièrement pour des formats vidéo datés."
 
 #: ../../docs/content/media.md:229
-msgid ""
-"By choosing from a few well-supported formats for audio and video files, "
-"you can provide a much better experience for your users across different "
-"platforms and devices."
-msgstr ""
+msgid "By choosing from a few well-supported formats for audio and video files, you can provide a much better experience for your users across different platforms and devices."
+msgstr "En sélectionnant quelques formats bien gérés pour les fichiers audio et vidéo, vous rendrez l'expérience de vos utilisateurs meilleure sur tous les appareils et plateformes."
 
 #: ../../docs/content/media.md:231
 msgid "Video"
-msgstr ""
+msgstr "Vidéo"
 
 #: ../../docs/content/media.md:233
 msgid "MP4"
-msgstr ""
+msgstr "MP4"
 
 #: ../../docs/content/media.md:234
-msgid ""
-"The MP4 container (.mp4 or .m4v) is the best-supported video format "
-"across browsers and platforms. By far the best choice for video that will"
-" work well across different browsers are .mp4 files with H.264 video and "
-"AAC audio."
-msgstr ""
+msgid "The MP4 container (.mp4 or .m4v) is the best-supported video format across browsers and platforms. By far the best choice for video that will work well across different browsers are .mp4 files with H.264 video and AAC audio."
+msgstr "Le conteneur MP4 (.mp4 ou .m4v) est le format vidéo le mieux géré par les différents navigateurs et plateformes. Les fichiers .mp4 avec vidéo H.264 et audio AAC constituent de loin le meilleur choix, et fonctionneront avec les différents navigateurs."
 
 #: ../../docs/content/media.md:236
-msgid ""
-".mp4 files can contain other types of video (or audio), including newer "
-"ones like H.265, and older ones like MPEG-4 Visual. Any video codec other"
-" than H.264 has *much* worse browser support."
-msgstr ""
+msgid ".mp4 files can contain other types of video (or audio), including newer ones like H.265, and older ones like MPEG-4 Visual. Any video codec other than H.264 has *much* worse browser support."
+msgstr "Les fichiers .mp4 peuvent contenir d'autres types de vidéo (ou d'audio), dont de plus récents comme H.265 et de plus anciens comme MPEG-4 Visual. Tout codec autre que H.264 est *nettement* moins bien géré par les navigateurs."
 
 #: ../../docs/content/media.md:238 ../../docs/content/media.md:252
 msgid "Other formats"
-msgstr ""
+msgstr "Autres formats"
 
 #: ../../docs/content/media.md:239
-msgid ""
-"The WebM (.webm) container with VP8 or VP9 video is supported by several "
-"browsers, but Internet Explorer and Safari are notable and significant "
-"exceptions."
-msgstr ""
+msgid "The WebM (.webm) container with VP8 or VP9 video is supported by several browsers, but Internet Explorer and Safari are notable and significant exceptions."
+msgstr "Le conteneur WebM (.webm) avec video VP8 ou VP9 est géré par plusieurs navigateurs, mais pas Internet Explorer ni Safari."
 
 #: ../../docs/content/media.md:241
-msgid ""
-"The Ogg (.ogg, .ogv) container and Theora video are supported by some "
-"browsers, but there is little support among mobile browsers and no "
-"support at all on IE or Safari."
-msgstr ""
+msgid "The Ogg (.ogg, .ogv) container and Theora video are supported by some browsers, but there is little support among mobile browsers and no support at all on IE or Safari."
+msgstr "Le conteneur Ogg (.ogg, .ogv) avec vidéo Theora sont gérés par certains navigateurs, mais peu par les navigateurs mobiles et pas du tout par IE ou Safari."
 
 #: ../../docs/content/media.md:243
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: ../../docs/content/media.md:245
 msgid "MP3"
-msgstr ""
+msgstr "MP3"
 
 #: ../../docs/content/media.md:246
-msgid ""
-"MP3 (.mp3) is one of the most common formats for compressed audio, and it"
-" enjoys wide support across browsers and from desktop to mobile."
-msgstr ""
+msgid "MP3 (.mp3) is one of the most common formats for compressed audio, and it enjoys wide support across browsers and from desktop to mobile."
+msgstr "Le format MP3 (.mp3) est un des plus courants et est géré par la plupart des navigateurs, y compris mobiles."
 
 #: ../../docs/content/media.md:248
 msgid "AAC"
-msgstr ""
+msgstr "AAC"
 
 #: ../../docs/content/media.md:250
-msgid ""
-"AAC is a somewhat newer format than MP3, but it also is well supported in"
-" most browsers. The widest support is for AAC in an MP4 container (this "
-"usually carries the file extension .m4a), with somewhat lesser support "
-"for other containers and formats (often found with a .aac extension)."
-msgstr ""
+msgid "AAC is a somewhat newer format than MP3, but it also is well supported in most browsers. The widest support is for AAC in an MP4 container (this usually carries the file extension .m4a), with somewhat lesser support for other containers and formats (often found with a .aac extension)."
+msgstr "Le format AAC est plus récent que le format MP3, mais est également bien géré par la plupart des navigateurs. Le mieux géré est le format AAC dans un conteneur MP4 (dont l'extension est généralement .m4a), avec une moins bonne tolérance pour d'autres conteneurs et formats (souvent avec une extension .aac)."
 
 #: ../../docs/content/media.md:254
-msgid ""
-"WAV or WAVE (.wav) audio is supported by most browsers (with the notable "
-"exception of Internet Explorer). The major downside for use on the Web is"
-" that WAV audio is uncompressed, so it takes up vastly more storage space"
-" and bandwidth than the compressed formats listed above. If feasible, "
-"it’s best to use one of those instead of WAV."
-msgstr ""
+msgid "WAV or WAVE (.wav) audio is supported by most browsers (with the notable exception of Internet Explorer). The major downside for use on the Web is that WAV audio is uncompressed, so it takes up vastly more storage space and bandwidth than the compressed formats listed above. If feasible, it’s best to use one of those instead of WAV."
+msgstr "Les audio WAV ou WAVE (.wav) sont gérés par la plupart des navigateurs (à l'exception notable d'Internet Explorer). Leur défaut majeur est que ces formats audio ne sont pas compressés et utilisent beaucoup plus d'espace de stockage et de bande passante que les formats compressés susmentionnés. Si possible, les utiliser plutôt que WAV."
 
 #: ../../docs/content/media.md:256
-msgid ""
-"Ogg Vorbis audio (.ogg, .oga) is a compressed format like MP3 and AAC, "
-"but it has much less widespread support. Expect Vorbis audio to only work"
-" on Firefox, Chrome, and Android."
-msgstr ""
+msgid "Ogg Vorbis audio (.ogg, .oga) is a compressed format like MP3 and AAC, but it has much less widespread support. Expect Vorbis audio to only work on Firefox, Chrome, and Android."
+msgstr "Ogg Vorbis audio (.ogg, .oga) est un format compressé comme MP3 ou AAC, mais il est nettement moins largement géré. Vorbis ne fonctionnera probablement que sur Firefox, Chrome et Android."
 
 #: ../../docs/content/media.md:258
-msgid ""
-"Opus (.opus) is one of the newer available audio formats. For the time "
-"being, it has a similar problem as Vorbis: a lack of support among "
-"browsers, but there are signs that Opus could gain more support in the "
-"future."
-msgstr ""
+msgid "Opus (.opus) is one of the newer available audio formats. For the time being, it has a similar problem as Vorbis: a lack of support among browsers, but there are signs that Opus could gain more support in the future."
+msgstr "Opus (.opus) est un des formats audio les plus récents. À ce stade, il présente les mêmes difficultés que Vorbis : il est peu géré par les navigateurs, mais pourrait l'être plus largement à l'avenir."
 
 #: ../../docs/content/media.md:260
 msgid "Legacy formats"
-msgstr ""
+msgstr "Formats hérités"
 
 #: ../../docs/content/media.md:261
-msgid ""
-"There are a lot of media files out there that aren’t in any of the "
-"formats listed here. With certain add-ons or on certain platforms (like "
-"Safari on the Mac in many cases), it can be possible to embed some of "
-"those files with HTML 5, but expect many or most users to be unable to "
-"play them. Browser plugins can also play many file types, but browsers "
-"are steadily reducing and removing their support for these kinds of "
-"plugins."
-msgstr ""
+msgid "There are a lot of media files out there that aren’t in any of the formats listed here. With certain add-ons or on certain platforms (like Safari on the Mac in many cases), it can be possible to embed some of those files with HTML 5, but expect many or most users to be unable to play them. Browser plugins can also play many file types, but browsers are steadily reducing and removing their support for these kinds of plugins."
+msgstr "Il existe de nombreux fichiers média qui ne sont dans aucun des formats listés ci-dessus. Avec certains modules complémentaires ou sur certains plateformes (comme Safari sur Mac dans de nombreux cas), il est possible d'embarquer certains de ces fichiers avec HTML 5. Toutefois, il faut s'attendre à ce que la plupart des utilisateurs ne puissent pas les lire. Certains plugins de navigateurs peuvent aussi lire de nombreux types de fichiers, mais les navigateurs gèrent de moins en moins ce type de modules."
 
 #: ../../docs/content/media.md:263
-msgid ""
-"For old media, often the best choice is to just present a download link "
-"so the viewer can play or convert the file locally. This is what Omeka "
-"does when it doesn’t recognize a file type or when a browser reports that"
-" it can’t play a file."
-msgstr ""
+msgid "For old media, often the best choice is to just present a download link so the viewer can play or convert the file locally. This is what Omeka does when it doesn’t recognize a file type or when a browser reports that it can’t play a file."
+msgstr "Pour des médias anciens, il est préférable de simplement proposer un lien de téléchargement afin que l'utilisateur puisse lire ou convertir le fichier en local. C'est ce que fait Omeka lorsqu'il ne reconnaît pas un type de fichier ou quand un navigateur ne peut pas le lire."
 
 #: ../../docs/content/media.md:265
-msgid ""
-"File formats which result in a download link, rather than an embedded "
-"playback, include:"
-msgstr ""
+msgid "File formats which result in a download link, rather than an embedded playback, include:"
+msgstr "Les formats qui produisent un lien de téléchargement plutôt qu'une lecture embarquée comprennent :"
 
 #: ../../docs/content/media.md:267
 msgid "Video: .avi, .wmv"
-msgstr ""
+msgstr "Vidéo : .avi, .wmv"
 
 #: ../../docs/content/media.md:268
 msgid "Audio: .aiff (except Safari), .midi, .wha"
-msgstr ""
+msgstr "Audio : .aiff (sauf sur Safari), .midi, .wha"
 
 #: ../../docs/content/media.md:270
-msgid ""
-"If you do not see a format listed here that you think should be, try it "
-"out and let us know the results."
+msgid "If you do not see a format listed here that you think should be, try it out and let us know the results."
 msgstr ""
 
 #~ msgid ""
@@ -1146,14 +826,6 @@ msgstr ""
 #~ "Ontology, etc), or search in the "
 #~ "*filter properties* bar above the list"
 #~ " of properties and vocabularies."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In the world of linked data, this"
-#~ " process is know as "
-#~ "[reification](https://www.w3.org/wiki/RdfReification). Each "
-#~ "value can have any number of "
-#~ "annotations."
 #~ msgstr ""
 
 #~ msgid ""
@@ -1375,4 +1047,3 @@ msgstr ""
 #~ " code for the language in which "
 #~ "the text is written."
 #~ msgstr ""
-
