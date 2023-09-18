@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 13:48+0000\n"
-"PO-Revision-Date: 2023-09-18 15:32+0200\n"
+"PO-Revision-Date: 2023-09-18 15:44+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -150,7 +150,7 @@ msgstr "L'onglet Valeurs sert à la saisie des métadonnées, telles que le titr
 
 #: ../../docs/content/items.md:60
 msgid "![Basic view of add items page, with no content entered](contentfiles/items_add.png)"
-msgstr "![Exemple d'une vue de base de la page de création de contenus dont les champs sont vides](contentfiles/items_add)"
+msgstr "![Exemple d'une vue de base de la page de création de contenus dont les champs sont vides](contentfiles/items_add.fr.png)"
 
 #: ../../docs/content/items.md:62
 msgid "You can select a resource template from the drop-down menu. Resource templates are defined by the supervisors and editors."
