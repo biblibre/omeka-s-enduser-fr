@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 13:48+0000\n"
-"PO-Revision-Date: 2023-06-23 10:55+0200\n"
+"PO-Revision-Date: 2023-09-18 14:41+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -87,16 +87,15 @@ msgid ""
 "Terms/Items/URI input."
 msgstr ""
 "La page Ajouter un vocabulaire personnalisé comporte quatre champs : Libellé, "
-"Langue, Contenus et Vocables."
+"Langue, Vocab Types et Vocables."
 
 #: ../../docs/modules/customvocab.md:17
-#, fuzzy
 msgid ""
 "![Add Custom Vocab with data entered in the label and terms fields](../"
 "modules/modulesfiles/customVocab-add-URI.png)"
 msgstr ""
 "![Ajout d’un vocabulaire personnalisé avec les champs libellé et vocables "
-"saisis](../modules/modulesfiles/customVocab-add-URI.png)"
+"saisis](../modules/modulesfiles/customVocab-add-URI.fr.png)"
 
 #: ../../docs/modules/customvocab.md:19
 msgid ""
@@ -174,13 +173,12 @@ msgstr ""
 "informations, ainsi que le *Propriétaire* ou créateur du vocabulaire."
 
 #: ../../docs/modules/customvocab.md:34
-#, fuzzy
 msgid ""
 "![Custom Vocab tab with two existing vocabularies](../modules/modulesfiles/"
 "customVocab_manage.png)"
 msgstr ""
 "![Page Custom Vocab avec deux vocabulaires existants](../modules/modulesfiles/"
-"customVocab_manage.png)"
+"customVocab_manage.fr.png)"
 
 #: ../../docs/modules/customvocab.md:36
 msgid ""
@@ -207,8 +205,8 @@ msgid ""
 "Go to the Resource Templates and either add new or edit an existing template. "
 "Once you are editing the template:"
 msgstr ""
-"Allez dans les modèles de ressources et ajoutez en un nouveau modèle ou "
-"modifiez un vocabulaire existant. Une fois que vous éditez le modèle :"
+"Allez dans les modèles de ressources et ajoutez un nouveau modèle ou modifiez "
+"un modèle existant. Une fois que vous éditez le modèle :"
 
 #: ../../docs/modules/customvocab.md:44
 msgid "Add the property to which you want to apply the Custom Vocab."
@@ -218,7 +216,7 @@ msgstr ""
 
 #: ../../docs/modules/customvocab.md:45
 msgid "Edit the property."
-msgstr "Modifier la propriété."
+msgstr "Modifiez la propriété."
 
 #: ../../docs/modules/customvocab.md:46
 msgid ""
@@ -244,14 +242,13 @@ msgid "Be sure to save your changes."
 msgstr "Veillez à enregistrer vos modifications."
 
 #: ../../docs/modules/customvocab.md:52
-#, fuzzy
 msgid ""
 "![Resource Template data being edited with dropdown open to show available "
 "vocabularies](../modules/modulesfiles/customVocab_select.png)"
 msgstr ""
 "![Modèle de ressource en cours d’édition avec la liste déroulante ouverte "
 "pour afficher les vocabulaires disponibles](../modules/modulesfiles/"
-"customVocab_select.png)"
+"customVocab_select.fr.png)"
 
 #: ../../docs/modules/customvocab.md:54
 msgid ""
@@ -263,14 +260,13 @@ msgstr ""
 "données."
 
 #: ../../docs/modules/customvocab.md:56
-#, fuzzy
 msgid ""
 "![Resource Template \"National Park\" with the custom vocabulary State "
 "applied to Spatial Coverage](../modules/modulesfiles/customVocab_resource.png)"
 msgstr ""
 "![Modèle de ressource « National Park » avec le vocabulaire personnalisé "
 "State appliqué à la Spatial Coverage](../modules/modulesfiles/"
-"customVocab_resource.png)"
+"customVocab_resource.fr.png)"
 
 #: ../../docs/modules/customvocab.md:58
 msgid ""
@@ -289,28 +285,25 @@ msgid ""
 "indicating the property input is a drop down menu."
 msgstr ""
 "Dans cette copie d’écran, le modèle de ressource modifié précédemment est "
-"chargé pour un nouveau contenu. Vous voyez que la propriété « Couverture "
-"spatiale » comporte un message « choisir un terme ci-dessous » et une flèche "
-"indiquant que la propriété saisie est un menu déroulant."
+"chargé pour un nouveau contenu. Vous voyez que la propriété « Titre » "
+"comporte un message « choisir un terme ci-dessous » et une flèche indiquant "
+"que la propriété saisie est un menu déroulant."
 
 #: ../../docs/modules/customvocab.md:62
-#, fuzzy
 msgid "![as described](../modules/modulesfiles/customVocab_item1.png)"
-msgstr "![comme indiqué](../modules/modulesfiles/customVocab_item1.png)"
+msgstr "![comme indiqué](../modules/modulesfiles/customVocab_item1.fr.png)"
 
 #: ../../docs/modules/customvocab.md:64
-#, fuzzy
 msgid ""
 "This image shows the dropdown open, displaying the values from the \"US "
 "states & territories\" vocabulary."
 msgstr ""
 "Cette image montre la liste déroulante, affichant les valeurs du vocabulaire "
-"« US states & territories »."
+"« Vocabulaire institutionnel »."
 
 #: ../../docs/modules/customvocab.md:66
-#, fuzzy
 msgid "![as described](../modules/modulesfiles/customVocab_item2.png)"
-msgstr "![comme indiqué](../modules/modulesfiles/customVocab_item2.png)"
+msgstr "![comme indiqué](../modules/modulesfiles/customVocab_item2.fr.png)"
 
 #~ msgid ""
 #~ "*URIs:* a list of URIs with or without labels. Enter one URI per line. To "
