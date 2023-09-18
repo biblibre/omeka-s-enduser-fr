@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-01 13:48+0000\n"
-"PO-Revision-Date: 2023-06-22 16:43+0200\n"
+"PO-Revision-Date: 2023-09-18 14:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -195,7 +195,6 @@ msgstr ""
 "média contient maintenant un bouton pour Sideload (tout en bas)."
 
 #: ../../docs/modules/filesideload.md:47
-#, fuzzy
 msgid ""
 "![A red arrow points to the add sideload media button](../modules/modulesfiles/"
 "filesideload_browse.png)"
@@ -224,13 +223,12 @@ msgstr ""
 "en un et enregistrez les modifications."
 
 #: ../../docs/modules/filesideload.md:54
-#, fuzzy
 msgid ""
 "![Sideload media options with the dropdown open, displaying file names](../"
 "modules/modulesfiles/filesideload_addfile.png)"
 msgstr ""
 "![Menu déroulant avec les options de médias Sideload, affichant des noms de "
-"fichiers](../modules/modulesfiles/filesideload_addfile.png)"
+"fichiers](../modules/modulesfiles/filesideload_addfile.fr.png)"
 
 #: ../../docs/modules/filesideload.md:56
 msgid "CSV Import integration"
