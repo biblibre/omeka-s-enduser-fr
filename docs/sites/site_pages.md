@@ -11,7 +11,7 @@ When you create a new site, Omeka S automatically adds a page titled "Welcome" w
 ## Adding pages
 From the page for the site, click the Pages link. Then click the "Add new page" button on the upper left side of the window.
 
-![A red arrow points to a grey button labeled "add new page"](../sites/sitesfiles/sitepg_addnew.png)  
+![At the top of the screen is a grey button labeled "Add new page"](../sites/sitesfiles/sitepg_addnew.png)  
 
 To add a page you must enter a **Title**. You can also enter a **URL Slug**. Both of these can be edited later.
 
@@ -290,6 +290,36 @@ Once you’ve selected an item, the drawer will shift to that item’s informati
 To add multiple items at once, click the "quick add" slider just above the list of items in the right hand drawer. This will add a checkbox to the left of each item. Check the boxes of those items you want to add to the block, then click the "Add selected" button at the bottom of the drawer.
 
 ![Select item drawer with quick add activated - every item in the view now has a checkbox.](../sites/sitesfiles/sitepg_selectitemQuick.png)
+
+### Page date and time
+
+Displays the first-created date and/or time, and/or last-modified date and/or time, for a given page. 
+
+![Page date and time settings box with radio buttons.](../sites/sitesfiles/sitepg_pageDateTime.png)
+
+You have the option of displaying the created, modified, or both dates, as well as formatting for dates and times. If you choose to display both date and time, it will appear with "at" between the two values:
+
+```
+<p>Page created: September 6, 2022 at 7:17:35 PM GMT</p>
+
+<p>Page modified: September 7, 2022 at 9:38:39 PM GMT</p>
+```
+
+Date format options:
+
+- None
+- Short (`7/6/22`)
+- Medium (`Sep 6, 2022`)
+- Long (`September 6, 2022`)
+- Full (`Tuesday, September 6, 2022`).
+
+Time format options:
+
+- None
+- Short (`7:17 PM`)
+- Medium (`7:17:35 PM`)
+- Long (`7:17:35 PM GMT`)
+- Full (`7:17:35 PM GMT`).
 
 ### Page title
 Displays the title of the current page.

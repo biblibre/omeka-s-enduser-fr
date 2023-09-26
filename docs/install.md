@@ -6,7 +6,7 @@ In order to install Omeka S, you will need a server running the following:
 - Linux
 - Apache (with [AllowOverride](https://httpd.apache.org/docs/2.4/mod/core.html#allowoverride) set to "All" and [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) enabled)
 - MySQL, minimum version 5.6.4 (or MariaDB, minimum version 10.0.5)
-- PHP, minumum version 7.2, with [PDO](http://php.net/manual/en/intro.pdo.php), [pdo_mysql](http://php.net/manual/en/ref.pdo-mysql.php), and [xml](http://php.net/manual/en/intro.xml.php) extensions installed
+- PHP, minumum version 7.4, with [PDO](http://php.net/manual/en/intro.pdo.php), [pdo_mysql](http://php.net/manual/en/ref.pdo-mysql.php), and [xml](http://php.net/manual/en/intro.xml.php) extensions installed
 - Optional, to create thumbnails: ImageMagick version 6.7.5 or greater, the PHP `imagick` extension, or the PHP `gd` extension.
 
 [GD](https://secure.php.net/manual/en/intro.image.php) is a basic graphic library installed by default with PHP. It can create thumbnails for common image formats only (jpeg, gif, png). [Imagick and ImageMagick](https://www.imagemagick.org) are the same library and can create thumbnails for more than 200 formats. For more information, see the [Configuration page](configuration.md#thumbnails).
@@ -77,7 +77,15 @@ Omeka S by default will try to automatically detect the path to the PHP CLI on t
 
 If you are [using Reclaim Hosting](#one-click-installation), you will have to manually set the PHP path when you install. See [their instructions here](https://support.reclaimhosting.com/hc/en-us/articles/1500005620481#omeka-s).
 
-If you begin to see errors once you start working with Omeka, particularly errors with something like "PHP-CLI error: invalid PHP path", you will need to manually set the PHP path. See [Configuration Options](configuration.md) to learn about modifying thumbnail generation, setting the PHP path manually, and more. 
+Use the [System Information page](admin-dashboard.md#system-information) to verify that you installation has identified the correct PHP path. If there is an error when you click the button, that can indicate whether you need to set the configuration manually. 
+
+![The System Information buttons to retrieve the PHP path and the ImageMagick version.](files/systeminfo_buttons.png)
+
+See [Configuration Options](configuration.md) to learn about modifying thumbnail generation, setting the PHP path manually, and more. 
+
+### Starting to work with your installation
+
+Once you have correctly configured all of the technical components of your Omeka S installation, you will want to begin by: adding other users; creating resource templates, vocabularies, and item sets; creating one or more sites; then adding items, and assigning those resources to your sites. Continue on with the user manual to learn more about these parts of Omeka S.
 
 !!! note
 	If you have an existing Omeka Classic or S installation, you may wish to look at modules such as the [Omeka Classic Importer](modules/omekaCimporter.md), the [Omeka S Item Importer](modules/ositemimporter.md), or the [CSV Import module](modules/csvimport.md), which can help you copy other types of data.
@@ -111,7 +119,7 @@ First, the PHP path may need to be set if Omeka S cannot automatically detect th
     ],
 ```
 
-Fill out the `phpcli_path` value with the appropriate path for your operating system. For example, if you are using a MAMP environment, you may find the PHP utilities inside the MAMP installation folder at `MAMP\bin\php\php7`.
+Fill out the `phpcli_path` value with the appropriate path for your operating system. For example, if you are using a MAMP environment, you may find the PHP utilities inside the MAMP installation folder at `MAMP\bin\php\php74`.
 
 Second, you need to configure Omeka S to use the thumbnail-generating utility available on your local server. Open the `local.config.php` file and look for the following section:
 ```
@@ -127,3 +135,5 @@ Edit the `Omeka\File\Thumbnailer` value to the following, based on what is avail
 - Replace the default thumbnailer with `Omeka\File\Thumbnailer\Gd`.
 - Replace the default thumbnailer with `Omeka\File\Thumbnailer\Imagick`, and enable Imagick in the file `php.ini` of your server via the server admin interface or directly in the file.
 - Keep the default thumbnailer `Omeka\File\Thumbnailer\ImageMagick`, but install the command line tool `imagemagick` and change the `imagemagick_dir` value to its directory. To install imagemagick, see the documentation of your server.
+
+If you see the error `no input file specified`, you may need to edit the `.htaccess` file. Comment out line 8, `RewriteRule !\.(php[0-9]?|phtml|phps)$ - [NC,C]`. You may also need to comment out the lines following the block comment at line 17 ( “The following rewrites”) and replace them with `RewriteRule ^(.*)$ index.php`. 

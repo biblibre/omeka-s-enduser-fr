@@ -74,6 +74,7 @@ can be browsed in the `Omeka S collection on Vimeo
    docs/content/media
    docs/content/vocabularies
    docs/content/resource-template
+   docs/content/export
 
 .. toctree::
    :hidden:
