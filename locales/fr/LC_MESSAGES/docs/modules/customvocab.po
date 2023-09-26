@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2023-09-18 14:41+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
-"Language-Team: \n"
 "Language: fr\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: ../../docs/modules/customvocab.md:1
 msgid "Custom Vocab"
@@ -26,40 +25,41 @@ msgstr "Custom Vocab (Vocabulaires personnalisés)"
 
 #: ../../docs/modules/customvocab.md:3
 msgid ""
-"The [Custom Vocab module](https://omeka.org/s/modules/CustomVocab) allows you "
-"to create a controlled vocabulary and add it to a specific property in a "
-"resource template. When using that template for an item, the property will "
-"load with a dropdown limited to the options of the controlled vocabulary, "
-"rather than a text entry box."
+"The [Custom Vocab module](https://omeka.org/s/modules/CustomVocab) allows"
+" you to create a controlled vocabulary and add it to a specific property "
+"in a resource template. When using that template for an item, the "
+"property will load with a dropdown limited to the options of the "
+"controlled vocabulary, rather than a text entry box."
 msgstr ""
-"Le module Custom Vocab vous permet de créer un vocabulaire personnalisé et de "
-"l’ajouter à une propriété spécifique dans un modèle de ressource. Lorsque "
-"vous utilisez ce modèle pour un contenu, la propriété se charge avec une "
-"liste déroulante limitée aux options du vocabulaire contrôlé, plutôt qu’avec "
-"une zone de texte."
+"Le module Custom Vocab vous permet de créer un vocabulaire personnalisé "
+"et de l’ajouter à une propriété spécifique dans un modèle de ressource. "
+"Lorsque vous utilisez ce modèle pour un contenu, la propriété se charge "
+"avec une liste déroulante limitée aux options du vocabulaire contrôlé, "
+"plutôt qu’avec une zone de texte."
 
 #: ../../docs/modules/customvocab.md:5
 msgid ""
-"For example, you may want to create an institution-specific list of locations "
-"that correspond to different collections on your campus, or a controlled list "
-"of people or places related to your holdings. This can help reduce typos and "
-"name variations, and can allow you to offer [metadata browsing](../modules/"
-"metadatabrowse.md) for more fields."
+"For example, you may want to create an institution-specific list of "
+"locations that correspond to different collections on your campus, or a "
+"controlled list of people or places related to your holdings. This can "
+"help reduce typos and name variations, and can allow you to offer "
+"[metadata browsing](../modules/metadatabrowse.md) for more fields."
 msgstr ""
-"Par exemple, vous pouvez vouloir créer un liste de localisations spécifiques "
-"à votre institution, qui correspondrait à différentes collections présentes "
-"sur votre campus, ou encore une liste de personnes ou de lieux relatifs à vos "
-"ressources. Cette pratique permet d'éviter les fautes de frappe et les "
-"variations de nommage, et vous permet de proposer la [recherche par "
-"métadonnées](../modules/metadatabrowse.md) pour plus de champs."
+"Par exemple, vous pouvez vouloir créer un liste de localisations "
+"spécifiques à votre institution, qui correspondrait à différentes "
+"collections présentes sur votre campus, ou encore une liste de personnes "
+"ou de lieux relatifs à vos ressources. Cette pratique permet d'éviter les"
+" fautes de frappe et les variations de nommage, et vous permet de "
+"proposer la [recherche par métadonnées](../modules/metadatabrowse.md) "
+"pour plus de champs."
 
 #: ../../docs/modules/customvocab.md:7
 msgid ""
-"Custom Vocab is available to users who are at the [Editor role and above](../"
-"admin/users.md)."
+"Custom Vocab is available to users who are at the [Editor role and "
+"above](../admin/users.md)."
 msgstr ""
-"Custom Vocab est accessible par les utilisateurs ayant un rôle [Éditeur ou "
-"plus](../admin/users.md)."
+"Custom Vocab est accessible par les utilisateurs ayant un rôle [Éditeur "
+"ou plus](../admin/users.md)."
 
 #: ../../docs/modules/customvocab.md:9
 msgid "Create a custom vocab"
@@ -71,55 +71,65 @@ msgid ""
 "section in the left-hand navigation, under Modules."
 msgstr ""
 "Dès que vous avez installé et activé le module, cliquez sur Vocabulaire "
-"Personnalisé dans le volet de navigation de gauche, dans la partie Modules."
+"Personnalisé dans le volet de navigation de gauche, dans la partie "
+"Modules."
 
 #: ../../docs/modules/customvocab.md:13
+#, fuzzy
 msgid ""
-"Click the \"Add a New Vocab\" button in the upper right-hand corner of the "
+"Click the \"Add new vocab\" button in the upper right-hand corner of the "
 "window."
 msgstr ""
-"Cliquez sur le bouton Ajouter un nouveau vocabulaire dans le coin supérieur "
-"droit de l’écran."
+"Cliquez sur le bouton Ajouter un nouveau vocabulaire dans le coin "
+"supérieur droit de l’écran."
 
 #: ../../docs/modules/customvocab.md:15
 msgid ""
-"The Add Custom Vocab page has four fields: Label, Language, Vocab Type, and "
-"Terms/Items/URI input."
+"The Add Custom Vocab page has four fields: Label, Language, Vocab Type, "
+"and Terms/Items/URI input."
 msgstr ""
-"La page Ajouter un vocabulaire personnalisé comporte quatre champs : Libellé, "
-"Langue, Vocab Types et Vocables."
+"La page Ajouter un vocabulaire personnalisé comporte quatre champs : "
+"Libellé, Langue, Vocab Types et Vocables."
 
 #: ../../docs/modules/customvocab.md:17
 msgid ""
-"![Add Custom Vocab with data entered in the label and terms fields](../"
-"modules/modulesfiles/customVocab-add-URI.png)"
+"![Add Custom Vocab with data entered in the label and terms "
+"fields](../modules/modulesfiles/customVocab-add-URI.png)"
 msgstr ""
-"![Ajout d’un vocabulaire personnalisé avec les champs libellé et vocables "
-"saisis](../modules/modulesfiles/customVocab-add-URI.fr.png)"
+"![Ajout d’un vocabulaire personnalisé avec les champs libellé et vocables"
+" saisis](../modules/modulesfiles/customVocab-add-URI.fr.png)"
+
+#: ../../docs/modules/customvocab.md:17
+#, fuzzy
+msgid "Add Custom Vocab with data entered in the label and terms fields"
+msgstr ""
+"![Ajout d’un vocabulaire personnalisé avec les champs libellé et vocables"
+" saisis](../modules/modulesfiles/customVocab-add-URI.fr.png)"
 
 #: ../../docs/modules/customvocab.md:19
 msgid ""
 "**Label**: A name for the vocabulary, which you will use to find it when "
 "adding to a resource template."
 msgstr ""
-"**Libellé** le nom du vocabulaire, utilisé pour sélectionner ce vocabulaire "
-"pour l’ajouter un à un modèle de ressources."
+"**Libellé** le nom du vocabulaire, utilisé pour sélectionner ce "
+"vocabulaire pour l’ajouter un à un modèle de ressources."
 
 #: ../../docs/modules/customvocab.md:20
 msgid ""
 "**Language** (optional): The language of the vocab, using the [ISO 639-1 "
 "language code](http://www.iso.org/iso/language_codes)."
 msgstr ""
-"**Langue** (optionnel) : La langue du vocabulaire à choisir dans la liste des "
-"[code ISO 639-1](http://www.iso.org/iso/language_codes)."
+"**Langue** (optionnel) : La langue du vocabulaire à choisir dans la liste"
+" des [code ISO 639-1](http://www.iso.org/iso/language_codes)."
 
 #: ../../docs/modules/customvocab.md:22
 msgid ""
-"You can set the controlled vocabulary terms to a list of entered terms, to a "
-"list of existing items, or to a list of external URIs with or without labels:"
+"You can set the controlled vocabulary terms to a list of entered terms, "
+"to a list of existing items, or to a list of external URIs with or "
+"without labels:"
 msgstr ""
-"Vous pouvez définir un vocabulaire personnalisé soit sur une collection de "
-"contenus existants, soit sur une liste de vocables :"
+"Vous pouvez définir un vocabulaire personnalisé soit sur une collection "
+"de contenus existants, soit sur une liste de vocables :"
 
 #: ../../docs/modules/customvocab.md:24
 msgid ""
@@ -131,56 +141,98 @@ msgstr ""
 
 #: ../../docs/modules/customvocab.md:25
 msgid ""
-"**Items**: a drop-down of Item Sets in your Omeka S installation. Choosing "
-"one of these will create a custom vocab populated by items from that item "
-"set. When used, the property is populated as an Omeka Resource, not text."
+"**Items**: a drop-down of Item Sets in your Omeka S installation. "
+"Choosing one of these will create a custom vocab populated by items from "
+"that item set. When used, the property is populated as an Omeka Resource,"
+" not text."
 msgstr ""
-"**Contenus:** une liste déroulante des collections de votre instance Omeka S. "
-"En choisissant l’un d’entre eux, un vocabulaire personnalisé sera créé à "
-"partir des contenus de la collection sélectionnée. Lorsqu’elle est utilisée, "
-"la propriété est considérée comme une ressource Omeka, et non comme du texte."
+"**Contenus:** une liste déroulante des collections de votre instance "
+"Omeka S. En choisissant l’un d’entre eux, un vocabulaire personnalisé "
+"sera créé à partir des contenus de la collection sélectionnée. "
+"Lorsqu’elle est utilisée, la propriété est considérée comme une ressource"
+" Omeka, et non comme du texte."
 
 #: ../../docs/modules/customvocab.md:26
 msgid ""
-"**URIs**: a list of URIs with or without labels, one URI per line. To include "
-"a label, add a space and the label after the URI (for example, \"https://"
-"youromekainstall.org/item/1119 Canada\"). When used, the property will "
-"populate as a link to the external resource."
+"**URIs**: a list of URIs with or without labels, one URI per line. To "
+"include a label, add a space and the label after the URI (for example, "
+"\"https://youromekainstall.org/item/1119 Canada\"). When used, the "
+"property will populate as a link to the external resource."
 msgstr ""
-"**URI** : une liste d'URI avec ou sans étiquette, une URI par ligne. Pour "
-"inclure une étiquette, ajouter une espace après l'URI (par exemple, \"https://"
-"votreinstanceomeka.org:item/1119 Canada\"). Cette propriété sera utilisée "
-"comme lien vers une ressource extérieure."
+"**URI** : une liste d'URI avec ou sans étiquette, une URI par ligne. Pour"
+" inclure une étiquette, ajouter une espace après l'URI (par exemple, "
+"\"https://votreinstanceomeka.org:item/1119 Canada\"). Cette propriété "
+"sera utilisée comme lien vers une ressource extérieure."
 
 #: ../../docs/modules/customvocab.md:28
+msgid ""
+"!!! note \tNote that manually entered terms or URIs do not need to be "
+"unique when entered; the module will only retain unique entries when "
+"saved. If you are entering identical URIs with different labels, only the"
+" final entry will be retained and earlier labels will be ignored."
+msgstr ""
+
+#: ../../docs/modules/customvocab.md:31
 msgid "Hit \"Submit\" to save changes."
 msgstr "Enregistrer les modifications."
 
-#: ../../docs/modules/customvocab.md:30
+#: ../../docs/modules/customvocab.md:33
 msgid "Manage custom vocabs"
 msgstr "Gérer les vocabulaires personnalisés"
 
-#: ../../docs/modules/customvocab.md:32
+#: ../../docs/modules/customvocab.md:35
 msgid ""
-"Once you have created at least one vocabulary, the Custom Vocab module tab "
-"will display a table of your existing vocabularies. The table displays the "
-"**Label**, the buttons for edit, delete, and display information, and the "
-"**Owner** or creator of the vocabulary."
+"Once you have created at least one vocabulary, the Custom Vocab tab will "
+"display a table of your existing vocabularies. The table displays the "
+"Label, the buttons for edit, delete, and display information (ellipsis), "
+"and the Owner or creator of the vocabulary."
 msgstr ""
-"Une fois que vous avez créé au moins un vocabulaire, l'onglet du module "
-"Custom Vocab affiche la table des vocabulaires existants. Dans l’entête, se "
-"trouvent le *Libellé*, les boutons pour modifier, supprimer et afficher les "
-"informations, ainsi que le *Propriétaire* ou créateur du vocabulaire."
 
-#: ../../docs/modules/customvocab.md:34
+#: ../../docs/modules/customvocab.md:37
 msgid ""
-"![Custom Vocab tab with two existing vocabularies](../modules/modulesfiles/"
-"customVocab_manage.png)"
+"There is also a button to \"Import\" a vocabulary using a file, in the "
+"top right. Note that importing will add a new listing to the table. If "
+"you are attmepting to update an existing vocabulary in your installation,"
+" do not use the \"Import from file\" button. Update the vocabulary from "
+"its entry in the table."
 msgstr ""
-"![Page Custom Vocab avec deux vocabulaires existants](../modules/modulesfiles/"
-"customVocab_manage.fr.png)"
 
-#: ../../docs/modules/customvocab.md:36
+#: ../../docs/modules/customvocab.md:39
+msgid ""
+"![Custom Vocab tab with two existing "
+"vocabularies](../modules/modulesfiles/customVocab_manage.png)"
+msgstr ""
+"![Page Custom Vocab avec deux vocabulaires "
+"existants](../modules/modulesfiles/customVocab_manage.fr.png)"
+
+#: ../../docs/modules/customvocab.md:39 ../../docs/modules/customvocab.md:43
+#, fuzzy
+msgid "Custom Vocab tab with two existing vocabularies"
+msgstr ""
+"![Page Custom Vocab avec deux vocabulaires "
+"existants](../modules/modulesfiles/customVocab_manage.fr.png)"
+
+#: ../../docs/modules/customvocab.md:41
+msgid ""
+"Clicking the ellipsis will show you the language of a vocabulary as well "
+"as a full listing of its terms. There are two buttons that allow you to "
+"\"Export\" a vocabulary, which can then be shared with other Omeka "
+"installations, or to \"Update\" the existing vocabulary from a file. Note"
+" that Items-type vocabularies cannot be exported or imported, as these "
+"vocabularies work as Omeka resources and could not replicated on another "
+"site."
+msgstr ""
+
+#: ../../docs/modules/customvocab.md:43
+#, fuzzy
+msgid ""
+"![Custom Vocab tab with two existing "
+"vocabularies](../modules/modulesfiles/customVocab_updateExport.png)"
+msgstr ""
+"![Page Custom Vocab avec deux vocabulaires "
+"existants](../modules/modulesfiles/customVocab_manage.fr.png)"
+
+#: ../../docs/modules/customvocab.md:45
 msgid ""
 "When editing a custom vocabulary, you can change the label, language, or "
 "terms."
@@ -188,129 +240,183 @@ msgstr ""
 "Lors de l’édition d’un vocabulaire personnalisé, vous pouvez modifier le "
 "libellé, la langue et les vocables."
 
-#: ../../docs/modules/customvocab.md:38
+#: ../../docs/modules/customvocab.md:47
 msgid "Using a custom vocab"
 msgstr "Utilisation d’un vocabulaire personnalisé"
 
-#: ../../docs/modules/customvocab.md:40
+#: ../../docs/modules/customvocab.md:49
 msgid ""
-"Custom Vocabularies are applied through [resource templates](../content/"
-"resource-template.md)."
+"Custom Vocabularies are applied through [resource templates](../content"
+"/resource-template.md)."
 msgstr ""
 "Les vocabulaires personnalisés sont appliqués par l’intermédiaire des "
 "[modèles de ressources](../content/resource-template.md)."
 
-#: ../../docs/modules/customvocab.md:42
+#: ../../docs/modules/customvocab.md:51
 msgid ""
-"Go to the Resource Templates and either add new or edit an existing template. "
-"Once you are editing the template:"
+"Go to the Resource Templates and either add new or edit an existing "
+"template. Once you are editing the template:"
 msgstr ""
-"Allez dans les modèles de ressources et ajoutez un nouveau modèle ou modifiez "
-"un modèle existant. Une fois que vous éditez le modèle :"
+"Allez dans les modèles de ressources et ajoutez un nouveau modèle ou "
+"modifiez un modèle existant. Une fois que vous éditez le modèle :"
 
-#: ../../docs/modules/customvocab.md:44
+#: ../../docs/modules/customvocab.md:53
 msgid "Add the property to which you want to apply the Custom Vocab."
 msgstr ""
 "Ajoutez la propriété à laquelle vous voulez appliquer le Vocabulaire "
 "personnalisé."
 
-#: ../../docs/modules/customvocab.md:45
+#: ../../docs/modules/customvocab.md:54
 msgid "Edit the property."
 msgstr "Modifiez la propriété."
 
-#: ../../docs/modules/customvocab.md:46
+#: ../../docs/modules/customvocab.md:55
 msgid ""
-"In the drawer which opens on the right, go to the Other options section and "
-"find the Data type dropdown."
+"In the drawer which opens on the right, go to the Other options section "
+"and find the Data type dropdown."
 msgstr ""
-"Dans le panneau qui s’ouvre à droite, allez dans la section Autres options et "
-"trouvez la liste déroulante Type de données."
+"Dans le panneau qui s’ouvre à droite, allez dans la section Autres "
+"options et trouvez la liste déroulante Type de données."
 
-#: ../../docs/modules/customvocab.md:47
+#: ../../docs/modules/customvocab.md:56
 msgid ""
-"Scroll through the dropdown and select the Custom Vocabulary you want to use."
+"Scroll through the dropdown and select the Custom Vocabulary you want to "
+"use."
 msgstr ""
 "Faites défiler la liste déroulante et sélectionnez le Vocabulaire "
 "personnalisé que vous souhaitez utiliser."
 
-#: ../../docs/modules/customvocab.md:48
+#: ../../docs/modules/customvocab.md:57
 msgid "Click set changes at the bottom of the drawer."
 msgstr "Cliquez sur Appliquer au bas du panneau pour valider vos modifications."
 
-#: ../../docs/modules/customvocab.md:50
+#: ../../docs/modules/customvocab.md:59
 msgid "Be sure to save your changes."
 msgstr "Veillez à enregistrer vos modifications."
 
-#: ../../docs/modules/customvocab.md:52
+#: ../../docs/modules/customvocab.md:61
 msgid ""
-"![Resource Template data being edited with dropdown open to show available "
-"vocabularies](../modules/modulesfiles/customVocab_select.png)"
+"![Resource Template data being edited with dropdown open to show "
+"available vocabularies](../modules/modulesfiles/customVocab_select.png)"
 msgstr ""
-"![Modèle de ressource en cours d’édition avec la liste déroulante ouverte "
-"pour afficher les vocabulaires disponibles](../modules/modulesfiles/"
-"customVocab_select.fr.png)"
+"![Modèle de ressource en cours d’édition avec la liste déroulante ouverte"
+" pour afficher les vocabulaires "
+"disponibles](../modules/modulesfiles/customVocab_select.fr.png)"
 
-#: ../../docs/modules/customvocab.md:54
+#: ../../docs/modules/customvocab.md:61
+#, fuzzy
+msgid ""
+"Resource Template data being edited with dropdown open to show available "
+"vocabularies"
+msgstr ""
+"![Modèle de ressource en cours d’édition avec la liste déroulante ouverte"
+" pour afficher les vocabulaires "
+"disponibles](../modules/modulesfiles/customVocab_select.fr.png)"
+
+#: ../../docs/modules/customvocab.md:63
 msgid ""
 "When you click the title of a Resource Template to see its details, the "
 "Custom Vocab will show up in the Data Type table heading."
 msgstr ""
-"Lorsque vous cliquez sur le titre d’un modèle de ressource pour en afficher "
-"les détails, le Vocabulaire personnalisé apparaît dans la colonne Type de "
-"données."
+"Lorsque vous cliquez sur le titre d’un modèle de ressource pour en "
+"afficher les détails, le Vocabulaire personnalisé apparaît dans la "
+"colonne Type de données."
 
-#: ../../docs/modules/customvocab.md:56
+#: ../../docs/modules/customvocab.md:65
 msgid ""
 "![Resource Template \"National Park\" with the custom vocabulary State "
-"applied to Spatial Coverage](../modules/modulesfiles/customVocab_resource.png)"
+"applied to Spatial "
+"Coverage](../modules/modulesfiles/customVocab_resource.png)"
 msgstr ""
 "![Modèle de ressource « National Park » avec le vocabulaire personnalisé "
-"State appliqué à la Spatial Coverage](../modules/modulesfiles/"
-"customVocab_resource.fr.png)"
+"State appliqué à la Spatial "
+"Coverage](../modules/modulesfiles/customVocab_resource.fr.png)"
 
-#: ../../docs/modules/customvocab.md:58
+#: ../../docs/modules/customvocab.md:65
+#, fuzzy
 msgid ""
-"When this Resource Template is used in an Item or Item Set, the designated "
-"properties will always load as a drop down menu with the values from the "
-"custom vocabulary."
+"Resource Template \"National Park\" with the custom vocabulary State "
+"applied to Spatial Coverage"
 msgstr ""
-"Lorsque ce modèle de ressource est utilisé pour un contenu ou une collection "
-"de contenus, les propriétés concernées seront toujours proposées sous forme "
-"de menu déroulant des vocables du vocabulaire personnalisé."
+"![Modèle de ressource « National Park » avec le vocabulaire personnalisé "
+"State appliqué à la Spatial "
+"Coverage](../modules/modulesfiles/customVocab_resource.fr.png)"
 
-#: ../../docs/modules/customvocab.md:60
+#: ../../docs/modules/customvocab.md:67
 msgid ""
-"In this image, the Resource Template modified earlier is loaded for a new "
-"item. See that Spatial Coverage has a \"select below\" message and arrows "
-"indicating the property input is a drop down menu."
+"When this Resource Template is used in an Item or Item Set, the "
+"designated properties will always load as a drop down menu with the "
+"values from the custom vocabulary."
 msgstr ""
-"Dans cette copie d’écran, le modèle de ressource modifié précédemment est "
-"chargé pour un nouveau contenu. Vous voyez que la propriété « Titre » "
-"comporte un message « choisir un terme ci-dessous » et une flèche indiquant "
-"que la propriété saisie est un menu déroulant."
+"Lorsque ce modèle de ressource est utilisé pour un contenu ou une "
+"collection de contenus, les propriétés concernées seront toujours "
+"proposées sous forme de menu déroulant des vocables du vocabulaire "
+"personnalisé."
 
-#: ../../docs/modules/customvocab.md:62
+#: ../../docs/modules/customvocab.md:69
+msgid ""
+"In this image, the Resource Template modified earlier is loaded for a new"
+" item. See that Spatial Coverage has a \"select below\" message and "
+"arrows indicating the property input is a drop down menu."
+msgstr ""
+"Dans cette copie d’écran, le modèle de ressource modifié précédemment est"
+" chargé pour un nouveau contenu. Vous voyez que la propriété « Titre » "
+"comporte un message « choisir un terme ci-dessous » et une flèche "
+"indiquant que la propriété saisie est un menu déroulant."
+
+#: ../../docs/modules/customvocab.md:71
 msgid "![as described](../modules/modulesfiles/customVocab_item1.png)"
 msgstr "![comme indiqué](../modules/modulesfiles/customVocab_item1.fr.png)"
 
-#: ../../docs/modules/customvocab.md:64
+#: ../../docs/modules/customvocab.md:71 ../../docs/modules/customvocab.md:75
+msgid "as described"
+msgstr ""
+
+#: ../../docs/modules/customvocab.md:73
 msgid ""
 "This image shows the dropdown open, displaying the values from the \"US "
 "states & territories\" vocabulary."
 msgstr ""
-"Cette image montre la liste déroulante, affichant les valeurs du vocabulaire "
-"« Vocabulaire institutionnel »."
+"Cette image montre la liste déroulante, affichant les valeurs du "
+"vocabulaire « Vocabulaire institutionnel »."
 
-#: ../../docs/modules/customvocab.md:66
+#: ../../docs/modules/customvocab.md:75
 msgid "![as described](../modules/modulesfiles/customVocab_item2.png)"
 msgstr "![comme indiqué](../modules/modulesfiles/customVocab_item2.fr.png)"
 
 #~ msgid ""
-#~ "*URIs:* a list of URIs with or without labels. Enter one URI per line. To "
-#~ "include a label, add a space and the label after the URI. When used, the "
-#~ "property will populate as a link to the external resource."
+#~ "*URIs:* a list of URIs with or "
+#~ "without labels. Enter one URI per "
+#~ "line. To include a label, add a"
+#~ " space and the label after the "
+#~ "URI. When used, the property will "
+#~ "populate as a link to the external"
+#~ " resource."
 #~ msgstr ""
-#~ "*URIs:* une liste d'URIs avec ou sans libellés. Saisir une URI par ligne. "
-#~ "Pour inclure un libellé, ajoutez un espace et le libellé après l'URI. "
-#~ "Lorsqu'elle est utilisée, la propriété sera remplie comme un lien vers une "
-#~ "ressource externe."
+#~ "*URIs:* une liste d'URIs avec ou "
+#~ "sans libellés. Saisir une URI par "
+#~ "ligne. Pour inclure un libellé, ajoutez"
+#~ " un espace et le libellé après "
+#~ "l'URI. Lorsqu'elle est utilisée, la "
+#~ "propriété sera remplie comme un lien "
+#~ "vers une ressource externe."
+
+#~ msgid ""
+#~ "Once you have created at least one"
+#~ " vocabulary, the Custom Vocab module "
+#~ "tab will display a table of your"
+#~ " existing vocabularies. The table displays"
+#~ " the **Label**, the buttons for edit,"
+#~ " delete, and display information, and "
+#~ "the **Owner** or creator of the "
+#~ "vocabulary."
+#~ msgstr ""
+#~ "Une fois que vous avez créé au "
+#~ "moins un vocabulaire, l'onglet du module"
+#~ " Custom Vocab affiche la table des"
+#~ " vocabulaires existants. Dans l’entête, se"
+#~ " trouvent le *Libellé*, les boutons "
+#~ "pour modifier, supprimer et afficher les"
+#~ " informations, ainsi que le *Propriétaire*"
+#~ " ou créateur du vocabulaire."
+

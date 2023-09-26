@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,13 @@ msgstr ""
 msgid ""
 "![Two checkbox options, the first being “Import Fedora Vocabulary” and "
 "the second “Import Linked Data Platform "
-"Vocabulary”](../modules/modulesfiles/mods_fcconfig.png)"
+"Vocabulary”](../modules/modulesfiles/fc_config.png)"
+msgstr ""
+
+#: ../../docs/modules/fedoraconnector.md:10
+msgid ""
+"Two checkbox options, the first being “Import Fedora Vocabulary” and the "
+"second “Import Linked Data Platform Vocabulary”"
 msgstr ""
 
 #: ../../docs/modules/fedoraconnector.md:12
@@ -83,7 +89,13 @@ msgstr ""
 #: ../../docs/modules/fedoraconnector.md:19
 msgid ""
 "![Fedora Connector navigation option with two options for Import and Past"
-" Imports](../modules/modulesfiles/mods_fcnav.png)"
+" Imports](../modules/modulesfiles/fc_nav.png)"
+msgstr ""
+
+#: ../../docs/modules/fedoraconnector.md:19
+msgid ""
+"Fedora Connector navigation option with two options for Import and Past "
+"Imports"
 msgstr ""
 
 #: ../../docs/modules/fedoraconnector.md:21
@@ -139,7 +151,11 @@ msgstr ""
 #: ../../docs/modules/fedoraconnector.md:31
 msgid ""
 "![Screenshot of the field options for Fedora "
-"Connector](../modules/modulesfiles/mods_fedoraconnect.png)"
+"Connector](../modules/modulesfiles/fc_options.png)"
+msgstr ""
+
+#: ../../docs/modules/fedoraconnector.md:31
+msgid "Screenshot of the field options for Fedora Connector"
 msgstr ""
 
 #: ../../docs/modules/fedoraconnector.md:33
@@ -157,17 +173,44 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/fedoraconnector.md:38
+msgid "Review imports"
+msgstr ""
+
+#: ../../docs/modules/fedoraconnector.md:40
+msgid ""
+"The \"Past Fedora Imports\" page displays a table of past Fedora imports,"
+" with a checkbox option to **Undo**, a checkbox option to **Re-run**, the"
+" **Container** of the import (ID with hyperlink to the container), any "
+"**Comments** made during import, the number of **Items** imported with a "
+"link to the advanced search results, the **Date** of the import, the "
+"import **Status**, and the **Owner**, or user who initiated the import."
+msgstr ""
+
+#: ../../docs/modules/fedoraconnector.md:42
+msgid ""
+"![Table of past imports showing one completed import, one import that "
+"resulted in an error, and one undone "
+"import](../modules/modulesfiles/fedora_past.png)"
+msgstr ""
+
+#: ../../docs/modules/fedoraconnector.md:42
+msgid ""
+"Table of past imports showing one completed import, one import that "
+"resulted in an error, and one undone import"
+msgstr ""
+
+#: ../../docs/modules/fedoraconnector.md:44
 msgid "Undo an import"
 msgstr ""
 
-#: ../../docs/modules/fedoraconnector.md:39
+#: ../../docs/modules/fedoraconnector.md:45
 msgid ""
 "To undo a completed import and remove all associated items, go to the "
 "Fedora Connector section under Modules, then click on the Past Imports "
 "page."
 msgstr ""
 
-#: ../../docs/modules/fedoraconnector.md:41
+#: ../../docs/modules/fedoraconnector.md:47
 msgid "Check the box for each import you wish to undo and click \"Submit\"."
 msgstr ""
 
@@ -330,5 +373,24 @@ msgstr ""
 #~ " addition to importing information, the "
 #~ "Omeka S item will include a link"
 #~ " back to the original item."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Two checkbox options, the first being"
+#~ " “Import Fedora Vocabulary” and the "
+#~ "second “Import Linked Data Platform "
+#~ "Vocabulary”](../modules/modulesfiles/mods_fcconfig.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Fedora Connector navigation option with "
+#~ "two options for Import and Past "
+#~ "Imports](../modules/modulesfiles/mods_fcnav.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Screenshot of the field options for"
+#~ " Fedora "
+#~ "Connector](../modules/modulesfiles/mods_fedoraconnect.png)"
 #~ msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,12 @@ msgid ""
 "option](../modulesfiles/scripto-projectAdd.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:13
+msgid ""
+"Action dropdown open with a red arrow pointing to the Add New Project "
+"option"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:15
 msgid ""
 "This will load the New project page, which has two tabs: Configuration "
@@ -68,6 +74,10 @@ msgstr ""
 msgid ""
 "![Just the top of new project page, showing the two tabs and the eye "
 "symbol](../modulesfiles/scripto-projectAdd2.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:19
+msgid "Just the top of new project page, showing the two tabs and the eye symbol"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:21
@@ -91,6 +101,12 @@ msgstr ""
 msgid ""
 "![Add New Project window open to the \"Configuration\" tab - all fields "
 "are blank](../../modules/modulesfiles/scripto-projectNewConfig.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:26
+msgid ""
+"Add New Project window open to the \"Configuration\" tab - all fields are"
+" blank"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:28
@@ -134,6 +150,10 @@ msgstr ""
 msgid ""
 "![Guidelines editor in action, displaying editor](../modulesfiles"
 "/scripto-projectGuideEdit.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:38
+msgid "Guidelines editor in action, displaying editor"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:40
@@ -315,6 +335,12 @@ msgid ""
 "side.](../modulesfiles/scripto_newrev.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:90
+msgid ""
+"Add New Project window open to the \"Reviewers\" tab - the page is "
+"largely blank, with an alphabetical menu down one side."
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:92
 msgid ""
 "On the right-hand side of the window is a browsable list of Omeka S "
@@ -358,6 +384,10 @@ msgstr ""
 msgid "![New project sync message](../modulesfiles/scripto-newproject.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:104
+msgid "New project sync message"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:106
 msgid ""
 "To sync the project, go to the Actions dropdown button in the upper right"
@@ -393,6 +423,10 @@ msgstr ""
 msgid ""
 "![scripto review page, user not logged in to "
 "Scripto](../../modules/modulesfiles/scripto-admin-project1.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:115
+msgid "scripto review page, user not logged in to Scripto"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:117
@@ -573,6 +607,10 @@ msgid ""
 "itemview.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:171
+msgid "item admin side with drawer open"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:173
 msgid ""
 "The main work area has two tabs: one summarizing Media information and "
@@ -713,6 +751,10 @@ msgstr ""
 msgid "![batch edit](../../modules/modulesfiles/scripto_batcheditmedia.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:212
+msgid "batch edit"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:214
 msgid ""
 "On the right side of the batch edit media view is a list of all of the "
@@ -742,6 +784,10 @@ msgstr ""
 msgid ""
 "![Omeka item metadata view](../../modules/modulesfiles/scripto-"
 "omekaitemmeta.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:221
+msgid "Omeka item metadata view"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:223
@@ -815,6 +861,10 @@ msgstr ""
 msgid "![Media review](../../modules/modulesfiles/scripto_mediareview1.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:244
+msgid "Media review"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:246
 msgid ""
 "The drawer on the right is where review actions take place, in the "
@@ -836,6 +886,10 @@ msgstr ""
 msgid ""
 "![This revision section showing an old "
 "revision](../../modules/modulesfiles/scripto-thisrevold.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:250
+msgid "This revision section showing an old revision"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:252
@@ -922,7 +976,12 @@ msgid ""
 "history](../../modules/modulesfiles/scripto_revisionhist.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:271
+msgid "Revision history"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:274
+#: ../../docs/modules/scripto/scriptoproject.md:283
 msgid "Notes"
 msgstr ""
 
@@ -938,6 +997,12 @@ msgid ""
 "![a red arrow points to the \"View notes\" button in a close-up of the "
 "upper right hand "
 "corner](../../modules/modulesfiles/scripto_notes_loc.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:277
+msgid ""
+"a red arrow points to the \"View notes\" button in a close-up of the "
+"upper right hand corner"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:279
@@ -992,6 +1057,10 @@ msgstr ""
 msgid "![Actions dropdown](../../modules/modulesfiles/scripto-actions.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:294
+msgid "Actions dropdown"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:296
 msgid ""
 "All three of these actions open a drawer on the right side of the screen "
@@ -1021,6 +1090,12 @@ msgid ""
 "syncproject.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:303
+msgid ""
+"Sync content drawer with a message summarizing what it does. At the "
+"bottom is a button which says \"Sync project\""
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:306
 msgid ""
 "This option is how you move content from your Scripto project **to** "
@@ -1047,6 +1122,12 @@ msgid ""
 "/scripto-importproject.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoproject.md:312
+msgid ""
+"Import content drawer with a message summarizing what it does. At the "
+"bottom is a button which says \"Import project\""
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoproject.md:314
 msgid "Unimport content"
 msgstr ""
@@ -1060,6 +1141,12 @@ msgid ""
 "![Unimport content drawer with a message summarizing what it does. At the"
 " bottom is a button which says \"Unimport project\"](../modulesfiles"
 "/scripto-unimportproject.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:317
+msgid ""
+"Unimport content drawer with a message summarizing what it does. At the "
+"bottom is a button which says \"Unimport project\""
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:319
@@ -1082,6 +1169,10 @@ msgstr ""
 msgid ""
 "![arrow pointing to the delete button](../modulesfiles/scripto-"
 "deleteProject.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoproject.md:324
+msgid "arrow pointing to the delete button"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoproject.md:326

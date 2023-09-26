@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,11 +99,18 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/extractmetadata.md:23
-#: ../../docs/modules/extractmetadata.md:98
+#: ../../docs/modules/extractmetadata.md:96
 msgid ""
 "![Extract Metadata module configuration view with JSON Pointer crosswalk "
 "and submit button indicated by a teal "
-"arrow](../modules/modulesfiles/extractMetadata_config.png)"
+"arrow](../modules/modulesfiles/extractmetadata_config.png)"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:23
+#: ../../docs/modules/extractmetadata.md:96
+msgid ""
+"Extract Metadata module configuration view with JSON Pointer crosswalk "
+"and submit button indicated by a teal arrow"
 msgstr ""
 
 #: ../../docs/modules/extractmetadata.md:25
@@ -177,7 +184,13 @@ msgstr ""
 #: ../../docs/modules/extractmetadata.md:47
 msgid ""
 "![Item edit view with the Extract metadata tab active and the actions "
-"dropdown menu open](../modules/modulesfiles/extractMetadata_actions.png)"
+"dropdown menu open](../modules/modulesfiles/extractmetadata_actions.png)"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:47
+msgid ""
+"Item edit view with the Extract metadata tab active and the actions "
+"dropdown menu open"
 msgstr ""
 
 #: ../../docs/modules/extractmetadata.md:49
@@ -202,6 +215,10 @@ msgstr ""
 msgid ""
 "![Batch edit view with Extract metadata dropdown "
 "open](../modules/modulesfiles/extractmetadata_batchedit.png)"
+msgstr ""
+
+#: ../../docs/modules/extractmetadata.md:55
+msgid "Batch edit view with Extract metadata dropdown open"
 msgstr ""
 
 #: ../../docs/modules/extractmetadata.md:57
@@ -270,14 +287,16 @@ msgstr ""
 msgid ""
 "Mappers map extracted metadata to resource values. Note that a mapper "
 "must be enabled on the module configuration page. This module comes with "
-"one mapper, but more can be added depending on your needs."
+"one mapper. Best practice for using this module with other mappers would "
+"be to fork the module code; see [our developer documentation for more "
+"details](https://omeka.org/s/docs/developer/modules/)."
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:83
+#: ../../docs/modules/extractmetadata.md:81
 msgid "JSON pointer"
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:85
+#: ../../docs/modules/extractmetadata.md:83
 msgid ""
 "You can map extracted metadata to media metadata properties using [JSON "
 "pointers](https://datatracker.ietf.org/doc/html/rfc6901). You must define"
@@ -285,14 +304,14 @@ msgid ""
 "\"JSON Pointer crosswalk\" tab."
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:87
+#: ../../docs/modules/extractmetadata.md:85
 msgid ""
 "You may wish to extract metadata from a few files first and see what "
 "information can be pointed to, then test some options on where best to "
 "map them."
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:89
+#: ../../docs/modules/extractmetadata.md:87
 msgid ""
 "One common example is to map a JPEG file's creation date to Dublin Core's"
 " \"Date Created\" property. The pointer points to the `DateTimeOriginal` "
@@ -300,31 +319,31 @@ msgid ""
 "media item and look at the \"Extract metadata\" tab."
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:91
+#: ../../docs/modules/extractmetadata.md:89
 msgid "Set up the mapper as follows:"
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:92
+#: ../../docs/modules/extractmetadata.md:90
 msgid "Resource: [Media or Item]"
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:93
+#: ../../docs/modules/extractmetadata.md:91
 msgid "Extractor: \"Exif\""
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:94
+#: ../../docs/modules/extractmetadata.md:92
 msgid "Pointer: `/EXIF/DateTimeOriginal`"
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:95
+#: ../../docs/modules/extractmetadata.md:93
 msgid "Property: \"Dublin Core : Date Created\""
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:96
+#: ../../docs/modules/extractmetadata.md:94
 msgid "Replace values: [checked or unchecked]."
 msgstr ""
 
-#: ../../docs/modules/extractmetadata.md:100
+#: ../../docs/modules/extractmetadata.md:98
 msgid ""
 "Once you've saved this map, perform the \"Map metadata\" action on one "
 "file or in a batch, and, if your JPEG file includes `DateTimeOriginal`, "
@@ -582,5 +601,28 @@ msgstr ""
 #~ " crosswalk in the module configuration "
 #~ "page under the \"JSON Pointer "
 #~ "crosswalk\" tab."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Extract Metadata module configuration view"
+#~ " with JSON Pointer crosswalk and "
+#~ "submit button indicated by a teal "
+#~ "arrow](../modules/modulesfiles/extractMetadata_config.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Item edit view with the Extract "
+#~ "metadata tab active and the actions "
+#~ "dropdown menu "
+#~ "open](../modules/modulesfiles/extractMetadata_actions.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mappers map extracted metadata to "
+#~ "resource values. Note that a mapper "
+#~ "must be enabled on the module "
+#~ "configuration page. This module comes "
+#~ "with one mapper, but more can be"
+#~ " added depending on your needs."
 #~ msgstr ""
 

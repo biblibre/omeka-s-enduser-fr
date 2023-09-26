@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,6 +167,13 @@ msgid ""
 "Resource](../modules/modulesfiles/datacleaning_prepareAudit.png)"
 msgstr ""
 
+#: ../../docs/modules/datacleaning.md:45
+msgid ""
+"The Prepare Audit screen with Items set as the Resource Type; a Resource "
+"Query for Item set Events; the Property set to Schema:location; the Audit"
+" column set to value_resource_id;  and the Data type set to Resource"
+msgstr ""
+
 #: ../../docs/modules/datacleaning.md:47
 msgid "Audit data"
 msgstr ""
@@ -198,6 +205,12 @@ msgid ""
 "![Strings message and table for an audit. This audit has 18 unique "
 "strings for 66 resources, and the to and from information is "
 "identical](../modules/modulesfiles/datacleaning_auditTable1.png)"
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:54
+msgid ""
+"Strings message and table for an audit. This audit has 18 unique strings "
+"for 66 resources, and the to and from information is identical"
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:56
@@ -264,6 +277,13 @@ msgid ""
 " the validate button is red indicating a data type mismatch; the second "
 "row of the To column has valid integer data and a green validate "
 "button](../modules/modulesfiles/datacleaning_auditTableValidation.png)"
+msgstr ""
+
+#: ../../docs/modules/datacleaning.md:68
+msgid ""
+"Audit edit table with invalid string in the first row of the To column, "
+"the validate button is red indicating a data type mismatch; the second "
+"row of the To column has valid integer data and a green validate button"
 msgstr ""
 
 #: ../../docs/modules/datacleaning.md:70

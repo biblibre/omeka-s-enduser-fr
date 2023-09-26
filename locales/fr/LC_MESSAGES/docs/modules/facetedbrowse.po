@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,6 +120,10 @@ msgid ""
 "dropdown](../modules/modulesfiles/FacetedBrowse-AddPage.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:31
+msgid "Create page interface showing save page dropdown"
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:33
 msgid ""
 "The **title** functions the same as the title of a regular page: it will "
@@ -175,6 +179,12 @@ msgid ""
 "interface](../modules/modulesfiles/FacetedBrowse-SearchQuery.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:49
+msgid ""
+"Add category form with name filled in and search query Edit buttons "
+"interface"
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:51
 msgid ""
 "After setting the pool of resources, you can create facets and add "
@@ -212,6 +222,10 @@ msgid ""
 "/FacetedBrowse-SelectFacetType.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:61
+msgid "Facet Type dropdown menu showing options"
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:63
 msgid ""
 "Once the type is selected, click the \"Add\" button. A drawer will open "
@@ -223,6 +237,10 @@ msgstr ""
 msgid ""
 "![Configure Facet draw for the Values facet type](../modules/modulesfiles"
 "/FacetedBrowse-ConfigureFacetV.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:65
+msgid "Configure Facet draw for the Values facet type"
 msgstr ""
 
 #: ../../docs/modules/facetedbrowse.md:67
@@ -473,6 +491,10 @@ msgid ""
 "Types](../modules/modulesfiles/FacetedBrowse-NumericDataTypesSelect.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:164
+msgid "Facet Type dropdown menu showing options including Numeric Date Types"
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:166
 msgid ""
 "Once you have selected a facet type, you will be able to configure the "
@@ -494,6 +516,14 @@ msgid ""
 "DatesPublic.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:170
+msgid ""
+"Public Faceted Browse page with radio button selects for a list of Status"
+" values and a \"Birth Data Before\" dropdown menu in the left column. In "
+"the right column is a table of items with information for Title, "
+"Location, and Spouse"
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:172
 msgid "Columns"
 msgstr ""
@@ -510,7 +540,12 @@ msgstr ""
 #: ../../docs/modules/facetedbrowse.md:176
 msgid ""
 "You can configure the information displayed about the results by adding "
-"columns of metadata to the display for your faceted browse."
+"columns of metadata to the display for your faceted browse. On the public"
+" view of a facted browse, users can sort by a column by selecting it from"
+" a dropdown menu. This column can then be sorted in ascending or "
+"descending order. If you would like to prevent users from sorting by a "
+"certain column, you can check the \"Exclude sort by\" checkbox when "
+"configuring that column to exclude it from the dropdown menu."
 msgstr ""
 
 #: ../../docs/modules/facetedbrowse.md:178
@@ -594,6 +629,10 @@ msgid ""
 "navigation](../modules/modulesfiles/FacetedBrowse-AddPageNav.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:212
+msgid "Custom links in the right drawer to add elements to the navigation"
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:214
 msgid ""
 "Give your custom link a label (required), and select from your dropdown "
@@ -625,6 +664,12 @@ msgid ""
 " buttons.](../modules/modulesfiles/FacetedBrowse_publicView.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:224
+msgid ""
+"Faceted browse page with a list of events which happened on the National "
+"Mall. On the left side of the image is a list of eras with radio buttons."
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:226
 msgid ""
 "In this image, the facet is Era, displayed as a single-choice list. The "
@@ -650,6 +695,12 @@ msgid ""
 "/FacetedBrowse-multiCatView1.png)"
 msgstr ""
 
+#: ../../docs/modules/facetedbrowse.md:232
+msgid ""
+"Faceted browse page with two categories. The categories are highlighted "
+"in a red annotation box labelled \"Categories\""
+msgstr ""
+
 #: ../../docs/modules/facetedbrowse.md:234
 msgid ""
 "Once a user clicks on a category, the resource list will change to "
@@ -664,6 +715,13 @@ msgid ""
 "up above the facets. Over that is a button labelled \"back.\" Annotations"
 " indicate the button, category, and facet "
 "headings.](../modules/modulesfiles/FacetedBrowse-multiCatView2.png)"
+msgstr ""
+
+#: ../../docs/modules/facetedbrowse.md:236
+msgid ""
+"A faceted browse page with facets visible. The category heading shows up "
+"above the facets. Over that is a button labelled \"back.\" Annotations "
+"indicate the button, category, and facet headings."
 msgstr ""
 
 #~ msgid ""
@@ -1065,5 +1123,12 @@ msgstr ""
 #~ "pages with facets - filter and "
 #~ "sort functions - that site visitors "
 #~ "can use."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can configure the information "
+#~ "displayed about the results by adding"
+#~ " columns of metadata to the display"
+#~ " for your faceted browse."
 #~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2022-06-27 10:57+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language: fr\n"
@@ -43,8 +43,9 @@ msgstr ""
 
 #: ../../docs/modules/collecting.md:7
 msgid ""
-"Collecting integrates with the [Custom Vocab](../modules/customvocab.md) "
-"and the [Numeric Data Types](../modules/numericdatatypes.md) modules."
+"Collecting integrates with the [Custom Vocab](../modules/customvocab.md),"
+" [Mapping](../modules/mapping.md), and [Numeric Data "
+"Types](../modules/numericdatatypes.md) modules."
 msgstr ""
 
 #: ../../docs/modules/collecting.md:9
@@ -70,6 +71,15 @@ msgstr ""
 "![La section Collectes des paramètres du site avec deux champs comme "
 "décrits ci-dessous.](modulesfiles/collecting_settingsSite.png)"
 
+#: ../../docs/modules/collecting.md:13
+#, fuzzy
+msgid ""
+"The Collecting section in site settings with two fields as described "
+"below."
+msgstr ""
+"![La section Collectes des paramètres du site avec deux champs comme "
+"décrits ci-dessous.](modulesfiles/collecting_settingsSite.png)"
+
 #: ../../docs/modules/collecting.md:15
 msgid "In this section are two fields:"
 msgstr "Dans cette section il y a deux champs:"
@@ -89,6 +99,16 @@ msgid ""
 "![from the collecting form, the words \"I accept the Terms of Service\" "
 "over a button that says submit. The phrase Terms of Service are a "
 "link.](modulesfiles/collecting-ToSlink.png)"
+msgstr ""
+"![dans le formulaire de collecte, les mots « J'accepte les conditions "
+"d'utilisation » au dessus d'un bouton soumettre. Les mots conditions "
+"d'utilisation sont un lien.](modulesfiles/collecting-ToSlink.png)"
+
+#: ../../docs/modules/collecting.md:19
+#, fuzzy
+msgid ""
+"from the collecting form, the words \"I accept the Terms of Service\" "
+"over a button that says submit. The phrase Terms of Service are a link."
 msgstr ""
 "![dans le formulaire de collecte, les mots « J'accepte les conditions "
 "d'utilisation » au dessus d'un bouton soumettre. Les mots conditions "
@@ -165,6 +185,13 @@ msgstr ""
 "![Des champs avec une flèche rouge pointant vers la colonne des boutons "
 "de modification](modulesfiles/collecting_edit2.png)"
 
+#: ../../docs/modules/collecting.md:36
+#, fuzzy
+msgid "Red arrow points to the Collecting tab of the site National Parks"
+msgstr ""
+"![Des champs avec une flèche rouge pointant vers la colonne des boutons "
+"de modification](modulesfiles/collecting_edit2.png)"
+
 #: ../../docs/modules/collecting.md:38
 #, fuzzy
 msgid ""
@@ -189,6 +216,13 @@ msgstr ""
 "![Onglet collecte, aucun formulaire, une flèche rouge pointe vers le "
 "bouton Ajouter Nouveau](modulesfiles/collecting_addnew.png)"
 
+#: ../../docs/modules/collecting.md:40
+#, fuzzy
+msgid "Collecting tab, no forms, red arrow points to the Add New button"
+msgstr ""
+"![Onglet collecte, aucun formulaire, une flèche rouge pointe vers le "
+"bouton Ajouter Nouveau](modulesfiles/collecting_addnew.png)"
+
 #: ../../docs/modules/collecting.md:42
 msgid ""
 "The Add Collecting Form page has two sections: the first has a set of "
@@ -206,6 +240,11 @@ msgid "![Add Collecting Form page](modulesfiles/collecting_addform.png)"
 msgstr ""
 "![Page Ajouter un formulaire de "
 "collecte](modulesfiles/collecting_addform.png)"
+
+#: ../../docs/modules/collecting.md:44
+#, fuzzy
+msgid "Add Collecting Form page"
+msgstr "Pour ajouter un formulaire de collecte à une page:"
 
 #: ../../docs/modules/collecting.md:46
 #, fuzzy
@@ -323,6 +362,10 @@ msgstr ""
 "![La liste déroulante Ajouter un "
 "champ](modulesfiles/collecting_prompts.png)"
 
+#: ../../docs/modules/collecting.md:63
+msgid "Add prompt dropdown"
+msgstr ""
+
 #: ../../docs/modules/collecting.md:65
 msgid "The Collecting module has Prompt Types with options as follows:"
 msgstr "Le module Collecting a des types de champs avec des options comme suit:"
@@ -343,10 +386,10 @@ msgstr ""
 "Propriété: sélectionnez une propriété parmi les vocabulaires (exemple: "
 "Description)"
 
-#: ../../docs/modules/collecting.md:70 ../../docs/modules/collecting.md:94
-#: ../../docs/modules/collecting.md:99 ../../docs/modules/collecting.md:108
-#: ../../docs/modules/collecting.md:113 ../../docs/modules/collecting.md:118
-#: ../../docs/modules/collecting.md:127
+#: ../../docs/modules/collecting.md:70 ../../docs/modules/collecting.md:95
+#: ../../docs/modules/collecting.md:100 ../../docs/modules/collecting.md:109
+#: ../../docs/modules/collecting.md:114 ../../docs/modules/collecting.md:119
+#: ../../docs/modules/collecting.md:128
 msgid ""
 "Prompt Text: If you want the prompt to be something other than the "
 "property label."
@@ -354,8 +397,8 @@ msgstr ""
 "Texte du champ: Si vous voulez que le champ soit autre chose que le "
 "libellé de la propriété."
 
-#: ../../docs/modules/collecting.md:71 ../../docs/modules/collecting.md:100
-#: ../../docs/modules/collecting.md:119 ../../docs/modules/collecting.md:128
+#: ../../docs/modules/collecting.md:71 ../../docs/modules/collecting.md:101
+#: ../../docs/modules/collecting.md:120 ../../docs/modules/collecting.md:129
 msgid "Input type: length and kind of input box. Choose from:"
 msgstr "Type de champ: taille et type de champ. Choisissez parmi:"
 
@@ -369,8 +412,8 @@ msgstr "Champ texte (une ligne)"
 msgid "Text box (multiple line)."
 msgstr "Champ texte (plusieurs lignes)"
 
-#: ../../docs/modules/collecting.md:74 ../../docs/modules/collecting.md:103
-#: ../../docs/modules/collecting.md:122 ../../docs/modules/collecting.md:131
+#: ../../docs/modules/collecting.md:74 ../../docs/modules/collecting.md:104
+#: ../../docs/modules/collecting.md:123 ../../docs/modules/collecting.md:132
 #, fuzzy
 msgid ""
 "Select menu (dropdown): enter the options for the menu in the \"Select "
@@ -425,10 +468,10 @@ msgstr "Durée"
 msgid "Numeric integer."
 msgstr "Entier"
 
-#: ../../docs/modules/collecting.md:82 ../../docs/modules/collecting.md:95
-#: ../../docs/modules/collecting.md:104 ../../docs/modules/collecting.md:109
-#: ../../docs/modules/collecting.md:114 ../../docs/modules/collecting.md:123
-#: ../../docs/modules/collecting.md:132
+#: ../../docs/modules/collecting.md:82 ../../docs/modules/collecting.md:96
+#: ../../docs/modules/collecting.md:105 ../../docs/modules/collecting.md:110
+#: ../../docs/modules/collecting.md:115 ../../docs/modules/collecting.md:124
+#: ../../docs/modules/collecting.md:133
 #, fuzzy
 msgid "Check the \"Required?\" box if the prompt is required."
 msgstr "Cochez la case « Requis ? » si le champ est obligatoire."
@@ -466,19 +509,32 @@ msgstr ""
 "natif du navigateur (avec les touches Majuscule ou Contrôle);"
 
 #: ../../docs/modules/collecting.md:91
-#, fuzzy
-msgid "Map (requires Mapping module)"
-msgstr "Carte (nécessite le module Mapping);"
+msgid ""
+"If you have [Mapping](../modules/mapping.md) installed, you can add a map"
+" which allows users to provide locations by clicking directly on the map "
+"and providing a label in the field directly below it. If the field below "
+"the map is left blank, the marker will be labeled with the contents of "
+"the Title field. ![The public facing Collecting page includes a map for "
+"selecting a location. A field directly below the map allows users to "
+"input the marker label.](modulesfiles/collecting_map.png)"
+msgstr ""
 
-#: ../../docs/modules/collecting.md:92
-msgid "URL"
+#: ../../docs/modules/collecting.md:91
+msgid ""
+"The public facing Collecting page includes a map for selecting a "
+"location. A field directly below the map allows users to input the marker"
+" label."
 msgstr ""
 
 #: ../../docs/modules/collecting.md:93
+msgid "URL"
+msgstr ""
+
+#: ../../docs/modules/collecting.md:94
 msgid "HTML."
 msgstr "HTML."
 
-#: ../../docs/modules/collecting.md:97
+#: ../../docs/modules/collecting.md:98
 #, fuzzy
 msgid ""
 "**Item Supplementary** adds additional information for the item, not "
@@ -487,17 +543,17 @@ msgstr ""
 "**Contenu complémentaire** information supplémentaire sur le contenu, "
 "sans lien avec un vocabulaire ou une propriété particulière."
 
-#: ../../docs/modules/collecting.md:101 ../../docs/modules/collecting.md:120
-#: ../../docs/modules/collecting.md:129
+#: ../../docs/modules/collecting.md:102 ../../docs/modules/collecting.md:121
+#: ../../docs/modules/collecting.md:130
 msgid "Text box (one line)"
 msgstr "Champ texte (une ligne)"
 
-#: ../../docs/modules/collecting.md:102 ../../docs/modules/collecting.md:121
-#: ../../docs/modules/collecting.md:130
+#: ../../docs/modules/collecting.md:103 ../../docs/modules/collecting.md:122
+#: ../../docs/modules/collecting.md:131
 msgid "Text box (multiple line)"
 msgstr "Champ texte (plusieurs lignes)"
 
-#: ../../docs/modules/collecting.md:106
+#: ../../docs/modules/collecting.md:107
 #, fuzzy
 msgid ""
 "**User Name** to become the owner of the item. If the person using the "
@@ -508,7 +564,7 @@ msgstr ""
 "contenu. Si la personne utilisant le formulaire est authentifié, le champ"
 " sera pré-rempli."
 
-#: ../../docs/modules/collecting.md:111
+#: ../../docs/modules/collecting.md:112
 #, fuzzy
 msgid ""
 "**User Email** where the person adding the item can give their email. If "
@@ -519,7 +575,7 @@ msgstr ""
 " adresse e-mail. Si le champ est laissé vide, la personne ne recevra pas "
 "d'e-mail avec le texte du champ *Texte d'e-mail*."
 
-#: ../../docs/modules/collecting.md:116
+#: ../../docs/modules/collecting.md:117
 msgid ""
 "**User Private** collect additional information from the user which will "
 "be kept private."
@@ -527,7 +583,7 @@ msgstr ""
 "**Info utilisateur privée** collecte des informations supplémentaires sur"
 " l'utilisateur qui seront conservées de manière privée."
 
-#: ../../docs/modules/collecting.md:125
+#: ../../docs/modules/collecting.md:126
 msgid ""
 "**User Public** collect additional information from the user which can be"
 " made public"
@@ -535,7 +591,7 @@ msgstr ""
 "**Info utilisateur publique** collecte des informations supplémentaires "
 "sur l'utilisateur qui pourront être rendues publiques"
 
-#: ../../docs/modules/collecting.md:134
+#: ../../docs/modules/collecting.md:135
 #, fuzzy
 msgid ""
 "**HTML**: Insert a block of HTML text into the form, for additional "
@@ -546,29 +602,11 @@ msgstr ""
 " des informations, etc. Le champ Texte du champ a des options de "
 "formatage WYSIWYG."
 
-#: ../../docs/modules/collecting.md:136
-#, fuzzy
-msgid ""
-"You can rearrange the order of prompts by dragging and dropping them "
-"using the three-line icon on the far left of the Type label."
-msgstr ""
-"Vous pouvez réorganiser l'ordre des champs en les glissant et les "
-"déposant via l'utilisation de l'icône des trois lignes tout à gauche de "
-"libellé du type de champ."
-
-#: ../../docs/modules/collecting.md:138 ../../docs/modules/collecting.md:157
-msgid ""
-"![Prompts with a red arrow pointing to the icon for dragging and "
-"dropping](modulesfiles/collecting_dragthis.png)"
-msgstr ""
-"![Des champs avec une flèche rouge qui pointe vers l'icône de "
-"glisser/déposer](modulesfiles/collecting_dragthis.png)"
-
-#: ../../docs/modules/collecting.md:140
+#: ../../docs/modules/collecting.md:137
 msgid "Manage forms"
 msgstr ""
 
-#: ../../docs/modules/collecting.md:142
+#: ../../docs/modules/collecting.md:139
 msgid ""
 "Once you have at least one Collecting form, they will appear on the "
 "Collecting Forms page. Click the edit button (pencil) to edit the form. "
@@ -581,14 +619,14 @@ msgstr ""
 "libellé du formulaire pour voir plus d'informations à son sujet et pour "
 "voir les contenus collectés."
 
-#: ../../docs/modules/collecting.md:144
+#: ../../docs/modules/collecting.md:141
 #, fuzzy
 msgid "The form page has two tabs: Form Information and Collected Items."
 msgstr ""
 "La page du formulaire a deux onglets: Informations du formulaire et "
 "Contenus collectés"
 
-#: ../../docs/modules/collecting.md:146
+#: ../../docs/modules/collecting.md:143
 #, fuzzy
 msgid ""
 "The form information tab shows you the existing data for label, anonymity"
@@ -600,7 +638,7 @@ msgstr ""
 "tous les champs, dans l'ordre, avec leur type, texte, et s'ils sont "
 "obligatoires ou non."
 
-#: ../../docs/modules/collecting.md:148
+#: ../../docs/modules/collecting.md:145
 msgid ""
 "![Form info page for \"share a quote\" "
 "form](modulesfiles/collecting_forminfo.png)"
@@ -608,7 +646,14 @@ msgstr ""
 "![Page d'informations pour le formulaire « share a quote "
 "»](modulesfiles/collecting_forminfo.png)"
 
-#: ../../docs/modules/collecting.md:150
+#: ../../docs/modules/collecting.md:145
+#, fuzzy
+msgid "Form info page for \"share a quote\" form"
+msgstr ""
+"![Page d'informations pour le formulaire « share a quote "
+"»](modulesfiles/collecting_forminfo.png)"
+
+#: ../../docs/modules/collecting.md:147
 msgid ""
 "To edit the form, click the \"Edit form\" button in the upper right hand "
 "corner. The options are in the edit form page are the same as when adding"
@@ -616,7 +661,7 @@ msgid ""
 " This will open the sidebar drawer for that prompt."
 msgstr ""
 
-#: ../../docs/modules/collecting.md:153
+#: ../../docs/modules/collecting.md:150
 msgid ""
 "![Prompts with a red arrow pointing at the column of edit "
 "buttons](modulesfiles/collecting_edit2.png)"
@@ -624,7 +669,14 @@ msgstr ""
 "![Des champs avec une flèche rouge pointant vers la colonne des boutons "
 "de modification](modulesfiles/collecting_edit2.png)"
 
-#: ../../docs/modules/collecting.md:155
+#: ../../docs/modules/collecting.md:150
+#, fuzzy
+msgid "Prompts with a red arrow pointing at the column of edit buttons"
+msgstr ""
+"![Des champs avec une flèche rouge pointant vers la colonne des boutons "
+"de modification](modulesfiles/collecting_edit2.png)"
+
+#: ../../docs/modules/collecting.md:152
 msgid ""
 "You can rearrange the order of prompts by dragging and dropping them "
 "using the three-line icon on the far left of the Prompt Type label."
@@ -633,15 +685,30 @@ msgstr ""
 "déposant via l'utilisation de l'icône des trois lignes tout à gauche de "
 "libellé du type de champ."
 
-#: ../../docs/modules/collecting.md:159
+#: ../../docs/modules/collecting.md:154
+msgid ""
+"![Prompts with a red arrow pointing to the icon for dragging and "
+"dropping](modulesfiles/collecting_dragthis.png)"
+msgstr ""
+"![Des champs avec une flèche rouge qui pointe vers l'icône de "
+"glisser/déposer](modulesfiles/collecting_dragthis.png)"
+
+#: ../../docs/modules/collecting.md:154
+#, fuzzy
+msgid "Prompts with a red arrow pointing to the icon for dragging and dropping"
+msgstr ""
+"![Des champs avec une flèche rouge qui pointe vers l'icône de "
+"glisser/déposer](modulesfiles/collecting_dragthis.png)"
+
+#: ../../docs/modules/collecting.md:156
 msgid "Add to site pages"
 msgstr ""
 
-#: ../../docs/modules/collecting.md:161
+#: ../../docs/modules/collecting.md:158
 msgid "To add a collecting form to a page:"
 msgstr "Pour ajouter un formulaire de collecte à une page:"
 
-#: ../../docs/modules/collecting.md:163
+#: ../../docs/modules/collecting.md:160
 #, fuzzy
 msgid ""
 "Go to the page on which you want the form to appear (or add a new page "
@@ -650,14 +717,14 @@ msgstr ""
 "Allez sur la page sur laquelle vous voulez que le formulaire apparaisse "
 "(ou ajoutez une nouvelle page pour le formulaire)"
 
-#: ../../docs/modules/collecting.md:164
+#: ../../docs/modules/collecting.md:161
 #, fuzzy
 msgid "From the **Add New Block** sidebar select the **Collecting** block."
 msgstr ""
 "À partir de la barre latérale *Ajouter un nouveau bloc* sélectionnez le "
 "bloc *Collecte*"
 
-#: ../../docs/modules/collecting.md:165
+#: ../../docs/modules/collecting.md:162
 #, fuzzy
 msgid ""
 "On the Collecting block, click the box for the form you want to include. "
@@ -669,7 +736,7 @@ msgstr ""
 "voulez inclure. Vous pouvez ajouter plusieurs formulaires sur la page en "
 "cochant plusieurs cases."
 
-#: ../../docs/modules/collecting.md:167
+#: ../../docs/modules/collecting.md:164
 msgid ""
 "![Collecting block with one form, its box "
 "checked](modulesfiles/collecting_pageblock.png)"
@@ -677,7 +744,14 @@ msgstr ""
 "![Bloc Collecte pour un formulaire, avec sa case "
 "cochée](modulesfiles/collecting_pageblock.png)"
 
-#: ../../docs/modules/collecting.md:169
+#: ../../docs/modules/collecting.md:164
+#, fuzzy
+msgid "Collecting block with one form, its box checked"
+msgstr ""
+"![Bloc Collecte pour un formulaire, avec sa case "
+"cochée](modulesfiles/collecting_pageblock.png)"
+
+#: ../../docs/modules/collecting.md:166
 msgid ""
 "On the public page, your form block will appear as a `<form>` element "
 "with an ID of `collecting_form_X`, where X is the ID of the form. "
@@ -689,25 +763,29 @@ msgid ""
 "displayed."
 msgstr ""
 
-#: ../../docs/modules/collecting.md:171
+#: ../../docs/modules/collecting.md:168
 msgid ""
 "![An example of a Collecting form, from the covid-19archive.org "
 "website.](modulesfiles/collecting_publicformexample.png)"
 msgstr ""
 
-#: ../../docs/modules/collecting.md:174
+#: ../../docs/modules/collecting.md:168
+msgid "An example of a Collecting form, from the covid-19archive.org website."
+msgstr ""
+
+#: ../../docs/modules/collecting.md:171
 #, fuzzy
 msgid "Managing collected items"
 msgstr "Gérer les contenus collectés"
 
-#: ../../docs/modules/collecting.md:176
+#: ../../docs/modules/collecting.md:173
 msgid ""
 "Items added via a collecting form will appear in the Items section of the"
 " admin dashboard, but you may find it easier to manage them through the "
 "Collecting tab of the site through which they were collected."
 msgstr ""
 
-#: ../../docs/modules/collecting.md:178
+#: ../../docs/modules/collecting.md:175
 #, fuzzy
 msgid ""
 "To see the items collected with a specific form, go to the Collecting tab"
@@ -718,7 +796,7 @@ msgstr ""
 "dans l'onglet Collectes du menu contextuel du site et cliquez sur le "
 "libellé du formulaire. Puis cliquez sur l'onglet *Contenus collectés*."
 
-#: ../../docs/modules/collecting.md:180
+#: ../../docs/modules/collecting.md:177
 msgid ""
 "![Collected Items tab with a number of "
 "items](modulesfiles/collecting_items.png)"
@@ -726,7 +804,14 @@ msgstr ""
 "![L'onglet Contenus collectés avec un certain nombre de "
 "contenus](modulesfiles/collecting_items.png)"
 
-#: ../../docs/modules/collecting.md:182
+#: ../../docs/modules/collecting.md:177
+#, fuzzy
+msgid "Collected Items tab with a number of items"
+msgstr ""
+"![L'onglet Contenus collectés avec un certain nombre de "
+"contenus](modulesfiles/collecting_items.png)"
+
+#: ../../docs/modules/collecting.md:179
 #, fuzzy
 msgid ""
 "This tab has a table of collected items listed by Title, the Date "
@@ -736,7 +821,7 @@ msgstr ""
 "Titre, Date de soumission, Examiné par, Statut, et ellipses (trois "
 "points)."
 
-#: ../../docs/modules/collecting.md:184
+#: ../../docs/modules/collecting.md:181
 #, fuzzy
 msgid ""
 "To see the collected information, including user name, email, etc., for "
@@ -749,7 +834,7 @@ msgstr ""
 "modification du contenu (dans la section Contenus, et non le menu "
 "contextuel du site)."
 
-#: ../../docs/modules/collecting.md:186
+#: ../../docs/modules/collecting.md:183
 #, fuzzy
 msgid ""
 "A collected item can have one of three status messages: Needs Review, "
@@ -762,7 +847,7 @@ msgstr ""
 "sélectionnez le statut voulu depuis la liste déroulante et cliquez sur le"
 " bouton *Mettre à jour les statuts* dans le coin supérieur droit."
 
-#: ../../docs/modules/collecting.md:188
+#: ../../docs/modules/collecting.md:185
 #, fuzzy
 msgid ""
 "When you update the status of an item from \"Needs Review\" to either "
@@ -933,4 +1018,25 @@ msgstr ""
 #~ "can then moderate and approve for "
 #~ "inclusion."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Collecting integrates with the [Custom "
+#~ "Vocab](../modules/customvocab.md) and the [Numeric"
+#~ " Data Types](../modules/numericdatatypes.md) modules."
+#~ msgstr ""
+
+#~ msgid "Map (requires Mapping module)"
+#~ msgstr "Carte (nécessite le module Mapping);"
+
+#~ msgid ""
+#~ "You can rearrange the order of "
+#~ "prompts by dragging and dropping them"
+#~ " using the three-line icon on "
+#~ "the far left of the Type label."
+#~ msgstr ""
+#~ "Vous pouvez réorganiser l'ordre des "
+#~ "champs en les glissant et les "
+#~ "déposant via l'utilisation de l'icône "
+#~ "des trois lignes tout à gauche de"
+#~ " libellé du type de champ."
 

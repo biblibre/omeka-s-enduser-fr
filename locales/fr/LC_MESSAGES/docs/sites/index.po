@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:23+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2023-09-19 08:29+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
-"Language-Team: \n"
 "Language: fr\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: ../../docs/sites/index.md:1
 msgid "Sites Management"
@@ -45,12 +44,22 @@ msgstr ""
 #: ../../docs/sites/index.md:7
 msgid ""
 "![Manage sites view, showing Sites button link on the left, the Add New "
-"button, and the table of sites with eight sites listed](../sites/"
-"sitesfiles/sites_admin.png)"
+"button, and the table of sites with eight sites "
+"listed](../sites/sitesfiles/sites_admin.png)"
 msgstr ""
 "![Vue de gestion des sites montrant un bouton Ajouter Nouveau et un "
-"tableau des sites contenant un site](../sites/sitesfiles/sites_admin.fr."
-"png)"
+"tableau des sites contenant un "
+"site](../sites/sitesfiles/sites_admin.fr.png)"
+
+#: ../../docs/sites/index.md:7
+#, fuzzy
+msgid ""
+"Manage sites view, showing Sites button link on the left, the Add New "
+"button, and the table of sites with eight sites listed"
+msgstr ""
+"![Vue de gestion des sites montrant un bouton Ajouter Nouveau et un "
+"tableau des sites contenant un "
+"site](../sites/sitesfiles/sites_admin.fr.png)"
 
 #: ../../docs/sites/index.md:9
 msgid ""
@@ -109,23 +118,34 @@ msgid ""
 msgstr ""
 "Cliquer sur le site mène vers une page qui affiche l'**identifiant pour "
 "l'URL** du site, son **titre**, son **thème** et la **vignette** qui lui "
-"est associée. Vous pouvez retourner à la liste des sites, \"Modifier\" "
-"ou \"Voir\" le site en utilisant les boutons dans le coin supérieur "
-"droit. Vous verrez aussi apparaître dans le menu de gauche les options "
-"pour la gestion du site."
+"est associée. Vous pouvez retourner à la liste des sites, \"Modifier\" ou"
+" \"Voir\" le site en utilisant les boutons dans le coin supérieur droit. "
+"Vous verrez aussi apparaître dans le menu de gauche les options pour la "
+"gestion du site."
 
 #: ../../docs/sites/index.md:21
 msgid ""
-"![show page for the site \"What Does This Look Like\" indicating that "
-"the theme is default and the slug is public views.](../sites/sitesfiles/"
-"sites_quickshow.png)"
+"![show page for the site \"What Does This Look Like\" indicating that the"
+" theme is default and the slug is public "
+"views.](../sites/sitesfiles/sites_quickshow.png)"
 msgstr ""
 "![page résumé pour le site « What Does This Look Like » indiquant que le "
-"thème est le thème par défaut et le fragment d'URL est public views.](../"
-"sites/sitesfiles/sites_quickshow.fr.png)"
+"thème est le thème par défaut et le fragment d'URL est public "
+"views.](../sites/sitesfiles/sites_quickshow.fr.png)"
+
+#: ../../docs/sites/index.md:21
+#, fuzzy
+msgid ""
+"show page for the site \"What Does This Look Like\" indicating that the "
+"theme is default and the slug is public views."
+msgstr ""
+"![page résumé pour le site « What Does This Look Like » indiquant que le "
+"thème est le thème par défaut et le fragment d'URL est public "
+"views.](../sites/sitesfiles/sites_quickshow.fr.png)"
 
 #: ../../docs/sites/index.md:23
-msgid "Adding a site"
+#, fuzzy
+msgid "Adding sites"
 msgstr "Ajouter un site"
 
 #: ../../docs/sites/index.md:24
@@ -152,13 +172,13 @@ msgstr "Donner un *titre* à votre site (obligatoire)."
 
 #: ../../docs/sites/index.md:31
 msgid ""
-"Create a **slug** for the site’s url. The url will be `youromekainstall."
-"org/s/slug`. This is optional - if you leave this field blank, Omeka S "
-"will create a slug based on the site title."
+"Create a **slug** for the site’s url. The url will be "
+"`youromekainstall.org/s/slug`. This is optional - if you leave this field"
+" blank, Omeka S will create a slug based on the site title."
 msgstr ""
-"Créer un *identifiant* pour l'URL du site. L'URL sera 'installurl/site/"
-"identifiant'. Ce champ est facultatif - si vous le laissez vide, Omeka S "
-"créera un identifiant basé sur le titre du site."
+"Créer un *identifiant* pour l'URL du site. L'URL sera "
+"'installurl/site/identifiant'. Ce champ est facultatif - si vous le "
+"laissez vide, Omeka S créera un identifiant basé sur le titre du site."
 
 #: ../../docs/sites/index.md:32
 msgid ""
@@ -172,30 +192,38 @@ msgstr ""
 
 #: ../../docs/sites/index.md:33
 msgid ""
-"Upload a **thumbnail** for your site, which will replace the summary "
-"text on the landing page or in the list of sites block."
+"Upload a **thumbnail** for your site, which will replace the summary text"
+" on the landing page or in the list of sites block."
 msgstr ""
 "Charger une **vignette** pour votre site, qui remplacera le texte de "
 "description."
 
 #: ../../docs/sites/index.md:35
 msgid ""
-"![Admin tab for a new site with nothing entered](../sites/sitesfiles/"
-"sitesadd_admin.png)"
+"![Admin tab for a new site with nothing "
+"entered](../sites/sitesfiles/sitesadd_admin.png)"
 msgstr ""
-"![Onglet administration pour un nouveau site sans aucune saisie](../"
-"sites/sitesfiles/sitesadd_admin.fr.png)"
+"![Onglet administration pour un nouveau site sans aucune "
+"saisie](../sites/sitesfiles/sitesadd_admin.fr.png)"
+
+#: ../../docs/sites/index.md:35
+#, fuzzy
+msgid "Admin tab for a new site with nothing entered"
+msgstr ""
+"![Onglet administration pour un nouveau site sans aucune "
+"saisie](../sites/sitesfiles/sitesadd_admin.fr.png)"
 
 #: ../../docs/sites/index.md:37
 msgid "Theme tab"
 msgstr "L'onglet Thème"
 
 #: ../../docs/sites/index.md:38
+#, fuzzy
 msgid ""
-"Select from the installed themes. Each theme appears as a tile with a "
-"screenshot of the theme, the theme name, and a link to its creator. When "
-"a theme is selected, it will highlight in gray and a checkbox will "
-"appear in the bottom right corner of the tile."
+"Select from the [installed themes](site_theme.md). Each theme appears as "
+"a tile with a screenshot of the theme, the theme name, and a link to its "
+"creator. When a theme is selected, it will highlight in gray and a "
+"checkbox will appear in the bottom right corner of the tile."
 msgstr ""
 "Sélectionner un thème dans la liste des thèmes installés. Chaque thème "
 "apparaît comme un bouton avec une capture d'écran du thème, le nom du "
@@ -205,14 +233,22 @@ msgstr ""
 
 #: ../../docs/sites/index.md:40
 msgid ""
-"![Theme tab with default theme selected](../sites/sitesfiles/"
-"sitesadd_theme.png)"
+"![Theme tab with default theme "
+"selected](../sites/sitesfiles/sitesadd_theme.png)"
 msgstr ""
-"![L'onglet Thème avec le thème par défaut sélectionné](../sites/"
-"sitesfiles/sitesadd_theme.fr.png)"
+"![L'onglet Thème avec le thème par défaut "
+"sélectionné](../sites/sitesfiles/sitesadd_theme.fr.png)"
+
+#: ../../docs/sites/index.md:40
+#, fuzzy
+msgid "Theme tab with default theme selected"
+msgstr ""
+"![L'onglet Thème avec le thème par défaut "
+"sélectionné](../sites/sitesfiles/sitesadd_theme.fr.png)"
 
 #: ../../docs/sites/index.md:42
-msgid "Publication settings"
+#, fuzzy
+msgid "Publication"
 msgstr "Paramètres de publication"
 
 #: ../../docs/sites/index.md:43
@@ -227,43 +263,55 @@ msgstr ""
 
 #: ../../docs/sites/index.md:45
 msgid ""
-"Site is public: ![make public button showing an eye icon](../content/"
-"contentfiles/item_public.png){style=\"display:inline;\"}"
+"Site is public: ![make public button showing an eye "
+"icon](../content/contentfiles/item_public.png){style=\"display:inline;\"}"
 msgstr ""
-"![bouton rendre public montrant une icône d’œil](../content/contentfiles/"
-"item_public.fr.png) Public"
+"![bouton rendre public montrant une icône "
+"d’œil](../content/contentfiles/item_public.fr.png) Public"
+
+#: ../../docs/sites/index.md:45
+msgid "make public button showing an eye icon"
+msgstr ""
 
 #: ../../docs/sites/index.md:47
 msgid ""
 "Site is private: ![make private button showing an eye icon with a "
-"diagonal slash through it](../content/contentfiles/item_private.png)"
-"{style=\"display:inline;\"}"
+"diagonal slash through "
+"it](../content/contentfiles/item_private.png){style=\"display:inline;\"}"
+msgstr ""
+"![bouton rendre privé montrant une icône d'œil traversé par une barre "
+"oblique](../content/contentfiles/item_private.fr.png) Privé"
+
+#: ../../docs/sites/index.md:47
+#, fuzzy
+msgid "make private button showing an eye icon with a diagonal slash through it"
 msgstr ""
 "![bouton rendre privé montrant une icône d'œil traversé par une barre "
 "oblique](../content/contentfiles/item_private.fr.png) Privé"
 
 #: ../../docs/sites/index.md:49
+#, fuzzy
 msgid ""
-"You will probably want to leave the site Private until you have finished "
-"configuring it and added some content."
+"Sites are created as public by default. You will probably want to make "
+"the site private until you have finished configuring it and added some "
+"content."
 msgstr ""
 "Vous pouvez laisser le site en privé jusqu'à ce que vous ayez ajouté du "
 "contenu."
 
 #: ../../docs/sites/index.md:51
-msgid "Add site"
-msgstr "Ajouter un site"
-
-#: ../../docs/sites/index.md:52
+#, fuzzy
 msgid ""
 "When you are ready, click the \"Add\" button in the upper right corner. "
-"Once the page is created, you will be redirected to the site's Info tab."
+"You cannot save a draft site, but you can make the site private while you"
+" finish working on it. Once the site is created, you will be redirected "
+"to the site's Info tab."
 msgstr ""
 "Quand vous êtes prêt, cliquez sur le bouton \"Ajouter\" dans le coin "
 "supérieur droit. Une fois la page créée, vous serez redirigé vers "
 "l'onglet d'informations du site."
 
-#: ../../docs/sites/index.md:54
+#: ../../docs/sites/index.md:53
 msgid ""
 "If you decide you do not want to create this site, click the \"Cancel\" "
 "button in the upper right next to the \"Add\" button."
@@ -271,21 +319,22 @@ msgstr ""
 "Si vous décidez de ne pas créer ce site, cliquez sur le bouton "
 "\"Annuler\" dans le coin supérieur droit, à côté du bouton \"Ajouter\"."
 
-#: ../../docs/sites/index.md:56
-msgid "Manage a site"
+#: ../../docs/sites/index.md:55
+#, fuzzy
+msgid "Managing sites"
 msgstr "Gérer un site"
 
-#: ../../docs/sites/index.md:57
+#: ../../docs/sites/index.md:56
 msgid ""
 "To manage a site, navigate to the **Sites** screen from the admin "
 "dashboard. Click either on the site’s title or the edit button (pencil "
 "icon) in the list of sites."
 msgstr ""
-"Pour gérer un site, naviguez vers l'onglet **Sites** depuis le tableau "
-"de bord Omeka S. Cliquez soit sur le titre du site soit sur le bouton "
+"Pour gérer un site, naviguez vers l'onglet **Sites** depuis le tableau de"
+" bord Omeka S. Cliquez soit sur le titre du site soit sur le bouton "
 "modifier (crayon) dans la liste des sites."
 
-#: ../../docs/sites/index.md:59
+#: ../../docs/sites/index.md:58
 msgid ""
 "This will take you to the site's Info tab, and open the context menu for "
 "that site in the left-hand navigation."
@@ -293,12 +342,13 @@ msgstr ""
 "Cela vous emmènera vers la page d'informations du site, et ouvrira le "
 "menu contextuel pour ce site dans la navigation à gauche."
 
-#: ../../docs/sites/index.md:61
+#: ../../docs/sites/index.md:60
+#, fuzzy
 msgid ""
 "The context menu for every site has the site title at the top, with an "
-"icon of a computer (the site icon) to the right. To the left of the site "
+"icon of a computer (the site icon) to the left. To the right of the site "
 "title is a view button (box with escaping arrow). Clicking the view "
-"button will open the public side of the site in a new window."
+"button will open the public side of the site in a new tab or window."
 msgstr ""
 "Le menu contextuel pour chaque site a le titre du site en haut, avec une "
 "icône d'ordinateur (l'icône de site) à droite. À gauche du titre du site "
@@ -306,111 +356,165 @@ msgstr ""
 "le bouton voir ouvrira la partie publique du site dans une nouvelle "
 "fenêtre."
 
-#: ../../docs/sites/index.md:63
+#: ../../docs/sites/index.md:62
 msgid ""
-"![Context menu for the site \"Mysteries\", with two modules installed]"
-"(../sites/sitesfiles/sites_menu.png)"
+"![Context menu for the site \"Mysteries\", with two modules "
+"installed](../sites/sitesfiles/sites_menu.png)"
 msgstr ""
-"![Menu contextuel pour le site Jane Austen, avec deux modules installés]"
-"(../sites/sitesfiles/sites_menu.fr.png)"
+"![Menu contextuel pour le site Jane Austen, avec deux modules "
+"installés](../sites/sitesfiles/sites_menu.fr.png)"
 
-#: ../../docs/sites/index.md:65
+#: ../../docs/sites/index.md:62
+#, fuzzy
+msgid "Context menu for the site \"Mysteries\", with two modules installed"
+msgstr ""
+"![Menu contextuel pour le site Jane Austen, avec deux modules "
+"installés](../sites/sitesfiles/sites_menu.fr.png)"
+
+#: ../../docs/sites/index.md:64
 msgid "Site admin left hand navigation options are:"
 msgstr "Les options de navigation dans l'administration du site sont :"
 
-#: ../../docs/sites/index.md:67
-msgid "[Site admin](../sites/site_settings.md),"
+#: ../../docs/sites/index.md:66
+#, fuzzy
+msgid "[Site admin](../sites/site_settings.md)"
 msgstr "[Administration du site](../sites/site_settings.md),"
 
-#: ../../docs/sites/index.md:68
-msgid "[Pages](../sites/site_pages.md),"
+#: ../../docs/sites/index.md:67
+#, fuzzy
+msgid "[Pages](../sites/site_pages.md)"
 msgstr "[Pages](../sites/site_pages.md),"
 
-#: ../../docs/sites/index.md:69
-msgid "[Navigation](../sites/site_navigation.md),"
+#: ../../docs/sites/index.md:68
+#, fuzzy
+msgid "[Navigation](../sites/site_navigation.md)"
 msgstr "[Navigation](../sites/site_navigation.md),"
 
-#: ../../docs/sites/index.md:70
-msgid "[Resources](../sites/site_resources.md),"
+#: ../../docs/sites/index.md:69
+#, fuzzy
+msgid "[Resources](../sites/site_resources.md)"
 msgstr "[Ressources](../sites/site_resources.md),"
 
-#: ../../docs/sites/index.md:71
-msgid "[User permissions](../sites/site_users.md),"
+#: ../../docs/sites/index.md:70
+#, fuzzy
+msgid "[User permissions](../sites/site_users.md)"
 msgstr "[Droits des utilisateurs](../sites/site_users.md),"
 
-#: ../../docs/sites/index.md:72
-msgid "[Theme](../sites/site_theme.md), and"
+#: ../../docs/sites/index.md:71
+#, fuzzy
+msgid "[Theme](../sites/site_theme.md)"
 msgstr "[Thème](../sites/site_theme.md), et"
 
-#: ../../docs/sites/index.md:73
+#: ../../docs/sites/index.md:72
 msgid "Settings added by modules, if installed."
 msgstr "Modules, si installés."
 
 #~ msgid ""
-#~ "Above the table of sites, on the left, is the pagination for the item "
-#~ "sets table, where you can click the left and right arrows to move "
-#~ "forward and back or enter a page number to go a specific page of item "
-#~ "sets."
+#~ "Above the table of sites, on the"
+#~ " left, is the pagination for the "
+#~ "item sets table, where you can "
+#~ "click the left and right arrows to"
+#~ " move forward and back or enter "
+#~ "a page number to go a specific "
+#~ "page of item sets."
 #~ msgstr ""
-#~ "Au dessus du tableau des sites, sur la gauche, se trouve la "
-#~ "pagination pour le tableau des collections, où vous pouvez cliquer "
-#~ "sur les flèches gauche et droite pour vous déplacer en avant et en "
-#~ "arrière ou entrez un numéro de page pour aller à une page spécifique "
-#~ "des collections."
+#~ "Au dessus du tableau des sites, "
+#~ "sur la gauche, se trouve la "
+#~ "pagination pour le tableau des "
+#~ "collections, où vous pouvez cliquer sur"
+#~ " les flèches gauche et droite pour"
+#~ " vous déplacer en avant et en "
+#~ "arrière ou entrez un numéro de "
+#~ "page pour aller à une page "
+#~ "spécifique des collections."
 
 #~ msgid ""
-#~ "Each row gives the title of a site, options to *view* (box with "
-#~ "outward arrow), *edit* (pencil), or *delete* (trash can), and "
-#~ "displays the owner of the site. *Only global admins and site owners "
-#~ "can delete a site.*"
+#~ "Each row gives the title of a "
+#~ "site, options to *view* (box with "
+#~ "outward arrow), *edit* (pencil), or "
+#~ "*delete* (trash can), and displays the"
+#~ " owner of the site. *Only global "
+#~ "admins and site owners can delete "
+#~ "a site.*"
 #~ msgstr ""
-#~ "Chaque ligne donne le titre d'un site, les options pour *voir* (la "
-#~ "boîte avec une flèche sortante), *modifier* (le crayon), ou "
-#~ "*supprimer* (la poubelle), et affiche le propriétaire d'un site. "
-#~ "*Seuls les administrateurs globaux et les propriétaire d'un site "
-#~ "peuvent supprimer un site.*"
+#~ "Chaque ligne donne le titre d'un "
+#~ "site, les options pour *voir* (la "
+#~ "boîte avec une flèche sortante), "
+#~ "*modifier* (le crayon), ou *supprimer* "
+#~ "(la poubelle), et affiche le "
+#~ "propriétaire d'un site. *Seuls les "
+#~ "administrateurs globaux et les propriétaire"
+#~ " d'un site peuvent supprimer un "
+#~ "site.*"
 
 #~ msgid ""
-#~ "Clicking on the site title will take you to a summary page for the "
-#~ "site which displays the site’s *url slug,* and *title,* from which "
-#~ "you can return to the site list using a button on the left side of "
-#~ "the scree, or *edit* or *view* the site using buttons in the upper "
-#~ "right"
+#~ "Clicking on the site title will "
+#~ "take you to a summary page for "
+#~ "the site which displays the site’s "
+#~ "*url slug,* and *title,* from which "
+#~ "you can return to the site list"
+#~ " using a button on the left "
+#~ "side of the scree, or *edit* or"
+#~ " *view* the site using buttons in "
+#~ "the upper right"
 #~ msgstr ""
-#~ "Cliquer sur le titre du site vous emmènera vers la page de résumé du "
-#~ "site qui affichera le *fragment d'URL* du site, et son *titre*, et "
-#~ "depuis laquelle vous pouvez retourner à la liste des sites en "
-#~ "utilisant un bouton sur le côté gauche de l'écran, ou *modifier* ou "
-#~ "*voir* le site en utilisant les boutons dans le coin supérieur droit"
+#~ "Cliquer sur le titre du site vous"
+#~ " emmènera vers la page de résumé "
+#~ "du site qui affichera le *fragment "
+#~ "d'URL* du site, et son *titre*, et"
+#~ " depuis laquelle vous pouvez retourner "
+#~ "à la liste des sites en utilisant"
+#~ " un bouton sur le côté gauche "
+#~ "de l'écran, ou *modifier* ou *voir* "
+#~ "le site en utilisant les boutons "
+#~ "dans le coin supérieur droit"
 
 #~ msgid "The Admin tab"
 #~ msgstr "L'onglet Administration"
 
 #~ msgid ""
-#~ "Create a *summary* for your site, a brief idea of what it is about "
-#~ "which will appear on your installation's landing page and on [list of "
-#~ "site blocks](site_pages.md#page-blocks)"
+#~ "Create a *summary* for your site, "
+#~ "a brief idea of what it is "
+#~ "about which will appear on your "
+#~ "installation's landing page and on [list"
+#~ " of site blocks](site_pages.md#page-blocks)"
 #~ msgstr ""
-#~ "Créez un *résumé* pour votre site, un idée brève du contenu du site "
-#~ "qui apparaîtra sur la page d'accueil de votre installation and sur "
-#~ "[les blocs de liste des sites](site_pages.md#page-blocks)"
+#~ "Créez un *résumé* pour votre site, "
+#~ "un idée brève du contenu du site"
+#~ " qui apparaîtra sur la page d'accueil"
+#~ " de votre installation and sur [les"
+#~ " blocs de liste des sites](site_pages.md"
+#~ "#page-blocks)"
 
 #~ msgid ""
-#~ "Any modules which you have installed that have site-specific settings "
-#~ "will appear below the site Settings tab in the site's context menu. "
-#~ "In the image above, the modules Metadata Browse and Collecting are "
-#~ "installed."
+#~ "Any modules which you have installed "
+#~ "that have site-specific settings will"
+#~ " appear below the site Settings tab"
+#~ " in the site's context menu. In "
+#~ "the image above, the modules Metadata"
+#~ " Browse and Collecting are installed."
 #~ msgstr ""
-#~ "Chaque module que vous avez installé et qui a des paramètres "
-#~ "spécifique à un site apparaîtra sous l'onglet Paramètres dans le menu "
-#~ "contextuel du site. Dans l'image ci-dessus, les modules Metadata "
-#~ "Browse et Collecting sont installés."
+#~ "Chaque module que vous avez installé "
+#~ "et qui a des paramètres spécifique "
+#~ "à un site apparaîtra sous l'onglet "
+#~ "Paramètres dans le menu contextuel du"
+#~ " site. Dans l'image ci-dessus, les"
+#~ " modules Metadata Browse et Collecting "
+#~ "sont installés."
 
 #~ msgid ""
-#~ "The standard options in the left hand navigation of the Omeka S Admin "
-#~ "(items, item sets, etc) are still available below the site context "
-#~ "menu."
+#~ "The standard options in the left "
+#~ "hand navigation of the Omeka S "
+#~ "Admin (items, item sets, etc) are "
+#~ "still available below the site context"
+#~ " menu."
 #~ msgstr ""
-#~ "Les options standards dans la navigation à gauche de l'administration "
-#~ "Omeka S (contenus, collections, etc.) sont toujours disponibles sous "
-#~ "le menu contextuel du site."
+#~ "Les options standards dans la navigation"
+#~ " à gauche de l'administration Omeka S"
+#~ " (contenus, collections, etc.) sont "
+#~ "toujours disponibles sous le menu "
+#~ "contextuel du site."
+
+#~ msgid "Add site"
+#~ msgstr "Ajouter un site"
+

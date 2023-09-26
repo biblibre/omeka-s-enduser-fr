@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-26 14:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/modules/iiifpresentation.md:1
+msgid "IIIF Presentation"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:3
+msgid ""
+"The [IIIF Presentation "
+"module](https://omeka.org/s/modules/IiifPresentation/) allows "
+"installations to offer [IIIF Presentation API endpoints & "
+"viewers](https://iiif.io/api/presentation/3.0/) for their Omeka S items "
+"and item sets. These API endpoints are automatically available for all "
+"items and item sets when the module is installed and active."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:5
+msgid ""
+"Omeka S offers the [Mirador IIIF viewer](https://projectmirador.org/) in "
+"its core code, which is what allows Omeka to [input and display IIIF "
+"media](../content/media.md#add-media-to-an-item) from around the web. "
+"This can be useful for institutions that host their digital collections "
+"elsewhere but wish to use those materials in Omeka virtual exhibits, or "
+"for educators who wish to use publicly-shared materials for teaching."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:7
+msgid ""
+"This module adds the ability to send an Omeka S installation's items or "
+"item sets to other IIIF viewers for display, and to load IIIF viewers on "
+"the installation for previewing and configuration. This can be used by "
+"others who wish to display your Omeka resources on their own sites."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:9
+msgid ""
+"A IIIF viewer can be set to display any item, a set of multiple items, "
+"any item set, or a set of multiple item sets, simply by creating the "
+"desired URL. The module has no settings or added admin interface options."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:11
+msgid "Using the module"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:13
+msgid ""
+"After installation, manifest and viewer URLs are created using your base "
+"Omeka S installation URL, not for any particular site on the "
+"installation. So, users can find the IIIF viewer URL for each item at"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:15
+msgid "` https://example.com/omeka-s/iiif-presentation/3/item/123/ `"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:19
+msgid "and the manifest URL at"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:21
+msgid "` https://example.com/omeka-s/iiif-presentation/3/item/123/manifest `"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:25
+msgid "where"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:27
+msgid ""
+"`https://example.com/omeka-s/` is your base installation URL (do not "
+"include the URL to any particular site, or the `/s/` that comes before a "
+"site)"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:28
+msgid ""
+"`iiif-presentation/3/` indicates that you are offering the version 3.0 "
+"type of an IIIF manifest"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:29
+msgid "`item` indicates that the object is an Omeka S item"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:30
+msgid "`123` is the particular item ID."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:32
+msgid "Similarly, each item set URL is"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:34
+msgid "` https://example.com/omeka-s/iiif-presentation/3/item-set/45 `"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:38
+msgid "where `45` is the item set ID."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:40
+msgid ""
+"You can serve more than one item ID, or more than one item set ID, by "
+"including the values separated by commas in the same place, for example:"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:42
+msgid "` https://example.com/omeka-s/iiif-presentation/3/item/6,7,8,9 `"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:46
+msgid ""
+"The values can be in any order, and will appear in the viewer in the "
+"given order."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:49
+msgid ""
+"You can test that the module is working correctly by going directly to a "
+"viewer or manifest URL in your browser."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:51
+msgid ""
+"For the viewer, you should see your item's media load in the viewer with "
+"metadata in the sidebar. The URL will be redirected to something in the "
+"form of"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:53
+msgid ""
+"` https://example.com/omeka-s/iiif-viewer?url=https://example.com/omeka-s"
+"/iiif-presentation/3/item/1082/manifest `"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:57
+msgid ""
+"![A view of a IIIF Mirador viewer showing a book with multiple "
+"pages.](modulesfiles/iiifpresentation_viewer.png)"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:57
+msgid "A view of a IIIF Mirador viewer showing a book with multiple pages."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:59
+msgid ""
+"For the manifest, you should see a page of JSON loading where "
+"\"Manifest\" appears early on as the type."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:61
+msgid ""
+"![A view of a IIIF manifest JSON "
+"output.](modulesfiles/iiifpresentation_json.png)"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:61
+msgid "A view of a IIIF manifest JSON output."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:63
+msgid ""
+"You can also use validator tools such as [https://presentation-"
+"validator.iiif.io/](https://presentation-validator.iiif.io/)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:65
+msgid "Endpoints"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:67
+#: ../../docs/modules/iiifpresentation.md:129
+msgid "IIIF Presentation v3"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:69
+msgid "These endpoints are available for version 3 of the IIIF Presentation API."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:71
+msgid ""
+"`/iiif-presentation/3/item/:item-id/manifest`   Get the IIIF manifest "
+"resource for an Omeka item. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:73
+#: ../../docs/modules/iiifpresentation.md:76
+#: ../../docs/modules/iiifpresentation.md:102
+#: ../../docs/modules/iiifpresentation.md:105
+msgid "`:item-id`: The Omeka item ID"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:74
+msgid ""
+"`/iiif-presentation/3/item/:item-id`   View the IIIF manifest resource "
+"for an Omeka item. Redirects to the Omeka S IIIF viewer (Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:77
+msgid ""
+"`/iiif-presentation/3/item/:item-ids/collection`   Get the IIIF "
+"collection resource for two or more Omeka items. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:79
+#: ../../docs/modules/iiifpresentation.md:82
+#: ../../docs/modules/iiifpresentation.md:108
+#: ../../docs/modules/iiifpresentation.md:111
+msgid "`:item-ids`: The Omeka item IDs, delimited by commas"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:80
+msgid ""
+"`/iiif-presentation/3/item/:item-ids`   View the IIIF collection resource"
+" for two or more Omeka items. Redirects to the Omeka IIIF viewer "
+"(Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:83
+msgid ""
+"`/iiif-presentation/3/item-set/:item-set-id/collection`   Get the IIIF "
+"collection resource for an Omeka item set. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:85
+#: ../../docs/modules/iiifpresentation.md:88
+#: ../../docs/modules/iiifpresentation.md:114
+#: ../../docs/modules/iiifpresentation.md:117
+msgid "`:item-set-id`: The Omeka item set ID"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:86
+msgid ""
+"`/iiif-presentation/3/item-set/:item-set-id`   View the IIIF collection "
+"resource for an Omeka item set. Redirects to the Omeka S IIIF viewer "
+"(Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:89
+msgid ""
+"`/iiif-presentation/3/item-set/:item-set-ids/collection`   Get the IIIF "
+"collection resource for two or more Omeka item sets. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:91
+#: ../../docs/modules/iiifpresentation.md:120
+msgid "`:item-set-ids`: The Omeka item set IDs, delimited by commas"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:92
+msgid ""
+"`/iiif-presentation/3/item-set/:item-set-ids`   View the IIIF collection "
+"resource for two or more Omeka item sets. Redirects to the Omeka IIIF "
+"viewer (Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:94
+#: ../../docs/modules/iiifpresentation.md:123
+msgid "`:item-set-ids`: The Omeka item set IDs, delimited by commas."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:96
+#: ../../docs/modules/iiifpresentation.md:155
+msgid "IIIF Presentation v2"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:98
+msgid "These endpoints are available for version 2 of the IIIF Presentation API."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:100
+msgid ""
+"`/iiif-presentation/2/item/:item-id/manifest`   Get the IIIF manifest "
+"resource for an Omeka item. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:103
+msgid ""
+"`/iiif-presentation/2/item/:item-id`   View the IIIF manifest resource "
+"for an Omeka item. Redirects to the Omeka S IIIF viewer (Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:106
+msgid ""
+"`/iiif-presentation/2/item/:item-ids/collection`   Get the IIIF "
+"collection resource for two or more Omeka items. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:109
+msgid ""
+"`/iiif-presentation/2/item/:item-ids`   View the IIIF collection resource"
+" for two or more Omeka items. Redirects to the Omeka IIIF viewer "
+"(Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:112
+msgid ""
+"`/iiif-presentation/2/item-set/:item-set-id/collection`   Get the IIIF "
+"collection resource for an Omeka item set. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:115
+msgid ""
+"`/iiif-presentation/2/item-set/:item-set-id`   View the IIIF collection "
+"resource for an Omeka item set. Redirects to the Omeka S IIIF viewer "
+"(Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:118
+msgid ""
+"`/iiif-presentation/2/item-set/:item-set-ids/collection`   Get the IIIF "
+"collection resource for two or more Omeka item sets. Outputs JSON-LD."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:121
+msgid ""
+"`/iiif-presentation/2/item-set/:item-set-ids`   View the IIIF collection "
+"resource for two or more Omeka item sets. Redirects to the Omeka IIIF "
+"viewer (Mirador)."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:125
+msgid "Events"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:127
+msgid ""
+"This module triggers these events during the composition of certain IIIF "
+"Presentation resources (manifest, canvas, collection, etc.). Use the "
+"event's `getTarget()` method to get the current controller."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:131
+msgid "These events are available for version 3 of the IIIF Presentation API."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:133
+msgid ""
+"`iiif_presentation.3.media.canvas`   Triggered after composing a media "
+"canvas array. To modify the canvas, handlers may modify the `canvas` "
+"parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:135
+#: ../../docs/modules/iiifpresentation.md:161
+msgid "`canvas`: The canvas array"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:136
+#: ../../docs/modules/iiifpresentation.md:162
+msgid "`canvas_type`: The canvas type service object"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:137
+#: ../../docs/modules/iiifpresentation.md:163
+msgid "`media_id`: The media ID"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:138
+msgid ""
+"`iiif_presentation.3.item.manifest`   Triggered after composing an item "
+"manifest array. To modify the manifest, handlers may modify the "
+"`manifest` parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:140
+#: ../../docs/modules/iiifpresentation.md:166
+msgid "`manifest`: The manifest array"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:141
+#: ../../docs/modules/iiifpresentation.md:167
+msgid "`item_id`: The item ID"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:142
+msgid ""
+"`iiif_presentation.3.item.collection`   Triggered after composing an item"
+" collection array. To modify the collection, handlers may modify the "
+"`collection` parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:144
+#: ../../docs/modules/iiifpresentation.md:148
+#: ../../docs/modules/iiifpresentation.md:152
+#: ../../docs/modules/iiifpresentation.md:170
+#: ../../docs/modules/iiifpresentation.md:174
+#: ../../docs/modules/iiifpresentation.md:178
+msgid "`collection`: The collection array"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:145
+#: ../../docs/modules/iiifpresentation.md:171
+msgid "`item_ids`: The item IDs in the collection"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:146
+msgid ""
+"`iiif_presentation.3.item_set.collection`   Triggered after composing an "
+"item set collection array. To modify the collection, handlers may modify "
+"the `collection` parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:149
+#: ../../docs/modules/iiifpresentation.md:175
+msgid "`item_set_id`: The item set ID"
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:150
+msgid ""
+"`iiif_presentation.3.item_set.collections`   Triggered after composing an"
+" item set collections array. To modify the collection, handlers may "
+"modify the `collection` parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:153
+#: ../../docs/modules/iiifpresentation.md:179
+msgid "`item_set_ids`: The item set IDs in the collection."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:157
+msgid "These events are available for version 2 of the IIIF Presentation API."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:159
+msgid ""
+"`iiif_presentation.2.media.canvas`   Triggered after composing a media "
+"canvas array. To modify the canvas, handlers may modify the `canvas` "
+"parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:164
+msgid ""
+"`iiif_presentation.2.item.manifest`   Triggered after composing an item "
+"manifest array. To modify the manifest, handlers may modify the "
+"`manifest` parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:168
+msgid ""
+"`iiif_presentation.2.item.collection`   Triggered after composing an item"
+" collection array. To modify the collection, handlers may modify the "
+"`collection` parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:172
+msgid ""
+"`iiif_presentation.2.item_set.collection`   Triggered after composing an "
+"item set collection array. To modify the collection, handlers may modify "
+"the `collection` parameter and set it back to the event."
+msgstr ""
+
+#: ../../docs/modules/iiifpresentation.md:176
+msgid ""
+"`iiif_presentation.2.item_set.collections`   Triggered after composing an"
+" item set collections array. To modify the collection, handlers may "
+"modify the `collection` parameter and set it back to the event."
+msgstr ""
+

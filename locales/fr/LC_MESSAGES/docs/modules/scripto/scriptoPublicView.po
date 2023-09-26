@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,6 +101,10 @@ msgid ""
 "pageBlock.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoPublicView.md:23
+msgid "Dropdown with a single site option"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoPublicView.md:25
 msgid "On the public page view, this will display as a link."
 msgstr ""
@@ -118,6 +122,12 @@ msgstr ""
 msgid ""
 "![Top of a scripto project page with a red highlight over the link to the"
 " Omeka S site.](../modulesfiles/scripto-pageBlocklink.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoPublicView.md:29
+msgid ""
+"Top of a scripto project page with a red highlight over the link to the "
+"Omeka S site."
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:31
@@ -229,6 +239,12 @@ msgid ""
 "the project's view."
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoPublicView.md:61
+msgid ""
+"Project browse showing three projects, only two of which have a "
+"description."
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoPublicView.md:64
 msgid "Public project view"
 msgstr ""
@@ -333,7 +349,15 @@ msgid ""
 "progress](../../modules/modulesfiles/scripto_publicproj.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoPublicView.md:96
+msgid ""
+"Public project view. There are two large square thumbnails representing "
+"items in the project. One has a \"1/3\" and a full orange bar underneath "
+"it, indicating that the item is in progress"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoPublicView.md:98
+#: ../../docs/modules/scripto/scriptoPublicView.md:103
 msgid "Public item view"
 msgstr ""
 
@@ -414,6 +438,10 @@ msgstr ""
 msgid "![media view](../../modules/modulesfiles/scripto_mediav.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/scriptoPublicView.md:121
+msgid "media view"
+msgstr ""
+
 #: ../../docs/modules/scripto/scriptoPublicView.md:123
 msgid "Adding text"
 msgstr ""
@@ -433,6 +461,10 @@ msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:128
 msgid "![edit media](../../modules/modulesfiles/scripto_editmedia.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/scriptoPublicView.md:128
+msgid "edit media"
 msgstr ""
 
 #: ../../docs/modules/scripto/scriptoPublicView.md:130

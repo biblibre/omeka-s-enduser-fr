@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2022-07-01 16:04+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language: fr_FR\n"
@@ -103,6 +103,15 @@ msgstr ""
 "![Capture d’écran du menu contextuel du site Omeka S avec l’onglet de "
 "l’éditeur CSS mis en évidence.](modulesfiles/csseditor_contextmenu.jpg)"
 
+#: ../../docs/modules/csseditor.md:19
+#, fuzzy
+msgid ""
+"Screenshot of Omeka S site context menu witth CSS Editor navigation item "
+"highlighted."
+msgstr ""
+"![Capture d’écran du menu contextuel du site Omeka S avec l’onglet de "
+"l’éditeur CSS mis en évidence.](modulesfiles/csseditor_contextmenu.jpg)"
+
 #: ../../docs/modules/csseditor.md:21
 #, fuzzy
 msgid ""
@@ -139,6 +148,10 @@ msgstr ""
 "![Capture d’écran de l’interface du module CSS "
 "Editor.](modulesfiles/csseditor_interface.jpg)"
 
+#: ../../docs/modules/csseditor.md:27
+msgid "Screenshot of CSS Editor module interface."
+msgstr ""
+
 #: ../../docs/modules/csseditor.md:29
 msgid ""
 "CSS Editor also allows you to include external stylesheets by entering "
@@ -162,6 +175,17 @@ msgid ""
 "![Screenshot of CSS Editor module interface, cropped to focus on external"
 " stylesheet field with remove button (trash can icon) "
 "highlighted.](modulesfiles/csseditor_remove.jpg)"
+msgstr ""
+"![Capture d’écran de l’interface du module de l’éditeur CSS, centrée le "
+"champ de la feuille de style externe avec le bouton de suppression (icône"
+" « poubelle ») mis en évidence.](modulesfiles/csseditor_remove.jpg) "
+"<br><br>"
+
+#: ../../docs/modules/csseditor.md:33
+#, fuzzy
+msgid ""
+"Screenshot of CSS Editor module interface, cropped to focus on external "
+"stylesheet field with remove button (trash can icon) highlighted."
 msgstr ""
 "![Capture d’écran de l’interface du module de l’éditeur CSS, centrée le "
 "champ de la feuille de style externe avec le bouton de suppression (icône"
@@ -203,6 +227,15 @@ msgstr ""
 "![Capture d’écran du site Omeka S avec le thème « Default ». Tout le "
 "texte utilise « Open Sans ».](modulesfiles/csseditor_before.jpg)"
 
+#: ../../docs/modules/csseditor.md:41
+#, fuzzy
+msgid ""
+"Screenshot of Omeka S site with \"Default\" theme. All the text us using "
+"\"Open Sans\"."
+msgstr ""
+"![Capture d’écran du site Omeka S avec le thème « Default ». Tout le "
+"texte utilise « Open Sans ».](modulesfiles/csseditor_before.jpg)"
+
 #: ../../docs/modules/csseditor.md:43
 msgid "This tutorial will override \"Open Sans\" with the \"Lato\" font family."
 msgstr "Ce tutoriel va remplacer « Open Sans » par la famille de polices « Lato »."
@@ -213,6 +246,10 @@ msgid ""
 "font family and click on the orange \"+\" button to select it. ![Google "
 "Fonts main page with \"Lato\" font family "
 "highlighted](modulesfiles/csseditor_tutorial1.jpg)<br>"
+msgstr ""
+
+#: ../../docs/modules/csseditor.md:45
+msgid "Google Fonts main page with \"Lato\" font family highlighted"
 msgstr ""
 
 #: ../../docs/modules/csseditor.md:47
@@ -227,6 +264,12 @@ msgstr ""
 "Cliquez sur cette barre. <br><br> ![Vue recadrée de la page Google Fonts "
 "avec la barre des familles de polices sélectionnées mise en "
 "évidence](modulesfiles/csseditor_tutorial2.jpg) <br><br>"
+
+#: ../../docs/modules/csseditor.md:47
+msgid ""
+"Cropped view of Google Fonts page with selected font family bar "
+"highlighted"
+msgstr ""
 
 #: ../../docs/modules/csseditor.md:49
 #, fuzzy
@@ -248,6 +291,13 @@ msgstr ""
 "https://fonts.googleapis.com/css?family=Lato&display=swap « ) mise en "
 "évidence.](modulesfiles/csseditor_tutorial3.jpg) <br><br>"
 
+#: ../../docs/modules/csseditor.md:49
+msgid ""
+"Screenshot of \"Embed this font\" section with external stylesheet url "
+"(\"https://fonts.googleapis.com/css?family=Lato&display=swap\") "
+"highlighted."
+msgstr ""
+
 #: ../../docs/modules/csseditor.md:51
 #, fuzzy
 msgid ""
@@ -260,6 +310,17 @@ msgstr ""
 "Editor. <br><br> ![Capture d’écran de l’interface du module CSS Editor, "
 "centrée sur le champ de la feuille de style externe avec une url de "
 "feuille de style.](modulesfiles/csseditor_tutorial4.jpg) <br><br>"
+
+#: ../../docs/modules/csseditor.md:51
+#, fuzzy
+msgid ""
+"Screenshot of CSS Editor module interface, cropped to focus on external "
+"stylesheet field with pasted stylesheet url."
+msgstr ""
+"![Capture d’écran de l’interface du module de l’éditeur CSS, centrée le "
+"champ de la feuille de style externe avec le bouton de suppression (icône"
+" « poubelle ») mis en évidence.](modulesfiles/csseditor_remove.jpg) "
+"<br><br>"
 
 #: ../../docs/modules/csseditor.md:53
 #, fuzzy
@@ -274,6 +335,12 @@ msgstr ""
 "d’écran de la section « Specify in CSS » avec la règle `font-family` "
 "font-family (`font-family: ‘Lato’, sans-serif ;`) mise en "
 "évidence.](modulesfiles/csseditor_tutorial5.jpg) <br><br>"
+
+#: ../../docs/modules/csseditor.md:53
+msgid ""
+"Screenshot of \"Specify in CSS\" section with font-family rule (\"font-"
+"family: 'Lato', sans-serif;\") highlighted."
+msgstr ""
 
 #: ../../docs/modules/csseditor.md:55
 #, fuzzy
@@ -296,6 +363,13 @@ msgstr ""
 "\n"
 "Traduit avec www.DeepL.com/Translator (version gratuite)"
 
+#: ../../docs/modules/csseditor.md:55
+msgid ""
+"Screenshot of CSS Editor module interface, cropped to focus on CSS text "
+"area with pasted body font-family rule ('body {font-family: \"Lato\", "
+"sans-serif;}')."
+msgstr ""
+
 #: ../../docs/modules/csseditor.md:57
 msgid ""
 "Click the \"Save\" button in the top right corner. Now the \"Default\" "
@@ -303,6 +377,15 @@ msgid ""
 "\"Default\" theme, where all the text is displaying in the \"Lato\" "
 "font](modulesfiles/csseditor_after.jpg)"
 msgstr ""
+
+#: ../../docs/modules/csseditor.md:57
+#, fuzzy
+msgid ""
+"Screenshot of Omeka S site with \"Default\" theme, where all the text is "
+"displaying in the \"Lato\" font"
+msgstr ""
+"![Capture d’écran du site Omeka S avec le thème « Default ». Tout le "
+"texte utilise « Open Sans ».](modulesfiles/csseditor_before.jpg)"
 
 #~ msgid "Managing Custom CSS"
 #~ msgstr "Gestion CSS personnalisée"

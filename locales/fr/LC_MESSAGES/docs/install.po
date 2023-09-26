@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2021-06-29 14:40+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language: fr\n"
@@ -59,7 +59,7 @@ msgstr "MySQL, version minimum 5.6.4 (ou MariaDB, version minimum 10.0.5)"
 #: ../../docs/install.md:9
 #, fuzzy
 msgid ""
-"PHP, minumum version 7.2, with "
+"PHP, minumum version 7.4, with "
 "[PDO](http://php.net/manual/en/intro.pdo.php), "
 "[pdo_mysql](http://php.net/manual/en/ref.pdo-mysql.php), and "
 "[xml](http://php.net/manual/en/intro.xml.php) extensions installed"
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Installing from GitHub"
 msgstr ""
 
-#: ../../docs/install.md:30 ../../docs/install.md:100
+#: ../../docs/install.md:30 ../../docs/install.md:108
 #, fuzzy
 msgid ""
 "Basic instructions for installing and updating from GitHub can be found "
@@ -302,6 +302,13 @@ msgstr ""
 "![Section premier utilisateurs avec les champs tels que "
 "décrits](files/installOmekaS1.png)"
 
+#: ../../docs/install.md:60
+#, fuzzy
+msgid "First user section with fields as described"
+msgstr ""
+"![Section premier utilisateurs avec les champs tels que "
+"décrits](files/installOmekaS1.png)"
+
 #: ../../docs/install.md:62
 #, fuzzy
 msgid "In the **Settings** section, enter:"
@@ -326,6 +333,13 @@ msgstr "sélectionnez la *langue* pour le côté administration de l'installatio
 
 #: ../../docs/install.md:68
 msgid "![Settings section with fields as described](files/installOmekaS2.png)"
+msgstr ""
+"![Section paramètres avec les champs tels que "
+"décrits](files/installOmekaS2.png)"
+
+#: ../../docs/install.md:68
+#, fuzzy
+msgid "Settings section with fields as described"
 msgstr ""
 "![Section paramètres avec les champs tels que "
 "décrits](files/installOmekaS2.png)"
@@ -371,14 +385,45 @@ msgstr ""
 
 #: ../../docs/install.md:80
 msgid ""
-"If you begin to see errors once you start working with Omeka, "
-"particularly errors with something like \"PHP-CLI error: invalid PHP "
-"path\", you will need to manually set the PHP path. See [Configuration "
-"Options](configuration.md) to learn about modifying thumbnail generation,"
-" setting the PHP path manually, and more."
+"Use the [System Information page](admin-dashboard.md#system-information) "
+"to verify that you installation has identified the correct PHP path. If "
+"there is an error when you click the button, that can indicate whether "
+"you need to set the configuration manually."
 msgstr ""
 
 #: ../../docs/install.md:82
+msgid ""
+"![The System Information buttons to retrieve the PHP path and the "
+"ImageMagick version.](files/systeminfo_buttons.png)"
+msgstr ""
+
+#: ../../docs/install.md:82
+msgid ""
+"The System Information buttons to retrieve the PHP path and the "
+"ImageMagick version."
+msgstr ""
+
+#: ../../docs/install.md:84
+msgid ""
+"See [Configuration Options](configuration.md) to learn about modifying "
+"thumbnail generation, setting the PHP path manually, and more."
+msgstr ""
+
+#: ../../docs/install.md:86
+msgid "Starting to work with your installation"
+msgstr ""
+
+#: ../../docs/install.md:88
+msgid ""
+"Once you have correctly configured all of the technical components of "
+"your Omeka S installation, you will want to begin by: adding other users;"
+" creating resource templates, vocabularies, and item sets; creating one "
+"or more sites; then adding items, and assigning those resources to your "
+"sites. Continue on with the user manual to learn more about these parts "
+"of Omeka S."
+msgstr ""
+
+#: ../../docs/install.md:90
 msgid ""
 "!!! note \tIf you have an existing Omeka Classic or S installation, you "
 "may wish to look at modules such as the [Omeka Classic "
@@ -388,20 +433,20 @@ msgid ""
 "data."
 msgstr ""
 
-#: ../../docs/install.md:85
+#: ../../docs/install.md:93
 msgid "Updating"
 msgstr "Mise à jour"
 
-#: ../../docs/install.md:87
+#: ../../docs/install.md:95
 msgid "Updating manually"
 msgstr ""
 
-#: ../../docs/install.md:89
+#: ../../docs/install.md:97
 #, fuzzy
 msgid "Download the latest release from the release page."
 msgstr "Téléchargez la dernière version depuis la page des publications"
 
-#: ../../docs/install.md:90
+#: ../../docs/install.md:98
 msgid ""
 "Make a copy of your `/config` directory. You will need to restore your "
 "`local.config.php` and `database.ini` files from that copy."
@@ -410,15 +455,15 @@ msgstr ""
 "restaurer vos fichiers `local.config.php` et `database.ini` depuis cette "
 "copie."
 
-#: ../../docs/install.md:91
+#: ../../docs/install.md:99
 msgid "Make a copy of your `/modules` and `/themes` directories."
 msgstr "Faites une copie de vos répertoires `/modules` et `/themes`."
 
-#: ../../docs/install.md:92
+#: ../../docs/install.md:100
 msgid "Make a copy of your `/files` directory."
 msgstr "Faites une copie de votre répertoire `/files`."
 
-#: ../../docs/install.md:93
+#: ../../docs/install.md:101
 msgid ""
 "Remove all Omeka S files, and replace them with the files from the "
 "updated zip file."
@@ -426,7 +471,7 @@ msgstr ""
 "Supprimez tous les fichiers Omeka S, et remplacer les par les fichiers du"
 " fichier ZIP à jour."
 
-#: ../../docs/install.md:94
+#: ../../docs/install.md:102
 msgid ""
 "Replace your original `/config/local.config.php` and "
 "`/config/database.ini` file, and the `/modules`, `/themes`, and `/files` "
@@ -436,7 +481,7 @@ msgstr ""
 "`/config/database.ini`, ainsi que les répertoires `/modules`, `/themes`, "
 "et `/files` que vous avez copié."
 
-#: ../../docs/install.md:95
+#: ../../docs/install.md:103
 msgid ""
 "For significant version updates, you may also have to install an updated "
 "version of your modules and themes. The release notes for the version "
@@ -446,7 +491,7 @@ msgid ""
 "respective pages."
 msgstr ""
 
-#: ../../docs/install.md:96
+#: ../../docs/install.md:104
 #, fuzzy
 msgid ""
 "In your web browser, go to your site's admin page (`/myomekas/admin`) and"
@@ -455,18 +500,18 @@ msgstr ""
 "Dans votre navigateur web, allez sur la page d'admin de votre site "
 "(votreurl/admin) et exécutez les migrations nécessaires."
 
-#: ../../docs/install.md:98
+#: ../../docs/install.md:106
 msgid "Updating from GitHub"
 msgstr ""
 
-#: ../../docs/install.md:102
+#: ../../docs/install.md:110
 #, fuzzy
 msgid "Install on Windows or Mac OS (development only)"
 msgstr ""
 "Installation sur WIndows ou Mac OS (à des fins de développement basique "
 "uniquement)"
 
-#: ../../docs/install.md:103
+#: ../../docs/install.md:111
 #, fuzzy
 msgid ""
 "Omeka S does not support proprietary or closed-source operating systems. "
@@ -480,7 +525,7 @@ msgstr ""
 "[WAMP](http://www.wampserver.com), [MAMP](https://www.mamp.info) ou des "
 "outils similaires."
 
-#: ../../docs/install.md:105
+#: ../../docs/install.md:113
 msgid ""
 "Follow the standard installation instructions. You will need to make the "
 "following [configuration](configuration.md) changes to the file "
@@ -490,22 +535,22 @@ msgstr ""
 "faire les changements de [configuration](configuration.md) suivants dans "
 "le fichier `config/local.config.php` pour que ça fonctionne."
 
-#: ../../docs/install.md:107
+#: ../../docs/install.md:115
 msgid ""
 "First, the PHP path may need to be set if Omeka S cannot automatically "
 "detect the location of your PHP utilities on your local server. Open the "
 "`local.config.php` file and look for line 12:"
 msgstr ""
 
-#: ../../docs/install.md:114
+#: ../../docs/install.md:122
 msgid ""
 "Fill out the `phpcli_path` value with the appropriate path for your "
 "operating system. For example, if you are using a MAMP environment, you "
 "may find the PHP utilities inside the MAMP installation folder at "
-"`MAMP\\bin\\php\\php7`."
+"`MAMP\\bin\\php\\php74`."
 msgstr ""
 
-#: ../../docs/install.md:116
+#: ../../docs/install.md:124
 #, fuzzy
 msgid ""
 "Second, you need to configure Omeka S to use the thumbnail-generating "
@@ -517,13 +562,13 @@ msgstr ""
 "`local.config.php` avec les éléments suivants, selon ce qui est "
 "disponible sur votre système:"
 
-#: ../../docs/install.md:125
+#: ../../docs/install.md:133
 msgid ""
 "Edit the `Omeka\\File\\Thumbnailer` value to the following, based on what"
 " is available for your system:"
 msgstr ""
 
-#: ../../docs/install.md:127
+#: ../../docs/install.md:135
 #, fuzzy
 msgid "Replace the default thumbnailer with `Omeka\\File\\Thumbnailer\\Gd`."
 msgstr ""
@@ -531,7 +576,7 @@ msgstr ""
 "`Omeka\\File\\Thumbnailer\\ImageMagick` par "
 "`Omeka\\File\\Thumbnailer\\Gd`."
 
-#: ../../docs/install.md:128
+#: ../../docs/install.md:136
 #, fuzzy
 msgid ""
 "Replace the default thumbnailer with `Omeka\\File\\Thumbnailer\\Imagick`,"
@@ -544,12 +589,21 @@ msgstr ""
 "`php.ini` de votre serveur via l'interface d'administration du serveur ou"
 " directement dans le fichier."
 
-#: ../../docs/install.md:129
+#: ../../docs/install.md:137
 msgid ""
 "Keep the default thumbnailer `Omeka\\File\\Thumbnailer\\ImageMagick`, but"
 " install the command line tool `imagemagick` and change the "
 "`imagemagick_dir` value to its directory. To install imagemagick, see the"
 " documentation of your server."
+msgstr ""
+
+#: ../../docs/install.md:139
+msgid ""
+"If you see the error `no input file specified`, you may need to edit the "
+"`.htaccess` file. Comment out line 8, `RewriteRule "
+"!\\.(php[0-9]?|phtml|phps)$ - [NC,C]`. You may also need to comment out "
+"the lines following the block comment at line 17 ( “The following "
+"rewrites”) and replace them with `RewriteRule ^(.*)$ index.php`."
 msgstr ""
 
 #~ msgid ""
@@ -657,5 +711,27 @@ msgstr ""
 #~ "when you install. See [their "
 #~ "instructions here](https://support.reclaimhosting.com/hc/en-"
 #~ "us/articles/1500005620481#omeka-s){target=_blank}."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you begin to see errors once"
+#~ " you start working with Omeka, "
+#~ "particularly errors with something like "
+#~ "\"PHP-CLI error: invalid PHP path\", "
+#~ "you will need to manually set the"
+#~ " PHP path. See [Configuration "
+#~ "Options](configuration.md) to learn about "
+#~ "modifying thumbnail generation, setting the"
+#~ " PHP path manually, and more."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fill out the `phpcli_path` value with"
+#~ " the appropriate path for your "
+#~ "operating system. For example, if you"
+#~ " are using a MAMP environment, you"
+#~ " may find the PHP utilities inside"
+#~ " the MAMP installation folder at "
+#~ "`MAMP\\bin\\php\\php7`."
 #~ msgstr ""
 

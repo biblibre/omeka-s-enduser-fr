@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-26 14:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/modules/ndetermennetwerk.md:1
+msgid "NDE Termennetwerk"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:3
+msgid ""
+"The [NDE Termennetwerk "
+"module](https://omeka.org/s/modules/NdeTermennetwerk/) is a sub-module of"
+" [Value Suggest](valuesuggest.md) and adds an auto-complete feature to "
+"specific properties in a resource template, drawing on controlled "
+"vocabularies to help users fill them out."
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:5
+msgid ""
+"This module requires the Value Suggest module to be installed and active "
+"in order to work. When active, the Value Suggest dropdown list will "
+"display NDE entries at the start."
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:7
+msgid "It adds the following vocabularies as data types:"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:9
+msgid ""
+"[Dutch Digital Heritage Network of Terms: NDE "
+"Termennetwerk](https://termennetwerk.netwerkdigitaalerfgoed.nl/) (`nl`)"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:11
+msgid "Art & Architecture Thesaurus - materialen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:12
+msgid "Art & Architecture Thesaurus - processen en technieken"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:13
+msgid "Art & Architecture Thesaurus - stijlen en periodes"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:14
+msgid "Archeologisch Basisregister"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:15
+msgid "Adamlink: straten in Amsterdam"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:16
+msgid "Brinkman trefwoordenthesaurus"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:17
+msgid "Cultuurhistorische Thesaurus"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:18
+msgid "Cultuurhistorische Thesaurus - Materialen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:19
+msgid "Cultuurhistorische Thesaurus - Stijlen en periodes"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:20
+msgid "EuroVoc - thesaurus van de Europese Unie"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:21
+msgid "GeoNames: geografische namen in Nederland, België en Duitsland"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:22
+msgid "GTAA: genres"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:23
+msgid "GTAA: onderwerpen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:24
+msgid "Homosaurus"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:25
+msgid "Iconclass"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:26
+msgid "Indisch Erfgoed Thesaurus"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:27
+msgid "Muziek: genres en stijlen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:28
+msgid "Muziek: personen en groepen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:29
+msgid "Muziekschatten: onderwerpen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:30
+msgid "Nederlandse Thesaurus van Auteursnamen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:31
+msgid "RKDartists"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:32
+msgid "STCN: drukkers"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:33
+msgid "Thesaurus Nationaal Museum van Wereldculturen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:34
+msgid "Thesaurus Tweede Wereldoorlog Nederland"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:35
+msgid "Wikidata: alle entiteiten"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:36
+msgid "Wikidata: personen"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:37
+msgid "Wikidata: plaatsen in Nederland en België"
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:38
+msgid "Wikidata: straten in Nederland."
+msgstr ""
+
+#: ../../docs/modules/ndetermennetwerk.md:40
+msgid ""
+"For more information, see the [Value Suggest module "
+"documentation](valuesuggest.md)."
+msgstr ""
+

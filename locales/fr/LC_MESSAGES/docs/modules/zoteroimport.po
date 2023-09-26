@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2021-08-03 15:34+0200\n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -117,6 +117,11 @@ msgstr ""
 msgid "![Zotero Import options](modulesfiles/zoteroimport_new.png)"
 msgstr ""
 
+#: ../../docs/modules/zoteroimport.md:20
+#, fuzzy
+msgid "Zotero Import options"
+msgstr "Zotero Import"
+
 #: ../../docs/modules/zoteroimport.md:22
 msgid "To import from a Zotero library:"
 msgstr ""
@@ -201,45 +206,39 @@ msgstr ""
 msgid ""
 "To view and manage past imports, click on the Zotero Import section in "
 "the left-hand navigation, and then click on the \"Past Imports\" "
-"subsection."
+"subsection that appears when the menu expands."
 msgstr ""
 
 #: ../../docs/modules/zoteroimport.md:46
-msgid ""
-"![red arrow points to past imports "
-"section](modulesfiles/zoteroimport_pasttab.png)"
-msgstr ""
-
-#: ../../docs/modules/zoteroimport.md:48
 msgid ""
 "The Past Imports page shows a table of previous imports, whether "
 "successful, failed on error, or undone. The table has the following "
 "columns:"
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:50
+#: ../../docs/modules/zoteroimport.md:48
 msgid "**Zotero Library**: giving the User or Group library name."
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:51
+#: ../../docs/modules/zoteroimport.md:49
 msgid "The **Undo** button: a counter-clockwise curved arrow."
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:52
+#: ../../docs/modules/zoteroimport.md:50
 msgid "**Items Added Before**: the date of the import."
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:53
+#: ../../docs/modules/zoteroimport.md:51
 msgid ""
 "**Job Status**: current status of job. Clicking on the text of a job "
 "status will take you to that job's page."
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:54
+#: ../../docs/modules/zoteroimport.md:52
 msgid "**Item Count**: the number of items added in the import."
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:56
+#: ../../docs/modules/zoteroimport.md:54
 msgid ""
 "To Undo an import, click the \"Undo\" button to the left of the **Items "
 "Added Before** timestamp. This will open a sidebar dialog asking you to "
@@ -247,13 +246,17 @@ msgid ""
 "Click \"Confirm\" to continue."
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:58
+#: ../../docs/modules/zoteroimport.md:56
 msgid ""
 "![Past imports page with sidebar open to confirm "
 "undo](modulesfiles/zoteroimport_undo.png)"
 msgstr ""
 
-#: ../../docs/modules/zoteroimport.md:60
+#: ../../docs/modules/zoteroimport.md:56
+msgid "Past imports page with sidebar open to confirm undo"
+msgstr ""
+
+#: ../../docs/modules/zoteroimport.md:58
 msgid ""
 "Past imports which have already been undone will have a job status of "
 "\"Undo Import Completed\"."
@@ -403,5 +406,18 @@ msgstr ""
 #~ "Past Imports which have already been "
 #~ "undone will have a job status "
 #~ "\"Undo Import Completed\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To view and manage past imports, "
+#~ "click on the Zotero Import section "
+#~ "in the left-hand navigation, and "
+#~ "then click on the \"Past Imports\" "
+#~ "subsection."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![red arrow points to past imports "
+#~ "section](modulesfiles/zoteroimport_pasttab.png)"
 #~ msgstr ""
 

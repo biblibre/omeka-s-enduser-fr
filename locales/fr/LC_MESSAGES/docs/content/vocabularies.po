@@ -8,19 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2023-05-22 16:33+0200\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: fr_FR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.0.1\n"
 
-#: ../../docs/content/vocabularies.md:1
+#: ../../docs/content/vocabularies.md ../../docs/content/vocabularies.md:1
 msgid "Vocabularies"
 msgstr "Vocabulaires"
 
@@ -28,316 +27,416 @@ msgstr "Vocabulaires"
 msgid ""
 "Vocabularies are a collection of published RDF metadata Classes and "
 "Properties for describing a Resource of a particular type. Linked open "
-"vocabularies are created externally to Omeka, and, because they are openly "
-"available, can be imported (with some limitations) into Omeka S for use "
-"throughout the installation. If you have special and uncommon item types or "
-"classes, you may wish to find and import a linked open vocabulary to "
-"standardize the description of those particular items. These vocabularies "
-"are sometimes referred to as ontologies."
+"vocabularies are created externally to Omeka, and, because they are "
+"openly available, can be imported (with some limitations) into Omeka S "
+"for use throughout the installation. If you have special and uncommon "
+"item types or classes, you may wish to find and import a linked open "
+"vocabulary to standardize the description of those particular items. "
+"These vocabularies are sometimes referred to as ontologies."
 msgstr ""
-"Les vocabulaires constituent des ensembles de classes de métadonnées et de "
-"propriétés RDF servant à décrire un type de ressource spécifique. Les linked "
-"open vocabularies (vocabulaires ouverts liés) sont créés hors Omeka, et "
-"parce qu'ils sont ouverts, peuvent être importés (malgré certaines limites) "
-"dans Omeka S. Si vous travaillez avec des types ou classes de contenus "
-"inhabituels, vous pouvez trouver et importer un vocabulaire lié pour en "
-"formaliser la description. Ces vocabulaires sont parfois appelés ontologies."
+"Les vocabulaires constituent des ensembles de classes de métadonnées et "
+"de propriétés RDF servant à décrire un type de ressource spécifique. Les "
+"linked open vocabularies (vocabulaires ouverts liés) sont créés hors "
+"Omeka, et parce qu'ils sont ouverts, peuvent être importés (malgré "
+"certaines limites) dans Omeka S. Si vous travaillez avec des types ou "
+"classes de contenus inhabituels, vous pouvez trouver et importer un "
+"vocabulaire lié pour en formaliser la description. Ces vocabulaires sont "
+"parfois appelés ontologies."
 
 #: ../../docs/content/vocabularies.md:5
 msgid ""
-"For example, you can find ontologies for describing [audio signals](https://"
-"lov.linkeddata.es/dataset/lov/vocabs/af), [air traffic data](https://lov."
-"linkeddata.es/dataset/lov/vocabs/atd), and [algorithms](https://lov."
-"linkeddata.es/dataset/lov/vocabs/algo), by providing metadata fields "
-"particular to those object types."
+"For example, you can find ontologies for describing [audio "
+"signals](https://lov.linkeddata.es/dataset/lov/vocabs/af), [air traffic "
+"data](https://lov.linkeddata.es/dataset/lov/vocabs/atd), and "
+"[algorithms](https://lov.linkeddata.es/dataset/lov/vocabs/algo), by "
+"providing metadata fields particular to those object types."
 msgstr ""
-"On trouve par exemple des ontologies pour décrire les [signaux sonores]"
-"(https://lov.linkeddata.es/dataset/lov/vocabs/af), les [données de trafic "
-"aérien](https://lov.linkeddata.es/dataset/lov/vocabs/atd) et les "
-"[algorithmes](https://lov.linkeddata.es/dataset/lov/vocabs/algo), qui "
-"fournissent des champs de métadonnées spécifiques à ces types d'objets."
+"On trouve par exemple des ontologies pour décrire les [signaux "
+"sonores](https://lov.linkeddata.es/dataset/lov/vocabs/af), les [données "
+"de trafic aérien](https://lov.linkeddata.es/dataset/lov/vocabs/atd) et "
+"les [algorithmes](https://lov.linkeddata.es/dataset/lov/vocabs/algo), qui"
+" fournissent des champs de métadonnées spécifiques à ces types d'objets."
 
 #: ../../docs/content/vocabularies.md:7
 msgid ""
 "*\"A vocabulary in LOV gathers definitions of a set of classes and "
 "properties (together simply called terms of the vocabulary), useful to "
-"describe specific types of things, or things in a given domain or industry, "
-"or things at large but for a specific usage.\" (Source: <https://lov."
-"linkeddata.es/dataset/lov/about>)*"
+"describe specific types of things, or things in a given domain or "
+"industry, or things at large but for a specific usage.\" (Source: "
+"<https://lov.linkeddata.es/dataset/lov/about>)*"
 msgstr ""
-"*\"Un vocabulaire LOV réunit des définitions d'un ensemble de classes et de "
-"propriétés (qui constituent les termes ou vocables du vocabulaire), servant "
-"à décrire un type précis d'objets, des objets relevant d'un domaine "
-"particulier, ou encore des objets généraux qui ont des usages spécifiques."
-"\" (Source: <https://lov.linkeddata.es/dataset/lov/about>)*"
+"*\"Un vocabulaire LOV réunit des définitions d'un ensemble de classes et "
+"de propriétés (qui constituent les termes ou vocables du vocabulaire), "
+"servant à décrire un type précis d'objets, des objets relevant d'un "
+"domaine particulier, ou encore des objets généraux qui ont des usages "
+"spécifiques.\" (Source: <https://lov.linkeddata.es/dataset/lov/about>)*"
 
 #: ../../docs/content/vocabularies.md:9
 msgid ""
-"The most-used [Linked Open Vocabulary](https://lov.linkeddata.es/dataset/lov/"
-"about) is Dublin Core Terms (`dcterms:`)."
+"The most-used [Linked Open "
+"Vocabulary](https://lov.linkeddata.es/dataset/lov/about) is Dublin Core "
+"Terms (`dcterms:`)."
 msgstr ""
-"Le [vocabulaire lié](https://lov.linkeddata.es/dataset/lov/about) le plus "
-"utilisé est Dublin Core Terms ('dcterms:')."
+"Le [vocabulaire lié](https://lov.linkeddata.es/dataset/lov/about) le plus"
+" utilisé est Dublin Core Terms ('dcterms:')."
 
 #: ../../docs/content/vocabularies.md:11
 msgid ""
 "!!! note \tVocabularies in Omeka S are not the same thing as controlled "
-"vocabularies or authority files, which consist of terms and concepts, rather "
-"than Classes and Properties. In Omeka S, controlled vocabularies can be "
-"managed using the [Value Suggest](../modules/valuesuggest.md) and [Custom "
-"Vocab](../modules/customvocab.md) modules."
+"vocabularies or authority files, which consist of terms and concepts, "
+"rather than Classes and Properties. In Omeka S, controlled vocabularies "
+"can be managed using the [Value Suggest](../modules/valuesuggest.md) and "
+"[Custom Vocab](../modules/customvocab.md) modules."
 msgstr ""
 "!!! note   Les vocabulaires dans Omeka S ne correspondent pas à des "
-"vocabulaires contrôlés ou fichiers d'autorités, qui constituent un ensemble "
-"de termes et de concepts, plutôt qu'un ensemble de Classes et de Propriétés. "
-"Les vocabulaires contrôlés peuvent être gérés dans Omeka S en utilisant les "
-"modules [Value Suggest](../modules/valuesuggest.md) et [Custom Vocab](../"
-"modules/customvocab.md)."
+"vocabulaires contrôlés ou fichiers d'autorités, qui constituent un "
+"ensemble de termes et de concepts, plutôt qu'un ensemble de Classes et de"
+" Propriétés. Les vocabulaires contrôlés peuvent être gérés dans Omeka S "
+"en utilisant les modules [Value Suggest](../modules/valuesuggest.md) et "
+"[Custom Vocab](../modules/customvocab.md)."
 
 #: ../../docs/content/vocabularies.md:14
 msgid ""
-"Global Administrators can manage their installation’s vocabularies from the "
-"**Vocabularies** tab on the left hand navigation of the Admin Dashboard. "
-"Supervisors can add, edit, and delete their own vocabularies."
+"Global Administrators can manage their installation’s vocabularies from "
+"the **Vocabularies** tab on the left hand navigation of the Admin "
+"Dashboard. Supervisors can add, edit, and delete their own vocabularies."
 msgstr ""
-"Les administrateurs généraux peuvent gérer les vocabulaires de leur instance "
-"via l'onglet **Vocabulaires**, dans la navigation à gauche du tableau de "
-"bord Admin. Les superviseurs peuvent ajouter, modifier et supprimer leurs "
-"propres vocabulaires."
+"Les administrateurs généraux peuvent gérer les vocabulaires de leur "
+"instance via l'onglet **Vocabulaires**, dans la navigation à gauche du "
+"tableau de bord Admin. Les superviseurs peuvent ajouter, modifier et "
+"supprimer leurs propres vocabulaires."
 
 #: ../../docs/content/vocabularies.md:16
 msgid ""
-"Omeka S comes pre-loaded with the following vocabularies: [Dublin Core]"
-"(http://purl.org/dc/terms/); [Dublin Core Type](http://purl.org/dc/"
-"dcmitype/); [Bibliographic Ontology](https://bibliontology.com/); and "
-"[Friend of a Friend](https://en.wikipedia.org/wiki/FOAF_(ontology))."
+"Omeka S comes pre-loaded with the following vocabularies: [Dublin "
+"Core](http://purl.org/dc/terms/); [Dublin Core "
+"Type](http://purl.org/dc/dcmitype/); [Bibliographic "
+"Ontology](https://bibliontology.com/); and [Friend of a "
+"Friend](https://en.wikipedia.org/wiki/FOAF_(ontology))."
 msgstr ""
-"Omeka S contient par défaut les vocabulaires suivants : [Dublin Core](http://"
-"purl.org/dc/terms/); [Dublin Core Type](http://purl.org/dc/dcmitype/); "
-"[Bibliographic Ontology](https://bibliontology.com/); [Friend of a Friend]"
-"(https://en.wikipedia.org/wiki/FOAF_(ontology))."
+"Omeka S contient par défaut les vocabulaires suivants : [Dublin "
+"Core](http://purl.org/dc/terms/); [Dublin Core "
+"Type](http://purl.org/dc/dcmitype/); [Bibliographic "
+"Ontology](https://bibliontology.com/); [Friend of a "
+"Friend](https://en.wikipedia.org/wiki/FOAF_(ontology))."
 
 #: ../../docs/content/vocabularies.md:18
 msgid ""
-"This [screencast](https://vimeo.com/449764902) walks through managing and "
-"adding vocabularies:"
+"This [screencast](https://vimeo.com/449764902) walks through managing and"
+" adding vocabularies:"
 msgstr ""
-"Cette [vidéo](https://vimeo.com/449764902) montre comment gérer et ajouter "
-"des vocabulaires :"
+"Cette [vidéo](https://vimeo.com/449764902) montre comment gérer et "
+"ajouter des vocabulaires :"
 
 #: ../../docs/content/vocabularies.md:23
+#, fuzzy
+msgid "Vocabularies permissions"
+msgstr "Vocabulaires"
+
+#: ../../docs/content/vocabularies.md:25
+msgid ""
+"Vocabularies are only modifiable by Global Admins and Supervisors. Pre-"
+"loaded vocabularies can be edited or deleted, except DC and DC Type, "
+"which cannot be edited or deleted."
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Category"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Permission"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Global Admin"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Supervisor"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Editor"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Reviewer"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Author"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Researcher"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Import"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Yes"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "No"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Edit/Delete"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md
+msgid "Their own"
+msgstr ""
+
+#: ../../docs/content/vocabularies.md:32
+msgid ""
+"If you change a user level, for example from Supervisor to Editor, they "
+"will lose the ability to edit the vocabularies they have imported, but "
+"the vocabulary will not be modified."
+msgstr ""
+
+#: ../../docs/content/vocabularies.md:34
 msgid "View vocabularies"
 msgstr "Voir les vocabulaires"
 
-#: ../../docs/content/vocabularies.md:24
+#: ../../docs/content/vocabularies.md:35
 msgid ""
-"The main view of the **Vocabularies** tab in the Admin Dashboard displays "
-"the existing vocabularies for the Omeka S installation."
+"The main view of the **Vocabularies** tab in the Admin Dashboard displays"
+" the existing vocabularies for the Omeka S installation."
 msgstr ""
 "La vue principale de l'onglet **Vocabulaires** du tableau de bord Admin "
 "affiche les vocabulaires existants pour l'instance d'Omeka S."
 
-#: ../../docs/content/vocabularies.md:26
+#: ../../docs/content/vocabularies.md:37
 msgid ""
-"![Main view of vocabularies, with columns for label, prefix, classes, and "
-"properties counts and information](contentfiles/vocabularies.png)"
+"![Main view of vocabularies, with columns for label, prefix, classes, and"
+" properties counts and information](contentfiles/vocabularies.png)"
 msgstr ""
 "![Vue principale des vocabulaires, avec les colonnes pour le libellé, le "
-"préfixe, le nombre de classes et de propriétés](contentfiles/vocabularies."
-"png)"
+"préfixe, le nombre de classes et de "
+"propriétés](contentfiles/vocabularies.png)"
 
-#: ../../docs/content/vocabularies.md:28
+#: ../../docs/content/vocabularies.md:37
+#, fuzzy
 msgid ""
-"Vocabularies are displayed in a table with headings for **Label** (name of "
-"vocabulary), **Prefix** (used by the database), **Classes** (number of "
-"classes in the vocabulary), and **Properties** (number of properties in the "
-"vocabulary). You can sort vocabularies by these columns using the up and "
-"down arrows at the right end of each column."
+"Main view of vocabularies, with columns for label, prefix, classes, and "
+"properties counts and information"
 msgstr ""
-"Les vocabulaires sont affichés dans un tableau avec des colonnes **Libellé** "
-"(nom du vocabulaire), **Préfixe** (tel qu'utilisé dans la base de données), "
-"**Classes** (nombre de classes du vocabulaire) et **Propriétés** (nombre de "
-"propriétés du vocabulaire). La liste peut être organisée selon chacun de ces "
-"critères avec les flèches haut et bas à droite des colonnes."
+"![Vue principale des vocabulaires, avec les colonnes pour le libellé, le "
+"préfixe, le nombre de classes et de "
+"propriétés](contentfiles/vocabularies.png)"
 
-#: ../../docs/content/vocabularies.md:30
+#: ../../docs/content/vocabularies.md:39
 msgid ""
-"You can use the icons at the right of the Label field to manage individual "
-"vocabularies. The edit icon (pencil) takes you to the edit page for that "
-"vocabulary, the delete icon (trash can) opens a sidebar to delete the "
-"vocabulary, and the details icon (ellipsis) opens a sidebar with information "
-"about the vocabulary."
+"Vocabularies are displayed in a table with headings for **Label** (name "
+"of vocabulary), **Prefix** (used by the database), **Classes** (number of"
+" classes in the vocabulary), and **Properties** (number of properties in "
+"the vocabulary). You can sort vocabularies by these columns using the up "
+"and down arrows at the right end of each column."
+msgstr ""
+"Les vocabulaires sont affichés dans un tableau avec des colonnes "
+"**Libellé** (nom du vocabulaire), **Préfixe** (tel qu'utilisé dans la "
+"base de données), **Classes** (nombre de classes du vocabulaire) et "
+"**Propriétés** (nombre de propriétés du vocabulaire). La liste peut être "
+"organisée selon chacun de ces critères avec les flèches haut et bas à "
+"droite des colonnes."
+
+#: ../../docs/content/vocabularies.md:41
+msgid ""
+"You can use the icons at the right of the Label field to manage "
+"individual vocabularies. The edit icon (pencil) takes you to the edit "
+"page for that vocabulary, the delete icon (trash can) opens a sidebar to "
+"delete the vocabulary, and the details icon (ellipsis) opens a sidebar "
+"with information about the vocabulary."
 msgstr ""
 "Vous pouvez utiliser les icônes à droite du libellé pour gérer les "
 "vocabulaires. L'icône de modification (crayon) conduit à une page de "
 "modification pour ce vocabulaire spécifique, l'icône de suppression "
-"(poubelle) ouvre un volet latéral de suppression du vocabulaire et l'icône "
-"des détails (points de suspension) ouvre un volet latéral contenant les "
-"informations sur le vocabulaire."
+"(poubelle) ouvre un volet latéral de suppression du vocabulaire et "
+"l'icône des détails (points de suspension) ouvre un volet latéral "
+"contenant les informations sur le vocabulaire."
 
-#: ../../docs/content/vocabularies.md:32
+#: ../../docs/content/vocabularies.md:43
 msgid ""
 "When editing a vocabulary, you can make changes to the **label** and add "
 "**comments**."
 msgstr ""
-"Vous pouvez modifier le libellé du vocabulaire et ajouter des commentaires."
+"Vous pouvez modifier le libellé du vocabulaire et ajouter des "
+"commentaires."
 
-#: ../../docs/content/vocabularies.md:34
+#: ../../docs/content/vocabularies.md:45
 msgid "Add a vocabulary"
 msgstr "Ajouter un vocabulaire"
 
-#: ../../docs/content/vocabularies.md:35
+#: ../../docs/content/vocabularies.md:46
 msgid ""
-"New vocabularies must be imported from an existing metadata standard source. "
-"In order to import a new vocabulary, you must have a vocabulary file or a "
-"stable link to a vocabulary."
+"New vocabularies must be imported from an existing metadata standard "
+"source. In order to import a new vocabulary, you must have a vocabulary "
+"file or a stable link to a vocabulary."
 msgstr ""
 "Les nouveaux vocabulaires doivent être importés depuis une source de "
 "métadonnées existante. Pour importer un nouveau vocabulaire, il faut un "
 "fichier de vocabulaire ou un lien stable vers le vocabulaire."
 
-#: ../../docs/content/vocabularies.md:37
+#: ../../docs/content/vocabularies.md:48
 msgid ""
-"The New vocabulary page has three sections: Basic Info, File, and Advanced."
+"The New vocabulary page has three sections: Basic Info, File, and "
+"Advanced."
 msgstr ""
-"La page Nouveau vocabulaire contient trois sections : Info de base, Fichier "
-"et Avancé."
+"La page Nouveau vocabulaire contient trois sections : Info de base, "
+"Fichier et Avancé."
 
-#: ../../docs/content/vocabularies.md:39
+#: ../../docs/content/vocabularies.md:50
 msgid ""
-"Note that you may have to research in order to find the prefix, namespace "
-"URI, and label for the vocabulary, as these are not standardized. In "
-"addition to the vocabulary's website, you might consult <https://lov."
-"linkeddata.es/dataset/lov/vocabs>."
+"Note that you may have to research in order to find the prefix, namespace"
+" URI, and label for the vocabulary, as these are not standardized. In "
+"addition to the vocabulary's website, you might consult "
+"<https://lov.linkeddata.es/dataset/lov/vocabs>."
 msgstr ""
 "À noter qu'il faut dans certains cas rechercher le préfixe, l'URI et le "
 "libellé du vocabulaire, qui ne sont pas standardisés. En plus du site du "
-"vocabulaire, vous pouvez consulter <https://lov.linkeddata.es/dataset/lov/"
-"vocabs>."
+"vocabulaire, vous pouvez consulter "
+"<https://lov.linkeddata.es/dataset/lov/vocabs>."
 
-#: ../../docs/content/vocabularies.md:41
+#: ../../docs/content/vocabularies.md:52
 msgid ""
 "After you have imported a vocabulary, you can use the Edit function to "
 "modify the vocabulary's Label and Comment, and to upload an updated "
 "vocabulary RDF file."
 msgstr ""
 "Une fois le vocabulaire importé, vous pouvez modifier le libellé et le "
-"commentaire du vocabulaire, ainsi que charger une version à jour du fichier "
-"RDF du vocabulaire."
+"commentaire du vocabulaire, ainsi que charger une version à jour du "
+"fichier RDF du vocabulaire."
 
-#: ../../docs/content/vocabularies.md:43
+#: ../../docs/content/vocabularies.md:54
 msgid "Basic info"
 msgstr "Info de base"
 
-#: ../../docs/content/vocabularies.md:44
+#: ../../docs/content/vocabularies.md:55
 msgid "This section contains the basic information for the vocabulary"
 msgstr ""
-"Cette section contient les informations principales concernant le vocabulaire"
+"Cette section contient les informations principales concernant le "
+"vocabulaire"
 
-#: ../../docs/content/vocabularies.md:46
+#: ../../docs/content/vocabularies.md:57
 msgid ""
 "Label (required): the display name for the vocabulary in lists (e.g., "
 "\"Dublin Core,\" \"Friend of a Friend\")."
 msgstr ""
-"Label (obligatoire) : le nom d'affichage du vocabulaire dans les listes (e."
-"g., \"Dublin Core,\" \"Friend of a Friend\")."
+"Label (obligatoire) : le nom d'affichage du vocabulaire dans les listes "
+"(e.g., \"Dublin Core,\" \"Friend of a Friend\")."
 
-#: ../../docs/content/vocabularies.md:47
+#: ../../docs/content/vocabularies.md:58
 msgid "Comment: any comments you have."
 msgstr "Commentaire : tout commentaire utile."
 
-#: ../../docs/content/vocabularies.md:48
+#: ../../docs/content/vocabularies.md:59
 msgid "Namespace URI (required): this should be provided by the vocabulary."
 msgstr ""
 "URI de l'espace de noms (obligatoire) : devrait être fourni par le "
 "vocabulaire."
 
-#: ../../docs/content/vocabularies.md:49
+#: ../../docs/content/vocabularies.md:60
 msgid ""
 "Namespace prefix (required): This will display before the property, "
-"indicating which vocabulary (e.g., the prefix for Dublin Core is dcterms)."
+"indicating which vocabulary (e.g., the prefix for Dublin Core is "
+"dcterms)."
 msgstr ""
-"Préfixe de l'espace de noms (obligatoire) : s'affichera devant la propriété, "
-"indiquant ainsi le vocabulaire utilisé (e.g., le préfixe pour Dublin Core "
-"est dcterms)."
+"Préfixe de l'espace de noms (obligatoire) : s'affichera devant la "
+"propriété, indiquant ainsi le vocabulaire utilisé (e.g., le préfixe pour "
+"Dublin Core est dcterms)."
 
-#: ../../docs/content/vocabularies.md:51
+#: ../../docs/content/vocabularies.md:62
 msgid ""
-"![New vocabulary basic settings, nothing entered](contentfiles/"
-"vocab_addBasicInfo.png)"
+"![New vocabulary basic settings, nothing "
+"entered](contentfiles/vocab_addBasicInfo.png)"
 msgstr ""
-"![Options de base de la page Nouveau vocabulaire, champs vides](contentfiles/"
-"vocab_addBasicInfo.png)"
+"![Options de base de la page Nouveau vocabulaire, champs "
+"vides](contentfiles/vocab_addBasicInfo.png)"
 
-#: ../../docs/content/vocabularies.md:53
+#: ../../docs/content/vocabularies.md:62
+#, fuzzy
+msgid "New vocabulary basic settings, nothing entered"
+msgstr ""
+"![Options de base de la page Nouveau vocabulaire, champs "
+"vides](contentfiles/vocab_addBasicInfo.png)"
+
+#: ../../docs/content/vocabularies.md:64
 msgid "File"
 msgstr "Fichier"
 
-#: ../../docs/content/vocabularies.md:54
+#: ../../docs/content/vocabularies.md:65
 msgid "This section deals with the file for the vocabulary."
 msgstr "Cette section concerne le fichier vocabulaire."
 
-#: ../../docs/content/vocabularies.md:56
+#: ../../docs/content/vocabularies.md:67
 msgid "Vocabulary file: Upload a file from your computer *or*"
 msgstr "Fichier vocabulaire : verser un fichier depuis votre ordinateur *ou*"
 
-#: ../../docs/content/vocabularies.md:57
+#: ../../docs/content/vocabularies.md:68
 msgid "Vocabulary URL: Enter the vocabulary's URL here."
 msgstr "URL du vocabulaire : saisir l'URL du vocabulaire."
 
-#: ../../docs/content/vocabularies.md:58
+#: ../../docs/content/vocabularies.md:69
 msgid "File format: a dropdown, select from:"
 msgstr "Format de fichier : menu déroulant, choisir parmi :"
 
-#: ../../docs/content/vocabularies.md:59
+#: ../../docs/content/vocabularies.md:70
 msgid "Autodetect"
 msgstr "Auto"
 
-#: ../../docs/content/vocabularies.md:60
+#: ../../docs/content/vocabularies.md:71
 msgid "JSON-LD (.jsonld)"
 msgstr "JSON-LD (.jsonld)"
 
-#: ../../docs/content/vocabularies.md:61
+#: ../../docs/content/vocabularies.md:72
 msgid "N-Triples (.nt)"
 msgstr "N-Triples (.nt)"
 
-#: ../../docs/content/vocabularies.md:62
-msgid "Notation3 (.n3)"
-msgstr "Notation3 (.n3)"
-
-#: ../../docs/content/vocabularies.md:63
+#: ../../docs/content/vocabularies.md:73
 msgid "RDF/XML (.rdf)"
 msgstr "RDF/XML (.rdf)"
 
-#: ../../docs/content/vocabularies.md:64
+#: ../../docs/content/vocabularies.md:74
 msgid "Turtle (.ttl)."
 msgstr "Turtle (.ttl)."
 
-#: ../../docs/content/vocabularies.md:66
+#: ../../docs/content/vocabularies.md:76
 msgid ""
-"![New vocabulary file settings, with no data entered and no file chosen]"
-"(contentfiles/vocab_addFile.png)"
+"![New vocabulary file settings, with no data entered and no file "
+"chosen](contentfiles/vocab_addFile.png)"
 msgstr ""
 "[Options de fichier de la page Nouveau vocabulaire, champs vides et sans "
 "fichier](contentfiles/vocab_addFile.png)"
 
-#: ../../docs/content/vocabularies.md:68
+#: ../../docs/content/vocabularies.md:76
+#, fuzzy
+msgid "New vocabulary file settings, with no data entered and no file chosen"
+msgstr ""
+"[Options de fichier de la page Nouveau vocabulaire, champs vides et sans "
+"fichier](contentfiles/vocab_addFile.png)"
+
+#: ../../docs/content/vocabularies.md:78
 msgid "Advanced"
 msgstr "Avancé"
 
-#: ../../docs/content/vocabularies.md:70
+#: ../../docs/content/vocabularies.md:80
 msgid "This section has advanced vocabulary settings."
 msgstr "Cette section contient des options avancées du vocabulaire."
 
-#: ../../docs/content/vocabularies.md:72
+#: ../../docs/content/vocabularies.md:82
 msgid ""
-"Language: Enter the preferred language of the labels and comments using an "
-"IETF language tag."
+"Language: Enter the preferred language of the labels and comments using "
+"an IETF language tag."
 msgstr ""
 "Langue préférée : saisir la langue préférée pour les étiquettes et "
 "commentaires à partir du code langue IETF."
 
-#: ../../docs/content/vocabularies.md:73
+#: ../../docs/content/vocabularies.md:83
 msgid ""
 "Label property: if this vocabulary uses an unconventional property for "
 "labels, enter the full property URI in angle brackets (`<`, `>`)in this "
@@ -347,202 +446,252 @@ msgstr ""
 "inhabituelle pour les étiquettes, saisir l'URI complète de la propriété "
 "entre crochets (`<`, `>`)."
 
-#: ../../docs/content/vocabularies.md:74
+#: ../../docs/content/vocabularies.md:84
 #, fuzzy
 msgid ""
 "Comment property: if you are using the above label property, enter the "
 "corresponding property URI in angle brackets (`<`, `>`) in this field."
 msgstr ""
-"Propriété pour le commentaire: si vous utilisez la propriété susmentionnée, "
-"saisir l'URI correspondante entre crochets (`<`, `>`)."
+"Propriété pour le commentaire: si vous utilisez la propriété "
+"susmentionnée, saisir l'URI correspondante entre crochets (`<`, `>`)."
 
-#: ../../docs/content/vocabularies.md:76
+#: ../../docs/content/vocabularies.md:86
 msgid ""
-"![New vocabulary advanced settings, with no data entered](contentfiles/"
-"vocab_addAdvanced.png)"
+"![New vocabulary advanced settings, with no data "
+"entered](contentfiles/vocab_addAdvanced.png)"
 msgstr ""
-"![Options avancées de la page Nouveau vocabulaire, champs vides]"
-"(contentfiles/vocab_addAdvanced.png)"
+"![Options avancées de la page Nouveau vocabulaire, champs "
+"vides](contentfiles/vocab_addAdvanced.png)"
 
-#: ../../docs/content/vocabularies.md:78
+#: ../../docs/content/vocabularies.md:86
+#, fuzzy
+msgid "New vocabulary advanced settings, with no data entered"
+msgstr ""
+"![Options avancées de la page Nouveau vocabulaire, champs "
+"vides](contentfiles/vocab_addAdvanced.png)"
+
+#: ../../docs/content/vocabularies.md:88
 msgid "Edit a vocabulary"
 msgstr "Modifier un vocabulaire"
 
-#: ../../docs/content/vocabularies.md:79
+#: ../../docs/content/vocabularies.md:89
 msgid ""
-"You can edit existing vocabularies by clicking the edit button (pencil icon) "
-"on the table of vocabularies."
+"You can edit existing vocabularies by clicking the edit button (pencil "
+"icon) on the table of vocabularies."
 msgstr ""
-"Vous pouvez modifier les vocabulaires existants en cliquant sur le bouton "
-"modifier (icône de crayon) dans le tableau des vocabulaires."
+"Vous pouvez modifier les vocabulaires existants en cliquant sur le bouton"
+" modifier (icône de crayon) dans le tableau des vocabulaires."
 
-#: ../../docs/content/vocabularies.md:81
+#: ../../docs/content/vocabularies.md:91
 msgid ""
-"You can also update the vocabulary by either uploading a new vocabulary file "
-"or entering the vocabulary URL and saving changes. You will be able to "
-"review any changes when updating a vocabulary. If you decide you do not wish "
-"to save your changes, or clicked on the edit button by mistake, you can "
-"click the \"Cancel\" button next to the \"Save\" button."
+"You can also update the vocabulary by either uploading a new vocabulary "
+"file or entering the vocabulary URL and saving changes. You will be able "
+"to review any changes when updating a vocabulary. If you decide you do "
+"not wish to save your changes, or clicked on the edit button by mistake, "
+"you can click the \"Cancel\" button next to the \"Save\" button."
 msgstr ""
 "Vous pouvez aussi mettre à jour le vocabulaire en chargeant un nouveau "
 "fichier ou en saisissant l'URL du vocabulaire puis en sauvegardant les "
-"modifications. Toute modification faite pourra être passée en revue. Si vous "
-"ne souhaitez pas enregistrer les modifications ou que vous avez cliqué sur "
-"le bouton modifier par erreur, vous pouvez cliquer sur le bouton \"Annuler\" "
-"à côté du bouton \"Enregistrer\"."
+"modifications. Toute modification faite pourra être passée en revue. Si "
+"vous ne souhaitez pas enregistrer les modifications ou que vous avez "
+"cliqué sur le bouton modifier par erreur, vous pouvez cliquer sur le "
+"bouton \"Annuler\" à côté du bouton \"Enregistrer\"."
 
-#: ../../docs/content/vocabularies.md:84
+#: ../../docs/content/vocabularies.md:94
 #, fuzzy
 msgid ""
-"![Edit vocabulary page for OWL-Time Ontology.](contentfiles/vocab_edit.png)"
+"![Edit vocabulary page for OWL-Time "
+"Ontology.](contentfiles/vocab_edit.png)"
 msgstr ""
-"![Page de modification du vocabulaire pour OWL-Time Ontology](contentfiles/"
-"vocab_edit.png)"
+"![Page de modification du vocabulaire pour OWL-Time "
+"Ontology](contentfiles/vocab_edit.png)"
 
-#: ../../docs/content/vocabularies.md:86
+#: ../../docs/content/vocabularies.md:94
+#, fuzzy
+msgid "Edit vocabulary page for OWL-Time Ontology."
+msgstr ""
+"![Page de modification du vocabulaire pour OWL-Time "
+"Ontology](contentfiles/vocab_edit.png)"
+
+#: ../../docs/content/vocabularies.md:96
 msgid "Vocabulary import"
 msgstr "Import de vocabulaire"
 
-#: ../../docs/content/vocabularies.md:87
+#: ../../docs/content/vocabularies.md:97
 msgid ""
-"Omeka S will import properly formatted vocabularies/ontologies. `rdfs:Class` "
-"and `rdfs:Property` data will be available."
+"Omeka S will import properly formatted vocabularies/ontologies. "
+"`rdfs:Class` and `rdfs:Property` data will be available."
 msgstr ""
-"Omeka S peut importer tout vocabulaire/ontologie correctement formaté. Les "
-"données `rdfs:Class` et `rdfs:Property` sont alors disponibles."
+"Omeka S peut importer tout vocabulaire/ontologie correctement formaté. "
+"Les données `rdfs:Class` et `rdfs:Property` sont alors disponibles."
 
-#: ../../docs/content/vocabularies.md:89
+#: ../../docs/content/vocabularies.md:99
 msgid ""
 "For Web Ontology Language (OWL) data, Omeka S will store only the RDF/S "
-"super-Properties and -Classes. Omeka S does not enforce any declaration or "
-"inferencing rules from OWL. Thus, for example, an `owl:Class` is treated in "
-"Omeka S like an `rdfs:Class`."
+"super-Properties and -Classes. Omeka S does not enforce any declaration "
+"or inferencing rules from OWL. Thus, for example, an `owl:Class` is "
+"treated in Omeka S like an `rdfs:Class`."
 msgstr ""
 "Pour les données OWL, Omeka S ne conserve que les super-propriétés et "
-"classes RDF/S, et n'utilise aucune des règles de déclaration ou d'inférence "
-"provenant d'OWL. Par exemple, une 'owl:Class' est traitée par Omeka S comme "
-"une 'rdfs:Class'."
+"classes RDF/S, et n'utilise aucune des règles de déclaration ou "
+"d'inférence provenant d'OWL. Par exemple, une 'owl:Class' est traitée par"
+" Omeka S comme une 'rdfs:Class'."
 
-#: ../../docs/content/vocabularies.md:91
+#: ../../docs/content/vocabularies.md:101
 msgid ""
 "Similarly, the following are all treated only as `rdfs:Property`. OWL "
 "domains and ranges are also not enforced or stored:"
 msgstr ""
-"Les propriétés suivantes sont également traitées comme des 'rdfs:Property'. "
-"Les domaines et gammes ne sont pas non plus implémentés ni stockés :"
+"Les propriétés suivantes sont également traitées comme des "
+"'rdfs:Property'. Les domaines et gammes ne sont pas non plus implémentés "
+"ni stockés :"
 
-#: ../../docs/content/vocabularies.md:93 ../../docs/content/vocabularies.md:98
+#: ../../docs/content/vocabularies.md:103
+#: ../../docs/content/vocabularies.md:108
 msgid "`owl:ObjectProperty`"
 msgstr "`owl:ObjectProperty`"
 
-#: ../../docs/content/vocabularies.md:94 ../../docs/content/vocabularies.md:99
+#: ../../docs/content/vocabularies.md:104
+#: ../../docs/content/vocabularies.md:109
 msgid "`owl:DatatypeProperty`"
 msgstr "`owl:DatatypeProperty`"
 
-#: ../../docs/content/vocabularies.md:95 ../../docs/content/vocabularies.md:100
+#: ../../docs/content/vocabularies.md:105
+#: ../../docs/content/vocabularies.md:110
 msgid "`owl:SymmetricProperty`"
 msgstr "`owl:SymmetricProperty`"
 
-#: ../../docs/content/vocabularies.md:96 ../../docs/content/vocabularies.md:101
+#: ../../docs/content/vocabularies.md:106
+#: ../../docs/content/vocabularies.md:111
 msgid "`owl:TransitiveProperty`"
 msgstr "`owl:TransitiveProperty`"
 
-#: ../../docs/content/vocabularies.md:97 ../../docs/content/vocabularies.md:102
+#: ../../docs/content/vocabularies.md:107
+#: ../../docs/content/vocabularies.md:112
 msgid "`owl:FunctionalProperty`"
 msgstr "`owl:FunctionalProperty`"
 
-#: ../../docs/content/vocabularies.md:103
+#: ../../docs/content/vocabularies.md:113
 msgid "`owl:InverseFunctionalProperty`."
 msgstr "`owl:InverseFunctionalProperty`."
 
-#: ../../docs/content/vocabularies.md:105
+#: ../../docs/content/vocabularies.md:115
 msgid ""
 "For example, an imported ontology with an `owl:ObjectProperty` is not "
-"restricted to having objects that are URIs; Omeka S will accept a Literal "
-"value without complaint. You can use [resource template](../content/resource-"
-"template.md) settings to require a data type on properties, so that someone "
-"filling out, for example, the `owl:ObjectProperty` field in a template is "
-"required to enter a URI value."
+"restricted to having objects that are URIs; Omeka S will accept a Literal"
+" value without complaint. You can use [resource template](../content"
+"/resource-template.md) settings to require a data type on properties, so "
+"that someone filling out, for example, the `owl:ObjectProperty` field in "
+"a template is required to enter a URI value."
 msgstr ""
-"Par exemple, pour une ontologie importée contenant un 'owl:ObjectProperty', "
-"les objets ne sont pas limités aux URI ; Omeka S permet sans difficulté de "
-"saisir une valeur textuelle. Vous pouvez utiliser les paramètres d'un "
-"[modèle de ressource](../content/resource-template.md) pour limiter le type "
-"de données utilisé et contraindre une personne remplissant le champ 'owl:"
-"ObjectProperty' à le faire avec une URI."
+"Par exemple, pour une ontologie importée contenant un "
+"'owl:ObjectProperty', les objets ne sont pas limités aux URI ; Omeka S "
+"permet sans difficulté de saisir une valeur textuelle. Vous pouvez "
+"utiliser les paramètres d'un [modèle de ressource](../content/resource-"
+"template.md) pour limiter le type de données utilisé et contraindre une "
+"personne remplissant le champ 'owl:ObjectProperty' à le faire avec une "
+"URI."
 
-#: ../../docs/content/vocabularies.md:107
+#: ../../docs/content/vocabularies.md:117
 msgid ""
-"It is up to the person entering metadata to adhere to the standards as best "
-"they can."
+"It is up to the person entering metadata to adhere to the standards as "
+"best they can."
 msgstr ""
 "C'est à la personne saisissant les métadonnées de respecter au mieux les "
 "standards du vocabulaire."
 
-#: ../../docs/content/vocabularies.md:109
+#: ../../docs/content/vocabularies.md:119
 msgid "Delete a vocabulary"
 msgstr "Supprimer un vocabulaire"
 
-#: ../../docs/content/vocabularies.md:111
+#: ../../docs/content/vocabularies.md:121
 msgid ""
 "With the exception of Dublin Core and Dublin Core Type, Global "
 "Administrators can delete any vocabulary from the Omeka S installation, "
-"either from the Vocabulary browse or the Vocabulary edit page. Supervisors "
-"can delete vocabularies they have imported, but not others' vocabularies or "
-"the default ones included with Omeka S."
+"either from the Vocabulary browse or the Vocabulary edit page. "
+"Supervisors can delete vocabularies they have imported, but not others' "
+"vocabularies or the default ones included with Omeka S."
 msgstr ""
 "À l'exception de Dublin Core et Dublin Core Type, les administrateurs "
-"généraux peuvent supprimer tout vocabulaire de l'instance Omeka S, soit en "
-"passant par le tableau des vocabulaires, soit directement sur la page de "
-"modification d'un vocabulaire. Les superviseurs peuvent supprimer les "
+"généraux peuvent supprimer tout vocabulaire de l'instance Omeka S, soit "
+"en passant par le tableau des vocabulaires, soit directement sur la page "
+"de modification d'un vocabulaire. Les superviseurs peuvent supprimer les "
 "vocabulaires qu'ils ont importés, mais pas ceux des autres ou les "
 "vocabulaires par défaut d'Omeka S."
 
-#: ../../docs/content/vocabularies.md:113
+#: ../../docs/content/vocabularies.md:123
 msgid ""
-"From the Vocabulary browse page, click the trash can/delete icon in the row "
-"for the vocabulary you want to delete (labelled as 1 in the image below). A "
-"drawer will open on the right side of the browser asking you to confirm that "
-"you want to delete the vocabulary (labelled as 2 in the image below). To "
-"delete, click the \"Confirm delete\" button, and to cancel, simply close the "
-"drawer."
+"From the Vocabulary browse page, click the trash can/delete icon in the "
+"row for the vocabulary you want to delete (labelled as 1 in the image "
+"below). A drawer will open on the right side of the browser asking you to"
+" confirm that you want to delete the vocabulary (labelled as 2 in the "
+"image below). To delete, click the \"Confirm delete\" button, and to "
+"cancel, simply close the drawer."
 msgstr ""
 "Depuis le tableau des vocabulaires, cliquer sur la poubelle/l'icône "
 "supprimer sur la ligne du vocabulaire concerné (1 dans la capture ci-"
-"dessous). Un volet latéral s'ouvre à droite de la page et vous demande de "
-"confirmer la suppression du vocabulaire (2 dans la capture ci-dessous). Pour "
-"supprimer, cliquer sur \"Confirmer la suppression\" ; pour annuler, fermer "
-"le volet."
+"dessous). Un volet latéral s'ouvre à droite de la page et vous demande de"
+" confirmer la suppression du vocabulaire (2 dans la capture ci-dessous). "
+"Pour supprimer, cliquer sur \"Confirmer la suppression\" ; pour annuler, "
+"fermer le volet."
 
-#: ../../docs/content/vocabularies.md:115
+#: ../../docs/content/vocabularies.md:125
 msgid ""
 "![A view of the vocabularies browse page, with a drawer open on the left "
 "asking the user to confirm delete. There is a blue number 1 next to the "
 "trash can icon and a blue number 2 just to the left of the red \"Confirm "
 "delete\" button.](contentfiles/vocab-delete1.png)"
 msgstr ""
-"![Une vue de la page de navigation des vocabulaires, avec un volet ouvert à "
-"droite demandant la confirmation de la suppression. Numéro 1 en bleu à côté "
-"de l'icône poubelle et numéro 2 en bleu à côté du bouton \"Confirmer la "
-"suppression\".](contentfiles/vocab-delete1.png)"
+"![Une vue de la page de navigation des vocabulaires, avec un volet ouvert"
+" à droite demandant la confirmation de la suppression. Numéro 1 en bleu à"
+" côté de l'icône poubelle et numéro 2 en bleu à côté du bouton "
+"\"Confirmer la suppression\".](contentfiles/vocab-delete1.png)"
 
-#: ../../docs/content/vocabularies.md:117
+#: ../../docs/content/vocabularies.md:125
+#, fuzzy
 msgid ""
-"From the Edit Vocabulary page, you can click the large red \"Delete\" button "
-"in the upper right-hand corner of the page. This will open a drawer which "
-"will ask you to confirm the deletion. To delete, click the \"Confirm "
-"delete\" button, or to cancel, simply close the drawer."
+"A view of the vocabularies browse page, with a drawer open on the left "
+"asking the user to confirm delete. There is a blue number 1 next to the "
+"trash can icon and a blue number 2 just to the left of the red \"Confirm "
+"delete\" button."
 msgstr ""
-"À partir de la page de modification d'un vocabulaire, vous pouvez cliquer "
-"sur le bouton rouge indiquant \"Supprimer\", en haut à droite de la page. Un "
-"volet de confirmation de la suppression s'ouvre alors. Pour supprimer, "
-"cliquer sur \"Confirmer la suppression\" ; pour annuler, fermer le volet."
+"![Une vue de la page de navigation des vocabulaires, avec un volet ouvert"
+" à droite demandant la confirmation de la suppression. Numéro 1 en bleu à"
+" côté de l'icône poubelle et numéro 2 en bleu à côté du bouton "
+"\"Confirmer la suppression\".](contentfiles/vocab-delete1.png)"
 
-#: ../../docs/content/vocabularies.md:119
+#: ../../docs/content/vocabularies.md:127
+msgid ""
+"From the Edit Vocabulary page, you can click the large red \"Delete\" "
+"button in the upper right-hand corner of the page. This will open a "
+"drawer which will ask you to confirm the deletion. To delete, click the "
+"\"Confirm delete\" button, or to cancel, simply close the drawer."
+msgstr ""
+"À partir de la page de modification d'un vocabulaire, vous pouvez cliquer"
+" sur le bouton rouge indiquant \"Supprimer\", en haut à droite de la "
+"page. Un volet de confirmation de la suppression s'ouvre alors. Pour "
+"supprimer, cliquer sur \"Confirmer la suppression\" ; pour annuler, "
+"fermer le volet."
+
+#: ../../docs/content/vocabularies.md:129
 msgid ""
 "![Edit vocabulary page for \"Linked Gen. Data\". There is no data in the "
-"comments field. A red arrow points to a pale red button labelled \"Delete\"]"
-"(contentfiles/vocab-delete2.png)"
+"comments field. A red arrow points to a pale red button labelled "
+"\"Delete\"](contentfiles/vocab-delete2.png)"
 msgstr ""
 "![Page de modification pour \"Bibliographic Ontology\". Une flèche rouge "
 "pointe vers le bouton \"Supprimer\"](contentfiles/vocab-delete2.png)"
+
+#: ../../docs/content/vocabularies.md:129
+#, fuzzy
+msgid ""
+"Edit vocabulary page for \"Linked Gen. Data\". There is no data in the "
+"comments field. A red arrow points to a pale red button labelled "
+"\"Delete\""
+msgstr ""
+"![Page de modification pour \"Bibliographic Ontology\". Une flèche rouge "
+"pointe vers le bouton \"Supprimer\"](contentfiles/vocab-delete2.png)"
+
+#~ msgid "Notation3 (.n3)"
+#~ msgstr "Notation3 (.n3)"
+

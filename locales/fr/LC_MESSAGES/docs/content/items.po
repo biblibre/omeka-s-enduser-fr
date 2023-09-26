@@ -8,19 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2023-09-18 15:44+0200\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: fr\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.0.1\n"
 
-#: ../../docs/content/items.md:1
+#: ../../docs/content/items.md ../../docs/content/items.md:1
 msgid "Items"
 msgstr "Contenus"
 
@@ -29,684 +28,2055 @@ msgid "Items are the building blocks of the Omeka system."
 msgstr "Les contenus sont les éléments constitutifs du système d'Omeka."
 
 #: ../../docs/content/items.md:5
-msgid "In Omeka S, items can be made available to you from the system administrator, and you may add items to your own site."
-msgstr "Avec Omeka S, les contenus peuvent être mis à disposition par l'administrateur système et vous pouvez en ajouter à votre propre site."
+msgid ""
+"Items don't have to represent physical objects (photographs, maps, "
+"books), nor do they have to have [attached media](media.md) (a scan of a "
+"photo, or multiple page images, or a PDF). An item can be used as a node "
+"- a way to represent a person, place, or thing. You can use items and "
+"their classes to create separate types of nodes that serve the purposes "
+"of your sites."
+msgstr ""
 
 #: ../../docs/content/items.md:7
-msgid "Items are listed in the **Items** tab (the box icon) in the left-hand navigation of the administrative dashboard."
-msgstr "Les contenus sont répertoriés dans l'onglet **Contenus** (icône en forme de boîte) de l'espace de navigation situé à gauche du tableau de bord administrateur."
+msgid ""
+"Items can be linked to other items, or contained within item sets, to "
+"represent complex relationships. For example, an item used as a location "
+"can be linked to items representing events that happened at that "
+"location, and the event items can be linked to people items who were at "
+"that event, who themselves are linked to textual items that they created,"
+" or photographic items that they appear in. All of these items can be "
+"grouped in overlapping item sets that represent jurisdictions that "
+"contain locations, events, and people during a particular duration of "
+"time. Or you can use item sets to represent people, that contain their "
+"created works as items, and link those people item sets to events and "
+"photographs."
+msgstr ""
 
 #: ../../docs/content/items.md:9
-msgid "![Basic view of admin items page, showing a handful of item resources](contentfiles/items_browse.png)"
-msgstr "![Vue de base de la page admin des contenus affichant quelques ressources](contentfiles/items_browse.fr.png)"
+msgid ""
+"Many of these classes, and many resource templates to help you describe "
+"these types of items, already exist in a basic Omeka S installation, but "
+"you can modify them and add more as needed."
+msgstr ""
 
 #: ../../docs/content/items.md:11
+msgid "Item permissions"
+msgstr ""
+
+#: ../../docs/content/items.md:13
+msgid ""
+"When a user creates an item, they become the \"owner\" of that item. Most"
+" user levels have the ability to create items, and can always delete "
+"their own items. Only higher levels can delete items that others own."
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Category"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Permission"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Global Admin"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Supervisor"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Editor"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Reviewer"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Author"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Researcher"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Items & media"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Add"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Yes"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "No"
+msgstr ""
+
+#: ../../docs/content/items.md
+#, fuzzy
+msgid "Edit"
+msgstr "Médias"
+
+#: ../../docs/content/items.md
+msgid "All"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Their own"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Delete"
+msgstr ""
+
+#: ../../docs/content/items.md
+#, fuzzy
+msgid "Value annotations"
+msgstr "Annotation des valeurs"
+
+#: ../../docs/content/items.md
+msgid "Add/Edit"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Private objects"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "View"
+msgstr ""
+
+#: ../../docs/content/items.md:23
+msgid ""
+"Note that when you change a user's role, for example from an Author to a "
+"Researcher, they will still own the items they created when they had "
+"permission to do so. Items are not transferred. Deleting a user orphans "
+"their items - they will appear as having no owner. You cannot currently "
+"search and batch-edit items without an owner, so the best practice is to "
+"re-assign these items before deleting the user account."
+msgstr ""
+
+#: ../../docs/content/items.md:25
+msgid "Site permissions for items"
+msgstr ""
+
+#: ../../docs/content/items.md:27
+msgid ""
+"All items in an Omeka S installation are available for addition to all "
+"sites, but must be added to a site either manually or through user-"
+"specific or site-specific settings."
+msgstr ""
+
+#: ../../docs/content/items.md:29
+msgid "Each site can be set to have all new items automatically added to it."
+msgstr ""
+
+#: ../../docs/content/items.md:31
+msgid ""
+"Each user can have [one or more sites to always add new items to by "
+"default](../admin/users.md#user-settings). If a user has a site set as "
+"their \"Default sites for items\", they must also be added to the site as"
+" a Creator or Manager in order for that setting to work."
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Site Manager"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Site Creator"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Site Viewer"
+msgstr ""
+
+#: ../../docs/content/items.md
+#, fuzzy
+msgid "Add to site"
+msgstr "Ajouter un contenu"
+
+#: ../../docs/content/items.md
+msgid "Yes (by default), manually no"
+msgstr ""
+
+#: ../../docs/content/items.md
+msgid "Remove from site"
+msgstr ""
+
+#: ../../docs/content/items.md:39
+#, fuzzy
+msgid "The Items tab"
+msgstr "Accéder aux contenus"
+
+#: ../../docs/content/items.md:41
+#, fuzzy
+msgid ""
+"Items are listed in the **Items** tab (with the box icon) in the left-"
+"hand navigation of the administrative dashboard."
+msgstr ""
+"Les contenus sont répertoriés dans l'onglet **Contenus** (icône en forme "
+"de boîte) de l'espace de navigation situé à gauche du tableau de bord "
+"administrateur."
+
+#: ../../docs/content/items.md:43
+msgid ""
+"![Basic view of admin items page, showing a handful of item "
+"resources](contentfiles/items_browse.png)"
+msgstr ""
+"![Vue de base de la page admin des contenus affichant quelques "
+"ressources](contentfiles/items_browse.fr.png)"
+
+#: ../../docs/content/items.md:43
+#, fuzzy
+msgid "Basic view of admin items page, showing a handful of item resources"
+msgstr ""
+"![Vue de base de la page admin des contenus affichant quelques "
+"ressources](contentfiles/items_browse.fr.png)"
+
+#: ../../docs/content/items.md:45
 msgid "Each item appears as a row, with columns for:"
 msgstr "Chaque contenu occupe une ligne organisée en colonnes contenant :"
 
-#: ../../docs/content/items.md:13
+#: ../../docs/content/items.md:47
 msgid "the **Title**"
 msgstr "le *Titre*"
 
-#: ../../docs/content/items.md:14
-msgid "icons to **edit** (pencil), **delete** (trash can), or **details** (ellipsis)"
-msgstr "des icônes pour **éditer** (crayon), **supprimer** (poubelle) ou  accéder aux **détails** (points de suspension)"
+#: ../../docs/content/items.md:48
+msgid ""
+"icons to **edit** (pencil), **delete** (trash can), or **details** "
+"(ellipsis)"
+msgstr ""
+"des icônes pour **éditer** (crayon), **supprimer** (poubelle) ou  accéder"
+" aux **détails** (points de suspension)"
 
-#: ../../docs/content/items.md:15
+#: ../../docs/content/items.md:49
 msgid "the **Class**"
 msgstr "la **Classe**"
 
-#: ../../docs/content/items.md:16
-msgid "the item’s **Owner**"
+#: ../../docs/content/items.md:50
+#, fuzzy
+msgid "the item's **Owner**"
 msgstr "le **Propriétaire** du contenu"
 
-#: ../../docs/content/items.md:17
+#: ../../docs/content/items.md:51
 msgid "the date the item was **Created**."
 msgstr "la date à laquelle le contenu a été **Créé**."
 
-#: ../../docs/content/items.md:19
-msgid "In the top right corner of the Items screen is the \"Add new item\" button."
-msgstr "En haut à droite de la fenêtre Contenus se trouve le bouton \"Ajouter un nouveau contenu\"."
+#: ../../docs/content/items.md:53
+msgid ""
+"In the top right corner of the Items screen is the \"Add new item\" "
+"button."
+msgstr ""
+"En haut à droite de la fenêtre Contenus se trouve le bouton \"Ajouter un "
+"nouveau contenu\"."
 
-#: ../../docs/content/items.md:21
-msgid "Options for navigating and creating items sit in the header of the table of items."
-msgstr "Les options de navigation et de création des contenus se trouvent au niveau de l'en-tête de la table des contenus."
+#: ../../docs/content/items.md:55
+msgid ""
+"Options for navigating and creating items sit in the header of the table "
+"of items."
+msgstr ""
+"Les options de navigation et de création des contenus se trouvent au "
+"niveau de l'en-tête de la table des contenus."
 
-#: ../../docs/content/items.md:23
-msgid "On the left side are controls for the pages of items, with forward and back arrows, and an editable box for the current page number — enter a valid page number and hit Enter to go to that page."
-msgstr "À gauche, on trouve les commandes de navigation, dont des flèches avant et arrière et un encart contenant le numéro de page actuel — pour changer de page, y entrer un numéro de page valide et cliquer sur Entrée."
+#: ../../docs/content/items.md:57
+msgid ""
+"On the left side are controls for the pages of items, with forward and "
+"back arrows, and an editable box for the current page number — enter a "
+"valid page number and hit Enter to go to that page."
+msgstr ""
+"À gauche, on trouve les commandes de navigation, dont des flèches avant "
+"et arrière et un encart contenant le numéro de page actuel — pour changer"
+" de page, y entrer un numéro de page valide et cliquer sur Entrée."
 
-#: ../../docs/content/items.md:25
-msgid "In the center is a link for [Advanced Search](../search.md#item-advanced-search)."
-msgstr "Le lien vers la [Recherche avancée](../search.md#item-advanced-search) se trouve au milieu de l'en-tête."
+#: ../../docs/content/items.md:59
+msgid ""
+"In the center is a link for [Advanced Search](../search.md#item-advanced-"
+"search)."
+msgstr ""
+"Le lien vers la [Recherche avancée](../search.md#item-advanced-search) se"
+" trouve au milieu de l'en-tête."
 
-#: ../../docs/content/items.md:27
-msgid "On the right are options for sorting the table of items, with two dropdown menus. By default, items in the table are sorted by most recently-added items at the top (Created & Descending). The first lets you select between **Title**, **Identifier**, **Class**, **Owner**, and **(Date) Created**; the second allows you to sort by ascending (A-Z or earliest to latest) or descending (Z-A or latest to earliest). To apply, click the \"Sort\" button."
-msgstr "La partie droite de l'en-tête réunit dans deux menus déroulants les options de la table des contenus. Les contenus sont triés par date de création, en partant du plus récent (Créé et Décroissant). Le premier menu propose des options de classement par **Titre**, **Identifiant***, **Classe**, **Propriétaire** et **Créé (date)** ; le second menu permet d'organiser les contenus par ordre croissant (de A à Z ou du plus récent au plus ancien) ou décroissant (de Z à A ou du plus ancien au plus récent). Pour appliquer les options de tri à la table des contenus, cliquez sur le bouton \"Trier\"."
+#: ../../docs/content/items.md:61
+msgid ""
+"On the right are options for sorting the table of items, with two "
+"dropdown menus. By default, items in the table are sorted by most "
+"recently-added items at the top (Created & Descending). The first lets "
+"you select between **Title**, **Identifier**, **Class**, **Owner**, and "
+"**(Date) Created**; the second allows you to sort by ascending (A-Z or "
+"earliest to latest) or descending (Z-A or latest to earliest). To apply, "
+"click the \"Sort\" button."
+msgstr ""
+"La partie droite de l'en-tête réunit dans deux menus déroulants les "
+"options de la table des contenus. Les contenus sont triés par date de "
+"création, en partant du plus récent (Créé et Décroissant). Le premier "
+"menu propose des options de classement par **Titre**, **Identifiant***, "
+"**Classe**, **Propriétaire** et **Créé (date)** ; le second menu permet "
+"d'organiser les contenus par ordre croissant (de A à Z ou du plus récent "
+"au plus ancien) ou décroissant (de Z à A ou du plus ancien au plus "
+"récent). Pour appliquer les options de tri à la table des contenus, "
+"cliquez sur le bouton \"Trier\"."
 
-#: ../../docs/content/items.md:29
-msgid "Between these and the table, on the left, is a dropdown for batch actions, including edit selected, edit all, delete selected, and delete all."
-msgstr "Un menu déroulant pour le traitement par lots (modifier sélectionnés, modifier tout, supprimer sélectionnés et supprimer tout) se trouve sur la gauche, entre l'en-tête et la table des contenus."
+#: ../../docs/content/items.md:63
+msgid ""
+"Between these and the table, on the left, is a dropdown for batch "
+"actions, including edit selected, edit all, delete selected, and delete "
+"all."
+msgstr ""
+"Un menu déroulant pour le traitement par lots (modifier sélectionnés, "
+"modifier tout, supprimer sélectionnés et supprimer tout) se trouve sur la"
+" gauche, entre l'en-tête et la table des contenus."
 
-#: ../../docs/content/items.md:31
+#: ../../docs/content/items.md:65
 msgid "View items"
 msgstr "Accéder aux contenus"
 
-#: ../../docs/content/items.md:33
-msgid "To quickly view the basic information about an item, click the **Details** (ellipsis) button in the row for the item, located next to the edit and delete buttons. This will open a drawer to the right of the list which displays the item’s title,  description, visibility, any sites it is used in, and its associated media.."
-msgstr "Pour accéder rapidement aux informations principales liées à un contenu, cliquer sur le bouton **Détails** (points de suspension) situé sur la même ligne que le contenu, à la suite des boutons modifier et supprimer. Cette action fait apparaître un volet (sur la droite de la fenêtre) contenant le titre du contenu, sa description, sa visibilité, les sites qui l'utilisent et les médias associés."
+#: ../../docs/content/items.md:67
+#, fuzzy
+msgid ""
+"To quickly view the basic information about an item, click the "
+"**Details** (ellipsis) button in the row for the item, located next to "
+"the edit and delete buttons. This will open a drawer to the right of the "
+"list which displays the item’s title, description, visibility, any sites "
+"it is used in, and its associated media."
+msgstr ""
+"Pour accéder rapidement aux informations principales liées à un contenu, "
+"cliquer sur le bouton **Détails** (points de suspension) situé sur la "
+"même ligne que le contenu, à la suite des boutons modifier et supprimer. "
+"Cette action fait apparaître un volet (sur la droite de la fenêtre) "
+"contenant le titre du contenu, sa description, sa visibilité, les sites "
+"qui l'utilisent et les médias associés."
 
-#: ../../docs/content/items.md:35
-msgid "For a more detailed look at an individual item, click on its title in the items browse table or when viewing its details."
-msgstr "Pour accéder à la vue complète d'un contenu, cliquer sur son titre, soit dans la table des contenus, soit dans le volet des détails."
+#: ../../docs/content/items.md:69
+msgid ""
+"For a more detailed look at an individual item, click on its title in the"
+" items browse table or when viewing its details."
+msgstr ""
+"Pour accéder à la vue complète d'un contenu, cliquer sur son titre, soit "
+"dans la table des contenus, soit dans le volet des détails."
 
-#: ../../docs/content/items.md:37
-msgid "![Item browse view with details open for \"Behold, Here's Poison\". Links to item view page squared in blue](contentfiles/items_detailview.png)"
-msgstr "![Fenêtre des contenus avec les détails ouverts pour \"Chien 1\". Liens vers la page du contenu encadrés en bleu](contentfiles/items_detailview.fr.png)"
+#: ../../docs/content/items.md:71
+msgid ""
+"![Item browse view with details open for \"Behold, Here's Poison\". Links"
+" to item view page squared in blue](contentfiles/items_detailview.png)"
+msgstr ""
+"![Fenêtre des contenus avec les détails ouverts pour \"Chien 1\". Liens "
+"vers la page du contenu encadrés en "
+"bleu](contentfiles/items_detailview.fr.png)"
 
-#: ../../docs/content/items.md:39
+#: ../../docs/content/items.md:71
+#, fuzzy
+msgid ""
+"Item browse view with details open for \"Behold, Here's Poison\". Links "
+"to item view page squared in blue"
+msgstr ""
+"![Fenêtre des contenus avec les détails ouverts pour \"Chien 1\". Liens "
+"vers la page du contenu encadrés en "
+"bleu](contentfiles/items_detailview.fr.png)"
+
+#: ../../docs/content/items.md:73
 msgid "The blue squares indicate where to click to open the full item view."
 msgstr "Les encadrés bleus indiquent où cliquer pour accéder au contenu complet."
 
-#: ../../docs/content/items.md:41
-msgid "When you view an individual item , there are tabs for the item’s **Metadata** and its **Linked Resources**. The right side of the page displays the item’s media, any **item sets** to which it belongs, its creation date, owner, and visibility."
-msgstr "La page d'un contenu spécifique comprend un onglet pour ses **Métadonnées** et un pour ses **Ressources liées**. Les médias associés au contenu sont affichés à droite de la page, où sont aussi indiqués la visibilité du contenu, les collections auxquelles il appartient, sa date de création et son propriétaire."
+#: ../../docs/content/items.md:75
+#, fuzzy
+msgid ""
+"When you view an individual item, there are tabs for the item’s "
+"**Metadata** and its **Linked Resources**. The right side of the page "
+"displays the item’s media, any **item sets** to which it belongs, its "
+"creation date, owner, and visibility."
+msgstr ""
+"La page d'un contenu spécifique comprend un onglet pour ses "
+"**Métadonnées** et un pour ses **Ressources liées**. Les médias associés "
+"au contenu sont affichés à droite de la page, où sont aussi indiqués la "
+"visibilité du contenu, les collections auxquelles il appartient, sa date "
+"de création et son propriétaire."
 
-#: ../../docs/content/items.md:43
-msgid "An item’s **linked resources** (shown below) are resources, which are linked to this item through properties. Note that this section only shows resources which have been linked *to* this item (which have it for a property); resources which are linked *from* this item will display in the property which they fill."
-msgstr "Les **Ressources liées** à un contenu (voir ci-dessous) le sont par des propriétés spécifiques. Cette section n'affiche que les ressources qui ont été liées à ce contenu par une propriété ; si ce contenu est lui-même lié à des ressources, cela apparaîtra dans les pages dédiées à celles-ci."
+#: ../../docs/content/items.md:77
+#, fuzzy
+msgid "Linked resources"
+msgstr "Ressource Omeka"
 
-#: ../../docs/content/items.md:45
-msgid "Linked items are grouped by the property for which they use the current item. In the example below, the item William Shakespeare is used for the properties \"Creator\", \"References\", and \"list of authors\" for the linked resources."
-msgstr "Les ressources liées sont réunies par la propriété qui les associe au contenu considéré. Dans l'exemple ci-dessous, les propriétés \"Créateur\", \"Références\" et \"liste d'auteurs\" du contenu William Shakespeare sont utilisées pour les ressources liées. [exemple à modifier]"
+#: ../../docs/content/items.md:79
+msgid ""
+"An item’s **linked resources** are other Omeka resources (items, item "
+"sets, or media) that are [linked to this item through their properties"
+"](#omeka-resource). Note that this section only shows resources that have"
+" been linked *to* this item (which have it for a property); resources "
+"that are linked *from* this item will display in the property they fill."
+msgstr ""
 
-#: ../../docs/content/items.md:47
-msgid "You can filter linked resources to only display those referencing a specific property using the dropdown \"Filter by property\". It will only display properties actively in use."
-msgstr "Le menu déroulant \"Filtrer par propriété\" permet de sélectionner les ressources liées renvoyant à une propriété spécifique. Ce menu n'affiche que les propriétés effectivement utilisées."
+#: ../../docs/content/items.md:81
+#, fuzzy
+msgid ""
+"Linked resources are grouped by the property for which they use the "
+"current item. In the example below, the current item \"William "
+"Shakespeare\" is used for the properties \"Creator\", \"References\", and"
+" \"list of authors\" for the linked resources."
+msgstr ""
+"Les ressources liées sont réunies par la propriété qui les associe au "
+"contenu considéré. Dans l'exemple ci-dessous, les propriétés "
+"\"Créateur\", \"Références\" et \"liste d'auteurs\" du contenu William "
+"Shakespeare sont utilisées pour les ressources liées. [exemple à "
+"modifier]"
 
-#: ../../docs/content/items.md:49
-msgid "![Item linked resources view for William Shakespeare, with six plays using Shakespeare as Creator, the item Folger Shakespeare Library listed as 'references' Shakespeare, and the Globe Theatre using Shakespeare for 'list of authors'. Each property cluster is in a separate rectangle, headed by the property being referenced.](contentfiles/items_linked.png)"
-msgstr "![Onglet des ressources liées pour William Shakespeare, avec une pièce utilisant Shakespeare comme Créateur, le contenu Folger Shakespeare Library listant Shakespeare dans les références et le Théâtre du Globe dans la liste des auteurs. Chaque propriété est dans un rectangle distinct chapeauté par le nom de la propriété concernée.](contentfiles/items_linked.fr.png)"
+#: ../../docs/content/items.md:83
+msgid ""
+"You can filter linked resources to only display those referencing a "
+"specific property using the dropdown \"Filter by property\". It will only"
+" display properties actively in use."
+msgstr ""
+"Le menu déroulant \"Filtrer par propriété\" permet de sélectionner les "
+"ressources liées renvoyant à une propriété spécifique. Ce menu n'affiche "
+"que les propriétés effectivement utilisées."
 
-#: ../../docs/content/items.md:51
+#: ../../docs/content/items.md:85
+msgid ""
+"![Item linked resources view for William Shakespeare, with six plays "
+"using Shakespeare as Creator, the item Folger Shakespeare Library listed "
+"as 'references' Shakespeare, and the Globe Theatre using Shakespeare for "
+"'list of authors'. Each property cluster is in a separate rectangle, "
+"headed by the property being referenced.](contentfiles/items_linked.png)"
+msgstr ""
+"![Onglet des ressources liées pour William Shakespeare, avec une pièce "
+"utilisant Shakespeare comme Créateur, le contenu Folger Shakespeare "
+"Library listant Shakespeare dans les références et le Théâtre du Globe "
+"dans la liste des auteurs. Chaque propriété est dans un rectangle "
+"distinct chapeauté par le nom de la propriété "
+"concernée.](contentfiles/items_linked.fr.png)"
+
+#: ../../docs/content/items.md:85
+#, fuzzy
+msgid ""
+"Item linked resources view for William Shakespeare, with six plays using "
+"Shakespeare as Creator, the item Folger Shakespeare Library listed as "
+"'references' Shakespeare, and the Globe Theatre using Shakespeare for "
+"'list of authors'. Each property cluster is in a separate rectangle, "
+"headed by the property being referenced."
+msgstr ""
+"![Onglet des ressources liées pour William Shakespeare, avec une pièce "
+"utilisant Shakespeare comme Créateur, le contenu Folger Shakespeare "
+"Library listant Shakespeare dans les références et le Théâtre du Globe "
+"dans la liste des auteurs. Chaque propriété est dans un rectangle "
+"distinct chapeauté par le nom de la propriété "
+"concernée.](contentfiles/items_linked.fr.png)"
+
+#: ../../docs/content/items.md:87
+msgid ""
+"When a resource is viewed on a public site, linked resources are "
+"displayed in a series of tables based on the metadata property in use. "
+"Resources are sorted by resource type (item, item set, or media) and only"
+" one type is displayed at a time. A resource without any linked resources"
+" will not display these tables. The tables can be included, excluded, or "
+"rearranged using [site theme settings, under \"Configure resource "
+"pages\"](../sites/site_theme.md#configure-resource-pages)."
+msgstr ""
+
+#: ../../docs/content/items.md:89
+msgid ""
+"A resource with links to other resources that are not included in the "
+"given public site will display those non-included resources anyways. "
+"Those linked resources will appear to be part of the site (that is, you "
+"can click on them to see item and item set pages). [This setting can be "
+"turned off for each site](../sites/site_settings.md#show). When non-site "
+"resources are excluded, the item's metadata values and the linked "
+"resource tables will not display excluded Omeka resources."
+msgstr ""
+
+#: ../../docs/content/items.md:91
+msgid ""
+"Note that media pages do not display linked resource tables, whether "
+"items link to them or not."
+msgstr ""
+
+#: ../../docs/content/items.md:93
+msgid ""
+"The following item has a number of Omeka resources included in its "
+"\"Contributors\" property, showing as part of its metadata. It also has "
+"those same items linking back to it, showing in the linked resources "
+"table."
+msgstr ""
+
+#: ../../docs/content/items.md:95
+msgid ""
+"![An item display in the Default theme showing a number of Omeka "
+"resources as \"Contributors\", and a number of Omeka items that link to "
+"the item as \"Publications\"](contentfiles/items_linkedresources.png)"
+msgstr ""
+
+#: ../../docs/content/items.md:95
+msgid ""
+"An item display in the Default theme showing a number of Omeka resources "
+"as \"Contributors\", and a number of Omeka items that link to the item as"
+" \"Publications\""
+msgstr ""
+
+#: ../../docs/content/items.md:97
+msgid ""
+"The display of Linked resources on resource pages can be configured on "
+"each site. Click on \"Theme\" and then click the button that reads "
+"\"[Configure resource pages](../sites/site_theme.md#configure-resource-"
+"pages)\", then decide if and where to display the \"Linked resources\" "
+"tables for each resource."
+msgstr ""
+
+#: ../../docs/content/items.md:99
+msgid ""
+"You can also control whether resources that are linked will display those"
+" links even when the [resources in question are not included in the given"
+" site](../sites/site_resources.md). Under [Site settings, in the \"Show\""
+" section](../sites/site_settings.md#show), you will find a checkbox for "
+"\"Exclude resources not in site.\""
+msgstr ""
+
+#: ../../docs/content/items.md:101
 msgid "Add an item"
 msgstr "Ajouter un contenu"
 
-#: ../../docs/content/items.md:53
+#: ../../docs/content/items.md:103
 msgid "To add a new item, begin by selecting the the \"Add new item\" button."
 msgstr "Cliquer sur le bouton \"Ajouter un  nouveau contenu\"."
 
-#: ../../docs/content/items.md:55
-msgid "Before creating items, supervisors may want to create [Resource Templates](resource-template.md), which will load specific fields for various item types."
-msgstr "Avant de créer des contenus, les administrateurs peuvent créer des [Modèles de ressources](resource-template.md) qui n'afficheront que certains champs spécifiques à tel ou tel type de contenu."
+#: ../../docs/content/items.md:105
+msgid ""
+"Before creating items, supervisors may want to create [Resource Templates"
+"](resource-template.md), which will load specific fields for various item"
+" types."
+msgstr ""
+"Avant de créer des contenus, les administrateurs peuvent créer des "
+"[Modèles de ressources](resource-template.md) qui n'afficheront que "
+"certains champs spécifiques à tel ou tel type de contenu."
 
-#: ../../docs/content/items.md:57
+#: ../../docs/content/items.md:107
 msgid "Values"
 msgstr "Valeurs"
 
-#: ../../docs/content/items.md:58
-msgid "The Values tab is where you enter metadata, such as title, description, etc."
-msgstr "L'onglet Valeurs sert à la saisie des métadonnées, telles que le titre, la description, etc."
+#: ../../docs/content/items.md:109
+msgid ""
+"The Values tab is where you enter metadata, such as title, description, "
+"etc."
+msgstr ""
+"L'onglet Valeurs sert à la saisie des métadonnées, telles que le titre, "
+"la description, etc."
 
-#: ../../docs/content/items.md:60
-msgid "![Basic view of add items page, with no content entered](contentfiles/items_add.png)"
-msgstr "![Exemple d'une vue de base de la page de création de contenus dont les champs sont vides](contentfiles/items_add.fr.png)"
+#: ../../docs/content/items.md:111
+msgid ""
+"![Basic view of add items page, with no content "
+"entered](contentfiles/items_add.png)"
+msgstr ""
+"![Exemple d'une vue de base de la page de création de contenus dont les "
+"champs sont vides](contentfiles/items_add.fr.png)"
 
-#: ../../docs/content/items.md:62
-msgid "You can select a resource template from the drop-down menu. Resource templates are defined by the supervisors and editors."
-msgstr "Un menu déroulant permet de sélectionner un modèle de ressource, prédéfini par les superviseurs et éditeurs."
+#: ../../docs/content/items.md:111
+#, fuzzy
+msgid "Basic view of add items page, with no content entered"
+msgstr ""
+"![Exemple d'une vue de base de la page de création de contenus dont les "
+"champs sont vides](contentfiles/items_add.fr.png)"
 
-#: ../../docs/content/items.md:64
-msgid "If using a resource template, the class should automatically load."
-msgstr "Lorsqu'un modèle de ressource est utilisé, la classe est automatiquement remplie."
+#: ../../docs/content/items.md:113
+msgid ""
+"You can select a resource template from the drop-down menu. Resource "
+"templates are defined by the supervisors and editors."
+msgstr ""
+"Un menu déroulant permet de sélectionner un modèle de ressource, "
+"prédéfini par les superviseurs et éditeurs."
 
-#: ../../docs/content/items.md:65
-msgid "If not using a resource template, you may select a class from the dropdown menu (these are populated from the [Vocabularies](vocabularies.md) in your installation)."
-msgstr "Sans modèle de ressource, une classe peut être sélectionnée dans le menu déroulant (celui-ci est alimenté par les [Vocabulaires](vocabularies.md) installés sur votre instance)."
+#: ../../docs/content/items.md:115
+#, fuzzy
+msgid "If using a resource template, the item class should automatically load."
+msgstr ""
+"Lorsqu'un modèle de ressource est utilisé, la classe est automatiquement "
+"remplie."
 
-#: ../../docs/content/items.md:67
-msgid "Add information to the properties that load. If you do not select a resource template or class, the Dublin Core properties Title and Description will load automatically."
-msgstr "Remplissez les champs qui apparaissent. Si ni modèle de ressource ni classe n'ont été sélectionnés, les propriétés Dublin Core Titre et Description apparaissent par défaut."
+#: ../../docs/content/items.md:116
+msgid ""
+"If not using a resource template, you may select a class from the "
+"dropdown menu (these are populated from the "
+"[Vocabularies](vocabularies.md) in your installation)."
+msgstr ""
+"Sans modèle de ressource, une classe peut être sélectionnée dans le menu "
+"déroulant (celui-ci est alimenté par les [Vocabulaires](vocabularies.md) "
+"installés sur votre instance)."
 
-#: ../../docs/content/items.md:69
-msgid "You may add text, a resource from the installation, or an external link in each field."
-msgstr "Chaque champ peut être rempli avec du texte, une ressource de votre instance Omeka ou un lien externe."
+#: ../../docs/content/items.md:118
+msgid ""
+"Add information to the properties that load. If you do not select a "
+"resource template or class, the Dublin Core properties Title and "
+"Description will load automatically."
+msgstr ""
+"Remplissez les champs qui apparaissent. Si ni modèle de ressource ni "
+"classe n'ont été sélectionnés, les propriétés Dublin Core Titre et "
+"Description apparaissent par défaut."
 
-#: ../../docs/content/items.md:71
-msgid "Whether or not you use a resource template, you can add more properties to the item using the drawer on the right side of the screen. You can simply click open one of the vocabularies and click on the property you want to add, or you can use the “Filter properties” box to search for a specific property (this is helpful when you have multiple large vocabularies)."
-msgstr "Le volet à la droite de la page permet d'ajouter des propriétés au contenu, que vous ayez ou non utilisé un modèle de ressource. Il suffit de cliquer sur un des vocabulaires puis sur la propriété à ajouter, ou d'utiliser le champ \"Filtrer les propriétés\" pour rechercher une propriété spécifique (particulièrement pratique avec plusieurs vocabulaires extensifs)."
+#: ../../docs/content/items.md:120
+#, fuzzy
+msgid ""
+"Whether or not you use a resource template, you can add more properties "
+"to the item using the drawer on the right side of the screen. You can "
+"simply open one of the vocabularies (Dublin Core, Bibliographic Ontology,"
+" etc.) and click on the property you want to add, or you can use the "
+"\"Filter properties\" box to search for a specific property (this is "
+"helpful when you have multiple large vocabularies)."
+msgstr ""
+"Le volet à la droite de la page permet d'ajouter des propriétés au "
+"contenu, que vous ayez ou non utilisé un modèle de ressource. Il suffit "
+"de cliquer sur un des vocabulaires puis sur la propriété à ajouter, ou "
+"d'utiliser le champ \"Filtrer les propriétés\" pour rechercher une "
+"propriété spécifique (particulièrement pratique avec plusieurs "
+"vocabulaires extensifs)."
 
-#: ../../docs/content/items.md:73
-msgid "![Close up of the right hand drawer with the text \"date\" entered into the filter properties box and a series of properties containing the word \"date\" loaded from Dublin Core and Bibliographic Ontology](contentfiles/items_filterprop.png)"
-msgstr "![Vue rapprochée du volet de droite avec le texte \"date\" tapé dans la barre de filtre des propriétés, avec une série de propriérés Dublin Core et Bibliographic Ontology contenant le mot \"date\"](contenfiles/items_filterprop.fr.png)"
+#: ../../docs/content/items.md:122
+msgid ""
+"![Close up of the right hand drawer with the text \"date\" entered into "
+"the filter properties box and a series of properties containing the word "
+"\"date\" loaded from Dublin Core and Bibliographic "
+"Ontology](contentfiles/items_filterprop.png)"
+msgstr ""
+"![Vue rapprochée du volet de droite avec le texte \"date\" tapé dans la "
+"barre de filtre des propriétés, avec une série de propriérés Dublin Core "
+"et Bibliographic Ontology contenant le mot "
+"\"date\"](contenfiles/items_filterprop.fr.png)"
 
-#: ../../docs/content/items.md:75
-msgid "Clicking on the property label in the drawer will automatically add it to the Item. If you add a property by accident, leave it blank and it will be removed from the item when you save changes."
-msgstr "En cliquant sur l'étiquette de la propriété, celle-ci est automatiquement ajoutée au contenu. Si vous ajoutez une propriété par erreur, ne la remplissez pas et elle sera retirée du contenu à votre prochain sauvegarde."
+#: ../../docs/content/items.md:122
+#, fuzzy
+msgid ""
+"Close up of the right hand drawer with the text \"date\" entered into the"
+" filter properties box and a series of properties containing the word "
+"\"date\" loaded from Dublin Core and Bibliographic Ontology"
+msgstr ""
+"![Vue rapprochée du volet de droite avec le texte \"date\" tapé dans la "
+"barre de filtre des propriétés, avec une série de propriérés Dublin Core "
+"et Bibliographic Ontology contenant le mot "
+"\"date\"](contenfiles/items_filterprop.fr.png)"
 
-#: ../../docs/content/items.md:77
-msgid "You can set individual properties as Private or Publicly visible using the eye icon for each property. Note that properties set to private are still visible to Global Admins, Supervisors, and Editors will be able to see properties even when set to private. Authors will be able to see all properties on items they own, but will not see private properties created by other users."
-msgstr "Chaque propriété peut être mise en privé ou en public par le biais de l'icône oeil. Les propriétés en statut privé demeurent visibles pour les Administrateurs généraux, les Superviseurs et les Éditeurs. Les Auteurs ont accès à toutes les propriétés des contenus qu'ils créent mais ne peuvent pas voir les propriétés en statut privé créées par d'autres utilisateurs."
+#: ../../docs/content/items.md:124
+#, fuzzy
+msgid ""
+"Clicking on the property label in the drawer will automatically add it to"
+" the item. If you add a property by accident, leave it blank and it will "
+"be removed from the item when you save your changes."
+msgstr ""
+"En cliquant sur l'étiquette de la propriété, celle-ci est automatiquement"
+" ajoutée au contenu. Si vous ajoutez une propriété par erreur, ne la "
+"remplissez pas et elle sera retirée du contenu à votre prochain "
+"sauvegarde."
 
-#: ../../docs/content/items.md:79
-msgid "In the image below, the first property (Title) is public as indicated by the open eye icon. The second property (Description) is private as indicated by the slashed-through eye icon. Clicking or hitting enter on the eye icon toggles between public and private."
-msgstr "Dans l'exemple ci-dessous, la première propriété (Titre) est publique, comme l'indique l'icône oeil ouvert. La deuxième propriété (Description) est privée, comme l'indique l'icône oeil barré. Cliquer sur l'icône oeil fait alterner entre les statuts public et privé."
+#: ../../docs/content/items.md:126
+msgid ""
+"You may add text, a resource from the installation, or an external link "
+"in each field."
+msgstr ""
+"Chaque champ peut être rempli avec du texte, une ressource de votre "
+"instance Omeka ou un lien externe."
 
-#: ../../docs/content/items.md:81
-msgid "![As described](contentfiles/item_propviz.png)"
+#: ../../docs/content/items.md:128
+msgid ""
+"You can set individual properties as **private or public** using the eye "
+"icon for each property. Note that properties set to private are still "
+"visible to Global Admins, Supervisors, and Editors. Authors will be able "
+"to see all properties on items they own, but will not see private "
+"properties created by other users."
+msgstr ""
+
+#: ../../docs/content/items.md:130
+msgid ""
+"In the image below, the first property (Title) is public as indicated by "
+"the open eye icon. The second property (Description) is private as "
+"indicated by the slashed-through eye icon. Clicking or hitting enter on "
+"the eye icon toggles between public and private."
+msgstr ""
+"Dans l'exemple ci-dessous, la première propriété (Titre) est publique, "
+"comme l'indique l'icône oeil ouvert. La deuxième propriété (Description) "
+"est privée, comme l'indique l'icône oeil barré. Cliquer sur l'icône oeil "
+"fait alterner entre les statuts public et privé."
+
+#: ../../docs/content/items.md:132
+#, fuzzy
+msgid "![As described](contentfiles/items_propviz.png)"
 msgstr "![Exemple correspondant](contentfiles/item_propviz.fr.png)"
 
-#: ../../docs/content/items.md:83
+#: ../../docs/content/items.md:132
+msgid "As described"
+msgstr ""
+
+#: ../../docs/content/items.md:134
+#, fuzzy
+msgid ""
+"If you have multiple values for a property, you can **reorder** them by "
+"dragging and dropping. Click on the bar on the left of the value to grab "
+"that value, and drag it into the order that you want it."
+msgstr ""
+"Si vous entrez plusieurs valeurs pour une propriété, vous pouvez les "
+"ordonner par un système de drag and drop. Cliquez sur la barre à gauche "
+"de la valeur pour la sélectionner, puis positionnez-la selon l'ordre "
+"souhaité."
+
+#: ../../docs/content/items.md:136
+#, fuzzy
+msgid ""
+"![Close up of the Subject property with two values. A red circle shows "
+"the location of the grab bar for the "
+"value.](contentfiles/items_valuereorder.png)"
+msgstr ""
+"![Vue rapprochée de la propriété Sujet avec deux valeurs. Un cercle rouge"
+" montre où attraper la valeur pour la "
+"déplacer.](contentfiles/item_valueorder.fr.png)"
+
+#: ../../docs/content/items.md:136
+#, fuzzy
+msgid ""
+"Close up of the Subject property with two values. A red circle shows the "
+"location of the grab bar for the value."
+msgstr ""
+"![Vue rapprochée de la propriété Sujet avec deux valeurs. Un cercle rouge"
+" montre où attraper la valeur pour la "
+"déplacer.](contentfiles/item_valueorder.fr.png)"
+
+#: ../../docs/content/items.md:138
 msgid "Text"
 msgstr "Texte"
 
-#: ../../docs/content/items.md:84
-msgid "Text fields allow for unformatted text entry."
-msgstr "Les champs de texte permettent d'entrer du texte libre."
+#: ../../docs/content/items.md:139
+msgid ""
+"Text fields allow for unformatted text entry. No markup is allowed in "
+"these fields (e.g. Markdown, HTML)."
+msgstr ""
 
-#: ../../docs/content/items.md:86
-msgid "![image of text input field with keyboard icon indicating text input, the globe icon for setting language, and a trashcan delete icon](contentfiles/items_textedit.png)"
-msgstr "![image d'un champ de texte avec l'icône clavier indiquant qu'il s'agit de texte, l'icône globe terrestre pour l'indication de langue et l'icône poubelle pour supprimer la valeur](contentfiles/item_textedit.fr.png)"
+#: ../../docs/content/items.md:141
+msgid ""
+"![image of text input field with keyboard icon indicating text input, the"
+" globe icon for setting language, and a trashcan delete "
+"icon](contentfiles/items_textedit.png)"
+msgstr ""
+"![image d'un champ de texte avec l'icône clavier indiquant qu'il s'agit "
+"de texte, l'icône globe terrestre pour l'indication de langue et l'icône "
+"poubelle pour supprimer la valeur](contentfiles/item_textedit.fr.png)"
 
-#: ../../docs/content/items.md:88
-msgid "You can indicate the language for the content of an input using the globe symbol above the input (see the red arrow in the image below). Click on the globe to activate a text field, then enter the [IETF Language tag](https://en.wikipedia.org/wiki/IETF_language_tag) code for the language in which the text is written."
-msgstr "La langue d'une valeur peut être indiquée en utilisant le symbole globe terrestre (voir la flèche rouge dans l'image ci-dessous). Cliquez sur le globe pour activer un champ de texte, puis tapez le [Étiquette d'identification de langues](https://fr.wikipedia.org/wiki/%C3%89tiquette_d%27identification_de_langues_IETF) code correspondant à la langue du texte."
+#: ../../docs/content/items.md:141
+#, fuzzy
+msgid ""
+"image of text input field with keyboard icon indicating text input, the "
+"globe icon for setting language, and a trashcan delete icon"
+msgstr ""
+"![image d'un champ de texte avec l'icône clavier indiquant qu'il s'agit "
+"de texte, l'icône globe terrestre pour l'indication de langue et l'icône "
+"poubelle pour supprimer la valeur](contentfiles/item_textedit.fr.png)"
 
-#: ../../docs/content/items.md:90 ../../docs/content/items.md:154
-msgid "![Red arrow points to the globe icon and a text entry field highlighted in blue](contentfiles/item_lang.png)"
-msgstr "![Flèche rouge pour le globe et champ de texte encadré en bleu](contentfiles/item_lang.fr.png)"
+#: ../../docs/content/items.md:143
+#, fuzzy
+msgid ""
+"You can indicate the language for the content of a text input using the "
+"globe symbol above the input (see the red arrow in the image below). "
+"Click on the globe to activate a text field, then enter the [IETF two-"
+"letter Language tag](https://en.wikipedia.org/wiki/IETF_language_tag) "
+"code for the language in which the text is written."
+msgstr ""
+"La langue d'une valeur peut être indiquée en utilisant le symbole globe "
+"terrestre (voir la flèche rouge dans l'image ci-dessous). Cliquez sur le "
+"globe pour activer un champ de texte, puis tapez le [Étiquette "
+"d'identification de "
+"langues](https://fr.wikipedia.org/wiki/%C3%89tiquette_d%27identification_de_langues_IETF)"
+" code correspondant à la langue du texte."
 
-#: ../../docs/content/items.md:92
+#: ../../docs/content/items.md:145
+#, fuzzy
+msgid ""
+"![Red arrow points to the globe icon and a text entry field highlighted "
+"in blue](contentfiles/items_lang.png)"
+msgstr ""
+"![Flèche rouge pour le globe et champ de texte encadré en "
+"bleu](contentfiles/item_lang.fr.png)"
+
+#: ../../docs/content/items.md:145
+#, fuzzy
+msgid ""
+"Red arrow points to the globe icon and a text entry field highlighted in "
+"blue"
+msgstr ""
+"![Flèche rouge pour le globe et champ de texte encadré en "
+"bleu](contentfiles/item_lang.fr.png)"
+
+#: ../../docs/content/items.md:147
 msgid "Omeka resource"
 msgstr "Ressource Omeka"
 
-#: ../../docs/content/items.md:93
-msgid "Omeka resource fields create an internal link between the resource you are creating and the resource which fills that field."
-msgstr "Les champs de ressource Omeka permettent de lier le contenu créé à d'autres ressources."
+#: ../../docs/content/items.md:149
+#, fuzzy
+msgid ""
+"Choosing an Omeka resource as a metadata value creates an [internal link "
+"between the resource you are creating and the resource that fills that "
+"field](#linked-resources)."
+msgstr ""
+"Les champs de ressource Omeka permettent de lier le contenu créé à "
+"d'autres ressources."
 
-#: ../../docs/content/items.md:95
-msgid "When creating an item, you have the option to use either another item or an item set."
-msgstr "La ressource liée peut être un autre contenu ou une collection."
+#: ../../docs/content/items.md:151
+msgid ""
+"When creating an item, you have the option to use either another item or "
+"an item set. If the item has media attached, you can also choose from "
+"within that media - not other media in the installation."
+msgstr ""
 
-#: ../../docs/content/items.md:97
-msgid "Choosing a resource type will open a side drawer where you can browse all of those resources in the installation. You can use the search function at the top of the drawer to narrow down the list or to quickly find a specific item."
-msgstr "Une fois le type de ressource choisi, vous pouvez parcourir toutes les ressources de votre instance dans un volet ouvert sur la droite de la page. Une fonction recherche en haut du volet permet de restreindre la liste des résultats ou de trouver rapidement un contenu spécifique."
+#: ../../docs/content/items.md:153
+#, fuzzy
+msgid ""
+"Choosing a resource type will open a side drawer where you can browse all"
+" of those resources in the installation. You can use the search function "
+"at the top of the drawer to narrow down the list or to quickly find a "
+"specific resource."
+msgstr ""
+"Une fois le type de ressource choisi, vous pouvez parcourir toutes les "
+"ressources de votre instance dans un volet ouvert sur la droite de la "
+"page. Une fonction recherche en haut du volet permet de restreindre la "
+"liste des résultats ou de trouver rapidement un contenu spécifique."
 
-#: ../../docs/content/items.md:99
-msgid "Once you select an item or item set, detailed information will load, and you must click \"Select resource\" to finish linking the resources. You can also click the \"X\" button in the upper right-hand corner to go back to the list of items or item sets."
-msgstr "Les informations principales concernant la collection ou le contenu sélectionné apparaissent et il reste à cliquer sur \"Choisir une ressource\" pour créer le lien. Le bouton \"X\" en haut à droite du volet permet de revenir à la liste des contenus et collections."
+#: ../../docs/content/items.md:155
+msgid ""
+"Once you select a resource, detailed information will load, and you must "
+"click \"Select resource\" to finish linking the resources. You can also "
+"click the \"X\" button in the upper right-hand corner to go back to the "
+"list of resources."
+msgstr ""
 
-#: ../../docs/content/items.md:101
-msgid "![Select Item menu with list of items to link in edit item view](contentfiles/items_addresource.png)"
-msgstr "![Menu des contenus à sélectionner dans la page de modification d'un contenu](contentfiles/items_addresource.fr.png)"
+#: ../../docs/content/items.md:157
+msgid ""
+"![Select Item menu with list of items to link in edit item "
+"view](contentfiles/items_addresource.png)"
+msgstr ""
+"![Menu des contenus à sélectionner dans la page de modification d'un "
+"contenu](contentfiles/items_addresource.fr.png)"
 
-#: ../../docs/content/items.md:103
-msgid "If you are using an Item resource for the property, you will have additional options for finding the item you want in the drawer. Open these options by clicking the triangle button next to the phrase \"Filter search\"."
-msgstr "Dans le cas où vous sélectionnez un contenu comme propriété, des options supplémentaires pour trouver ce contenu s'affichent dans le volet de droite. Appuyer sur le bouton triangulaire à côté de la mention \"Filtre de recherche\" pour accéder à ces options."
+#: ../../docs/content/items.md:157
+#, fuzzy
+msgid "Select Item menu with list of items to link in edit item view"
+msgstr ""
+"![Menu des contenus à sélectionner dans la page de modification d'un "
+"contenu](contentfiles/items_addresource.fr.png)"
 
-#: ../../docs/content/items.md:105
-msgid "![Select Item drawer top options, with a red arrow around a gray triangle button to the right of the phrase \"Filter search\"](contentfiles/items_filtersearch.png)"
-msgstr "![Volet Choisir un contenu ouvert, flèche rouge entourant le triangle gris à la droite de l'expression \"Filtre de recherche\"](contentfiles/items_filtersearch.fr.png)"
+#: ../../docs/content/items.md:159
+#, fuzzy
+msgid ""
+"If you are using an **Item** resource for the property, you will have "
+"three additional options for finding the item you want in the drawer. "
+"Open these options by clicking the triangle button next to the phrase "
+"\"Filter search\". This will open a menu with the following options to "
+"filter the items in the drawer:"
+msgstr ""
+"Dans le cas où vous sélectionnez un contenu comme propriété, des options "
+"supplémentaires pour trouver ce contenu s'affichent dans le volet de "
+"droite. Appuyer sur le bouton triangulaire à côté de la mention \"Filtre "
+"de recherche\" pour accéder à ces options."
 
-#: ../../docs/content/items.md:107
-msgid "This will open a menu below the button with the following options to filter the items in the drawer:"
-msgstr "Cette action ouvre un menu qui contient les options suivantes pour filtrer les contenus :"
+#: ../../docs/content/items.md:161 ../../docs/content/items.md:175
+msgid ""
+"Filter by class: A dropdown where you can select any class provided by "
+"the vocabularies on the installation."
+msgstr ""
+"Filtrer par classe : un menu déroulant qui permet de sélectionner une "
+"propriété fournie par les vocabulaires de l'instance."
 
-#: ../../docs/content/items.md:109
-msgid "Filter by class: A dropdown where you can select any class provided by the vocabularies on the installation."
-msgstr "Filtrer par classe : un menu déroulant qui permet de sélectionner une propriété fournie par les vocabulaires de l'instance."
+#: ../../docs/content/items.md:162
+msgid ""
+"Filter by item set: A dropdown where you can limit the items displayed in"
+" the drawer to only those associated with a particular item set."
+msgstr ""
+"Filtrer par collection : un menu déroulant qui permet de limiter les "
+"contenus à ceux associés à une collection spécifique."
 
-#: ../../docs/content/items.md:110
-msgid "Filter by item set: A dropdown where you can limit the items displayed in the drawer to only those associated with a particular item set."
-msgstr "Filtrer par collection : un menu déroulant qui permet de limiter les contenus à ceux associés à une collection spécifique."
+#: ../../docs/content/items.md:163
+#, fuzzy
+msgid ""
+"Filter by item ID: A text field where you can input the ID of the item "
+"you want to use. You can find an item's ID in the URL of its edit page; "
+"if you are editing the item and the URL is `admin/item/11547/edit` then "
+"the item's ID is 11547. An item ID will also appear in the right-hand "
+"drawer on its view page. You cannot enter a range or search by a partial "
+"number or a wild card - only an exact ID."
+msgstr ""
+"Filtrer par ID de contenu : un champ de recherche où indiquer l'ID du "
+"contenu visé. L'ID d'un contenu se trouve dans l'URL de sa page d'édition"
+" ; si l'URL est \"admin/item/11547/edit\", alors l'ID est 11547. L'ID du "
+"contenu est aussi affiché dans le volet de droite de sa page."
 
-#: ../../docs/content/items.md:111
-msgid "Filter by item ID: A search field where you can input the ID of the item you want to use. You can find an item's ID in the URL of its edit page; if you are editing the item and the URL is `admin/item/11547/edit` then the item's ID is 11547. An item ID will also appear in the right-hand drawer on its view page."
-msgstr "Filtrer par ID de contenu : un champ de recherche où indiquer l'ID du contenu visé. L'ID d'un contenu se trouve dans l'URL de sa page d'édition ; si l'URL est \"admin/item/11547/edit\", alors l'ID est 11547. L'ID du contenu est aussi affiché dans le volet de droite de sa page."
+#: ../../docs/content/items.md:165 ../../docs/content/items.md:178
+msgid ""
+"Once you enter something into a filter, you need to click on the "
+"magnifying glass icon in the search bar to apply your filters."
+msgstr ""
 
-#: ../../docs/content/items.md:113
-msgid "![options as above described](contentfiles/item_addresItem.png)"
+#: ../../docs/content/items.md:167
+#, fuzzy
+msgid "![options as above described](contentfiles/items_addresItem.png)"
 msgstr "![Options décrites ci-dessus](contentfiles/item_addresItem.fr.png)"
 
-#: ../../docs/content/items.md:115
-msgid "Item resources also have an option for \"Quick add\". When this switch is flipped, all of the items in the drawer have a checkbox. You can use these checkboxes to add multiple items as a property at once. Note that you can only edit one property at a time, so all of the items must populate the same property (e.g. Creator, Has Part)."
-msgstr "Les contenus à lier font aussi apparaître une option \"Ajout rapide\". Lorsque cette option est activée, une case à cocher apparaît à côté de chaque contenu du volet. Cette case permet d'ajouter plusieurs contenus à la fois. Toutefois, on ne peut modifier qu'une propriété à la fois, il faut donc que tous les contenus cochés relèvent bien de la même propriété (e.g. Créateur, Contributeur)."
+#: ../../docs/content/items.md:167
+msgid "options as above described"
+msgstr ""
 
-#: ../../docs/content/items.md:117
-msgid "![a red arrow points to the slider button for \"Quick add\". The two items visible have an empty checkbox to the left of their representative thumbnail](contentfiles/items_quickadd.png)"
-msgstr "![Une flèche rouge indique le bouton \"Ajout rapide\". Une case à cocher apparaît à la gauche de chaque contenu visible.](contentfiles/items_quickadd.fr.png)"
+#: ../../docs/content/items.md:169
+#, fuzzy
+msgid ""
+"Item resources also have an option for \"Quick add\". When this switch is"
+" flipped, all of the items in the drawer have a checkbox. You can use "
+"these checkboxes to add multiple items as a property at once. Note that "
+"you can only edit one property at a time, so all of the items must "
+"populate the same property (e.g. \"Creator\", \"Has Part\")."
+msgstr ""
+"Les contenus à lier font aussi apparaître une option \"Ajout rapide\". "
+"Lorsque cette option est activée, une case à cocher apparaît à côté de "
+"chaque contenu du volet. Cette case permet d'ajouter plusieurs contenus à"
+" la fois. Toutefois, on ne peut modifier qu'une propriété à la fois, il "
+"faut donc que tous les contenus cochés relèvent bien de la même propriété"
+" (e.g. Créateur, Contributeur)."
 
-#: ../../docs/content/items.md:119
+#: ../../docs/content/items.md:171
+msgid ""
+"![a red arrow points to the slider button for \"Quick add\". The two "
+"items visible have an empty checkbox to the left of their representative "
+"thumbnail](contentfiles/items_quickadd.png)"
+msgstr ""
+"![Une flèche rouge indique le bouton \"Ajout rapide\". Une case à cocher "
+"apparaît à la gauche de chaque contenu "
+"visible.](contentfiles/items_quickadd.fr.png)"
+
+#: ../../docs/content/items.md:171
+#, fuzzy
+msgid ""
+"a red arrow points to the slider button for \"Quick add\". The two items "
+"visible have an empty checkbox to the left of their representative "
+"thumbnail"
+msgstr ""
+"![Une flèche rouge indique le bouton \"Ajout rapide\". Une case à cocher "
+"apparaît à la gauche de chaque contenu "
+"visible.](contentfiles/items_quickadd.fr.png)"
+
+#: ../../docs/content/items.md:173
+#, fuzzy
+msgid ""
+"If you are using an **Item set** resource for the property, you will have"
+" two options for finding the item set you want in the drawer:"
+msgstr ""
+"Dans le cas où vous sélectionnez un contenu comme propriété, des options "
+"supplémentaires pour trouver ce contenu s'affichent dans le volet de "
+"droite. Appuyer sur le bouton triangulaire à côté de la mention \"Filtre "
+"de recherche\" pour accéder à ces options."
+
+#: ../../docs/content/items.md:176
+msgid ""
+"Filter by item set ID: A text field where you can input the ID of the "
+"item set you want to use. You can find an item set's ID in the URL of its"
+" edit page; if you are editing the item and the URL is `admin/item-"
+"set/15/edit` then the item set's ID is 15. An item set ID will also "
+"appear in the right-hand drawer on its view page. You cannot enter a "
+"range or search by a partial number or a wild card - only an exact ID."
+msgstr ""
+
+#: ../../docs/content/items.md:180
+#, fuzzy
+msgid ""
+"Item set resources also have an option for \"Quick add\". When this "
+"switch is flipped, all of the item sets in the drawer have a checkbox. "
+"You can use these checkboxes to add multiple item sets as properties. "
+"Note that you can only edit one property at a time, so all of the item "
+"sets will populate the same property (e.g. \"Creator\", \"Has Part\")."
+msgstr ""
+"Les contenus à lier font aussi apparaître une option \"Ajout rapide\". "
+"Lorsque cette option est activée, une case à cocher apparaît à côté de "
+"chaque contenu du volet. Cette case permet d'ajouter plusieurs contenus à"
+" la fois. Toutefois, on ne peut modifier qu'une propriété à la fois, il "
+"faut donc que tous les contenus cochés relèvent bien de la même propriété"
+" (e.g. Créateur, Contributeur)."
+
+#: ../../docs/content/items.md:182
 msgid "URI"
 msgstr "URI"
 
-#: ../../docs/content/items.md:121
-msgid "URI fields link to an external website or online resource."
-msgstr "Les champs URI permettent de lier un contenu à un site internet externe ou à une ressource en ligne."
+#: ../../docs/content/items.md:184
+msgid ""
+"URI fields link to an external website or online resource. You can use "
+"this to indicate an authority file from elsewhere on the web, or even "
+"indicate resources in other Omeka platforms."
+msgstr ""
 
-#: ../../docs/content/items.md:123
-msgid "You may add other fields by selecting a property from the list on the right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, etc.), or search in the **filter properties** bar above the list of properties and vocabularies."
-msgstr "Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans la liste située à droite, en parcourant les champs par vocabulaire (Dublin Core, Bibliographic Ontology, etc.) ou en faisant une recherche dans la barre **filtrer les propriétés** qui se trouve au-dessus de la liste des vocabulaires."
+#: ../../docs/content/items.md:186
+msgid ""
+"You can optionally provide a label that will obfuscate the URI, which is "
+"required. You can also enter in a [IETF two-letter Language "
+"tag](https://en.wikipedia.org/wiki/IETF_language_tag) to identify the "
+"language of whatever the URI points to."
+msgstr ""
 
-#: ../../docs/content/items.md:125
+#: ../../docs/content/items.md:188
+msgid ""
+"![Adding a URI as a property value to an item, and adding a value "
+"annotation to that property.](contentfiles/items_addURI.png)"
+msgstr ""
+
+#: ../../docs/content/items.md:188
+msgid ""
+"Adding a URI as a property value to an item, and adding a value "
+"annotation to that property."
+msgstr ""
+
+#: ../../docs/content/items.md:190
+msgid ""
+"You may add other fields by selecting a property from the list on the "
+"right. Browse fields by vocabulary (Dublin Core, Bibliographic Ontology, "
+"etc.), or search in the **filter properties** bar above the list of "
+"properties and vocabularies."
+msgstr ""
+"Vous pouvez ajouter d'autres champs en sélectionnant une propriété dans "
+"la liste située à droite, en parcourant les champs par vocabulaire "
+"(Dublin Core, Bibliographic Ontology, etc.) ou en faisant une recherche "
+"dans la barre **filtrer les propriétés** qui se trouve au-dessus de la "
+"liste des vocabulaires."
+
+#: ../../docs/content/items.md:192
 msgid "Value annotation"
 msgstr "Annotation des valeurs"
 
-#: ../../docs/content/items.md:127
-msgid "When you input a value for a property associated for a resource, you are making a statement about that resource. If you choose, Omeka allows you to make statements about that statement. We call this value annotation. The advantage of value annotation is that you can choose to make ambiguous facts more concrete by annotating things like:"
-msgstr "Quand vous ajoutez une valeur à une propriété de la ressource, vous dites quelque chose de celle-ci. Si vous le souhaitez, Omeka permet de commenter ces valeurs : c'est l'annotation des valeurs. Celle-ci sert par exemple à désambiguïser des informations :"
+#: ../../docs/content/items.md:194
+msgid ""
+"When you input a value for a property associated with a resource, you are"
+" making a statement about that resource. If you choose, Omeka allows you "
+"to make statements about that statement. We call this value annotation. "
+"The advantage of value annotation is that you can choose to make "
+"ambiguous facts more concrete by annotating things like:"
+msgstr ""
 
-#: ../../docs/content/items.md:129
+#: ../../docs/content/items.md:196
 msgid "Provenance: Where is this fact from?"
 msgstr "Provenance : quelle est la source de ce fait ?"
 
-#: ../../docs/content/items.md:130
+#: ../../docs/content/items.md:197
 msgid "Time: When did this fact occur?"
 msgstr "Date : quand ce fait s'est-il produit ?"
 
-#: ../../docs/content/items.md:131
+#: ../../docs/content/items.md:198
 msgid "Location: What is the location associated with this fact?"
 msgstr "Lieu : où ce fait a-t-il eu lieu ?"
 
-#: ../../docs/content/items.md:132
+#: ../../docs/content/items.md:199
 msgid "Certainty: What is the confidence of this fact?"
 msgstr "Certitude : quel est le degré de certitude de ce fait ?"
 
-#: ../../docs/content/items.md:133
+#: ../../docs/content/items.md:200
 msgid "Type: What type of concept/thing is this fact?"
 msgstr "Type : quel type de chose/concept constitue ce fait ?"
 
-#: ../../docs/content/items.md:135
-msgid "In the world of linked data, this process is know as [reification](https://www.w3.org/wiki/RdfReification). Each value can have any number of annotations."
-msgstr "Dans le monde des données liées, ce processus s'appelle la [réification](https://www.w3.org/wiki/RdfReification). Chaque valeur peut avoir plusieurs annotations."
+#: ../../docs/content/items.md:202
+msgid ""
+"In the world of linked data, this process is know as "
+"[reification](https://www.w3.org/wiki/RdfReification). Each value can "
+"have any number of annotations."
+msgstr ""
+"Dans le monde des données liées, ce processus s'appelle la "
+"[réification](https://www.w3.org/wiki/RdfReification). Chaque valeur peut"
+" avoir plusieurs annotations."
 
-#: ../../docs/content/items.md:137
-msgid "To create an annotation, click on the ellipsis on the right side of the value input interface, and then click on the annotation icon (a dialogue bubble)."
-msgstr "Pour annoter, cliquer sur les points de suspension à la droite du champ de valeur, puis sur l'icône d'annotation (une bulle de parole)."
+#: ../../docs/content/items.md:204
+#, fuzzy
+msgid ""
+"To create an annotation, click on the ellipsis on the right side of the "
+"value input interface, and then click on the annotation icon (the speech "
+"bubble)."
+msgstr ""
+"Pour annoter, cliquer sur les points de suspension à la droite du champ "
+"de valeur, puis sur l'icône d'annotation (une bulle de parole)."
 
-#: ../../docs/content/items.md:139
-msgid "![a detail of the property with the annotation bubble highlighted](contentfiles/annotation_add.png)"
+#: ../../docs/content/items.md:206
+#, fuzzy
+msgid ""
+"![A detail of a value with the annotation bubble "
+"highlighted](contentfiles/annotation_add.png)"
 msgstr "![exemple](contentfiles/annotation_add.fr.png)"
 
-#: ../../docs/content/items.md:141
-msgid "The annotation sidebar will open to the right. Select any property that is available within the Omeka S installation to describe the relationship between the annotation and the value it describes. For instance, the value for associated with the property DCterms:Contributor might be annotated with the property Schema:jobTitle."
-msgstr "Le champ d'annotation s'affiche sur la droite. Sélectionner une propriété disponible dans votre instance Omeka S pour décrire la relation entre l'annotation et la valeur annotée. Par exemple, on peut annoter la valeur associée à la propriété DCterms:Contributor avec la propriété Schema;jobTitle."
+#: ../../docs/content/items.md:206
+#, fuzzy
+msgid "A detail of a value with the annotation bubble highlighted"
+msgstr "![exemple](contentfiles/annotation_add.fr.png)"
 
-#: ../../docs/content/items.md:143
-msgid "Then select a date type for the annotation: Text, URI, or an Omeka S Resource. Installed modules may make additional data types available. Click the Add Annotation button."
-msgstr "Sélectionner ensuite le type d'annotation : texte, URI ou ressource Omeka S. Les modules installés peuvent rendre d'autres types de données accessibles. Cliquer sur le bouton Ajouter annotation."
+#: ../../docs/content/items.md:208
+#, fuzzy
+msgid ""
+"The annotation sidebar will open to the right. Select any property that "
+"is available within the Omeka S installation to describe the relationship"
+" between the annotation and the value it describes. For instance, the "
+"value for associated with the property `dcterms:Contributor` might be "
+"annotated with more detail about the nature of the contribution. Or you "
+"may wish to simply include a note using the `dcterms:Description` field."
+msgstr ""
+"Le champ d'annotation s'affiche sur la droite. Sélectionner une propriété"
+" disponible dans votre instance Omeka S pour décrire la relation entre "
+"l'annotation et la valeur annotée. Par exemple, on peut annoter la valeur"
+" associée à la propriété DCterms:Contributor avec la propriété "
+"Schema;jobTitle."
 
-#: ../../docs/content/items.md:145
-msgid "Input the annotation, and click Set Annotations to finalize the process."
-msgstr "Entrer l'annotation puis cliquer sur \"Appliquer les annotations\"."
+#: ../../docs/content/items.md:210
+msgid ""
+"Select a data type for the annotation: a text field, a URI, or resource "
+"in your Omeka S installation. Modules may make additional data types "
+"available. Click the \"Add annotation\" button and a new field will "
+"appear below. Input your annotation. You can do this multiple times for "
+"the chosen value if desired. Then click \"Set annotations\" to finalize "
+"the process."
+msgstr ""
 
-#: ../../docs/content/items.md:147
-msgid "![a picture of the value annotation sidebar with a property selected and an annotation included](contentfiles/annotation_sidebar.png)"
+#: ../../docs/content/items.md:212
+#, fuzzy
+msgid ""
+"![A picture of the value annotation sidebar with a property selected and "
+"an annotation included](contentfiles/annotation_sidebar.png)"
 msgstr "![exemple](contentfiles/annotation_sidebar.fr.png)"
 
-#: ../../docs/content/items.md:149
-msgid "Sites include a setting to indicate whether or not value annotations are visible to the public."
-msgstr "Vous pouvez ensuite paramétrer votre site pour rendre les annotations visibles ou non du public."
+#: ../../docs/content/items.md:212
+#, fuzzy
+msgid ""
+"A picture of the value annotation sidebar with a property selected and an"
+" annotation included"
+msgstr "![exemple](contentfiles/annotation_sidebar.fr.png)"
 
-#: ../../docs/content/items.md:151
-msgid "Language"
-msgstr "Langue"
+#: ../../docs/content/items.md:214
+#, fuzzy
+msgid ""
+"[Each site has a setting](../sites/site_settings.md#show) to indicate "
+"whether or not value annotations are visible to the public. This will "
+"include value annotations on item sets and media."
+msgstr ""
+"Vous pouvez ensuite paramétrer votre site pour rendre les annotations "
+"visibles ou non du public."
 
-#: ../../docs/content/items.md:152
-msgid "You can indicate the language for the content of an input using the globe symbol above the input (see the red arrow in the image below). Click on the globe to activate a text field, then enter the [IETF Language tag](https://en.wikipedia.org/wiki/IETF_language_tag) for the language in which the text is written."
-msgstr "La langue d'un contenu entrant peut être indiquée en utilisant le symbole globe terrestre (voir la flèche rouge dans l'image ci-dessous). Cliquez sur le globe pour activer un champ de texte, puis tapez le [Étiquette d'identification de langues](https://fr.wikipedia.org/wiki/%C3%89tiquette_d%27identification_de_langues_IETF) code correspondant à la langue du texte."
+#: ../../docs/content/items.md:216
+msgid ""
+"You can set controlled vocabularies for annotations using the [Custom "
+"Vocab module](../modules/customvocab.md). In this case, you do not need "
+"to apply a custom vocabulary to a property using a resource template; you"
+" can select any installed vocabulary from the value-type dropdown in the "
+"drawer. This will load your vocabulary's choices into a dropdown of "
+"terms."
+msgstr ""
 
-#: ../../docs/content/items.md:156
-msgid "Value order"
-msgstr "Ordre des valeurs"
+#: ../../docs/content/items.md:218
+msgid ""
+"![A screenshot of an item entry with an annotation on DC:Contributor, "
+"loading a custom vocabulary named \"Contributor Annotation Type\", and "
+"the terms displayed including \"Editor,\" \"Translator,\" \"Publishing "
+"Organization,\" and more.](contentfiles/annotation_customvocab.png)"
+msgstr ""
 
-#: ../../docs/content/items.md:158
-msgid "If you have multiple values for a property, you can reorder them by dragging and dropping. Click on the bar on the left of the value to grab that value, and drag it into the order that you want it."
-msgstr "Si vous entrez plusieurs valeurs pour une propriété, vous pouvez les ordonner par un système de drag and drop. Cliquez sur la barre à gauche de la valeur pour la sélectionner, puis positionnez-la selon l'ordre souhaité."
+#: ../../docs/content/items.md:218
+msgid ""
+"A screenshot of an item entry with an annotation on DC:Contributor, "
+"loading a custom vocabulary named \"Contributor Annotation Type\", and "
+"the terms displayed including \"Editor,\" \"Translator,\" \"Publishing "
+"Organization,\" and more."
+msgstr ""
 
-#: ../../docs/content/items.md:160
-msgid "![Close up of the Subject property with two values. A red circle shows the location of the grab bar for the value.](contentfiles/item_valuereorder.png)"
-msgstr "![Vue rapprochée de la propriété Sujet avec deux valeurs. Un cercle rouge montre où attraper la valeur pour la déplacer.](contentfiles/item_valueorder.fr.png)"
-
-#: ../../docs/content/items.md:162
+#: ../../docs/content/items.md:220
 msgid "Media"
 msgstr "Médias"
 
-#: ../../docs/content/items.md:164
-msgid "Use the **Media** tab to add images, video, or other files. Using the buttons on the **Add New Media** menu on the right side of the screen, select a media type (Upload, URL, oEmbed, YouTube, or HTML)"
-msgstr "L'onglet **Médias** permet d'ajouter des images, des vidéos ou d'autres types de fichiers. Utiliser les boutons dans le menu **Ajouter un média** à la droite de la page pour sélectionner le type de média (Charger, URL, oEmbed, Youtube ou HTML)."
+#: ../../docs/content/items.md:222
+msgid "Use the **Media** tab to add [images, video, or other files](media.md)."
+msgstr ""
 
-#: ../../docs/content/items.md:167
-msgid "![“Add new media” drawer showing the options](contentfiles/items_mediaadd2.png)"
-msgstr "![Volet \"Ajouter un média\" avec options](contentfiles/items_mediaadd2.fr.png)"
+#: ../../docs/content/items.md:224
+msgid ""
+"Using the buttons on the **Add New Media** menu on the right side of the "
+"screen, select a media type (Upload, URL, oEmbed, IIIF, YouTube, or "
+"HTML). Modules, such as [File Sideload](../modules/filesideload.md), can "
+"add more ways to gather media into Omeka. Other modules can import "
+"materials from other platforms directly into Omeka as items with attached"
+" media, such as the [Zotero import](../modules/zoteroimport.md) module."
+msgstr ""
 
-#: ../../docs/content/items.md:169
+#: ../../docs/content/items.md:226
+#, fuzzy
+msgid ""
+"![\"Add new media\" drawer showing the "
+"options](contentfiles/items_mediaadd.png)"
+msgstr ""
+"![Volet \"Ajouter un média\" avec "
+"options](contentfiles/items_mediaadd2.fr.png)"
+
+#: ../../docs/content/items.md:226
+#, fuzzy
+msgid "\"Add new media\" drawer showing the options"
+msgstr ""
+"![Volet \"Ajouter un média\" avec "
+"options](contentfiles/items_mediaadd2.fr.png)"
+
+#: ../../docs/content/items.md:228
 msgid "**Upload**: select a file to upload from your computer."
 msgstr "**Charger** ; sélectionner un fichier depuis votre ordinateur."
 
-#: ../../docs/content/items.md:170
+#: ../../docs/content/items.md:229
 msgid "**URL**: import media via a URI."
 msgstr "**URL** : importer un média via une URL."
 
-#: ../../docs/content/items.md:171
+#: ../../docs/content/items.md:230
 msgid "**HTML**: add html content as a media resource for your item."
 msgstr "**HTML** : ajouter du contenu html."
 
-#: ../../docs/content/items.md:172
-msgid "**IIIF**: Add an IIIF image via URL."
-msgstr "**IIIF** : ajouter une image IIIF via une URL."
+#: ../../docs/content/items.md:231
+msgid ""
+"**IIIF image**: Add an [IIIF image](https://iiif.io/api/image/3.0/) via "
+"URL."
+msgstr ""
 
-#: ../../docs/content/items.md:173
-msgid "**oEmbed**: insert an embedded representation of an external URL. Note that this will only work with content from [existing oEmbed implementations](http://oembed.com/#section7) - use the URL in your browser’s location bar."
-msgstr "**oEmbed** : insérer une représentation embarquée d'une URL extérieure. Cette action ne fonctionne qu'avec un contenu tiré d'[une implémentation oEmbed préexistante](http://oembed.com/#section7) - utiliser l'URL de votre barre de recherche."
+#: ../../docs/content/items.md:232
+msgid ""
+"**IIIF presentation**: Add an [IIIF "
+"presentation](https://iiif.io/api/presentation/3.0/) via URL."
+msgstr ""
 
-#: ../../docs/content/items.md:174
-msgid "**YouTube**: add a link to embed a YouTube video. Use the URL from your browser’s location bar (with `/watch/` in it) rather than the `youtu.be` link."
-msgstr "**YouTube** : ajouter un lien vers une vidéo YouTube embarquée depuis votre barre de recherche (incluant '/watch/') plutôt que le lien 'youtu.be'."
+#: ../../docs/content/items.md:233
+msgid ""
+"**oEmbed**: insert an embedded representation of an external URL. Note "
+"that this will only work with content from [existing oEmbed "
+"implementations](http://oembed.com/#section7) - use the URL in your "
+"browser’s location bar."
+msgstr ""
+"**oEmbed** : insérer une représentation embarquée d'une URL extérieure. "
+"Cette action ne fonctionne qu'avec un contenu tiré d'[une implémentation "
+"oEmbed préexistante](http://oembed.com/#section7) - utiliser l'URL de "
+"votre barre de recherche."
 
-#: ../../docs/content/items.md:176
-msgid "You can edit media later by going by editing an item, navigating to the **Media** tab, and clicking the edit button (pencil) for a media when editing the item."
-msgstr "Un média peut toujours être modifié : se rendre dans la page d'édition du contenu, puis dans l'onglet **Médias** et cliquer sur le bouton d'édition (crayon)."
+#: ../../docs/content/items.md:234
+#, fuzzy
+msgid ""
+"**YouTube**: add a link to embed a YouTube video. Use the URL from your "
+"browser’s location bar (with `/watch/` in it) rather than a `youtu.be` "
+"link."
+msgstr ""
+"**YouTube** : ajouter un lien vers une vidéo YouTube embarquée depuis "
+"votre barre de recherche (incluant '/watch/') plutôt que le lien "
+"'youtu.be'."
 
-#: ../../docs/content/items.md:178
-msgid "You can delete any media instance from the item's edit page using the delete button (trashcan) on the upper right corner of the media block."
-msgstr "L'instance d'un média associée à un contenu peut être supprimée grâce au bouton supprimer (poubelle) dans le coin supérieur droit du bloc média."
+#: ../../docs/content/items.md:236
+msgid ""
+"You can edit media later by going by editing an item, navigating to the "
+"**Media** tab, and clicking the edit button (pencil) for a media when "
+"editing the item."
+msgstr ""
+"Un média peut toujours être modifié : se rendre dans la page d'édition du"
+" contenu, puis dans l'onglet **Médias** et cliquer sur le bouton "
+"d'édition (crayon)."
 
-#: ../../docs/content/items.md:180
-msgid "![Image shows a close up of a media item being removed - it is red and has an undo curling arrow at the right end of the block](contentfiles/item_mediablockdelete.JPG)"
-msgstr "![Vue rapprochée du volet de suppression d'un média](contentfiles/item_mediablockdelete.fr.png)"
+#: ../../docs/content/items.md:238
+msgid ""
+"You can delete any media instance from the item's edit page using the "
+"delete button (trashcan) on the upper right corner of the media block."
+msgstr ""
+"L'instance d'un média associée à un contenu peut être supprimée grâce au "
+"bouton supprimer (poubelle) dans le coin supérieur droit du bloc média."
 
-#: ../../docs/content/items.md:182
-msgid "If you have more than one media instance for an item, you can reorder them by dragging and drop each media instance block, using the icon of three lines in the upper left corner of the block as the anchor when dragging."
-msgstr "Si vous avez plus d'un média pour un contenu, vous pouvez les réorganiser en déplaçant les différents blocs média (se positionner sur l'icône représentant trois traits dans le coin supérieur gauche du bloc)."
+#: ../../docs/content/items.md:240
+msgid ""
+"If you have more than one media instance for an item, you can reorder "
+"them by dragging and drop each media instance block, using the icon of "
+"three lines in the upper left corner of the block as the anchor when "
+"dragging."
+msgstr ""
+"Si vous avez plus d'un média pour un contenu, vous pouvez les réorganiser"
+" en déplaçant les différents blocs média (se positionner sur l'icône "
+"représentant trois traits dans le coin supérieur gauche du bloc)."
 
-#: ../../docs/content/items.md:184
-msgid "Omeka S uses the topmost media for an item to create thumbnail images for that item on browse and show pages."
-msgstr "Omeka S utilise le premier média pour créer la vignette de présentation d'un contenu sur les pages de navigation et de vue des contenus."
+#: ../../docs/content/items.md:242
+msgid ""
+"Omeka S uses the topmost media for an item to create thumbnail images for"
+" that item on browse and show pages."
+msgstr ""
+"Omeka S utilise le premier média pour créer la vignette de présentation "
+"d'un contenu sur les pages de navigation et de vue des contenus."
 
-#: ../../docs/content/items.md:186
+#: ../../docs/content/items.md:244
 msgid "Item sets"
 msgstr "Collections"
 
-#: ../../docs/content/items.md:187
+#: ../../docs/content/items.md:245
 msgid "You can only add items to existing item sets."
 msgstr "Vous ne pouvez ajouter des contenus qu'à une collection déjà existante."
 
-#: ../../docs/content/items.md:189
-msgid "From the right-hand menu, click on the owner of an item set, then click the name of the item set to add the item to that set."
-msgstr "Dans le menu situé à droite, cliquez sur le créateur de la collection, puis sur le nom de la collection pour y ajouter un contenu."
+#: ../../docs/content/items.md:247
+msgid ""
+"From the right-hand menu, click on the owner of an item set, then click "
+"the name of the item set to add the item to that set."
+msgstr ""
+"Dans le menu situé à droite, cliquez sur le créateur de la collection, "
+"puis sur le nom de la collection pour y ajouter un contenu."
 
-#: ../../docs/content/items.md:191
-msgid "You can also filter item sets using the text entry bar above the list of users."
-msgstr "Vous pouvez également filtrer les collections en utilisant la barre de recherche située au-dessus de la liste des utilisateurs."
+#: ../../docs/content/items.md:249
+msgid ""
+"You can also filter item sets using the text entry bar above the list of "
+"users."
+msgstr ""
+"Vous pouvez également filtrer les collections en utilisant la barre de "
+"recherche située au-dessus de la liste des utilisateurs."
 
-#: ../../docs/content/items.md:193
-msgid "To remove a connection between an item and item set, click the delete (trash can) button to the right of the item set title."
-msgstr "Pour supprimer le lien entre un contenu et une collection, cliquer sur le bouton supprimer (poubelle) à la droite du titre de la collection."
+#: ../../docs/content/items.md:251
+msgid ""
+"To remove a connection between an item and item set, click the delete "
+"(trash can) button to the right of the item set title."
+msgstr ""
+"Pour supprimer le lien entre un contenu et une collection, cliquer sur le"
+" bouton supprimer (poubelle) à la droite du titre de la collection."
 
-#: ../../docs/content/items.md:195
-msgid "![item set tab with no item sets assigned](contentfiles/items_itemset.JPG)"
-msgstr "![onglet collections sans collection assignée](contentfiles/items_itemset.fr.png)"
+#: ../../docs/content/items.md:253
+#, fuzzy
+msgid "![item set tab with 1 item set assigned](contentfiles/items_itemset.png)"
+msgstr ""
+"![onglet collections sans collection "
+"assignée](contentfiles/items_itemset.fr.png)"
 
-#: ../../docs/content/items.md:197
+#: ../../docs/content/items.md:253
+#, fuzzy
+msgid "item set tab with 1 item set assigned"
+msgstr ""
+"![onglet collections sans collection "
+"assignée](contentfiles/items_itemset.fr.png)"
+
+#: ../../docs/content/items.md:255
 msgid "Sites"
 msgstr "Sites"
 
-#: ../../docs/content/items.md:198
+#: ../../docs/content/items.md:256
 msgid "Select sites to which to add your items."
 msgstr "Sélectionner les sites auxquels ajouter les contenus."
 
-#: ../../docs/content/items.md:200
-msgid "![item 'sites' tab with the item added to two sites. Each site is in its own row, with a delete icon on the far right of the row](contentfiles/items_addItemSite.png)"
-msgstr "![onglet \"sites\" avec le contenu attribué à un site et la possibilité de l'attacher à un autre](contentfiles/items_addItemSite.fr.png)"
+#: ../../docs/content/items.md:258
+msgid ""
+"![item 'sites' tab with the item added to two sites. Each site is in its "
+"own row, with a delete icon on the far right of the "
+"row](contentfiles/items_addItemSite.png)"
+msgstr ""
+"![onglet \"sites\" avec le contenu attribué à un site et la possibilité "
+"de l'attacher à un autre](contentfiles/items_addItemSite.fr.png)"
 
-#: ../../docs/content/items.md:202
-msgid "To add an item to a site, select a site from the menu in the right-hand drawer. You can filter sites by searching in the field at the top of the drawer."
-msgstr "Pour ajouter un contenu à un site, sélectionner un site dans le menu du volet de droite. Vous pouvez filtrer les sites en utilisant la barre de recherche en haut du volet."
+#: ../../docs/content/items.md:258
+#, fuzzy
+msgid ""
+"item 'sites' tab with the item added to two sites. Each site is in its "
+"own row, with a delete icon on the far right of the row"
+msgstr ""
+"![onglet \"sites\" avec le contenu attribué à un site et la possibilité "
+"de l'attacher à un autre](contentfiles/items_addItemSite.fr.png)"
 
-#: ../../docs/content/items.md:204
-msgid "If there are sites which have \"auto-assign new items\" turned on in their settings, you can use this tab to remove this item from those sites. Click the trash can icon on the right side of the site's row to remove it."
-msgstr "Si le paramètre \"rattacher automatiquement les nouveaux contenus\" est activé pour certains sites, utiliser cet onglet pour retirer des contenus de ces sites. Cliquer sur l'icône poubelle à la droite de la ligne du site pour retirer le contenu."
+#: ../../docs/content/items.md:260
+msgid ""
+"To add an item to a site, select a site from the menu in the right-hand "
+"drawer. You can filter sites by searching in the field at the top of the "
+"drawer."
+msgstr ""
+"Pour ajouter un contenu à un site, sélectionner un site dans le menu du "
+"volet de droite. Vous pouvez filtrer les sites en utilisant la barre de "
+"recherche en haut du volet."
 
-#: ../../docs/content/items.md:206
+#: ../../docs/content/items.md:262
+msgid ""
+"If there are sites which have \"auto-assign new items\" turned on in "
+"their settings, you can use this tab to remove this item from those "
+"sites. Click the trash can icon on the right side of the site's row to "
+"remove it."
+msgstr ""
+"Si le paramètre \"rattacher automatiquement les nouveaux contenus\" est "
+"activé pour certains sites, utiliser cet onglet pour retirer des contenus"
+" de ces sites. Cliquer sur l'icône poubelle à la droite de la ligne du "
+"site pour retirer le contenu."
+
+#: ../../docs/content/items.md:264
 msgid "Advanced"
 msgstr "Avancé"
 
-#: ../../docs/content/items.md:207
-msgid "The advanced tab has two options. One lets you set a custom thumbnail for the item. The other allows you to change which user has ownership of the item."
-msgstr "L'onglet Avancé contient deux options : l'une permet de choisir une vignette pour le contenu ; l'autre permet de modifier le propriétaire du contenu."
+#: ../../docs/content/items.md:265
+msgid ""
+"The advanced tab has two options. One lets you set a custom thumbnail for"
+" the item. The other allows you to change which user has ownership of the"
+" item."
+msgstr ""
+"L'onglet Avancé contient deux options : l'une permet de choisir une "
+"vignette pour le contenu ; l'autre permet de modifier le propriétaire du "
+"contenu."
 
-#: ../../docs/content/items.md:209
-msgid "**Thumbnail**"
+#: ../../docs/content/items.md:267
+#, fuzzy
+msgid "Thumbnail"
 msgstr "**Vignette**"
 
-#: ../../docs/content/items.md:211
-msgid "By default, Omeka S will use the topmost media to generate a thumbnail for the item. If you want to use a non-media image for the thumbnail for an item you can set it here."
-msgstr "Omeka S utilise par défaut le premier média attaché à un contenu pour créer sa vignette. L'onglet Avancé permet d'utiliser comme vignette une image ne faisant pas partie des médias associés."
+#: ../../docs/content/items.md:269
+msgid ""
+"By default, Omeka S will use the topmost media to generate a thumbnail "
+"for the item. If you want to use a non-media image for the thumbnail for "
+"an item you can set it here."
+msgstr ""
+"Omeka S utilise par défaut le premier média attaché à un contenu pour "
+"créer sa vignette. L'onglet Avancé permet d'utiliser comme vignette une "
+"image ne faisant pas partie des médias associés."
 
-#: ../../docs/content/items.md:213
-msgid "![Advanced tab with no asset selected. The tab displays a message about thumbnail creation and a button to \"select\" an asset](contentfiles/item_advtab.png)"
-msgstr "![Onglet Avancé sans fichier sélectionné. On trouve sur l'onglet un encart pour la création de vignettes](contentfiles/item_advtab.fr.png)"
+#: ../../docs/content/items.md:271
+#, fuzzy
+msgid ""
+"![Advanced tab with no asset selected. The tab displays a message about "
+"thumbnail creation and a button to \"select\" an "
+"asset](contentfiles/items_advtab.png)"
+msgstr ""
+"![Onglet Avancé sans fichier sélectionné. On trouve sur l'onglet un "
+"encart pour la création de vignettes](contentfiles/item_advtab.fr.png)"
 
-#: ../../docs/content/items.md:215
-msgid "When you use an asset thumbnail instead of uploading media, the asset thumbnail does not display on the item's public show page. This makes such thumbnails useful for items which have no media but which would benefit from a thumbnail for the browse view, or for items whose media does not render an elegant thumbnail, such as audio or video files."
-msgstr "Les vignettes ainsi ajoutées ne s'affichent pas sur la page publique du contenu. Elles peuvent alors être utilisées pour les contenus qui n'ont pas de média associé mais pour lesquels une vignette est utile dans les pages de recherche et de navigation, ou pour des contenus dont les médias (des fichiers vidéo ou audio par exemple) ne permettent pas de créer une vignette élégante."
+#: ../../docs/content/items.md:271
+#, fuzzy
+msgid ""
+"Advanced tab with no asset selected. The tab displays a message about "
+"thumbnail creation and a button to \"select\" an asset"
+msgstr ""
+"![Onglet Avancé sans fichier sélectionné. On trouve sur l'onglet un "
+"encart pour la création de vignettes](contentfiles/item_advtab.fr.png)"
 
-#: ../../docs/content/items.md:217
-msgid "The assets you select from and upload as thumbnails in this tab are the same as those created for [site logos](../sites/site_theme.md#settings-options)."
-msgstr "Les éléments chargés comme vignettes par ce procédé sont les mêmes que ceux créés pour les [logos de site](../sites/site_theme.md#settings-options)."
+#: ../../docs/content/items.md:273
+msgid ""
+"When you use an asset thumbnail instead of uploading media, the asset "
+"thumbnail does not display on the item's public show page. This makes "
+"such thumbnails useful for items which have no media but which would "
+"benefit from a thumbnail for the browse view, or for items whose media "
+"does not render an elegant thumbnail, such as audio or video files."
+msgstr ""
+"Les vignettes ainsi ajoutées ne s'affichent pas sur la page publique du "
+"contenu. Elles peuvent alors être utilisées pour les contenus qui n'ont "
+"pas de média associé mais pour lesquels une vignette est utile dans les "
+"pages de recherche et de navigation, ou pour des contenus dont les médias"
+" (des fichiers vidéo ou audio par exemple) ne permettent pas de créer une"
+" vignette élégante."
 
-#: ../../docs/content/items.md:219
-msgid "To assign an asset as a thumbnail, click on the Select button in the main work area of the tab. This will open a drawer on the right side."
-msgstr "Pour sélectionner une vignette, cliquer sur le bouton Choisir : un volet s'ouvrira sur la droite."
+#: ../../docs/content/items.md:275
+msgid ""
+"The assets you select from and upload as thumbnails in this tab are the "
+"same as those created for [site logos](../sites/site_theme.md#settings-"
+"options)."
+msgstr ""
+"Les éléments chargés comme vignettes par ce procédé sont les mêmes que "
+"ceux créés pour les [logos de site](../sites/site_theme.md#settings-"
+"options)."
 
-#: ../../docs/content/items.md:221
-msgid "![Select drawer with upload option and two assets, both of which are images.](contentfiles/item_thumbdrawer.png)"
-msgstr "![Onglet \"Choisir\" sélectionné et deux fichiers image entre lesquels choisir.](contentfiles/item_thumbdrawer.fr.png)"
+#: ../../docs/content/items.md:277
+msgid ""
+"To assign an asset as a thumbnail, click on the Select button in the main"
+" work area of the tab. This will open a drawer on the right side."
+msgstr ""
+"Pour sélectionner une vignette, cliquer sur le bouton Choisir : un volet "
+"s'ouvrira sur la droite."
 
-#: ../../docs/content/items.md:223
-msgid "The drawer offers two options: upload a file using your browser, or select from existing assets. To select an existing asset, simply click on it and it will automatically be assigned to the item."
-msgstr "Le volet propose deux options : charger un fichier ou sélectionner parmi les vignettes existantes. Dans le second cas, cliquer sur la vignette, qui sera automatiquement associée au contenu."
+#: ../../docs/content/items.md:279
+#, fuzzy
+msgid ""
+"![Select drawer with upload option and two assets, both of which are "
+"images.](contentfiles/items_thumbdrawer.png)"
+msgstr ""
+"![Onglet \"Choisir\" sélectionné et deux fichiers image entre lesquels "
+"choisir.](contentfiles/item_thumbdrawer.fr.png)"
 
-#: ../../docs/content/items.md:225
-msgid "To remove an asset which you have assigned as a thumbnail, click the \"Clear\" button below the image of the asset. To replace it, click \"Select\" and either choose or upload a new thumbnail asset."
-msgstr "Pour supprimer une vignette, appuyer sur le bouton Retirer sous celle-ci. Pour la remplacer, cliquer de nouveau sur Choisir."
+#: ../../docs/content/items.md:279
+#, fuzzy
+msgid "Select drawer with upload option and two assets, both of which are images."
+msgstr ""
+"![Onglet \"Choisir\" sélectionné et deux fichiers image entre lesquels "
+"choisir.](contentfiles/item_thumbdrawer.fr.png)"
 
-#: ../../docs/content/items.md:227
-msgid "**Owner**"
-msgstr "**Propriétaire**"
+#: ../../docs/content/items.md:281
+msgid ""
+"The drawer offers two options: upload a file using your browser, or "
+"select from existing assets. To select an existing asset, simply click on"
+" it and it will automatically be assigned to the item."
+msgstr ""
+"Le volet propose deux options : charger un fichier ou sélectionner parmi "
+"les vignettes existantes. Dans le second cas, cliquer sur la vignette, "
+"qui sera automatiquement associée au contenu."
 
-#: ../../docs/content/items.md:229
-msgid "The ownership of an item is usually assigned to the user account which creates the item. You can use this dropdown to reassign ownership. The dropdown will load the user names (not email addresses) of users in the installation. Select a new user and save changes."
-msgstr "Le statut de propriétaire est généralement attribué à l'utilisateur qui crée le contenu. Le menu déroulant permet de changer cette attribution : sélectionner un autre utilisateur proposé dans le menu déroulant et sauvegarder."
+#: ../../docs/content/items.md:283
+msgid ""
+"To remove an asset which you have assigned as a thumbnail, click the "
+"\"Clear\" button below the image of the asset. To replace it, click "
+"\"Select\" and either choose or upload a new thumbnail asset."
+msgstr ""
+"Pour supprimer une vignette, appuyer sur le bouton Retirer sous celle-ci."
+" Pour la remplacer, cliquer de nouveau sur Choisir."
 
-#: ../../docs/content/items.md:231
+#: ../../docs/content/items.md:285
+msgid "Owner"
+msgstr ""
+
+#: ../../docs/content/items.md:287
+#, fuzzy
+msgid ""
+"The ownership of an item is usually assigned to the user account that "
+"creates the item. You can use this dropdown to reassign ownership. The "
+"dropdown will load the user names (not email addresses) of users in the "
+"installation. Select a new user and save your changes."
+msgstr ""
+"Le statut de propriétaire est généralement attribué à l'utilisateur qui "
+"crée le contenu. Le menu déroulant permet de changer cette attribution : "
+"sélectionner un autre utilisateur proposé dans le menu déroulant et "
+"sauvegarder."
+
+#: ../../docs/content/items.md:289
 msgid "Visibility"
 msgstr "Visibilité"
 
-#: ../../docs/content/items.md:232
-msgid "Use the **make public/private** button (eye icon) to set whether the item is visible to the public or only to users of the Omeka S system."
-msgstr "Utiliser les bouton **public/privé** (icône oeil) pour rendre le contenu public ou visible seulement par les utilisateurs du système Omeka S."
+#: ../../docs/content/items.md:290
+msgid ""
+"Use the **make public/private** button (eye icon) to set whether the item"
+" is visible to the public or only to users of the Omeka S system."
+msgstr ""
+"Utiliser les bouton **public/privé** (icône oeil) pour rendre le contenu "
+"public ou visible seulement par les utilisateurs du système Omeka S."
 
-#: ../../docs/content/items.md:234
-msgid "Item is public: ![make public button showing an eye icon](../content/contentfiles/item_public.png){style=\"display:inline;\"}"
-msgstr "Le contenu est public : ![bouton public avec icône oeil](../content/contentfiles/item_public.fr.png){style=\"display:inline;\"}"
+#: ../../docs/content/items.md:292
+msgid ""
+"Item is public: ![make public button showing an eye "
+"icon](../content/contentfiles/item_public.png){style=\"display:inline;\"}"
+msgstr ""
+"Le contenu est public : ![bouton public avec icône "
+"oeil](../content/contentfiles/item_public.fr.png){style=\"display:inline;\"}"
 
-#: ../../docs/content/items.md:236
-msgid "Item is private: ![make private button showing an eye icon with a diagonal slash through it](../content/contentfiles/item_private.png){style=\"display:inline;\"}"
-msgstr "Le contenu est privé : ![bouton privé avec oeil barré](../content/contentfiles/item_private.fr.png){style=\"display:inline;\"}"
+#: ../../docs/content/items.md:292
+msgid "make public button showing an eye icon"
+msgstr ""
 
-#: ../../docs/content/items.md:238
-msgid "Note that if an item is private, all the media attached is private, but an item which is public can have attached media which are set to be either public or private."
-msgstr "Si un contenu est privé, les médias attachés le sont aussi, mais les médias d'un contenu public peuvent eux aussi être mis en statut public ou privé."
+#: ../../docs/content/items.md:294
+msgid ""
+"Item is private: ![make private button showing an eye icon with a "
+"diagonal slash through "
+"it](../content/contentfiles/item_private.png){style=\"display:inline;\"}"
+msgstr ""
+"Le contenu est privé : ![bouton privé avec oeil "
+"barré](../content/contentfiles/item_private.fr.png){style=\"display:inline;\"}"
 
-#: ../../docs/content/items.md:240
+#: ../../docs/content/items.md:294
+#, fuzzy
+msgid "make private button showing an eye icon with a diagonal slash through it"
+msgstr ""
+"Le contenu est privé : ![bouton privé avec oeil "
+"barré](../content/contentfiles/item_private.fr.png){style=\"display:inline;\"}"
+
+#: ../../docs/content/items.md:296
+msgid ""
+"Note that if an item is private, all the media attached is private, but "
+"an item which is public can have attached media which are set to be "
+"either public or private."
+msgstr ""
+"Si un contenu est privé, les médias attachés le sont aussi, mais les "
+"médias d'un contenu public peuvent eux aussi être mis en statut public ou"
+" privé."
+
+#: ../../docs/content/items.md:298
 msgid "Edit an item"
 msgstr "Éditer un contenu"
 
-#: ../../docs/content/items.md:241
-msgid "Once you have created an item, you can edit it at any time, either by clicking the edit icon (pencil button) or clicking on the item's title and then clicking the \"Edit\" button in the upper right-hand corner of the screen."
-msgstr "Une fois le contenu créé, il peut être modifié en cliquant soit sur l'icône d'édition (crayon), soit sur le titre du contenu puis sur le bouton \"Modifier ce contenu\" situé dans le coin supérieur droit de la page."
+#: ../../docs/content/items.md:299
+msgid ""
+"Once you have created an item, you can edit it at any time, either by "
+"clicking the edit icon (pencil button) or clicking on the item's title "
+"and then clicking the \"Edit\" button in the upper right-hand corner of "
+"the screen."
+msgstr ""
+"Une fois le contenu créé, il peut être modifié en cliquant soit sur "
+"l'icône d'édition (crayon), soit sur le titre du contenu puis sur le "
+"bouton \"Modifier ce contenu\" situé dans le coin supérieur droit de la "
+"page."
 
-#: ../../docs/content/items.md:243
-msgid "To cancel out of editing, click the \"Cancel\" button in the upper right corner, between the \"Delete\" and \"Save\" buttons."
-msgstr "Pour ne pas valider une modification, cliquer sur le bouton \"Annuler\" (coin supérieur droit), entre les boutons \"Supprimer\" et \"Enregistrer\"."
+#: ../../docs/content/items.md:301
+#, fuzzy
+msgid ""
+"To cancel out of editing, click the \"Cancel\" button at the top right of"
+" the screen."
+msgstr ""
+"Pour ne pas valider une modification, cliquer sur le bouton \"Annuler\" "
+"(coin supérieur droit), entre les boutons \"Supprimer\" et "
+"\"Enregistrer\"."
 
-#: ../../docs/content/items.md:245
-msgid "![Detail view of the top row if information and buttons on an item edit view. A red arrow points to the \"Cancel\" button, on the far right](contentfiles/items_cancel.JPG)"
-msgstr "![Vue détaillée d'un contenu en modification. Une flèche rouge pointe vers le bouton \"Annuler\" dans le coin droit](contentfiles/items_cancel.fr.png)"
+#: ../../docs/content/items.md:303
+#, fuzzy
+msgid ""
+"Editing options are the same as when creating a new item, with the "
+"addition of the ability to add any media which has been saved to an item "
+"as a property."
+msgstr ""
+"Les options d'édition sont les mêmes que les options de création d'un "
+"contenu, avec en plus la possibilité d'ajouter comme propriété un média "
+"associé au contenu :"
 
-#: ../../docs/content/items.md:247
-msgid "Editing options are the same as when creating a new item, with the addition of the ability to add any media which has been saved to an item as a property:"
-msgstr "Les options d'édition sont les mêmes que les options de création d'un contenu, avec en plus la possibilité d'ajouter comme propriété un média associé au contenu :"
-
-#: ../../docs/content/items.md:249
+#: ../../docs/content/items.md:305
 msgid "Media as property"
 msgstr "Les médias comme propriété"
 
-#: ../../docs/content/items.md:250
-msgid "Once you have created an item and added media to it, you will also have the option to use media **attached to that item** for a property."
-msgstr "Une fois le contenu créé et ses médias ajoutés, vous pourrez utiliser un média **attaché à ce contenu** comme propriété."
+#: ../../docs/content/items.md:306
+msgid ""
+"Once you have created an item and added media to it, you will also have "
+"the option to use media **attached to that item** for a property."
+msgstr ""
+"Une fois le contenu créé et ses médias ajoutés, vous pourrez utiliser un "
+"média **attaché à ce contenu** comme propriété."
 
-#: ../../docs/content/items.md:252
-msgid "![A blue outline of a rectangle highlights resource options for Items, Item sets, and Media to be used as the input for the element \"Description\"](contentfiles/items_addmediaresource.png)"
-msgstr "![Un rectangle bleu met en évidence les options de ressources pouvant être utilisées pour l'élément \"Titre\" : Contenus, Collections, Médias](contentfiles/items_addmediaresource.fr.png)"
+#: ../../docs/content/items.md:308
+msgid ""
+"![A blue outline of a rectangle highlights resource options for Items, "
+"Item sets, and Media to be used as the input for the element "
+"\"Description\"](contentfiles/items_addmediaresource.png)"
+msgstr ""
+"![Un rectangle bleu met en évidence les options de ressources pouvant "
+"être utilisées pour l'élément \"Titre\" : Contenus, Collections, "
+"Médias](contentfiles/items_addmediaresource.fr.png)"
 
-#: ../../docs/content/items.md:254
-msgid "To use a media resource for a property, select the media option for the element (1). The drawer which opens will display all media attached to the item. Select the media which you want to use (2); this will switch the drawer to just that media (second image). Click the \"Select Resource\" button at the bottom of the drawer to complete the process (3)."
-msgstr "Pour utiliser un média comme propriété, sélectionner l'option média (1). Un volet affiche alors tous les médias attachés au contenu. Sélectionner le média à utiliser (2) ; le volet ne contiendra alors plus que ce média (deuxième image). Cliquer sur le bouton \"Choisir une ressource\" en bas du volet pour terminer l'opération (3)."
+#: ../../docs/content/items.md:308
+#, fuzzy
+msgid ""
+"A blue outline of a rectangle highlights resource options for Items, Item"
+" sets, and Media to be used as the input for the element \"Description\""
+msgstr ""
+"![Un rectangle bleu met en évidence les options de ressources pouvant "
+"être utilisées pour l'élément \"Titre\" : Contenus, Collections, "
+"Médias](contentfiles/items_addmediaresource.fr.png)"
 
-#: ../../docs/content/items.md:256
-msgid "![Focus on the editing portion of a window for the item \"Sense and Sensibility\", with the elements Title and Description visible. On the right side of the window, a vertical rectangle (the drawer) is open on the right displaying five media which are attached to the item, including video, images, and text. This image contains steps 1 and 2.](contentfiles/items_mediaresource1.png)"
-msgstr "![Vue sur la page de modification du contenu \"Simone Biles -- podium\". Un volet apparaît sur la droite de la page, affichant deux médias attachés au contenu. Cette capture comprend les étapes 1 et 2](contentfiles/items_mediaresource1.fr.png)"
+#: ../../docs/content/items.md:310
+msgid ""
+"To use a media resource for a property, select the media option for the "
+"element (1). The drawer which opens will display all media attached to "
+"the item. Select the media which you want to use (2); this will switch "
+"the drawer to just that media (second image). Click the \"Select "
+"Resource\" button at the bottom of the drawer to complete the process "
+"(3)."
+msgstr ""
+"Pour utiliser un média comme propriété, sélectionner l'option média (1). "
+"Un volet affiche alors tous les médias attachés au contenu. Sélectionner "
+"le média à utiliser (2) ; le volet ne contiendra alors plus que ce média "
+"(deuxième image). Cliquer sur le bouton \"Choisir une ressource\" en bas "
+"du volet pour terminer l'opération (3)."
 
-#: ../../docs/content/items.md:258
-msgid "![The same window as before, but now the drawer on the right displays a thumbnail of the media \"Sense and Sensibility DVD Trailer\" with a dark gray button labeled \"select resource\" at the bottom of the drawer area. This image contains step 3](contentfiles/items_mediaresource2.png)"
-msgstr "![La même fenêtre que précédemment, mais le volet de droite affiche maintenant une vignette du média \"Simone Biles -- podium 1\" avec un bouton gris foncé indiquant \"Choisir une ressource\" en bas du volet. Cette capture représente l'étape 3](contentfiles/items_mediaresource2.fr.png)"
+#: ../../docs/content/items.md:312
+msgid ""
+"![Focus on the editing portion of a window for the item \"Sense and "
+"Sensibility\", with the elements Title and Description visible. On the "
+"right side of the window, a vertical rectangle (the drawer) is open on "
+"the right displaying five media which are attached to the item, including"
+" video, images, and text. This image contains steps 1 and "
+"2.](contentfiles/items_mediaresource1.png)"
+msgstr ""
+"![Vue sur la page de modification du contenu \"Simone Biles -- podium\". "
+"Un volet apparaît sur la droite de la page, affichant deux médias "
+"attachés au contenu. Cette capture comprend les étapes 1 et "
+"2](contentfiles/items_mediaresource1.fr.png)"
 
-#: ../../docs/content/items.md:261
-msgid "Batch actions"
-msgstr "Traitements par lots"
+#: ../../docs/content/items.md:312
+#, fuzzy
+msgid ""
+"Focus on the editing portion of a window for the item \"Sense and "
+"Sensibility\", with the elements Title and Description visible. On the "
+"right side of the window, a vertical rectangle (the drawer) is open on "
+"the right displaying five media which are attached to the item, including"
+" video, images, and text. This image contains steps 1 and 2."
+msgstr ""
+"![Vue sur la page de modification du contenu \"Simone Biles -- podium\". "
+"Un volet apparaît sur la droite de la page, affichant deux médias "
+"attachés au contenu. Cette capture comprend les étapes 1 et "
+"2](contentfiles/items_mediaresource1.fr.png)"
 
-#: ../../docs/content/items.md:263
-msgid "From the browse page of items (admin/item) you can batch edit items, using the dropdown menu on the left near the pagination buttons. You can select multiple items using the checkboxes on the left of each item's row."
-msgstr "Depuis la page des contenus (admin/item), vous pouvez traiter des contenus par lots en utilisant le menu déroulant à côté des boutons de pagination. Vous pouvez sélectionner plusieurs contenus en utilisant les cases à cocher à côté de la ligne dédiée à chaque contenu."
+#: ../../docs/content/items.md:314
+msgid ""
+"![The same window as before, but now the drawer on the right displays a "
+"thumbnail of the media \"Sense and Sensibility DVD Trailer\" with a dark "
+"gray button labeled \"select resource\" at the bottom of the drawer area."
+" This image contains step 3](contentfiles/items_mediaresource2.png)"
+msgstr ""
+"![La même fenêtre que précédemment, mais le volet de droite affiche "
+"maintenant une vignette du média \"Simone Biles -- podium 1\" avec un "
+"bouton gris foncé indiquant \"Choisir une ressource\" en bas du volet. "
+"Cette capture représente l'étape "
+"3](contentfiles/items_mediaresource2.fr.png)"
 
-#: ../../docs/content/items.md:265
-msgid "![A red arrow points to the dropdown for batch editing and deleting options](contentfiles/items_batch.png)"
-msgstr "![Une flèche rouge pointe vers le menu déroulant pour le traitement par lots](contentfiles/items_batch.fr.png)"
+#: ../../docs/content/items.md:314
+#, fuzzy
+msgid ""
+"The same window as before, but now the drawer on the right displays a "
+"thumbnail of the media \"Sense and Sensibility DVD Trailer\" with a dark "
+"gray button labeled \"select resource\" at the bottom of the drawer area."
+" This image contains step 3"
+msgstr ""
+"![La même fenêtre que précédemment, mais le volet de droite affiche "
+"maintenant une vignette du média \"Simone Biles -- podium 1\" avec un "
+"bouton gris foncé indiquant \"Choisir une ressource\" en bas du volet. "
+"Cette capture représente l'étape "
+"3](contentfiles/items_mediaresource2.fr.png)"
 
-#: ../../docs/content/items.md:267
-msgid "Batch actions are as follows:"
-msgstr "Les actions de traitement par lots sont les suivantes :"
+#: ../../docs/content/items.md:316
+#, fuzzy
+msgid "Delete an item"
+msgstr "Éditer un contenu"
 
-#: ../../docs/content/items.md:269
-msgid "Edit selected: edit only the items that are selected on the page"
-msgstr "Modifier sélectionnés : ne modifie que les contenus sélectionnés sur la page"
+#: ../../docs/content/items.md:318
+msgid "To delete an item, you can:"
+msgstr ""
 
-#: ../../docs/content/items.md:270
-msgid "Edit all: edit all the items returned by a search (default is all items)"
-msgstr "Modifier tout : modifie tous les contenus d'un résultat de recherche (par défaut, l'ensemble des contenus)"
+#: ../../docs/content/items.md:320
+msgid ""
+"Click the trash can icon in the Items browse page. This will open a "
+"right-hand drawer to confirm the deletion."
+msgstr ""
 
-#: ../../docs/content/items.md:271
-msgid "Delete selected: delete only the items that are selected on the page"
-msgstr "Supprimer sélectionnés : ne supprime que les contenus sélectionnés sur la page"
+#: ../../docs/content/items.md:321
+msgid ""
+"Click the title of the item in the table on the Items browse page, then "
+"click the \"Delete\" button at the top right of the screen."
+msgstr ""
 
-#: ../../docs/content/items.md:272
-msgid "Delete all: delete all the items returned by a search (default is all items)."
-msgstr "Supprimer tout : supprime tous les contenus d'un résultat de recherche (par défaut, l'ensemble des contenus)."
+#: ../../docs/content/items.md:322
+msgid ""
+"Use the batch-deletion methods described below to delete many items at "
+"once."
+msgstr ""
 
-#: ../../docs/content/items.md:274
-msgid "Choose one of these options and then click \"Go\"."
-msgstr "Choisir une de ces options puis cliquer sur \"Traiter\"."
-
-#: ../../docs/content/items.md:276
+#: ../../docs/content/items.md:324 ../../docs/content/items.md:352
 msgid "Batch editing"
 msgstr "La modification par lots"
 
-#: ../../docs/content/items.md:278
-msgid "**Batch editing** items takes you to a new page. The items being edited will display on the right side in a drawer, while the batch edit form gives you the following options:"
-msgstr "L'action **Modifier par lots** envoie sur une nouvelle page. Les contenus sélectionnés sont affichés dans un volet sur la droite et le formulaire de modification des contenus propose les options suivantes :"
+#: ../../docs/content/items.md:326
+#, fuzzy
+msgid ""
+"From the browse page of items (`admin/item`) you can batch edit items, "
+"using the dropdown menu on the left near the pagination buttons. You can "
+"select multiple items using the checkboxes on the left of each item's "
+"row."
+msgstr ""
+"Depuis la page des contenus (admin/item), vous pouvez traiter des "
+"contenus par lots en utilisant le menu déroulant à côté des boutons de "
+"pagination. Vous pouvez sélectionner plusieurs contenus en utilisant les "
+"cases à cocher à côté de la ligne dédiée à chaque contenu."
 
-#: ../../docs/content/items.md:280
-msgid "Set visibility: a dropdown, select from public or not public."
-msgstr "Modifier la visibilité : sélectionner public, non public ou pas de changement."
+#: ../../docs/content/items.md:328
+msgid ""
+"![A red arrow points to the dropdown for batch editing and deleting "
+"options](contentfiles/items_batch.png)"
+msgstr ""
+"![Une flèche rouge pointe vers le menu déroulant pour le traitement par "
+"lots](contentfiles/items_batch.fr.png)"
 
-#: ../../docs/content/items.md:281
-msgid "Set template: a dropdown, select from the installation's resource templates."
-msgstr "Définir le modèle : menu déroulant permettant de sélectionner un des modèles de ressource de l'instance."
+#: ../../docs/content/items.md:328
+#, fuzzy
+msgid "A red arrow points to the dropdown for batch editing and deleting options"
+msgstr ""
+"![Une flèche rouge pointe vers le menu déroulant pour le traitement par "
+"lots](contentfiles/items_batch.fr.png)"
 
-#: ../../docs/content/items.md:282
-msgid "Set class: a dropdown, select from classes of the installed vocabularies."
-msgstr "Définir une classe : menu déroulant permettant de sélectionner une classe parmi celles des vocabulaires de l'instance."
+#: ../../docs/content/items.md:330
+msgid ""
+"Editors, Supervisors, and Global Admins can batch-edit and batch-delete "
+"all items in the installation. Users that have Author-level permissions "
+"can batch-edit or batch-delete their own items, but not items of others. "
+"In this case, selecting all of the items on the page, or selecting all "
+"items, will only include items they own. Users at the Reviewer level "
+"cannot batch-delete all resources, but can batch-delete selected "
+"resources."
+msgstr ""
 
-#: ../../docs/content/items.md:283
-msgid "Add to item set: a dropdown, select from item sets on the installation. Add to an additional item set click in the input box again to see the remaining options."
-msgstr "Ajouter aux collections : menu déroulant permettant de sélectionner une collection de l'instance. L'action peut être répétée en cliquant à nouveau sur la barre de recherche."
+#: ../../docs/content/items.md:332
+msgid "Batch actions are as follows:"
+msgstr "Les actions de traitement par lots sont les suivantes :"
 
-#: ../../docs/content/items.md:284
-msgid "Remove from item set: a dropdown, select from item sets on the installation. Remove from an additional item set click in the input box again to see the remaining options."
-msgstr "Enlever des collections : menu déroulant permettant de sélectionner une collection de l'instance. L'action peut être répétée en cliquant à nouveau sur la barre de recherche."
+#: ../../docs/content/items.md:334
+msgid "Edit selected: edit only the items that are selected on the page"
+msgstr ""
+"Modifier sélectionnés : ne modifie que les contenus sélectionnés sur la "
+"page"
 
-#: ../../docs/content/items.md:285
-msgid "Add to sites: a dropdown, select from sites on the installation. Add to an additional site click in the input box again to see the remaining options."
-msgstr "Ajouter aux sites : menu déroulant permettant de sélectionner un site de l'instance. L'action peut être répétée en cliquant à nouveau sur la barre de recherche."
+#: ../../docs/content/items.md:335
+msgid "Edit all: edit all the items returned by a search (default is all items)"
+msgstr ""
+"Modifier tout : modifie tous les contenus d'un résultat de recherche (par"
+" défaut, l'ensemble des contenus)"
 
-#: ../../docs/content/items.md:286
-msgid "Remove from sites: a dropdown, select from sites on the installation. Remove from an additional site click in the input box again to see the remaining options."
-msgstr "Retirer des sites : menu déroulant permettant de sélectionner un site de l'instance. L'action peut être répétée en cliquant à nouveau sur la barre de recherche."
+#: ../../docs/content/items.md:336
+msgid "Delete selected: delete only the items that are selected on the page"
+msgstr ""
+"Supprimer sélectionnés : ne supprime que les contenus sélectionnés sur la"
+" page"
 
-#: ../../docs/content/items.md:287
-msgid "Clear property values: a dropdown menu with all the properties in all vocabularies, selecting from this will remove any values in that property in the affected items. Clear additional properties using the \"Clear another property\" button."
-msgstr "Effacer les valeurs d'une propriété : menu déroulant contenant toutes les propriétés des vocabulaires de l'instance, permettant de retirer les valeurs d'une propriété pour les contenus concernés. L'action peut être répétée en cliquant à nouveau sur la barre de recherche."
+#: ../../docs/content/items.md:337
+msgid ""
+"Delete all: delete all the items returned by a search (default is all "
+"items)."
+msgstr ""
+"Supprimer tout : supprime tous les contenus d'un résultat de recherche "
+"(par défaut, l'ensemble des contenus)."
 
-#: ../../docs/content/items.md:288
-msgid "Set value visibility: set the visibility of a specific property to either public or not public. Unlike the radio buttons at the top of the form, this will only affect a single property instead of the entire item. Select a property from the text field (type to begin searching), and the choose either the *public* or *not public* radio button for this option."
-msgstr "Set value visbility : établir le statut privé ou public d'une seule propriété. Contrairement aux boutons en début de formulaire, cette action ne concerne que la propriété sélectionnée et non le contenu complet. Sélectionner une propriété dans la barre de recherche (entrer du texte pour commencer la recherche) puis choisir l'option *public* ou *non public*."
+#: ../../docs/content/items.md:339
+msgid ""
+"You can easily select all items on the page using the checkbox at the top"
+" of the Items table. The number of results per page is set in the "
+"[installation's global settings](../admin/settings.md#general)."
+msgstr ""
 
-#: ../../docs/content/items.md:290
-msgid "![Batch edit items form, with options as described above. Everything is grayscale](contentfiles/items_batchedit.png)"
-msgstr "![Formulaire de modification par lot, avec les options décrites ci-dessus. Tout en gris](contentfiles/items_batchedit.fr.png)"
+#: ../../docs/content/items.md:341
+msgid ""
+"!!! note \tBatch-editing activities are sometimes shown in the [Jobs "
+"log](../admin/jobs.md), found in the left-hand bar under the \"Admin\" "
+"heading. Only \"Edit all\" or \"Delete all\" operations appear here. "
+"Batch-editing only selected items, even a full page of items, will not "
+"appear here."
+msgstr ""
 
-#: ../../docs/content/items.md:292
-msgid "In addition,  you can use the buttons at the bottom of the batch edit form to add properties to every item:"
-msgstr "Les boutons en bas du formulaire de modification par lots permettent d'ajouter des propriétés à tous les contenus concernés :"
+#: ../../docs/content/items.md:344
+msgid ""
+"You can first use the \"🔍 Advanced search\" link to narrow down the items"
+" to a subset for editing. For example, you can use [Advanced "
+"search](../search.md#item-advanced-search) to limit to items that are not"
+" in any item sets, or items that are owned by a specific user. In the "
+"image below, the search is set to capture any item without a \"Date "
+"created\" value."
+msgstr ""
 
-#: ../../docs/content/items.md:294
+#: ../../docs/content/items.md:346
+msgid ""
+"![The Advanced search screen for Items, with one field filled "
+"out.](contentfiles/items_advSearch.png)"
+msgstr ""
+
+#: ../../docs/content/items.md:346
+msgid "The Advanced search screen for Items, with one field filled out."
+msgstr ""
+
+#: ../../docs/content/items.md:348
+msgid ""
+"If you perform a search, or end up on the Items browse page from an Item "
+"set or other filter, you will once again see the browse page, with your "
+"selected parameters appearing at the top of the screen. From this browse "
+"screen you can select items manually for batch editing using the "
+"checkboxes on the left, or select all of the items on the page, or use "
+"the dropdown to edit all items that are currently in the subset."
+msgstr ""
+
+#: ../../docs/content/items.md:350
+msgid ""
+"If you complete a batch action from the next screen, you will return back"
+" to this same item subset."
+msgstr ""
+
+#: ../../docs/content/items.md:354
+#, fuzzy
+msgid ""
+"**Batch editing** items takes you to a new page. The items being edited "
+"will display on the right side in a drawer. Be sure to confirm the number"
+" of items being edited looks correct."
+msgstr ""
+"L'action **Modifier par lots** envoie sur une nouvelle page. Les contenus"
+" sélectionnés sont affichés dans un volet sur la droite et le formulaire "
+"de modification des contenus propose les options suivantes :"
+
+#: ../../docs/content/items.md:356
+msgid "The batch edit form gives you the following options:"
+msgstr ""
+
+#: ../../docs/content/items.md:358
+msgid ""
+"Set visibility: a radio button. Select from public or not public to make "
+"the item visible or not visible to logged-out users."
+msgstr ""
+
+#: ../../docs/content/items.md:359
+msgid ""
+"Set template: a dropdown. Select from the installation's resource "
+"templates. You can remove templates from the selected items with the "
+"\"[Unset template]\" option. A search bar appears at the top of the "
+"dropdown menu if you would like to type to search."
+msgstr ""
+
+#: ../../docs/content/items.md:360
+msgid ""
+"Set class: a dropdown. Select from classes of the installed vocabularies."
+" You can remove all classes from the selected items with the \"[Unset "
+"class]\" option. A search bar appears at the top of the dropdown menu if "
+"you would like to type to search."
+msgstr ""
+
+#: ../../docs/content/items.md:361
+msgid ""
+"Add to item set: a dropdown and text field. Select from item sets on the "
+"installation, organized by owner, or type to search. You can add the "
+"selected items to multiple item sets: click in the text field again to "
+"see the remaining options."
+msgstr ""
+
+#: ../../docs/content/items.md:362
+msgid ""
+"Remove from item set: a dropdown and text field. Select from item sets on"
+" the installation, organized by owner, or type to search. You can remove "
+"the selected items from multiple item sets: click in the text field again"
+" to see the remaining options."
+msgstr ""
+
+#: ../../docs/content/items.md:363
+msgid ""
+"Add to sites: a dropdown and text field. Select from sites on the "
+"installation, or type to search. You can add the selected items to "
+"multiple sites: click in the text field again to see the remaining "
+"options."
+msgstr ""
+
+#: ../../docs/content/items.md:364
+msgid ""
+"Remove from sites: a dropdown and text field. Select from sites on the "
+"installation, or type to search. You can remove the selected items from "
+"multiple sites: click in the text field again to see the remaining "
+"options."
+msgstr ""
+
+#: ../../docs/content/items.md:365
+#, fuzzy
+msgid ""
+"Clear property values: a dropdown and text field, with all the properties"
+" in all vocabularies. Selecting from this will remove any values in that "
+"property in the affected items. You can remove multiple property values "
+"at once: click in the text field again to see the remaining options."
+msgstr ""
+"Effacer les valeurs d'une propriété : menu déroulant contenant toutes les"
+" propriétés des vocabulaires de l'instance, permettant de retirer les "
+"valeurs d'une propriété pour les contenus concernés. L'action peut être "
+"répétée en cliquant à nouveau sur la barre de recherche."
+
+#: ../../docs/content/items.md:366
+msgid ""
+"Set value visibility: a dropdown and text field, with radio buttons. Set "
+"the visibility of a specific property or properties to either public or "
+"not public. Unlike the radio buttons at the top of the form, this will "
+"only affect one or more metadata fields, instead of the entire item (for "
+"example, you may wish to hide the \"Creator\" value on some public "
+"items). Select a property from the text field (type to begin searching), "
+"and the choose either the \"Public\" or \"Not public\" radio button for "
+"this option. You can add multiple properties by clicking again within the"
+" text field, but they will all become either \"Public\" or \"Not "
+"public\"."
+msgstr ""
+
+#: ../../docs/content/items.md:368
+msgid ""
+"![Batch edit items form, with options as described above. Everything is "
+"grayscale](contentfiles/items_batchedit.png)"
+msgstr ""
+"![Formulaire de modification par lot, avec les options décrites ci-"
+"dessus. Tout en gris](contentfiles/items_batchedit.fr.png)"
+
+#: ../../docs/content/items.md:368
+#, fuzzy
+msgid ""
+"Batch edit items form, with options as described above. Everything is "
+"grayscale"
+msgstr ""
+"![Formulaire de modification par lot, avec les options décrites ci-"
+"dessus. Tout en gris](contentfiles/items_batchedit.fr.png)"
+
+#: ../../docs/content/items.md:370
+msgid ""
+"In addition,  you can use the buttons at the bottom of the batch edit "
+"form to add properties to every item:"
+msgstr ""
+"Les boutons en bas du formulaire de modification par lots permettent "
+"d'ajouter des propriétés à tous les contenus concernés :"
+
+#: ../../docs/content/items.md:372
 msgid "Add text value"
 msgstr "Ajouter une valeur textuelle"
 
-#: ../../docs/content/items.md:295
+#: ../../docs/content/items.md:373
 msgid "Add resource value"
 msgstr "Ajouter un lien vers une ressource"
 
-#: ../../docs/content/items.md:296
+#: ../../docs/content/items.md:374
 msgid "Add URI value."
 msgstr "Ajouter un lien URI."
 
-#: ../../docs/content/items.md:298
-msgid "Selecting any of these will add a block to the form where you can select a property from the installed vocabularies and enter the value for that property."
-msgstr "Ces actions ajoutent un bloc au formulaire qui permet de sélectionner une propriété parmi celles des vocabulaires de l'instance et d'ajouter une valeur à cette propriété."
+#: ../../docs/content/items.md:376
+msgid ""
+"Selecting any of these will add a block to the form where you can select "
+"a property from the installed vocabularies and enter the value for that "
+"property."
+msgstr ""
+"Ces actions ajoutent un bloc au formulaire qui permet de sélectionner une"
+" propriété parmi celles des vocabulaires de l'instance et d'ajouter une "
+"valeur à cette propriété."
 
-#: ../../docs/content/items.md:300
-msgid "![Image depicts only the Add text value block of the batch edit form, with a dropdown labeled \"select property\" above an empty text field](contentfiles/items_beproperty.png)"
-msgstr "![La capture montre seulement le bloc \"Ajouter une valeur textuelle\" du formulaire de modification par lot, avec le menu déroulant \"Choisir la propriété\" et un encart de texte vide](contentfiles/items_beproperty.fr.png)"
+#: ../../docs/content/items.md:378
+msgid ""
+"![Image depicts only the Add text value block of the batch edit form, "
+"with a dropdown labeled \"select property\" above an empty text "
+"field](contentfiles/items_beproperty.png)"
+msgstr ""
+"![La capture montre seulement le bloc \"Ajouter une valeur textuelle\" du"
+" formulaire de modification par lot, avec le menu déroulant \"Choisir la "
+"propriété\" et un encart de texte "
+"vide](contentfiles/items_beproperty.fr.png)"
 
-#: ../../docs/content/items.md:302
+#: ../../docs/content/items.md:378
+#, fuzzy
+msgid ""
+"Image depicts only the Add text value block of the batch edit form, with "
+"a dropdown labeled \"select property\" above an empty text field"
+msgstr ""
+"![La capture montre seulement le bloc \"Ajouter une valeur textuelle\" du"
+" formulaire de modification par lot, avec le menu déroulant \"Choisir la "
+"propriété\" et un encart de texte "
+"vide](contentfiles/items_beproperty.fr.png)"
+
+#: ../../docs/content/items.md:380
 msgid "Batch deleting"
 msgstr "Suppression par lots"
 
-#: ../../docs/content/items.md:304
-msgid "For the **delete actions**, a drawer will open on the right side of the screen telling you the number of items which will be deleted. Nothing will be deleted unless you click the red \"Confirm Delete\" button. This action cannot be undone. To opt out of deleting the items, click the \"X\" in the upper right corner of the deletion drawer. To confirm this action, check the \"Are you sure\" checkbox (for \"Delete all\" but not \"Delete selected\") and then click \"Confirm Delete\"."
-msgstr "L'action **supprimer** fait apparaître un volet à la droite de la page rappelant le nombre de contenus concernés. La suppression n'aura lieu que si vous cliquez sur le bouton rouge \"Confirmer la suppression\". Cette action ne peut pas être annulée une fois le bouton cliqué. Pour quitter l'option avant suppression, cliquer sur le \"X\" en haut à droite du volet de suppression. En cas d'action \"Supprimer tout\", cliquer sur la case à cocher \"Êtes-vous sûr ?\" puis sur \"Confirmer la suppression\"."
+#: ../../docs/content/items.md:382
+msgid ""
+"For the **delete actions**, a drawer will open on the right side of the "
+"screen telling you the number of items which will be deleted. Nothing "
+"will be deleted unless you click the red \"Confirm Delete\" button. This "
+"action cannot be undone. To opt out of deleting the items, click the "
+"\"X\" in the upper right corner of the deletion drawer. To confirm this "
+"action, check the \"Are you sure\" checkbox (for \"Delete all\" but not "
+"\"Delete selected\") and then click \"Confirm Delete\"."
+msgstr ""
+"L'action **supprimer** fait apparaître un volet à la droite de la page "
+"rappelant le nombre de contenus concernés. La suppression n'aura lieu que"
+" si vous cliquez sur le bouton rouge \"Confirmer la suppression\". Cette "
+"action ne peut pas être annulée une fois le bouton cliqué. Pour quitter "
+"l'option avant suppression, cliquer sur le \"X\" en haut à droite du "
+"volet de suppression. En cas d'action \"Supprimer tout\", cliquer sur la "
+"case à cocher \"Êtes-vous sûr ?\" puis sur \"Confirmer la suppression\"."
 
-#: ../../docs/content/items.md:306
-msgid "![Close up of the warning, with the text describing the number of items to be deleted in red.](contentfiles/items_batchdelwarn.png)"
-msgstr "![Vue rapprochée du message d'alerte en rouge](contentfiles/items_batchdelwarn.fr.png)"
+#: ../../docs/content/items.md:384
+msgid ""
+"![Close up of the warning, with the text describing the number of items "
+"to be deleted in red.](contentfiles/items_batchdelwarn.png)"
+msgstr ""
+"![Vue rapprochée du message d'alerte en "
+"rouge](contentfiles/items_batchdelwarn.fr.png)"
 
-#: ../../docs/content/items.md:308
-msgid "Individual modules may also add batch-edit actions. Those options are noted within the documentation for each module."
-msgstr "Certains modules individuels peuvent aussi permettre des actions d'édition par lots. Ces options sont indiquées dans la documentation associée à chaque module."
+#: ../../docs/content/items.md:384
+#, fuzzy
+msgid ""
+"Close up of the warning, with the text describing the number of items to "
+"be deleted in red."
+msgstr ""
+"![Vue rapprochée du message d'alerte en "
+"rouge](contentfiles/items_batchdelwarn.fr.png)"
+
+#: ../../docs/content/items.md:386
+msgid ""
+"Individual modules may also add batch-edit actions. Those options are "
+"noted within the documentation for each module."
+msgstr ""
+"Certains modules individuels peuvent aussi permettre des actions "
+"d'édition par lots. Ces options sont indiquées dans la documentation "
+"associée à chaque module."
 
 #~ msgid ""
 #~ "add to item set: a dropdown, "
@@ -986,6 +2356,16 @@ msgstr "Certains modules individuels peuvent aussi permettre des actions d'édit
 #~ "the language in which the text is"
 #~ " written."
 #~ msgstr ""
+#~ "La langue d'un contenu entrant peut "
+#~ "être indiquée en utilisant le symbole"
+#~ " globe terrestre (voir la flèche "
+#~ "rouge dans l'image ci-dessous). Cliquez"
+#~ " sur le globe pour activer un "
+#~ "champ de texte, puis tapez le "
+#~ "[Étiquette d'identification de "
+#~ "langues](https://fr.wikipedia.org/wiki/%C3%89tiquette_d%27identification_de_langues_IETF)"
+#~ " code correspondant à la langue du"
+#~ " texte."
 
 #~ msgid ""
 #~ "Use the *Media* tab to add images,"
@@ -1265,3 +2645,311 @@ msgstr "Certains modules individuels peuvent aussi permettre des actions d'édit
 #~ " use the URL in your browser’s "
 #~ "location bar."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "In Omeka S, items can be made "
+#~ "available to you from the system "
+#~ "administrator, and you may add items "
+#~ "to your own site."
+#~ msgstr ""
+#~ "Avec Omeka S, les contenus peuvent "
+#~ "être mis à disposition par "
+#~ "l'administrateur système et vous pouvez "
+#~ "en ajouter à votre propre site."
+
+#~ msgid ""
+#~ "An item’s **linked resources** (shown "
+#~ "below) are resources, which are linked"
+#~ " to this item through properties. "
+#~ "Note that this section only shows "
+#~ "resources which have been linked *to*"
+#~ " this item (which have it for a"
+#~ " property); resources which are linked "
+#~ "*from* this item will display in "
+#~ "the property which they fill."
+#~ msgstr ""
+#~ "Les **Ressources liées** à un contenu"
+#~ " (voir ci-dessous) le sont par "
+#~ "des propriétés spécifiques. Cette section "
+#~ "n'affiche que les ressources qui ont "
+#~ "été liées à ce contenu par une "
+#~ "propriété ; si ce contenu est "
+#~ "lui-même lié à des ressources, cela"
+#~ " apparaîtra dans les pages dédiées à"
+#~ " celles-ci."
+
+#~ msgid ""
+#~ "You can set individual properties as "
+#~ "Private or Publicly visible using the"
+#~ " eye icon for each property. Note "
+#~ "that properties set to private are "
+#~ "still visible to Global Admins, "
+#~ "Supervisors, and Editors will be able"
+#~ " to see properties even when set "
+#~ "to private. Authors will be able "
+#~ "to see all properties on items "
+#~ "they own, but will not see private"
+#~ " properties created by other users."
+#~ msgstr ""
+#~ "Chaque propriété peut être mise en "
+#~ "privé ou en public par le biais"
+#~ " de l'icône oeil. Les propriétés en"
+#~ " statut privé demeurent visibles pour "
+#~ "les Administrateurs généraux, les Superviseurs"
+#~ " et les Éditeurs. Les Auteurs ont "
+#~ "accès à toutes les propriétés des "
+#~ "contenus qu'ils créent mais ne peuvent"
+#~ " pas voir les propriétés en statut"
+#~ " privé créées par d'autres utilisateurs."
+
+#~ msgid "Text fields allow for unformatted text entry."
+#~ msgstr "Les champs de texte permettent d'entrer du texte libre."
+
+#~ msgid ""
+#~ "When creating an item, you have "
+#~ "the option to use either another "
+#~ "item or an item set."
+#~ msgstr "La ressource liée peut être un autre contenu ou une collection."
+
+#~ msgid ""
+#~ "Once you select an item or item"
+#~ " set, detailed information will load, "
+#~ "and you must click \"Select resource\""
+#~ " to finish linking the resources. You"
+#~ " can also click the \"X\" button "
+#~ "in the upper right-hand corner to"
+#~ " go back to the list of items"
+#~ " or item sets."
+#~ msgstr ""
+#~ "Les informations principales concernant la "
+#~ "collection ou le contenu sélectionné "
+#~ "apparaissent et il reste à cliquer "
+#~ "sur \"Choisir une ressource\" pour créer"
+#~ " le lien. Le bouton \"X\" en "
+#~ "haut à droite du volet permet de"
+#~ " revenir à la liste des contenus "
+#~ "et collections."
+
+#~ msgid ""
+#~ "![Select Item drawer top options, with"
+#~ " a red arrow around a gray "
+#~ "triangle button to the right of "
+#~ "the phrase \"Filter "
+#~ "search\"](contentfiles/items_filtersearch.png)"
+#~ msgstr ""
+#~ "![Volet Choisir un contenu ouvert, "
+#~ "flèche rouge entourant le triangle gris"
+#~ " à la droite de l'expression \"Filtre"
+#~ " de recherche\"](contentfiles/items_filtersearch.fr.png)"
+
+#~ msgid ""
+#~ "This will open a menu below the"
+#~ " button with the following options to"
+#~ " filter the items in the drawer:"
+#~ msgstr ""
+#~ "Cette action ouvre un menu qui "
+#~ "contient les options suivantes pour "
+#~ "filtrer les contenus :"
+
+#~ msgid "URI fields link to an external website or online resource."
+#~ msgstr ""
+#~ "Les champs URI permettent de lier "
+#~ "un contenu à un site internet "
+#~ "externe ou à une ressource en "
+#~ "ligne."
+
+#~ msgid ""
+#~ "When you input a value for a "
+#~ "property associated for a resource, you"
+#~ " are making a statement about that"
+#~ " resource. If you choose, Omeka "
+#~ "allows you to make statements about "
+#~ "that statement. We call this value "
+#~ "annotation. The advantage of value "
+#~ "annotation is that you can choose "
+#~ "to make ambiguous facts more concrete"
+#~ " by annotating things like:"
+#~ msgstr ""
+#~ "Quand vous ajoutez une valeur à "
+#~ "une propriété de la ressource, vous "
+#~ "dites quelque chose de celle-ci. "
+#~ "Si vous le souhaitez, Omeka permet "
+#~ "de commenter ces valeurs : c'est "
+#~ "l'annotation des valeurs. Celle-ci sert"
+#~ " par exemple à désambiguïser des "
+#~ "informations :"
+
+#~ msgid ""
+#~ "Then select a date type for the"
+#~ " annotation: Text, URI, or an Omeka"
+#~ " S Resource. Installed modules may "
+#~ "make additional data types available. "
+#~ "Click the Add Annotation button."
+#~ msgstr ""
+#~ "Sélectionner ensuite le type d'annotation "
+#~ ": texte, URI ou ressource Omeka S."
+#~ " Les modules installés peuvent rendre "
+#~ "d'autres types de données accessibles. "
+#~ "Cliquer sur le bouton Ajouter "
+#~ "annotation."
+
+#~ msgid ""
+#~ "Input the annotation, and click Set "
+#~ "Annotations to finalize the process."
+#~ msgstr "Entrer l'annotation puis cliquer sur \"Appliquer les annotations\"."
+
+#~ msgid "Language"
+#~ msgstr "Langue"
+
+#~ msgid "Value order"
+#~ msgstr "Ordre des valeurs"
+
+#~ msgid ""
+#~ "Use the **Media** tab to add "
+#~ "images, video, or other files. Using "
+#~ "the buttons on the **Add New "
+#~ "Media** menu on the right side of"
+#~ " the screen, select a media type "
+#~ "(Upload, URL, oEmbed, YouTube, or HTML)"
+#~ msgstr ""
+#~ "L'onglet **Médias** permet d'ajouter des "
+#~ "images, des vidéos ou d'autres types "
+#~ "de fichiers. Utiliser les boutons dans"
+#~ " le menu **Ajouter un média** à "
+#~ "la droite de la page pour "
+#~ "sélectionner le type de média (Charger,"
+#~ " URL, oEmbed, Youtube ou HTML)."
+
+#~ msgid "**IIIF**: Add an IIIF image via URL."
+#~ msgstr "**IIIF** : ajouter une image IIIF via une URL."
+
+#~ msgid ""
+#~ "![Image shows a close up of a "
+#~ "media item being removed - it is"
+#~ " red and has an undo curling "
+#~ "arrow at the right end of the "
+#~ "block](contentfiles/item_mediablockdelete.JPG)"
+#~ msgstr ""
+#~ "![Vue rapprochée du volet de suppression"
+#~ " d'un média](contentfiles/item_mediablockdelete.fr.png)"
+
+#~ msgid "**Owner**"
+#~ msgstr "**Propriétaire**"
+
+#~ msgid ""
+#~ "![Detail view of the top row if"
+#~ " information and buttons on an item"
+#~ " edit view. A red arrow points "
+#~ "to the \"Cancel\" button, on the "
+#~ "far right](contentfiles/items_cancel.JPG)"
+#~ msgstr ""
+#~ "![Vue détaillée d'un contenu en "
+#~ "modification. Une flèche rouge pointe "
+#~ "vers le bouton \"Annuler\" dans le "
+#~ "coin droit](contentfiles/items_cancel.fr.png)"
+
+#~ msgid "Batch actions"
+#~ msgstr "Traitements par lots"
+
+#~ msgid "Choose one of these options and then click \"Go\"."
+#~ msgstr "Choisir une de ces options puis cliquer sur \"Traiter\"."
+
+#~ msgid "Set visibility: a dropdown, select from public or not public."
+#~ msgstr ""
+#~ "Modifier la visibilité : sélectionner "
+#~ "public, non public ou pas de "
+#~ "changement."
+
+#~ msgid ""
+#~ "Set template: a dropdown, select from"
+#~ " the installation's resource templates."
+#~ msgstr ""
+#~ "Définir le modèle : menu déroulant "
+#~ "permettant de sélectionner un des "
+#~ "modèles de ressource de l'instance."
+
+#~ msgid ""
+#~ "Set class: a dropdown, select from "
+#~ "classes of the installed vocabularies."
+#~ msgstr ""
+#~ "Définir une classe : menu déroulant "
+#~ "permettant de sélectionner une classe "
+#~ "parmi celles des vocabulaires de "
+#~ "l'instance."
+
+#~ msgid ""
+#~ "Add to item set: a dropdown, "
+#~ "select from item sets on the "
+#~ "installation. Add to an additional item"
+#~ " set click in the input box "
+#~ "again to see the remaining options."
+#~ msgstr ""
+#~ "Ajouter aux collections : menu déroulant"
+#~ " permettant de sélectionner une collection"
+#~ " de l'instance. L'action peut être "
+#~ "répétée en cliquant à nouveau sur "
+#~ "la barre de recherche."
+
+#~ msgid ""
+#~ "Remove from item set: a dropdown, "
+#~ "select from item sets on the "
+#~ "installation. Remove from an additional "
+#~ "item set click in the input box"
+#~ " again to see the remaining options."
+#~ msgstr ""
+#~ "Enlever des collections : menu déroulant"
+#~ " permettant de sélectionner une collection"
+#~ " de l'instance. L'action peut être "
+#~ "répétée en cliquant à nouveau sur "
+#~ "la barre de recherche."
+
+#~ msgid ""
+#~ "Add to sites: a dropdown, select "
+#~ "from sites on the installation. Add "
+#~ "to an additional site click in the"
+#~ " input box again to see the "
+#~ "remaining options."
+#~ msgstr ""
+#~ "Ajouter aux sites : menu déroulant "
+#~ "permettant de sélectionner un site de"
+#~ " l'instance. L'action peut être répétée "
+#~ "en cliquant à nouveau sur la barre"
+#~ " de recherche."
+
+#~ msgid ""
+#~ "Remove from sites: a dropdown, select"
+#~ " from sites on the installation. "
+#~ "Remove from an additional site click "
+#~ "in the input box again to see "
+#~ "the remaining options."
+#~ msgstr ""
+#~ "Retirer des sites : menu déroulant "
+#~ "permettant de sélectionner un site de"
+#~ " l'instance. L'action peut être répétée "
+#~ "en cliquant à nouveau sur la barre"
+#~ " de recherche."
+
+#~ msgid ""
+#~ "Set value visibility: set the visibility"
+#~ " of a specific property to either "
+#~ "public or not public. Unlike the "
+#~ "radio buttons at the top of the"
+#~ " form, this will only affect a "
+#~ "single property instead of the entire"
+#~ " item. Select a property from the "
+#~ "text field (type to begin searching),"
+#~ " and the choose either the *public*"
+#~ " or *not public* radio button for "
+#~ "this option."
+#~ msgstr ""
+#~ "Set value visbility : établir le "
+#~ "statut privé ou public d'une seule "
+#~ "propriété. Contrairement aux boutons en "
+#~ "début de formulaire, cette action ne "
+#~ "concerne que la propriété sélectionnée "
+#~ "et non le contenu complet. Sélectionner"
+#~ " une propriété dans la barre de "
+#~ "recherche (entrer du texte pour "
+#~ "commencer la recherche) puis choisir "
+#~ "l'option *public* ou *non public*."
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,6 +56,10 @@ msgid ""
 "redact.png)"
 msgstr ""
 
+#: ../../docs/modules/redactvalues.md:11
+msgid "Add Redact Values button."
+msgstr ""
+
 #: ../../docs/modules/redactvalues.md:13
 msgid "When adding a redaction, you are required to provide:"
 msgstr ""
@@ -82,6 +86,12 @@ msgid ""
 "pattern.](../modules/modulesfiles/redactValues_add.png)"
 msgstr ""
 
+#: ../../docs/modules/redactvalues.md:20
+msgid ""
+"Add Redact Values form including label, resource type, property, and "
+"pattern."
+msgstr ""
+
 #: ../../docs/modules/redactvalues.md:22
 msgid ""
 "If you'd like, you can also add a query to filter the resources from "
@@ -100,6 +110,10 @@ msgstr ""
 msgid ""
 "![Edit query tray in add Redact Values "
 "form.](../modules/modulesfiles/redactValues_query.png)"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:24
+msgid "Edit query tray in add Redact Values form."
 msgstr ""
 
 #: ../../docs/modules/redactvalues.md:26
@@ -125,6 +139,10 @@ msgstr ""
 msgid ""
 "![Add Redact Values form Author and Researcher permissions "
 "checkboxes.](../modules/modulesfiles/redactValues_roles.png)"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:30
+msgid "Add Redact Values form Author and Researcher permissions checkboxes."
 msgstr ""
 
 #: ../../docs/modules/redactvalues.md:32
@@ -159,6 +177,10 @@ msgid ""
 "redactions.](../modules/modulesfiles/redactValues_edit.png)"
 msgstr ""
 
+#: ../../docs/modules/redactvalues.md:42
+msgid "Edit button for existing redactions."
+msgstr ""
+
 #: ../../docs/modules/redactvalues.md:44
 msgid "Be sure to submit the form again after you have made any changes."
 msgstr ""
@@ -173,6 +195,10 @@ msgstr ""
 msgid ""
 "![Sort function for list of existing "
 "redactions.](../modules/modulesfiles/redactValues_sort.png)"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:48
+msgid "Sort function for list of existing redactions."
 msgstr ""
 
 #: ../../docs/modules/redactvalues.md:50
@@ -192,6 +218,12 @@ msgstr ""
 msgid ""
 "![Add Pattern form for Redact Values module including Label and Pattern "
 "fields.](../modules/modulesfiles/redactValues_add-pattern.png)"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:54
+msgid ""
+"Add Pattern form for Redact Values module including Label and Pattern "
+"fields."
 msgstr ""
 
 #: ../../docs/modules/redactvalues.md:56
@@ -219,6 +251,10 @@ msgstr ""
 msgid ""
 "![Example of new pattern added to Pattern field in add Redact Values "
 "form.](../modules/modulesfiles/redactValues_pattern-dropdown.png)"
+msgstr ""
+
+#: ../../docs/modules/redactvalues.md:60
+msgid "Example of new pattern added to Pattern field in add Redact Values form."
 msgstr ""
 
 #~ msgid ""

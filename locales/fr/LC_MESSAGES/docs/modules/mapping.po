@@ -8,597 +8,1840 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2023-07-20 12:41+0200\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: fr_FR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: ../../docs/modules/mapping.md:1
 msgid "Mapping"
 msgstr "Mapping"
 
 #: ../../docs/modules/mapping.md:3
-msgid "The [Mapping module](https://omeka.org/s/modules/Mapping) allows you to geolocate Omeka S items. Maps can also include timelines that allow you to scroll through items on a map in chronological order."
-msgstr "Le [module Mapping](https://omeka.org/s/modules/Mapping) permet de géolocaliser les contenus Omeka S. Les cartes peuvent aussi contenir des éléments temporels permettant de circuler dans les contenus de manière chronologique."
+msgid ""
+"The [Mapping module](https://omeka.org/s/modules/Mapping) allows you to "
+"geolocate Omeka S items. Maps can also include timelines that allow you "
+"to scroll through items on a map in chronological order."
+msgstr ""
+"Le [module Mapping](https://omeka.org/s/modules/Mapping) permet de "
+"géolocaliser les contenus Omeka S. Les cartes peuvent aussi contenir des "
+"éléments temporels permettant de circuler dans les contenus de manière "
+"chronologique."
 
 #: ../../docs/modules/mapping.md:5
 msgid "![Map with timeline](../modules/modulesfiles/mapping-timelinePublic1.png)"
-msgstr "![Carte avec frise chronologique](../modules/modulesfiles/mapping-timelinePublic1.fr.png)"
+msgstr ""
+"![Carte avec frise chronologique](../modules/modulesfiles/mapping-"
+"timelinePublic1.fr.png)"
+
+#: ../../docs/modules/mapping.md:5
+msgid "Map with timeline"
+msgstr ""
 
 #: ../../docs/modules/mapping.md:7
-msgid "The Mapping module has no global configuration settings. It adds a new \"Mapping\" tab to each item edit screen, and also adds page blocks to [Site Pages](../sites/site_pages.md) that can be used to display maps for browsing."
-msgstr "Le module Mapping n'a pas de paramètres de configuration. Il ajoute un onglet \"Carte\" à chaque contenu, ainsi que des blocs aux [pages de sites](../sites/site_pages.md) qui peuvent servir pour la navigation."
+msgid ""
+"The Mapping module has no global configuration settings. It adds several "
+"new metadata fields to each item, and a new \"Mapping\" tab to each item "
+"edit screen, as well as several batch-editing options for items. It adds "
+"optional location-based search fields to the advanced search pages on the"
+" admin and public interfaces, controlled on a site-by-site basis by [Site"
+" Settings](../sites/site_settings.md#settings). It also adds page blocks "
+"to [Site Pages](../sites/site_pages.md) that can display maps and "
+"timelines for browsing, and a \"Map Browse\" page, found in the [Site "
+"Navigation settings](../sites/site_navigation.md)."
+msgstr ""
 
 #: ../../docs/modules/mapping.md:9
+msgid ""
+"Mapping can work with the [Collecting](../modules/collecting.md#prompts) "
+"module, by allowing users filling out the contribution form to provide "
+"geolocation data for their submissions. Users click directly on a map to "
+"place a marker, and can optionally provide a text label for the marker. "
+"See the Collecting module page for more information."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:11
+msgid ""
+"Mapping can work with the [CSV Import](../modules/csvimport.md) module, "
+"allowing geolocation data to be added in bulk. See the [CSV Import "
+"integration section below](#csv-import-integration) for more information."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:13
+msgid "Using maps"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:15
+msgid ""
+"Small white buttons on the left side of the map control and modify the "
+"appearance of the map. Hover over the buttons with the mouse to view "
+"tool-tips."
+msgstr ""
+"Des petits boutons blancs sur la gauche de la carte permettent de "
+"contrôler et modifier son aspect. Passer la souris dessus pour voir les "
+"conseils d'utilisation."
+
+#: ../../docs/modules/mapping.md:17
+msgid ""
+"![Screenshot of the buttons on the map described "
+"below](../modules/modulesfiles/Mapping_JustButtons.png)"
+msgstr ""
+"![Capture des boutons décrits ci-"
+"dessous](../modules/modulesfiles/Mapping_JustButtons.fr.png)"
+
+#: ../../docs/modules/mapping.md:17
+#, fuzzy
+msgid "Screenshot of the buttons on the map described below"
+msgstr ""
+"![Capture des boutons décrits ci-"
+"dessous](../modules/modulesfiles/Mapping_JustButtons.fr.png)"
+
+#: ../../docs/modules/mapping.md:19
+msgid ""
+"**Zoom in**: The small white square with a black plus sign. Each click "
+"zooms in one step (between 0 and 19)."
+msgstr ""
+"**Zoom in** : Petit carré blanc avec un signe plus. Chaque clic permet de"
+" zoomer une fois (entre 0 et 19)."
+
+#: ../../docs/modules/mapping.md:20
+msgid ""
+"**Zoom out**: The small white square with black minus sign. Each click "
+"zooms out one step (between 0 and 19)."
+msgstr ""
+"**Zoom out** : Petit carré blanc avec un signe moins. Chaque clic permet "
+"de dézoomer une fois (entre 0 et 19)."
+
+#: ../../docs/modules/mapping.md:21
+msgid ""
+"**Draw a Marker**: The small white square with black bubble marker. When "
+"you click the button your pointer becomes a blue marker. Click again on "
+"the map to place the marker."
+msgstr ""
+"**Draw a Marker** : Petit carré blanc avec une marqueur de position. "
+"Quand vous cliquez sur ce bouton, votre curseur devient un marqueur bleu."
+" Cliquez sur la carte pour positionner le marqueur."
+
+#: ../../docs/modules/mapping.md:22
+msgid ""
+"**Move Marker**: The small white square with black box and pencil icon. "
+"This option is only available after a marker has been added. Click the "
+"button and a pink box appears around each marker. Click a marker to move "
+"it. Click again to place. Use the grey buttons to \"Save\" or \"Cancel\"."
+msgstr ""
+"**Move Marker** : Petit carré blanc avec une icône de crayon et de "
+"papier. Cette option n'est utilisable qu'après avoir placé un marqueur. "
+"Cliquez sur ce bouton pour faire apparaître une boîte rose autour du "
+"marqueur. Cliquez sur le marqueur pour le déplacer. Cliquez de nouveau "
+"pour le positionner. Utilisez les boutons gris pour sauvegarder ou "
+"annuler."
+
+#: ../../docs/modules/mapping.md:23
+msgid ""
+"**Delete Marker**: The small white button with a trashcan icon. This "
+"option is only available after a marker has been added. Click the icon to"
+" select a marker. Click the marker to be removed and it will disappear. "
+"Use the grey buttons to \"Save\" or \"Cancel\" these changes."
+msgstr ""
+"**Delete Marker** : Petit bouton blanc avec une icône de poubelle. Cette "
+"option n'est disponible qu'après l'ajout d'un marqueur. Cliquez sur "
+"l'icône pour sélectionner le marqueur. Cliquez sur le marqueur à "
+"supprimer. Utilisez les boutons gris pour \"Enregistrer\" ou \"Annuler\"."
+
+#: ../../docs/modules/mapping.md:24
+msgid ""
+"**Search Address**: The small white square with a black magnifying glass "
+"icon. Click to enter an address in the search bar."
+msgstr ""
+"**Search Address** : Petit carré blanc avec une icône de loupe. Cliquez "
+"pour saisir une adresse dans la barre de recherche."
+
+#: ../../docs/modules/mapping.md:25 ../../docs/modules/mapping.md:82
+msgid ""
+"**Set the current view as default view**: The small white square with a "
+"target or crosshair symbol. The map will default to a zoomed out (global)"
+" view. Click to set the current view as the default view for this item."
+msgstr ""
+"**Set the current view as default view** : Petit carré blanc avec un "
+"symbole en forme de croix. La vue par défaut de la carte est dézoomée. "
+"Cliquez pour définir la vue actuelle comme vue par défaut pour ce "
+"contenu."
+
+#: ../../docs/modules/mapping.md:26 ../../docs/modules/mapping.md:83
+msgid ""
+"**Go to current default view**: The small black square with a black box "
+"around a dot. This option is only available after you have set a default "
+"view. Click to pan and zoom map to the selected view for this item."
+msgstr ""
+"**Go to current default view** : Petit carré noir avec un boîte noir "
+"autour d'un point. Cette option n'est disponible qu'une fois une vue par "
+"défaut établie. Cliquez pour activer la vue sélectionnée pour ce contenu."
+
+#: ../../docs/modules/mapping.md:27 ../../docs/modules/mapping.md:84
+msgid ""
+"**Clear the default center and zoom level**: The small white square with "
+"a black \"X\". This option is only available after you have set a default"
+" view. Click to clear pan and zoom preferences and return to the initial "
+"global view."
+msgstr ""
+"**Clear the default center and zoom level** : Petit carré blanc avec un "
+"\"X\". Cette option n'est disponible qu'une fois une vut par défaut "
+"établie. Cliquez pour désélectionner la vue choisie et revenir à la vue "
+"générale de départ."
+
+#: ../../docs/modules/mapping.md:29
+#, fuzzy
+msgid ""
+"In addition to these options, you can also navigate the map using your "
+"mouse or trackpad by scrolling to zoom and clicking and dragging to pan. "
+"Scrolling using your mouse wheel is a setting that can be turned on or "
+"off in map page blocks."
+msgstr ""
+"En plus de ces options, vous pouvez aussi naviguer sur la carte en "
+"utilisant votre souris ou votre pad en scrollant pour zoomer ou en "
+"maintenant le clic pour déplacer la vue."
+
+#: ../../docs/modules/mapping.md:31
 msgid "Item mapping"
 msgstr "Cartographier un contenu"
 
-#: ../../docs/modules/mapping.md:11
-msgid "To add a map to a new or existing item, click to edit the item. Navigate to the \"Mapping\" tab to add location data to the item. Selecting the tab will open the map interface."
-msgstr "Pour ajouter une carte à un contenu, cliquez sur le bouton de modification du contenu. Allez à l'onglet \"Carte\" pour ajouter des données de localisation. En sélectionnant cet onglet, vous ouvrez l'interface de la carte."
-
-#: ../../docs/modules/mapping.md:13
-msgid "![Screenshot of the Add/Edit Item Page with Mapping tab selected. Large World Map with white buttons described below](../modules/modulesfiles/Mapping_Item_Add.png)"
-msgstr "![Capture de l'écran Modifier contenu avec onglet tab sélectionné. Carte du monde avec les boutons décrits ci-dessous](../modules/modulesfiles/Mapping_Item_Add.fr.png)"
-
-#: ../../docs/modules/mapping.md:15
-msgid "Manipulating the map"
-msgstr "Manipuler la carte"
-
-#: ../../docs/modules/mapping.md:16
-msgid "Small white buttons on the left side of the map control and modify the appearance of the map. Hover over the buttons with the mouse to view tool-tips."
-msgstr "Des petits boutons blancs sur la gauche de la carte permettent de contrôler et modifier son aspect. Passer la souris dessus pour voir les conseils d'utilisation."
-
-#: ../../docs/modules/mapping.md:18
-msgid "![Screenshot of the buttons on the map described below](../modules/modulesfiles/Mapping_JustButtons.png)"
-msgstr "![Capture des boutons décrits ci-dessous](../modules/modulesfiles/Mapping_JustButtons.fr.png)"
-
-#: ../../docs/modules/mapping.md:20
-msgid "**Zoom in**: The small white square with a black plus sign. Each click zooms in one step (between 0 and 19)."
-msgstr "**Zoom in** : Petit carré blanc avec un signe plus. Chaque clic permet de zoomer une fois (entre 0 et 19)."
-
-#: ../../docs/modules/mapping.md:21
-msgid "**Zoom out**: The small white square with black minus sign. Each click zooms out one step (between 0 and 19)."
-msgstr "**Zoom out** : Petit carré blanc avec un signe moins. Chaque clic permet de dézoomer une fois (entre 0 et 19)."
-
-#: ../../docs/modules/mapping.md:22
-msgid "**Draw a Marker**: The small white square with black bubble marker. When you click the button your pointer becomes a blue marker. Click again on the map to place the marker."
-msgstr "**Draw a Marker** : Petit carré blanc avec une marqueur de position. Quand vous cliquez sur ce bouton, votre curseur devient un marqueur bleu. Cliquez sur la carte pour positionner le marqueur."
-
-#: ../../docs/modules/mapping.md:23
-msgid "**Move Marker**: The small white square with black box and pencil icon. This option is only available after a marker has been added. Click the button and a pink box appears around each marker. Click a marker to move it. Click again to place. Use the grey buttons to \"Save\" or \"Cancel\"."
-msgstr "**Move Marker** : Petit carré blanc avec une icône de crayon et de papier. Cette option n'est utilisable qu'après avoir placé un marqueur. Cliquez sur ce bouton pour faire apparaître une boîte rose autour du marqueur. Cliquez sur le marqueur pour le déplacer. Cliquez de nouveau pour le positionner. Utilisez les boutons gris pour sauvegarder ou annuler."
-
-#: ../../docs/modules/mapping.md:24
-msgid "**Delete Marker**: The small white button with a trashcan icon. This option is only available after a marker has been added. Click the icon to select a marker. Click the marker to be removed and it will disappear. Use the grey buttons to \"Save\" or \"Cancel\" these changes."
-msgstr "**Delete Marker** : Petit bouton blanc avec une icône de poubelle. Cette option n'est disponible qu'après l'ajout d'un marqueur. Cliquez sur l'icône pour sélectionner le marqueur. Cliquez sur le marqueur à supprimer. Utilisez les boutons gris pour \"Enregistrer\" ou \"Annuler\"."
-
-#: ../../docs/modules/mapping.md:25
-msgid "**Search Address**: The small white square with a black magnifying glass icon. Click to enter an address in the search bar."
-msgstr "**Search Address** : Petit carré blanc avec une icône de loupe. Cliquez pour saisir une adresse dans la barre de recherche."
-
-#: ../../docs/modules/mapping.md:26 ../../docs/modules/mapping.md:75
-msgid "**Set the current view as default view**: The small white square with a target or crosshair symbol. The map will default to a zoomed out (global) view. Click to set the current view as the default view for this item."
-msgstr "**Set the current view as default view** : Petit carré blanc avec un symbole en forme de croix. La vue par défaut de la carte est dézoomée. Cliquez pour définir la vue actuelle comme vue par défaut pour ce contenu."
-
-#: ../../docs/modules/mapping.md:27 ../../docs/modules/mapping.md:76
-msgid "**Go to current default view**: The small black square with a black box around a dot. This option is only available after you have set a default view. Click to pan and zoom map to the selected view for this item."
-msgstr "**Go to current default view** : Petit carré noir avec un boîte noir autour d'un point. Cette option n'est disponible qu'une fois une vue par défaut établie. Cliquez pour activer la vue sélectionnée pour ce contenu."
-
-#: ../../docs/modules/mapping.md:28 ../../docs/modules/mapping.md:77
-msgid "**Clear the default center and zoom level**: The small white square with a black \"X\". This option is only available after you have set a default view. Click to clear pan and zoom preferences and return to the initial global view."
-msgstr "**Clear the default center and zoom level** : Petit carré blanc avec un \"X\". Cette option n'est disponible qu'une fois une vut par défaut établie. Cliquez pour désélectionner la vue choisie et revenir à la vue générale de départ."
-
-#: ../../docs/modules/mapping.md:30
-msgid "In addition to these options, you can also navigate the map using your mouse or trackpad by scrolling to zoom and clicking and dragging to pan."
-msgstr "En plus de ces options, vous pouvez aussi naviguer sur la carte en utilisant votre souris ou votre pad en scrollant pour zoomer ou en maintenant le clic pour déplacer la vue."
-
-#: ../../docs/modules/mapping.md:32
-msgid "Adding locations to an item"
-msgstr "Ajouter des localisations a un contenu"
-
 #: ../../docs/modules/mapping.md:33
-msgid "In order to add a location to an item, edit the item and go to the \"Mapping\" tab."
-msgstr "Pour ajouter une localisation à un contenu, modifier le contenu et allez dans l'onglet \"Carte\"."
+msgid ""
+"The Mapping module adds metadata fields to each item: a latitude and "
+"longitude pair that creates markers on maps (an item can have more than "
+"one marker), as well as default display settings for the item's "
+"individual map - minimum corner coordinates that ensure the map contains "
+"at least those top, bottom, left, and right spots. These can be set "
+"manually using the item's \"Mapping\" tab, or can be bulk-added to many "
+"items using CSV Import."
+msgstr ""
 
 #: ../../docs/modules/mapping.md:35
-msgid "To find the point where you want to locate the marker, you can do one of the following:"
-msgstr "Pour trouver le point où vous souhaitez situer le marqueur, vous pouvez procéder d'une des manières suiavntes :"
+#, fuzzy
+msgid "Add markers"
+msgstr "Modifier des marqueurs"
 
 #: ../../docs/modules/mapping.md:37
+msgid ""
+"The item view screen will not show a \"Mapping\" tab unless there is "
+"geolocation metadata, but one will appear when editing the item. To add a"
+" map to an item, click to edit the item. Navigate to the \"Mapping\" tab "
+"to add location data to the item. Selecting the tab will open the map "
+"interface."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:39
+msgid ""
+"![Screenshot of the Add/Edit Item Page with Mapping tab selected. Large "
+"World Map with white buttons described "
+"below](../modules/modulesfiles/Mapping_Item_Add.png)"
+msgstr ""
+"![Capture de l'écran Modifier contenu avec onglet tab sélectionné. Carte "
+"du monde avec les boutons décrits ci-"
+"dessous](../modules/modulesfiles/Mapping_Item_Add.fr.png)"
+
+#: ../../docs/modules/mapping.md:39
+#, fuzzy
+msgid ""
+"Screenshot of the Add/Edit Item Page with Mapping tab selected. Large "
+"World Map with white buttons described below"
+msgstr ""
+"![Capture de l'écran Modifier contenu avec onglet tab sélectionné. Carte "
+"du monde avec les boutons décrits ci-"
+"dessous](../modules/modulesfiles/Mapping_Item_Add.fr.png)"
+
+#: ../../docs/modules/mapping.md:41
+msgid ""
+"To find the point where you want to locate the marker, you can do one of "
+"the following:"
+msgstr ""
+"Pour trouver le point où vous souhaitez situer le marqueur, vous pouvez "
+"procéder d'une des manières suiavntes :"
+
+#: ../../docs/modules/mapping.md:43
 msgid "Zoom and drag to find the location."
 msgstr "Zoomer et vous déplacer sur la carte pour trouver la localisation."
 
-#: ../../docs/modules/mapping.md:38
-msgid "Type the place name into the Search Address field (see Figure 4 below)."
-msgstr "Saisir le nom du lieu dans le champ Search Address (voir Figure 4 ci-dessous)."
-
-#: ../../docs/modules/mapping.md:39
-msgid "Note that this will populate as you type, and will not search locations which do not match the formatting of the search function."
-msgstr "Cette action fait apparaître des propositions d'adresses au fur et à mesure que vous remplissez le champ et ne cherche pas les localisations qui ne correspondent pas au formatage de la fonction de recherche."
-
-#: ../../docs/modules/mapping.md:40
-msgid "Enter latitude and longitude coordinates into the search box. These should be formatted as decimals, for example `38.897222, -77.064167`, not `38° 53′ 50″ N, 77° 3′ 51″ W`."
-msgstr "Saisissez des coordonnées de latitude et de longitude dans le champ de recherche. Celles-ci doivent être des décimales comme `38.897222, -77.064167`, et non `38° 53′ 50″ N, 77° 3′ 51″ W`."
-
-#: ../../docs/modules/mapping.md:42
-msgid "![Mapping tab with a search for \"Roosevelt Island\" in the search view. Below the search field are a number of suggested locations.](../modules/modulesfiles/Mapping_itemSearch.png)"
-msgstr "![Onglet Carte avec une recherche pour \"Montmartre\". Sous le champ de recherche se trouvent diverses suggestions.](../modules/modulesfiles/Mapping_itemSearch.fr.png)"
-
 #: ../../docs/modules/mapping.md:44
-msgid "Click on the **Draw a Marker** tool in the right hand toolbar. Your cursor will become a marker which can move around the map. To set the point, click on the map."
-msgstr "Cliquez sur l'outil **Draw a Marker** dans la barre d'outils. Votre curseur devient un marqueur que vous pouvez déplacer sur la carte. Pour établir une localisation, cliquez sur la carte."
+msgid "Type the place name into the Search Address field (see Figure 4 below)."
+msgstr ""
+"Saisir le nom du lieu dans le champ Search Address (voir Figure 4 ci-"
+"dessous)."
+
+#: ../../docs/modules/mapping.md:45
+msgid ""
+"Note that this will populate as you type, and will not search locations "
+"which do not match the formatting of the search function."
+msgstr ""
+"Cette action fait apparaître des propositions d'adresses au fur et à "
+"mesure que vous remplissez le champ et ne cherche pas les localisations "
+"qui ne correspondent pas au formatage de la fonction de recherche."
 
 #: ../../docs/modules/mapping.md:46
-msgid "![Mapping tab with an active marker being drawn. The marker has a tooltip saying \"click map to place marker\"](../modules/modulesfiles/Mapping-drawMarker.png)"
-msgstr "![Onglet carte avec un marqueur actif. Le marqueur est accompagné du message \"click map to place marker\"](../modules/modulesfiles/Mapping-drawMarker.fr.png)"
+msgid ""
+"Enter latitude and longitude coordinates into the search box. These "
+"should be formatted as decimals, for example `38.897222, -77.064167`, not"
+" `38° 53′ 50″ N, 77° 3′ 51″ W`."
+msgstr ""
+"Saisissez des coordonnées de latitude et de longitude dans le champ de "
+"recherche. Celles-ci doivent être des décimales comme `38.897222, "
+"-77.064167`, et non `38° 53′ 50″ N, 77° 3′ 51″ W`."
 
 #: ../../docs/modules/mapping.md:48
-msgid "You can now click on the marker to add a label which will display on [public map views](#public-view) of the item. Be aware that this will display in a large font."
-msgstr "Vous pouvez ensuite cliquer sur le marqueur pour lui ajouter une étiquette qui apparaîtra sur la [vue publique de la carte](#public-view) du contenu. Cette étiquette apparaît dans une police de taille importante."
+msgid ""
+"![Mapping tab with a search for \"Roosevelt Island\" in the search view. "
+"Below the search field are a number of suggested "
+"locations.](../modules/modulesfiles/Mapping_itemSearch.png)"
+msgstr ""
+"![Onglet Carte avec une recherche pour \"Montmartre\". Sous le champ de "
+"recherche se trouvent diverses "
+"suggestions.](../modules/modulesfiles/Mapping_itemSearch.fr.png)"
+
+#: ../../docs/modules/mapping.md:48
+#, fuzzy
+msgid ""
+"Mapping tab with a search for \"Roosevelt Island\" in the search view. "
+"Below the search field are a number of suggested locations."
+msgstr ""
+"![Onglet Carte avec une recherche pour \"Montmartre\". Sous le champ de "
+"recherche se trouvent diverses "
+"suggestions.](../modules/modulesfiles/Mapping_itemSearch.fr.png)"
 
 #: ../../docs/modules/mapping.md:50
-msgid "![Close up of map with a marker selected. There is a field to enter the maker label.](../modules/modulesfiles/Mapping-addLabel.png)"
-msgstr "![Champ pour entrer l'étiquette visible](../modules/modulesfiles/Mapping-addLabel.fr.png)"
+#, fuzzy
+msgid ""
+"Click on the **Draw a Marker** tool in the left hand toolbar. Your cursor"
+" will become a marker which can move around the map. To set the point, "
+"click on the map."
+msgstr ""
+"Cliquez sur l'outil **Draw a Marker** dans la barre d'outils. Votre "
+"curseur devient un marqueur que vous pouvez déplacer sur la carte. Pour "
+"établir une localisation, cliquez sur la carte."
 
 #: ../../docs/modules/mapping.md:52
-msgid "When you are adding a label, you can also add an image to display on the marker when clicked in the [public view](#public-view). You can only select from images which have already been [attached to the item as media](../content/items.md#media). To remove the image, select \"No Image\" from the sidebar."
-msgstr "Quand vous ajoutez une étiquette, vous pouvez aussi ajouter une image qui apparaîtra sur le marqueur quand il sera cliqué sur la [vue publique](#public-view). Vous pouvez sélectionner uniquement une image qui est déjà [attachée au contenu comme média](../content/items.md#media). Pour retirer cette image, sélectionnez \"No image\" dans la barre latérale."
+msgid ""
+"![Mapping tab with an active marker being drawn. The marker has a tooltip"
+" saying \"click map to place marker\"](../modules/modulesfiles/Mapping-"
+"drawMarker.png)"
+msgstr ""
+"![Onglet carte avec un marqueur actif. Le marqueur est accompagné du "
+"message \"click map to place marker\"](../modules/modulesfiles/Mapping-"
+"drawMarker.fr.png)"
+
+#: ../../docs/modules/mapping.md:52
+#, fuzzy
+msgid ""
+"Mapping tab with an active marker being drawn. The marker has a tooltip "
+"saying \"click map to place marker\""
+msgstr ""
+"![Onglet carte avec un marqueur actif. Le marqueur est accompagné du "
+"message \"click map to place marker\"](../modules/modulesfiles/Mapping-"
+"drawMarker.fr.png)"
 
 #: ../../docs/modules/mapping.md:54
-msgid "![Marker selected with Image added. The media is also visible in the sidebar, along with an option for \"no image\"](../modules/modulesfiles/Mapping-addImage.png)"
-msgstr "![Marqueur avec une image ajoutée. Le média est aussi visible dans la barre latérale, ainsi que l'option \"no image\"](../modules/modulesfiles/Mapping-addImage.fr.png)"
-
-#: ../../docs/modules/mapping.md:56
-msgid "Editing markers"
+#, fuzzy
+msgid "Edit markers"
 msgstr "Modifier des marqueurs"
 
-#: ../../docs/modules/mapping.md:57
-msgid "To edit the label or image, simply click on the marker. This will open the options for the label and image, as seen above."
-msgstr "Pour modifier l'étiquette ou l'image, cliquez simplement sur le marqueur. Cette action ouvre les options décrites ci-dessus pour l'étiquette et l'image."
+#: ../../docs/modules/mapping.md:56
+msgid ""
+"You can now click on the marker to add a label which will display on "
+"[public map views](#public-view) of the item. Be aware that this will "
+"display in a large font."
+msgstr ""
+"Vous pouvez ensuite cliquer sur le marqueur pour lui ajouter une "
+"étiquette qui apparaîtra sur la [vue publique de la carte](#public-view) "
+"du contenu. Cette étiquette apparaît dans une police de taille "
+"importante."
 
-#: ../../docs/modules/mapping.md:59
-msgid "To **move a marker** you have added, use the \"Move marker\" button on the left hand toolbar (small white square with black box and pencil icon). Any marker on the map will become highlighted in a red, dotted-line outline. Click and drag the marker you want to move."
-msgstr "Pour **déplacer un marqueur**, utilisez le bouton \"Move marker\" dans la barre d'outils. Tous les marqueurs sont alors entourés d'une ligne rouge en pointillé. Cliquez et déplacez le marqueur choisi."
+#: ../../docs/modules/mapping.md:58
+#, fuzzy
+msgid ""
+"![Closeup of map with a marker selected. There is a field to enter the "
+"maker label.](../modules/modulesfiles/Mapping-addLabel.png)"
+msgstr ""
+"![Champ pour entrer l'étiquette visible](../modules/modulesfiles/Mapping-"
+"addLabel.fr.png)"
 
-#: ../../docs/modules/mapping.md:61
-msgid "To apply your changes, click the \"Save\" option which opens from the \"Move marker\" button. To cancel the changes, click \"Cancel\". If you do not click save, the marker will not be moved."
-msgstr "Cliquez sur l'option \"Enregistrer\" qui s'ouvre avec le bouton \"Move marker\". Pour annuler, cliquez sur \"Annuler\". Si vous ne cliquez pas sur sauvegarder, le marqueur ne sera pas déplacé."
+#: ../../docs/modules/mapping.md:58
+#, fuzzy
+msgid ""
+"Closeup of map with a marker selected. There is a field to enter the "
+"maker label."
+msgstr ""
+"![Champ pour entrer l'étiquette visible](../modules/modulesfiles/Mapping-"
+"addLabel.fr.png)"
 
-#: ../../docs/modules/mapping.md:63
+#: ../../docs/modules/mapping.md:60
+msgid ""
+"When you are adding a label, you can also add an image to display on the "
+"marker when clicked in the [public view](#public-view). You can only "
+"select from images which have already been [attached to the item as "
+"media](../content/items.md#media). To remove the image, select \"No "
+"Image\" from the sidebar."
+msgstr ""
+"Quand vous ajoutez une étiquette, vous pouvez aussi ajouter une image qui"
+" apparaîtra sur le marqueur quand il sera cliqué sur la [vue publique"
+"](#public-view). Vous pouvez sélectionner uniquement une image qui est "
+"déjà [attachée au contenu comme média](../content/items.md#media). Pour "
+"retirer cette image, sélectionnez \"No image\" dans la barre latérale."
+
+#: ../../docs/modules/mapping.md:62
+msgid ""
+"![Marker selected with Image added. The media is also visible in the "
+"sidebar, along with an option for \"no image\"](../modules/modulesfiles"
+"/Mapping-addImage.png)"
+msgstr ""
+"![Marqueur avec une image ajoutée. Le média est aussi visible dans la "
+"barre latérale, ainsi que l'option \"no image\"](../modules/modulesfiles"
+"/Mapping-addImage.fr.png)"
+
+#: ../../docs/modules/mapping.md:62
+#, fuzzy
+msgid ""
+"Marker selected with Image added. The media is also visible in the "
+"sidebar, along with an option for \"no image\""
+msgstr ""
+"![Marqueur avec une image ajoutée. Le média est aussi visible dans la "
+"barre latérale, ainsi que l'option \"no image\"](../modules/modulesfiles"
+"/Mapping-addImage.fr.png)"
+
+#: ../../docs/modules/mapping.md:64
+#, fuzzy
+msgid ""
+"To edit the label or image again, click on the marker. This will open the"
+" options for the label and image, as seen above."
+msgstr ""
+"Pour modifier l'étiquette ou l'image, cliquez simplement sur le marqueur."
+" Cette action ouvre les options décrites ci-dessus pour l'étiquette et "
+"l'image."
+
+#: ../../docs/modules/mapping.md:66
+#, fuzzy
+msgid ""
+"To **move a marker** you have added, use the \"Move markers\" button on "
+"the left hand toolbar (small white square with black box and pencil "
+"icon). Any marker on the map will become highlighted in a red, dotted-"
+"line outline. Click and drag the marker you want to move."
+msgstr ""
+"Pour **déplacer un marqueur**, utilisez le bouton \"Move marker\" dans la"
+" barre d'outils. Tous les marqueurs sont alors entourés d'une ligne rouge"
+" en pointillé. Cliquez et déplacez le marqueur choisi."
+
+#: ../../docs/modules/mapping.md:68
+#, fuzzy
+msgid ""
+"To apply your changes, click the \"Save\" option which opens from the "
+"\"Move markers\" button. If you do not save, the marker will not be "
+"moved."
+msgstr ""
+"Cliquez sur l'option \"Enregistrer\" qui s'ouvre avec le bouton \"Move "
+"marker\". Pour annuler, cliquez sur \"Annuler\". Si vous ne cliquez pas "
+"sur sauvegarder, le marqueur ne sera pas déplacé."
+
+#: ../../docs/modules/mapping.md:70
 msgid "![Marker being moved](../modules/modulesfiles/Mapping-moveMarker.png)"
 msgstr "![Marqueur déplacé](../modules/modulesfiles/Mapping-moveMarker.fr.png)"
 
-#: ../../docs/modules/mapping.md:65
-msgid "To **delete a marker**, first click the \"Delete a marker\" in the left hand toolbar (trash can icon). Click on the marker you want to delete; this will remove the marker from the map. In order to make the deletion permanent, you must click Save in the menu which opens from the \"Delete a marker\" button."
-msgstr "Pour **supprimer un marqueur**, cliquez sur \"Delete a marker\" dans la barre d'outils (icône de poubelle). Cliquez sur le marqueur que vous souhaitez supprimer ; cette action retire le marqueur de la carte. Pour rendre la suppression permanente, vous devez cliquez sur Enregistrer dans le menu qui s'ouvre avec le bouton \"Delete a marker\"."
+#: ../../docs/modules/mapping.md:70
+msgid "Marker being moved"
+msgstr ""
 
-#: ../../docs/modules/mapping.md:67
-msgid "Note that you can use the \"clear all\" button in the menu which opens form the \"delete a marker\" button to clear all markers on the map."
-msgstr "Vous pouvez aussi utiliser le bouton \"clear all\" qui s'ouvre avec \"delete a marker\" pour supprimer tous les marqueurs de la carte."
+#: ../../docs/modules/mapping.md:72
+#, fuzzy
+msgid ""
+"To **delete a marker**, first click the \"Delete markers\" button in the "
+"left hand toolbar (trash can icon). Click on the marker you want to "
+"delete; this will remove the marker from the map. In order to make the "
+"deletion permanent, you must click \"Save\" in the menu which opens from "
+"the \"Delete markers\" button."
+msgstr ""
+"Pour **supprimer un marqueur**, cliquez sur \"Delete a marker\" dans la "
+"barre d'outils (icône de poubelle). Cliquez sur le marqueur que vous "
+"souhaitez supprimer ; cette action retire le marqueur de la carte. Pour "
+"rendre la suppression permanente, vous devez cliquez sur Enregistrer dans"
+" le menu qui s'ouvre avec le bouton \"Delete a marker\"."
 
-#: ../../docs/modules/mapping.md:69
+#: ../../docs/modules/mapping.md:74
+#, fuzzy
+msgid ""
+"Note that you can use the \"Clear all\" button in the menu which opens "
+"form the \"Delete markers\" button to clear all markers on the map."
+msgstr ""
+"Vous pouvez aussi utiliser le bouton \"clear all\" qui s'ouvre avec "
+"\"delete a marker\" pour supprimer tous les marqueurs de la carte."
+
+#: ../../docs/modules/mapping.md:76
 msgid "![Marker being deleted.](../modules/modulesfiles/Mapping-deleteMarker.png)"
-msgstr "![Marqueur en cours de suppression](../modules/modulesfiles/Mapping-deleteMarker.fr.png)"
+msgstr ""
+"![Marqueur en cours de suppression](../modules/modulesfiles/Mapping-"
+"deleteMarker.fr.png)"
 
-#: ../../docs/modules/mapping.md:71
-msgid "Setting the map display"
+#: ../../docs/modules/mapping.md:76
+msgid "Marker being deleted."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:78
+#, fuzzy
+msgid "Map display"
 msgstr "Ajuster l'affichage de la carte"
 
-#: ../../docs/modules/mapping.md:73
-msgid "You can also set the map's default display zoom level and center, independently of the marker(s) you place. The default is to center on one marker and zoom fully in, or to zoom out far enough to contain all markers in the map view."
-msgstr "Vous pouvez aussi déterminer le niveau de zoom et le centre par défaut de la carte, indépendamment du ou des marqueur(s) positionnés. Par défaut, le centrage se fait sur un des marqueurs avec un zoom maximal ou suffisamment dézoomé pour contenir tous les marqueurs dans l'affichage de la carte."
+#: ../../docs/modules/mapping.md:80
+msgid ""
+"You can also set the map's default display zoom level and center, "
+"independently of the marker(s) you place. The default is to center on one"
+" marker and zoom fully in, or to zoom out far enough to contain all "
+"markers in the map view."
+msgstr ""
+"Vous pouvez aussi déterminer le niveau de zoom et le centre par défaut de"
+" la carte, indépendamment du ou des marqueur(s) positionnés. Par défaut, "
+"le centrage se fait sur un des marqueurs avec un zoom maximal ou "
+"suffisamment dézoomé pour contenir tous les marqueurs dans l'affichage de"
+" la carte."
 
-#: ../../docs/modules/mapping.md:79
+#: ../../docs/modules/mapping.md:86
+msgid "Search for map data"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:88
+msgid ""
+"Items with information filled out in their mapping metadata fields (i.e. "
+"with markers on the map) can be searched with fields that the Mapping "
+"module adds to the advanced search fields in the admin and public views."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:90
+msgid ""
+"![Map-based searching in the admin "
+"side.](modulesfiles/Mapping_advSearch.png)"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:90
+msgid "Map-based searching in the admin side."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:92
+msgid ""
+"The public fields are optional (turned off by default) on [individual "
+"sites](../sites/site_settings.md#settings). \"Add geographic location to "
+"advanced search\" will add three fields that allow users to search by "
+"location: they must provide an address, as well as a distance (in "
+"numbers) and select a unit (kilometres or miles). \"Search by map marker "
+"presence\" provides users with the values of \"Has map markers\" or \"Has"
+" no map markers\"."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:94
+msgid ""
+"![The two Mapping settings added to each site settings "
+"page.](modulesfiles/Mapping_siteSettings.png)"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:94
+msgid "The two Mapping settings added to each site settings page."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:96
+msgid "Batch-edit map data"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:98
+msgid ""
+"Users can select multiple items and perform [batch "
+"editing](../content/items.md#batch-editing) to create and edit map "
+"markers. The options are:"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:100
+msgid ""
+"**Delete markers**: You can batch-remove all existing markers from "
+"multiple items."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:101
+msgid ""
+"**Copy coordinates to markers**: This involves taking latitude and "
+"longitude data from an existing metadata value on each item or from their"
+" associated media. This will append new markers, not overwrite any "
+"existing markers. If there are multiple values on an item in the chosen "
+"proprerty, this will batch-copy them all as multiple markers. You can "
+"specify:"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:102
+msgid "Which fields contain each or both values"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:103
+msgid "How they are separated (the operation will ignore spaces)"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:104
+msgid ""
+"Whether the longitude or latitude comes first in the pair.  If you copy "
+"coordinates from an attached media, you can also check a box to assign "
+"the media as a marker image."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:106
+msgid ""
+"**Update markers**: Markers can have [customized thumbnails and labels"
+"](#edit-markers) rather than displaying just the item title as a link. "
+"You can batch-edit marker customization by:"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:107
+msgid "Removing images"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:108
+msgid "Using items' primary media as images"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:109
+msgid ""
+"Copying labels from an existing metadata value (either from the item, the"
+" primary media, or the media already assigned to the marker)"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:110
+msgid "Removing labels (the first entry in the dropdown)."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:112
+msgid ""
+"Note that marker labels have a limit of 255 characters. You will see your"
+" labels truncated if you copy label text from a field containing values "
+"longer than 255 characters."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:114
+msgid ""
+"If the chosen field in this batch operation does not contain valid "
+"entries, the item(s) will be skipped and you will not see an error "
+"message. [Batch-editing operations](../content/items.md#batch-editing) do"
+" not appear in the Jobs log unless they are \"Edit all,\" so if you have "
+"done a selected-items batch-edit you may not be able to trace which items"
+" were modified."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:116
+msgid ""
+"![The map-specific batch-editing field, filled out to copy "
+"\"Latitude/Longitude\" values from dcterms:coverage of each "
+"item.](modulesfiles/Mapping_batchEdit.png)"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:116
+msgid ""
+"The map-specific batch-editing field, filled out to copy "
+"\"Latitude/Longitude\" values from dcterms:coverage of each item."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:118
+msgid ""
+"You may wish to copy your coordinates in one batch operation, then update"
+" those markers with labels and images in a second batch operation. Note "
+"that if an item has multiple markers, all markers will get a marker "
+"update of identical images and labels."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:120
 msgid "CSV Import integration"
 msgstr "Intégration avec Import CSV"
 
-#: ../../docs/modules/mapping.md:81
-msgid "Mapping is compatible with [CSV Import](../modules/csvimport.md) when importing items (not mixed resources)."
-msgstr "Mapping est compatible avec [Import CSV](../modules/csvimport.md) pour l'import de contenus (mais par de ressources diverses)."
-
-#: ../../docs/modules/mapping.md:83
-msgid "If the two modules are enabled, your CSV Import process will have two new dropdown menus in the \"Add mapping\" sidebar when you are connecting a spreadsheet column to a property."
-msgstr "Si les deux modules sont activés, deux nouveaux menus déroulants apparaissent dans la barre latérale \"Ajouter une correspondance\" lorsque vous établissez une correspondance entre une colonne de tableur et une propriété."
-
-#: ../../docs/modules/mapping.md:85
-msgid "The \"Resource location\" dropdown menu includes three options for pinning the item geographically (latitude, longitude, and latitude/longitude). You can import multiple values for these fields."
-msgstr "Le menu \"Localisation de la ressource\" inclut trois options pour établir la localisation du contenu (latitude, longitude ou latitude/longitude). Vous pouvez importer plusieurs valeurs pour ces champs."
-
-#: ../../docs/modules/mapping.md:87
-msgid "The \"Default map view\" dropdown menu allows you to set a centerpoint and zoom level for the map that displays for that item. Without a map centerpoint, the map will center on the item's pin."
-msgstr "Le menu \"Vue par défaut de la carte\" permet d'établir un point de centrage et un niveau de zoom pour la carte associée à ce contenu. Sans point central déterminé, la carte sera centrée sur le marqueur."
-
-#: ../../docs/modules/mapping.md:89
-msgid "You cannot set marker labels or marker images in CSV Import."
-msgstr "Vous ne pouvez pas déterminer d'étiquette ou d'image de marqueur via Import CSV."
-
-#: ../../docs/modules/mapping.md:91
-msgid "You cannot [batch-edit](../content/items.md#batch-actions) mapping values after items are in your system, only edit them manually one item at a time. So, CSV Import can help you do things such as set a consistent map zoom level on each item, by supplying a spreadsheet with every item and the same zoom level number in each row."
-msgstr "Vous ne pouvez pas [modifier en lot](../content/items.md#batch-actions) les valeurs cartographiques une fois les contenus importés dans votre instance, vous ne pouvez que les modifier manuellement et une à une. Import CSV peut aider pour établir un niveau de zoom régulier pour chaque item en fournissant un tableur avec le même niveau de zoom pour chaque ligne de contenu."
-
-#: ../../docs/modules/mapping.md:93
-msgid "Adding map blocks to a site"
-msgstr "Ajouter des blocs de carte à un site"
-
-#: ../../docs/modules/mapping.md:95
-msgid "Mapping creates two page blocks you can add to your pages: \"Map by attachments\", where you manually add resources to the map block; and \"Map by query\", which allows you to use a search string to add resources to the map block."
-msgstr "Mapping crée deux blocs que vous pouvez ajouter à vos pages : \"Map by attachments\", qui permet d'ajouter manuellement des ressources au bloc ;  et \"Map by query\" qui permet d'utiliser une chaîne de recherche pour ajouter des ressources au bloc."
-
-#: ../../docs/modules/mapping.md:97
-msgid "To add a map to a new or existing page, click to edit the page. On the right, under \"Add new block\", click either the \"Map by attachments\" or \"Map by query\" option (1). Selecting one will open the map block to the page (2). The blocks include customizable features for the map in collapsable panes. Click the triangle to expand or collapse these fields (3)."
-msgstr "Pour ajouter une carte à une page, cliquez pour la modifier. Sur la droite, sous \"Ajouter un nouveau bloc\", cliquez soit sur \"Map by attachments\" ou \"Map by query\" (1). Ceci ajoute le bloc de carte à a page (2). Les deux blocs incluent des options personnalisables pour la carte. Cliquez sur le triangle pour ouvrir ou refermer ces champs (3)."
-
-#: ../../docs/modules/mapping.md:99
-msgid "![Screenshot of the Page with Map Block selected. Block includes menu options Default View, WMS Overlays and attachments.](../modules/modulesfiles/Mapping_Page_MapBlock1.png)"
-msgstr "![Capture de la Page avec le bloc de carte sélectionné. Il inclut les options Default View, WMS Overlays et pièces jointes](../modules/modulesfiles/Mapping_Page_MapBlock1.fr.png)"
-
-#: ../../docs/modules/mapping.md:101
-msgid "The \"Map by attachments\" and \"Map by query\" blocks have largely the same settings, with the exception of the final option."
-msgstr "\"Map by attachments\" et \"Map by query\" présentent les mêmes options, à l'exception de la dernière."
-
-#: ../../docs/modules/mapping.md:103
-msgid "Default view"
-msgstr "Vue par défaut"
-
-#: ../../docs/modules/mapping.md:104
-msgid "This section lets you set the appearance and zoom level of the map. There are three fields and a preview map. Within the preview map are buttons which you can use to set the default zoom and location of the map. If you do not set a default zoom or location, the map will adjust to display all resources."
-msgstr "Cette section permet de définir l'apparence et le niveau de zoom de la carte. Il y a trois champs et une carte de prévisualisation, qui contient des boutons pour établir le zoom et la localisation par défaut. Si vous ne définissez pas de zoom ou de localisation par défaut, la carte s'ajuste pour afficher toutes les ressources."
-
-#: ../../docs/modules/mapping.md:106
-msgid "![Map by attachments block open to Default Settings. There is no information in any field, and the preview map is zoomed in to level 2](../modules/modulesfiles/mappingBlockDefaultView1.png)"
-msgstr "![Bloc Map by attachments ouvert sur la vue par défaut. Les champs sont vides et la carte est en zoom niveau 2.](../modules/modulesfiles/mappingBlockDefaultView1.png)"
-
-#: ../../docs/modules/mapping.md:108
-msgid "**Basemap provider**: select from a dropdown of basemaps. Once selected, the preview map will update to show you the appearance of that map. The default is \"OpenStreetMap.Mapnik\"."
-msgstr "**Basemap provider** : menu déroulant de fournisseurs pour la carte de base. Une fois sélectionnée, la carte de prévisualisation s'actualise. Le fournisseur par défaut est \"OpenStreetMap.Mapnik\"."
-
-#: ../../docs/modules/mapping.md:110
-msgid "**Minimum zoom level**: set the minimum zoom for the map. Fully zoomed out is 0."
-msgstr "**Minimum zoom level** : définir le niveau de zoom minimum de la carte. Le plus dézoomé correspond à 0."
-
-#: ../../docs/modules/mapping.md:112
-msgid "**Maximum zoom level**: set the maximum possible zoom level. The highest is 19. Some basemaps do not function at higher levels; you will want to check to be sure you set your maximum at a level where you basemap is visible."
-msgstr "**Maximum zoom level** : définir le niveau maximum de zoom pour la carte. Le plus zoomé correspond à 19. Certaines cartes de départ ne fonctionnent pas à ce niveau de zoom ; vérifiez que vous définissez un niveau de zoom maximum auquel la carte reste visible."
-
-#: ../../docs/modules/mapping.md:114
-msgid "Between the fields and the preview map is a message which tells you the current zoom level, as you zoom using the plus and minus buttons on the preview map or the scroll on your comptuer. Use this to help you determine where you want to set your minimum and maximum zoom levels."
-msgstr "Entre les champs et la carte, un message indique le niveau de zoom actuel. Utilisez cette information pour déterminer quels niveaux de zoom maximum et minimum choisir."
-
-#: ../../docs/modules/mapping.md:116
-msgid "Within the preview map, there are five buttons:"
-msgstr "Sur la carte de prévisualisation elle-même, il y a cinq boutons :"
-
-#: ../../docs/modules/mapping.md:118
-msgid "Zoom in: The small white square with a black plus sign. Each click zooms in one step (between 0 and 19)."
-msgstr "Zoom in : Petit carré blanc avec un signe plus. Chaque clic ajoute un niveau de zoom (entre 0 et 19)."
-
-#: ../../docs/modules/mapping.md:119
-msgid "Zoom out: The small white square with black minus sign. Each click zooms out one step (between 0 and 19)."
-msgstr "Zoom out : Petit carré blanc avec un signe moins. Chaque clic retire un niveau de zoom (entre 0 et 19)."
-
-#: ../../docs/modules/mapping.md:120
-msgid "Set the current view as default view: The small white square with a target or crosshair symbol. The map will default to a global view. Click to set the current view as the default view."
-msgstr "Set the current view as default view : Petit carré blanc avec un symbole de cible. La vue par défaut est globale. Cliquez pour établir la vue actuelle comme vue par défaut."
-
-#: ../../docs/modules/mapping.md:121
-msgid "Go to current default view: The small black square with a black box around a dot. This option is only available after a default view has been set. Click to pan and zoom map to the selected view."
-msgstr "Go to current default view : Petit carré blanc avec une boîte entourant un point. Cette option n'est disponible qu'une fois la vue par défaut établie. Cliquez pour revenir à cette vue."
-
 #: ../../docs/modules/mapping.md:122
-msgid "Clear the default center and zoom level: The small white square with a black \"X\". Click to clear pan and zoom preferences and return to the initial global view."
-msgstr "Clear the default center and zoom level : Petit carré blanc avec un \"X\". Cliquez pour retirer les préférence et revenir à la vue globale de départ."
+#, fuzzy
+msgid ""
+"Mapping is compatible with [CSV Import](../modules/csvimport.md) when "
+"importing items (but not when importing mixed resources)."
+msgstr ""
+"Mapping est compatible avec [Import CSV](../modules/csvimport.md) pour "
+"l'import de contenus (mais par de ressources diverses)."
 
 #: ../../docs/modules/mapping.md:124
-msgid "![closeup of the mapping buttons with labels added](../modules/modulesfiles/mappingBlockDefMapButtons.png)"
-msgstr "![capture des boutons de la carte avec des étiquettes ajoutées](../modules/modulesfiles/mappingBlockDefMapButtons.fr.png)"
+#, fuzzy
+msgid ""
+"If the two modules are enabled, your CSV Import process will have a new "
+"\"Mapping\" dropdown menu in the \"Add mapping\" sidebar when you are "
+"connecting a spreadsheet column to a property."
+msgstr ""
+"Si les deux modules sont activés, deux nouveaux menus déroulants "
+"apparaissent dans la barre latérale \"Ajouter une correspondance\" "
+"lorsque vous établissez une correspondance entre une colonne de tableur "
+"et une propriété."
 
 #: ../../docs/modules/mapping.md:126
-msgid "WMS overlays"
-msgstr "Couches WMS"
+msgid ""
+"The \"Mapping\" dropdown menu includes three options for pinning the item"
+" geographically: \"Latitude\", \"Longitude\", and \"Latitude/Longitude\"."
+" Make sure your \"Latitude/Longitude\" values are separated with a slash "
+"(`/`) character."
+msgstr ""
 
 #: ../../docs/modules/mapping.md:128
-msgid "Add, edit, and delete [Web Map Service (WMS)](https://mapserver.org/ogc/wms_server.html) overlays."
+msgid ""
+"These must all be supplied as numerical values, not degree: write "
+"northern latitudes as positive numbers and southern latitudes as negative"
+" numbers (\"-90\" to \"90\"), eastern longitudes as positive numbers and "
+"western longitudes as negative numbers (\"-180\" to \"180\")."
 msgstr ""
 
 #: ../../docs/modules/mapping.md:130
-msgid "**Label**: Create a unique, descriptive label for the map overlay. This will be visible to visitors and should be used to differentiate between overlays."
-msgstr "**Libellé** : Créez un libellé pour la couche WMS. Celui-ci sera visible par les utilisateurs et doit permettre de différencier les couches."
+msgid ""
+"!!! note  \tThe latitude and longitude fields cannot take multiple "
+"values, that is, you cannot bulk-import two or more markers for each item"
+" using these fields. You also cannot import multiple latitudes and "
+"longitudes using the \"Append\" method in CSV Import to import multiple "
+"rows of data onto the same item. You can add multiple values using the "
+"\"Latitude/Longitude\" field. This will take input in the form of "
+"`lat/long;lat/long`, where the semi-colon is the multivalue separator you"
+" indicate in the CSV Import settings."
+msgstr ""
 
-#: ../../docs/modules/mapping.md:131
+#: ../../docs/modules/mapping.md:133
+msgid ""
+"The \"Default Bounds (sw_lng,sw_lat,ne_lng,ne_lat)\" option allows you to"
+" set four corner coordinates for the map that displays for that item, in "
+"the format `sw_lng,sw_lat,ne_lng,ne_lat` (bottom left longitude, bottom "
+"left latitude, top right longitude, top right latitude). Map widths and "
+"heights display dynamically depending on the page and the browser window,"
+" so your four coordinates will be centered within the map and excess "
+"space will display either vertically or horizontally as applicable. **Be "
+"careful to provide longitudes first and latitudes second in your bounds "
+"values.**"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:135
+msgid ""
+"!!! note \tThe default bounds field will not accept multiple values. You "
+"will encounter an error with your entire CSV Import process if you "
+"attempt to Append a second default bounds value to an item. At this time "
+"you will also encounter an error for the entire process if you attempt to"
+" Revise or Update an existing default bounds value on an item; the error "
+"message will not specify which rows worked successfully, but the log will"
+" identify the item where the process stopped by its unique ID. You must "
+"manually erase default bounds from each item individually if you wish to "
+"change those settings. Mapping properties do not appear in bulk-editing "
+"options."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:138
+msgid ""
+"For example, to pin an item near Madrid and set the map bounds around the"
+" country of Spain, you could provide two values: a marker latitude and "
+"longitude of \"40.79864618/-3.645817429\" and default bounds of "
+"\"4.25300,43.95470,-12.12392,36.45605\"."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:140
+msgid ""
+"Note that the default bounds will ignore any location markers. For "
+"example, if you set bounds around Spain, but your item's marker is pinned"
+" to Antarctica, the map will display Spain and users will have to search "
+"for the marker manually."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:142
+msgid "You cannot set marker labels or marker images in CSV Import."
+msgstr ""
+"Vous ne pouvez pas déterminer d'étiquette ou d'image de marqueur via "
+"Import CSV."
+
+#: ../../docs/modules/mapping.md:144
+msgid ""
+"You cannot [batch-edit](../content/items.md#batch-editing) mapping values"
+" after items are in your system, only edit them manually one item at a "
+"time, or batch-revise mapping data using CSV Import."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:146
+#, fuzzy
+msgid "Add maps to a site"
+msgstr "Ajouter des blocs de carte à un site"
+
+#: ../../docs/modules/mapping.md:148
+msgid "Map Browse page"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:150
+msgid ""
+"![The Map Browse page on the Thanks Roy theme, with a watercolour basemap"
+" selected.](modulesfiles/Mapping_mapBrowsePage.png)"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:150
+msgid ""
+"The Map Browse page on the Thanks Roy theme, with a watercolour basemap "
+"selected."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:152
+msgid ""
+"Mapping creates a \"Map Browse\" page that can be added to each site in "
+"its navigation settings. This map has minimal customization options and "
+"will show every item in the site that has one or more geolocations, as "
+"well as some advanced search fields (including search by address with "
+"radius). These fields are not affected by [site settings](#search-for-"
+"map-data). The title of the page will be \"Map\"."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:154
+msgid ""
+"Go to a Site, then go to Navigation. You will see under \"Add a custom "
+"link\" the option to add a \"Map Browse.\" When this is added to your "
+"navigation, you will be able to change the label that appears in the "
+"navigation (default is \"Map Browse\"), and the basemap, by clicking on "
+"the pencil icon to edit the Map Browse page settings. Note that changing "
+"the basemap will change the URL that is added to the navigation - for "
+"example, `yoursite/map-"
+"browse?mapping_basemap_provider=Stamen.Watercolor`."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:156
+msgid ""
+"The Map Browse page will [show slightly different markers than other maps"
+"](#public-view). Rather than display the item title, it will link with "
+"\"View item\". If media has been used to add an image, it will also "
+"display \"View media\" as a link."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:158
+#, fuzzy
+msgid ""
+"![Item mapping marker with label and image](../modules/modulesfiles"
+"/mapping-publicLabelImg2.png)"
+msgstr ""
+"Marqueur avec libellé et image : ![](../modules/modulesfiles/mapping-"
+"publicLabelImg.fr.png)"
+
+#: ../../docs/modules/mapping.md:158
+msgid "Item mapping marker with label and image"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:160
+msgid ""
+"If markers have not been customized, the viewer will simply see \"View "
+"item\"."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:162
+#, fuzzy
+msgid ""
+"![Item mapping marker with no label or image](../modules/modulesfiles"
+"/mapping-publicNoLabel.png)"
+msgstr ""
+"Marqueur sans libellé ni image : ![](../modules/modulesfiles/mapping-"
+"publicNoLabel.fr.png)"
+
+#: ../../docs/modules/mapping.md:162
+msgid "Item mapping marker with no label or image"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:165
+msgid "Page blocks"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:167
+#, fuzzy
+msgid ""
+"Mapping creates two page blocks you can add to your site pages: \"Map by "
+"attachments\", where you manually add resources to the map block; and "
+"\"Map by query\", which allows you to use a search string to add "
+"resources to the map block."
+msgstr ""
+"Mapping crée deux blocs que vous pouvez ajouter à vos pages : \"Map by "
+"attachments\", qui permet d'ajouter manuellement des ressources au bloc ;"
+"  et \"Map by query\" qui permet d'utiliser une chaîne de recherche pour "
+"ajouter des ressources au bloc."
+
+#: ../../docs/modules/mapping.md:169
+#, fuzzy
+msgid ""
+"To add a map to a page, click to edit the page. On the right, under \"Add"
+" new block\", click either the \"Map by attachments\" or \"Map by query\""
+" option (1). Selecting one will open the map block to the page (2). The "
+"blocks include customizable features for the map in collapsable panes. "
+"Click the triangle to expand or collapse these fields (3)."
+msgstr ""
+"Pour ajouter une carte à une page, cliquez pour la modifier. Sur la "
+"droite, sous \"Ajouter un nouveau bloc\", cliquez soit sur \"Map by "
+"attachments\" ou \"Map by query\" (1). Ceci ajoute le bloc de carte à a "
+"page (2). Les deux blocs incluent des options personnalisables pour la "
+"carte. Cliquez sur le triangle pour ouvrir ou refermer ces champs (3)."
+
+#: ../../docs/modules/mapping.md:171
+msgid ""
+"![Screenshot of the Page with Map Block selected. Block includes menu "
+"options Default View, WMS Overlays and "
+"attachments.](../modules/modulesfiles/Mapping_Page_MapBlock1.png)"
+msgstr ""
+"![Capture de la Page avec le bloc de carte sélectionné. Il inclut les "
+"options Default View, WMS Overlays et pièces "
+"jointes](../modules/modulesfiles/Mapping_Page_MapBlock1.fr.png)"
+
+#: ../../docs/modules/mapping.md:171
+#, fuzzy
+msgid ""
+"Screenshot of the Page with Map Block selected. Block includes menu "
+"options Default View, WMS Overlays and attachments."
+msgstr ""
+"![Capture de la Page avec le bloc de carte sélectionné. Il inclut les "
+"options Default View, WMS Overlays et pièces "
+"jointes](../modules/modulesfiles/Mapping_Page_MapBlock1.fr.png)"
+
+#: ../../docs/modules/mapping.md:173
+#, fuzzy
+msgid ""
+"The \"Map by attachments\" and \"Map by query\" blocks have largely the "
+"same settings, with the exception of the methods for adding items to the "
+"map."
+msgstr ""
+"\"Map by attachments\" et \"Map by query\" présentent les mêmes options, "
+"à l'exception de la dernière."
+
+#: ../../docs/modules/mapping.md:175
+msgid "Default view"
+msgstr "Vue par défaut"
+
+#: ../../docs/modules/mapping.md:176
+msgid ""
+"This section lets you set the appearance and zoom level of the map. There"
+" are three fields and a preview map. Within the preview map are buttons "
+"which you can use to set the default zoom and location of the map. If you"
+" do not set a default zoom or location, the map will adjust to display "
+"all resources."
+msgstr ""
+"Cette section permet de définir l'apparence et le niveau de zoom de la "
+"carte. Il y a trois champs et une carte de prévisualisation, qui contient"
+" des boutons pour établir le zoom et la localisation par défaut. Si vous "
+"ne définissez pas de zoom ou de localisation par défaut, la carte "
+"s'ajuste pour afficher toutes les ressources."
+
+#: ../../docs/modules/mapping.md:178
+msgid ""
+"![Map by attachments block open to Default Settings. There is no "
+"information in any field, and the preview map is zoomed in to level "
+"2](../modules/modulesfiles/mappingBlockDefaultView1.png)"
+msgstr ""
+"![Bloc Map by attachments ouvert sur la vue par défaut. Les champs sont "
+"vides et la carte est en zoom niveau "
+"2.](../modules/modulesfiles/mappingBlockDefaultView1.png)"
+
+#: ../../docs/modules/mapping.md:178
+#, fuzzy
+msgid ""
+"Map by attachments block open to Default Settings. There is no "
+"information in any field, and the preview map is zoomed in to level 2"
+msgstr ""
+"![Bloc Map by attachments ouvert sur la vue par défaut. Les champs sont "
+"vides et la carte est en zoom niveau "
+"2.](../modules/modulesfiles/mappingBlockDefaultView1.png)"
+
+#: ../../docs/modules/mapping.md:180
+msgid ""
+"**Basemap provider**: select from a dropdown of basemaps. Once selected, "
+"the preview map will update to show you the appearance of that map. The "
+"default is \"OpenStreetMap.Mapnik\"."
+msgstr ""
+"**Basemap provider** : menu déroulant de fournisseurs pour la carte de "
+"base. Une fois sélectionnée, la carte de prévisualisation s'actualise. Le"
+" fournisseur par défaut est \"OpenStreetMap.Mapnik\"."
+
+#: ../../docs/modules/mapping.md:182
+msgid ""
+"**Minimum zoom level**: set the minimum zoom for the map. Fully zoomed "
+"out is 0."
+msgstr ""
+"**Minimum zoom level** : définir le niveau de zoom minimum de la carte. "
+"Le plus dézoomé correspond à 0."
+
+#: ../../docs/modules/mapping.md:184
+msgid ""
+"**Maximum zoom level**: set the maximum possible zoom level. The highest "
+"is 19. Some basemaps do not function at higher levels; you will want to "
+"check to be sure you set your maximum at a level where you basemap is "
+"visible."
+msgstr ""
+"**Maximum zoom level** : définir le niveau maximum de zoom pour la carte."
+" Le plus zoomé correspond à 19. Certaines cartes de départ ne "
+"fonctionnent pas à ce niveau de zoom ; vérifiez que vous définissez un "
+"niveau de zoom maximum auquel la carte reste visible."
+
+#: ../../docs/modules/mapping.md:186
+msgid ""
+"**Scroll wheel zoom**: set whether users can zoom with their mouse wheel "
+"when hovering over the map, either automatically upon page load or after "
+"clicking inside the map. You can disable mouse-wheel scrolling entirely."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:188
+msgid ""
+"Between the fields and the preview map is a message which tells you the "
+"current zoom level, as you zoom using the plus and minus buttons on the "
+"preview map or the scroll on your comptuer. Use this to help you "
+"determine where you want to set your minimum and maximum zoom levels."
+msgstr ""
+"Entre les champs et la carte, un message indique le niveau de zoom "
+"actuel. Utilisez cette information pour déterminer quels niveaux de zoom "
+"maximum et minimum choisir."
+
+#: ../../docs/modules/mapping.md:190
+msgid "Within the preview map, there are five buttons:"
+msgstr "Sur la carte de prévisualisation elle-même, il y a cinq boutons :"
+
+#: ../../docs/modules/mapping.md:192
+msgid ""
+"Zoom in: The small white square with a black plus sign. Each click zooms "
+"in one step (between 0 and 19)."
+msgstr ""
+"Zoom in : Petit carré blanc avec un signe plus. Chaque clic ajoute un "
+"niveau de zoom (entre 0 et 19)."
+
+#: ../../docs/modules/mapping.md:193
+msgid ""
+"Zoom out: The small white square with black minus sign. Each click zooms "
+"out one step (between 0 and 19)."
+msgstr ""
+"Zoom out : Petit carré blanc avec un signe moins. Chaque clic retire un "
+"niveau de zoom (entre 0 et 19)."
+
+#: ../../docs/modules/mapping.md:194
+msgid ""
+"Set the current view as default view: The small white square with a "
+"target or crosshair symbol. The map will default to a global view. Click "
+"to set the current view as the default view."
+msgstr ""
+"Set the current view as default view : Petit carré blanc avec un symbole "
+"de cible. La vue par défaut est globale. Cliquez pour établir la vue "
+"actuelle comme vue par défaut."
+
+#: ../../docs/modules/mapping.md:195
+msgid ""
+"Go to current default view: The small black square with a black box "
+"around a dot. This option is only available after a default view has been"
+" set. Click to pan and zoom map to the selected view."
+msgstr ""
+"Go to current default view : Petit carré blanc avec une boîte entourant "
+"un point. Cette option n'est disponible qu'une fois la vue par défaut "
+"établie. Cliquez pour revenir à cette vue."
+
+#: ../../docs/modules/mapping.md:196
+msgid ""
+"Clear the default center and zoom level: The small white square with a "
+"black \"X\". Click to clear pan and zoom preferences and return to the "
+"initial global view."
+msgstr ""
+"Clear the default center and zoom level : Petit carré blanc avec un "
+"\"X\". Cliquez pour retirer les préférence et revenir à la vue globale de"
+" départ."
+
+#: ../../docs/modules/mapping.md:198
+msgid ""
+"![closeup of the mapping buttons with labels "
+"added](../modules/modulesfiles/mappingBlockDefMapButtons.png)"
+msgstr ""
+"![capture des boutons de la carte avec des étiquettes "
+"ajoutées](../modules/modulesfiles/mappingBlockDefMapButtons.fr.png)"
+
+#: ../../docs/modules/mapping.md:198
+#, fuzzy
+msgid "closeup of the mapping buttons with labels added"
+msgstr ""
+"![capture des boutons de la carte avec des étiquettes "
+"ajoutées](../modules/modulesfiles/mappingBlockDefMapButtons.fr.png)"
+
+#: ../../docs/modules/mapping.md:200
+msgid "WMS overlays"
+msgstr "Couches WMS"
+
+#: ../../docs/modules/mapping.md:202
+msgid ""
+"Add, edit, and delete [Web Map Service "
+"(WMS)](https://mapserver.org/ogc/wms_server.html) overlays."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:204
+msgid ""
+"**Label**: Create a unique, descriptive label for the map overlay. This "
+"will be visible to visitors and should be used to differentiate between "
+"overlays."
+msgstr ""
+"**Libellé** : Créez un libellé pour la couche WMS. Celui-ci sera visible "
+"par les utilisateurs et doit permettre de différencier les couches."
+
+#: ../../docs/modules/mapping.md:205
 msgid "**Base URL**: Add a URL to the WMS map."
 msgstr "**URL de base** : Ajoutez une URL à la carte WMS."
 
-#: ../../docs/modules/mapping.md:132
-msgid "**Layers**: Any layers you wish to use, separated by commas."
-msgstr "**Couches** : Toutes couches que vous souhaitez utiliser, séparées par des virgules."
+#: ../../docs/modules/mapping.md:206
+#, fuzzy
+msgid ""
+"**Layers**: Any layers you wish to use, separated by commas. This is a "
+"string or strings provided by the WMS host."
+msgstr ""
+"**Couches** : Toutes couches que vous souhaitez utiliser, séparées par "
+"des virgules."
 
-#: ../../docs/modules/mapping.md:133
-msgid "**Styles**: Any styles you wish to use, separated by commas."
-msgstr "**Styles** : Tous styles que vous souhaitez utiliser, séparés par des virgules."
+#: ../../docs/modules/mapping.md:207
+#, fuzzy
+msgid ""
+"**Styles**: Any styles you wish to use, separated by commas. This is a "
+"string or strings provided by the WMS host."
+msgstr ""
+"**Styles** : Tous styles que vous souhaitez utiliser, séparés par des "
+"virgules."
 
-#: ../../docs/modules/mapping.md:135
-msgid "Click Add Overlay to create the overlay. Click _Clear Inputs_ to clear each of the fields. Multiple overlays can be added."
-msgstr "Cliquez sur Ajouter une couche pour créer la couche. Cliquez sur Supprimer les entrées pour vider les champs. Plusieurs couches peuvent être ajoutées."
+#: ../../docs/modules/mapping.md:209
+#, fuzzy
+msgid ""
+"Click \"Add Overlay\" to create the overlay. Click \"Clear Inputs\" to "
+"clear each of the fields. Multiple overlays can be added."
+msgstr ""
+"Cliquez sur Ajouter une couche pour créer la couche. Cliquez sur "
+"Supprimer les entrées pour vider les champs. Plusieurs couches peuvent "
+"être ajoutées."
 
-#: ../../docs/modules/mapping.md:137
-msgid "![Map page block with only the WMS Overlays section open. All of the mentioned fields are empty](../modules/modulesfiles/Mapping_Page_Overlays.png)"
-msgstr "![Bloc de page Carte avec la section WMS ouverte. Les champs sont vides](../modules/modulesfiles/Mapping_Page_Overlays.fr.png)"
+#: ../../docs/modules/mapping.md:211
+msgid ""
+"![Map page block with only the WMS Overlays section open. Two overlays "
+"already exist, one selected to display as default. The form is being "
+"filled with the details for a third "
+"overlay.](../modules/modulesfiles/Mapping_Page_Overlays.png)"
+msgstr ""
 
-#: ../../docs/modules/mapping.md:139
-msgid "Once you have added an overlay, it will appear above the fields for adding overlays."
-msgstr "Une fois que vous avez ajouté une couche, elle s'affiche au-dessus des champs pour ajouter d'autres couches."
+#: ../../docs/modules/mapping.md:211
+msgid ""
+"Map page block with only the WMS Overlays section open. Two overlays "
+"already exist, one selected to display as default. The form is being "
+"filled with the details for a third overlay."
+msgstr ""
 
-#: ../../docs/modules/mapping.md:141
-msgid "Choose a default overlay by checking the box next to it. Edit an overlay by clicking on on the red pencil edit button, or click the red trashcan icon to delete the overlay."
-msgstr "Choisissez une couche par défaut en cochant la case qui l'accompagne. Modifiez une couche en cliquant sur le bouton crayon rouge ou cliquez sur l'icône poubelle pour supprimer la couche."
+#: ../../docs/modules/mapping.md:213
+msgid ""
+"Once you have added an overlay, it will appear above the fields for "
+"adding overlays. If you would like one or more of the overlays to display"
+" automatically when the page loads, check the box next to it. Edit an "
+"overlay by clicking on on the red pencil edit button, or click the red "
+"trashcan icon to delete the overlay."
+msgstr ""
 
-#: ../../docs/modules/mapping.md:143
-msgid "![Screenshot of the WMS Overlays with empty fields and the US and Territories overlay above the fields. A blue arrow points to the overlay](../modules/modulesfiles/Mapping_Page_Overlays2.png)"
-msgstr "![Capture des couches WMS avec champs vides et la couche US et Territoires au-dessus. Une flèche pointe vers la couche](../modules/modulesfiles/Mapping_Page_Overlays2.fr.png)"
-
-#: ../../docs/modules/mapping.md:145
+#: ../../docs/modules/mapping.md:215
 msgid "Timeline"
 msgstr "Timeline"
 
-#: ../../docs/modules/mapping.md:146
-msgid "Timeline adds a timeline display to the left of the map view. Note that this feature requires the [Numeric Data Types](../modules/numericdatatypes.md) module and at least one item that has a property with a Timestamp or Interval value (applied via the [resource template](../content/resource-template.md))."
-msgstr "Timeline ajoute une vue chronologique à la gauche de la carte. Cet affichage est dépendant du module [Numeric Data Types](../modules/numericdatatypes.md) et nécessite au moins un contenu avec une propriété Horodatage ou Intervalle (appliquée via le [modèle de ressource](../content/resource-template.md))."
+#: ../../docs/modules/mapping.md:217
+msgid ""
+"Timeline adds a timeline display to the left of the map view. Note that "
+"this feature requires the [Numeric Data "
+"Types](../modules/numericdatatypes.md) module and at least one item that "
+"has a property with a Timestamp or Interval value (applied via the "
+"[resource template](../content/resource-template.md))."
+msgstr ""
+"Timeline ajoute une vue chronologique à la gauche de la carte. Cet "
+"affichage est dépendant du module [Numeric Data "
+"Types](../modules/numericdatatypes.md) et nécessite au moins un contenu "
+"avec une propriété Horodatage ou Intervalle (appliquée via le [modèle de "
+"ressource](../content/resource-template.md))."
 
-#: ../../docs/modules/mapping.md:148
-msgid "**Title headline**: displays on the first slide of the timeline (see [\"Timeline public view\"](#timeline-public-view) below). You can use this to name the timeline."
-msgstr "**Title headline** : s'affiche sur la première slide de la chronologie (voir [\"Affichage public de la chronologie\"](#timeline-public-view) ci-dessous). Cette propriété vous permet de nommer la chronologie."
+#: ../../docs/modules/mapping.md:219
+msgid ""
+"**Title headline**: displays on the first slide of the timeline (see "
+"[\"Timeline public view\"](#timeline-public-view) below). You can use "
+"this to name the timeline."
+msgstr ""
+"**Title headline** : s'affiche sur la première slide de la chronologie "
+"(voir [\"Affichage public de la chronologie\"](#timeline-public-view) ci-"
+"dessous). Cette propriété vous permet de nommer la chronologie."
 
-#: ../../docs/modules/mapping.md:149
-msgid "**Title text**: appears below the title headline on the first slide of the timeline (see [\"Timeline public view\"](#timeline-public-view) below). You can use this to provide context or narrative introduction for the timeline."
-msgstr "**Title text** : s'affiche sous le titre sur la première slide de la chronologie (voir [\"Affichage public de la chronologie\"](#timeline-public-view) ci-dessous). Cette propriété vous permet de donner des éléments de contexte ou de narration."
+#: ../../docs/modules/mapping.md:220
+msgid ""
+"**Title text**: appears below the title headline on the first slide of "
+"the timeline (see [\"Timeline public view\"](#timeline-public-view) "
+"below). You can use this to provide context or narrative introduction for"
+" the timeline."
+msgstr ""
+"**Title text** : s'affiche sous le titre sur la première slide de la "
+"chronologie (voir [\"Affichage public de la chronologie\"](#timeline-"
+"public-view) ci-dessous). Cette propriété vous permet de donner des "
+"éléments de contexte ou de narration."
 
-#: ../../docs/modules/mapping.md:150
-msgid "**Fly to**: is a dropdown menu where you can set the zoom level for each point in the timeline on the map. Your options are default view, or zoom levels 0-18 (even numbers only). The higher the number, the more zoomed in the map will be."
-msgstr "**Fly to** : menu déroulant qui permet d'établir le niveau de zoom pour chaque élément de la chronologie dans son affichage sur la carte. Les options sont la vue par défaut, ou des niveaux de zoom de 0 à 18. Le plus haut le nombre, le plus la carte sera zoomée."
+#: ../../docs/modules/mapping.md:221
+msgid ""
+"**Fly to**: is a dropdown menu where you can set the zoom level for each "
+"point in the timeline on the map. Your options are default view, or zoom "
+"levels 0-18 (even numbers only). The higher the number, the more zoomed "
+"in the map will be."
+msgstr ""
+"**Fly to** : menu déroulant qui permet d'établir le niveau de zoom pour "
+"chaque élément de la chronologie dans son affichage sur la carte. Les "
+"options sont la vue par défaut, ou des niveaux de zoom de 0 à 18. Le plus"
+" haut le nombre, le plus la carte sera zoomée."
 
-#: ../../docs/modules/mapping.md:151
-msgid "Note that the transition between points is animated, so if you have very distant points the shift between them will involve a significant zoom out and in."
-msgstr "Notez que la transition entre les différentes localisation est animée : si celles-ci sont très éloignées, la transition consistera en un fort zoom arrière puis avant."
+#: ../../docs/modules/mapping.md:222
+msgid ""
+"Note that the transition between points is animated, so if you have very "
+"distant points the shift between them will involve a significant zoom out"
+" and in."
+msgstr ""
+"Notez que la transition entre les différentes localisation est animée : "
+"si celles-ci sont très éloignées, la transition consistera en un fort "
+"zoom arrière puis avant."
 
-#: ../../docs/modules/mapping.md:152
-msgid "**Show contemporaneous events**: sets how two events with the same timestamp or interval are displayed. If checked, contemporaneous events will both display in the map when active in the story slider."
-msgstr "**Show contemporaneous events?** : définit l'affichage de deux événements ayant le même horodatage ou le même intervalle temporel. Si la case est cochée, les événements contemporains s'afficheront tous deux sur la carte en même temps."
+#: ../../docs/modules/mapping.md:223
+msgid ""
+"**Show contemporaneous events**: sets how two events with the same "
+"timestamp or interval are displayed. If checked, contemporaneous events "
+"will both display in the map when active in the story slider."
+msgstr ""
+"**Show contemporaneous events?** : définit l'affichage de deux événements"
+" ayant le même horodatage ou le même intervalle temporel. Si la case est "
+"cochée, les événements contemporains s'afficheront tous deux sur la carte"
+" en même temps."
 
-#: ../../docs/modules/mapping.md:153
-msgid "For timestamp properties, if two events have a date of \"1 January 2000,\" both events will show on the map when either is in the story slider."
-msgstr "S'il s'agit de deux événements avec le même horodatage, par exemple \"1er janvier 2001\", ils seront tous deux affichés sur la carte quand l'un ou l'autre apparaîtra dans les slides."
+#: ../../docs/modules/mapping.md:224
+msgid ""
+"For timestamp properties, if two events have a date of \"1 January "
+"2000,\" both events will show on the map when either is in the story "
+"slider."
+msgstr ""
+"S'il s'agit de deux événements avec le même horodatage, par exemple \"1er"
+" janvier 2001\", ils seront tous deux affichés sur la carte quand l'un ou"
+" l'autre apparaîtra dans les slides."
 
-#: ../../docs/modules/mapping.md:154
-msgid "For interval properties, if one event has an interval of \"28 July 1914 - 11 November 1918\" and another has an interval of \"January 1819- December 1920\" both events will show on the map when either is in the story slider."
-msgstr "S'il s'agit d'intervalle se chevauchant, par exemple si un événement correspond à l'intervalle \"28 juillet 1914-11 novembre 1918\" et l'autre à l'intervalle \"Janvier 1819-décembre 1920\", les deux événements s'afficheront sur la carte lorsque l'un ou l'autre apparaît dans les slides."
+#: ../../docs/modules/mapping.md:225
+msgid ""
+"For interval properties, if one event has an interval of \"28 July 1914 -"
+" 11 November 1918\" and another has an interval of \"January 1819- "
+"December 1920\" both events will show on the map when either is in the "
+"story slider."
+msgstr ""
+"S'il s'agit d'intervalle se chevauchant, par exemple si un événement "
+"correspond à l'intervalle \"28 juillet 1914-11 novembre 1918\" et l'autre"
+" à l'intervalle \"Janvier 1819-décembre 1920\", les deux événements "
+"s'afficheront sur la carte lorsque l'un ou l'autre apparaît dans les "
+"slides."
 
-#: ../../docs/modules/mapping.md:155
-msgid "Note that this setting only works with the default view of Timeline navigation position."
-msgstr "Ce paramètre ne fonctionne qu'avec la vue par défaut de la position de navigation chronologique définie ci-dessous."
+#: ../../docs/modules/mapping.md:226
+msgid ""
+"Note that this setting only works with the default view of Timeline "
+"navigation position."
+msgstr ""
+"Ce paramètre ne fonctionne qu'avec la vue par défaut de la position de "
+"navigation chronologique définie ci-dessous."
 
-#: ../../docs/modules/mapping.md:156
-msgid "**Timeline navigation position**: by default, the timeline displays with the story slider, to the left of the map. Using this dropdown, you can change where the story slider displays. Options are:"
-msgstr "**Timeline navigation position** : par défaut, la chronologie s'affiche dans les slides à gauche de la carte. Vous pouvez changez son emplacement avec les options de ce menu déroulant :"
+#: ../../docs/modules/mapping.md:227
+msgid ""
+"**Timeline navigation position**: by default, the timeline displays with "
+"the story slider, to the left of the map. Using this dropdown, you can "
+"change where the story slider displays. Options are:"
+msgstr ""
+"**Timeline navigation position** : par défaut, la chronologie s'affiche "
+"dans les slides à gauche de la carte. Vous pouvez changez son emplacement"
+" avec les options de ce menu déroulant :"
 
-#: ../../docs/modules/mapping.md:157
+#: ../../docs/modules/mapping.md:228
 msgid "Default position"
 msgstr "Position par défaut"
 
-#: ../../docs/modules/mapping.md:158
+#: ../../docs/modules/mapping.md:229
 msgid "Full width, below story slider and map"
 msgstr "Pleine largeur, en dessous des slides et de la carte"
 
-#: ../../docs/modules/mapping.md:159
+#: ../../docs/modules/mapping.md:230
 msgid "Full width, above story slider and map."
 msgstr "Pleine largeur, au-dessus des slides et de la carte."
 
-#: ../../docs/modules/mapping.md:160
-msgid "**Property**: a dropdown menu; select the timestamp or interval property to use when populating the timeline. The dropdown menu will populate with the properties which have been defined in a resource type as using numeric data types Interval or Timestamp."
-msgstr "**Propriété** : menu déroulant ; sélectionnez la propriété d'horodatage ou d'intervalle temporel à utiliser pour remplir la chronologie. Le menu déroulant affiche les propriétés qui ont été définies comme utilisant les types de données numériques Intervalle ou Horodatage."
+#: ../../docs/modules/mapping.md:231
+msgid ""
+"**Property**: a dropdown menu; select the timestamp or interval property "
+"to use when populating the timeline. The dropdown menu will populate with"
+" the properties which have been defined in a resource type as using "
+"numeric data types Interval or Timestamp."
+msgstr ""
+"**Propriété** : menu déroulant ; sélectionnez la propriété d'horodatage "
+"ou d'intervalle temporel à utiliser pour remplir la chronologie. Le menu "
+"déroulant affiche les propriétés qui ont été définies comme utilisant les"
+" types de données numériques Intervalle ou Horodatage."
 
-#: ../../docs/modules/mapping.md:161
-msgid "You may want to make a note of which property and numeric data type you are using before creating the map block. The dropdown only displays the term and data type but not which template it is associated with, for example `Date Created (numeric:timestamp)`."
-msgstr "Il est conseillé de noter quelles propriétés et types de données numériques vous utilisez avant de créer le bloc de la carte. Le menu déroulant n'affiche que les termes et types de données mais pas les modèles de ressources auxquels ils sont associés : par exemple, `Date (numeric:timestamp)`."
+#: ../../docs/modules/mapping.md:232
+msgid ""
+"You may want to make a note of which property and numeric data type you "
+"are using before creating the map block. The dropdown only displays the "
+"term and data type but not which template it is associated with, for "
+"example `Date Created (numeric:timestamp)`."
+msgstr ""
+"Il est conseillé de noter quelles propriétés et types de données "
+"numériques vous utilisez avant de créer le bloc de la carte. Le menu "
+"déroulant n'affiche que les termes et types de données mais pas les "
+"modèles de ressources auxquels ils sont associés : par exemple, `Date "
+"(numeric:timestamp)`."
 
-#: ../../docs/modules/mapping.md:162
-msgid "Noted that you can only select *one* property per timeline. You cannot mix timestamp and interval data."
-msgstr "À noter, vous ne pouvez sélectionnez *qu'une seule* propriété par chronologie. Vous ne pouvez pas mélanger des données d'horodatage et d'intervalle."
+#: ../../docs/modules/mapping.md:233
+msgid ""
+"Noted that you can only select *one* property per timeline. You cannot "
+"mix timestamp and interval data."
+msgstr ""
+"À noter, vous ne pouvez sélectionnez *qu'une seule* propriété par "
+"chronologie. Vous ne pouvez pas mélanger des données d'horodatage et "
+"d'intervalle."
 
-#: ../../docs/modules/mapping.md:164
-msgid "![Mapping block with all options collapsed except Timeline, which shows options as described, all empty](../modules/modulesfiles/mapping-timelineBlock.png)"
-msgstr "![Bloc de cartographie avec toutes les options réduites sauf Timeline, qui affiche les options telles que décrites ci-dessus, toutes vides](../modules/modulesfiles/mapping-timelineBlock.fr.png)"
+#: ../../docs/modules/mapping.md:235
+msgid ""
+"![Mapping block with all options collapsed except Timeline, which shows "
+"options as described, all empty](../modules/modulesfiles/mapping-"
+"timelineBlock.png)"
+msgstr ""
+"![Bloc de cartographie avec toutes les options réduites sauf Timeline, "
+"qui affiche les options telles que décrites ci-dessus, toutes "
+"vides](../modules/modulesfiles/mapping-timelineBlock.fr.png)"
 
-#: ../../docs/modules/mapping.md:166
-msgid "To remove the timeline from a map block, click the \"X\" on the far right of the Property dropdown."
-msgstr "Pour retirer la chronologie d'un bloc de carte, cliquez sur le \"X\" à la droite du menu déroulant Propriété."
+#: ../../docs/modules/mapping.md:235
+#, fuzzy
+msgid ""
+"Mapping block with all options collapsed except Timeline, which shows "
+"options as described, all empty"
+msgstr ""
+"![Bloc de cartographie avec toutes les options réduites sauf Timeline, "
+"qui affiche les options telles que décrites ci-dessus, toutes "
+"vides](../modules/modulesfiles/mapping-timelineBlock.fr.png)"
 
-#: ../../docs/modules/mapping.md:168
-msgid "To see how the various settings of the timeline block appear on the public side, please see the [Timeline Public View](#timeline-public-view) section below."
-msgstr "Pour vois l'affichage public des différents paramétrages, voir la section [Vue publique de la chronologie](#timeline-public-view) ci-dessous."
+#: ../../docs/modules/mapping.md:237
+msgid ""
+"To remove the timeline from a map block, click the \"X\" on the far right"
+" of the Property dropdown."
+msgstr ""
+"Pour retirer la chronologie d'un bloc de carte, cliquez sur le \"X\" à la"
+" droite du menu déroulant Propriété."
 
-#: ../../docs/modules/mapping.md:170
+#: ../../docs/modules/mapping.md:239
+msgid ""
+"To see how the various settings of the timeline block appear on the "
+"public side, please see the [Timeline Public View](#timeline-public-view)"
+" section below."
+msgstr ""
+"Pour vois l'affichage public des différents paramétrages, voir la section"
+" [Vue publique de la chronologie](#timeline-public-view) ci-dessous."
+
+#: ../../docs/modules/mapping.md:241
 msgid "Attachments (Map by attachments block)"
 msgstr "Bloc Map by attachments"
 
-#: ../../docs/modules/mapping.md:172
+#: ../../docs/modules/mapping.md:243
 msgid "Markers are added to the map using Items."
 msgstr "Des marqueurs sont ajoutés à la carte en utilisant des Contenus."
 
-#: ../../docs/modules/mapping.md:174
-msgid "Click \"Add Attachment\" (1) to select them from a list on the right (2). Note: This list will only be populated by items that have at least one location added to them (when editing the item)."
-msgstr "Cliquez sur \"Ajouter une pièce jointe\" (1) pour sélectionner des contenus au sein de la liste qui s'affiche dans le volet de droite. Note : cette listes ne contient que les contenus qui ont au moins une localisation associée (lors de la création ou de la modification de ces contenus)."
+#: ../../docs/modules/mapping.md:245
+msgid ""
+"Click \"Add Attachment\" (1) to select them from a list on the right (2)."
+" Note: This list will only be populated by items that have at least one "
+"location added to them (when editing the item)."
+msgstr ""
+"Cliquez sur \"Ajouter une pièce jointe\" (1) pour sélectionner des "
+"contenus au sein de la liste qui s'affiche dans le volet de droite. Note "
+": cette listes ne contient que les contenus qui ont au moins une "
+"localisation associée (lors de la création ou de la modification de ces "
+"contenus)."
 
-#: ../../docs/modules/mapping.md:175
+#: ../../docs/modules/mapping.md:246
 msgid "Clicking an item adds it to a list in the Attachments pane (3)."
-msgstr "En cliquant sur un contenu, vous l'ajoutez à la liste des pièces jointes (3)."
+msgstr ""
+"En cliquant sur un contenu, vous l'ajoutez à la liste des pièces jointes "
+"(3)."
 
-#: ../../docs/modules/mapping.md:176
+#: ../../docs/modules/mapping.md:247
 msgid "Click and drag items in this list to reorder them."
 msgstr "Cliquez et déplacez les contenus de la liste pour les réorganiser."
 
-#: ../../docs/modules/mapping.md:177
+#: ../../docs/modules/mapping.md:248
 msgid "Delete items by clicking the red trashcan."
 msgstr "Supprimez des contenus en cliquant sur l'icône de poubelle."
 
-#: ../../docs/modules/mapping.md:179
-msgid "![Screenshot of the map with Add Attachment selected. On the right a list of items.](../modules/modulesfiles/Mapping_pageAttachments.png)"
-msgstr "![Capture de la carte avec \"Ajouter une pièce jointe\" sélectionné. Sur la droite une liste de contenus.](../modules/modulesfiles/Mapping_pageAttachments.fr.png)"
+#: ../../docs/modules/mapping.md:250
+msgid ""
+"![Screenshot of the map with Add Attachment selected. On the right a list"
+" of items.](../modules/modulesfiles/Mapping_pageAttachments.png)"
+msgstr ""
+"![Capture de la carte avec \"Ajouter une pièce jointe\" sélectionné. Sur "
+"la droite une liste de "
+"contenus.](../modules/modulesfiles/Mapping_pageAttachments.fr.png)"
 
-#: ../../docs/modules/mapping.md:181
-msgid "To add multiple items at once, click the \"Quick add\" slider just above the list of items in the right hand drawer. This will add a checkbox to the left of each item. Check the boxes of those items you want to add to the map, then click the \"Add selected\" button at the bottom of the drawer."
-msgstr "Pour ajouter plusieurs contenus à la fois, cliquez sur l'interrupteur \"Ajout rapide\" au-dessus de la liste de contenus dans le volet de droite. Cette option ajoute une case à cocher à la gauche de chaque contenu. Cochez les cases des contenus que vous souhaitez ajouter à la carte, puis cliquez sur le bouton \"Ajouter la sélection\" en bas du volet."
+#: ../../docs/modules/mapping.md:250
+#, fuzzy
+msgid ""
+"Screenshot of the map with Add Attachment selected. On the right a list "
+"of items."
+msgstr ""
+"![Capture de la carte avec \"Ajouter une pièce jointe\" sélectionné. Sur "
+"la droite une liste de "
+"contenus.](../modules/modulesfiles/Mapping_pageAttachments.fr.png)"
 
-#: ../../docs/modules/mapping.md:183
-msgid "![Drawer with bulk add option activated](../modules/modulesfiles/Mapping-bulkAttachments.png)"
-msgstr "![Volet avec ajout rapide activé](../modules/modulesfiles/Mapping-bulkAttachments.fr.png)"
+#: ../../docs/modules/mapping.md:252
+msgid ""
+"To add multiple items at once, click the \"Quick add\" slider just above "
+"the list of items in the right hand drawer. This will add a checkbox to "
+"the left of each item. Check the boxes of those items you want to add to "
+"the map, then click the \"Add selected\" button at the bottom of the "
+"drawer."
+msgstr ""
+"Pour ajouter plusieurs contenus à la fois, cliquez sur l'interrupteur "
+"\"Ajout rapide\" au-dessus de la liste de contenus dans le volet de "
+"droite. Cette option ajoute une case à cocher à la gauche de chaque "
+"contenu. Cochez les cases des contenus que vous souhaitez ajouter à la "
+"carte, puis cliquez sur le bouton \"Ajouter la sélection\" en bas du "
+"volet."
 
-#: ../../docs/modules/mapping.md:185
-msgid "Query (Map by query block)"
-msgstr "Bloc Map by query"
+#: ../../docs/modules/mapping.md:254
+msgid ""
+"![Drawer with bulk add option activated](../modules/modulesfiles/Mapping-"
+"bulkAttachments.png)"
+msgstr ""
+"![Volet avec ajout rapide activé](../modules/modulesfiles/Mapping-"
+"bulkAttachments.fr.png)"
 
-#: ../../docs/modules/mapping.md:186
-msgid "In order to use this block, you will need to run a query, or search, in your items. From the search results page, copy everything in your browser's address bar starting with the question mark all the way to the end of the search url (to the right)."
-msgstr "Pour utilisez ce bloc, il faut lancer une requête (ou recherche) dans les contenus. Copiez l'url qui s'affiche dans la barre d'adresse, du point d'interrogation à la fin."
-
-#: ../../docs/modules/mapping.md:188
-msgid "![The address bar and very top of a search results page.](../sites/sitesfiles/sitespg_bpquery.png)"
-msgstr "![la barre d'adresse et le haut d'une page de résultats](../sites/sitesfiles/sitespg_bpquery.png)"
-
-#: ../../docs/modules/mapping.md:190
-msgid "Paste the query string into the Query field in the Map by query block. Note that at no point will items display on the admin side. You will need to go to the public view to see the items which result from your query."
-msgstr "Coller la requête dans le champ de requête du bloc Map by query. Aucun contenu ne s'affiche sur l'interface administrateur. Il faut se rendre sur la vue publique pour voir le résultat de la recherche."
-
-#: ../../docs/modules/mapping.md:192
-msgid "![A map by query block open to the Query section. There is a query pasted into the field.](../modules/modulesfiles/mapping-blockQuery.png)"
-msgstr "![Bloc Map by query avec un requête collée dans le champ concerné.](../modules/modulesfiles/mapping-blockQuery.png)"
-
-#: ../../docs/modules/mapping.md:194
-msgid "Public view"
-msgstr "Vue publique"
-
-#: ../../docs/modules/mapping.md:195
-msgid "A map block will display on a public page at full page width. If you have settings in the [default view](#default-view) of the block, these should be applied. Otherwise the block will zoom so that all of the items are visible."
-msgstr "Un bloc de carte s'affiche sur l'interface publique avec une carte de la largeur de la page. Si vous n'avez pas activé la vue par défaut, le bloc sera zoomé pour que tous les contenus soient visibles."
-
-#: ../../docs/modules/mapping.md:197
-msgid "Viewers can zoom either using the scroll function of their computer or the Zoom in/out buttons on the left side of the map."
-msgstr "Les utilisateurs peuvent zoomer en utilisant l'option de défilement de leur souris ou de leur pavé tactile, ou en utilisant les boutons idoines sur la gauche de la carte."
-
-#: ../../docs/modules/mapping.md:199
-msgid "![Map block with three individual markers and two green cluster circles of two markers. The map shows a portion of southern England.](../modules/modulesfiles/mapping-public.png)"
-msgstr "![Carte avec trois marqueurs et des clusters verts](../modules/modulesfiles/mapping-public.fr.png)"
-
-#: ../../docs/modules/mapping.md:201
-msgid "Each item will display as a marker on the map. Markers which are close together will display as a cluster circle, with a number indicating how many items share that location. As you zoom in, these clusters may break open."
-msgstr "Chaque contenu est représenté par un marqueur sur la carte. Les marqueurs proches les uns des autres sont signalés par un cercle de concentration vert, avec un nombre indiquer combien de contenu se trouvent à cette localisation. Lorsque les utilisateurs zooment, les cercles de concentration peuvent ou non se défaire."
-
-#: ../../docs/modules/mapping.md:203
-msgid "Clicking on a marker will open a label for that marker. If you have not added a label or image for the marker, it will simply say \"view item.\" If you have added a label, it will show the label, as well as representative media and a link to the media if the marker has one."
-msgstr "Lorsque vous cliquez sur un marqueur, son étiquette s'affiche. Si vous n'avez pas ajouté d'image ou de libellé pour ce marqueur, vous trouverez simplement l'indication \"voir le contenu\". Si vous avez ajouté un libellé, celui-ci s'affiche, tout comme le média associé ainsi qu'un lien vers celui-ci."
-
-#: ../../docs/modules/mapping.md:205
-msgid "Item mapping marker with label only: ![](../modules/modulesfiles/mapping-publicLabel.png)"
-msgstr "Marqueur avec seulement un libellé :  ![](../modules/modulesfiles/mapping-publicLabel.fr.png)"
-
-#: ../../docs/modules/mapping.md:208
-msgid "Item mapping marker with label and image: ![](../modules/modulesfiles/mapping-publicLabelImg.png)"
-msgstr "Marqueur avec libellé et image : ![](../modules/modulesfiles/mapping-publicLabelImg.fr.png)"
-
-#: ../../docs/modules/mapping.md:211
-msgid "Item mapping marker with no label or image: ![](../modules/modulesfiles/mapping-publicNoLabel.png)"
-msgstr "Marqueur sans libellé ni image : ![](../modules/modulesfiles/mapping-publicNoLabel.fr.png)"
-
-#: ../../docs/modules/mapping.md:214
-msgid "Timeline public view"
-msgstr "Vue publique de la chronologie"
-
-#: ../../docs/modules/mapping.md:215
-msgid "On the public side, the timeline will display to the left of the map, or above the map on mobile views. Each item appears on both the map and the timeline."
-msgstr "Sur l'interface publique, la chronologie s'affiche à la gauche de la carte, ou au-dessus de celle-ci pour les utilisateurs mobiles. Chaque contenu apparaît à la fois sur la carte et dans la chronologie."
-
-#: ../../docs/modules/mapping.md:217
-msgid "On a map block with timeline, the block initially loads with the map either at default view or zoomed to display all markers. The timeline will display the title headline and text, as seen below:"
-msgstr "Sur un bloc de carte avec chronologie, la carte est intialement chargée avec une vue par défaut ou zoomée pour contenir tous les marqueurs. La chronologie affiche d'abord son titre et sa description, comme ci-dessous :"
-
-#: ../../docs/modules/mapping.md:219
-msgid "![Map block with timeline, displaying the first slide of the timeline. There are two lines of text, a larger font reading \"Title Headline\" and below it smaller font reading \"title text\".](../modules/modulesfiles/mapping-timelinePublic1.png)"
-msgstr "![Bloc de carte avec chronologie, affichant la première slide de la chronologie](../modules/modulesfiles/mapping-timelinePublic1.fr.png)"
-
-#: ../../docs/modules/mapping.md:221
-msgid "In the timeline half of the display, information appears on the top and the timeline on the bottom. The timeline viewer has zoom buttons which increase or decrease the horizontal display of time (zoom in for year by year, zoom out to see decades at once). The arrow below them returns the viewer to the title slide."
-msgstr "Dans la partie chronologie de l'affichage, les informations s'affichent au-dessus de la chronologie. La visionneuse de chronologie comprend aussi des bouton de zoom pour l'affichage temporel horizontal (zoomez pour voir les années, dézoomez pour les décennies entières)."
-
-#: ../../docs/modules/mapping.md:223
-msgid "When mousing over the timeline, the cursor changes to a four-directional arrow. Viewers can hold and drag left and right to scroll through the timeline. They can also navigate between items using the semi-opaque right and left arrows on the information area of the display."
-msgstr "L'utilisateur peut cliquer et déplacer sa souris pour naviguer vers la droite ou la gauche de la chronologie. Les flèches sous les boutons de zoom permettent de naviguer entre les slides."
-
-#: ../../docs/modules/mapping.md:225
-msgid "Clicking on a maker will display that item's date or interval, title, description, and attached image. The information area has a scroll bar for longer material. The title acts as a link to the item's show page."
-msgstr "Si vous cliquez sur un marqueur, la date ou l'intervalle s'affiche, ainsi que le titre, la description et l'image associée. La partie information a une barre de navigation pour les descriptions plus longues. Le titre est cliquable et renvoie vers la page du contenu."
-
-#: ../../docs/modules/mapping.md:227
-msgid "![Map block with timeline, displaying the interval item \"Steventon Rectory, 1775-1801\". The information area includes the beginning of a long paragraph describing the item. The marker for the rectory in the timeline runs off the right side of the timeline, which displays 1760-1800.](../modules/modulesfiles/mapping-timelinePublic2.png)"
-msgstr "![Bloc de carte avec chronologie, montrant un intervalle ou une date. Long paragraphe dans la partie information.](../modules/modulesfiles/mapping-timelinePublic2.png)"
-
-#: ../../docs/modules/mapping.md:229
-msgid "Whenever an item is selected, its marker in the timeline will show up with a highlight to indicate that it is active."
-msgstr "Quand un contenu est sélectionné, son marqueur apparaît dans la chronologie en surbrillance."
-
-#: ../../docs/modules/mapping.md:231
-msgid "**Numeric:Interval appearance** Interval properties display as a long bar running horizontally across the timeline, with bars reaching down to the timeline at the start and end dates of the interval. Overlapping intervals will stack."
-msgstr "**Affichage de Numeric:Interval** La propriété \"Interval\" est représentée par une longue barre horizontale encadrée par des crochets en début et fin d'intervalle. Les intervalles peuvent se chevaucher."
-
-#: ../../docs/modules/mapping.md:234
-msgid "![Interval timeline with both Steventon Rectory and Reading Abbey Girls' School. The latter is open and highlighted in the timeline display; it is shorter than and nested under the timeline display for the Rectory.](../modules/modulesfiles/mapping-timelinePublic3.png)"
-msgstr "![Deux intervalles qui se chevauchent, l'un est activé et l'autre non](../modules/modulesfiles/mapping-timelinePublic3.fr.png)"
-
-#: ../../docs/modules/mapping.md:236
-msgid "**Numeric:Timestamp appearance** Timestamp properties display as a flag on the timeline, with one bar anchoring them to the timeline. Items which overlap either due to date or long text will stack."
-msgstr "**Affichage de Numeric:Timestamp** La propriété \"Horodatage\" est représentée par un drapeau dont le mât le raccroche à la chronologie. Les contenus peuvent se chevaucher."
-
-#: ../../docs/modules/mapping.md:239
-msgid "![Timestamp timeline showing markers for the births of Cassandra and Jane Austen in the 1770s](../modules/modulesfiles/mapping-timelinePublic4.png)"
-msgstr "![Marqueurs de dates qui se chevauchent](../modules/modulesfiles/mapping-timelinePublic4.png)"
-
-#: ../../docs/modules/mapping.md:241
-msgid "**Timeline navigation position** If you select \"full width, below story slider and map\" in the \"Timeline navigation position\" dropdown, the timeline and map will display as follows:"
-msgstr "**Position de navigation dans la chronologie** Si vous sélectionnez \"full width, below story slider and map\" dans le menu déroulant \"Timeline navigation position\", la chronologie s'affiche comme suit :"
-
-#: ../../docs/modules/mapping.md:244
-msgid "![Timeline start page slide, with the timeline displaying full width below the map and story slider](../modules/modulesfiles/mapping-timelinePublicBelow.png)"
-msgstr "![Chronologie en-dessous de la carte](../modules/modulesfiles/mapping-timelinePublicBelow.fr.png)"
-
-#: ../../docs/modules/mapping.md:246
-msgid "If you select \"full width, above story slider and map\", the display will be similar but with the timeline above."
-msgstr "Si vous sélectionnez \"full width, above story slider and map\", la chronologie apparaît au-dessus de la carte."
-
-#: ../../docs/modules/mapping.md:248
-msgid "**Show contemporaneous events** When \"show contemporaneous events\" is checked, the map zooms to display all events which take place on the same day."
-msgstr "**Affichez les événements contemporains** Quand la case \"show contemporaneous events\" est cochée, la carte est zoomée pour afficher tous les événements qui ont lieu le même jour."
-
-#: ../../docs/modules/mapping.md:251
-msgid "In the image below, the timeline is using interval data. The event \"Reading Abbey Girls' School\" (March 1785 - December 1786) takes place within the same period as \"Steventon Rectory\" (1775-1801), so the map is zoomed out to display the location markers for both events."
-msgstr "Dans la capture ci-dessous, la chronologie utilise des données d'intervalle. L'événement \"Revue passée par le Prince...\" a lieu durant la même période que l'événement \"La Butte Montmartre\" : la carte est zoomée pour afficher les marqueurs de localisation des deux événements."
-
-#: ../../docs/modules/mapping.md:253
-msgid "![image as described](../modules/modulesfiles/mapping-timelinePublicSCE.png)"
-msgstr "![image telle que décrite](../modules/modulesfiles/mapping-timelinePublicSCE.fr.png)"
-
-#: ../../docs/modules/mapping.md:255
-msgid "Troubleshooting"
+#: ../../docs/modules/mapping.md:254
+msgid "Drawer with bulk add option activated"
 msgstr ""
 
 #: ../../docs/modules/mapping.md:256
-msgid "If you would like to remove the mapping location from an item, you must delete all the map modifications. First, delete each marker (click the \"Delete a Marker\" button, select the markers, click to save). Then clear the map view settings (click the \"Clear the default center and zoom level\" button). The map will return to a global view. Save the item and confirm that the map no longer appears."
-msgstr "Pour retirer les informations cartographiques d'un contenu, vous devez supprimer toutes les modifications de la carte associée. D'abord, supprimez tous les marqueurs (cliquez sur le bouton \"Supprimer un marqueur\", sélectionnez les marqueurs, cliquez pour enregistrer). Ensuite, supprimez les paramétrages de vue de la carte (cliquez sur \"Clear the default center and zoom level\"). La carte retourne à sa vue par défaut. Enregistrez le contenu et vérifiez que la carte n'apparaisse plus."
+msgid "Query (Map by query block)"
+msgstr "Bloc Map by query"
+
+#: ../../docs/modules/mapping.md:257
+msgid ""
+"In order to use this block, you will need to run a query, or search, in "
+"your items. From the search results page, copy everything in your "
+"browser's address bar starting with the question mark all the way to the "
+"end of the search url (to the right)."
+msgstr ""
+"Pour utilisez ce bloc, il faut lancer une requête (ou recherche) dans les"
+" contenus. Copiez l'url qui s'affiche dans la barre d'adresse, du point "
+"d'interrogation à la fin."
+
+#: ../../docs/modules/mapping.md:259
+msgid ""
+"![The address bar and very top of a search results "
+"page.](../sites/sitesfiles/sitespg_bpquery.png)"
+msgstr ""
+"![la barre d'adresse et le haut d'une page de "
+"résultats](../sites/sitesfiles/sitespg_bpquery.png)"
+
+#: ../../docs/modules/mapping.md:259
+#, fuzzy
+msgid "The address bar and very top of a search results page."
+msgstr ""
+"![la barre d'adresse et le haut d'une page de "
+"résultats](../sites/sitesfiles/sitespg_bpquery.png)"
+
+#: ../../docs/modules/mapping.md:261
+msgid ""
+"Paste the query string into the Query field in the Map by query block. "
+"Note that at no point will items display on the admin side. You will need"
+" to go to the public view to see the items which result from your query."
+msgstr ""
+"Coller la requête dans le champ de requête du bloc Map by query. Aucun "
+"contenu ne s'affiche sur l'interface administrateur. Il faut se rendre "
+"sur la vue publique pour voir le résultat de la recherche."
+
+#: ../../docs/modules/mapping.md:263
+msgid ""
+"![A map by query block open to the Query section. There is a query pasted"
+" into the field.](../modules/modulesfiles/mapping-blockQuery.png)"
+msgstr ""
+"![Bloc Map by query avec un requête collée dans le champ "
+"concerné.](../modules/modulesfiles/mapping-blockQuery.png)"
+
+#: ../../docs/modules/mapping.md:263
+#, fuzzy
+msgid ""
+"A map by query block open to the Query section. There is a query pasted "
+"into the field."
+msgstr ""
+"![Bloc Map by query avec un requête collée dans le champ "
+"concerné.](../modules/modulesfiles/mapping-blockQuery.png)"
+
+#: ../../docs/modules/mapping.md:265
+msgid "Public view"
+msgstr "Vue publique"
+
+#: ../../docs/modules/mapping.md:267
+#, fuzzy
+msgid ""
+"A map block will display on a public page or item page at the full page "
+"width. If you have settings in the [default view](#default-view) of the "
+"map block, or have set [default map bounds for the item](#map-display), "
+"these should be applied. Otherwise the map will zoom so that all of the "
+"items are visible."
+msgstr ""
+"Un bloc de carte s'affiche sur l'interface publique avec une carte de la "
+"largeur de la page. Si vous n'avez pas activé la vue par défaut, le bloc "
+"sera zoomé pour que tous les contenus soient visibles."
+
+#: ../../docs/modules/mapping.md:269
+#, fuzzy
+msgid ""
+"Viewers can zoom either using the scroll function of their computer or "
+"the zoom in/out buttons on the left side of the map."
+msgstr ""
+"Les utilisateurs peuvent zoomer en utilisant l'option de défilement de "
+"leur souris ou de leur pavé tactile, ou en utilisant les boutons idoines "
+"sur la gauche de la carte."
+
+#: ../../docs/modules/mapping.md:271
+msgid ""
+"![Map block with three individual markers and two green cluster circles "
+"of two markers. The map shows a portion of southern "
+"England.](../modules/modulesfiles/mapping-public.png)"
+msgstr ""
+"![Carte avec trois marqueurs et des clusters "
+"verts](../modules/modulesfiles/mapping-public.fr.png)"
+
+#: ../../docs/modules/mapping.md:271
+#, fuzzy
+msgid ""
+"Map block with three individual markers and two green cluster circles of "
+"two markers. The map shows a portion of southern England."
+msgstr ""
+"![Carte avec trois marqueurs et des clusters "
+"verts](../modules/modulesfiles/mapping-public.fr.png)"
+
+#: ../../docs/modules/mapping.md:273
+#, fuzzy
+msgid ""
+"Each item will display as one or more markers on the map. Markers which "
+"are close together will display as a cluster circle, with a number "
+"indicating how many items share that location. As you zoom in, these "
+"clusters will break open. Clicking on a marker will open a label for that"
+" marker."
+msgstr ""
+"Chaque contenu est représenté par un marqueur sur la carte. Les marqueurs"
+" proches les uns des autres sont signalés par un cercle de concentration "
+"vert, avec un nombre indiquer combien de contenu se trouvent à cette "
+"localisation. Lorsque les utilisateurs zooment, les cercles de "
+"concentration peuvent ou non se défaire."
+
+#: ../../docs/modules/mapping.md:275
+msgid ""
+"Note that the following displays are slightly different in the [Map "
+"Browse page](#map-browse-page)."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:277
+msgid ""
+"If you have not added a label or image for the marker, it will simply say"
+" \"Item: [Title].\" If you have added a label, it will show the label, as"
+" well as representative media and a link to the media if the marker has "
+"one."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:279
+msgid ""
+"Item mapping marker with label only: ![](../modules/modulesfiles/mapping-"
+"publicLabel.png)"
+msgstr ""
+"Marqueur avec seulement un libellé :  ![](../modules/modulesfiles"
+"/mapping-publicLabel.fr.png)"
+
+#: ../../docs/modules/mapping.md:282
+msgid ""
+"Item mapping marker with label and image: ![](../modules/modulesfiles"
+"/mapping-publicLabelImg.png)"
+msgstr ""
+"Marqueur avec libellé et image : ![](../modules/modulesfiles/mapping-"
+"publicLabelImg.fr.png)"
+
+#: ../../docs/modules/mapping.md:285
+#, fuzzy
+msgid ""
+"Item mapping marker with no label or image: ![](../modules/modulesfiles"
+"/mapping-publicNoLabel2.png)"
+msgstr ""
+"Marqueur sans libellé ni image : ![](../modules/modulesfiles/mapping-"
+"publicNoLabel.fr.png)"
+
+#: ../../docs/modules/mapping.md:288
+msgid "Timeline public view"
+msgstr "Vue publique de la chronologie"
+
+#: ../../docs/modules/mapping.md:290
+msgid ""
+"Timelines only appear in page blocks. The timeline will display to the "
+"left of the map, or above the map on mobile views. Each item appears on "
+"both the map and the timeline (meaning it will only display items that "
+"have both numeric dates and map markers)."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:292
+#, fuzzy
+msgid ""
+"On a map block with a timeline, the block initially loads with the map "
+"either at default view or zoomed to display all markers. The timeline "
+"will display the title headline and text, as seen below:"
+msgstr ""
+"Sur un bloc de carte avec chronologie, la carte est intialement chargée "
+"avec une vue par défaut ou zoomée pour contenir tous les marqueurs. La "
+"chronologie affiche d'abord son titre et sa description, comme ci-dessous"
+" :"
+
+#: ../../docs/modules/mapping.md:294
+msgid ""
+"![Map block with timeline, displaying the first slide of the timeline. "
+"There are two lines of text, a larger font reading \"Title Headline\" and"
+" below it smaller font reading \"title text\".](../modules/modulesfiles"
+"/mapping-timelinePublic1.png)"
+msgstr ""
+"![Bloc de carte avec chronologie, affichant la première slide de la "
+"chronologie](../modules/modulesfiles/mapping-timelinePublic1.fr.png)"
+
+#: ../../docs/modules/mapping.md:294
+#, fuzzy
+msgid ""
+"Map block with timeline, displaying the first slide of the timeline. "
+"There are two lines of text, a larger font reading \"Title Headline\" and"
+" below it smaller font reading \"title text\"."
+msgstr ""
+"![Bloc de carte avec chronologie, affichant la première slide de la "
+"chronologie](../modules/modulesfiles/mapping-timelinePublic1.fr.png)"
+
+#: ../../docs/modules/mapping.md:296
+msgid ""
+"In the timeline half of the display, information appears on the top and "
+"the timeline on the bottom. The timeline viewer has zoom buttons which "
+"increase or decrease the horizontal display of time (zoom in for year by "
+"year, zoom out to see decades at once). The arrow below them returns the "
+"viewer to the title slide."
+msgstr ""
+"Dans la partie chronologie de l'affichage, les informations s'affichent "
+"au-dessus de la chronologie. La visionneuse de chronologie comprend aussi"
+" des bouton de zoom pour l'affichage temporel horizontal (zoomez pour "
+"voir les années, dézoomez pour les décennies entières)."
+
+#: ../../docs/modules/mapping.md:298
+msgid ""
+"When mousing over the timeline, the cursor changes to a four-directional "
+"arrow. Viewers can hold and drag left and right to scroll through the "
+"timeline. They can also navigate between items using the semi-opaque "
+"right and left arrows on the information area of the display."
+msgstr ""
+"L'utilisateur peut cliquer et déplacer sa souris pour naviguer vers la "
+"droite ou la gauche de la chronologie. Les flèches sous les boutons de "
+"zoom permettent de naviguer entre les slides."
+
+#: ../../docs/modules/mapping.md:300
+#, fuzzy
+msgid ""
+"Clicking on a marker will display that item's date or interval, title, "
+"description, and attached image. The information area has a scroll bar "
+"for longer material. The title acts as a link to the item's show page."
+msgstr ""
+"Si vous cliquez sur un marqueur, la date ou l'intervalle s'affiche, ainsi"
+" que le titre, la description et l'image associée. La partie information "
+"a une barre de navigation pour les descriptions plus longues. Le titre "
+"est cliquable et renvoie vers la page du contenu."
+
+#: ../../docs/modules/mapping.md:302
+msgid ""
+"![Map block with timeline, displaying the interval item \"Steventon "
+"Rectory, 1775-1801\". The information area includes the beginning of a "
+"long paragraph describing the item. The marker for the rectory in the "
+"timeline runs off the right side of the timeline, which displays "
+"1760-1800.](../modules/modulesfiles/mapping-timelinePublic2.png)"
+msgstr ""
+"![Bloc de carte avec chronologie, montrant un intervalle ou une date. "
+"Long paragraphe dans la partie information.](../modules/modulesfiles"
+"/mapping-timelinePublic2.png)"
+
+#: ../../docs/modules/mapping.md:302
+#, fuzzy
+msgid ""
+"Map block with timeline, displaying the interval item \"Steventon "
+"Rectory, 1775-1801\". The information area includes the beginning of a "
+"long paragraph describing the item. The marker for the rectory in the "
+"timeline runs off the right side of the timeline, which displays "
+"1760-1800."
+msgstr ""
+"![Bloc de carte avec chronologie, montrant un intervalle ou une date. "
+"Long paragraphe dans la partie information.](../modules/modulesfiles"
+"/mapping-timelinePublic2.png)"
+
+#: ../../docs/modules/mapping.md:304
+msgid ""
+"Whenever an item is selected, its marker in the timeline will show up "
+"with a highlight to indicate that it is active."
+msgstr ""
+"Quand un contenu est sélectionné, son marqueur apparaît dans la "
+"chronologie en surbrillance."
+
+#: ../../docs/modules/mapping.md:306
+msgid "**Numeric:Interval appearance**"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:308
+msgid ""
+"Interval properties display as a long bar running horizontally across the"
+" timeline, with bars reaching down to the timeline at the start and end "
+"dates of the interval. Overlapping intervals will stack."
+msgstr ""
+
+#: ../../docs/modules/mapping.md:310
+msgid ""
+"![Interval timeline with both Steventon Rectory and Reading Abbey Girls' "
+"School. The latter is open and highlighted in the timeline display; it is"
+" shorter than and nested under the timeline display for the "
+"Rectory.](../modules/modulesfiles/mapping-timelinePublic3.png)"
+msgstr ""
+"![Deux intervalles qui se chevauchent, l'un est activé et l'autre "
+"non](../modules/modulesfiles/mapping-timelinePublic3.fr.png)"
+
+#: ../../docs/modules/mapping.md:310
+#, fuzzy
+msgid ""
+"Interval timeline with both Steventon Rectory and Reading Abbey Girls' "
+"School. The latter is open and highlighted in the timeline display; it is"
+" shorter than and nested under the timeline display for the Rectory."
+msgstr ""
+"![Deux intervalles qui se chevauchent, l'un est activé et l'autre "
+"non](../modules/modulesfiles/mapping-timelinePublic3.fr.png)"
+
+#: ../../docs/modules/mapping.md:312
+msgid "**Numeric:Timestamp appearance**"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:314
+#, fuzzy
+msgid ""
+"Timestamp properties display as a flag on the timeline, with one bar "
+"anchoring them to the timeline. Items which overlap either due to date or"
+" long text will stack."
+msgstr ""
+"**Affichage de Numeric:Timestamp** La propriété \"Horodatage\" est "
+"représentée par un drapeau dont le mât le raccroche à la chronologie. Les"
+" contenus peuvent se chevaucher."
+
+#: ../../docs/modules/mapping.md:316
+msgid ""
+"![Timestamp timeline showing markers for the births of Cassandra and Jane"
+" Austen in the 1770s](../modules/modulesfiles/mapping-"
+"timelinePublic4.png)"
+msgstr ""
+"![Marqueurs de dates qui se chevauchent](../modules/modulesfiles/mapping-"
+"timelinePublic4.png)"
+
+#: ../../docs/modules/mapping.md:316
+#, fuzzy
+msgid ""
+"Timestamp timeline showing markers for the births of Cassandra and Jane "
+"Austen in the 1770s"
+msgstr ""
+"![Marqueurs de dates qui se chevauchent](../modules/modulesfiles/mapping-"
+"timelinePublic4.png)"
+
+#: ../../docs/modules/mapping.md:318
+msgid "**Timeline navigation position**"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:320
+#, fuzzy
+msgid ""
+"If you select \"full width, below story slider and map\" in the "
+"\"Timeline navigation position\" dropdown, the timeline and map will "
+"display as follows:"
+msgstr ""
+"**Position de navigation dans la chronologie** Si vous sélectionnez "
+"\"full width, below story slider and map\" dans le menu déroulant "
+"\"Timeline navigation position\", la chronologie s'affiche comme suit :"
+
+#: ../../docs/modules/mapping.md:322
+msgid ""
+"![Timeline start page slide, with the timeline displaying full width "
+"below the map and story slider](../modules/modulesfiles/mapping-"
+"timelinePublicBelow.png)"
+msgstr ""
+"![Chronologie en-dessous de la carte](../modules/modulesfiles/mapping-"
+"timelinePublicBelow.fr.png)"
+
+#: ../../docs/modules/mapping.md:322
+#, fuzzy
+msgid ""
+"Timeline start page slide, with the timeline displaying full width below "
+"the map and story slider"
+msgstr ""
+"![Chronologie en-dessous de la carte](../modules/modulesfiles/mapping-"
+"timelinePublicBelow.fr.png)"
+
+#: ../../docs/modules/mapping.md:324
+msgid ""
+"If you select \"full width, above story slider and map\", the display "
+"will be similar but with the timeline above."
+msgstr ""
+"Si vous sélectionnez \"full width, above story slider and map\", la "
+"chronologie apparaît au-dessus de la carte."
+
+#: ../../docs/modules/mapping.md:326
+msgid "**Show contemporaneous events**"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:328
+#, fuzzy
+msgid ""
+"When \"show contemporaneous events\" is checked, the map zooms to display"
+" all events which take place on the same day."
+msgstr ""
+"**Affichez les événements contemporains** Quand la case \"show "
+"contemporaneous events\" est cochée, la carte est zoomée pour afficher "
+"tous les événements qui ont lieu le même jour."
+
+#: ../../docs/modules/mapping.md:330
+msgid ""
+"In the image below, the timeline is using interval data. The event "
+"\"Reading Abbey Girls' School\" (March 1785 - December 1786) takes place "
+"within the same period as \"Steventon Rectory\" (1775-1801), so the map "
+"is zoomed out to display the location markers for both events."
+msgstr ""
+"Dans la capture ci-dessous, la chronologie utilise des données "
+"d'intervalle. L'événement \"Revue passée par le Prince...\" a lieu durant"
+" la même période que l'événement \"La Butte Montmartre\" : la carte est "
+"zoomée pour afficher les marqueurs de localisation des deux événements."
+
+#: ../../docs/modules/mapping.md:332
+msgid ""
+"![image as described](../modules/modulesfiles/mapping-"
+"timelinePublicSCE.png)"
+msgstr ""
+"![image telle que décrite](../modules/modulesfiles/mapping-"
+"timelinePublicSCE.fr.png)"
+
+#: ../../docs/modules/mapping.md:332
+msgid "image as described"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:334
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../docs/modules/mapping.md:335
+msgid ""
+"If you would like to remove the mapping location from an item, you must "
+"delete all the map modifications. First, delete each marker (click the "
+"\"Delete a Marker\" button, select the markers, click to save). Then "
+"clear the map view settings (click the \"Clear the default center and "
+"zoom level\" button). The map will return to a global view. Save the item"
+" and confirm that the map no longer appears."
+msgstr ""
+"Pour retirer les informations cartographiques d'un contenu, vous devez "
+"supprimer toutes les modifications de la carte associée. D'abord, "
+"supprimez tous les marqueurs (cliquez sur le bouton \"Supprimer un "
+"marqueur\", sélectionnez les marqueurs, cliquez pour enregistrer). "
+"Ensuite, supprimez les paramétrages de vue de la carte (cliquez sur "
+"\"Clear the default center and zoom level\"). La carte retourne à sa vue "
+"par défaut. Enregistrez le contenu et vérifiez que la carte n'apparaisse "
+"plus."
 
 #~ msgid ""
 #~ "Mapping is a [module](../modules/index.md) for"
@@ -990,3 +2233,202 @@ msgstr "Pour retirer les informations cartographiques d'un contenu, vous devez s
 #~ "(WMS)](https://mapserver.org/ogc/wms_server.html){target=_blank} "
 #~ "overlays."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "The Mapping module has no global "
+#~ "configuration settings. It adds a new"
+#~ " \"Mapping\" tab to each item edit"
+#~ " screen, and also adds page blocks"
+#~ " to [Site Pages](../sites/site_pages.md) that "
+#~ "can be used to display maps for"
+#~ " browsing."
+#~ msgstr ""
+#~ "Le module Mapping n'a pas de "
+#~ "paramètres de configuration. Il ajoute "
+#~ "un onglet \"Carte\" à chaque contenu,"
+#~ " ainsi que des blocs aux [pages "
+#~ "de sites](../sites/site_pages.md) qui peuvent "
+#~ "servir pour la navigation."
+
+#~ msgid ""
+#~ "To add a map to a new or "
+#~ "existing item, click to edit the "
+#~ "item. Navigate to the \"Mapping\" tab"
+#~ " to add location data to the "
+#~ "item. Selecting the tab will open "
+#~ "the map interface."
+#~ msgstr ""
+#~ "Pour ajouter une carte à un "
+#~ "contenu, cliquez sur le bouton de "
+#~ "modification du contenu. Allez à "
+#~ "l'onglet \"Carte\" pour ajouter des "
+#~ "données de localisation. En sélectionnant "
+#~ "cet onglet, vous ouvrez l'interface de"
+#~ " la carte."
+
+#~ msgid "Manipulating the map"
+#~ msgstr "Manipuler la carte"
+
+#~ msgid "Adding locations to an item"
+#~ msgstr "Ajouter des localisations a un contenu"
+
+#~ msgid ""
+#~ "In order to add a location to "
+#~ "an item, edit the item and go "
+#~ "to the \"Mapping\" tab."
+#~ msgstr ""
+#~ "Pour ajouter une localisation à un "
+#~ "contenu, modifier le contenu et allez"
+#~ " dans l'onglet \"Carte\"."
+
+#~ msgid ""
+#~ "The \"Resource location\" dropdown menu "
+#~ "includes three options for pinning the"
+#~ " item geographically (latitude, longitude, "
+#~ "and latitude/longitude). You can import "
+#~ "multiple values for these fields."
+#~ msgstr ""
+#~ "Le menu \"Localisation de la ressource\""
+#~ " inclut trois options pour établir la"
+#~ " localisation du contenu (latitude, "
+#~ "longitude ou latitude/longitude). Vous pouvez"
+#~ " importer plusieurs valeurs pour ces "
+#~ "champs."
+
+#~ msgid ""
+#~ "The \"Default map view\" dropdown menu"
+#~ " allows you to set a centerpoint "
+#~ "and zoom level for the map that"
+#~ " displays for that item. Without a"
+#~ " map centerpoint, the map will center"
+#~ " on the item's pin."
+#~ msgstr ""
+#~ "Le menu \"Vue par défaut de la "
+#~ "carte\" permet d'établir un point de "
+#~ "centrage et un niveau de zoom pour"
+#~ " la carte associée à ce contenu. "
+#~ "Sans point central déterminé, la carte"
+#~ " sera centrée sur le marqueur."
+
+#~ msgid ""
+#~ "You cannot [batch-edit](../content/items.md"
+#~ "#batch-actions) mapping values after items"
+#~ " are in your system, only edit "
+#~ "them manually one item at a time."
+#~ " So, CSV Import can help you do"
+#~ " things such as set a consistent "
+#~ "map zoom level on each item, by"
+#~ " supplying a spreadsheet with every "
+#~ "item and the same zoom level "
+#~ "number in each row."
+#~ msgstr ""
+#~ "Vous ne pouvez pas [modifier en "
+#~ "lot](../content/items.md#batch-actions) les valeurs"
+#~ " cartographiques une fois les contenus "
+#~ "importés dans votre instance, vous ne"
+#~ " pouvez que les modifier manuellement "
+#~ "et une à une. Import CSV peut "
+#~ "aider pour établir un niveau de "
+#~ "zoom régulier pour chaque item en "
+#~ "fournissant un tableur avec le même "
+#~ "niveau de zoom pour chaque ligne "
+#~ "de contenu."
+
+#~ msgid ""
+#~ "![Map page block with only the WMS"
+#~ " Overlays section open. All of the"
+#~ " mentioned fields are "
+#~ "empty](../modules/modulesfiles/Mapping_Page_Overlays.png)"
+#~ msgstr ""
+#~ "![Bloc de page Carte avec la "
+#~ "section WMS ouverte. Les champs sont "
+#~ "vides](../modules/modulesfiles/Mapping_Page_Overlays.fr.png)"
+
+#~ msgid ""
+#~ "Once you have added an overlay, it"
+#~ " will appear above the fields for "
+#~ "adding overlays."
+#~ msgstr ""
+#~ "Une fois que vous avez ajouté une"
+#~ " couche, elle s'affiche au-dessus des"
+#~ " champs pour ajouter d'autres couches."
+
+#~ msgid ""
+#~ "Choose a default overlay by checking "
+#~ "the box next to it. Edit an "
+#~ "overlay by clicking on on the red"
+#~ " pencil edit button, or click the "
+#~ "red trashcan icon to delete the "
+#~ "overlay."
+#~ msgstr ""
+#~ "Choisissez une couche par défaut en "
+#~ "cochant la case qui l'accompagne. "
+#~ "Modifiez une couche en cliquant sur "
+#~ "le bouton crayon rouge ou cliquez "
+#~ "sur l'icône poubelle pour supprimer la"
+#~ " couche."
+
+#~ msgid ""
+#~ "![Screenshot of the WMS Overlays with"
+#~ " empty fields and the US and "
+#~ "Territories overlay above the fields. A"
+#~ " blue arrow points to the "
+#~ "overlay](../modules/modulesfiles/Mapping_Page_Overlays2.png)"
+#~ msgstr ""
+#~ "![Capture des couches WMS avec champs"
+#~ " vides et la couche US et "
+#~ "Territoires au-dessus. Une flèche pointe"
+#~ " vers la "
+#~ "couche](../modules/modulesfiles/Mapping_Page_Overlays2.fr.png)"
+
+#~ msgid ""
+#~ "Clicking on a marker will open a"
+#~ " label for that marker. If you "
+#~ "have not added a label or image"
+#~ " for the marker, it will simply "
+#~ "say \"view item.\" If you have "
+#~ "added a label, it will show the"
+#~ " label, as well as representative "
+#~ "media and a link to the media "
+#~ "if the marker has one."
+#~ msgstr ""
+#~ "Lorsque vous cliquez sur un marqueur,"
+#~ " son étiquette s'affiche. Si vous "
+#~ "n'avez pas ajouté d'image ou de "
+#~ "libellé pour ce marqueur, vous trouverez"
+#~ " simplement l'indication \"voir le "
+#~ "contenu\". Si vous avez ajouté un "
+#~ "libellé, celui-ci s'affiche, tout comme"
+#~ " le média associé ainsi qu'un lien"
+#~ " vers celui-ci."
+
+#~ msgid ""
+#~ "On the public side, the timeline "
+#~ "will display to the left of the"
+#~ " map, or above the map on "
+#~ "mobile views. Each item appears on "
+#~ "both the map and the timeline."
+#~ msgstr ""
+#~ "Sur l'interface publique, la chronologie "
+#~ "s'affiche à la gauche de la carte,"
+#~ " ou au-dessus de celle-ci pour"
+#~ " les utilisateurs mobiles. Chaque contenu"
+#~ " apparaît à la fois sur la "
+#~ "carte et dans la chronologie."
+
+#~ msgid ""
+#~ "**Numeric:Interval appearance** Interval properties"
+#~ " display as a long bar running "
+#~ "horizontally across the timeline, with "
+#~ "bars reaching down to the timeline "
+#~ "at the start and end dates of "
+#~ "the interval. Overlapping intervals will "
+#~ "stack."
+#~ msgstr ""
+#~ "**Affichage de Numeric:Interval** La propriété"
+#~ " \"Interval\" est représentée par une "
+#~ "longue barre horizontale encadrée par "
+#~ "des crochets en début et fin "
+#~ "d'intervalle. Les intervalles peuvent se "
+#~ "chevaucher."
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2021-07-01 22:08+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language: fr\n"
@@ -71,6 +71,10 @@ msgstr ""
 "![Vue complète du tableau de bord "
 "d'administration](files/admindashfullview.png)"
 
+#: ../../docs/admin-dashboard.md:17
+msgid "Admin dashboard full view"
+msgstr ""
+
 #: ../../docs/admin-dashboard.md:19
 #, fuzzy
 msgid ""
@@ -109,6 +113,13 @@ msgstr ""
 "![Gros plan des boîtes de gestion de ressources et de gestion des "
 "sites](files/admindashmanage.png)"
 
+#: ../../docs/admin-dashboard.md:23
+#, fuzzy
+msgid "Close up of manage resources and manage sites boxes"
+msgstr ""
+"![Gros plan des boîtes de gestion de ressources et de gestion des "
+"sites](files/admindashmanage.png)"
+
 #: ../../docs/admin-dashboard.md:25
 #, fuzzy
 msgid ""
@@ -122,11 +133,11 @@ msgstr ""
 "publique du site. En cliquant sur le bouton Modifier (crayon), vous "
 "accédez à la page Modifier les informations sur le site de ce site."
 
-#: ../../docs/admin-dashboard.md:28
+#: ../../docs/admin-dashboard.md:27
 msgid "Left-hand navigation"
 msgstr "Navigation à gauche"
 
-#: ../../docs/admin-dashboard.md:30
+#: ../../docs/admin-dashboard.md:29
 msgid ""
 "The following content appears on the left side of the admin dashboard and"
 " on all administrative pages."
@@ -134,7 +145,7 @@ msgstr ""
 "Le contenu suivant apparaît sur le côté gauche du tableau de bord de "
 "l'administrateur et sur toutes les pages administratives."
 
-#: ../../docs/admin-dashboard.md:32
+#: ../../docs/admin-dashboard.md:31
 msgid ""
 "![View of the left hand navigation on the admin dashboard, which also "
 "appears consistently throughout the admin interface, with options as "
@@ -145,7 +156,19 @@ msgstr ""
 "d'administration, avec les options telles que décrites ci-"
 "dessous](files/leftnav.png)"
 
-#: ../../docs/admin-dashboard.md:34
+#: ../../docs/admin-dashboard.md:31
+#, fuzzy
+msgid ""
+"View of the left hand navigation on the admin dashboard, which also "
+"appears consistently throughout the admin interface, with options as "
+"described below"
+msgstr ""
+"![Vue de la navigation gauche sur le tableau de bord d'administration, "
+"qui apparaît également constamment dans toute l'interface "
+"d'administration, avec les options telles que décrites ci-"
+"dessous](files/leftnav.png)"
+
+#: ../../docs/admin-dashboard.md:33
 msgid ""
 "In the upper left corner of the screen is a link displaying the title of "
 "the installation which will always take you back to the admin dashboard."
@@ -154,7 +177,7 @@ msgstr ""
 "titre de l'installation, qui vous ramène toujours au tableau de bord de "
 "l'administrateur."
 
-#: ../../docs/admin-dashboard.md:36
+#: ../../docs/admin-dashboard.md:35
 #, fuzzy
 msgid ""
 "Directly below the installation title is the message “Signed in as "
@@ -168,7 +191,7 @@ msgstr ""
 "bas ou à droite, en fonction de la largeur de la fenêtre) se trouve le "
 "bouton permettant de *se déconnecter* ."
 
-#: ../../docs/admin-dashboard.md:38
+#: ../../docs/admin-dashboard.md:37
 #, fuzzy
 msgid ""
 "Underneath the user information is a search field which has an option for"
@@ -180,7 +203,7 @@ msgstr ""
 "recherche (loupe). Utilisez-le pour rechercher toutes les ressources de "
 "l'instance."
 
-#: ../../docs/admin-dashboard.md:40
+#: ../../docs/admin-dashboard.md:39
 #, fuzzy
 msgid ""
 "Advanced search options (the ellipsis) allow you to refine the search by "
@@ -192,19 +215,25 @@ msgstr ""
 "contenus, collections ou supports en cliquant sur le bouton radio situé "
 "en regard du type de ressource que vous souhaitez rechercher."
 
-#: ../../docs/admin-dashboard.md:42
+#: ../../docs/admin-dashboard.md:41
 msgid "![Advanced search options](files/search.png)"
 msgstr "![Options de la recherche avancée](files/search.png)"
 
-#: ../../docs/admin-dashboard.md:44
+#: ../../docs/admin-dashboard.md:41
+#, fuzzy
+msgid "Advanced search options"
+msgstr "![Options de la recherche avancée](files/search.png)"
+
+#: ../../docs/admin-dashboard.md:43
+#, fuzzy
 msgid ""
-"The left hand navigation of the dashboard is divided into sections "
+"The left-hand navigation of the dashboard is divided into sections "
 "related to function and user access:"
 msgstr ""
 "La navigation de gauche du tableau de bord est divisée en sections "
 "relatives aux fonctions et aux accès des utilisateurs:"
 
-#: ../../docs/admin-dashboard.md:46
+#: ../../docs/admin-dashboard.md:45
 msgid ""
 "[Sites](sites/index.md): lists and provides access to all of the sites on"
 " the OmekaS install. (Computer icon)"
@@ -212,12 +241,12 @@ msgstr ""
 "[Sites](sites/index.md): répertorie et donne accès à tous les sites de "
 "l'installation d'OmekaS. (Icône \"ordinateur\")"
 
-#: ../../docs/admin-dashboard.md:47
+#: ../../docs/admin-dashboard.md:46
 #, fuzzy
 msgid "Resources: content creation and metadata management."
 msgstr "Ressources : création de contenu et gestion des métadonnées"
 
-#: ../../docs/admin-dashboard.md:48
+#: ../../docs/admin-dashboard.md:47
 msgid ""
 "[Items](content/items.md): manage the individual resources of your "
 "install. (Box icon)"
@@ -225,7 +254,7 @@ msgstr ""
 "[Contenus](content/items.md) : gérer les contenus individuels de votre "
 "instance. (Icône \"boîte\")"
 
-#: ../../docs/admin-dashboard.md:49
+#: ../../docs/admin-dashboard.md:48
 msgid ""
 "[Item Sets](content/item-sets.md): manage aggregated groups of items. "
 "(Multiple boxes icon)"
@@ -233,7 +262,7 @@ msgstr ""
 "[Collections](content/item-sets.md): gérer des groupes d'éléments "
 "agrégés. (Icône \"Plusieurs cases\")"
 
-#: ../../docs/admin-dashboard.md:50
+#: ../../docs/admin-dashboard.md:49
 msgid ""
 "[Vocabularies](content/vocabularies.md): manage the metadata standards "
 "for your install. (Closed book icon)"
@@ -241,7 +270,7 @@ msgstr ""
 "[Vocabulaires](content/vocabularies.md) : gérez les normes de métadonnées"
 " pour votre installation. (Icône \"livre fermé\")"
 
-#: ../../docs/admin-dashboard.md:51
+#: ../../docs/admin-dashboard.md:50
 msgid ""
 "[Resource Templates](content/resource-template.md): manage predefined "
 "sets of properties (fields) to use when creating items. (Pencil in a "
@@ -251,7 +280,7 @@ msgstr ""
 "ensembles prédéfinis (champs) à utiliser lors de la création d'éléments. "
 "(Crayon \"icône carrée\")"
 
-#: ../../docs/admin-dashboard.md:52
+#: ../../docs/admin-dashboard.md:51
 #, fuzzy
 msgid ""
 "Admin: installation-level administration (note that some of these tabs "
@@ -261,7 +290,7 @@ msgstr ""
 "ces onglets peuvent ne pas être visibles à tous les niveaux "
 "d'utilisateurs)"
 
-#: ../../docs/admin-dashboard.md:53
+#: ../../docs/admin-dashboard.md:52
 #, fuzzy
 msgid ""
 "[Users](admin/users.md): manage users for the whole install and "
@@ -271,7 +300,7 @@ msgstr ""
 "de l'installation et des sites individuels. (icône \"personne tête et "
 "épaules\")"
 
-#: ../../docs/admin-dashboard.md:54
+#: ../../docs/admin-dashboard.md:53
 msgid ""
 "[Modules](modules/index.md): add functionality to your sites. (Plus sign "
 "in square icon)"
@@ -279,7 +308,7 @@ msgstr ""
 "[Modules](modules/index.md) : ajouter des fonctionnalités à vos sites. "
 "(icône \"signe plus dans une icône carrée\")"
 
-#: ../../docs/admin-dashboard.md:55
+#: ../../docs/admin-dashboard.md:54
 msgid ""
 "[Jobs](admin/jobs.md): displays the user-activated tasks which are "
 "currently running. NB: jobs only display when they are running. (Three "
@@ -289,7 +318,7 @@ msgstr ""
 "en cours d'exécution. NB: les tâches ne s'affichent que lorsqu'elles sont"
 " en cours d'exécution. (Icône \"trois barres\")"
 
-#: ../../docs/admin-dashboard.md:56
+#: ../../docs/admin-dashboard.md:55
 msgid ""
 "[Settings](admin/settings.md): manage the global settings for all sites, "
 "the admin dashboard and the site dashboards. (Gears icon)"
@@ -298,7 +327,7 @@ msgstr ""
 "les sites, le tableau de bord de l'administrateur et les tableaux de bord"
 " du site. (Icône \"rouages\")"
 
-#: ../../docs/admin-dashboard.md:58
+#: ../../docs/admin-dashboard.md:57
 msgid ""
 "If you have installed modules, they may appear in the admin section of "
 "the left navigation below settings."
@@ -306,7 +335,7 @@ msgstr ""
 "Si vous avez installé des modules, ils peuvent apparaître dans la section"
 " admin de la navigation de gauche, sous les paramètres."
 
-#: ../../docs/admin-dashboard.md:60
+#: ../../docs/admin-dashboard.md:59
 msgid ""
 "Note that users with more limited permissions will see only some of these"
 " navigation options."
@@ -314,24 +343,64 @@ msgstr ""
 "Notez que les utilisateurs avec des autorisations plus limitées ne "
 "verront que certaines de ces options de navigation."
 
-#: ../../docs/admin-dashboard.md:62
-msgid "System Information"
+#: ../../docs/admin-dashboard.md:61
+#, fuzzy
+msgid "System information"
 msgstr "Informations système"
 
-#: ../../docs/admin-dashboard.md:64
-#, fuzzy
+#: ../../docs/admin-dashboard.md:63
 msgid ""
-"In the bottom right corner is a short display of the current version of "
-"Omeka S. Click the link labelled \"System Information\" to see a full "
-"page with details."
+"In the bottom right corner of every page on the admin side is the current"
+" version of Omeka S, along with some helpful links. Click the link "
+"labelled \"System information\" to see a full page with details about "
+"your installation."
 msgstr ""
-"Dans le coin inférieur droit se trouve un court affichage de la version "
-"actuelle d’Omeka S. Cliquez sur le lien intitulé *Informations système* "
-"pour afficher une page complète avec des détails."
 
-#: ../../docs/admin-dashboard.md:66
-msgid "![Example system information page](files/systeminfo.png)"
+#: ../../docs/admin-dashboard.md:65
+#, fuzzy
+msgid "![Example System information page](files/systeminfo.png)"
 msgstr "![Exemple de page informations système](files/systeminfo.png)"
+
+#: ../../docs/admin-dashboard.md:65
+#, fuzzy
+msgid "Example System information page"
+msgstr "![Exemple de page informations système](files/systeminfo.png)"
+
+#: ../../docs/admin-dashboard.md:67
+msgid ""
+"On this page you can verify the versions of dependencies that Omeka is "
+"using, such as PHP, ImageMagick, and MySQL. If a particular module "
+"requires your server to supply something like a PHP utility, you can look"
+" for it here. You can also look here to verify whether your Omeka "
+"installation recognizes a module you have tried to install."
+msgstr ""
+
+#: ../../docs/admin-dashboard.md:69
+msgid ""
+"You may be asked to supply the information on this page when asking for "
+"technical support on the [Forums](https://forum.omeka.org/) or when "
+"posting an issue on GitHub."
+msgstr ""
+
+#: ../../docs/admin-dashboard.md:71
+msgid ""
+"Clicking the two buttons near the bottom of the page can help you verify "
+"that PHP and ImageMagick are working properly for your site. Do this "
+"right after installation to ensure you don't run into problems later on, "
+"such as when batch-importing items or running other PHP-dependent jobs."
+msgstr ""
+
+#: ../../docs/admin-dashboard.md:73
+msgid ""
+"![Example results from the PHP CLI version button and the ImageMagick "
+"version button](files/systeminfo_buttons.png)"
+msgstr ""
+
+#: ../../docs/admin-dashboard.md:73
+msgid ""
+"Example results from the PHP CLI version button and the ImageMagick "
+"version button"
+msgstr ""
 
 #~ msgid ""
 #~ "[![Still image of the first frame "
@@ -340,4 +409,18 @@ msgstr "![Exemple de page informations système](files/systeminfo.png)"
 #~ msgstr ""
 #~ "[![Première image d'une vidéo Vimeo](files"
 #~ "/navigatingOmekaS-still.png)](https://vimeo.com/455708039)"
+
+#~ msgid ""
+#~ "In the bottom right corner is a"
+#~ " short display of the current version"
+#~ " of Omeka S. Click the link "
+#~ "labelled \"System Information\" to see a"
+#~ " full page with details."
+#~ msgstr ""
+#~ "Dans le coin inférieur droit se "
+#~ "trouve un court affichage de la "
+#~ "version actuelle d’Omeka S. Cliquez sur"
+#~ " le lien intitulé *Informations système*"
+#~ " pour afficher une page complète avec"
+#~ " des détails."
 

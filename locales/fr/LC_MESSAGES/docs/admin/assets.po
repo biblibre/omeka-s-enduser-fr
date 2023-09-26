@@ -8,19 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:23+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2023-05-29 13:53+0200\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: fr_FR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.0.1\n"
 
-#: ../../docs/admin/assets.md:1
+#: ../../docs/admin/assets.md ../../docs/admin/assets.md:1
 msgid "Assets"
 msgstr "Fichiers"
 
@@ -31,8 +30,8 @@ msgid ""
 "Examples of assets include site logos, images that are purely "
 "illustrations, and custom-made thumbnails."
 msgstr ""
-"Les fichiers numériques ajoutés à Omeka S qui ne sont pas des médias "
-"liés à un contenu sont gérés dans la section **Fichiers** de l'interface "
+"Les fichiers numériques ajoutés à Omeka S qui ne sont pas des médias liés"
+" à un contenu sont gérés dans la section **Fichiers** de l'interface "
 "administrative. Des exemples de fichiers seraient les logos des sites, "
 "des images qui sont de simples illustrations, des vignettes sur mesure."
 
@@ -51,24 +50,95 @@ msgstr ""
 
 #: ../../docs/admin/assets.md:7
 msgid ""
-"![Admin section of the Navigation menu showing Assets section]"
-"(adminfiles/assets_menu.png)"
+"![Admin section of the Navigation menu showing Assets "
+"section](adminfiles/assets_menu.png)"
 msgstr ""
-"![Menu de navigation admin montrant la section Fichiers](adminfiles/"
-"assets_menu.png)"
+"![Menu de navigation admin montrant la section "
+"Fichiers](adminfiles/assets_menu.png)"
+
+#: ../../docs/admin/assets.md:7
+#, fuzzy
+msgid "Admin section of the Navigation menu showing Assets section"
+msgstr ""
+"![Menu de navigation admin montrant la section "
+"Fichiers](adminfiles/assets_menu.png)"
 
 #: ../../docs/admin/assets.md:9
+msgid "Asset permissions"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Category"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Permission"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Global Admin"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Supervisor"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Editor"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Reviewer"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Author"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Researcher"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "View"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Yes"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Edit"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "All"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Their own"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "No"
+msgstr ""
+
+#: ../../docs/admin/assets.md
+msgid "Delete"
+msgstr ""
+
+#: ../../docs/admin/assets.md:17
 msgid "Add an asset"
 msgstr "Ajouter un fichier"
 
-#: ../../docs/admin/assets.md:11
+#: ../../docs/admin/assets.md:19
 msgid ""
 "To add a new asset to the installation, click the \"Add new asset\" "
-"button in the upper right hand corner of the Assets screen. A drawer "
-"will open that allows the user to browse their computer for an asset "
-"file, and to create alternative text for that file (alt text will be "
-"available to screen-readers and whenever an image cannot load). Click "
-"the \"Upload\" button to complete the process."
+"button in the upper right hand corner of the Assets screen. A drawer will"
+" open that allows the user to browse their computer for an asset file, "
+"and to create alternative text for that file (alt text will be available "
+"to screen-readers and whenever an image cannot load). Click the "
+"\"Upload\" button to complete the process."
 msgstr ""
 "Pour ajouter un nouveau fichier sur l'instance, cliquer sur le bouton "
 "\"Ajouter un nouveau fichier\" en haut à droite de la page des Fichiers. "
@@ -77,7 +147,7 @@ msgstr ""
 "sert pour les lecteurs d'écran et quand une image ne peut pas être "
 "chargée). Cliquer sur le bouton \"Charger\" pour terminer le processus."
 
-#: ../../docs/admin/assets.md:13
+#: ../../docs/admin/assets.md:21
 msgid ""
 "![Asset browse list with Add a New Asset drawer open with an image "
 "selected for upload](adminfiles/assets_add.png)"
@@ -85,7 +155,16 @@ msgstr ""
 "![Liste des Fichiers avec le volet Ajouter un nouveau fichier ouvert : "
 "une image est sélectionnée](adminfiles/assets_add.png)"
 
-#: ../../docs/admin/assets.md:15
+#: ../../docs/admin/assets.md:21
+#, fuzzy
+msgid ""
+"Asset browse list with Add a New Asset drawer open with an image selected"
+" for upload"
+msgstr ""
+"![Liste des Fichiers avec le volet Ajouter un nouveau fichier ouvert : "
+"une image est sélectionnée](adminfiles/assets_add.png)"
+
+#: ../../docs/admin/assets.md:23
 msgid ""
 "Assets are maintained at only their original size; they are not "
 "duplicated and resized like media attached to items. You will need to "
@@ -95,11 +174,11 @@ msgstr ""
 "liés à des contenus, ils ne sont pas dupliqués et reformatés. Si besoin, "
 "charger le fichiers en différentes tailles."
 
-#: ../../docs/admin/assets.md:17
+#: ../../docs/admin/assets.md:25
 msgid "Edit an asset"
 msgstr "Modifier un fichier"
 
-#: ../../docs/admin/assets.md:19
+#: ../../docs/admin/assets.md:27
 msgid ""
 "Existing assets may be edited by clicking on the pencil icon. Users have "
 "the option to change the file name and to create or edit alternative "
@@ -112,10 +191,20 @@ msgstr ""
 "supprimer des fichiers en cliquant sur le bouton rouge \"Supprimer\" en "
 "haut à droite de la page."
 
-#: ../../docs/admin/assets.md:21
+#: ../../docs/admin/assets.md:29
 msgid ""
 "![Edit screen for a selected asset, with an image of a map of the "
 "National Mall in Washington DC, and text filled in for file name and for "
 "the alternative text: A map of the Washington DC area with focus on the "
 "National Mall.](adminfiles/assets_edit.png)"
 msgstr "![Page de modification d'un fichier](adminfiles/assets_edit.png)"
+
+#: ../../docs/admin/assets.md:29
+#, fuzzy
+msgid ""
+"Edit screen for a selected asset, with an image of a map of the National "
+"Mall in Washington DC, and text filled in for file name and for the "
+"alternative text: A map of the Washington DC area with focus on the "
+"National Mall."
+msgstr "![Page de modification d'un fichier](adminfiles/assets_edit.png)"
+

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid ""
 "The [Omeka S Item Importer module](https://omeka.org/s/modules/Osii) "
 "makes it possible to import items from one Omeka S installation into "
-"another Omeka S installation. Transfering data from one installation to "
+"another Omeka S installation. Transferring data from one installation to "
 "another creates a situation where there is significant potential for data"
 " loss, but careful planning and preparation by the user of the receiving "
 "installation can prevent that from happening."
@@ -220,6 +220,12 @@ msgid ""
 "import label, item set and remote site URL\")"
 msgstr ""
 
+#: ../../docs/modules/ositemimporter.md:64
+msgid ""
+"Add Import configuration form with data filled in for root endpoint, "
+"query, import label, item set and remote site URL"
+msgstr ""
+
 #: ../../docs/modules/ositemimporter.md:66
 msgid "Manage import"
 msgstr ""
@@ -262,6 +268,12 @@ msgid ""
 "Import Metadata sections in the right sidebar\")"
 msgstr ""
 
+#: ../../docs/modules/ositemimporter.md:76
+msgid ""
+"Import is successfully added result screen with Import Actions and Import"
+" Metadata sections in the right sidebar"
+msgstr ""
+
 #: ../../docs/modules/ositemimporter.md:78
 msgid "Taking the snapshot"
 msgstr ""
@@ -285,6 +297,12 @@ msgid ""
 "highlighted with a red rectangle\")"
 msgstr ""
 
+#: ../../docs/modules/ositemimporter.md:82
+msgid ""
+"Import actions section of right sidebar with Take Snapshot link "
+"highlighted with a red rectangle"
+msgstr ""
+
 #: ../../docs/modules/ositemimporter.md:84
 msgid ""
 "The Status indicator on the snapshot will change from [n/a] to \"In "
@@ -299,6 +317,10 @@ msgid ""
 "![Import actions section with snapshot Status as In "
 "Progress](../modules/modulesfiles/osii_SnapshotInProgress.png \"Import "
 "actions section with snapshot Status as In Progress\")"
+msgstr ""
+
+#: ../../docs/modules/ositemimporter.md:86
+msgid "Import actions section with snapshot Status as In Progress"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:88
@@ -342,6 +364,12 @@ msgid ""
 "Classes](../modules/modulesfiles/osii_ManageImportOverview.png \"Manage "
 "import overview table with tabs for Resources, Data Types, Media "
 "Ingestors, Properties and Classes\")"
+msgstr ""
+
+#: ../../docs/modules/ositemimporter.md:98
+msgid ""
+"Manage import overview table with tabs for Resources, Data Types, "
+"Templates, Media Ingestors, Properties and Classes"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:100
@@ -392,6 +420,13 @@ msgid ""
 "the local installation\")"
 msgstr ""
 
+#: ../../docs/modules/ositemimporter.md:108
+msgid ""
+"Manage import table with property inventory table with two red "
+"rectangular highlight boxes showing properties that are present and not "
+"present in the local installation"
+msgstr ""
+
 #: ../../docs/modules/ositemimporter.md:110
 msgid ""
 "**Classes tab**: This view shows a list of the remote classes and whether"
@@ -438,6 +473,12 @@ msgid ""
 "rectangle](../modules/modulesfiles/osii_ImportSnapshot.png \"Import "
 "action secton of the right sidebar with the Import Snapshot link "
 "highlighted by a red rectangle\")"
+msgstr ""
+
+#: ../../docs/modules/ositemimporter.md:120
+msgid ""
+"Import action secton of the right sidebar with the Import Snapshot link "
+"highlighted by a red rectangle"
 msgstr ""
 
 #: ../../docs/modules/ositemimporter.md:122
@@ -907,5 +948,19 @@ msgstr ""
 #~ " careful planning and preparation by "
 #~ "the user of the receiving installation"
 #~ " can prevent that from happening."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The [Omeka S Item Importer "
+#~ "module](https://omeka.org/s/modules/Osii) makes it "
+#~ "possible to import items from one "
+#~ "Omeka S installation into another Omeka"
+#~ " S installation. Transfering data from "
+#~ "one installation to another creates a"
+#~ " situation where there is significant "
+#~ "potential for data loss, but careful "
+#~ "planning and preparation by the user "
+#~ "of the receiving installation can "
+#~ "prevent that from happening."
 #~ msgstr ""
 

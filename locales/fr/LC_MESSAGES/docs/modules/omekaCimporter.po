@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,15 +34,19 @@ msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:5
 msgid ""
-"Once installed, the Omeka 2 Importer module should appear toward the "
-"bottom of the left navigation menu on the main admin dashboard. When "
+"Once installed, the Omeka Classic Importer module should appear toward "
+"the bottom of the left navigation menu on the main admin dashboard. When "
 "selected, there are sub-menu items for **Import** and **Past Imports**."
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:7
 msgid ""
 "![Omeka Classic Importer menu options Import and Past "
-"Imports](../modules/modulesfiles/o2i_menu.png)"
+"Imports](../modules/modulesfiles/oCi_menu.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:7
+msgid "Omeka Classic Importer menu options Import and Past Imports"
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:9
@@ -66,7 +70,9 @@ msgstr ""
 msgid ""
 "!!! note \tBecause resource properties in Omeka S do not have HTML "
 "formatting, any HTML in your Omeka Classic item properties (links, text "
-"formatting, etc.) will be stripped during the import process."
+"formatting, etc.) will be stripped during the import process. You can "
+"instead preserve any element as a piece of media, with \"HTML\" as its "
+"media type."
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:16
@@ -103,15 +109,19 @@ msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:25
 msgid ""
-"On the first page of the importer, enter the **Omeka 2 Api Endpoint** - "
-"the site URL for the API you wish to access (it should end with \"api\")."
-" Make sure you enter the full URL, beginning with \"http\", otherwise the"
-" importer will not be able to access the items at that site. Click "
-"\"Next\"."
+"On the first page of the importer, enter the **Omeka Classic API "
+"Endpoint** - the site URL for the API you wish to access (it should end "
+"with \"api\"). Make sure you enter the full URL, beginning with \"http\","
+" otherwise the importer will not be able to access the items at that "
+"site. Click \"Next\"."
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:27
-msgid "![API import field](../modules/modulesfiles/o2i_enterapi.png)"
+msgid "![API import field](../modules/modulesfiles/oCi_enterapi.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:27
+msgid "API import field"
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:29
@@ -150,9 +160,9 @@ msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:39
 msgid ""
-"**Omeka 2 API key**: This field can either be blank or filled, depending "
-"on whether you have an API key for the site you are attempting to import "
-"data from."
+"**Omeka Classic API key**: This field can either be blank or filled, "
+"depending on whether you have an API key for the site you are attempting "
+"to import data from."
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:40
@@ -195,9 +205,11 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:47
-msgid ""
-"![Basic options for importing "
-"Omeka2](../modules/modulesfiles/o2i_basic.png)"
+msgid "![Basic options for importing](../modules/modulesfiles/oCi_basic.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:47
+msgid "Basic options for importing"
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:49
@@ -223,12 +235,21 @@ msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:56
 msgid ""
-"The columns of the table are **Omeka 2 element**, **Mapped properties**, "
-"and a checkbox option to **Import as HTML media**."
+"The columns of the table are **Omeka Classic element**, **Mapped "
+"properties**, and a checkbox option to **Preserve HTML as media**. Any "
+"field that has HTML you would like to maintain in your Omeka S "
+"installation, such as line breaks and text styling in the description "
+"field, can be imported as an HTML file attached to the item. The field "
+"will be imported in plain-text to the metadata and with its formatting as"
+" a media."
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:58
-msgid "![Map Omeka properties](../modules/modulesfiles/o2i_mapprop.png)"
+msgid "![Map Omeka properties](../modules/modulesfiles/oCi_mapprop.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:58
+msgid "Map Omeka properties"
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:60
@@ -265,9 +286,15 @@ msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:68
 msgid ""
-"![Mapping the element Date of Birth to the FOAF property “birthday”, "
+"![Mapping the element Date of Birth to the FOAF property \"birthday\", "
 "showing the mapped "
-"relationship.](../modules/modulesfiles/o2i_mapping.png)"
+"relationship.](../modules/modulesfiles/oCi_mapping.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:68
+msgid ""
+"Mapping the element Date of Birth to the FOAF property \"birthday\", "
+"showing the mapped relationship."
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:70
@@ -307,7 +334,11 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:83
-msgid "![Resource classes mapping tab](../modules/modulesfiles/o2i_mapclass.png)"
+msgid "![Resource classes mapping tab](../modules/modulesfiles/oCi_mapclass.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:83
+msgid "Resource classes mapping tab"
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:85
@@ -338,7 +369,11 @@ msgid ""
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:97
-msgid "![Resource Class mapping tab](../modules/modulesfiles/o2i_mapresource.png)"
+msgid "![Resource Class mapping tab](../modules/modulesfiles/oCi_mapresource.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:97
+msgid "Resource Class mapping tab"
 msgstr ""
 
 #: ../../docs/modules/omekaCimporter.md:99
@@ -354,63 +389,67 @@ msgstr ""
 #: ../../docs/modules/omekaCimporter.md:102
 msgid ""
 "!!! note \tAre your jobs starting and not completing? You might need to "
-"[set the path for PHP](../configuration.md) so that your system can "
-"perform the background process to make the items."
+"[set the path for PHP](../configuration.md#php-path) so that your system "
+"can perform the background process to make the items."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:107
+#: ../../docs/modules/omekaCimporter.md:105
 msgid "Past imports"
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:109
+#: ../../docs/modules/omekaCimporter.md:107
 msgid ""
 "The past imports section of the module allows you to view previous API "
 "imports."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:111
+#: ../../docs/modules/omekaCimporter.md:109
 msgid "Each import is a row. The table has the following columns:"
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:113
+#: ../../docs/modules/omekaCimporter.md:111
 msgid ""
 "**Undo**: Check this box if you wish to undo the import. Once you click "
 "Submit, the status for that specific import will change to \"undone\"."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:114
+#: ../../docs/modules/omekaCimporter.md:112
 msgid ""
 "**Job ID**: A numerical value assigned to each specific API import. You "
 "can also view the job under the [Jobs tab on the administrative "
 "dashboard](../admin/jobs.md)."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:115
+#: ../../docs/modules/omekaCimporter.md:113
 msgid ""
 "**Comment**: If you entered a comment when setting up the import, that "
 "comment will appear here."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:116
+#: ../../docs/modules/omekaCimporter.md:114
 msgid "**Items**: Lists the number of items added and updated with each import."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:117
+#: ../../docs/modules/omekaCimporter.md:115
 msgid "**Date**: The date on which the import took place."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:118
+#: ../../docs/modules/omekaCimporter.md:116
 msgid "**Status**: Will be \"in_progress\", \"completed\", or \"undone\"."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:119
+#: ../../docs/modules/omekaCimporter.md:117
 msgid "**Owner**: The user who requested the import."
 msgstr ""
 
-#: ../../docs/modules/omekaCimporter.md:121
+#: ../../docs/modules/omekaCimporter.md:119
 msgid ""
 "![Table of past imports showing header row and one row of a past "
-"import.](../modules/modulesfiles/o2i_past.png)"
+"import.](../modules/modulesfiles/oCi_past.png)"
+msgstr ""
+
+#: ../../docs/modules/omekaCimporter.md:119
+msgid "Table of past imports showing header row and one row of a past import."
 msgstr ""
 
 #~ msgid ""
@@ -424,5 +463,99 @@ msgstr ""
 #~ "version 2 or greater in order to"
 #~ " offer an API endpoint for this "
 #~ "module to use."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once installed, the Omeka 2 Importer "
+#~ "module should appear toward the bottom"
+#~ " of the left navigation menu on "
+#~ "the main admin dashboard. When selected,"
+#~ " there are sub-menu items for "
+#~ "**Import** and **Past Imports**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Omeka Classic Importer menu options "
+#~ "Import and Past "
+#~ "Imports](../modules/modulesfiles/o2i_menu.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "!!! note \tBecause resource properties "
+#~ "in Omeka S do not have HTML "
+#~ "formatting, any HTML in your Omeka "
+#~ "Classic item properties (links, text "
+#~ "formatting, etc.) will be stripped "
+#~ "during the import process."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the first page of the importer,"
+#~ " enter the **Omeka 2 Api Endpoint**"
+#~ " - the site URL for the API "
+#~ "you wish to access (it should end"
+#~ " with \"api\"). Make sure you enter"
+#~ " the full URL, beginning with "
+#~ "\"http\", otherwise the importer will "
+#~ "not be able to access the items"
+#~ " at that site. Click \"Next\"."
+#~ msgstr ""
+
+#~ msgid "![API import field](../modules/modulesfiles/o2i_enterapi.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Omeka 2 API key**: This field "
+#~ "can either be blank or filled, "
+#~ "depending on whether you have an "
+#~ "API key for the site you are "
+#~ "attempting to import data from."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Basic options for importing "
+#~ "Omeka2](../modules/modulesfiles/o2i_basic.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The columns of the table are "
+#~ "**Omeka 2 element**, **Mapped properties**,"
+#~ " and a checkbox option to **Import"
+#~ " as HTML media**."
+#~ msgstr ""
+
+#~ msgid "![Map Omeka properties](../modules/modulesfiles/o2i_mapprop.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Mapping the element Date of Birth "
+#~ "to the FOAF property “birthday”, showing"
+#~ " the mapped "
+#~ "relationship.](../modules/modulesfiles/o2i_mapping.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Resource classes mapping "
+#~ "tab](../modules/modulesfiles/o2i_mapclass.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Resource Class mapping "
+#~ "tab](../modules/modulesfiles/o2i_mapresource.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "!!! note \tAre your jobs starting "
+#~ "and not completing? You might need "
+#~ "to [set the path for "
+#~ "PHP](../configuration.md) so that your system"
+#~ " can perform the background process "
+#~ "to make the items."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![Table of past imports showing header"
+#~ " row and one row of a past "
+#~ "import.](../modules/modulesfiles/o2i_past.png)"
 #~ msgstr ""
 

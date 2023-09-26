@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,6 +86,10 @@ msgid ""
 "settings](../modules/modulesfiles/PID_settings.png)"
 msgstr ""
 
+#: ../../docs/modules/persistentidentifiers.md:18
+msgid "Configuration options for general settings"
+msgstr ""
+
 #: ../../docs/modules/persistentidentifiers.md:20
 msgid "EZID configuration"
 msgstr ""
@@ -121,6 +125,10 @@ msgstr ""
 msgid ""
 "![EZID specific configuration "
 "options](../modules/modulesfiles/PID_EZIDconfig.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:28
+msgid "EZID specific configuration options"
 msgstr ""
 
 #: ../../docs/modules/persistentidentifiers.md:30
@@ -160,6 +168,10 @@ msgid ""
 "options](../modules/modulesfiles/PID_DataCiteconfig.png)"
 msgstr ""
 
+#: ../../docs/modules/persistentidentifiers.md:38
+msgid "DataCite specific configuration options"
+msgstr ""
+
 #: ../../docs/modules/persistentidentifiers.md:40
 msgid "DataCite required metadata"
 msgstr ""
@@ -192,6 +204,10 @@ msgid ""
 "tab](../modules/modulesfiles/PID_mint.png)"
 msgstr ""
 
+#: ../../docs/modules/persistentidentifiers.md:48
+msgid "Minting PIDs via Edit Item Advanced tab"
+msgstr ""
+
 #: ../../docs/modules/persistentidentifiers.md:50
 msgid ""
 "After a few moments, the ARK or DOI should appear. The \"Mint PID\" "
@@ -205,6 +221,10 @@ msgid ""
 "tab](../modules/modulesfiles/PID_remove.png)"
 msgstr ""
 
+#: ../../docs/modules/persistentidentifiers.md:52
+msgid "Removing PIDs via Edit Item Advanced tab"
+msgstr ""
+
 #: ../../docs/modules/persistentidentifiers.md:54
 msgid ""
 "If you select \"Remove PID,\" a drawer will open on the right warning you"
@@ -216,6 +236,10 @@ msgstr ""
 msgid ""
 "![Drawer asking to confirm PID "
 "removal](../modules/modulesfiles/PID_confirmremove.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:56
+msgid "Drawer asking to confirm PID removal"
 msgstr ""
 
 #: ../../docs/modules/persistentidentifiers.md:58
@@ -241,6 +265,10 @@ msgid ""
 "page](../modules/modulesfiles/PID_batcheditgo.png)"
 msgstr ""
 
+#: ../../docs/modules/persistentidentifiers.md:64
+msgid "Accessing batch edit from Items page"
+msgstr ""
+
 #: ../../docs/modules/persistentidentifiers.md:66
 msgid ""
 "Near the bottom of the Batch Edit Items screen, you should see a "
@@ -251,6 +279,10 @@ msgstr ""
 
 #: ../../docs/modules/persistentidentifiers.md:68
 msgid "![Batch edit items options](../modules/modulesfiles/PID_batchoptions.png)"
+msgstr ""
+
+#: ../../docs/modules/persistentidentifiers.md:68
+msgid "Batch edit items options"
 msgstr ""
 
 #: ../../docs/modules/persistentidentifiers.md:70

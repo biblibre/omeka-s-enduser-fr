@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-26 14:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/modules/uridereferencer.md:1
+msgid "URI Dereferencer"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:3
+msgid ""
+"The [URI Dereferencer "
+"module](https://omeka.org/s/modules/UriDereferencer/) allows pages to "
+"dynamically display data from the source of many URIs on Omeka item, "
+"media, and item set pages."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:5
+msgid ""
+"This module has no configuration settings and adds no functions to the "
+"administrative dashboard. It appears on the front-end, on recognizable "
+"URIs from built-in [linked data services](#linked-data-services), on any "
+"resource view where a URI has been input as a metadata value."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:7
+msgid ""
+"![Two URIs in the Creator field with [+] toggle links beside "
+"them.](modulesfiles/uri-display.png)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:7
+msgid "Two URIs in the Creator field with [+] toggle links beside them."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:9
+msgid ""
+"This module looks up URIs on the page and provides users a snapshot of "
+"linked data without having to navigate away from the page. It will "
+"automatically dereference all \"URI\" data type values that match a "
+"registered service. URIs recognized will display with a \"[+]\" link next"
+" to them, which can be clicked to expand information found at the source."
+" When expanded, the links will change to \"[-]\". The snapshot of "
+"external metadata loads below the URI."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:11
+msgid "![URI entries on the Item edit page.](modulesfiles/uri-entry.png)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:11
+msgid "URI entries on the Item edit page."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:13
+msgid ""
+"These toggle buttons will load with the class `uri-dereferencer-toggle` "
+"and can be styled using the [CSS Editor module](../modules/csseditor.md) "
+"or with externally-hosted stylesheets. When expanded, the external "
+"metadata will load inside a `div` with the class `uri-dereferencer-"
+"markup` and from there into a `dl` description list. Properties will "
+"appear as `dt` and values as `dd`."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:15
+msgid ""
+"![The same URI entries displayed on the Item view page, expanded to show "
+"the information from one of the URIs.](modulesfiles/uri-expanded.png)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:15
+msgid ""
+"The same URI entries displayed on the Item view page, expanded to show "
+"the information from one of the URIs."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:17
+msgid ""
+"The number of dereferenced metadata values, and which ones, are "
+"determined by the service and its own data type, and cannot be set in "
+"Omeka. You should test the services and data types before deciding if you"
+" wish to use these URIs and allow users to see the dereferenced metadata."
+" This module does not allow you to include or exclude specific properties"
+" from being dereferenced."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:19
+msgid ""
+"If the service provides information in multiple languages, you can "
+"specify which language's fields should be displayed by providing a two-"
+"letter language tag in the language field (the globe icon) when editing "
+"the property value."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:21
+msgid ""
+"![URI entries on the Item edit page, with language codes "
+"specified.](modulesfiles/uri-language-item-editing.png)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:21
+msgid "URI entries on the Item edit page, with language codes specified."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:23
+msgid ""
+"When the item is accessed on a public page, the URIs can be expanded to "
+"display information in the specified language. If the desired language is"
+" not available, URIs will fall back to English. Check with the specific "
+"service to see which languages are offered. Currently there are only four"
+" services that offer translations: "
+"[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), "
+"[DBpedia](https://wiki.dbpedia.org/), [RDA Value "
+"Vocabularies](http://www.rdaregistry.info/termList/), and [Getty "
+"Vocabularies](https://www.getty.edu/research/tools/vocabularies/) "
+"(excluding ULAN)."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:25
+msgid ""
+"![The same URI entries displayed on the Item view page, expanded to show "
+"the information from multiple languages.](modulesfiles/uri-language-item-"
+"view.png)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:25
+msgid ""
+"The same URI entries displayed on the Item view page, expanded to show "
+"the information from multiple languages."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:27
+msgid ""
+"If you have [custom data type values](../modules/customvocab.md) and wish"
+" them to be dereferenceable, you must add the class `uri-value-link` to "
+"the anchor tag containing the URI."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:29
+msgid "Linked data services"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:31
+msgid ""
+"Linked data services are JavaScript objects that are responsible for "
+"dereferencing URIs and returning information about the resource. This "
+"module comes with a handful of services built in:"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:33
+msgid "[DBpedia](https://wiki.dbpedia.org/)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:34
+msgid "[Geonames](https://www.geonames.org/)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:35
+msgid "[Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:36
+msgid "[LC Linked Data Service](http://id.loc.gov/)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:37
+msgid "[OCLC VIAF](https://www.oclc.org/en/viaf.html)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:38
+msgid "[OCLC FAST](http://fast.oclc.org/)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:39
+msgid "[RDA Value Vocabularies](http://www.rdaregistry.info/termList/)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:40
+msgid "[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)"
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:41
+msgid "[Gemeentegeschiedenis](https://www.gemeentegeschiedenis.nl/)."
+msgstr ""
+
+#: ../../docs/modules/uridereferencer.md:43
+msgid ""
+"To learn about adding other services, view the "
+"[Readme](https://omeka.org/s/modules/UriDereferencer/)."
+msgstr ""
+

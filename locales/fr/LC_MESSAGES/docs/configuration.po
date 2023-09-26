@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2021-07-01 22:02+0200\n"
 "Last-Translator: Julian Maurice <julian.maurice@biblibre.com>\n"
 "Language: fr_FR\n"
@@ -108,13 +108,33 @@ msgstr ""
 
 #: ../../docs/configuration.md:45
 msgid ""
+"Use the [System Information page](admin-dashboard.md#system-information) "
+"to verify your installation's ImageMagick version. If there is an error "
+"when you click the button, that can indicate whether you need to set the "
+"configuration manually."
+msgstr ""
+
+#: ../../docs/configuration.md:47 ../../docs/configuration.md:91
+msgid ""
+"![The System Information buttons to retrieve the PHP path and the "
+"ImageMagick version.](files/systeminfo_buttons.png)"
+msgstr ""
+
+#: ../../docs/configuration.md:47 ../../docs/configuration.md:91
+msgid ""
+"The System Information buttons to retrieve the PHP path and the "
+"ImageMagick version."
+msgstr ""
+
+#: ../../docs/configuration.md:49
+msgid ""
 "The thumbnailer to use is set under the `service_manager` key, by setting"
 " the alias for `Omeka\\File\\Thumbnailer`:"
 msgstr ""
 "Le vignettiste à utiliser est défini sous la clé `service_manager`, en "
 "définissant l'alias pour `Omeka\\File\\Thumbnailer`:"
 
-#: ../../docs/configuration.md:56
+#: ../../docs/configuration.md:60
 msgid ""
 "The default thumbnailer is `Omeka\\File\\Thumbnailer\\ImageMagick`. Also "
 "available are `Omeka\\File\\Thumbnailer\\Imagick` (which uses the "
@@ -122,7 +142,7 @@ msgid ""
 "the commonly available `gd` PHP extension)."
 msgstr ""
 
-#: ../../docs/configuration.md:58
+#: ../../docs/configuration.md:62
 msgid ""
 "You can also set the thumbnailer to "
 "`Omeka\\File\\Thumbnailer\\NoThumbnail`, which will prevent your Omeka S "
@@ -132,44 +152,45 @@ msgstr ""
 "`Omeka\\File\\Thumbnailer\\NoThumbnail`, ce qui empêchera votre "
 "installation Omeka S de générer des vignettes."
 
-#: ../../docs/configuration.md:60
+#: ../../docs/configuration.md:64
 msgid ""
 "[GD](https://secure.php.net/manual/en/intro.image.php) is a basic graphic"
 " library installed by default with PHP. It can create thumbnails for "
 "common image formats only (jpeg, gif, png)."
 msgstr ""
 
-#: ../../docs/configuration.md:62
+#: ../../docs/configuration.md:66
 msgid ""
 "[Imagick and ImageMagick](https://www.imagemagick.org) are the same "
 "library and can create thumbnails for more than 200 formats. Imagick is "
 "integrated into PHP and ImageMagick is the command-line version."
 msgstr ""
 
-#: ../../docs/configuration.md:64
+#: ../../docs/configuration.md:68
 msgid ""
 "ImageMagick may require you to manually set a path in `imagemagick_dir`, "
 "whereas Imagick and GD do not require paths."
 msgstr ""
 
-#: ../../docs/configuration.md:66
+#: ../../docs/configuration.md:70
 msgid ""
-"You can use the [\"System information\" link](admin-dashboard.md#system-"
-"information) at the very bottom of the admin interface to double-check "
-"whether GD and Imagick are enabled as PHP extensions on your server."
+"You can use the [\"System information\" page](admin-dashboard.md#system-"
+"information) at the very bottom of the administrative interface to "
+"double-check whether GD and Imagick are enabled as PHP extensions on your"
+" server."
 msgstr ""
 
-#: ../../docs/configuration.md:68
+#: ../../docs/configuration.md:72
 msgid ""
 "!!! note \tSome servers will not allow applications to run command-line "
 "programs via PHP. You may see an error message such as"
 msgstr ""
 
-#: ../../docs/configuration.md:77
+#: ../../docs/configuration.md:81
 msgid "PHP path"
 msgstr ""
 
-#: ../../docs/configuration.md:79
+#: ../../docs/configuration.md:83
 #, fuzzy
 msgid ""
 "Omeka S uses background jobs for some long-running tasks that operate on "
@@ -183,7 +204,11 @@ msgstr ""
 "beaucoup de temps. Omeka S utilise la CLI (interface en ligne de "
 "commande) PHP pour exécuter ces tâches, la commande `php`."
 
-#: ../../docs/configuration.md:81
+#: ../../docs/configuration.md:85
+msgid "Omeka 4.0 and later requires PHP version 7.4 and later."
+msgstr ""
+
+#: ../../docs/configuration.md:87
 #, fuzzy
 msgid ""
 "Omeka S by default will try to automatically detect the path to the PHP "
@@ -196,7 +221,15 @@ msgstr ""
 " situations vous pouvez configurer manuellement le chemin correct dans le"
 " fichier de configuration:"
 
-#: ../../docs/configuration.md:83
+#: ../../docs/configuration.md:89
+msgid ""
+"Use the [System Information page](admin-dashboard.md#system-information) "
+"to verify that you installation has identified the correct PHP path. If "
+"there is an error when you click the button, that can indicate whether "
+"you need to set the configuration manually."
+msgstr ""
+
+#: ../../docs/configuration.md:93
 msgid ""
 "If you begin to see errors once you start working with Omeka, reading "
 "something like \"PHP-CLI error: invalid PHP path\", or have "
@@ -204,21 +237,21 @@ msgid ""
 "manually set the PHP path."
 msgstr ""
 
-#: ../../docs/configuration.md:85
+#: ../../docs/configuration.md:95
 msgid ""
 "You may also wish to manually select an earlier stable PHP version, "
 "rather than a new version that may be causing unexpected behavior in your"
 " Omeka site."
 msgstr ""
 
-#: ../../docs/configuration.md:87
+#: ../../docs/configuration.md:97
 msgid ""
 "To set your PHP path you will need access to the server where your Omeka "
 "S site lives; you set the path by editing files in the Omeka site. You "
 "cannot set the PHP path from the admin dashboard."
 msgstr ""
 
-#: ../../docs/configuration.md:89
+#: ../../docs/configuration.md:99
 #, fuzzy
 msgid ""
 "Manually configure the correct path in the file `local.config.php`, "
@@ -228,7 +261,7 @@ msgstr ""
 "configurées dans le fichier `local.config.php` situé dans le répertoire "
 "`config`."
 
-#: ../../docs/configuration.md:97
+#: ../../docs/configuration.md:107
 msgid ""
 "Replace the word \"null\" with a path, contained in single quotes "
 "('usr/local/bin/php'). This path commonly looks like "
@@ -236,7 +269,7 @@ msgid ""
 "php74`."
 msgstr ""
 
-#: ../../docs/configuration.md:99
+#: ../../docs/configuration.md:109
 msgid ""
 "These are just examples; the proper path will be specific to your server."
 " Search the help documentation or knowledge base for your hosting "
@@ -245,17 +278,17 @@ msgid ""
 "anything, contact your hosting provider or sysadmin and ask them."
 msgstr ""
 
-#: ../../docs/configuration.md:101
+#: ../../docs/configuration.md:111
 msgid ""
 "If you have downloaded the file in order to edit it, be sure to upload "
 "the changed version back to your Omeka installation."
 msgstr ""
 
-#: ../../docs/configuration.md:103
+#: ../../docs/configuration.md:113
 msgid "Mail"
 msgstr "E-mail"
 
-#: ../../docs/configuration.md:105
+#: ../../docs/configuration.md:115
 msgid ""
 "The `mail` key can be used to configure how Omeka S sends emails. Omeka "
 "sends emails to users upon registration and when they reset their "
@@ -263,7 +296,7 @@ msgid ""
 "submissions](modules/collecting.md)."
 msgstr ""
 
-#: ../../docs/configuration.md:107
+#: ../../docs/configuration.md:117
 msgid ""
 "The default is to use [sendmail](https://en.wikipedia.org/wiki/Sendmail),"
 " where the server is responsible for having mail delivery configured and "
@@ -272,13 +305,13 @@ msgid ""
 " for sending mail."
 msgstr ""
 
-#: ../../docs/configuration.md:109
+#: ../../docs/configuration.md:119
 msgid ""
 "An example configuration, to be added at the end of `local.config.php`, "
 "will look something like this:"
 msgstr ""
 
-#: ../../docs/configuration.md:131
+#: ../../docs/configuration.md:141
 msgid ""
 "See the [laminas-mail documentation](https://docs.laminas.dev/laminas-"
 "mail/transport/smtp-options/) for clarification."
@@ -384,5 +417,14 @@ msgstr ""
 #~ "See the [laminas-mail "
 #~ "documentation](https://docs.laminas.dev/laminas-mail/transport"
 #~ "/smtp-options/){target=_blank} for clarification."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the [\"System information\""
+#~ " link](admin-dashboard.md#system-information) at"
+#~ " the very bottom of the admin "
+#~ "interface to double-check whether GD "
+#~ "and Imagick are enabled as PHP "
+#~ "extensions on your server."
 #~ msgstr ""
 

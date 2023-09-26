@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Omeka Team
+# This file is distributed under the same license as the Omeka S end user
+# manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Omeka S end user manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-26 14:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../docs/modules/viewprivateresources.md:1
+msgid "View Private Resources"
+msgstr ""
+
+#: ../../docs/modules/viewprivateresources.md:3
+msgid ""
+"The [View Private Resources "
+"module](https://omeka.org/s/modules/ViewPrivateResources) allows "
+"installation administrators to change permissions for users at the Author"
+" and Researcher level. Specifically it allows either, or both, of these "
+"user levels to see view resources (items, media, and item sets) that are "
+"set to private."
+msgstr ""
+
+#: ../../docs/modules/viewprivateresources.md:5
+msgid ""
+"[Logged-in users at any level](../admin/users.md#roles-and-permissions) "
+"can always view resources that they own (that is, that they have created "
+"or have had transferred to them), whether those resources are private or "
+"public. By default, Authors and Researchers cannot see non-public "
+"resources owned by others; all other user levels can see private "
+"resources. Using this module can change these two settings so that "
+"Authors and/or Researchers will have the ability to view (but not edit) "
+"private resources owned by other users."
+msgstr ""
+
+#: ../../docs/modules/viewprivateresources.md:7
+msgid "Change visibility settings"
+msgstr ""
+
+#: ../../docs/modules/viewprivateresources.md:9
+msgid ""
+"![The Configure page for the module, with two rows and two checkboxes - "
+"one for Authors and one for "
+"Researchers.](modulesfiles/viewprivateresources.png)"
+msgstr ""
+
+#: ../../docs/modules/viewprivateresources.md:9
+msgid ""
+"The Configure page for the module, with two rows and two checkboxes - one"
+" for Authors and one for Researchers."
+msgstr ""
+
+#: ../../docs/modules/viewprivateresources.md:11
+msgid ""
+"This module can be configured from the Modules page. The \"Configure\" "
+"button appears in the module's row. The module offers two options: "
+"\"Allow researchers to view private resources\" and \"Allow authors to "
+"view private resources.\" Each has a checkbox. Be sure to save your "
+"changes at the top right of the page."
+msgstr ""
+

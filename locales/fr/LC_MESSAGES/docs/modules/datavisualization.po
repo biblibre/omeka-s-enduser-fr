@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,6 +47,10 @@ msgstr ""
 msgid ""
 "![Browse list of two "
 "visualizations](../modules/modulesfiles/dataviz_browse.png)"
+msgstr ""
+
+#: ../../docs/modules/datavisualization.md:11
+msgid "Browse list of two visualizations"
 msgstr ""
 
 #: ../../docs/modules/datavisualization.md:13
@@ -147,6 +151,13 @@ msgid ""
 "![Add Data Visualization form including Title, Description, Search Queary"
 " and Data configuration options for a Count of Items with Property Values"
 " visualization](../modules/modulesfiles/dataviz_editVisualization.png)"
+msgstr ""
+
+#: ../../docs/modules/datavisualization.md:34
+msgid ""
+"Add Data Visualization form including Title, Description, Search Queary "
+"and Data configuration options for a Count of Items with Property Values "
+"visualization"
 msgstr ""
 
 #: ../../docs/modules/datavisualization.md:36
@@ -272,6 +283,10 @@ msgid ""
 "chart](../modules/modulesfiles/dataviz_diagramConfig.png)"
 msgstr ""
 
+#: ../../docs/modules/datavisualization.md:65
+msgid "Diagram configuration form for a Column chart"
+msgstr ""
+
 #: ../../docs/modules/datavisualization.md:67
 msgid "Generating your visualization"
 msgstr ""
@@ -287,6 +302,10 @@ msgstr ""
 msgid ""
 "![Save menu with Generate dataset "
 "checked](../modules/modulesfiles/dataviz_saveGenerate.png)"
+msgstr ""
+
+#: ../../docs/modules/datavisualization.md:70
+msgid "Save menu with Generate dataset checked"
 msgstr ""
 
 #: ../../docs/modules/datavisualization.md:72
@@ -313,7 +332,11 @@ msgstr ""
 #: ../../docs/modules/datavisualization.md:78
 msgid ""
 "![An example pie chart from the \"Count of items with classes\" "
-"option.](modulesfiles/dataViz_piechart.png)"
+"option.](modulesfiles/dataviz_piechart.png)"
+msgstr ""
+
+#: ../../docs/modules/datavisualization.md:78
+msgid "An example pie chart from the \"Count of items with classes\" option."
 msgstr ""
 
 #: ../../docs/modules/datavisualization.md:80
@@ -333,6 +356,10 @@ msgstr ""
 msgid ""
 "![View menu with Dataset and "
 "Diagram](../modules/modulesfiles/dataviz_viewMenu.png)"
+msgstr ""
+
+#: ../../docs/modules/datavisualization.md:84
+msgid "View menu with Dataset and Diagram"
 msgstr ""
 
 #: ../../docs/modules/datavisualization.md:86
@@ -362,6 +389,10 @@ msgstr ""
 msgid ""
 "![Data visualization block in a "
 "page](../modules/modulesfiles/dataviz_block.png)"
+msgstr ""
+
+#: ../../docs/modules/datavisualization.md:93
+msgid "Data visualization block in a page"
 msgstr ""
 
 #~ msgid ""
@@ -541,5 +572,11 @@ msgstr ""
 #~ "by-site basis. You can add your"
 #~ " data diagrams to site pages using"
 #~ " page blocks."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "![An example pie chart from the "
+#~ "\"Count of items with classes\" "
+#~ "option.](modulesfiles/dataViz_piechart.png)"
 #~ msgstr ""
 

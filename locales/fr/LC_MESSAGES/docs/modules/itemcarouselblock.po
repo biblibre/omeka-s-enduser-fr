@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,6 +41,10 @@ msgid ""
 "public.png)"
 msgstr ""
 
+#: ../../docs/modules/itemcarouselblock.md:7
+msgid "A basic slideshow on a public page."
+msgstr ""
+
 #: ../../docs/modules/itemcarouselblock.md:9
 msgid "Attaching Items"
 msgstr ""
@@ -66,6 +70,12 @@ msgid ""
 "page.](modulesfiles/itemcarouselblock.png)"
 msgstr ""
 
+#: ../../docs/modules/itemcarouselblock.md:15
+msgid ""
+"The page editing interface, with Item Carousel appearing in the blocks "
+"menu on the right, and a blank Item Carousel block on the page."
+msgstr ""
+
 #: ../../docs/modules/itemcarouselblock.md:17
 msgid "Basic configuration"
 msgstr ""
@@ -78,6 +88,10 @@ msgstr ""
 msgid ""
 "![An item carousel block with attached items and configuration "
 "settings.](modulesfiles/itemcarouselblock-basicconfiguration.png)"
+msgstr ""
+
+#: ../../docs/modules/itemcarouselblock.md:20
+msgid "An item carousel block with attached items and configuration settings."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:22
@@ -101,6 +115,12 @@ msgstr ""
 msgid ""
 "![An item carousel block detail image focused on the advanced options "
 "settings.](modulesfiles/itemcarouselblock-advancedoptions.png)"
+msgstr ""
+
+#: ../../docs/modules/itemcarouselblock.md:27
+msgid ""
+"An item carousel block detail image focused on the advanced options "
+"settings."
 msgstr ""
 
 #: ../../docs/modules/itemcarouselblock.md:29

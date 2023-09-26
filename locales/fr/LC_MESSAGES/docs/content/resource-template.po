@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: 2023-05-22 08:56+0200\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: fr_FR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: ../../docs/content/resource-template.md:1
 msgid "Resource Templates"
@@ -26,622 +25,987 @@ msgstr "Modèles de ressource"
 
 #: ../../docs/content/resource-template.md:3
 msgid ""
-"A **Resource template** is a set of pre-defined properties, optionally with a "
-"Class, to guide item creation and the interpretation of properties."
+"A **Resource template** is a set of pre-defined properties, optionally "
+"with a Class, to guide item creation and the interpretation of "
+"properties."
 msgstr ""
-"Un **Modèle de ressource** est un ensemble prédéfini de propriétés, associé ou "
-"non à une classe, et guidant la création de contenus ainsi que "
-"l'interprétation des propriétés."
+"Un **Modèle de ressource** est un ensemble prédéfini de propriétés, "
+"associé ou non à une classe, et guidant la création de contenus ainsi que"
+" l'interprétation des propriétés."
 
 #: ../../docs/content/resource-template.md:5
 msgid ""
-"Resource templates are managed from the administrative dashboard, accessed "
-"through the left-hand navigation under the section labeled **Resources**."
+"Resource templates are managed from the administrative dashboard, "
+"accessed through the left-hand navigation under the section labeled "
+"**Resources**."
 msgstr ""
-"Les modèles de ressource sont gérés via le tableau de bord administratif : on "
-"y accède par la barre latérale gauche, sous la section intitulée **Contenus**."
+"Les modèles de ressource sont gérés via le tableau de bord administratif "
+": on y accède par la barre latérale gauche, sous la section intitulée "
+"**Contenus**."
 
 #: ../../docs/content/resource-template.md:7
 msgid ""
-"![Basic view of resource templates tab, showing the column titles and one "
-"template](contentfiles/templates_browse.png)"
+"![Basic view of resource templates tab, showing the column titles and one"
+" template](contentfiles/templates_browse.png)"
 msgstr ""
-"![Vue de base de l'onglet des modèles de ressource avec la colonne des titres "
-"et deux modèles](contentfiles/templates_browse.png)"
+"![Vue de base de l'onglet des modèles de ressource avec la colonne des "
+"titres et deux modèles](contentfiles/templates_browse.png)"
+
+#: ../../docs/content/resource-template.md:7
+#, fuzzy
+msgid ""
+"Basic view of resource templates tab, showing the column titles and one "
+"template"
+msgstr ""
+"![Vue de base de l'onglet des modèles de ressource avec la colonne des "
+"titres et deux modèles](contentfiles/templates_browse.png)"
 
 #: ../../docs/content/resource-template.md:9
 msgid ""
 "On the left side above the table is a display for the number of pages of "
-"items, with forward and back arrows. The current page number is an editable "
-"field - enter any valid page number and hit return/enter on your keyboard to "
-"go to that page."
+"items, with forward and back arrows. The current page number is an "
+"editable field - enter any valid page number and hit return/enter on your"
+" keyboard to go to that page."
 msgstr ""
-"En haut à gauche du tableau, on trouve le nombre de pages de contenus, avec "
-"des flèches avant et arrière. Le numéro de la page en lecture est un champ "
-"modifiable - saisir un numéro de page valide et appuyer sur la touche entrée "
-"pour se rendre sur cette page."
+"En haut à gauche du tableau, on trouve le nombre de pages de contenus, "
+"avec des flèches avant et arrière. Le numéro de la page en lecture est un"
+" champ modifiable - saisir un numéro de page valide et appuyer sur la "
+"touche entrée pour se rendre sur cette page."
 
 #: ../../docs/content/resource-template.md:11
 msgid ""
-"On the right side above the table are two drop-down menus which let you sort "
-"resource templates. You can sort by: **label**, **class**, **owner**, or "
-"number of **items** assigned to a template, and have these display in either "
-"ascending or descending order."
+"On the right side above the table are two drop-down menus which let you "
+"sort resource templates. You can sort by: **label**, **class**, "
+"**owner**, or number of **items** assigned to a template, and have these "
+"display in either ascending or descending order."
 msgstr ""
-"En haut à droite du tableau, on trouve deux menus déroulants qui permettent de "
-"trier les modèles de ressource. Ils peuvent être triés par **libellé**, "
-"**classe**, **propriétaire** ou nombre de **contenus**, et ces options peuvent "
-"être organisées par ordre croissant ou décroissant."
+"En haut à droite du tableau, on trouve deux menus déroulants qui "
+"permettent de trier les modèles de ressource. Ils peuvent être triés par "
+"**libellé**, **classe**, **propriétaire** ou nombre de **contenus**, et "
+"ces options peuvent être organisées par ordre croissant ou décroissant."
 
 #: ../../docs/content/resource-template.md:13
 msgid ""
-"You can use the icons in each template’s row to: **edit** (pencil), **delete** "
-"(trash can), or **view details** (ellipsis). If you click on the number of "
-"items listed for a template, it will take you to a list of all those items."
+"You can use the icons in each template’s row to: **edit** (pencil), "
+"**delete** (trash can), or **view details** (ellipsis). If you click on "
+"the number of items listed for a template, it will take you to a list of "
+"all those items."
 msgstr ""
 "Pour chaque modèle, vous pouvez utiliser les icônes de la ligne afin de "
-"**modifier** (crayon), **supprimer** (poubelle) ou afficher les **détails** "
-"(points de suspension). Pour accéder à la liste des contenus associés à un "
-"modèle, cliquer sur le nombre de contenus dans la barre latérale ouverte via "
-"les points de suspension."
+"**modifier** (crayon), **supprimer** (poubelle) ou afficher les "
+"**détails** (points de suspension). Pour accéder à la liste des contenus "
+"associés à un modèle, cliquer sur le nombre de contenus dans la barre "
+"latérale ouverte via les points de suspension."
 
 #: ../../docs/content/resource-template.md:15
 msgid ""
-"[This screencast](https://vimeo.com/290924872) gives an overview of creating "
-"and applying resource templates:"
+"[This screencast](https://vimeo.com/290924872) gives an overview of "
+"creating and applying resource templates:"
 msgstr ""
-"[Cette vidéo](https://vimeo.com/290924872) donne un aperçu du processus de "
-"création et d'application des modèles de ressource :"
+"[Cette vidéo](https://vimeo.com/290924872) donne un aperçu du processus "
+"de création et d'application des modèles de ressource :"
 
 #: ../../docs/content/resource-template.md:20
-msgid "Base Resource"
-msgstr "Base Resource"
+#, fuzzy
+msgid "Resource template permissions"
+msgstr "Modèles de ressource"
 
-#: ../../docs/content/resource-template.md:21
+#: ../../docs/content/resource-template.md:22
 msgid ""
-"All Omeka S installations include a \"Base Resource\" template which maps to "
-"the metadata fields required by the [Digital Public Library of America (DPLA)]"
-"(https://dp.la/). It will display in the table of resource templates as \"Base "
-"Resource\" with no owner."
+"When a user creates a resource template, they become the \"owner\" of "
+"that template. Most user levels have the ability to create templates, and"
+" can always delete their own templates. Only higher levels can delete "
+"templates that others own."
 msgstr ""
-"Toutes les instances d'Omeka S comprennent un modèle \"Base Resource\" qui "
-"intègre les champs de métadonnées requis par la [Digital Public Library of "
-"America (DPLA)](https://dp.la/). Ce modèle apparaît dans le tableau des "
-"modèles de ressource, sans propriétaire."
 
-#: ../../docs/content/resource-template.md:23
+#: ../../docs/content/resource-template.md
+msgid "Category"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Permission"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Global Admin"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Supervisor"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Editor"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Reviewer"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Author"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Researcher"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+#, fuzzy
+msgid "Resource templates"
+msgstr "Modèles de ressource"
+
+#: ../../docs/content/resource-template.md
+msgid "Add"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Yes"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "No"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Edit/Delete"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "All"
+msgstr ""
+
+#: ../../docs/content/resource-template.md
+msgid "Their own"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:29
 msgid ""
-"![Base resource template displayed in the table of templates](contentfiles/"
-"templates_base1.png)"
+"Note that when you change a user's role, for example from an Author to a "
+"Researcher, they will still own the templates they created when they had "
+"permission to do so. Deleting a user orphans their templates - they will "
+"appear as having \"[no owner]\", and cannot be re-assigned to another "
+"user."
 msgstr ""
-"![Modèle de Base Resource dans la table des modèles](contentfiles/"
-"templates_base1.png)"
 
-#: ../../docs/content/resource-template.md:25
-msgid ""
-"The Base Resource template contains the following Dublin Core fields: Title; "
-"Rights; Type; Creator; Date; Description; Format; Language; Spatial Coverage "
-"(Place); Publisher; Alternative Title: Contributor; Extent; Identifier; "
-"Relation; Is Replaced By; Replaces; RightsHolder; Subject; Temporal Coverage."
-msgstr ""
-"Le modèle Base Resource contient les champs Dublin Core suivants : Titre ; "
-"Droits ; Type ; Créateur ; Date ; Description ; Format ; Langue ; Couverture "
-"spatiale (Place) ; Éditeur ; Titre alternatif ; Contributeur ; Importance "
-"matérielle ; Identifiant ; Relation ; Est remplacé par ; Remplace ; Détenteur "
-"des droits ; Sujet ; Couverture temporelle."
-
-#: ../../docs/content/resource-template.md:27
-msgid "Create a resource template"
-msgstr "Créer un modèle de ressource"
-
-#: ../../docs/content/resource-template.md:28
-msgid ""
-"From the **Resource templates** tab in the Admin Dashboard, click the \"Add "
-"new resource template\" button."
-msgstr ""
-"Dans l'onglet **Modèles de ressource** du tableau de bord Admin, cliquer sur "
-"le bouton \"Ajouter un nouveau modèle de ressource\"."
-
-#: ../../docs/content/resource-template.md:30
-msgid ""
-"The New resource template page will load with options for Label, suggested "
-"class, and the properties **Title** (`dcterms:title`) and **Description** "
-"(`dcterms:description`)."
-msgstr ""
-"La page du nouveau modèle de ressource s'affiche avec les options Libellé, "
-"Classe suggérée et les propriétés **Titre** (`dcterms:title`) et "
-"**Description** (`dcterms:description`)."
+#: ../../docs/content/resource-template.md:31
+#, fuzzy
+msgid "View resource templates"
+msgstr "Passer les modèles de ressource en revue"
 
 #: ../../docs/content/resource-template.md:32
 msgid ""
-"![The Add resource template page, with fields for title, class, and properties "
-"Title and Description pre-loaded](contentfiles/templates_add.png)"
+"Clicking on the title of a resource template takes you to a table view of"
+" all the properties and property options for that template."
 msgstr ""
-"![La page d'ajout d'un modèle de ressource avec les champs de libellé, de "
-"classe et les propriétés Titre et Description](contentfiles/templates_add.png)"
+"Cliquer sur le titre d'un modèle de ressource fait apparaître un tableau "
+"réunissant toutes les propriétés et options de propriétés pour ce modèle."
 
 #: ../../docs/content/resource-template.md:34
+#, fuzzy
 msgid ""
-"In the Label property, type the label for your new template. This will be the "
-"text displayed in the dropdown for resource templates when creating an item, "
-"so be sure that the label is clear."
-msgstr ""
-"Dans le champ Libellé, saisir l'intitulé de votre nouveau modèle de ressource. "
-"Ce libellé apparaîtra dans le menu déroulant des modèles de ressource pour la "
-"création d'un nouveau contenu : il faut donc s'assurer de la clarté de ce "
-"libellé."
+"![Template view for the \"Postcard\" template with properties for title, "
+"description, creator, transcript of, and "
+"recipient](contentfiles/templates_view.png)"
+msgstr "![Vue du modèle \"Image sous CC\"](contentfiles/templates_view.png)"
 
-#: ../../docs/content/resource-template.md:35
+#: ../../docs/content/resource-template.md:34
+#, fuzzy
+msgid ""
+"Template view for the \"Postcard\" template with properties for title, "
+"description, creator, transcript of, and recipient"
+msgstr "![Vue du modèle \"Image sous CC\"](contentfiles/templates_view.png)"
+
+#: ../../docs/content/resource-template.md:36
+msgid "Each property displays as a row in the table, with columns for:"
+msgstr "Chaque propriété occupe une ligne de ce tableau, avec des colonnes pour :"
+
+#: ../../docs/content/resource-template.md:38
+#, fuzzy
+msgid ""
+"Original label, with an ellipsis button to see which the property's "
+"vocabulary, term, original comment, and number of items currently using "
+"the property"
+msgstr ""
+"Libellé d'origine, avec des points de suspension permettant de voir le "
+"vocabulaire de la propriété, le vocable correspondant ainsi que le "
+"commentaire d'origine"
+
+#: ../../docs/content/resource-template.md:39
+#, fuzzy
+msgid "Data type(s)"
+msgstr "Types de données"
+
+#: ../../docs/content/resource-template.md:40
+msgid "Alternate label"
+msgstr "Libellé alternatif"
+
+#: ../../docs/content/resource-template.md:41
+msgid "Alternate comment"
+msgstr "Commentaire alternatif"
+
+#: ../../docs/content/resource-template.md:42
+msgid "Whether the property is required"
+msgstr "Si la propriété est requise ou non"
+
+#: ../../docs/content/resource-template.md:43
+#, fuzzy
+msgid "Whether the property's values are private"
+msgstr "Si la propriété est privée ou non."
+
+#: ../../docs/content/resource-template.md:44
+msgid ""
+"Whether the property has a default language (which can be overridden when"
+" entering values)."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:46
+msgid ""
+"Use the buttons in the upper right of this page to export or edit the "
+"template."
+msgstr ""
+"Utiliser les boutons dans le coin supérieur droit de la page pour "
+"exporter ou modifier le modèle."
+
+#: ../../docs/content/resource-template.md:48
+msgid "Base Resource"
+msgstr "Base Resource"
+
+#: ../../docs/content/resource-template.md:49
+msgid ""
+"All Omeka S installations include a \"Base Resource\" template which maps"
+" to the metadata fields required by the [Digital Public Library of "
+"America (DPLA)](https://dp.la/). It will display in the table of resource"
+" templates as \"Base Resource\" with no owner."
+msgstr ""
+"Toutes les instances d'Omeka S comprennent un modèle \"Base Resource\" "
+"qui intègre les champs de métadonnées requis par la [Digital Public "
+"Library of America (DPLA)](https://dp.la/). Ce modèle apparaît dans le "
+"tableau des modèles de ressource, sans propriétaire."
+
+#: ../../docs/content/resource-template.md:51
+msgid ""
+"![Base resource template displayed in the table of "
+"templates](contentfiles/templates_base1.png)"
+msgstr ""
+"![Modèle de Base Resource dans la table des "
+"modèles](contentfiles/templates_base1.png)"
+
+#: ../../docs/content/resource-template.md:51
+#, fuzzy
+msgid "Base resource template displayed in the table of templates"
+msgstr ""
+"![Modèle de Base Resource dans la table des "
+"modèles](contentfiles/templates_base1.png)"
+
+#: ../../docs/content/resource-template.md:53
+msgid ""
+"The Base Resource template contains the following Dublin Core fields: "
+"Title; Rights; Type; Creator; Date; Description; Format; Language; "
+"Spatial Coverage (Place); Publisher; Alternative Title: Contributor; "
+"Extent; Identifier; Relation; Is Replaced By; Replaces; RightsHolder; "
+"Subject; Temporal Coverage."
+msgstr ""
+"Le modèle Base Resource contient les champs Dublin Core suivants : Titre "
+"; Droits ; Type ; Créateur ; Date ; Description ; Format ; Langue ; "
+"Couverture spatiale (Place) ; Éditeur ; Titre alternatif ; Contributeur ;"
+" Importance matérielle ; Identifiant ; Relation ; Est remplacé par ; "
+"Remplace ; Détenteur des droits ; Sujet ; Couverture temporelle."
+
+#: ../../docs/content/resource-template.md:55
+#, fuzzy
+msgid "Add a resource template"
+msgstr "Modifier un modèle de ressource"
+
+#: ../../docs/content/resource-template.md:56
+msgid ""
+"From the **Resource templates** tab in the Admin Dashboard, click the "
+"\"Add new resource template\" button."
+msgstr ""
+"Dans l'onglet **Modèles de ressource** du tableau de bord Admin, cliquer "
+"sur le bouton \"Ajouter un nouveau modèle de ressource\"."
+
+#: ../../docs/content/resource-template.md:58
+msgid ""
+"The New resource template page will load with options for Label, "
+"suggested class, and the properties **Title** (`dcterms:title`) and "
+"**Description** (`dcterms:description`)."
+msgstr ""
+"La page du nouveau modèle de ressource s'affiche avec les options "
+"Libellé, Classe suggérée et les propriétés **Titre** (`dcterms:title`) et"
+" **Description** (`dcterms:description`)."
+
+#: ../../docs/content/resource-template.md:60
+msgid ""
+"![The Add resource template page, with fields for title, class, and "
+"properties Title and Description pre-"
+"loaded](contentfiles/templates_add.png)"
+msgstr ""
+"![La page d'ajout d'un modèle de ressource avec les champs de libellé, de"
+" classe et les propriétés Titre et "
+"Description](contentfiles/templates_add.png)"
+
+#: ../../docs/content/resource-template.md:60
+#, fuzzy
+msgid ""
+"The Add resource template page, with fields for title, class, and "
+"properties Title and Description pre-loaded"
+msgstr ""
+"![La page d'ajout d'un modèle de ressource avec les champs de libellé, de"
+" classe et les propriétés Titre et "
+"Description](contentfiles/templates_add.png)"
+
+#: ../../docs/content/resource-template.md:62
+msgid ""
+"In the Label property, type the label for your new template. This will be"
+" the text displayed in the dropdown for resource templates when creating "
+"an item, so be sure that the label is clear."
+msgstr ""
+"Dans le champ Libellé, saisir l'intitulé de votre nouveau modèle de "
+"ressource. Ce libellé apparaîtra dans le menu déroulant des modèles de "
+"ressource pour la création d'un nouveau contenu : il faut donc s'assurer "
+"de la clarté de ce libellé."
+
+#: ../../docs/content/resource-template.md:63
 msgid "If desired, select a class to associate with the template."
 msgstr "Si nécessaire ou souhaité, sélectionner une classe associée au modèle."
 
-#: ../../docs/content/resource-template.md:36
+#: ../../docs/content/resource-template.md:64
 msgid ""
-"Add properties from the list of vocabularies in the menu on the right side of "
-"the screen. You can filter properties in the text box or select from a "
-"specific vocabulary using the arrows to the right of the vocabulary names."
+"Add properties from the list of vocabularies in the menu on the right "
+"side of the screen. You can filter properties in the text box or select "
+"from a specific vocabulary using the arrows to the right of the "
+"vocabulary names."
 msgstr ""
-"Ajouter les propriétés à partir des listes de vocabulaires dans le menu à "
-"droite de la page. Les propriétés peuvent être filtrées via le champ de texte "
-"ou sélectionnées dans un vocabulaire spécifique en utilisant les flèches à la "
-"droite des noms des vocabulaires."
+"Ajouter les propriétés à partir des listes de vocabulaires dans le menu à"
+" droite de la page. Les propriétés peuvent être filtrées via le champ de "
+"texte ou sélectionnées dans un vocabulaire spécifique en utilisant les "
+"flèches à la droite des noms des vocabulaires."
 
-#: ../../docs/content/resource-template.md:37
+#: ../../docs/content/resource-template.md:65
 msgid "If desired, modify the property (see Property options, below)."
 msgstr ""
 "Si besoin, la propriété peut être modifiée (voir ci-dessous Options des "
 "propriétés)."
 
-#: ../../docs/content/resource-template.md:39
+#: ../../docs/content/resource-template.md:67
 msgid "Be sure to \"Save\" your resource template before leaving this page."
 msgstr ""
-"S'assurer de bien sauvegarder (\"Ajouter\") le modèle de ressources avant de "
-"quitter la page."
+"S'assurer de bien sauvegarder (\"Ajouter\") le modèle de ressources avant"
+" de quitter la page."
 
-#: ../../docs/content/resource-template.md:41
+#: ../../docs/content/resource-template.md:69
+msgid ""
+"Users who select this resource template when creating an item will still "
+"be able to add other properties to the item, and they will only be "
+"required to fill out those fields you check as required."
+msgstr ""
+"Les utilisateurs qui créeront un contenu avec ce modèle de ressource "
+"pourront ajouter d'autres propriétés au contenu et seuls les champs "
+"déterminés comme \"requis\" seront obligatoires."
+
+#: ../../docs/content/resource-template.md:71
 msgid "Property options"
 msgstr "Options des propriétés"
 
-#: ../../docs/content/resource-template.md:42
+#: ../../docs/content/resource-template.md:72
 msgid ""
-"You can modify the display label, comment on the label, set a property as "
-"required, and set the default data type for each property in your template."
+"You can modify the display label, comment on the label, set a property as"
+" required, and set the default data type for each property in your "
+"template."
 msgstr ""
-"Vous pouvez modifier le libellé d'une propriété, commenter ce libellé, ajuster "
-"une propriété et établir des types de données par défaut pour chaque propriété "
-"d'un modèle de ressource."
+"Vous pouvez modifier le libellé d'une propriété, commenter ce libellé, "
+"ajuster une propriété et établir des types de données par défaut pour "
+"chaque propriété d'un modèle de ressource."
 
-#: ../../docs/content/resource-template.md:44
+#: ../../docs/content/resource-template.md:74
 msgid ""
-"To do this, click the edit (pencil) icon in the row for the property you wish "
-"to modify. This will open a drawer on the right side of the screen with the "
-"ability to edit the properties."
+"To do this, click the edit (pencil) icon in the row for the property you "
+"wish to modify. This will open a drawer on the right side of the screen "
+"with the ability to edit the properties."
 msgstr ""
 "Pour ce faire, cliquer sur l'icône modifier (crayon) sur la ligne de la "
-"propriété concernée. Un volet latéral s'ouvre à droite de la page, qui permet "
-"de modifier les propriétés."
+"propriété concernée. Un volet latéral s'ouvre à droite de la page, qui "
+"permet de modifier les propriétés."
 
-#: ../../docs/content/resource-template.md:46
+#: ../../docs/content/resource-template.md:76
 msgid ""
 "![The property options drawer for Title with no changes made, options as "
 "described below](contentfiles/template_configdrawer.png)"
 msgstr ""
-"![Le volet des options pour la propriété Titre sans modification apportée, "
-"avec les options décrites ci-dessous](contentfiles/template_configdrawer.png)"
-
-#: ../../docs/content/resource-template.md:48
-msgid ""
-"**Label**   Change the displayed label of the property that appears when the "
-"template is applied to an item by entering the text you want to appear in the "
-"\"Alternate\" label field for each property."
-msgstr ""
-"**Libellé**   Changer le libellé d'affichage de la propriété qui apparaît "
-"lorsque le modèle est appliqué à un contenu en tapant le texte souhaité dans "
-"le champ \"Alternative\"."
-
-#: ../../docs/content/resource-template.md:51
-msgid ""
-"**Comment**   Add alternate comments for the property in the \"Alternate\" "
-"field in this section. This will change the text under the property name when "
-"users are creating items using your resource template."
-msgstr ""
-"**Commentaire**   Ajouter un commentaire dans le champ \"Alternative\" de "
-"cette section afin de modifier le texte qui apparaît sous le libellé de la "
-"propriété lorsque les utilisateurs se servent de ce modèle de ressource pour "
-"créer un contenu."
-
-#: ../../docs/content/resource-template.md:54
-msgid ""
-"**Other options**   In this section are a series of additional options for "
-"modifying the property when it is used with this template."
-msgstr ""
-"**Autres options**   Dans cette section, on trouve des options supplémentaires "
-"de modification de la propriété en cas d'utilisation de ce modèle de ressource."
-
-#: ../../docs/content/resource-template.md:57
-msgid ""
-"The \"Use for resource title\" checkbox allows you to select a property to "
-"serve as the title for the resource, instead of the default (`dcterms:title`). "
-"This property will display in the \"title\" field on browse pages."
-msgstr ""
-"La case à cocher \"Afficher en tant que titre de ressource\" permet de "
-"sélectionner une propriété comme titre de la ressource, au lieu de la "
-"propriété par défaut ('dcterms:title'). La propriété concernée apparaîtra "
-"comme champ \"titre\" dans les pages de recherche."
-
-#: ../../docs/content/resource-template.md:59
-msgid ""
-"The \"Use for resource description\" checkbox allows you to select a property "
-"to serve as the description for the resource on browse pages, instead of the "
-"default (`dcterms:description`)."
-msgstr ""
-"La case à cocher \"Afficher en tant que description de ressource\" permet de "
-"sélectionner une propriété comme description du contenu dans les pages de "
-"recherche, à la place de la propriété par défaut (`dcterms:description`)."
-
-#: ../../docs/content/resource-template.md:61
-msgid ""
-"The \"Required\" checkbox sets whether a property is required when the "
-"template is in use. If checked, users will not be able to save an item or item "
-"set using this template without adding data for this property."
-msgstr ""
-"La case à cocher \"Requis\" permet d'établir le statut obligatoire ou non "
-"d'une propriété lorsque le modèle est utilisé. Si la case est cochée, le "
-"contenu utilisant ce modèle ne pourra être sauvegardé que si le champ "
-"correspondant à cette propriété est rempli."
-
-#: ../../docs/content/resource-template.md:63
-msgid ""
-"The \"Private\" checkbox sets the visibility of the data for this property. If "
-"checked, any data added by a user for this property will only be visible to "
-"the owner of the item or item set, global administrators, site administrators, "
-"and editors. It will not be visible to the public."
-msgstr ""
-"La case à cocher \"Privé\" établit le type de visibilité des données pour "
-"cette propriété. Si la case est cochée, les données ajoutées pour cette "
-"propriété ne sont visibles que pour le propriétaire du contenu ou de la "
-"collection, les administrateurs généraux, les administrateurs de sites et les "
-"éditeurs. Elles ne sont pas visibles pour le public."
-
-#: ../../docs/content/resource-template.md:65
-msgid ""
-"**Note**: users working with the template will be able to toggle the "
-"visibility of this property on a case-by-case basis."
-msgstr ""
-"**Note** : les utilisateurs travaillant avec ce modèle de ressource pourront "
-"faire varier la visibilité de cette propriété au cas par cas."
-
-#: ../../docs/content/resource-template.md:67
-msgid ""
-"Using the \"Data type\" dropdown, you can designate the data types for the "
-"property. Whichever you choose will be automatically loaded once someone "
-"selects that resource type and they will only be able to use these data type "
-"for the element when using this resource template."
-msgstr ""
-"Le menu déroulant \"Types de données\" permet d'identifier des types de "
-"données pour cette propriété. Quels que soient les types sélectionnés, ils "
-"seront automatiquement chargés et seront les seuls à pouvoir être utilisés "
-"pour cette propriété dans le cadre de ce modèle de ressource."
-
-#: ../../docs/content/resource-template.md:69
-msgid "Text: textual and/or HTML input."
-msgstr "Texte : saisie texte et/ou HTML."
-
-#: ../../docs/content/resource-template.md:70
-msgid "URI: a link with label."
-msgstr "URI : lien avec libellé."
-
-#: ../../docs/content/resource-template.md:71
-msgid "Resource: either an existing Item or Item Set in the Omeka S install."
-msgstr "Resource : contenu ou collection existant dans cette instance Omeka S."
-
-#: ../../docs/content/resource-template.md:72
-msgid ""
-"Additional options may be added by modules, such as [Numeric Data Types](../"
-"modules/numericdatatypes.md) and [Value Suggest](../modules/valuesuggest.md)."
-msgstr ""
-"Des options supplémentaires peuvent être ajoutées via des modules comme "
-"[Numeric Data Types](../modules/numericdatatypes.md) et [Value Suggest](../"
-"modules/valuesuggest.md)."
-
-#: ../../docs/content/resource-template.md:74
-msgid ""
-"You can select multiple data types, for example giving users the option of "
-"Text or Resource for input, but not URI. All choices will appear in the data "
-"types field with an \"X\" to the right of their label - click the \"X\" to "
-"remove that data type."
-msgstr ""
-"Vous pouvez sélectionner plusieurs types de données, laissant par exemple aux "
-"utilisateurs le choix entre Texte et Ressource, mais pas URI. Tous les choix "
-"sélectionnés apparaissent dans le champ des types de données avec un X à leur "
-"droite - cliquer sur \"X\" pour supprimer un type de données."
+"![Le volet des options pour la propriété Titre sans modification "
+"apportée, avec les options décrites ci-"
+"dessous](contentfiles/template_configdrawer.png)"
 
 #: ../../docs/content/resource-template.md:76
+#, fuzzy
 msgid ""
-"![The data types field with two types shown: numeric timestamp and text.]"
-"(contentfiles/templates_multiType.png)"
+"The property options drawer for Title with no changes made, options as "
+"described below"
 msgstr ""
-"![Le champ des types de données avec deux types sélectionnés.](contentfiles/"
-"templates_multiType.png)"
+"![Le volet des options pour la propriété Titre sans modification "
+"apportée, avec les options décrites ci-"
+"dessous](contentfiles/template_configdrawer.png)"
 
 #: ../../docs/content/resource-template.md:78
+#, fuzzy
 msgid ""
-"Note: you must click the \"Set changes\" button at the bottom of the drawer "
-"for each property that you edit before exiting the drawer or moving on to "
-"another property! If you do not click \"Set changes\", your edits will not be "
-"saved."
+"You must click the \"Set changes\" button at the bottom of the drawer for"
+" each property that you edit before exiting the drawer or moving on to "
+"another property. If you do not click \"Set changes\", your edits will "
+"not be saved."
 msgstr ""
-"Note : il faut cliquer sur le bouton \"Appliquer\" en bas du volet latéral "
-"avant de le quitter ! Dans le cas contraire, les modifications ne seront pas "
-"sauvegardées."
+"Note : il faut cliquer sur le bouton \"Appliquer\" en bas du volet "
+"latéral avant de le quitter ! Dans le cas contraire, les modifications ne"
+" seront pas sauvegardées."
 
 #: ../../docs/content/resource-template.md:80
 msgid ""
-"![A close up of the drawer for editing property options with a large red arrow "
-"pointing down at an angle to the Set Changes button, which is on the very "
-"bottom of the image.](contentfiles/templates_setchanges.png)"
+"![A close up of the drawer for editing property options with a large red "
+"arrow pointing down at an angle to the Set Changes button, which is on "
+"the very bottom of the image.](contentfiles/templates_setchanges.png)"
 msgstr ""
-"![Vue rapprochée du volet de modification de propriétés avec une flèche rouge "
-"pointant vers le bouton Appliquer tout en bas de la capture](contentfiles/"
-"templates_setchanges.png)"
+"![Vue rapprochée du volet de modification de propriétés avec une flèche "
+"rouge pointant vers le bouton Appliquer tout en bas de la "
+"capture](contentfiles/templates_setchanges.png)"
+
+#: ../../docs/content/resource-template.md:80
+#, fuzzy
+msgid ""
+"A close up of the drawer for editing property options with a large red "
+"arrow pointing down at an angle to the Set Changes button, which is on "
+"the very bottom of the image."
+msgstr ""
+"![Vue rapprochée du volet de modification de propriétés avec une flèche "
+"rouge pointant vers le bouton Appliquer tout en bas de la "
+"capture](contentfiles/templates_setchanges.png)"
 
 #: ../../docs/content/resource-template.md:82
-msgid ""
-"Users who select this resource template when creating an item will still be "
-"able to add other properties to the item, and they will only be required to "
-"fill out those fields you check as required."
+msgid "Label"
 msgstr ""
-"Les utilisateurs qui créeront un contenu avec ce modèle de ressource pourront "
-"ajouter d'autres propriétés au contenu et seuls les champs déterminés comme "
-"\"requis\" seront obligatoires."
 
-#: ../../docs/content/resource-template.md:84
+#: ../../docs/content/resource-template.md:83
+#, fuzzy
+msgid ""
+"Change the displayed label of the property that appears when the template"
+" is applied to an item by entering the text you want to appear in the "
+"\"Alternate\" label field for each property. This will change the item "
+"editing page in the admin side as well as the item view page on the "
+"public side."
+msgstr ""
+"**Libellé**   Changer le libellé d'affichage de la propriété qui apparaît"
+" lorsque le modèle est appliqué à un contenu en tapant le texte souhaité "
+"dans le champ \"Alternative\"."
+
+#: ../../docs/content/resource-template.md:85
+msgid "Comment"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:86
+#, fuzzy
+msgid ""
+"Add alternate comments for the property in the \"Alternate\" field in "
+"this section. This will change the text under the property name when "
+"users are creating items using your resource template. Comments are for "
+"internal use only and display on the item editing page, but cannot be "
+"accessed from public pages. You can use this field to provide guidance "
+"and instructions to users with editing powers."
+msgstr ""
+"**Commentaire**   Ajouter un commentaire dans le champ \"Alternative\" de"
+" cette section afin de modifier le texte qui apparaît sous le libellé de "
+"la propriété lorsque les utilisateurs se servent de ce modèle de "
+"ressource pour créer un contenu."
+
+#: ../../docs/content/resource-template.md:88
+#, fuzzy
+msgid "Other options"
+msgstr "Options des propriétés"
+
+#: ../../docs/content/resource-template.md:90
+msgid ""
+"The \"Use for resource title\" checkbox allows you to select a property "
+"to serve as the title for the resource, instead of the default "
+"(`dcterms:title`). This property will display in the \"title\" field on "
+"browse pages."
+msgstr ""
+"La case à cocher \"Afficher en tant que titre de ressource\" permet de "
+"sélectionner une propriété comme titre de la ressource, au lieu de la "
+"propriété par défaut ('dcterms:title'). La propriété concernée apparaîtra"
+" comme champ \"titre\" dans les pages de recherche."
+
+#: ../../docs/content/resource-template.md:92
+#, fuzzy
+msgid ""
+"The \"Use for resource description\" checkbox allows you to select a "
+"property to serve as the description for the resource, instead of the "
+"default (`dcterms:description`). This property will display in the "
+"\"description\" field on browse pages."
+msgstr ""
+"La case à cocher \"Afficher en tant que description de ressource\" permet"
+" de sélectionner une propriété comme description du contenu dans les "
+"pages de recherche, à la place de la propriété par défaut "
+"(`dcterms:description`)."
+
+#: ../../docs/content/resource-template.md:94
+msgid ""
+"The \"Required\" checkbox sets whether a property is required when the "
+"template is in use. If checked, users will not be able to save an item or"
+" item set using this template without adding data for this property."
+msgstr ""
+"La case à cocher \"Requis\" permet d'établir le statut obligatoire ou non"
+" d'une propriété lorsque le modèle est utilisé. Si la case est cochée, le"
+" contenu utilisant ce modèle ne pourra être sauvegardé que si le champ "
+"correspondant à cette propriété est rempli."
+
+#: ../../docs/content/resource-template.md:96
+#, fuzzy
+msgid ""
+"The \"Private\" checkbox sets the default visibility of the data for this"
+" property. If checked, any data added by a user for this property will "
+"only be visible to the owner of the item or item set, global "
+"administrators, site administrators, and editors. It will not be visible "
+"to the public. **Note**: Users working with the template will be able to "
+"toggle the visibility of this property on a case-by-case basis. This is "
+"only a default setting, not enforced."
+msgstr ""
+"La case à cocher \"Privé\" établit le type de visibilité des données pour"
+" cette propriété. Si la case est cochée, les données ajoutées pour cette "
+"propriété ne sont visibles que pour le propriétaire du contenu ou de la "
+"collection, les administrateurs généraux, les administrateurs de sites et"
+" les éditeurs. Elles ne sont pas visibles pour le public."
+
+#: ../../docs/content/resource-template.md:98
+#, fuzzy
+msgid "Data types"
+msgstr "Types de données"
+
+#: ../../docs/content/resource-template.md:100
+msgid ""
+"There are three default data types in Omeka S. These data types allow you"
+" a simple text entry, or two types that provide dynamic linking to other "
+"resources: either resources inside your Omeka installation, or by URI to "
+"external sites. For example, you may wish to have a Person item, and use "
+"that Person in the Creator field of other items; or, you may wish to link"
+" to an external controlled vocabulary entry of the Creator, such as on "
+"Wikidata."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:102
+#, fuzzy
+msgid ""
+"Every field in every resource template offers all three of these data "
+"types by default, unless otherwise directed. Using the \"Data type\" "
+"dropdown, you can designate one or more data types for each property. "
+"Whichever you choose will be automatically loaded once someone is editing"
+" a resource using that template, and they will only be able to use those "
+"data types for the element when using this resource template."
+msgstr ""
+"Le menu déroulant \"Types de données\" permet d'identifier des types de "
+"données pour cette propriété. Quels que soient les types sélectionnés, "
+"ils seront automatiquement chargés et seront les seuls à pouvoir être "
+"utilisés pour cette propriété dans le cadre de ce modèle de ressource."
+
+#: ../../docs/content/resource-template.md:104
+#, fuzzy
+msgid "Text: textual input."
+msgstr "Texte : saisie texte et/ou HTML."
+
+#: ../../docs/content/resource-template.md:105
+msgid "URI: a link with label."
+msgstr "URI : lien avec libellé."
+
+#: ../../docs/content/resource-template.md:106
+msgid ""
+"Resource: users of the template can select from existing items, media, or"
+" item sets in the installation, or select any resource."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:107
+msgid "Additional options may be added by modules:"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:108
+msgid ""
+"[Numeric Data Types](../modules/numericdatatypes.md) can restrict values "
+"to one of four numeric data types, providing a structured data entry."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:109
+msgid ""
+"[Custom Vocab](../modules/customvocab.md) and [Value "
+"Suggest](../modules/valuesuggest.md) modify the textual entry field to "
+"provide suggested values from controlled vocabularies, but the user can "
+"ignore these suggestions and enter in any text."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:111
+msgid ""
+"![An item editing page, showing a dcterms:date property restricting the "
+"input to Timestamp and Interval data types.](contentfiles"
+"/templates_datatype-date.png)"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:111
+msgid ""
+"An item editing page, showing a dcterms:date property restricting the "
+"input to Timestamp and Interval data types."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:113
+msgid ""
+"You can select multiple data types, for example giving users the option "
+"of Text or Resource for input, but not URI. All choices will appear in "
+"the data types field with an \"X\" to the right of their label - click "
+"the \"X\" to remove that data type."
+msgstr ""
+"Vous pouvez sélectionner plusieurs types de données, laissant par exemple"
+" aux utilisateurs le choix entre Texte et Ressource, mais pas URI. Tous "
+"les choix sélectionnés apparaissent dans le champ des types de données "
+"avec un X à leur droite - cliquer sur \"X\" pour supprimer un type de "
+"données."
+
+#: ../../docs/content/resource-template.md:115
+msgid ""
+"Note that while suggested vocabulary data types are essentially text "
+"entries, selecting one or more of these will exclude the user from "
+"entering URI values unless this is also explicitly included as an option."
+" You may need to add URIs if there are external vocabularies not included"
+" in Value Suggest that you wish to use as a fallback. Data types appear "
+"in the same order they appear in the dropdown, so you cannot prioritize "
+"data types by ordering them."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:117
+msgid ""
+"![An item editing page, showing a dcterms:subject property with existing "
+"textual inputs and the option to add more using the Value Suggest "
+"module's additions of \"LC: Subject Headings\", \"LC: Children's Subject "
+"Headings\", and \"Omeka: Property\".](contentfiles/templates_datatype-"
+"valuesuggest.png)"
+msgstr ""
+
+#: ../../docs/content/resource-template.md:117
+msgid ""
+"An item editing page, showing a dcterms:subject property with existing "
+"textual inputs and the option to add more using the Value Suggest "
+"module's additions of \"LC: Subject Headings\", \"LC: Children's Subject "
+"Headings\", and \"Omeka: Property\"."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:119
+msgid ""
+"In the image above, textual subject entries can be added to using "
+"controlled vocabularies, as well as existing values already in the Omeka "
+"installation (by including \"Omeka: Property\" as the data type), all of "
+"which are supplied by the Value Suggest module."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:121
+msgid ""
+"Pre-existing values will not be changed when a resource template is "
+"edited, so existing data that does not conform to the new data type "
+"restriction will not be affected by these changes."
+msgstr ""
+
+#: ../../docs/content/resource-template.md:123
 msgid "Edit a resource template"
 msgstr "Modifier un modèle de ressource"
 
-#: ../../docs/content/resource-template.md:85
+#: ../../docs/content/resource-template.md:124
 msgid ""
-"Once you have created a resource template, you can edit it at any time by "
-"clicking the edit icon in the table of resource templates, or by clicking Edit "
-"in the upper right hand corner when viewing a resource template."
+"You can edit the Base Resource template or any templates you create by "
+"clicking the edit icon in the table of resource templates, or by clicking"
+" \"Edit\" in the upper right hand corner when viewing a resource "
+"template."
 msgstr ""
-"Une fois le modèle de ressource créé, vous pouvez le modifier à tout moment en "
-"cliquant sur l'icône de modification dans le tableau des modèles, ou en "
-"cliquant sur le bouton \"Modifier ce modèle de ressource\" une fois sur la "
-"page du modèle (dans le coin supérieur droit)."
 
-#: ../../docs/content/resource-template.md:87
+#: ../../docs/content/resource-template.md:126
 msgid ""
-"If you decide you do not want to edit the template or do not wish to save your "
-"changes, simply click the \"Cancel\" button located between the \"Delete\" and "
-"\"Save\" buttons in the upper right hand corner of the window."
+"If you decide you do not want to edit the template or do not wish to save"
+" your changes, simply click the \"Cancel\" button located between the "
+"\"Delete\" and \"Save\" buttons in the upper right hand corner of the "
+"window."
 msgstr ""
-"Si vous ne souhaitez finalement pas modifier le modèle ou sauvegarder vos "
-"modifications, cliquez sur le bouton \"Annuler\", entre les boutons "
+"Si vous ne souhaitez finalement pas modifier le modèle ou sauvegarder vos"
+" modifications, cliquez sur le bouton \"Annuler\", entre les boutons "
 "\"Supprimer\" et \"Enregistrer\" en haut à droite de la fenêtre."
 
-#: ../../docs/content/resource-template.md:89
+#: ../../docs/content/resource-template.md:128
+#, fuzzy
 msgid ""
-"![Edit view of the template Person. There are eight properties in use.]"
-"(contentfiles/resourcetemplate_edit.png)"
+"![Edit view of the template Person. There are eight properties in "
+"use.](contentfiles/templates_edit.png)"
 msgstr ""
 "![Page de modification du modèle Image sous CC. Il y a six propriétés "
 "utilisées.](contentfiles/resourcetemplate_edit.png)"
 
-#: ../../docs/content/resource-template.md:91
-msgid "Review resource templates"
-msgstr "Passer les modèles de ressource en revue"
-
-#: ../../docs/content/resource-template.md:92
-msgid ""
-"Clicking on the title of a resource template takes you to a table view of all "
-"the properties and property options for that template."
-msgstr ""
-"Cliquer sur le titre d'un modèle de ressource fait apparaître un tableau "
-"réunissant toutes les propriétés et options de propriétés pour ce modèle."
-
-#: ../../docs/content/resource-template.md:94
+#: ../../docs/content/resource-template.md:128
 #, fuzzy
-msgid ""
-"![Template view for the \"Postcard\" template with properties for title, "
-"description, creator, transcript of, and recipient](contentfiles/"
-"templates_view.png)"
-msgstr "![Vue du modèle \"Image sous CC\"](contentfiles/templates_view.png)"
-
-#: ../../docs/content/resource-template.md:96
-msgid "Each property displays as a row in the table, with columns for:"
+msgid "Edit view of the template Person. There are eight properties in use."
 msgstr ""
-"Chaque propriété occupe une ligne de ce tableau, avec des colonnes pour :"
+"![Page de modification du modèle Image sous CC. Il y a six propriétés "
+"utilisées.](contentfiles/resourcetemplate_edit.png)"
 
-#: ../../docs/content/resource-template.md:98
-msgid ""
-"Original label, with an ellipsis button to see which the property's "
-"vocabulary, term, and original comment"
-msgstr ""
-"Libellé d'origine, avec des points de suspension permettant de voir le "
-"vocabulaire de la propriété, le vocable correspondant ainsi que le commentaire "
-"d'origine"
-
-#: ../../docs/content/resource-template.md:99
-msgid "Data type"
-msgstr "Types de données"
-
-#: ../../docs/content/resource-template.md:100
-msgid "Alternate label"
-msgstr "Libellé alternatif"
-
-#: ../../docs/content/resource-template.md:101
-msgid "Alternate comment"
-msgstr "Commentaire alternatif"
-
-#: ../../docs/content/resource-template.md:102
-msgid "Whether the property is required"
-msgstr "Si la propriété est requise ou non"
-
-#: ../../docs/content/resource-template.md:103
-msgid "Whether the property's data is set to private."
-msgstr "Si la propriété est privée ou non."
-
-#: ../../docs/content/resource-template.md:105
-msgid ""
-"Click the ellipsis next to the original label to open a draw displaying the "
-"property's vocabulary, term, and original comment."
-msgstr ""
-"Cliquer sur les points de suspension à côté du libellé d'origine ouvre un "
-"volet montrant le vocabulaire de la propriété, le vocable correspondant et le "
-"commentaire d'origine."
-
-#: ../../docs/content/resource-template.md:107
-msgid ""
-"Use the buttons in the upper right of this page to export or edit the template."
-msgstr ""
-"Utiliser les boutons dans le coin supérieur droit de la page pour exporter ou "
-"modifier le modèle."
-
-#: ../../docs/content/resource-template.md:109
+#: ../../docs/content/resource-template.md:130
 msgid "Share resource templates"
 msgstr "Partager des modèles de ressource"
 
-#: ../../docs/content/resource-template.md:110
+#: ../../docs/content/resource-template.md:131
+#, fuzzy
 msgid ""
-"It is possible to share a resource template between Omeka S installations by "
+"You can share a resource template between Omeka S installations by "
 "exporting and importing them."
 msgstr ""
-"On peut partager un modèle de ressource entre des instances d'Omeka S en les "
-"exportant ou en les important."
+"On peut partager un modèle de ressource entre des instances d'Omeka S en "
+"les exportant ou en les important."
 
-#: ../../docs/content/resource-template.md:112
+#: ../../docs/content/resource-template.md:133
 msgid "Export a resource template"
 msgstr "Exporter un modèle de ressource"
 
-#: ../../docs/content/resource-template.md:113
+#: ../../docs/content/resource-template.md:134
 msgid "To export a resource template from your Omeka S installation:"
 msgstr "Pour exporter un modèle de ressource depuis votre instance Omeka S :"
 
-#: ../../docs/content/resource-template.md:115
+#: ../../docs/content/resource-template.md:136
 msgid "Go to the \"Resource templates\" menu on the main navigation."
 msgstr ""
-"Se rendre dans le menu \"Modèles de ressource\" de la navigation principale."
+"Se rendre dans le menu \"Modèles de ressource\" de la navigation "
+"principale."
 
-#: ../../docs/content/resource-template.md:116
+#: ../../docs/content/resource-template.md:137
 msgid "Click the Label of the template you want to export."
 msgstr "Cliquer sur le nom du modèle à exporter."
 
-#: ../../docs/content/resource-template.md:117
+#: ../../docs/content/resource-template.md:138
 msgid ""
-"On the resource template view page, click the \"Export\" button in the upper "
-"right corner of the screen."
+"On the resource template view page, click the \"Export\" button in the "
+"upper right corner of the screen."
 msgstr ""
-"Une fois sur la page du modèle, cliquer sur le bouton \"Export\" en haut à "
-"droite de l'écran."
+"Une fois sur la page du modèle, cliquer sur le bouton \"Export\" en haut "
+"à droite de l'écran."
 
-#: ../../docs/content/resource-template.md:119
+#: ../../docs/content/resource-template.md:140
+#, fuzzy
 msgid ""
 "![A red arrow points to the export button on a screen showing a resource "
-"template labelled \"Textual Work\"](contentfiles/templates_export.png)"
+"template labelled \"Textual "
+"Resource\"](contentfiles/templates_export.png)"
 msgstr ""
-"![Une flèche rouge pointe vers le bouton d'export d'un modèle de ressource]"
-"(contentfiles/templates_export.png)"
+"![Une flèche rouge pointe vers le bouton d'export d'un modèle de "
+"ressource](contentfiles/templates_export.png)"
 
-#: ../../docs/content/resource-template.md:121
+#: ../../docs/content/resource-template.md:140
+#, fuzzy
 msgid ""
-"Exporting a resource template will download it to your computer's default "
-"download location as a json file with the same name as the resource template's "
-"Label."
+"A red arrow points to the export button on a screen showing a resource "
+"template labelled \"Textual Resource\""
 msgstr ""
-"L'action d'export du modèle de ressource le télécharge comme fichier json dans "
-"le dossier de téléchargement par défaut de votre ordinateur, avec le même nom "
-"que le libellé du modèle de ressource."
+"![Une flèche rouge pointe vers le bouton d'export d'un modèle de "
+"ressource](contentfiles/templates_export.png)"
 
-#: ../../docs/content/resource-template.md:123
+#: ../../docs/content/resource-template.md:142
+#, fuzzy
+msgid ""
+"Exporting a resource template will download it to your computer's default"
+" download location as a JSON file with the same name as the resource "
+"template's Label."
+msgstr ""
+"L'action d'export du modèle de ressource le télécharge comme fichier json"
+" dans le dossier de téléchargement par défaut de votre ordinateur, avec "
+"le même nom que le libellé du modèle de ressource."
+
+#: ../../docs/content/resource-template.md:144
 msgid "Import a resource template"
 msgstr "Importer un modèle de ressource"
 
-#: ../../docs/content/resource-template.md:125
+#: ../../docs/content/resource-template.md:146
+#, fuzzy
 msgid ""
-"!!! note \tIf you want to import a resource template using a [Custom Vocab](../"
-"modules/customvocab.md), you will need to manually reproduce the Custom Vocab "
-"on the second Omeka S installation *before* importing the resource template."
+"!!! note \tIf you want to import a resource template that uses a [Custom "
+"Vocab](../modules/customvocab.md), you will need to manually reproduce "
+"the Custom Vocab on the second Omeka S installation *before* importing "
+"the resource template. You should also install and enable [Value "
+"Suggest](../modules/valuesuggest.md) before importing a template that "
+"uses it for data types."
 msgstr ""
-"!!! note \tSi vous souhaitez importer un modèle de ressource utilisant un "
-"[Vocabulaire personnalisé](../modules/customvocab.md), vous devez reporter le "
-"vocabulaire personnalisé sur la seconde instance d'Omeka S *avant* d'importer "
-"le modèle de ressource."
+"!!! note \tSi vous souhaitez importer un modèle de ressource utilisant un"
+" [Vocabulaire personnalisé](../modules/customvocab.md), vous devez "
+"reporter le vocabulaire personnalisé sur la seconde instance d'Omeka S "
+"*avant* d'importer le modèle de ressource."
 
-#: ../../docs/content/resource-template.md:128
+#: ../../docs/content/resource-template.md:149
 msgid ""
 "To import a resource template (a JSON file exported from a different S "
 "installation) into your Omeka S installation:"
 msgstr ""
-"Pour importer un modèle de ressource (un fichier json exporté d'une autre "
-"instance S) sur votre instance Omeka S :"
+"Pour importer un modèle de ressource (un fichier json exporté d'une autre"
+" instance S) sur votre instance Omeka S :"
 
-#: ../../docs/content/resource-template.md:130
+#: ../../docs/content/resource-template.md:151
 msgid "Go to the **Resource Templates** tab on the main navigation"
 msgstr ""
-"Se rendre dans le menu \"Modèles de ressource\" de la navigation principale"
+"Se rendre dans le menu \"Modèles de ressource\" de la navigation "
+"principale"
 
-#: ../../docs/content/resource-template.md:131
+#: ../../docs/content/resource-template.md:152
 msgid "Click the \"Import\" button in the upper right corner of the screen."
 msgstr "Cliquer sur le bouton \"Importer\" en haut à droite de l'écran."
 
-#: ../../docs/content/resource-template.md:133
+#: ../../docs/content/resource-template.md:154
 msgid ""
-"![Red arrow points to the Import button on the browse resource templates page "
-"of the admin site of an Omeka S installation](contentfiles/templates_import1."
-"png)"
+"![Red arrow points to the Import button on the browse resource templates "
+"page of the admin site of an Omeka S "
+"installation](contentfiles/templates_import1.png)"
 msgstr ""
-"![Flèche rouge pointant vers le bouton Importer sur la page des modèles de "
-"ressource du site admin d'une instance Omeka S](contentfiles/templates_import1."
-"png)"
+"![Flèche rouge pointant vers le bouton Importer sur la page des modèles "
+"de ressource du site admin d'une instance Omeka "
+"S](contentfiles/templates_import1.png)"
 
-#: ../../docs/content/resource-template.md:135
+#: ../../docs/content/resource-template.md:154
+#, fuzzy
+msgid ""
+"Red arrow points to the Import button on the browse resource templates "
+"page of the admin site of an Omeka S installation"
+msgstr ""
+"![Flèche rouge pointant vers le bouton Importer sur la page des modèles "
+"de ressource du site admin d'une instance Omeka "
+"S](contentfiles/templates_import1.png)"
+
+#: ../../docs/content/resource-template.md:156
 msgid "On the Resource templates: Import page, click the \"Choose File\" button."
 msgstr ""
 "Sur la page d'import des modèles de ressource, cliquer sur le bouton "
 "\"Parcourir\"."
 
-#: ../../docs/content/resource-template.md:136
+#: ../../docs/content/resource-template.md:157
 msgid ""
-"This will open your browser's file selection window. Choose the JSON file for "
-"the resource template you want to import."
+"This will open your browser's file selection window. Choose the JSON file"
+" for the resource template you want to import."
 msgstr ""
-"Cette action ouvre votre fenêtre de sélection de fichier. Sélectionner le "
-"fichier json du modèle de ressource à importer."
+"Cette action ouvre votre fenêtre de sélection de fichier. Sélectionner le"
+" fichier json du modèle de ressource à importer."
 
-#: ../../docs/content/resource-template.md:137
+#: ../../docs/content/resource-template.md:158
 msgid "Click the \"Review import\" button."
 msgstr "Cliquer sur le bouton \"Revoir l'importation\"."
 
-#: ../../docs/content/resource-template.md:138
+#: ../../docs/content/resource-template.md:159
 msgid ""
-"On the Review page, you will be able to check that properties and property "
-"options are correct."
+"On the Review page, you will be able to check that properties and "
+"property options are correct."
 msgstr ""
-"La page de revue permet de vérifier que toutes les propriétés et options de "
-"propriétés sont correctes."
+"La page de revue permet de vérifier que toutes les propriétés et options "
+"de propriétés sont correctes."
 
-#: ../../docs/content/resource-template.md:139
-msgid ""
-"Imported templates which used [Value Suggest](../modules/valuesuggest.md) or "
-"[Custom Vocab](../modules/customvocab.md) will indicate in the Data type "
-"column what the original source was, and a dropdown to allow you to select a "
-"new Data type (if you do not have the necessary modules, the dropdown will "
-"only show the default options)."
-msgstr ""
-"Les modèles importés utilisant [Value Suggest](../modules/valuesuggest.md) ou "
-"[Custom Vocab](../modules/customvocab.md) indiquent la source dans la colonne "
-"Type de données. Un menu déroulant permet également de sélectionner de "
-"nouveaux types de données (sans ces modules, le menu indiquera seulement les "
-"options par défaut)."
-
-#: ../../docs/content/resource-template.md:141
+#: ../../docs/content/resource-template.md:160
 #, fuzzy
 msgid ""
-"![On the review imported template page, all the elements for the reviewed "
-"import are highlighted green. The final element, subject, lists a datatype of "
-"Value Suggest and has a dropdown for users to select a new data type.]"
-"(contentfiles/templates_import2.png)"
+"Imported templates which used [Value Suggest](../modules/valuesuggest.md)"
+" or [Custom Vocab](../modules/customvocab.md) will indicate in the Data "
+"type column what the original source was, and a dropdown to allow you to "
+"select a new Data type. If you do not have the necessary modules, the "
+"dropdown will only show the default options."
 msgstr ""
-"![Sur la page de vérification du modèle importé, tous les éléments importés "
-"sont surlignés en vert.](contentfiles/templates_import2.png)"
+"Les modèles importés utilisant [Value "
+"Suggest](../modules/valuesuggest.md) ou [Custom "
+"Vocab](../modules/customvocab.md) indiquent la source dans la colonne "
+"Type de données. Un menu déroulant permet également de sélectionner de "
+"nouveaux types de données (sans ces modules, le menu indiquera seulement "
+"les options par défaut)."
+
+#: ../../docs/content/resource-template.md:162
+#, fuzzy
+msgid ""
+"![On the review imported template page, all the elements for the reviewed"
+" import are highlighted green.](contentfiles/templates_import2.png)"
+msgstr ""
+"![Sur la page de vérification du modèle importé, tous les éléments "
+"importés sont surlignés en vert.](contentfiles/templates_import2.png)"
+
+#: ../../docs/content/resource-template.md:162
+msgid ""
+"On the review imported template page, all the elements for the reviewed "
+"import are highlighted green."
+msgstr ""
+
+#~ msgid "Create a resource template"
+#~ msgstr "Créer un modèle de ressource"
+
+#~ msgid ""
+#~ "**Other options**   In this section are"
+#~ " a series of additional options for"
+#~ " modifying the property when it is"
+#~ " used with this template."
+#~ msgstr ""
+#~ "**Autres options**   Dans cette section, "
+#~ "on trouve des options supplémentaires de"
+#~ " modification de la propriété en cas"
+#~ " d'utilisation de ce modèle de "
+#~ "ressource."
+
+#~ msgid ""
+#~ "**Note**: users working with the "
+#~ "template will be able to toggle "
+#~ "the visibility of this property on "
+#~ "a case-by-case basis."
+#~ msgstr ""
+#~ "**Note** : les utilisateurs travaillant "
+#~ "avec ce modèle de ressource pourront "
+#~ "faire varier la visibilité de cette "
+#~ "propriété au cas par cas."
+
+#~ msgid "Resource: either an existing Item or Item Set in the Omeka S install."
+#~ msgstr "Resource : contenu ou collection existant dans cette instance Omeka S."
+
+#~ msgid ""
+#~ "Additional options may be added by "
+#~ "modules, such as [Numeric Data "
+#~ "Types](../modules/numericdatatypes.md) and [Value "
+#~ "Suggest](../modules/valuesuggest.md)."
+#~ msgstr ""
+#~ "Des options supplémentaires peuvent être "
+#~ "ajoutées via des modules comme [Numeric"
+#~ " Data Types](../modules/numericdatatypes.md) et "
+#~ "[Value Suggest](../modules/valuesuggest.md)."
+
+#~ msgid ""
+#~ "![The data types field with two "
+#~ "types shown: numeric timestamp and "
+#~ "text.](contentfiles/templates_multiType.png)"
+#~ msgstr ""
+#~ "![Le champ des types de données "
+#~ "avec deux types "
+#~ "sélectionnés.](contentfiles/templates_multiType.png)"
+
+#~ msgid ""
+#~ "Once you have created a resource "
+#~ "template, you can edit it at any"
+#~ " time by clicking the edit icon "
+#~ "in the table of resource templates, "
+#~ "or by clicking Edit in the upper"
+#~ " right hand corner when viewing a "
+#~ "resource template."
+#~ msgstr ""
+#~ "Une fois le modèle de ressource "
+#~ "créé, vous pouvez le modifier à "
+#~ "tout moment en cliquant sur l'icône "
+#~ "de modification dans le tableau des "
+#~ "modèles, ou en cliquant sur le "
+#~ "bouton \"Modifier ce modèle de "
+#~ "ressource\" une fois sur la page "
+#~ "du modèle (dans le coin supérieur "
+#~ "droit)."
+
+#~ msgid ""
+#~ "Click the ellipsis next to the "
+#~ "original label to open a draw "
+#~ "displaying the property's vocabulary, term,"
+#~ " and original comment."
+#~ msgstr ""
+#~ "Cliquer sur les points de suspension "
+#~ "à côté du libellé d'origine ouvre "
+#~ "un volet montrant le vocabulaire de "
+#~ "la propriété, le vocable correspondant "
+#~ "et le commentaire d'origine."
+

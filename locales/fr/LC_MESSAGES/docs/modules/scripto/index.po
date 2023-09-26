@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Omeka S end user manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-01 13:48+0000\n"
+"POT-Creation-Date: 2023-09-26 15:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,6 +126,12 @@ msgid ""
 " in red](../modulesfiles/scripto-configure.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/index.md:31
+msgid ""
+"Scripto module configuration page, with the field empty and highlighted "
+"in red"
+msgstr ""
+
 #: ../../docs/modules/scripto/index.md:33
 msgid ""
 "Enter the url for your [MediaWiki API "
@@ -202,6 +208,10 @@ msgid ""
 "/scripto-dash-login.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/index.md:54
+msgid "Scripto dashboard header and log in fields"
+msgstr ""
+
 #: ../../docs/modules/scripto/index.md:56
 msgid "Once you are logged in, the dashboard will include:"
 msgstr ""
@@ -239,6 +249,12 @@ msgid ""
 "contributions.](../../modules/modulesfiles/scripto_dash.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/index.md:64
+msgid ""
+"Scripto dashboard with three projects, two of which the user reviews, and"
+" a series of recent contributions."
+msgstr ""
+
 #: ../../docs/modules/scripto/index.md:66
 msgid ""
 "From the dropdown in the upper right, Omeka S global and site admins can:"
@@ -251,6 +267,12 @@ msgstr ""
 msgid ""
 "![Dropdown showing the options to browse projects, add a project, or "
 "browse users](../../modules/modulesfiles/scripto-dash-actions.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/index.md:68
+msgid ""
+"Dropdown showing the options to browse projects, add a project, or browse"
+" users"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:70
@@ -303,6 +325,10 @@ msgid ""
 "admin](../../modules/modulesfiles/scripto-browseUsers.png)"
 msgstr ""
 
+#: ../../docs/modules/scripto/index.md:82
+msgid "Browse users table with two users, one regular and one admin"
+msgstr ""
+
 #: ../../docs/modules/scripto/index.md:84
 msgid "The users are displayed in a table listing their:"
 msgstr ""
@@ -337,6 +363,10 @@ msgstr ""
 msgid ""
 "![Contributions of the user DemoUser - one edit dated 15 October "
 "2019](../../modules/modulesfiles/scripto-user-contributions.png)"
+msgstr ""
+
+#: ../../docs/modules/scripto/index.md:94
+msgid "Contributions of the user DemoUser - one edit dated 15 October 2019"
 msgstr ""
 
 #: ../../docs/modules/scripto/index.md:96
