@@ -52,7 +52,6 @@ msgstr ""
 "site](../sites/sitesfiles/sites_admin.fr.png)"
 
 #: ../../docs/sites/index.md:7
-#, fuzzy
 msgid ""
 "Manage sites view, showing Sites button link on the left, the Add New "
 "button, and the table of sites with eight sites listed"
@@ -134,7 +133,6 @@ msgstr ""
 "views.](../sites/sitesfiles/sites_quickshow.fr.png)"
 
 #: ../../docs/sites/index.md:21
-#, fuzzy
 msgid ""
 "show page for the site \"What Does This Look Like\" indicating that the "
 "theme is default and the slug is public views."
@@ -206,7 +204,6 @@ msgstr ""
 "saisie](../sites/sitesfiles/sitesadd_admin.fr.png)"
 
 #: ../../docs/sites/index.md:35
-#, fuzzy
 msgid "Admin tab for a new site with nothing entered"
 msgstr ""
 "![Onglet administration pour un nouveau site sans aucune "
@@ -217,7 +214,6 @@ msgid "Theme tab"
 msgstr "L'onglet Thème"
 
 #: ../../docs/sites/index.md:38
-#, fuzzy
 msgid ""
 "Select from the [installed themes](site_theme.md). Each theme appears as "
 "a tile with a screenshot of the theme, the theme name, and a link to its "
@@ -239,14 +235,12 @@ msgstr ""
 "sélectionné](../sites/sitesfiles/sitesadd_theme.fr.png)"
 
 #: ../../docs/sites/index.md:40
-#, fuzzy
 msgid "Theme tab with default theme selected"
 msgstr ""
 "![L'onglet Thème avec le thème par défaut "
 "sélectionné](../sites/sitesfiles/sitesadd_theme.fr.png)"
 
 #: ../../docs/sites/index.md:42
-#, fuzzy
 msgid "Publication"
 msgstr "Paramètres de publication"
 
@@ -282,14 +276,12 @@ msgstr ""
 "oblique](../content/contentfiles/item_private.fr.png) Privé"
 
 #: ../../docs/sites/index.md:47
-#, fuzzy
 msgid "make private button showing an eye icon with a diagonal slash through it"
 msgstr ""
 "![bouton rendre privé montrant une icône d'œil traversé par une barre "
 "oblique](../content/contentfiles/item_private.fr.png) Privé"
 
 #: ../../docs/sites/index.md:49
-#, fuzzy
 msgid ""
 "Sites are created as public by default. You will probably want to make "
 "the site private until you have finished configuring it and added some "
@@ -299,7 +291,6 @@ msgstr ""
 "contenu."
 
 #: ../../docs/sites/index.md:51
-#, fuzzy
 msgid ""
 "When you are ready, click the \"Add\" button in the upper right corner. "
 "You cannot save a draft site, but you can make the site private while you"
@@ -319,7 +310,6 @@ msgstr ""
 "\"Annuler\" dans le coin supérieur droit, à côté du bouton \"Ajouter\"."
 
 #: ../../docs/sites/index.md:55
-#, fuzzy
 msgid "Managing sites"
 msgstr "Gérer un site"
 
@@ -342,7 +332,6 @@ msgstr ""
 "menu contextuel pour ce site dans la navigation à gauche."
 
 #: ../../docs/sites/index.md:60
-#, fuzzy
 msgid ""
 "The context menu for every site has the site title at the top, with an "
 "icon of a computer (the site icon) to the left. To the right of the site "
@@ -364,7 +353,6 @@ msgstr ""
 "installés](../sites/sitesfiles/sites_menu.fr.png)"
 
 #: ../../docs/sites/index.md:62
-#, fuzzy
 msgid "Context menu for the site \"Mysteries\", with two modules installed"
 msgstr ""
 "![Menu contextuel pour le site Jane Austen, avec deux modules "
