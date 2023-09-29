@@ -156,8 +156,7 @@ msgstr ""
 #: ../../docs/sites/index.md:26
 msgid "The \"New site\" page has two tabs: **Info** and **Theme**."
 msgstr ""
-"La page « Ajouter un nouveau site » a deux onglets: **Info** et ** "
-"Thème**."
+"La page « Ajouter un nouveau site » a deux onglets: **Info** et **Thème**."
 
 #: ../../docs/sites/index.md:28
 msgid "Info tab"
