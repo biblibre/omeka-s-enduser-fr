@@ -362,32 +362,26 @@ msgid "Site admin left hand navigation options are:"
 msgstr "Les options de navigation dans l'administration du site sont :"
 
 #: ../../docs/sites/index.md:66
-#, fuzzy
 msgid "[Site admin](../sites/site_settings.md)"
 msgstr "[Administration du site](../sites/site_settings.md),"
 
 #: ../../docs/sites/index.md:67
-#, fuzzy
 msgid "[Pages](../sites/site_pages.md)"
 msgstr "[Pages](../sites/site_pages.md),"
 
 #: ../../docs/sites/index.md:68
-#, fuzzy
 msgid "[Navigation](../sites/site_navigation.md)"
 msgstr "[Navigation](../sites/site_navigation.md),"
 
 #: ../../docs/sites/index.md:69
-#, fuzzy
 msgid "[Resources](../sites/site_resources.md)"
 msgstr "[Ressources](../sites/site_resources.md),"
 
 #: ../../docs/sites/index.md:70
-#, fuzzy
 msgid "[User permissions](../sites/site_users.md)"
 msgstr "[Droits des utilisateurs](../sites/site_users.md),"
 
 #: ../../docs/sites/index.md:71
-#, fuzzy
 msgid "[Theme](../sites/site_theme.md)"
 msgstr "[Thème](../sites/site_theme.md), et"
 
