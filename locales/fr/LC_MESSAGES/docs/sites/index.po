@@ -144,7 +144,6 @@ msgstr ""
 "views.](../sites/sitesfiles/sites_quickshow.fr.png)"
 
 #: ../../docs/sites/index.md:23
-#, fuzzy
 msgid "Adding sites"
 msgstr "Ajouter un site"
 
